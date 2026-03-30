@@ -1,0 +1,101 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Fortune 500 ESG Knowledge Graph</title>
+          <link rel="stylesheet" href="../assets/css/site.css">
+        </head>
+        <body>
+          <div class="shell">
+            <div class="topbar">
+              <div class="brand">Fortune 500 ESG Knowledge Graph</div>
+              <div class="nav">
+                <a class="pill" href="../index.html">Home</a>
+                <a class="pill" href="./index.html">English</a>
+                <a class="pill" href="../zh/index.html">中文</a>
+              </div>
+            </div>
+
+            <section class="hero">
+              <div class="eyebrow">ESG Knowledge Graph</div>
+              <h1>Fortune 500 ESG Knowledge Graph</h1>
+              <p>I built this demo site from Fortune 500 public reports to present an ESG knowledge graph focused on carbon emissions and decarbonization pathways.</p>
+              <p>Here I use a more direct visual form to show the relationships among ESG disclosure, emissions structure, technology routes, and decarbonization outcomes.</p>
+              <p>The current page presents a 10-report demonstration sample to show the structure, dimensions, and visual expression of the graph.</p>
+              <div class="actions">
+                <a class="btn alt" href="#visuals">View Visuals</a>
+                <a class="btn" href="#logic">View Graph Logic</a>
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="section-head">
+                <h2>Key Metrics</h2>
+                <p>These metrics summarize the current demonstration sample and graph scale.</p>
+              </div>
+              <div class="metric-grid">
+                <div class="metric"><h3>Reports processed</h3><strong>10</strong></div>
+<div class="metric"><h3>Reports matched</h3><strong>10</strong></div>
+<div class="metric"><h3>OCR pages</h3><strong>254</strong></div>
+<div class="metric"><h3>Graph nodes</h3><strong>167</strong></div>
+<div class="metric"><h3>Graph edges</h3><strong>349</strong></div>
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="section-head">
+                <h2>What I Focus On</h2>
+                <p>I focus on the core report information related to emissions, technologies, pathways, cost, and abatement effects.</p>
+              </div>
+              <div class="card-grid">
+                <div class="card"><p>ESG reports and disclosure standards</p></div>
+<div class="card"><p>Total emissions and Scope 1, 2, 3 structure</p></div>
+<div class="card"><p>Decarbonization pathways and technology types</p></div>
+<div class="card"><p>Abatement effects, investment, and cost information</p></div>
+<div class="card"><p>Cross-company comparison relationships</p></div>
+              </div>
+            </section>
+
+            <section class="section" id="visuals">
+              <div class="section-head">
+                <h2>Core Visuals</h2>
+                <p>The visuals below are the core views I use to show the graph structure and sample characteristics.</p>
+              </div>
+              <div class="card-grid">
+                <div class="card figure-card"><img src="../assets/figures/en/kg_overview.png" alt="Graph Overview"><div class="figure-meta"><div><strong>Graph Overview</strong><p>Shows the structural relationships among companies, reports, standards, emissions, targets, technologies, and decarbonization pathways.</p></div><span class="tag">PNG</span></div></div>
+<div class="card figure-card"><img src="../assets/figures/en/scope_distribution.png" alt="Scope Distribution"><div class="figure-meta"><div><strong>Scope Distribution</strong><p>Shows how companies differ across Scope 1, 2, and 3 emissions structure.</p></div><span class="tag">PNG</span></div></div>
+<div class="card figure-card"><img src="../assets/figures/en/company_technology_network.png" alt="Company-Technology Network"><div class="figure-meta"><div><strong>Company-Technology Network</strong><p>Maps the relationship between companies and low-carbon technology categories.</p></div><span class="tag">PNG</span></div></div>
+<div class="card figure-card"><img src="../assets/figures/en/disclosure_coverage.png" alt="Disclosure Coverage"><div class="figure-meta"><div><strong>Disclosure Coverage</strong><p>Shows which key fact dimensions are already captured reliably in the sample.</p></div><span class="tag">PNG</span></div></div>
+<div class="card figure-card"><img src="../assets/figures/en/ingestion_operations.png" alt="Sample Processing Overview"><div class="figure-meta"><div><strong>Sample Processing Overview</strong><p>Shows processing scale and page-level extraction status for the current demo batch.</p></div><span class="tag">PNG</span></div></div>
+              </div>
+            </section>
+
+            <section class="section" id="logic">
+              <div class="section-head">
+                <h2>Graph Structure</h2>
+                <p>To keep the structure clear and scientifically reliable, I separate concept entities, fact entities, and relation types.</p>
+              </div>
+              <div class="card-grid">
+                <div class="card"><p>I treat companies, standards, scopes, pathways, and technologies as relatively stable concept-layer entities.</p></div>
+<div class="card"><p>I treat reports, emission records, targets, and impact metrics as report-scoped fact-layer entities so different years do not overwrite each other.</p></div>
+<div class="card"><p>Emission nodes are separated by report, entity, and scope so time-specific disclosures remain traceable.</p></div>
+<div class="card"><p>The graph is designed not only to connect entities, but also to preserve structured meaning about what a company disclosed and which pathways or technologies it referenced.</p></div>
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="section-head">
+                <h2>Disclosure Patterns</h2>
+                <p>This section shows the current sample distribution in scope completeness and cost disclosure.</p>
+              </div>
+              <div class="two-col">
+                <div class="card"><h3>Scope Data Status</h3><table><tr><th>Metric</th><th>Value</th></tr><tr><td>Company-level Scope 1/2/3 absolute data</td><td>6</td></tr><tr><td>Company-level data with derived values</td><td>1</td></tr><tr><td>Total disclosed without robust scope split</td><td>1</td></tr><tr><td>Business-unit level disclosure is richer</td><td>1</td></tr><tr><td>Only shares disclosed, no absolute values</td><td>1</td></tr></table></div>
+                <div class="card"><h3>Cost Disclosure Status</h3><table><tr><th>Metric</th><th>Value</th></tr><tr><td>Cost or investment quantified</td><td>3</td></tr><tr><td>Only qualitative cost disclosure</td><td>7</td></tr></table></div>
+              </div>
+            </section>
+
+            <div class="footer">This site presents my demonstration ESG knowledge graph built from public corporate reports.</div>
+          </div>
+        </body>
+        </html>
