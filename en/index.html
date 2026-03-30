@@ -68,31 +68,17 @@
               </div>
             </section>
 
-            <section class="section">
-              <div class="section-head">
-                <h2>Tabular Results</h2>
-                <p>Alongside the visuals, I also present readable summary tables.</p>
-              </div>
-              <div class="two-col">
-                <div class="card"><h3>Sample and Graph Overview</h3><table><tr><th>Metric</th><th>Value</th></tr><tr><td>Reports processed</td><td>10</td></tr><tr><td>Reports matched</td><td>10</td></tr><tr><td>Pages using OCR</td><td>254</td></tr><tr><td>Graph nodes</td><td>167</td></tr><tr><td>Graph edges</td><td>349</td></tr></table></div>
-                <div class="card"><h3>Scope Data Status</h3><table><tr><th>Metric</th><th>Value</th></tr><tr><td>Company-level Scope 1/2/3 absolute data</td><td>6</td></tr><tr><td>Company-level data with derived values</td><td>1</td></tr><tr><td>Total disclosed without robust scope split</td><td>1</td></tr><tr><td>Business-unit level disclosure is richer</td><td>1</td></tr><tr><td>Only shares disclosed, no absolute values</td><td>1</td></tr></table></div>
-              </div>
-              <div class="two-col" style="margin-top:18px;">
-                <div class="card"><h3>Cost Disclosure Status</h3><table><tr><th>Metric</th><th>Value</th></tr><tr><td>Cost or investment quantified</td><td>3</td></tr><tr><td>Only qualitative cost disclosure</td><td>7</td></tr></table></div>
-              </div>
-            </section>
-
             <section class="section" id="visuals">
               <div class="section-head">
                 <h2>Core Visuals</h2>
-                <p>These visuals present the graph structure and sample characteristics. Each figure can be enlarged with one click.</p>
+                <p>These visuals present the graph structure and sample characteristics. Each figure can be enlarged by clicking the image or the button.</p>
               </div>
-              <div class="card-grid">
-                <div class="card figure-card"><img src="../assets/figures/en/kg_overview.png" alt="Graph Overview"><div class="figure-meta"><div><strong>Graph Overview</strong><p>Shows the structural relationships among companies, reports, standards, emissions, targets, technologies, and decarbonization pathways.</p></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/kg_overview.png" data-lightbox-title="Graph Overview">View Large</button></div></div>
-<div class="card figure-card"><img src="../assets/figures/en/scope_distribution.png" alt="Scope Distribution"><div class="figure-meta"><div><strong>Scope Distribution</strong><p>Shows how companies differ across Scope 1, 2, and 3 emissions structure.</p></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/scope_distribution.png" data-lightbox-title="Scope Distribution">View Large</button></div></div>
-<div class="card figure-card"><img src="../assets/figures/en/company_technology_network.png" alt="Company-Technology Network"><div class="figure-meta"><div><strong>Company-Technology Network</strong><p>Maps the relationship between companies and low-carbon technology categories.</p></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/company_technology_network.png" data-lightbox-title="Company-Technology Network">View Large</button></div></div>
-<div class="card figure-card"><img src="../assets/figures/en/disclosure_coverage.png" alt="Disclosure Coverage"><div class="figure-meta"><div><strong>Disclosure Coverage</strong><p>Shows which key fact dimensions are already captured reliably in the sample.</p></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/disclosure_coverage.png" data-lightbox-title="Disclosure Coverage">View Large</button></div></div>
-<div class="card figure-card"><img src="../assets/figures/en/ingestion_operations.png" alt="Sample Processing Overview"><div class="figure-meta"><div><strong>Sample Processing Overview</strong><p>Shows processing scale and page-level extraction status for the current demo batch.</p></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/ingestion_operations.png" data-lightbox-title="Sample Processing Overview">View Large</button></div></div>
+              <div class="visual-list">
+                <div class="card visual-block"><div class="visual-top"><img class="visual-figure figure-image-trigger" src="../assets/figures/en/kg_overview.png" alt="Graph Overview" data-lightbox-src="../assets/figures/en/kg_overview.png" data-lightbox-title="Graph Overview" tabindex="0"><div class="visual-side"><h3>Graph Overview</h3><p>Shows the structural relationships among companies, reports, standards, emissions, targets, technologies, and decarbonization pathways.</p><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/kg_overview.png" data-lightbox-title="Graph Overview">View Large</button></div></div></div><div class="visual-support"><div class="card table-card"><h3>Graph Entity Types and Node Scale</h3><div class="table-wrap"><table><tr><th>Entity type</th><th>Node count</th></tr><tr><td>Company</td><td>10</td></tr><tr><td>Report</td><td>10</td></tr><tr><td>Standard</td><td>14</td></tr><tr><td>Emission record</td><td>27</td></tr><tr><td>Target</td><td>27</td></tr><tr><td>Pathway</td><td>26</td></tr><tr><td>Technology</td><td>29</td></tr><tr><td>Impact metric</td><td>13</td></tr></table></div></div></div></div>
+<div class="card visual-block"><div class="visual-top"><img class="visual-figure figure-image-trigger" src="../assets/figures/en/scope_distribution.png" alt="Scope Distribution" data-lightbox-src="../assets/figures/en/scope_distribution.png" data-lightbox-title="Scope Distribution" tabindex="0"><div class="visual-side"><h3>Scope Distribution</h3><p>Shows how companies differ across Scope 1, 2, and 3 emissions structure.</p><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/scope_distribution.png" data-lightbox-title="Scope Distribution">View Large</button></div></div></div><div class="visual-support"><div class="card table-card"><h3>Scope Emissions Fact Extract</h3><div class="table-wrap"><table><tr><th>Reporting entity</th><th>Inventory year</th><th>Scope</th><th>Emission (MtCO2e)</th><th>Share (%)</th></tr><tr><td>Amazon</td><td>2024</td><td>Scope 1</td><td>15.13</td><td>22.17</td></tr><tr><td>Amazon</td><td>2024</td><td>Scope 2</td><td>2.8</td><td>4.1</td></tr><tr><td>Amazon</td><td>2024</td><td>Scope 3</td><td>50.32</td><td>73.73</td></tr><tr><td>Apple</td><td>2024</td><td>Scope 1</td><td>0.06371</td><td>0.42</td></tr><tr><td>Apple</td><td>2024</td><td>Scope 2</td><td>0.0033</td><td>0.02</td></tr></table></div></div></div></div>
+<div class="card visual-block"><div class="visual-top"><img class="visual-figure figure-image-trigger" src="../assets/figures/en/company_technology_network.png" alt="Company-Technology Network" data-lightbox-src="../assets/figures/en/company_technology_network.png" data-lightbox-title="Company-Technology Network" tabindex="0"><div class="visual-side"><h3>Company-Technology Network</h3><p>Maps the relationship between companies and low-carbon technology categories.</p><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/company_technology_network.png" data-lightbox-title="Company-Technology Network">View Large</button></div></div></div><div class="visual-support"><div class="card table-card"><h3>Technology and Pathway Identification Results</h3><div class="table-wrap"><table><tr><th>Analytical dimension</th><th>Technology/Pathway class</th><th>Sample mentions</th></tr><tr><td>Technology</td><td>Solar and wind power</td><td>2</td></tr><tr><td>Technology</td><td>Lower-carbon steel and concrete</td><td>1</td></tr><tr><td>Technology</td><td>Electric freight and micromobility</td><td>1</td></tr><tr><td>Technology</td><td>Circular materials</td><td>1</td></tr><tr><td>Technology</td><td>Carbon removal</td><td>1</td></tr><tr><td>Pathway</td><td>Renewable electricity</td><td>3</td></tr><tr><td>Pathway</td><td>Carbon removal</td><td>2</td></tr><tr><td>Pathway</td><td>Supply-chain decarbonization</td><td>2</td></tr><tr><td>Pathway</td><td>Supply-chain engagement</td><td>1</td></tr><tr><td>Pathway</td><td>Low-carbon materials</td><td>1</td></tr></table></div></div></div></div>
+<div class="card visual-block"><div class="visual-top"><img class="visual-figure figure-image-trigger" src="../assets/figures/en/disclosure_coverage.png" alt="Disclosure Coverage" data-lightbox-src="../assets/figures/en/disclosure_coverage.png" data-lightbox-title="Disclosure Coverage" tabindex="0"><div class="visual-side"><h3>Disclosure Coverage</h3><p>Shows which key fact dimensions are already captured reliably in the sample.</p><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/disclosure_coverage.png" data-lightbox-title="Disclosure Coverage">View Large</button></div></div></div><div class="visual-support"><div class="card table-card"><h3>Disclosure Standards and Accounting Framework Coverage</h3><div class="table-wrap"><table><tr><th>Disclosure standard/framework</th><th>Reports covered</th></tr><tr><td>GHG Protocol</td><td>10</td></tr><tr><td>GRI</td><td>7</td></tr><tr><td>TCFD</td><td>3</td></tr><tr><td>SASB</td><td>2</td></tr><tr><td>ISO 14064-3</td><td>2</td></tr><tr><td>ISO 14067</td><td>2</td></tr><tr><td>ISO 14040/14044</td><td>2</td></tr><tr><td>ESRS/CSRD</td><td>2</td></tr></table></div></div></div></div>
+<div class="card visual-block"><div class="visual-top"><img class="visual-figure figure-image-trigger" src="../assets/figures/en/ingestion_operations.png" alt="Sample Processing Overview" data-lightbox-src="../assets/figures/en/ingestion_operations.png" data-lightbox-title="Sample Processing Overview" tabindex="0"><div class="visual-side"><h3>Sample Processing Overview</h3><p>Shows processing scale and page-level extraction status for the current demo batch.</p><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/en/ingestion_operations.png" data-lightbox-title="Sample Processing Overview">View Large</button></div></div></div><div class="visual-support"><div class="card table-card"><h3>Sample Report Master Data Extract</h3><div class="table-wrap"><table><tr><th>Company</th><th>Report year</th><th>Disclosure vehicle</th><th>Page count</th><th>Scope disclosure maturity</th></tr><tr><td>Amazon</td><td>2024</td><td>Sustainability report</td><td>57</td><td>company_level_absolute</td></tr><tr><td>Apple</td><td>2025</td><td>Environmental progress report</td><td>126</td><td>company_level_absolute_with_derivation</td></tr><tr><td>BYD</td><td>2024</td><td>Sustainability report</td><td>155</td><td>company_level_absolute</td></tr><tr><td>Costco Wholesale</td><td>2024</td><td>Climate action plan</td><td>15</td><td>total_only_no_breakdown</td></tr><tr><td>Geely Holding Group</td><td>2024</td><td>Sustainability report</td><td>101</td><td>business_unit_only</td></tr></table></div></div></div></div>
               </div>
             </section>
 
@@ -135,15 +121,27 @@
     image.setAttribute('src', '');
     image.setAttribute('alt', '');
     caption.textContent = '';
+    document.body.style.overflow = '';
   }
 
-  triggers.forEach((button) => {
-    button.addEventListener('click', () => {
-      image.setAttribute('src', button.getAttribute('data-lightbox-src'));
-      image.setAttribute('alt', button.getAttribute('data-lightbox-title') || '');
-      caption.textContent = button.getAttribute('data-lightbox-title') || '';
+  function openLightbox(trigger) {
+      image.setAttribute('src', trigger.getAttribute('data-lightbox-src'));
+      image.setAttribute('alt', trigger.getAttribute('data-lightbox-title') || '');
+      caption.textContent = trigger.getAttribute('data-lightbox-title') || '';
       lightbox.classList.add('open');
       lightbox.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+  }
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      openLightbox(trigger);
+    });
+    trigger.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openLightbox(trigger);
+      }
     });
   });
 
