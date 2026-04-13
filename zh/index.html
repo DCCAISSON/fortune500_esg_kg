@@ -1,4 +1,4 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
         <html lang="zh">
         <head>
           <meta charset="UTF-8">
@@ -20,84 +20,358 @@
             <section class="hero">
               <div class="eyebrow">ESG Knowledge Graph</div>
               <h1>世界500强 ESG 知识图谱</h1>
-              <p>我基于世界500强企业公开报告，构建了一个聚焦 ESG、碳排放与减碳路径的知识图谱示范站点。</p>
-              <p>在这里，我希望用更直观的方式呈现企业 ESG 披露、排放结构、技术路线与减碳成效之间的关系。</p>
-              <p>当前页面展示的是一个 10 份报告的示范样本，用于说明这套知识图谱的结构、维度和可视化表达方式。</p>
-              <div class="actions">
-                <a class="btn alt" href="#visuals">查看可视化</a>
-                <a class="btn" href="#logic">查看图谱结构</a>
+              <p>我基于世界500强企业公开年报、可持续发展报告与碳相关披露文件，构建了这套 ESG 知识图谱展示站点。当前公开页在保留原 10 份 demo 成果的基础上，优先展示“标准与准则维度”与“排放方法与数据质量维度”两条主轴。</p>
+              <p>站点仅发布结构化结果、图谱文件、图表和可下载内容，不公开项目源码与对话过程。500 份正式推进版在独立批处理管线中持续扩展。</p>
+              <div class="downloads">
+                <a class="btn alt" href="../assets/data/graph/fortune500_esg_kg.graphml">下载 GraphML</a>
+                <a class="btn alt" href="../assets/data/graph/nodes.csv">下载 nodes.csv</a>
+                <a class="btn alt" href="../assets/data/graph/edges.csv">下载 edges.csv</a>
               </div>
             </section>
 
             <section class="section">
               <div class="section-head">
-                <h2>核心指标</h2>
-                <p>这些指标对应当前示范样本的处理规模与图谱规模。</p>
+                <h2>首页优先展示的两条主轴</h2>
+              </div>
+              <div class="grid-2">
+                <div class="card"><h3>标准与准则维度</h3><p>识别企业遵循的是 GHG、ISO、GB/T、GRI、TCFD、IFRS S2、ESRS/CSRD 等哪一类体系，并细化到 standard、guideline、principle、核查/鉴证标准、目标审定指引等角色。</p></div>
+                <div class="card"><h3>排放方法与数据质量维度</h3><p>识别初级数据、次级数据、估算/推导、报告披露、核查、鉴证、审定，以及固定源、移动源、散逸性排放、过程排放、外购电力与 Scope 3 类别等方法学信息。</p></div>
+              </div>
+            </section>
+
+
+        <section class="section">
+          <div class="section-head">
+            <h2>未匹配诊断与人工复核</h2>
+            <p>该模块展示当前开放未决匹配的诊断分布，以及“仅发现子公司/关联主体文件”场景下的二级人工复核结构。前者用于解释为什么当前不能硬配母公司主报告，后者用于区分“上市子公司报告”与“集团关联经营主体报告”。</p>
+          </div>
+          <div class="metric-grid">
+            <div class="metric"><h3>开放未决匹配</h3><strong>171</strong></div><div class="metric"><h3>库内无母公司主报告</h3><strong>165</strong></div><div class="metric"><h3>仅发现关联主体文件</h3><strong>6</strong></div><div class="metric"><h3>上市子公司报告</h3><strong>5</strong></div><div class="metric"><h3>集团关联经营主体报告</h3><strong>1</strong></div>
+          </div>
+          <div class="review-brief-grid" style="margin-top:16px;">
+            <article class="card review-brief-card">
+          <h3>未匹配诊断分布</h3>
+          <p class="review-summary">当前未决匹配主要集中在“库内无母公司主报告”，说明未匹配问题首先是原始语料缺口，而不是简单别名错误。</p>
+          <div class="review-list">
+            <div class="review-list-item" style="--review-tone:#6f5bd3;">
+  <div class="review-list-top">
+    <span class="review-badge">疑似别名未识别</span>
+    <span class="review-count">0</span>
+  </div>
+  <p>已定位到主体一致文件，可直接进入 override 写回与匹配确认。</p>
+  <div class="review-bar"><span style="width:0.0%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#2f6f63;">
+  <div class="review-list-top">
+    <span class="review-badge">仅发现子公司/关联主体文件</span>
+    <span class="review-count">6</span>
+  </div>
+  <p>仅找到集团体系内其他主体文件，当前不能直接挂靠到母公司名下。</p>
+  <div class="review-bar"><span style="width:3.5%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#c76b2d;">
+  <div class="review-list-top">
+    <span class="review-badge">仅发现附录/非主报告</span>
+    <span class="review-count">0</span>
+  </div>
+  <p>当前仅找到附录、数据包或非主报告文件，仍缺母公司主报告。</p>
+  <div class="review-bar"><span style="width:0.0%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#9b3d2f;">
+  <div class="review-list-top">
+    <span class="review-badge">库内无母公司主报告</span>
+    <span class="review-count">165</span>
+  </div>
+  <p>在现有库存中未定位到可安全归属于母公司的主报告文件。</p>
+  <div class="review-bar"><span style="width:96.5%;"></span></div>
+</div>
+          </div>
+        </article>
+            <article class="card review-brief-card">
+          <h3>关联主体人工复核二级结构</h3>
+          <p class="review-summary">关联主体场景以“上市子公司报告”为主，这类文件可作为体系内辅助证据，但不能直接替代母公司主报告进入主图谱。</p>
+          <div class="review-list">
+            <div class="review-list-item" style="--review-tone:#2f6f63;">
+  <div class="review-list-top">
+    <span class="review-badge">上市子公司报告</span>
+    <span class="review-count">5</span>
+  </div>
+  <p>证据文件主体是集团下属上市平台，原则上只可作为关联证据，不直接替代母公司主报告。</p>
+  <div class="review-bar"><span style="width:83.3%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#375a7f;">
+  <div class="review-list-top">
+    <span class="review-badge">集团关联经营主体报告</span>
+    <span class="review-count">1</span>
+  </div>
+  <p>证据文件主体更接近集团体系下经营主体，需要继续核查是否存在母公司层面的正式报告。</p>
+  <div class="review-bar"><span style="width:16.7%;"></span></div>
+</div>
+          </div>
+        </article>
+          </div>
+          <div style="margin-top:16px;">
+            <div class="card">
+          <div class="review-cases-head">
+            <h3>关联主体人工复核清单</h3>
+            <p>以下卡片逐条展示当前 6 条“仅发现子公司/关联主体文件”案例，便于在汇报中直观看到为什么这些文件不能直接替代母公司主报告。</p>
+          </div>
+          <div class="review-case-grid">
+            <article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #170</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>陕西煤业化工集团有限责任公司</h3>
+  <p class="review-case-subtitle">库内仅发现“陕西煤业股份有限公司”年度报告，属于集团下属上市主体材料，不能直接等同于“陕西煤业化工集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>陕西煤业股份有限公司2024 年年度报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“陕西煤业股份有限公司”，属于集团下属上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #173</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>中国保利集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“保利发展”可持续发展报告，属于保利体系关联上市主体，不能直接作为“中国保利集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>2024-保利发展可持续发展报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“保利发展”，属于保利体系上市平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #429</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>海亮集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“海亮股份”ESG 报告，属于上市子公司材料，不能直接等同于“海亮集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>海亮股份：2024年度环境、社会及公司治理（ESG）报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“海亮股份”，属于集团下属上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #470</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>首钢集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“首钢股份”可持续发展报告，属于集团下属上市主体材料，不能直接等同于“首钢集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>2024首钢股份可持续发展报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“首钢股份”，属于集团下属上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #475</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>湖南钢铁集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“湖南华菱钢铁股份有限公司”可持续发展报告，属于集团体系下上市主体材料，不能直接等同于“湖南钢铁集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>000932_华菱钢铁_2025-03-22_华菱钢铁：湖南华菱钢铁股份有限公司2024年度可持续发展报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“湖南华菱钢铁股份有限公司”，属于集团体系下上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#375a7f;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #385</span>
+    <span class="review-case-type" style="background:#375a7f1a;color:#375a7f;">集团关联经营主体报告</span>
+  </div>
+  <h3>奇瑞控股集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅见“奇瑞汽车”ESG 报告，属于奇瑞体系经营主体材料，不能直接等同于“奇瑞控股集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>2024年奇瑞汽车esg报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“奇瑞汽车”，更接近集团体系下的经营主体材料，而非明确母公司报告。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article>
+          </div>
+        </div>
+          </div>
+          <div class="card" style="margin-top:16px;">
+            <div class="review-cases-head">
+              <h3>附录与复核底表</h3>
+              <p>如需在正式汇报后继续追溯诊断明细、人工复核清单与 Excel 台账，可从这里直接下载。</p>
+            </div>
+            <div class="downloads">
+              <a class="btn alt" href="../assets/data/review/world500_unmatched_diagnosis.csv">下载未匹配诊断 CSV</a><a class="btn alt" href="../assets/downloads/world500_unmatched_diagnosis.xlsx">下载未匹配诊断 Excel</a><a class="btn alt" href="../assets/data/review/world500_affiliate_only_review_list.csv">下载关联主体复核 CSV</a><a class="btn alt" href="../assets/downloads/world500_affiliate_only_review_list.xlsx">下载关联主体复核 Excel</a>
+            </div>
+          </div>
+        </section>
+
+
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 03 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 03 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 03 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 03 图谱节点</h3><strong>1,385</strong></div><div class="metric"><h3>Batch 03 图谱关系</h3><strong>5,193</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_03_kg.graphml">下载 Batch 03 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_03_nodes.csv">下载 Batch 03 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_03_edges.csv">下载 Batch 03 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_03_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_03_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_03_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 03 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>Uniper公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>6</td></tr><tr><td>Uniper公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>21</td></tr><tr><td>Uniper公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>21</td></tr><tr><td>Uniper公司</td><td>IFRS S2</td><td>气候披露标准</td><td>披露标准</td><td>企业整体披露</td><td></td><td>21</td></tr><tr><td>Uniper公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>30</td></tr><tr><td>安联保险集团</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>8</td></tr><tr><td>安联保险集团</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>75</td></tr><tr><td>安联保险集团</td><td>PCAF</td><td>投融资排放核算体系</td><td>核算标准</td><td>范围3</td><td></td><td>76</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 03 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>Equinor公司</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>119</td></tr><tr><td>三井物产株式会社</td><td>范围1</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>128</td></tr><tr><td>三井物产株式会社</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>128</td></tr><tr><td>Engie集团</td><td>范围2</td><td>次级数据</td><td>报告披露</td><td></td><td></td><td>121</td></tr><tr><td>安联保险集团</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>84</td></tr><tr><td>安联保险集团</td><td>范围1</td><td>次级数据</td><td>报告披露</td><td>过程排放</td><td></td><td>90</td></tr><tr><td>安联保险集团</td><td></td><td>推导数据</td><td>报告披露</td><td>过程排放</td><td></td><td>316</td></tr><tr><td>Equinor公司</td><td>范围1</td><td>估算数据</td><td>报告披露</td><td>销售产品使用</td><td></td><td>115</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 03 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>Uniper公司</td><td>79</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>安联保险集团</td><td>82</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>国家能源投资集团有限责任公司</td><td>84</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>厦门建发集团有限公司</td><td>85</td><td>L</td><td>租赁和商务服务业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>信实工业公司</td><td>86</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>俄罗斯石油公司</td><td>89</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>塔吉特公司</td><td>90</td><td>L</td><td>租赁和商务服务业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>Equinor公司</td><td>91</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 02 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 02 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 02 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 02 图谱节点</h3><strong>934</strong></div><div class="metric"><h3>Batch 02 图谱关系</h3><strong>3,337</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_02_kg.graphml">下载 Batch 02 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_02_nodes.csv">下载 Batch 02 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_02_edges.csv">下载 Batch 02 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_02_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_02_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_02_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 02 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>福特汽车公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>5</td></tr><tr><td>福特汽车公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>44</td></tr><tr><td>福特汽车公司</td><td>ISO 14064</td><td>其他报告框架</td><td>指引</td><td>企业整体披露</td><td></td><td>67</td></tr><tr><td>中国银行股份有限公司</td><td>GB/T 2589-2020</td><td>国家标准体系</td><td>计量标准</td><td>范围1|范围2</td><td>GB/T 2589-2020</td><td>24</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 02 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>福特汽车公司</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>238</td></tr><tr><td>福特汽车公司</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>销售产品使用</td><td></td><td>14</td></tr><tr><td>福特汽车公司</td><td>范围2</td><td>次级数据</td><td>报告披露</td><td></td><td></td><td>192</td></tr><tr><td>福特汽车公司</td><td>范围1</td><td></td><td>报告披露</td><td>销售产品使用</td><td></td><td>193</td></tr><tr><td>福特汽车公司</td><td>范围1</td><td></td><td>报告披露</td><td>价值链活动</td><td></td><td>193</td></tr><tr><td>福特汽车公司</td><td>范围3</td><td></td><td>报告披露</td><td>销售产品使用</td><td></td><td>193</td></tr><tr><td>福特汽车公司</td><td>范围3</td><td></td><td>报告披露</td><td>价值链活动</td><td></td><td>193</td></tr><tr><td>福特汽车公司</td><td>范围1</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>193</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 02 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>福特汽车公司</td><td>36</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国银行股份有限公司</td><td>37</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>宝马集团</td><td>41</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>梅赛德斯-奔驰集团</td><td>42</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国宝武钢铁集团有限公司</td><td>44</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>花旗集团</td><td>45</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>Centene公司</td><td>46</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>京东集团股份有限公司</td><td>47</td><td>F</td><td>批发和零售业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 01 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 01 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 01 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 01 图谱节点</h3><strong>1,307</strong></div><div class="metric"><h3>Batch 01 图谱关系</h3><strong>4,866</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_01_kg.graphml">下载 Batch 01 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_01_nodes.csv">下载 Batch 01 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_01_edges.csv">下载 Batch 01 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_01_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_01_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_01_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 01 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>沃尔玛</td><td>IFRS S2</td><td>气候披露标准</td><td>披露标准</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>沃尔玛</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>7</td></tr><tr><td>沃尔玛</td><td>ISO 14064-3</td><td>ISO鉴证体系</td><td>核查与鉴证标准</td><td>范围1|范围2|范围3</td><td></td><td>7</td></tr><tr><td>沃尔玛</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>30</td></tr><tr><td>沃尔玛</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>101</td></tr><tr><td>沃尔玛</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>102</td></tr><tr><td>沙特阿美公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>2</td></tr><tr><td>沙特阿美公司</td><td>ISO 14067</td><td>ISO产品碳足迹标准</td><td>方法学标准</td><td>范围3</td><td></td><td>23</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 01 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>联合健康集团</td><td></td><td>初级数据</td><td>报告披露</td><td>商务差旅</td><td></td><td>82</td></tr><tr><td>麦克森公司</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>运营废弃物</td><td></td><td>67</td></tr><tr><td>麦克森公司</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>商务差旅</td><td></td><td>67</td></tr><tr><td>麦克森公司</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>67</td></tr><tr><td>摩根大通公司</td><td>范围1</td><td>估算数据</td><td>核查</td><td>商务差旅</td><td></td><td>27</td></tr><tr><td>摩根大通公司</td><td>范围2</td><td>估算数据</td><td>核查</td><td>商务差旅</td><td></td><td>27</td></tr><tr><td>摩根大通公司</td><td>范围3</td><td>估算数据</td><td>核查</td><td>商务差旅</td><td></td><td>27</td></tr><tr><td>嘉德诺健康集团</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>70</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 01 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>沃尔玛</td><td>1</td><td>L</td><td>租赁和商务服务业</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr><tr><td>沙特阿美公司</td><td>4</td><td>B</td><td>采矿业</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr><tr><td>苹果公司</td><td>7</td><td>C</td><td>制造业</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr><tr><td>联合健康集团</td><td>8</td><td>S</td><td>公共管理、社会保障和社会组织</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr><tr><td>CVS Health公司</td><td>10</td><td>C</td><td>制造业</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr><tr><td>大众公司</td><td>11</td><td>C</td><td>制造业</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr><tr><td>埃克森美孚</td><td>12</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr><tr><td>壳牌公司</td><td>13</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>直接采用世界500强注册表中的 GB/T 4754-2017 门类映射。</td></tr></table></div></div>
+  </div>
+</section>
+
+
+            <section class="section">
+              <div class="section-head">
+                <h2>当前 demo 结果摘要</h2>
               </div>
               <div class="metric-grid">
-                <div class="metric"><h3>已处理报告</h3><strong>10</strong></div>
-<div class="metric"><h3>已匹配报告</h3><strong>10</strong></div>
-<div class="metric"><h3>OCR 页数</h3><strong>254</strong></div>
-<div class="metric"><h3>图谱节点</h3><strong>167</strong></div>
-<div class="metric"><h3>图谱关系</h3><strong>349</strong></div>
+                <div class="metric"><h3>已处理报告</h3><strong>10</strong></div><div class="metric"><h3>触发 OCR 页数</h3><strong>254</strong></div><div class="metric"><h3>图谱节点</h3><strong>314</strong></div><div class="metric"><h3>图谱关系</h3><strong>955</strong></div><div class="metric"><h3>标准引用事实</h3><strong>37</strong></div><div class="metric"><h3>排放方法事实</h3><strong>26</strong></div>
               </div>
             </section>
 
             <section class="section">
               <div class="section-head">
-                <h2>我重点关注的内容</h2>
-                <p>我重点追踪企业报告中与排放、技术、路径、成本和减排效果相关的核心信息。</p>
-              </div>
-              <div class="card-grid">
-                <div class="card"><p>企业 ESG 报告与披露标准</p></div>
-<div class="card"><p>碳排放总量及 Scope 1、2、3 结构</p></div>
-<div class="card"><p>减碳路径与关键技术类型</p></div>
-<div class="card"><p>减排效果、投资与成本信息</p></div>
-<div class="card"><p>不同企业之间的横向比较关系</p></div>
-              </div>
-            </section>
-
-            <section class="section">
-              <div class="section-head">
-                <h2>样本披露特征</h2>
-                <p>下面展示的是当前样本在 Scope 披露完整性和成本披露上的整体特征。</p>
-              </div>
-              <div class="metric-grid">
-                <div class="card"><h3>可直接识别 Scope 1/2/3 的企业</h3><strong class="highlight-value">6</strong></div>
-<div class="card"><h3>披露量化成本或投资的企业</h3><strong class="highlight-value">3</strong></div>
-              </div>
-            </section>
-
-            <section class="section" id="visuals">
-              <div class="section-head">
-                <h2>图示结果</h2>
-                <p>以下内容按正式汇报中的图示章节方式编排，围绕图1至图5依次呈现知识图谱结构、排放特征、技术路径、披露覆盖与样本处理情况。</p>
+                <h2>核心可视化与对应结构化结果</h2>
               </div>
               <div class="visual-list">
-                <div class="card visual-block"><div class="report-figure-head"><div class="report-figure-title"><div class="tag visual-index">图1</div><h3>知识图谱总览</h3></div><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/kg_overview.png" data-lightbox-title="知识图谱总览">放大查看</button></div></div><p class="report-figure-note">呈现企业、报告、标准、排放、目标、技术与减碳路径之间的结构关系。</p><div class="report-figure-insight"><strong>结果解读:</strong> 技术类型、目标与排放记录构成当前样本图谱中的高频核心实体，说明这套图谱已经能够把企业披露稳定转化为可比较的结构化事实。</div><img class="visual-figure figure-image-trigger" src="../assets/figures/zh/kg_overview.png" alt="知识图谱总览" data-lightbox-src="../assets/figures/zh/kg_overview.png" data-lightbox-title="知识图谱总览" tabindex="0"><div class="visual-support"><div class="card table-card"><h3>图1对应结构化结果</h3><div class="table-wrap"><table><tr><th>实体类型</th><th>节点规模</th></tr><tr><td>企业</td><td>10</td></tr><tr><td>报告</td><td>10</td></tr><tr><td>标准</td><td>14</td></tr><tr><td>排放记录</td><td>27</td></tr><tr><td>目标</td><td>27</td></tr><tr><td>减碳路径</td><td>26</td></tr><tr><td>技术类型</td><td>29</td></tr><tr><td>减排成效/成本</td><td>13</td></tr></table></div></div></div></div>
-<div class="card visual-block"><div class="report-figure-head"><div class="report-figure-title"><div class="tag visual-index">图2</div><h3>Scope 排放分布</h3></div><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/scope_distribution.png" data-lightbox-title="Scope 排放分布">放大查看</button></div></div><p class="report-figure-note">展示不同企业在 Scope 1、2、3 上的排放结构差异。</p><div class="report-figure-insight"><strong>结果解读:</strong> 样本企业的排放结构普遍呈现 Scope 3 占主导的特征，这意味着价值链排放是横向比较和减碳路径识别中的关键观察维度。</div><img class="visual-figure figure-image-trigger" src="../assets/figures/zh/scope_distribution.png" alt="Scope 排放分布" data-lightbox-src="../assets/figures/zh/scope_distribution.png" data-lightbox-title="Scope 排放分布" tabindex="0"><div class="visual-support"><div class="card table-card"><h3>图2对应排放事实节选</h3><div class="table-wrap"><table><tr><th>企业主体</th><th>核算年度</th><th>排放范围</th><th>排放量（MtCO2e）</th><th>结构占比（%）</th></tr><tr><td>亚马逊</td><td>2024</td><td>范围 1</td><td>15.13</td><td>22.17</td></tr><tr><td>亚马逊</td><td>2024</td><td>范围 2</td><td>2.8</td><td>4.1</td></tr><tr><td>亚马逊</td><td>2024</td><td>范围 3</td><td>50.32</td><td>73.73</td></tr><tr><td>苹果</td><td>2024</td><td>范围 1</td><td>0.06371</td><td>0.42</td></tr><tr><td>苹果</td><td>2024</td><td>范围 2</td><td>0.0033</td><td>0.02</td></tr></table></div></div></div></div>
-<div class="card visual-block"><div class="report-figure-head"><div class="report-figure-title"><div class="tag visual-index">图3</div><h3>企业与技术网络</h3></div><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/company_technology_network.png" data-lightbox-title="企业与技术网络">放大查看</button></div></div><p class="report-figure-note">展示企业与低碳技术类型之间的关联格局。</p><div class="report-figure-insight"><strong>结果解读:</strong> 技术与路径提及集中在可再生电力、碳移除和供应链减碳等方向，表明样本企业的减碳叙事已从运营端扩展到能源替代与价值链协同。</div><img class="visual-figure figure-image-trigger" src="../assets/figures/zh/company_technology_network.png" alt="企业与技术网络" data-lightbox-src="../assets/figures/zh/company_technology_network.png" data-lightbox-title="企业与技术网络" tabindex="0"><div class="visual-support"><div class="card table-card"><h3>图3对应技术与路径识别结果</h3><div class="table-wrap"><table><tr><th>分析维度</th><th>技术/路径类别</th><th>样本覆盖次数</th></tr><tr><td>技术类型</td><td>太阳能与风电</td><td>2</td></tr><tr><td>技术类型</td><td>低碳钢与低碳混凝土</td><td>1</td></tr><tr><td>技术类型</td><td>电动货运与微出行</td><td>1</td></tr><tr><td>技术类型</td><td>循环材料</td><td>1</td></tr><tr><td>技术类型</td><td>碳移除</td><td>1</td></tr><tr><td>减碳路径</td><td>可再生电力</td><td>3</td></tr><tr><td>减碳路径</td><td>碳移除</td><td>2</td></tr><tr><td>减碳路径</td><td>供应链减碳</td><td>2</td></tr><tr><td>减碳路径</td><td>供应链协同减碳</td><td>1</td></tr><tr><td>减碳路径</td><td>低碳材料</td><td>1</td></tr></table></div></div></div></div>
-<div class="card visual-block"><div class="report-figure-head"><div class="report-figure-title"><div class="tag visual-index">图4</div><h3>披露覆盖情况</h3></div><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/disclosure_coverage.png" data-lightbox-title="披露覆盖情况">放大查看</button></div></div><p class="report-figure-note">展示样本中哪些关键事实维度已经被稳定识别。</p><div class="report-figure-insight"><strong>结果解读:</strong> GHG Protocol 与 GRI 构成当前样本最主要的披露基础，而 ISO 与区域监管框架则体现出企业在核算验证和合规披露上的差异化布局。</div><img class="visual-figure figure-image-trigger" src="../assets/figures/zh/disclosure_coverage.png" alt="披露覆盖情况" data-lightbox-src="../assets/figures/zh/disclosure_coverage.png" data-lightbox-title="披露覆盖情况" tabindex="0"><div class="visual-support"><div class="card table-card"><h3>图4对应披露标准覆盖结果</h3><div class="table-wrap"><table><tr><th>披露标准/核算框架</th><th>覆盖报告数</th></tr><tr><td>GHG Protocol</td><td>10</td></tr><tr><td>GRI</td><td>7</td></tr><tr><td>TCFD</td><td>3</td></tr><tr><td>SASB</td><td>2</td></tr><tr><td>ISO 14064-3</td><td>2</td></tr><tr><td>ISO 14067</td><td>2</td></tr><tr><td>ISO 14040/14044</td><td>2</td></tr><tr><td>ESRS/CSRD</td><td>2</td></tr></table></div></div></div></div>
-<div class="card visual-block"><div class="report-figure-head"><div class="report-figure-title"><div class="tag visual-index">图5</div><h3>样本处理概况</h3></div><div class="visual-actions"><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/ingestion_operations.png" data-lightbox-title="样本处理概况">放大查看</button></div></div><p class="report-figure-note">展示当前示范批次的处理规模与页面抽取情况。</p><div class="report-figure-insight"><strong>结果解读:</strong> 样本报告在页数、披露载体和 Scope 成熟度上差异明显，这说明批量入库阶段必须同时保留报告元数据与披露质量标签。</div><img class="visual-figure figure-image-trigger" src="../assets/figures/zh/ingestion_operations.png" alt="样本处理概况" data-lightbox-src="../assets/figures/zh/ingestion_operations.png" data-lightbox-title="样本处理概况" tabindex="0"><div class="visual-support"><div class="card table-card"><h3>图5对应样本主数据节选</h3><div class="table-wrap"><table><tr><th>企业主体</th><th>报告年度</th><th>披露载体</th><th>报告页数</th><th>Scope 披露成熟度</th></tr><tr><td>亚马逊</td><td>2024</td><td>可持续发展报告</td><td>57</td><td>公司级完整绝对量</td></tr><tr><td>苹果</td><td>2025</td><td>环境进展报告</td><td>126</td><td>公司级绝对量且含推导值</td></tr><tr><td>比亚迪</td><td>2024</td><td>可持续发展报告</td><td>155</td><td>公司级完整绝对量</td></tr><tr><td>好市多</td><td>2024</td><td>气候行动计划</td><td>15</td><td>仅披露总量未分拆</td></tr><tr><td>吉利控股集团</td><td>2024</td><td>可持续发展报告</td><td>101</td><td>主要按业务单元披露</td></tr></table></div></div></div></div>
+                <div class="card"><div class="report-figure-head"><div class="report-figure-title"><div class="tag">图1</div><h3>图1 标准与准则维度识别结果</h3></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/standard_landscape.png" data-lightbox-title="图1 标准与准则维度识别结果">点击放大查看</button></div><div class="report-figure-insight"><strong>结果解读:</strong> 样本企业已经呈现出以 GHG Protocol 为核算底座、叠加 GRI、TCFD、ISO、欧盟框架与国标的多层标准结构。</div><img class="visual-figure" src="../assets/figures/zh/standard_landscape.png" alt="图1 标准与准则维度识别结果" data-lightbox-src="../assets/figures/zh/standard_landscape.png" data-lightbox-title="图1 标准与准则维度识别结果" tabindex="0"><div class="visual-support"><div class="table-card"><h3>图1对应标准引用事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>适用范围</th><th>证据页码</th></tr><tr><td>亚马逊</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td>16</td></tr><tr><td>亚马逊</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td>3</td></tr><tr><td>亚马逊</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td>3</td></tr><tr><td>亚马逊</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td>3</td></tr><tr><td>苹果</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td>104</td></tr><tr><td>苹果</td><td>ISO 14064-3</td><td>ISO鉴证体系</td><td>核查与鉴证标准</td><td>范围1|范围2|范围3</td><td>104</td></tr><tr><td>苹果</td><td>ISO 14067</td><td>ISO产品碳足迹标准</td><td>方法学标准</td><td>范围3</td><td>106</td></tr><tr><td>苹果</td><td>ISO 14040/14044</td><td>ISO生命周期评价体系</td><td>方法学标准</td><td>范围3</td><td>106</td></tr></table></div></div></div></div><div class="card"><div class="report-figure-head"><div class="report-figure-title"><div class="tag">图2</div><h3>图2 标准角色与核算原则结构</h3></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/standard_roles.png" data-lightbox-title="图2 标准角色与核算原则结构">点击放大查看</button></div><div class="report-figure-insight"><strong>结果解读:</strong> 同样被引用为“标准”的文件，在报告中的角色并不相同，既可能是核算标准，也可能是披露标准、鉴证标准或目标审定指引。</div><img class="visual-figure" src="../assets/figures/zh/standard_roles.png" alt="图2 标准角色与核算原则结构" data-lightbox-src="../assets/figures/zh/standard_roles.png" data-lightbox-title="图2 标准角色与核算原则结构" tabindex="0"><div class="visual-support"><div class="table-card"><h3>图2对应标准角色与原则结构</h3><div class="table-wrap"><table><tr><th>标准角色</th><th>引用数量</th><th>典型核算原则</th></tr><tr><td>报告指引</td><td>1</td><td>行业可比性</td></tr><tr><td>披露建议</td><td>3</td><td>重要性|一致性</td></tr><tr><td>披露指引</td><td>2</td><td>财务重要性</td></tr><tr><td>披露标准</td><td>10</td><td>双重重要性|可比性 | 财务重要性|可比性 | 重要性|可比性</td></tr><tr><td>指引</td><td>1</td><td>转型可信性</td></tr><tr><td>方法学标准</td><td>4</td><td>生命周期视角 | 生命周期视角|完整性</td></tr><tr><td>核查与鉴证标准</td><td>2</td><td>可核查性|可信性</td></tr><tr><td>核算标准</td><td>11</td><td>归因原则|数据质量层级 | 相关性|完整性|一致性|透明性|准确性</td></tr></table></div></div></div></div><div class="card"><div class="report-figure-head"><div class="report-figure-title"><div class="tag">图3</div><h3>图3 排放方法与数据质量识别结果</h3></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/methodology_quality.png" data-lightbox-title="图3 排放方法与数据质量识别结果">点击放大查看</button></div><div class="report-figure-insight"><strong>结果解读:</strong> 二期图谱已经能够区分数据来源、核查/鉴证环节和计算方法，后续可以据此比较企业披露质量与方法透明度。</div><img class="visual-figure" src="../assets/figures/zh/methodology_quality.png" alt="图3 排放方法与数据质量识别结果" data-lightbox-src="../assets/figures/zh/methodology_quality.png" data-lightbox-title="图3 排放方法与数据质量识别结果" tabindex="0"><div class="visual-support"><div class="table-card"><h3>图3对应排放方法事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据来源类型</th><th>核查/鉴证环节</th><th>计算方法</th><th>活动类别</th></tr><tr><td>亚马逊</td><td>范围1</td><td></td><td>报告披露</td><td></td><td>移动排放源</td></tr><tr><td>亚马逊</td><td>范围1</td><td></td><td>报告披露</td><td></td><td>散逸性排放</td></tr><tr><td>亚马逊</td><td>范围2</td><td></td><td>报告披露</td><td>市场法</td><td>外购电力</td></tr><tr><td>亚马逊</td><td>范围3</td><td></td><td>报告披露</td><td></td><td>价值链活动</td></tr><tr><td>苹果</td><td>范围3</td><td>初级数据</td><td>审定</td><td>生命周期评价</td><td></td></tr><tr><td>苹果</td><td>范围3</td><td>次级数据</td><td>核查</td><td>生命周期评价</td><td></td></tr><tr><td>比亚迪</td><td>范围1</td><td></td><td>报告披露</td><td></td><td></td></tr><tr><td>比亚迪</td><td>范围2</td><td></td><td>报告披露</td><td></td><td>外购电力</td></tr></table></div></div></div></div><div class="card"><div class="report-figure-head"><div class="report-figure-title"><div class="tag">图4</div><h3>图4 活动类别与 Scope 3 类别映射</h3></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/activity_mapping.png" data-lightbox-title="图4 活动类别与 Scope 3 类别映射">点击放大查看</button></div><div class="report-figure-insight"><strong>结果解读:</strong> 活动类别与 Scope 3 类别的映射，使图谱不再只停留在排放总量，而是开始呈现排放来源结构。</div><img class="visual-figure" src="../assets/figures/zh/activity_mapping.png" alt="图4 活动类别与 Scope 3 类别映射" data-lightbox-src="../assets/figures/zh/activity_mapping.png" data-lightbox-title="图4 活动类别与 Scope 3 类别映射" tabindex="0"><div class="visual-support"><div class="table-card"><h3>图4对应活动类别与 Scope 3 映射</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>Scope 3 类别</th><th>活动类别</th><th>分类阶段</th><th>证据页码</th></tr><tr><td>亚马逊</td><td>范围1</td><td></td><td>移动排放源</td><td>基于证据规则映射</td><td>9</td></tr><tr><td>亚马逊</td><td>范围1</td><td></td><td>散逸性排放</td><td>基于证据规则映射</td><td>9</td></tr><tr><td>亚马逊</td><td>范围2</td><td></td><td>外购电力</td><td>原文明确提及</td><td>50</td></tr><tr><td>亚马逊</td><td>范围3</td><td></td><td>价值链活动</td><td>原文明确提及</td><td>50</td></tr><tr><td>苹果</td><td>范围3</td><td></td><td></td><td>原文明确提及</td><td>106</td></tr><tr><td>苹果</td><td>范围3</td><td></td><td></td><td>原文明确提及</td><td>106</td></tr><tr><td>比亚迪</td><td>范围1</td><td></td><td></td><td>原文明确提及</td><td>127</td></tr><tr><td>比亚迪</td><td>范围2</td><td></td><td>外购电力</td><td>原文明确提及</td><td>127</td></tr><tr><td>比亚迪</td><td>范围3</td><td></td><td>价值链活动</td><td>原文明确提及</td><td>127</td></tr><tr><td>吉利控股集团</td><td>范围1</td><td></td><td></td><td>原文明确提及</td><td>38</td></tr></table></div></div></div></div><div class="card"><div class="report-figure-head"><div class="report-figure-title"><div class="tag">图5</div><h3>图5 行业分类与扩展图谱结构</h3></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/industry_bridge.png" data-lightbox-title="图5 行业分类与扩展图谱结构">点击放大查看</button></div><div class="report-figure-insight"><strong>结果解读:</strong> 行业分类已经与扩展图谱打通，后续可以围绕 GB/T 4754-2017 门类进行横向行业比较。</div><img class="visual-figure" src="../assets/figures/zh/industry_bridge.png" alt="图5 行业分类与扩展图谱结构" data-lightbox-src="../assets/figures/zh/industry_bridge.png" data-lightbox-title="图5 行业分类与扩展图谱结构" tabindex="0"><div class="visual-support"><div class="table-card"><h3>图5对应行业归类结果</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>亚马逊</td><td>2</td><td>F</td><td>批发和零售业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>苹果</td><td>7</td><td>C</td><td>制造业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>比亚迪</td><td>143</td><td>C</td><td>制造业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>好市多</td><td>20</td><td>L</td><td>租赁和商务服务业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>吉利控股集团</td><td>185</td><td>C</td><td>制造业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>微软</td><td>26</td><td>C</td><td>制造业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>道达尔能源</td><td>23</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>联合健康集团</td><td>8</td><td>S</td><td>公共管理、社会保障和社会组织</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>大众汽车集团</td><td>11</td><td>C</td><td>制造业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr><tr><td>沃尔玛</td><td>1</td><td>L</td><td>租赁和商务服务业</td><td>基于标准化企业别名匹配至2024世界500强名录，并对demo样本进行了确认。</td></tr></table></div></div></div></div><div class="card"><div class="report-figure-head"><div class="report-figure-title"><div class="tag">图6</div><h3>图6 Scope 排放结构分布</h3></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/scope_distribution.png" data-lightbox-title="图6 Scope 排放结构分布">点击放大查看</button></div><div class="report-figure-insight"><strong>结果解读:</strong> 样本企业整体上仍表现为 Scope 3 占比更高，价值链排放仍是横向比较的重点区域。</div><img class="visual-figure" src="../assets/figures/zh/scope_distribution.png" alt="图6 Scope 排放结构分布" data-lightbox-src="../assets/figures/zh/scope_distribution.png" data-lightbox-title="图6 Scope 排放结构分布" tabindex="0"><div class="visual-support"><div class="table-card"><h3>图6对应排放事实节选</h3><div class="table-wrap"><table><tr><th>报告主体</th><th>Scope</th><th>排放量</th><th>占比(%)</th><th>证据页码</th></tr><tr><td>亚马逊</td><td>范围 1</td><td>15.13</td><td>22.17</td><td>50</td></tr><tr><td>亚马逊</td><td>范围 2</td><td>2.8</td><td>4.1</td><td>50</td></tr><tr><td>亚马逊</td><td>范围 3</td><td>50.32</td><td>73.73</td><td>50</td></tr><tr><td>苹果</td><td>范围 1</td><td>0.06371</td><td>0.42</td><td>99</td></tr><tr><td>苹果</td><td>范围 2</td><td>0.0033</td><td>0.02</td><td>99</td></tr><tr><td>苹果</td><td>范围 3</td><td>15.19099</td><td>99.56</td><td>105</td></tr><tr><td>比亚迪</td><td>范围 1</td><td>1.53925146</td><td>11.46</td><td>127</td></tr><tr><td>比亚迪</td><td>范围 2</td><td>8.56257474</td><td>63.77</td><td>127</td></tr><tr><td>比亚迪</td><td>范围 3</td><td>3.32631249</td><td>24.77</td><td>127</td></tr><tr><td>吉利汽车事业单元</td><td>范围 1</td><td>0.170646</td><td>0.25</td><td>38</td></tr></table></div></div></div></div><div class="card"><div class="report-figure-head"><div class="report-figure-title"><div class="tag">图7</div><h3>图7 企业与技术关联网络</h3></div><button class="zoom-btn" type="button" data-lightbox-src="../assets/figures/zh/company_technology_network.png" data-lightbox-title="图7 企业与技术关联网络">点击放大查看</button></div><div class="report-figure-insight"><strong>结果解读:</strong> 企业在可再生电力、低碳材料、电动化、甲醇、氢能和碳管理等路径上的布局存在明显差异。</div><img class="visual-figure" src="../assets/figures/zh/company_technology_network.png" alt="图7 企业与技术关联网络" data-lightbox-src="../assets/figures/zh/company_technology_network.png" data-lightbox-title="图7 企业与技术关联网络" tabindex="0"><div class="visual-support"><div class="table-card"><h3>图7对应技术事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>技术类型</th><th>证据页码</th><th>说明</th></tr><tr><td>亚马逊</td><td>太阳能与风电</td><td>14</td><td>Offshore wind, rooftop solar, and utility-scale renewable projects.</td></tr><tr><td>亚马逊</td><td>低碳钢与低碳混凝土</td><td>13</td><td>Data-center construction pilots use hydrogen direct reduction and lower-clinker concrete.</td></tr><tr><td>亚马逊</td><td>电动货运与微出行</td><td>16</td><td>Laneshift and e-cargo delivery pilots support logistics decarbonization.</td></tr><tr><td>苹果</td><td>太阳能与风电</td><td>99</td><td>Apple-created solar and wind projects support facilities and data centers.</td></tr><tr><td>苹果</td><td>循环材料</td><td>13</td><td>Recycled lithium, rare earths, and material efficiency in product design.</td></tr><tr><td>苹果</td><td>碳移除</td><td>10</td><td>Residual emissions are addressed with carbon removal projects.</td></tr><tr><td>比亚迪</td><td>光伏与绿电采购</td><td>45</td><td>On-site PV, green power purchases, and certificates.</td></tr><tr><td>比亚迪</td><td>电池与电动车技术</td><td>5</td><td>Blade battery, hybrid platforms, and energy storage are central products.</td></tr><tr><td>比亚迪</td><td>数字化碳管理平台</td><td>45</td><td>Workshop-level carbon accounting and management platform.</td></tr><tr><td>好市多</td><td>可再生柴油</td><td>8</td><td>Renewable diesel displaces conventional diesel in depots and delivery centers.</td></tr></table></div></div></div></div>
               </div>
             </section>
 
-            <section class="section" id="logic">
+            <section class="section">
               <div class="section-head">
-                <h2>图谱结构说明</h2>
-                <p>为了保证结构清晰和分类可靠，我将概念层、事实层与关系类型做了明确区分。</p>
+                <h2>同类技术企业聚类展示</h2>
               </div>
               <div class="card-grid">
-                <div class="card"><p>我将企业、标准、Scope、路径和技术作为相对稳定的概念层实体。</p></div>
-<div class="card"><p>我将报告、排放记录、目标和成效指标作为报告期事实层实体，以避免不同年份相互覆盖。</p></div>
-<div class="card"><p>排放节点按报告、主体和 Scope 组合区分，以保证时点信息可以追溯。</p></div>
-<div class="card"><p>图谱中的关系不仅表现关联，还保留了“企业披露了什么”和“采用了什么路径或技术”的结构化语义。</p></div>
+                <div class="card" style="background:#e9f5db;"><h3>可再生能源与清洁电力</h3><div class="downloads"><span class="pill" style="background:rgba(255,255,255,.72);">亚马逊</span><span class="pill" style="background:rgba(255,255,255,.72);">好市多</span><span class="pill" style="background:rgba(255,255,255,.72);">微软</span><span class="pill" style="background:rgba(255,255,255,.72);">比亚迪</span><span class="pill" style="background:rgba(255,255,255,.72);">沃尔玛</span><span class="pill" style="background:rgba(255,255,255,.72);">联合健康集团</span><span class="pill" style="background:rgba(255,255,255,.72);">苹果</span><span class="pill" style="background:rgba(255,255,255,.72);">道达尔能源</span></div></div><div class="card" style="background:#fff3e0;"><h3>低碳材料与循环设计</h3><div class="downloads"><span class="pill" style="background:rgba(255,255,255,.72);">亚马逊</span><span class="pill" style="background:rgba(255,255,255,.72);">大众汽车集团</span><span class="pill" style="background:rgba(255,255,255,.72);">微软</span><span class="pill" style="background:rgba(255,255,255,.72);">沃尔玛</span><span class="pill" style="background:rgba(255,255,255,.72);">联合健康集团</span><span class="pill" style="background:rgba(255,255,255,.72);">苹果</span></div></div><div class="card" style="background:#e3f2fd;"><h3>电动化与电池技术</h3><div class="downloads"><span class="pill" style="background:rgba(255,255,255,.72);">亚马逊</span><span class="pill" style="background:rgba(255,255,255,.72);">吉利控股集团</span><span class="pill" style="background:rgba(255,255,255,.72);">大众汽车集团</span><span class="pill" style="background:rgba(255,255,255,.72);">比亚迪</span><span class="pill" style="background:rgba(255,255,255,.72);">沃尔玛</span></div></div><div class="card" style="background:#f3e5f5;"><h3>低碳燃料与氢/甲醇路径</h3><div class="downloads"><span class="pill" style="background:rgba(255,255,255,.72);">吉利控股集团</span><span class="pill" style="background:rgba(255,255,255,.72);">大众汽车集团</span><span class="pill" style="background:rgba(255,255,255,.72);">好市多</span><span class="pill" style="background:rgba(255,255,255,.72);">道达尔能源</span></div></div><div class="card" style="background:#fde2e4;"><h3>碳管理与碳移除</h3><div class="downloads"><span class="pill" style="background:rgba(255,255,255,.72);">吉利控股集团</span><span class="pill" style="background:rgba(255,255,255,.72);">比亚迪</span><span class="pill" style="background:rgba(255,255,255,.72);">苹果</span></div></div><div class="card" style="background:#eef7ff;"><h3>能效与制冷改造</h3><div class="downloads"><span class="pill" style="background:rgba(255,255,255,.72);">好市多</span><span class="pill" style="background:rgba(255,255,255,.72);">联合健康集团</span></div></div>
               </div>
             </section>
 
-            <div class="footer">这个站点展示的是我基于企业公开报告构建的世界500强 ESG 知识图谱示范结果。</div>
+            <section class="section">
+              <div class="section-head">
+                <h2>当前图谱建模逻辑</h2>
+              </div>
+              <div class="card-grid">
+                <div class="card"><p>标准本体与标准引用事实分开建模，保证同一标准在不同企业报告中可以承担不同角色。</p></div><div class="card"><p>排放数值事实与排放方法事实分开建模，使同一 Scope 记录可以同时连接数据来源、核查环节、活动类别与计算方法。</p></div><div class="card"><p>行业分类采用 GB/T 4754-2017 门类层级，便于后续跨企业与跨行业对比。</p></div><div class="card"><p>活动类别区分“原文明确提及”与“基于证据规则映射”两个阶段，便于后续人工校核与二次入库闭环。</p></div>
+              </div>
+            </section>
+
+            <div class="footer">本站仅包含公开展示内容，不含源码与对话记录。</div>
           </div>
-          <div class="lightbox" id="lightbox" aria-hidden="true">
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
   <div class="lightbox-dialog">
     <button class="lightbox-close" type="button" id="lightbox-close">关闭</button>
     <div class="lightbox-frame">
@@ -107,7 +381,8 @@
   </div>
 </div>
 
-          <script>
+
+<script>
 (function () {
   const lightbox = document.getElementById('lightbox');
   const image = document.getElementById('lightbox-image');
@@ -119,24 +394,21 @@
     lightbox.classList.remove('open');
     lightbox.setAttribute('aria-hidden', 'true');
     image.setAttribute('src', '');
-    image.setAttribute('alt', '');
     caption.textContent = '';
     document.body.style.overflow = '';
   }
 
   function openLightbox(trigger) {
-      image.setAttribute('src', trigger.getAttribute('data-lightbox-src'));
-      image.setAttribute('alt', trigger.getAttribute('data-lightbox-title') || '');
-      caption.textContent = trigger.getAttribute('data-lightbox-title') || '';
-      lightbox.classList.add('open');
-      lightbox.setAttribute('aria-hidden', 'false');
-      document.body.style.overflow = 'hidden';
+    image.setAttribute('src', trigger.getAttribute('data-lightbox-src'));
+    image.setAttribute('alt', trigger.getAttribute('data-lightbox-title') || '');
+    caption.textContent = trigger.getAttribute('data-lightbox-title') || '';
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
   }
 
   triggers.forEach((trigger) => {
-    trigger.addEventListener('click', () => {
-      openLightbox(trigger);
-    });
+    trigger.addEventListener('click', () => openLightbox(trigger));
     trigger.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
@@ -147,14 +419,10 @@
 
   closeBtn.addEventListener('click', closeLightbox);
   lightbox.addEventListener('click', (event) => {
-    if (event.target === lightbox) {
-      closeLightbox();
-    }
+    if (event.target === lightbox) closeLightbox();
   });
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-      closeLightbox();
-    }
+    if (event.key === 'Escape') closeLightbox();
   });
 })();
 </script>

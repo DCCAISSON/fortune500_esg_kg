@@ -1,23 +1,305 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fortune 500 ESG Knowledge Graph</title>
-  <link rel="stylesheet" href="./assets/css/site.css">
-</head>
-<body>
-  <div class="shell">
-    <section class="hero">
-      <div class="eyebrow">ESG Knowledge Graph</div>
-      <h1>世界500强 ESG 知识图谱</h1>
-      <p>这是我基于世界500强企业公开报告构建的双语展示站点。</p>
-      <p>站点主要展示 ESG 披露、Scope 排放结构、减碳路径、技术类型与样本整体特征。</p>
-      <div class="actions">
-        <a class="btn alt" href="./zh/index.html">进入中文页</a>
-        <a class="btn" href="./en/index.html">Open English Page</a>
-      </div>
-    </section>
+        <html lang="zh">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>世界500强 ESG 知识图谱</title>
+          <link rel="stylesheet" href="./assets/css/site.css">
+        </head>
+        <body>
+          <div class="shell">
+            <section class="hero">
+              <div class="eyebrow">GitHub Pages Edition</div>
+              <h1>世界500强 ESG 知识图谱</h1>
+              <p>我基于世界500强企业公开年报、可持续发展报告与碳相关披露文件，构建了这套 ESG 知识图谱展示站点。当前公开页在保留原 10 份 demo 成果的基础上，优先展示“标准与准则维度”与“排放方法与数据质量维度”两条主轴。</p>
+              <p>站点仅发布结构化结果、图谱文件、图表和可下载内容，不公开项目源码与对话过程。500 份正式推进版在独立批处理管线中持续扩展。</p>
+            </section>
+
+            <section class="section">
+              <div class="section-head">
+                <h2>首页优先展示的两条主轴</h2>
+              </div>
+              <div class="grid-2">
+                <div class="card"><h3>标准与准则维度</h3><p>识别企业遵循的是 GHG、ISO、GB/T、GRI、TCFD、IFRS S2、ESRS/CSRD 等哪一类体系，并细化到 standard、guideline、principle、核查/鉴证标准、目标审定指引等角色。</p></div>
+                <div class="card"><h3>排放方法与数据质量维度</h3><p>识别初级数据、次级数据、估算/推导、报告披露、核查、鉴证、审定，以及固定源、移动源、散逸性排放、过程排放、外购电力与 Scope 3 类别等方法学信息。</p></div>
+              </div>
+            </section>
+
+
+        <section class="section">
+          <div class="section-head">
+            <h2>未匹配诊断与人工复核</h2>
+            <p>该模块展示当前开放未决匹配的诊断分布，以及“仅发现子公司/关联主体文件”场景下的二级人工复核结构。前者用于解释为什么当前不能硬配母公司主报告，后者用于区分“上市子公司报告”与“集团关联经营主体报告”。</p>
+          </div>
+          <div class="metric-grid">
+            <div class="metric"><h3>开放未决匹配</h3><strong>171</strong></div><div class="metric"><h3>库内无母公司主报告</h3><strong>165</strong></div><div class="metric"><h3>仅发现关联主体文件</h3><strong>6</strong></div><div class="metric"><h3>上市子公司报告</h3><strong>5</strong></div><div class="metric"><h3>集团关联经营主体报告</h3><strong>1</strong></div>
+          </div>
+          <div class="review-brief-grid" style="margin-top:16px;">
+            <article class="card review-brief-card">
+          <h3>未匹配诊断分布</h3>
+          <p class="review-summary">当前未决匹配主要集中在“库内无母公司主报告”，说明未匹配问题首先是原始语料缺口，而不是简单别名错误。</p>
+          <div class="review-list">
+            <div class="review-list-item" style="--review-tone:#6f5bd3;">
+  <div class="review-list-top">
+    <span class="review-badge">疑似别名未识别</span>
+    <span class="review-count">0</span>
   </div>
-</body>
-</html>
+  <p>已定位到主体一致文件，可直接进入 override 写回与匹配确认。</p>
+  <div class="review-bar"><span style="width:0.0%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#2f6f63;">
+  <div class="review-list-top">
+    <span class="review-badge">仅发现子公司/关联主体文件</span>
+    <span class="review-count">6</span>
+  </div>
+  <p>仅找到集团体系内其他主体文件，当前不能直接挂靠到母公司名下。</p>
+  <div class="review-bar"><span style="width:3.5%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#c76b2d;">
+  <div class="review-list-top">
+    <span class="review-badge">仅发现附录/非主报告</span>
+    <span class="review-count">0</span>
+  </div>
+  <p>当前仅找到附录、数据包或非主报告文件，仍缺母公司主报告。</p>
+  <div class="review-bar"><span style="width:0.0%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#9b3d2f;">
+  <div class="review-list-top">
+    <span class="review-badge">库内无母公司主报告</span>
+    <span class="review-count">165</span>
+  </div>
+  <p>在现有库存中未定位到可安全归属于母公司的主报告文件。</p>
+  <div class="review-bar"><span style="width:96.5%;"></span></div>
+</div>
+          </div>
+        </article>
+            <article class="card review-brief-card">
+          <h3>关联主体人工复核二级结构</h3>
+          <p class="review-summary">关联主体场景以“上市子公司报告”为主，这类文件可作为体系内辅助证据，但不能直接替代母公司主报告进入主图谱。</p>
+          <div class="review-list">
+            <div class="review-list-item" style="--review-tone:#2f6f63;">
+  <div class="review-list-top">
+    <span class="review-badge">上市子公司报告</span>
+    <span class="review-count">5</span>
+  </div>
+  <p>证据文件主体是集团下属上市平台，原则上只可作为关联证据，不直接替代母公司主报告。</p>
+  <div class="review-bar"><span style="width:83.3%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#375a7f;">
+  <div class="review-list-top">
+    <span class="review-badge">集团关联经营主体报告</span>
+    <span class="review-count">1</span>
+  </div>
+  <p>证据文件主体更接近集团体系下经营主体，需要继续核查是否存在母公司层面的正式报告。</p>
+  <div class="review-bar"><span style="width:16.7%;"></span></div>
+</div>
+          </div>
+        </article>
+          </div>
+          <div style="margin-top:16px;">
+            <div class="card">
+          <div class="review-cases-head">
+            <h3>关联主体人工复核清单</h3>
+            <p>以下卡片逐条展示当前 6 条“仅发现子公司/关联主体文件”案例，便于在汇报中直观看到为什么这些文件不能直接替代母公司主报告。</p>
+          </div>
+          <div class="review-case-grid">
+            <article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #170</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>陕西煤业化工集团有限责任公司</h3>
+  <p class="review-case-subtitle">库内仅发现“陕西煤业股份有限公司”年度报告，属于集团下属上市主体材料，不能直接等同于“陕西煤业化工集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>陕西煤业股份有限公司2024 年年度报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“陕西煤业股份有限公司”，属于集团下属上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #173</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>中国保利集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“保利发展”可持续发展报告，属于保利体系关联上市主体，不能直接作为“中国保利集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>2024-保利发展可持续发展报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“保利发展”，属于保利体系上市平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #429</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>海亮集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“海亮股份”ESG 报告，属于上市子公司材料，不能直接等同于“海亮集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>海亮股份：2024年度环境、社会及公司治理（ESG）报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“海亮股份”，属于集团下属上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #470</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>首钢集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“首钢股份”可持续发展报告，属于集团下属上市主体材料，不能直接等同于“首钢集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>2024首钢股份可持续发展报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“首钢股份”，属于集团下属上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#2f6f63;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #475</span>
+    <span class="review-case-type" style="background:#2f6f631a;color:#2f6f63;">上市子公司报告</span>
+  </div>
+  <h3>湖南钢铁集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅发现“湖南华菱钢铁股份有限公司”可持续发展报告，属于集团体系下上市主体材料，不能直接等同于“湖南钢铁集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>000932_华菱钢铁_2025-03-22_华菱钢铁：湖南华菱钢铁股份有限公司2024年度可持续发展报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“湖南华菱钢铁股份有限公司”，属于集团体系下上市公司平台。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#375a7f;">
+  <div class="review-case-head">
+    <span class="review-case-rank">世界500强排名 #385</span>
+    <span class="review-case-type" style="background:#375a7f1a;color:#375a7f;">集团关联经营主体报告</span>
+  </div>
+  <h3>奇瑞控股集团有限公司</h3>
+  <p class="review-case-subtitle">库内仅见“奇瑞汽车”ESG 报告，属于奇瑞体系经营主体材料，不能直接等同于“奇瑞控股集团”母公司主报告。</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>关联主体证据文件</strong>
+      <span>2024年奇瑞汽车esg报告.pdf</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>类型说明</strong>
+      <span>证据文件主体为“奇瑞汽车”，更接近集团体系下的经营主体材料，而非明确母公司报告。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>处理建议</strong>
+      <span>核实是否需要补采母公司主报告；如仅保留母公司口径，则该关联主体文件不得直接入主图谱。</span>
+    </div>
+  </div>
+</article>
+          </div>
+        </div>
+          </div>
+          <div class="card" style="margin-top:16px;">
+            <div class="review-cases-head">
+              <h3>附录与复核底表</h3>
+              <p>如需在正式汇报后继续追溯诊断明细、人工复核清单与 Excel 台账，可从这里直接下载。</p>
+            </div>
+            <div class="downloads">
+              <a class="btn alt" href="./assets/data/review/world500_unmatched_diagnosis.csv">下载未匹配诊断 CSV</a><a class="btn alt" href="./assets/downloads/world500_unmatched_diagnosis.xlsx">下载未匹配诊断 Excel</a><a class="btn alt" href="./assets/data/review/world500_affiliate_only_review_list.csv">下载关联主体复核 CSV</a><a class="btn alt" href="./assets/downloads/world500_affiliate_only_review_list.xlsx">下载关联主体复核 Excel</a>
+            </div>
+          </div>
+        </section>
+
+
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 03 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 03 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 03 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 03 图谱节点</h3><strong>1,385</strong></div><div class="metric"><h3>Batch 03 图谱关系</h3><strong>5,193</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_03_kg.graphml">下载 Batch 03 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_03_nodes.csv">下载 Batch 03 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_03_edges.csv">下载 Batch 03 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_03_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_03_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_03_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 02 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 02 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 02 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 02 图谱节点</h3><strong>934</strong></div><div class="metric"><h3>Batch 02 图谱关系</h3><strong>3,337</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_02_kg.graphml">下载 Batch 02 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_02_nodes.csv">下载 Batch 02 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_02_edges.csv">下载 Batch 02 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_02_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_02_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_02_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 01 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 01 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 01 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 01 图谱节点</h3><strong>1,307</strong></div><div class="metric"><h3>Batch 01 图谱关系</h3><strong>4,866</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_01_kg.graphml">下载 Batch 01 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_01_nodes.csv">下载 Batch 01 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_01_edges.csv">下载 Batch 01 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_01_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_01_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_01_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+
+            <section class="section">
+              <div class="actions">
+                <a class="btn alt" href="./zh/index.html">进入中文详细页</a>
+                <a class="btn" href="./en/index.html">进入英文详细页</a>
+              </div>
+            </section>
+          </div>
+        </body>
+        </html>
