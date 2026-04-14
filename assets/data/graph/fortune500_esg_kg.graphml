@@ -486,6 +486,24 @@
   <data key="d2">IFRS S2</data>
   <data key="d3">IFRS S2</data>
 </node>
+<node id="standard:hkex_esg_reporting_code">
+  <data key="d0">Standard</data>
+  <data key="d1">香港联交所环境社会及管治报告守则</data>
+  <data key="d2">香港联交所环境社会及管治报告守则</data>
+  <data key="d3">HKEX ESG Reporting Code</data>
+</node>
+<node id="standard:isae_3000_revised">
+  <data key="d0">Standard</data>
+  <data key="d1">国际鉴证业务准则第3000号修订版</data>
+  <data key="d2">国际鉴证业务准则第3000号修订版</data>
+  <data key="d3">ISAE 3000 (Revised)</data>
+</node>
+<node id="standard:isae_3410">
+  <data key="d0">Standard</data>
+  <data key="d1">国际鉴证业务准则第3410号</data>
+  <data key="d2">国际鉴证业务准则第3410号</data>
+  <data key="d3">ISAE 3410</data>
+</node>
 <node id="scope:scope_1">
   <data key="d0">Scope</data>
   <data key="d1">范围1</data>
@@ -696,9 +714,9 @@
   <data key="d26">reported</data>
   <data key="d27">直接披露</data>
   <data key="d28">38</data>
-  <data key="d29">Mt CO2e; business-unit disclosure inside the group report.</data>
-  <data key="d30">Mt CO2e; business-unit disclosure inside the group report.</data>
-  <data key="d31">validated_demo</data>
+  <data key="d29">于 2026-04-13 复核确认 保留业务单元粒度 因为第 38 页披露的是集团报告中的吉利汽车业务单元数据 并未提供可安全替代的母公司合并总量。</data>
+  <data key="d30">Reviewed on 2026-04-13: keep business-unit granularity because page 38 reports Geely Auto separately within the group report and does not provide a safe consolidated parent-company total.</data>
+  <data key="d31">manual_validated</data>
   <data key="d32">high</data>
 </node>
 <node id="emission:geely__2024__sustainability_report:geely_auto:scope_2">
@@ -715,9 +733,9 @@
   <data key="d26">reported</data>
   <data key="d27">直接披露</data>
   <data key="d28">38</data>
-  <data key="d29">Mt CO2e; business-unit disclosure inside the group report.</data>
-  <data key="d30">Mt CO2e; business-unit disclosure inside the group report.</data>
-  <data key="d31">validated_demo</data>
+  <data key="d29">于 2026-04-13 复核确认 保留业务单元粒度 因为第 38 页披露的是集团报告中的吉利汽车业务单元数据 并未提供可安全替代的母公司合并总量。</data>
+  <data key="d30">Reviewed on 2026-04-13: keep business-unit granularity because page 38 reports Geely Auto separately within the group report and does not provide a safe consolidated parent-company total.</data>
+  <data key="d31">manual_validated</data>
   <data key="d32">high</data>
 </node>
 <node id="emission:geely__2024__sustainability_report:geely_auto:scope_3">
@@ -734,9 +752,9 @@
   <data key="d26">reported</data>
   <data key="d27">直接披露</data>
   <data key="d28">38</data>
-  <data key="d29">Mt CO2e; business-unit disclosure inside the group report.</data>
-  <data key="d30">Mt CO2e; business-unit disclosure inside the group report.</data>
-  <data key="d31">validated_demo</data>
+  <data key="d29">于 2026-04-13 复核确认 保留业务单元粒度 因为第 38 页披露的是集团报告中的吉利汽车业务单元数据 并未提供可安全替代的母公司合并总量。</data>
+  <data key="d30">Reviewed on 2026-04-13: keep business-unit granularity because page 38 reports Geely Auto separately within the group report and does not provide a safe consolidated parent-company total.</data>
+  <data key="d31">manual_validated</data>
   <data key="d32">high</data>
 </node>
 <node id="emission:microsoft__2025__environmental_sustainability_report:microsoft:scope_1">
@@ -752,9 +770,9 @@
   <data key="d26">share_only</data>
   <data key="d27">仅占比</data>
   <data key="d28">13</data>
-  <data key="d29">The report discloses scope shares but not absolute values in this PDF.</data>
-  <data key="d30">The report discloses scope shares but not absolute values in this PDF.</data>
-  <data key="d31">validated_demo</data>
+  <data key="d29">于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。</data>
+  <data key="d30">Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.</data>
+  <data key="d31">manual_validated</data>
   <data key="d32">high</data>
 </node>
 <node id="emission:microsoft__2025__environmental_sustainability_report:microsoft:scope_2">
@@ -770,9 +788,9 @@
   <data key="d26">share_only</data>
   <data key="d27">仅占比</data>
   <data key="d28">13</data>
-  <data key="d29">The report discloses scope shares but not absolute values in this PDF.</data>
-  <data key="d30">The report discloses scope shares but not absolute values in this PDF.</data>
-  <data key="d31">validated_demo</data>
+  <data key="d29">于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。</data>
+  <data key="d30">Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.</data>
+  <data key="d31">manual_validated</data>
   <data key="d32">high</data>
 </node>
 <node id="emission:microsoft__2025__environmental_sustainability_report:microsoft:scope_3">
@@ -788,9 +806,9 @@
   <data key="d26">share_only</data>
   <data key="d27">仅占比</data>
   <data key="d28">13</data>
-  <data key="d29">The report discloses scope shares but not absolute values in this PDF.</data>
-  <data key="d30">The report discloses scope shares but not absolute values in this PDF.</data>
-  <data key="d31">validated_demo</data>
+  <data key="d29">于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。</data>
+  <data key="d30">Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.</data>
+  <data key="d31">manual_validated</data>
   <data key="d32">high</data>
 </node>
 <node id="emission:totalenergies__2025__sustainability_and_climate_progress_report:totalenergies:scope_1">
@@ -1851,6 +1869,111 @@
   <data key="d36">Energy metrics reference SASB and RE100 criteria.</data>
   <data key="d31">validated_demo</data>
   <data key="d32">high</data>
+</node>
+<node id="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153">
+  <data key="d0">StandardReference</data>
+  <data key="d1">香港联交所环境社会及管治报告守则 引用事实</data>
+  <data key="d2">香港联交所环境社会及管治报告守则 引用事实</data>
+  <data key="d3">HKEX ESG Reporting Code reference</data>
+  <data key="d9">byd__2024__sustainability_report</data>
+  <data key="d4">byd</data>
+  <data key="d33">no</data>
+  <data key="d34"></data>
+  <data key="d28">153</data>
+  <data key="d35">审验范围明确写明报告依据香港联交所ESG报告守则编制。</data>
+  <data key="d36">Assurance scope states that the report is prepared under the HKEX ESG Reporting Code.</data>
+  <data key="d31">manual_validated</data>
+  <data key="d32">high</data>
+</node>
+<node id="standard_role:disclosure_code">
+  <data key="d0">StandardRole</data>
+  <data key="d1">披露守则</data>
+  <data key="d2">披露守则</data>
+  <data key="d3">Disclosure code</data>
+</node>
+<node id="accounting_principle:quantitative">
+  <data key="d0">AccountingPrinciple</data>
+  <data key="d1">量化</data>
+  <data key="d2">量化</data>
+  <data key="d3">Quantitative</data>
+</node>
+<node id="accounting_principle:balance">
+  <data key="d0">AccountingPrinciple</data>
+  <data key="d1">平衡</data>
+  <data key="d2">平衡</data>
+  <data key="d3">Balance</data>
+</node>
+<node id="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153">
+  <data key="d0">StandardReference</data>
+  <data key="d1">国际鉴证业务准则第3000号修订版 引用事实</data>
+  <data key="d2">国际鉴证业务准则第3000号修订版 引用事实</data>
+  <data key="d3">ISAE 3000 (Revised) reference</data>
+  <data key="d9">byd__2024__sustainability_report</data>
+  <data key="d4">byd</data>
+  <data key="d33">no</data>
+  <data key="d34"></data>
+  <data key="d28">153</data>
+  <data key="d35">鉴证方法明确引用ISAE 3000修订版开展非财务信息鉴证。</data>
+  <data key="d36">Assurance methods cite ISAE 3000 Revised for non-financial assurance work.</data>
+  <data key="d31">manual_validated</data>
+  <data key="d32">high</data>
+</node>
+<node id="standard_family:sustainability_assurance_standard">
+  <data key="d0">StandardFamily</data>
+  <data key="d1">可持续信息鉴证准则</data>
+  <data key="d2">可持续信息鉴证准则</data>
+  <data key="d3">Sustainability assurance standard</data>
+</node>
+<node id="standard_role:assurance_standard">
+  <data key="d0">StandardRole</data>
+  <data key="d1">鉴证准则</data>
+  <data key="d2">鉴证准则</data>
+  <data key="d3">Assurance standard</data>
+</node>
+<node id="accounting_principle:limited_assurance">
+  <data key="d0">AccountingPrinciple</data>
+  <data key="d1">有限保证</data>
+  <data key="d2">有限保证</data>
+  <data key="d3">Limited assurance</data>
+</node>
+<node id="accounting_principle:evidence_based_assurance">
+  <data key="d0">AccountingPrinciple</data>
+  <data key="d1">基于证据的鉴证</data>
+  <data key="d2">基于证据的鉴证</data>
+  <data key="d3">Evidence-based assurance</data>
+</node>
+<node id="standard_ref:byd__2024__sustainability_report__isae_3410_p153">
+  <data key="d0">StandardReference</data>
+  <data key="d1">国际鉴证业务准则第3410号 引用事实</data>
+  <data key="d2">国际鉴证业务准则第3410号 引用事实</data>
+  <data key="d3">ISAE 3410 reference</data>
+  <data key="d9">byd__2024__sustainability_report</data>
+  <data key="d4">byd</data>
+  <data key="d33">no</data>
+  <data key="d34"></data>
+  <data key="d28">153</data>
+  <data key="d35">鉴证方法明确引用ISAE 3410开展温室气体声明鉴证。</data>
+  <data key="d36">Assurance methods cite ISAE 3410 for greenhouse gas statement assurance.</data>
+  <data key="d31">manual_validated</data>
+  <data key="d32">high</data>
+</node>
+<node id="standard_family:greenhouse_gas_assurance_standard">
+  <data key="d0">StandardFamily</data>
+  <data key="d1">温室气体鉴证准则</data>
+  <data key="d2">温室气体鉴证准则</data>
+  <data key="d3">Greenhouse gas assurance standard</data>
+</node>
+<node id="standard_role:greenhouse_gas_assurance_standard">
+  <data key="d0">StandardRole</data>
+  <data key="d1">温室气体鉴证准则</data>
+  <data key="d2">温室气体鉴证准则</data>
+  <data key="d3">Greenhouse gas assurance standard</data>
+</node>
+<node id="accounting_principle:ghg_statement_assurance">
+  <data key="d0">AccountingPrinciple</data>
+  <data key="d1">温室气体声明鉴证</data>
+  <data key="d2">温室气体声明鉴证</data>
+  <data key="d3">GHG statement assurance</data>
 </node>
 <node id="methodology:amazon_scope1_mobile">
   <data key="d0">EmissionMethodologyFact</data>
@@ -3257,6 +3380,12 @@
   <data key="d2">包装与循环设计</data>
   <data key="d3">Packaging and circular design</data>
 </node>
+<node id="technology:sea_and_gea_intelligent_new_energy_architectures">
+  <data key="d0">Technology</data>
+  <data key="d1">SEA浩瀚架构与GEA智能新能源架构</data>
+  <data key="d2">SEA浩瀚架构与GEA智能新能源架构</data>
+  <data key="d3">SEA and GEA intelligent new energy architectures</data>
+</node>
 <node id="impact:amazon__2024__sustainability_report:embodied_carbon_avoided_in_2024_building_projects">
   <data key="d0">ImpactMetric</data>
   <data key="d1">Embodied carbon avoided in 2024 building projects</data>
@@ -3450,6 +3579,21 @@
   <data key="d35">Supplier-reported cumulative progress.</data>
   <data key="d36">Supplier-reported cumulative progress.</data>
   <data key="d31">validated_demo</data>
+  <data key="d32">high</data>
+</node>
+<node id="impact:geely__2024__sustainability_report:expected_annual_co2_reduction_from_alxa_green_methanol_project">
+  <data key="d0">ImpactMetric</data>
+  <data key="d1">阿拉善绿色甲醇项目预计年度二氧化碳减排量</data>
+  <data key="d2">阿拉善绿色甲醇项目预计年度二氧化碳减排量</data>
+  <data key="d3">Expected annual CO2 reduction from Alxa green methanol project</data>
+  <data key="d45">减排效果</data>
+  <data key="d46">abatement_effect</data>
+  <data key="d9">geely__2024__sustainability_report</data>
+  <data key="d47">About 150000 tons CO2 per year</data>
+  <data key="d28">6</data>
+  <data key="d35">CEO致辞写明阿拉善绿色甲醇项目预计每年减少约15万吨二氧化碳排放量。</data>
+  <data key="d36">CEO letter states that the Alxa green methanol project is expected to reduce about 150000 tons of CO2 emissions each year.</data>
+  <data key="d31">manual_validated</data>
   <data key="d32">high</data>
 </node>
 <edge source="company:amazon" target="report:amazon__2024__sustainability_report">
@@ -3892,6 +4036,21 @@
   <data key="d49">采用标准</data>
   <data key="d50">153</data>
 </edge>
+<edge source="report:byd__2024__sustainability_report" target="standard:hkex_esg_reporting_code">
+  <data key="d48">uses_standard</data>
+  <data key="d49">采用标准</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="report:byd__2024__sustainability_report" target="standard:isae_3000_revised">
+  <data key="d48">uses_standard</data>
+  <data key="d49">采用标准</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="report:byd__2024__sustainability_report" target="standard:isae_3410">
+  <data key="d48">uses_standard</data>
+  <data key="d49">采用标准</data>
+  <data key="d50">153</data>
+</edge>
 <edge source="report:byd__2024__sustainability_report" target="emission:byd__2024__sustainability_report:byd:scope_1">
   <data key="d48">discloses_emission</data>
   <data key="d49">披露排放</data>
@@ -3920,6 +4079,21 @@
   <data key="d50">3</data>
 </edge>
 <edge source="report:byd__2024__sustainability_report" target="standard_ref:byd__2024__sustainability_report__iwa_48_2024">
+  <data key="d48">documents_standard_reference</data>
+  <data key="d49">记录标准引用事实</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="report:byd__2024__sustainability_report" target="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153">
+  <data key="d48">documents_standard_reference</data>
+  <data key="d49">记录标准引用事实</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="report:byd__2024__sustainability_report" target="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153">
+  <data key="d48">documents_standard_reference</data>
+  <data key="d49">记录标准引用事实</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="report:byd__2024__sustainability_report" target="standard_ref:byd__2024__sustainability_report__isae_3410_p153">
   <data key="d48">documents_standard_reference</data>
   <data key="d49">记录标准引用事实</data>
   <data key="d50">153</data>
@@ -4173,7 +4347,15 @@
   <data key="d48">deploys_technology</data>
   <data key="d49">部署技术</data>
 </edge>
+<edge source="company:geely" target="technology:sea_and_gea_intelligent_new_energy_architectures">
+  <data key="d48">deploys_technology</data>
+  <data key="d49">部署技术</data>
+</edge>
 <edge source="company:geely" target="impact:geely__2024__sustainability_report:tailpipe_carbon_capture_efficiency_in_truck_test">
+  <data key="d48">claims_impact</data>
+  <data key="d49">声明成效</data>
+</edge>
+<edge source="company:geely" target="impact:geely__2024__sustainability_report:expected_annual_co2_reduction_from_alxa_green_methanol_project">
   <data key="d48">claims_impact</data>
   <data key="d49">声明成效</data>
 </edge>
@@ -4287,10 +4469,20 @@
   <data key="d49">记录技术</data>
   <data key="d50">30</data>
 </edge>
+<edge source="report:geely__2024__sustainability_report" target="technology:sea_and_gea_intelligent_new_energy_architectures">
+  <data key="d48">documents_technology</data>
+  <data key="d49">记录技术</data>
+  <data key="d50">6</data>
+</edge>
 <edge source="report:geely__2024__sustainability_report" target="impact:geely__2024__sustainability_report:tailpipe_carbon_capture_efficiency_in_truck_test">
   <data key="d48">documents_impact</data>
   <data key="d49">记录成效</data>
   <data key="d50">30</data>
+</edge>
+<edge source="report:geely__2024__sustainability_report" target="impact:geely__2024__sustainability_report:expected_annual_co2_reduction_from_alxa_green_methanol_project">
+  <data key="d48">documents_impact</data>
+  <data key="d49">记录成效</data>
+  <data key="d50">6</data>
 </edge>
 <edge source="company:microsoft" target="report:microsoft__2025__environmental_sustainability_report">
   <data key="d48">publishes</data>
@@ -7008,6 +7200,125 @@
   <data key="d49">关联排放类型</data>
 </edge>
 <edge source="standard_ref:walmart__2025__esg_report__sasb" target="accounting_principle:financial_materiality">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="standard:hkex_esg_reporting_code">
+  <data key="d48">references_standard</data>
+  <data key="d49">引用标准</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="standard_family:esg_disclosure_framework">
+  <data key="d48">belongs_to_standard_family</data>
+  <data key="d49">属于标准体系</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="standard_role:disclosure_code">
+  <data key="d48">has_standard_role</data>
+  <data key="d49">具有标准角色</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="scope:enterprise_wide_disclosure">
+  <data key="d48">relates_to_scope</data>
+  <data key="d49">关联排放范围</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="emission_type:direct_emissions">
+  <data key="d48">relates_to_emission_type</data>
+  <data key="d49">关联排放类型</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="emission_type:indirect_energy_emissions">
+  <data key="d48">relates_to_emission_type</data>
+  <data key="d49">关联排放类型</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="emission_type:other_indirect_emissions">
+  <data key="d48">relates_to_emission_type</data>
+  <data key="d49">关联排放类型</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="accounting_principle:materiality">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="accounting_principle:quantitative">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="accounting_principle:balance">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__hkex_esg_reporting_code_p153" target="accounting_principle:consistency">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="standard:isae_3000_revised">
+  <data key="d48">references_standard</data>
+  <data key="d49">引用标准</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="standard_family:sustainability_assurance_standard">
+  <data key="d48">belongs_to_standard_family</data>
+  <data key="d49">属于标准体系</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="standard_role:assurance_standard">
+  <data key="d48">has_standard_role</data>
+  <data key="d49">具有标准角色</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="scope:scope_1">
+  <data key="d48">relates_to_scope</data>
+  <data key="d49">关联排放范围</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="scope:scope_2">
+  <data key="d48">relates_to_scope</data>
+  <data key="d49">关联排放范围</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="emission_type:direct_emissions">
+  <data key="d48">relates_to_emission_type</data>
+  <data key="d49">关联排放类型</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="emission_type:indirect_energy_emissions">
+  <data key="d48">relates_to_emission_type</data>
+  <data key="d49">关联排放类型</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="accounting_principle:limited_assurance">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3000_revised_p153" target="accounting_principle:evidence_based_assurance">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="standard:isae_3410">
+  <data key="d48">references_standard</data>
+  <data key="d49">引用标准</data>
+  <data key="d50">153</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="standard_family:greenhouse_gas_assurance_standard">
+  <data key="d48">belongs_to_standard_family</data>
+  <data key="d49">属于标准体系</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="standard_role:greenhouse_gas_assurance_standard">
+  <data key="d48">has_standard_role</data>
+  <data key="d49">具有标准角色</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="scope:scope_1">
+  <data key="d48">relates_to_scope</data>
+  <data key="d49">关联排放范围</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="scope:scope_2">
+  <data key="d48">relates_to_scope</data>
+  <data key="d49">关联排放范围</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="emission_type:direct_emissions">
+  <data key="d48">relates_to_emission_type</data>
+  <data key="d49">关联排放类型</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="emission_type:indirect_energy_emissions">
+  <data key="d48">relates_to_emission_type</data>
+  <data key="d49">关联排放类型</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="accounting_principle:limited_assurance">
+  <data key="d48">references_accounting_principle</data>
+  <data key="d49">关联核算原则</data>
+</edge>
+<edge source="standard_ref:byd__2024__sustainability_report__isae_3410_p153" target="accounting_principle:ghg_statement_assurance">
   <data key="d48">references_accounting_principle</data>
   <data key="d49">关联核算原则</data>
 </edge>
