@@ -46,7 +46,7 @@
             <p>该模块展示当前开放未决匹配的诊断分布，以及“仅发现子公司/关联主体文件”场景下的二级人工复核结构。前者用于解释为什么当前不能硬配母公司主报告，后者用于区分“上市子公司报告”与“集团关联经营主体报告”。</p>
           </div>
           <div class="metric-grid">
-            <div class="metric"><h3>开放未决匹配</h3><strong>171</strong></div><div class="metric"><h3>库内无母公司主报告</h3><strong>165</strong></div><div class="metric"><h3>仅发现关联主体文件</h3><strong>6</strong></div><div class="metric"><h3>上市子公司报告</h3><strong>5</strong></div><div class="metric"><h3>集团关联经营主体报告</h3><strong>1</strong></div>
+            <div class="metric"><h3>开放未决匹配</h3><strong>167</strong></div><div class="metric"><h3>库内无母公司主报告</h3><strong>161</strong></div><div class="metric"><h3>仅发现关联主体文件</h3><strong>6</strong></div><div class="metric"><h3>值得二次检索补库</h3><strong>129</strong></div><div class="metric"><h3>当前库内确缺主报告</h3><strong>44</strong></div><div class="metric"><h3>上市子公司报告</h3><strong>5</strong></div><div class="metric"><h3>集团关联经营主体报告</h3><strong>1</strong></div>
           </div>
           <div class="card" style="margin-top:16px;">
   <div class="review-cases-head">
@@ -72,7 +72,7 @@
     <span class="review-count">6</span>
   </div>
   <p>仅找到集团体系内其他主体文件，当前不能直接挂靠到母公司名下。</p>
-  <div class="review-bar"><span style="width:3.5%;"></span></div>
+  <div class="review-bar"><span style="width:3.6%;"></span></div>
 </div><div class="review-list-item" style="--review-tone:#c76b2d;">
   <div class="review-list-top">
     <span class="review-badge">仅发现附录/非主报告</span>
@@ -83,10 +83,31 @@
 </div><div class="review-list-item" style="--review-tone:#9b3d2f;">
   <div class="review-list-top">
     <span class="review-badge">库内无母公司主报告</span>
-    <span class="review-count">165</span>
+    <span class="review-count">161</span>
   </div>
   <p>在现有库存中未定位到可安全归属于母公司的主报告文件。</p>
-  <div class="review-bar"><span style="width:96.5%;"></span></div>
+  <div class="review-bar"><span style="width:96.4%;"></span></div>
+</div>
+          </div>
+        </article>
+            <article class="card review-brief-card">
+          <h3>“无母公司主报告”二级分流</h3>
+          <p class="review-summary">已将“库内无母公司主报告”进一步区分为“值得二次检索补库”与“当前库内确实缺主报告文件”。前者说明当前仍存在下载、seed 或候选信号，后者则表示现有库内暂无可追索线索，不宜继续硬配。</p>
+          <div class="review-list">
+            <div class="review-list-item" style="--review-tone:#c76b2d;">
+  <div class="review-list-top">
+    <span class="review-badge">值得二次检索补库</span>
+    <span class="review-count">129</span>
+  </div>
+  <p>当前还有可追索信号，如名单下载字段、seed 候选或近似命中，适合继续补库。</p>
+  <div class="review-bar"><span style="width:74.6%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#9b3d2f;">
+  <div class="review-list-top">
+    <span class="review-badge">当前库内确实缺主报告文件</span>
+    <span class="review-count">44</span>
+  </div>
+  <p>现有库内未出现可追索的下载或候选信号，应先作为缺口台账保留。</p>
+  <div class="review-bar"><span style="width:25.4%;"></span></div>
 </div>
           </div>
         </article>
@@ -111,6 +132,185 @@
 </div>
           </div>
         </article>
+          </div>
+          <div style="margin-top:16px;">
+            <div class="card">
+          <div class="review-cases-head">
+            <h3>无主报告二级诊断样例</h3>
+            <p>优先展示最值得二次检索补库的目标，同时补充当前库内确缺主报告的代表样例，便于在汇报时说明“继续补采”与“先冻结缺口”的边界。</p>
+          </div>
+          <div class="review-case-grid">
+            <article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 3</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>国家电网有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 公用设施</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2024_ALLSTATE SustainabilityReport_FINAL.pdf；当前候选池仍有 7 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 22</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>中国工商银行股份有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 银行：商业储蓄</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2023-BANK OF NEW YORK MELLON sustainability-report.pdf；当前候选池仍有 40 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 30</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>中国建设银行股份有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 银行：商业储蓄</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2023-BANK OF NEW YORK MELLON sustainability-report.pdf；当前候选池仍有 8 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 43</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>中国铁道建筑集团有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 工程与建筑</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2024-CHINA VANKE-sustainability-report.pdf；当前候选池仍有 1 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 9</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>伯克希尔－哈撒韦公司</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 财产与意外保险（股份）</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 40</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>Elevance Health公司</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 保健：保险和管理医保</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 51</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>克罗格</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 食品店和杂货店</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 76</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>美国康卡斯特电信公司</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 电信</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article>
+          </div>
+        </div>
           </div>
           <div style="margin-top:16px;">
             <div class="card">
@@ -255,7 +455,7 @@
               <p>如需在正式汇报后继续追溯诊断明细、人工复核清单与 Excel 台账，可从这里直接下载。</p>
             </div>
             <div class="downloads">
-              <a class="btn alt" href="../assets/data/review/high_value_backfill_summary.json">下载高价值回填任务 JSON</a><a class="btn alt" href="../assets/data/review/world500_unmatched_diagnosis.csv">下载未匹配诊断 CSV</a><a class="btn alt" href="../assets/downloads/world500_unmatched_diagnosis.xlsx">下载未匹配诊断 Excel</a><a class="btn alt" href="../assets/data/review/world500_affiliate_only_review_list.csv">下载关联主体复核 CSV</a><a class="btn alt" href="../assets/downloads/world500_affiliate_only_review_list.xlsx">下载关联主体复核 Excel</a>
+              <a class="btn alt" href="../assets/data/review/high_value_backfill_summary.json">下载高价值回填任务 JSON</a><a class="btn alt" href="../assets/data/review/world500_unmatched_diagnosis.csv">下载未匹配诊断 CSV</a><a class="btn alt" href="../assets/downloads/world500_unmatched_diagnosis.xlsx">下载未匹配诊断 Excel</a><a class="btn alt" href="../assets/data/review/world500_affiliate_only_review_list.csv">下载关联主体复核 CSV</a><a class="btn alt" href="../assets/downloads/world500_affiliate_only_review_list.xlsx">下载关联主体复核 Excel</a><a class="btn alt" href="../assets/data/review/world500_no_parent_gap_review_list.csv">下载无主报告二级诊断 CSV</a><a class="btn alt" href="../assets/downloads/world500_no_parent_gap_review_list.xlsx">下载无主报告二级诊断 Excel</a><a class="btn alt" href="../assets/data/review/world500_retrieval_batch_01_high_priority.csv">下载高优先补采批次 CSV</a><a class="btn alt" href="../assets/downloads/world500_retrieval_batch_01_high_priority.xlsx">下载高优先补采批次 Excel</a>
             </div>
           </div>
         </section>
@@ -264,12 +464,187 @@
 
 <section class="section">
   <div class="section-head">
+    <h2>500 份正式推进版 / Batch 13 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 13 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 13 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 13 图谱节点</h3><strong>1,081</strong></div><div class="metric"><h3>Batch 13 图谱关系</h3><strong>3,845</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_13_kg.graphml">下载 Batch 13 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_13_nodes.csv">下载 Batch 13 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_13_edges.csv">下载 Batch 13 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_13_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_13_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_13_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 13 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>浙江吉利控股集团有限公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>浙江吉利控股集团有限公司</td><td>IFRS S2</td><td>气候披露标准</td><td>披露标准</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>浙江吉利控股集团有限公司</td><td>GB/T 36001-2015</td><td>其他报告框架</td><td>指引</td><td>企业整体披露</td><td>GB/T 36001-2015</td><td>4</td></tr><tr><td>浙江吉利控股集团有限公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>39</td></tr><tr><td>丰益国际</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>丰益国际</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>丰益国际</td><td>IFRS S2</td><td>气候披露标准</td><td>披露标准</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>丰益国际</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>6</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 13 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>LG电子</td><td>范围1</td><td>推导数据</td><td>报告披露</td><td>运营废弃物</td><td></td><td>25</td></tr><tr><td>LG电子</td><td>范围1</td><td>推导数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>25</td></tr><tr><td>LG电子</td><td>范围3</td><td>推导数据</td><td>报告披露</td><td>运营废弃物</td><td></td><td>25</td></tr><tr><td>LG电子</td><td>范围3</td><td>推导数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>25</td></tr><tr><td>保德信金融集团</td><td>范围1</td><td></td><td>鉴证</td><td>商务差旅</td><td></td><td>47</td></tr><tr><td>保德信金融集团</td><td>范围2</td><td></td><td>鉴证</td><td>商务差旅</td><td></td><td>47</td></tr><tr><td>保德信金融集团</td><td>范围3</td><td></td><td>鉴证</td><td>商务差旅</td><td></td><td>47</td></tr><tr><td>保德信金融集团</td><td>范围1</td><td></td><td>鉴证</td><td>商务差旅</td><td></td><td>56</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 13 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>浙江吉利控股集团有限公司</td><td>185</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>丰益国际</td><td>198</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>日本永旺集团</td><td>203</td><td>F</td><td>批发和零售业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>HCA 医疗保健公司</td><td>207</td><td>S</td><td>公共管理、社会保障和社会组织</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>LG电子</td><td>209</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>达美航空</td><td>237</td><td>G</td><td>交通运输、仓储和邮政业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>德国艾德卡公司</td><td>257</td><td>F</td><td>批发和零售业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>保德信金融集团</td><td>266</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 12 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 12 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 12 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 12 图谱节点</h3><strong>1,900</strong></div><div class="metric"><h3>Batch 12 图谱关系</h3><strong>7,125</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_12_kg.graphml">下载 Batch 12 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_12_nodes.csv">下载 Batch 12 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_12_edges.csv">下载 Batch 12 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_12_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_12_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_12_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 12 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>亚马逊</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>亚马逊</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>亚马逊</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>亚马逊</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>16</td></tr><tr><td>Alphabet公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>77</td></tr><tr><td>Alphabet公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>77</td></tr><tr><td>Alphabet公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>80</td></tr><tr><td>Alphabet公司</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>82</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 12 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>Alphabet公司</td><td>范围1</td><td>次级数据</td><td>报告披露</td><td>散逸性排放</td><td></td><td>98</td></tr><tr><td>Alphabet公司</td><td>范围1</td><td>次级数据</td><td>报告披露</td><td>外购电力</td><td></td><td>98</td></tr><tr><td>Alphabet公司</td><td>范围1</td><td>次级数据</td><td>报告披露</td><td></td><td></td><td>98</td></tr><tr><td>Alphabet公司</td><td>范围2</td><td>次级数据</td><td>报告披露</td><td>散逸性排放</td><td></td><td>98</td></tr><tr><td>Alphabet公司</td><td>范围2</td><td>次级数据</td><td>报告披露</td><td>外购电力</td><td></td><td>98</td></tr><tr><td>Alphabet公司</td><td>范围2</td><td>次级数据</td><td>报告披露</td><td></td><td></td><td>98</td></tr><tr><td>Alphabet公司</td><td>范围1</td><td>次级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>99</td></tr><tr><td>Alphabet公司</td><td>范围3</td><td>次级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>99</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 12 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>亚马逊</td><td>2</td><td>F</td><td>批发和零售业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>Alphabet公司</td><td>17</td><td>F</td><td>批发和零售业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>英国石油公司</td><td>25</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>本田汽车</td><td>57</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>Meta Platforms公司</td><td>66</td><td>F</td><td>批发和零售业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>威瑞森电信</td><td>68</td><td>I</td><td>信息传输、软件和信息技术服务业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>意大利国家电力公司</td><td>97</td><td>I</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>埃尼石油公司</td><td>98</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 11 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 11 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 11 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 11 图谱节点</h3><strong>1,231</strong></div><div class="metric"><h3>Batch 11 图谱关系</h3><strong>4,345</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_11_kg.graphml">下载 Batch 11 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_11_nodes.csv">下载 Batch 11 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_11_edges.csv">下载 Batch 11 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_11_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_11_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_11_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 11 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>中国工商银行股份有限公司</td><td>ISO 14064</td><td>其他报告框架</td><td>指引</td><td>企业整体披露</td><td></td><td>73</td></tr><tr><td>中国工商银行股份有限公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>76</td></tr><tr><td>中国建设银行股份有限公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>28</td></tr><tr><td>中国建设银行股份有限公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>54</td></tr><tr><td>中国建设银行股份有限公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>153</td></tr><tr><td>中国建设银行股份有限公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>153</td></tr><tr><td>通用汽车公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>通用汽车公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>2</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 11 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>皇家阿霍德德尔海兹集团</td><td></td><td>次级数据</td><td>报告披露</td><td>商务差旅</td><td></td><td>181</td></tr><tr><td>蒙特利尔银行</td><td>范围3</td><td>次级数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>81</td></tr><tr><td>蒙特利尔银行</td><td>范围1</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>87</td></tr><tr><td>蒙特利尔银行</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>87</td></tr><tr><td>蒙特利尔银行</td><td>范围1</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>88</td></tr><tr><td>蒙特利尔银行</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>88</td></tr><tr><td>蒙特利尔银行</td><td>范围1</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>112</td></tr><tr><td>蒙特利尔银行</td><td>范围2</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>112</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 11 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>中国工商银行股份有限公司</td><td>22</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国建设银行股份有限公司</td><td>30</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>通用汽车公司</td><td>39</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>法国电力公司</td><td>49</td><td>I</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国平安保险（集团）股份有限公司</td><td>53</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国海洋石油集团有限公司</td><td>56</td><td>B</td><td>采矿业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国五矿集团有限公司</td><td>69</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国南方电网有限责任公司</td><td>78</td><td>I</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 10 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 10 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 10 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 10 图谱节点</h3><strong>1,807</strong></div><div class="metric"><h3>Batch 10 图谱关系</h3><strong>7,179</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_10_kg.graphml">下载 Batch 10 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_10_nodes.csv">下载 Batch 10 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_10_edges.csv">下载 Batch 10 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_10_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_10_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_10_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 10 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>捷普公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>捷普公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>捷普公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>捷普公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>39</td></tr><tr><td>捷普公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>55</td></tr><tr><td>澳大利亚国民银行</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>澳大利亚国民银行</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>19</td></tr><tr><td>澳大利亚国民银行</td><td>PCAF</td><td>投融资排放核算体系</td><td>核算标准</td><td>范围3</td><td></td><td>49</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 10 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>澳大利亚国民银行</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>75</td></tr><tr><td>澳大利亚国民银行</td><td>范围1</td><td>推导数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>80</td></tr><tr><td>澳大利亚国民银行</td><td>范围3</td><td>推导数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>80</td></tr><tr><td>澳大利亚国民银行</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>散逸性排放</td><td></td><td>81</td></tr><tr><td>澳大利亚国民银行</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>81</td></tr><tr><td>澳大利亚国民银行</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>84</td></tr><tr><td>澳大利亚国民银行</td><td>范围1</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>92</td></tr><tr><td>澳大利亚国民银行</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>投融资排放</td><td></td><td>92</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 10 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>捷普公司</td><td>448</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>澳大利亚国民银行</td><td>449</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>SAP公司</td><td>450</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>中国中车集团有限公司</td><td>451</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>莱纳公司</td><td>453</td><td>E</td><td>建筑业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>损保控股有限公司</td><td>454</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>美国礼来公司</td><td>455</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>康明斯公司</td><td>459</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 09 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 09 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 09 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 09 图谱节点</h3><strong>1,172</strong></div><div class="metric"><h3>Batch 09 图谱关系</h3><strong>4,203</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_09_kg.graphml">下载 Batch 09 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_09_nodes.csv">下载 Batch 09 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_09_edges.csv">下载 Batch 09 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_09_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_09_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_09_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 09 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>日本明治安田生命保险公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>森科能源公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>67</td></tr><tr><td>森科能源公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>68</td></tr><tr><td>森科能源公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>71</td></tr><tr><td>森科能源公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>71</td></tr><tr><td>Uber Technologies公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>Uber Technologies公司</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>3</td></tr><tr><td>Uber Technologies公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>7</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 09 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>博通公司</td><td>范围1</td><td>估算数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>62</td></tr><tr><td>博通公司</td><td>范围2</td><td>估算数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>62</td></tr><tr><td>博通公司</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>62</td></tr><tr><td>博通公司</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>商务差旅</td><td></td><td>62</td></tr><tr><td>博通公司</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>62</td></tr><tr><td>赛富时</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>88</td></tr><tr><td>赛富时</td><td></td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>102</td></tr><tr><td>赛富时</td><td>范围2</td><td>次级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>102</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 09 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>日本明治安田生命保险公司</td><td>399</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>森科能源公司</td><td>401</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>Uber Technologies公司</td><td>403</td><td>F</td><td>批发和零售业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>铃木汽车</td><td>406</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>海尔智家股份有限公司</td><td>407</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>法国邮政</td><td>409</td><td>G</td><td>交通运输、仓储和邮政业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>霍尼韦尔国际公司</td><td>413</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>三菱电机股份有限公司</td><td>416</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 08 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 08 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 08 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 08 图谱节点</h3><strong>1,285</strong></div><div class="metric"><h3>Batch 08 图谱关系</h3><strong>4,805</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_08_kg.graphml">下载 Batch 08 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_08_nodes.csv">下载 Batch 08 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_08_edges.csv">下载 Batch 08 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_08_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_08_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_08_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 08 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>中国机械工业集团有限公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>中国机械工业集团有限公司</td><td>GB/T 36001-2015</td><td>其他报告框架</td><td>指引</td><td>企业整体披露</td><td>GB/T 36001-2015</td><td>3</td></tr><tr><td>Talanx公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>Talanx公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>Talanx公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>6</td></tr><tr><td>Talanx公司</td><td>PCAF</td><td>投融资排放核算体系</td><td>核算标准</td><td>范围3</td><td></td><td>21</td></tr><tr><td>Talanx公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>32</td></tr><tr><td>Talanx公司</td><td>ISO 14064</td><td>其他报告框架</td><td>指引</td><td>企业整体披露</td><td></td><td>33</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 08 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>百时美施贵宝公司</td><td>范围1</td><td>次级数据</td><td>鉴证</td><td>移动排放源</td><td></td><td>66</td></tr><tr><td>百时美施贵宝公司</td><td>范围1</td><td>次级数据</td><td>鉴证</td><td>价值链活动</td><td></td><td>66</td></tr><tr><td>百时美施贵宝公司</td><td>范围3</td><td>次级数据</td><td>鉴证</td><td>移动排放源</td><td></td><td>66</td></tr><tr><td>百时美施贵宝公司</td><td>范围3</td><td>次级数据</td><td>鉴证</td><td>价值链活动</td><td></td><td>66</td></tr><tr><td>西班牙电话公司</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>商务差旅</td><td></td><td>111</td></tr><tr><td>赛默飞世尔科技公司</td><td>范围1</td><td>初级数据</td><td>报告披露</td><td>散逸性排放</td><td></td><td>86</td></tr><tr><td>赛默飞世尔科技公司</td><td>范围1</td><td>初级数据</td><td>报告披露</td><td>商务差旅</td><td></td><td>86</td></tr><tr><td>赛默飞世尔科技公司</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>散逸性排放</td><td></td><td>86</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 08 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>中国机械工业集团有限公司</td><td>326</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>Talanx公司</td><td>327</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>阿斯利康</td><td>329</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>巴西联邦储蓄银行</td><td>334</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>CHS公司</td><td>335</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>现代摩比斯公司</td><td>339</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>百时美施贵宝公司</td><td>342</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>德国大陆集团</td><td>344</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 07 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 07 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 07 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 07 图谱节点</h3><strong>1,513</strong></div><div class="metric"><h3>Batch 07 图谱关系</h3><strong>5,737</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="../assets/data/world500/graph/world500_batch_07_kg.graphml">下载 Batch 07 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_07_nodes.csv">下载 Batch 07 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_batch_07_edges.csv">下载 Batch 07 edges.csv</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_07_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_07_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="../assets/data/world500/curated/world500_batch_07_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 07 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>力拓集团</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>35</td></tr><tr><td>力拓集团</td><td>IFRS S2</td><td>气候披露标准</td><td>披露标准</td><td>企业整体披露</td><td></td><td>50</td></tr><tr><td>力拓集团</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>55</td></tr><tr><td>力拓集团</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>77</td></tr><tr><td>联合航空控股公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>联合航空控股公司</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>41</td></tr><tr><td>联合航空控股公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>43</td></tr><tr><td>联合航空控股公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>87</td></tr></table></div></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="table-card"><h3>Batch 07 表2 排放方法与数据质量事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>Scope</th><th>数据类型</th><th>核查/鉴证环节</th><th>活动类别</th><th>估算/推导依据</th><th>证据页码</th></tr><tr><td>意大利联合圣保罗银行</td><td>范围1</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>102</td></tr><tr><td>意大利联合圣保罗银行</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>102</td></tr><tr><td>力拓集团</td><td>范围3</td><td>估算数据</td><td>报告披露</td><td></td><td></td><td>76</td></tr><tr><td>Iberdrola公司</td><td>范围3</td><td>初级数据</td><td>报告披露</td><td>价值链活动</td><td></td><td>115</td></tr><tr><td>美国航空集团</td><td>范围1</td><td></td><td>报告披露</td><td>价值链活动</td><td></td><td>90</td></tr><tr><td>美国航空集团</td><td>范围2</td><td></td><td>报告披露</td><td>价值链活动</td><td></td><td>90</td></tr><tr><td>美国航空集团</td><td>范围3</td><td></td><td>报告披露</td><td>价值链活动</td><td></td><td>90</td></tr><tr><td>美国航空集团</td><td>范围1</td><td>次级数据</td><td>报告披露</td><td>外购电力</td><td></td><td>94</td></tr></table></div></div>
+    <div class="table-card"><h3>Batch 07 表3 企业行业归类节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>世界500强排名</th><th>GB/T 4754 门类代码</th><th>门类名称</th><th>映射依据</th></tr><tr><td>力拓集团</td><td>264</td><td>B</td><td>采矿业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>联合航空控股公司</td><td>270</td><td>G</td><td>交通运输、仓储和邮政业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>Iberdrola公司</td><td>273</td><td>I</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>日本出光兴产株式会社</td><td>275</td><td>D</td><td>电力、热力、燃气及水生产和供应业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>美国航空集团</td><td>278</td><td>G</td><td>交通运输、仓储和邮政业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>沃尔沃集团</td><td>282</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>意大利联合圣保罗银行</td><td>283</td><td>J</td><td>金融业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr><tr><td>拜耳集团</td><td>286</td><td>C</td><td>制造业</td><td>Directly mapped from the world500 registry GB/T 4754-2017 section field.</td></tr></table></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
     <h2>500 份正式推进版 / Batch 06 回填</h2>
     <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 06 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 06 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 06 图谱节点</h3><strong>1,184</strong></div><div class="metric"><h3>Batch 06 图谱关系</h3><strong>4,381</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 06 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 06 图谱节点</h3><strong>1,184</strong></div><div class="metric"><h3>Batch 06 图谱关系</h3><strong>4,381</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -278,7 +653,7 @@
     </div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
-    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
     <div class="table-card"><h3>Batch 06 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>StoneX集团</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>9</td></tr><tr><td>苏黎世保险集团</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>3</td></tr><tr><td>苏黎世保险集团</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>5</td></tr><tr><td>苏黎世保险集团</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>6</td></tr><tr><td>苏黎世保险集团</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>7</td></tr><tr><td>苏黎世保险集团</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>10</td></tr><tr><td>苏黎世保险集团</td><td>PCAF</td><td>投融资排放核算体系</td><td>核算标准</td><td>范围3</td><td></td><td>13</td></tr><tr><td>苏黎世保险集团</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>57</td></tr></table></div></div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
@@ -294,7 +669,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 05 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 05 图谱节点</h3><strong>1,229</strong></div><div class="metric"><h3>Batch 05 图谱关系</h3><strong>4,748</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 05 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 05 图谱节点</h3><strong>1,229</strong></div><div class="metric"><h3>Batch 05 图谱关系</h3><strong>4,748</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -303,7 +678,7 @@
     </div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
-    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
     <div class="table-card"><h3>Batch 05 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>多伦多道明银行</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>多伦多道明银行</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>多伦多道明银行</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>多伦多道明银行</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>56</td></tr><tr><td>多伦多道明银行</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>58</td></tr><tr><td>多伦多道明银行</td><td>PCAF</td><td>投融资排放核算体系</td><td>核算标准</td><td>范围3</td><td></td><td>60</td></tr><tr><td>多伦多道明银行</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>93</td></tr><tr><td>卢克石油公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>2</td></tr></table></div></div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
@@ -319,7 +694,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 04 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 04 图谱节点</h3><strong>989</strong></div><div class="metric"><h3>Batch 04 图谱关系</h3><strong>3,525</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 04 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 04 图谱节点</h3><strong>989</strong></div><div class="metric"><h3>Batch 04 图谱关系</h3><strong>3,525</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -328,7 +703,7 @@
     </div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
-    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
     <div class="table-card"><h3>Batch 04 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>华特迪士尼公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>华特迪士尼公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>华特迪士尼公司</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>21</td></tr><tr><td>华特迪士尼公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>23</td></tr><tr><td>波兰国营石油公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>3</td></tr><tr><td>波兰国营石油公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>119</td></tr><tr><td>戴尔科技公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>1</td></tr><tr><td>戴尔科技公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>1</td></tr></table></div></div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
@@ -344,7 +719,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 03 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 03 图谱节点</h3><strong>1,385</strong></div><div class="metric"><h3>Batch 03 图谱关系</h3><strong>5,193</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 03 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 03 图谱节点</h3><strong>1,385</strong></div><div class="metric"><h3>Batch 03 图谱关系</h3><strong>5,193</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -353,7 +728,7 @@
     </div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
-    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
     <div class="table-card"><h3>Batch 03 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>Uniper公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>6</td></tr><tr><td>Uniper公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>21</td></tr><tr><td>Uniper公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>21</td></tr><tr><td>Uniper公司</td><td>IFRS S2</td><td>气候披露标准</td><td>披露标准</td><td>企业整体披露</td><td></td><td>21</td></tr><tr><td>Uniper公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>30</td></tr><tr><td>安联保险集团</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>8</td></tr><tr><td>安联保险集团</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>75</td></tr><tr><td>安联保险集团</td><td>PCAF</td><td>投融资排放核算体系</td><td>核算标准</td><td>范围3</td><td></td><td>76</td></tr></table></div></div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
@@ -369,7 +744,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 02 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 02 图谱节点</h3><strong>934</strong></div><div class="metric"><h3>Batch 02 图谱关系</h3><strong>3,337</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 02 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 02 图谱节点</h3><strong>934</strong></div><div class="metric"><h3>Batch 02 图谱关系</h3><strong>3,337</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -378,7 +753,7 @@
     </div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
-    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
     <div class="table-card"><h3>Batch 02 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>福特汽车公司</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>TCFD</td><td>气候信息披露框架</td><td>披露建议</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>ESRS/CSRD</td><td>欧盟可持续披露体系</td><td>披露标准</td><td>企业整体披露</td><td></td><td>4</td></tr><tr><td>福特汽车公司</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>5</td></tr><tr><td>福特汽车公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>44</td></tr><tr><td>福特汽车公司</td><td>ISO 14064</td><td>其他报告框架</td><td>指引</td><td>企业整体披露</td><td></td><td>67</td></tr><tr><td>中国银行股份有限公司</td><td>GB/T 2589-2020</td><td>国家标准体系</td><td>计量标准</td><td>范围1|范围2</td><td>GB/T 2589-2020</td><td>24</td></tr></table></div></div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
@@ -394,7 +769,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 01 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 01 图谱节点</h3><strong>1,307</strong></div><div class="metric"><h3>Batch 01 图谱关系</h3><strong>4,866</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 01 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 01 图谱节点</h3><strong>1,307</strong></div><div class="metric"><h3>Batch 01 图谱关系</h3><strong>4,866</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -403,7 +778,7 @@
     </div>
   </div>
   <div class="grid-2" style="margin-top:16px;">
-    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>319</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>171</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>10</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>42,846</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>74,651</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>221 / 279 / 127</td><td>匹配任务 221 条，抽取任务 279 条，回填任务 127 条。</td></tr></table></div></div>
+    <div class="table-card"><h3>500 份推进状态摘要</h3><div class="table-wrap"><table><tr><th>项目</th><th>数值</th><th>说明</th></tr><tr><td>已确认匹配报告</td><td>332</td><td>包含自动高置信、自动中置信与人工确认匹配。</td></tr><tr><td>待人工校核未决匹配</td><td>167</td><td>相较原始 203 条未决匹配，当前仅保留开放校核项。</td></tr><tr><td>人工确认暂无公开文件</td><td>1</td><td>经人工判断，当前语料目录中暂无对应公开报告文件。</td></tr><tr><td>页级抽取覆盖</td><td>44,870</td><td>仅按当前已确认匹配报告统计，不混入历史失配结果。</td></tr><tr><td>证据候选覆盖</td><td>78,134</td><td>基于当前已确认匹配报告重新生成的证据候选总量。</td></tr><tr><td>当前 review queue</td><td>218 / 288 / 133</td><td>匹配任务 218 条，抽取任务 288 条，回填任务 133 条。</td></tr></table></div></div>
     <div class="table-card"><h3>Batch 01 表1 标准与准则事实节选</h3><div class="table-wrap"><table><tr><th>企业</th><th>标准/准则</th><th>所属体系</th><th>标准角色</th><th>Scope 适用</th><th>GB/GB-T 代码</th><th>证据页码</th></tr><tr><td>沃尔玛</td><td>IFRS S2</td><td>气候披露标准</td><td>披露标准</td><td>企业整体披露</td><td></td><td>2</td></tr><tr><td>沃尔玛</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>7</td></tr><tr><td>沃尔玛</td><td>ISO 14064-3</td><td>ISO鉴证体系</td><td>核查与鉴证标准</td><td>范围1|范围2|范围3</td><td></td><td>7</td></tr><tr><td>沃尔玛</td><td>SBTi</td><td>气候目标治理体系</td><td>目标审定指引</td><td>范围1|范围2|范围3</td><td></td><td>30</td></tr><tr><td>沃尔玛</td><td>GRI</td><td>ESG披露框架</td><td>披露标准</td><td>企业整体披露</td><td></td><td>101</td></tr><tr><td>沃尔玛</td><td>SASB</td><td>行业披露框架</td><td>披露指引</td><td>企业整体披露</td><td></td><td>102</td></tr><tr><td>沙特阿美公司</td><td>GHG Protocol</td><td>温室气体核算体系</td><td>核算标准</td><td>范围1|范围2|范围3</td><td></td><td>2</td></tr><tr><td>沙特阿美公司</td><td>ISO 14067</td><td>ISO产品碳足迹标准</td><td>方法学标准</td><td>范围3</td><td></td><td>23</td></tr></table></div></div>
   </div>
   <div class="grid-2" style="margin-top:16px;">

@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-04-15 18:50:37",
+  "batch_id": "world500_retrieval_batch_01",
+  "batch_name_zh": "world500 高优先补采批次 01",
+  "task_count": 23,
+  "status_counts": {
+    "confirmed_local_override": 12,
+    "local_checked_external_needed": 9,
+    "official_related_report_only": 1,
+    "listed_company_report_found_not_parent": 1
+  },
+  "override_written_counts": {
+    "yes": 12,
+    "no": 11
+  },
+  "confirmed_company_ids": [
+    "r022_industrialandcommercialbankofchina",
+    "r030_chinaconstructionbank",
+    "r156_uspostalservice",
+    "r220_nipponsteelcorporation",
+    "r272_performancefoodgroup公司",
+    "r294_bankofmontreal",
+    "r374_lufthansagroup",
+    "r114_royalaholddelhaize",
+    "r069_chinaminmetals",
+    "r056_chinanationaloffshoreoil",
+    "r078_chinasouthernpowergrid",
+    "r149_procterandgamble"
+  ],
+  "top_rows": [
+    {
+      "世界500强排名": "3",
+      "企业ID": "r003_stategrid",
+      "企业名称（中文）": "国家电网有限公司",
+      "Company Name (EN)": "STATE GRID",
+      "执行状态": "official_related_report_only",
+      "检索结果": "已发现国家电网系统内官方专题报告与省级公司责任报告线索，但尚未拿到可安全归属国家电网母公司的年度主报告。",
+      "定位文件名": "",
+      "是否已写回override": "no"
+    },
+    {
+      "世界500强排名": "22",
+      "企业ID": "r022_industrialandcommercialbankofchina",
+      "企业名称（中文）": "中国工商银行股份有限公司",
+      "Company Name (EN)": "INDUSTRIAL & COMMERCIAL BANK OF CHINA",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已通过官方直链补采并在本地确认 ICBC 2024 母公司可持续发展报告，已写回 override。",
+      "定位文件名": "ICBC_2024_Sustainability_Report.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "30",
+      "企业ID": "r030_chinaconstructionbank",
+      "企业名称（中文）": "中国建设银行股份有限公司",
+      "Company Name (EN)": "CHINA CONSTRUCTION BANK",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已通过官方直链补采并在本地确认 CCB 2024 母公司可持续发展报告，已写回 override。",
+      "定位文件名": "CCB_2024_Sustainability_Report.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "43",
+      "企业ID": "r043_chinarailwayconstruction",
+      "企业名称（中文）": "中国铁道建筑集团有限公司",
+      "Company Name (EN)": "CHINA RAILWAY CONSTRUCTION",
+      "执行状态": "listed_company_report_found_not_parent",
+      "检索结果": "已定位到上市主体 China Railway Construction Corporation Limited 的 2024 年报和可持续发展报告，但主体边界仍不同于母集团。",
+      "定位文件名": "33812651.pdf",
+      "是否已写回override": "no"
+    },
+    {
+      "世界500强排名": "56",
+      "企业ID": "r056_chinanationaloffshoreoil",
+      "企业名称（中文）": "中国海洋石油集团有限公司",
+      "Company Name (EN)": "CHINA NATIONAL OFFSHORE OIL",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已通过官方集团直链补采并在本地确认中国海油集团 2024 社会责任报告，已写回 override。",
+      "定位文件名": "CNOOC_Group_2024_Social_Responsibility_Report.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "69",
+      "企业ID": "r069_chinaminmetals",
+      "企业名称（中文）": "中国五矿集团有限公司",
+      "Company Name (EN)": "CHINA MINMETALS",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已由人工下载补入本地语料并确认中国五矿 2024 母公司可持续发展报告，已写回 override。",
+      "定位文件名": "34033037.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "78",
+      "企业ID": "r078_chinasouthernpowergrid",
+      "企业名称（中文）": "中国南方电网有限责任公司",
+      "Company Name (EN)": "CHINA SOUTHERN POWER GRID",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已由人工补入本地语料并确认南方电网 2024 母公司企业社会责任报告，已写回 override。",
+      "定位文件名": "34056978.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "114",
+      "企业ID": "r114_royalaholddelhaize",
+      "企业名称（中文）": "皇家阿霍德德尔海兹集团",
+      "Company Name (EN)": "ROYAL AHOLD DELHAIZE",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已通过官方直链补采并在本地确认 Ahold Delhaize 2024 母公司年度主报告，已写回 override。",
+      "定位文件名": "Ahold_Delhaize_Annual_Report_2024.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "149",
+      "企业ID": "r149_procterandgamble",
+      "企业名称（中文）": "宝洁公司",
+      "Company Name (EN)": "PROCTER & GAMBLE",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已通过官方直链补采并在本地确认 P&G 2024 年报，已写回 override。",
+      "定位文件名": "PG_2024_Annual_Report.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "156",
+      "企业ID": "r156_uspostalservice",
+      "企业名称（中文）": "美国邮政",
+      "Company Name (EN)": "U.S. POSTAL SERVICE",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已在本地库存确认 USPS 2024 母公司主报告，并写回 override。",
+      "定位文件名": "usps-impact-report-2024.pdf",
+      "是否已写回override": "yes"
+    },
+    {
+      "世界500强排名": "171",
+      "企业ID": "r171_shenghongholdinggroup",
+      "企业名称（中文）": "盛虹控股集团有限公司",
+      "Company Name (EN)": "SHENGHONG HOLDING GROUP",
+      "执行状态": "local_checked_external_needed",
+      "检索结果": "已完成本地库存核验；未发现可安全归属盛虹控股集团母公司的正式主报告，需继续集团官网补采。",
+      "定位文件名": "",
+      "是否已写回override": "no"
+    },
+    {
+      "世界500强排名": "220",
+      "企业ID": "r220_nipponsteelcorporation",
+      "企业名称（中文）": "日本制铁集团公司",
+      "Company Name (EN)": "NIPPON STEEL CORPORATION",
+      "执行状态": "confirmed_local_override",
+      "检索结果": "已在本地库存确认 Nippon Steel 2023 母公司可持续发展报告，并写回 override。",
+      "定位文件名": "NIPPON sustainability report2023en.pdf",
+      "是否已写回override": "yes"
+    }
+  ],
+  "csv_path": "C:\\Users\\lenovo\\Desktop\\一些任务\\董敬轩\\知识图谱\\fortune500_esg_kg_demo\\data\\review\\world500_retrieval_batch_01_high_priority.csv",
+  "xlsx_path": "C:\\Users\\lenovo\\Desktop\\一些任务\\董敬轩\\知识图谱\\fortune500_esg_kg_demo\\data\\review\\world500_retrieval_batch_01_high_priority.xlsx"
+}

@@ -25,6 +25,20 @@
               </div>
             </section>
 
+            <section class="section">
+  <div class="section-head">
+    <h2>500 家当前状态总分布</h2>
+    <p>这张表以公司级互斥状态为口径，直接汇总当前 500 家正式推进对象分别处于“已发布成果、待发布、未匹配待补库/复核”中的哪一类，并保持合计严格闭合到 500 家。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已完成正式批次并接入站点</h3><strong>325</strong></div><div class="metric"><h3>已匹配待发布</h3><strong>7</strong></div><div class="metric"><h3>未匹配待补库/复核</h3><strong>168</strong></div><div class="metric"><h3>当前 review queue 条目</h3><strong>639</strong></div>
+  </div>
+  <div class="grid-2" style="margin-top:16px;"><article class="card"><h3>状态口径摘要</h3><p class="review-summary">当前正式成果主体已经形成，但未匹配对象仍以“库内无母公司主报告”为主，说明后续工作的重点不再是简单别名修正，而是补库、质检和证据补齐。</p></article><article class="card"><h3>未匹配诊断要点</h3><p class="review-summary">开放未决匹配中，绝大部分是当前库存内没有可安全归属母公司的正式主报告。</p><div class="review-kv"><div class="review-kv-item"><strong>库内无母公司主报告</strong><span>161</span></div><div class="review-kv-item"><strong>仅发现子公司/关联主体文件</strong><span>6</span></div><div class="review-kv-item"><strong>人工判定驳回的错误匹配</strong><span>1</span></div></div></article></div><div class="grid-2" style="margin-top:16px;"><article class="card"><h3>运行队列要点</h3><p class="review-summary">队列的主要压力已经从报告匹配转向抽取质量和证据缺口清理。</p><div class="review-kv"><div class="review-kv-item"><strong>页级抽取质量待复核</strong><span>288</span></div><div class="review-kv-item"><strong>关键证据缺口待补齐</strong><span>133</span></div><div class="review-kv-item"><strong>报告匹配未解决</strong><span>167</span></div><div class="review-kv-item"><strong>匹配结果抽检</strong><span>51</span></div></div></article><article class="card"><h3>500 家当前状态总分布表</h3><p class="review-summary">这张表以公司级互斥状态为口径，直接汇总当前 500 家正式推进对象分别处于“已发布成果、待发布、未匹配待补库/复核”中的哪一类，并保持合计严格闭合到 500 家。</p><div class="downloads"><a class="btn alt" href="./assets/data/review/world500_current_status_distribution_zh.csv">下载状态总分布 CSV</a><a class="btn alt" href="./assets/downloads/world500_current_status_distribution_zh.xlsx">下载状态总分布 Excel</a><a class="btn" href="./assets/data/review/world500_current_status_distribution_summary.json">下载状态摘要 JSON</a></div></article></div>
+  <div style="margin-top:16px;">
+    <div class="table-card"><h3>500 家当前状态总分布表</h3><div class="table-wrap"><table><tr><th>一级状态</th><th>二级状态</th><th>企业数</th><th>占 500 家比例</th><th>当前口径</th><th>下一步处理</th></tr><tr><td>正式成果</td><td>已完成正式批次图谱并接入站点</td><td>325</td><td>65.0%</td><td>已完成报告匹配、页级抽取、证据挖掘、批次图谱构建，并已接入现有发布站点。</td><td>持续清理 extract_quality 与 evidence_gap，并做增量更新。</td></tr><tr><td>待发布</td><td>已匹配且完成抽取/证据，但尚未进入已发布批次</td><td>7</td><td>1.4%</td><td>已完成报告匹配并进入批次编排，但尚未纳入已发布批次成果。</td><td>优先完成待发布批次的正式出图、指标汇总和站点接入。</td></tr><tr><td>未匹配待补库/复核</td><td>库内无母公司主报告</td><td>161</td><td>32.2%</td><td>当前库存中未发现可安全归属母公司的正式主报告文件。</td><td>保持未匹配状态，按高价值对象继续二次检索补库。</td></tr><tr><td>未匹配待补库/复核</td><td>仅发现子公司/关联主体文件</td><td>6</td><td>1.2%</td><td>仅发现上市子公司或关联经营主体材料，不能替代母公司主报告。</td><td>人工复核是否补采母公司主报告；现有关联主体文件不直接入主图谱。</td></tr><tr><td>未匹配待补库/复核</td><td>人工判定驳回的错误匹配</td><td>1</td><td>0.2%</td><td>已存在人工驳回记录，确认当前候选文件不能安全匹配到母公司主报告。</td><td>保留 rejection note，不做硬匹配。</td></tr><tr><td>合计</td><td></td><td>500</td><td>100.0%</td><td>500 家世界500强正式推进对象。</td><td></td></tr></table></div></div>
+  </div>
+</section>
+
 
         <section class="section">
           <div class="section-head">
@@ -32,7 +46,7 @@
             <p>该模块展示当前开放未决匹配的诊断分布，以及“仅发现子公司/关联主体文件”场景下的二级人工复核结构。前者用于解释为什么当前不能硬配母公司主报告，后者用于区分“上市子公司报告”与“集团关联经营主体报告”。</p>
           </div>
           <div class="metric-grid">
-            <div class="metric"><h3>开放未决匹配</h3><strong>171</strong></div><div class="metric"><h3>库内无母公司主报告</h3><strong>165</strong></div><div class="metric"><h3>仅发现关联主体文件</h3><strong>6</strong></div><div class="metric"><h3>上市子公司报告</h3><strong>5</strong></div><div class="metric"><h3>集团关联经营主体报告</h3><strong>1</strong></div>
+            <div class="metric"><h3>开放未决匹配</h3><strong>167</strong></div><div class="metric"><h3>库内无母公司主报告</h3><strong>161</strong></div><div class="metric"><h3>仅发现关联主体文件</h3><strong>6</strong></div><div class="metric"><h3>值得二次检索补库</h3><strong>129</strong></div><div class="metric"><h3>当前库内确缺主报告</h3><strong>44</strong></div><div class="metric"><h3>上市子公司报告</h3><strong>5</strong></div><div class="metric"><h3>集团关联经营主体报告</h3><strong>1</strong></div>
           </div>
           <div class="card" style="margin-top:16px;">
   <div class="review-cases-head">
@@ -58,7 +72,7 @@
     <span class="review-count">6</span>
   </div>
   <p>仅找到集团体系内其他主体文件，当前不能直接挂靠到母公司名下。</p>
-  <div class="review-bar"><span style="width:3.5%;"></span></div>
+  <div class="review-bar"><span style="width:3.6%;"></span></div>
 </div><div class="review-list-item" style="--review-tone:#c76b2d;">
   <div class="review-list-top">
     <span class="review-badge">仅发现附录/非主报告</span>
@@ -69,10 +83,31 @@
 </div><div class="review-list-item" style="--review-tone:#9b3d2f;">
   <div class="review-list-top">
     <span class="review-badge">库内无母公司主报告</span>
-    <span class="review-count">165</span>
+    <span class="review-count">161</span>
   </div>
   <p>在现有库存中未定位到可安全归属于母公司的主报告文件。</p>
-  <div class="review-bar"><span style="width:96.5%;"></span></div>
+  <div class="review-bar"><span style="width:96.4%;"></span></div>
+</div>
+          </div>
+        </article>
+            <article class="card review-brief-card">
+          <h3>“无母公司主报告”二级分流</h3>
+          <p class="review-summary">已将“库内无母公司主报告”进一步区分为“值得二次检索补库”与“当前库内确实缺主报告文件”。前者说明当前仍存在下载、seed 或候选信号，后者则表示现有库内暂无可追索线索，不宜继续硬配。</p>
+          <div class="review-list">
+            <div class="review-list-item" style="--review-tone:#c76b2d;">
+  <div class="review-list-top">
+    <span class="review-badge">值得二次检索补库</span>
+    <span class="review-count">129</span>
+  </div>
+  <p>当前还有可追索信号，如名单下载字段、seed 候选或近似命中，适合继续补库。</p>
+  <div class="review-bar"><span style="width:74.6%;"></span></div>
+</div><div class="review-list-item" style="--review-tone:#9b3d2f;">
+  <div class="review-list-top">
+    <span class="review-badge">当前库内确实缺主报告文件</span>
+    <span class="review-count">44</span>
+  </div>
+  <p>现有库内未出现可追索的下载或候选信号，应先作为缺口台账保留。</p>
+  <div class="review-bar"><span style="width:25.4%;"></span></div>
 </div>
           </div>
         </article>
@@ -97,6 +132,185 @@
 </div>
           </div>
         </article>
+          </div>
+          <div style="margin-top:16px;">
+            <div class="card">
+          <div class="review-cases-head">
+            <h3>无主报告二级诊断样例</h3>
+            <p>优先展示最值得二次检索补库的目标，同时补充当前库内确缺主报告的代表样例，便于在汇报时说明“继续补采”与“先冻结缺口”的边界。</p>
+          </div>
+          <div class="review-case-grid">
+            <article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 3</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>国家电网有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 公用设施</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2024_ALLSTATE SustainabilityReport_FINAL.pdf；当前候选池仍有 7 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 22</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>中国工商银行股份有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 银行：商业储蓄</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2023-BANK OF NEW YORK MELLON sustainability-report.pdf；当前候选池仍有 40 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 30</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>中国建设银行股份有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 银行：商业储蓄</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2023-BANK OF NEW YORK MELLON sustainability-report.pdf；当前候选池仍有 8 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#c76b2d;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 43</span>
+    <span class="review-case-type" style="background:#c76b2d1a;color:#c76b2d;">值得二次检索补库</span>
+  </div>
+  <h3>中国铁道建筑集团有限公司</h3>
+  <p class="review-case-subtitle">国家/行业: 中国 / 工程与建筑</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>高优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>名单字段已标注报告下载状态：P；seed 阶段出现过候选命中：seed_review_needed，seed 候选文件为 2024-CHINA VANKE-sustainability-report.pdf；当前候选池仍有 1 个近似候选项；当前 best_match_score=13</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>高优先：优先回查原始下载台账/文件转存是否遗漏；再以母公司中英文全称、简称、official site + ESG/annual/sustainability/climate 关键词进行二次检索补库，补入后回跑 report catalog 与 diagnosis 链路。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 9</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>伯克希尔－哈撒韦公司</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 财产与意外保险（股份）</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 40</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>Elevance Health公司</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 保健：保险和管理医保</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 51</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>克罗格</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 食品店和杂货店</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article><article class="review-case-card" style="--review-tone:#9b3d2f;">
+  <div class="review-case-head">
+    <span class="review-case-rank"># 76</span>
+    <span class="review-case-type" style="background:#9b3d2f1a;color:#9b3d2f;">当前库内确实缺主报告文件</span>
+  </div>
+  <h3>美国康卡斯特电信公司</h3>
+  <p class="review-case-subtitle">国家/行业: 美国 / 电信</p>
+  <div class="review-kv">
+    <div class="review-kv-item">
+      <strong>优先级</strong>
+      <span>低优先级</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>诊断信号</strong>
+      <span>seed 与当前候选池均未形成有效近似命中，且名单字段未标注可追索的下载/标准信号。</span>
+    </div>
+    <div class="review-kv-item">
+      <strong>建议动作</strong>
+      <span>当前先按“库内确缺”冻结，不建议硬配；仅在新增来源目录、官网补采或外部数据库补录时再重启匹配。</span>
+    </div>
+  </div>
+</article>
+          </div>
+        </div>
           </div>
           <div style="margin-top:16px;">
             <div class="card">
@@ -241,7 +455,7 @@
               <p>如需在正式汇报后继续追溯诊断明细、人工复核清单与 Excel 台账，可从这里直接下载。</p>
             </div>
             <div class="downloads">
-              <a class="btn alt" href="./assets/data/review/high_value_backfill_summary.json">下载高价值回填任务 JSON</a><a class="btn alt" href="./assets/data/review/world500_unmatched_diagnosis.csv">下载未匹配诊断 CSV</a><a class="btn alt" href="./assets/downloads/world500_unmatched_diagnosis.xlsx">下载未匹配诊断 Excel</a><a class="btn alt" href="./assets/data/review/world500_affiliate_only_review_list.csv">下载关联主体复核 CSV</a><a class="btn alt" href="./assets/downloads/world500_affiliate_only_review_list.xlsx">下载关联主体复核 Excel</a>
+              <a class="btn alt" href="./assets/data/review/high_value_backfill_summary.json">下载高价值回填任务 JSON</a><a class="btn alt" href="./assets/data/review/world500_unmatched_diagnosis.csv">下载未匹配诊断 CSV</a><a class="btn alt" href="./assets/downloads/world500_unmatched_diagnosis.xlsx">下载未匹配诊断 Excel</a><a class="btn alt" href="./assets/data/review/world500_affiliate_only_review_list.csv">下载关联主体复核 CSV</a><a class="btn alt" href="./assets/downloads/world500_affiliate_only_review_list.xlsx">下载关联主体复核 Excel</a><a class="btn alt" href="./assets/data/review/world500_no_parent_gap_review_list.csv">下载无主报告二级诊断 CSV</a><a class="btn alt" href="./assets/downloads/world500_no_parent_gap_review_list.xlsx">下载无主报告二级诊断 Excel</a><a class="btn alt" href="./assets/data/review/world500_retrieval_batch_01_high_priority.csv">下载高优先补采批次 CSV</a><a class="btn alt" href="./assets/downloads/world500_retrieval_batch_01_high_priority.xlsx">下载高优先补采批次 Excel</a>
             </div>
           </div>
         </section>
@@ -250,12 +464,131 @@
 
 <section class="section">
   <div class="section-head">
+    <h2>500 份正式推进版 / Batch 13 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 13 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 13 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 13 图谱节点</h3><strong>1,081</strong></div><div class="metric"><h3>Batch 13 图谱关系</h3><strong>3,845</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_13_kg.graphml">下载 Batch 13 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_13_nodes.csv">下载 Batch 13 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_13_edges.csv">下载 Batch 13 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_13_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_13_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_13_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 12 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 12 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 12 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 12 图谱节点</h3><strong>1,900</strong></div><div class="metric"><h3>Batch 12 图谱关系</h3><strong>7,125</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_12_kg.graphml">下载 Batch 12 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_12_nodes.csv">下载 Batch 12 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_12_edges.csv">下载 Batch 12 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_12_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_12_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_12_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 11 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 11 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 11 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 11 图谱节点</h3><strong>1,231</strong></div><div class="metric"><h3>Batch 11 图谱关系</h3><strong>4,345</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_11_kg.graphml">下载 Batch 11 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_11_nodes.csv">下载 Batch 11 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_11_edges.csv">下载 Batch 11 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_11_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_11_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_11_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 10 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 10 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 10 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 10 图谱节点</h3><strong>1,807</strong></div><div class="metric"><h3>Batch 10 图谱关系</h3><strong>7,179</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_10_kg.graphml">下载 Batch 10 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_10_nodes.csv">下载 Batch 10 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_10_edges.csv">下载 Batch 10 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_10_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_10_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_10_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 09 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 09 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 09 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 09 图谱节点</h3><strong>1,172</strong></div><div class="metric"><h3>Batch 09 图谱关系</h3><strong>4,203</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_09_kg.graphml">下载 Batch 09 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_09_nodes.csv">下载 Batch 09 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_09_edges.csv">下载 Batch 09 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_09_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_09_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_09_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 08 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 08 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 08 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 08 图谱节点</h3><strong>1,285</strong></div><div class="metric"><h3>Batch 08 图谱关系</h3><strong>4,805</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_08_kg.graphml">下载 Batch 08 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_08_nodes.csv">下载 Batch 08 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_08_edges.csv">下载 Batch 08 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_08_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_08_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_08_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>500 份正式推进版 / Batch 07 回填</h2>
+    <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 07 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
+    <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+  </div>
+  <div class="metric-grid">
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 07 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 07 图谱节点</h3><strong>1,513</strong></div><div class="metric"><h3>Batch 07 图谱关系</h3><strong>5,737</strong></div>
+  </div>
+  <div class="card" style="margin-top:16px;">
+    <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
+    <div class="downloads" style="margin-top:12px;">
+      <a class="btn alt" href="./assets/data/world500/graph/world500_batch_07_kg.graphml">下载 Batch 07 GraphML</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_07_nodes.csv">下载 Batch 07 nodes.csv</a><a class="btn alt" href="./assets/data/world500/graph/world500_batch_07_edges.csv">下载 Batch 07 edges.csv</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_07_standards_extended.csv">下载标准与准则事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_07_emission_methodologies.csv">下载方法与数据质量事实表</a><a class="btn alt" href="./assets/data/world500/curated/world500_batch_07_company_industry_classification.csv">下载行业归类事实表</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
     <h2>500 份正式推进版 / Batch 06 回填</h2>
     <p>当前 500 份正式推进版与 10 份 demo 分离推进。原始 203 条未决匹配正在持续压缩，并已完成 Batch 06 在“标准与准则维度 + 排放方法与数据质量维度”上的结构化回填。</p>
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 06 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 06 图谱节点</h3><strong>1,184</strong></div><div class="metric"><h3>Batch 06 图谱关系</h3><strong>4,381</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 06 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 06 图谱节点</h3><strong>1,184</strong></div><div class="metric"><h3>Batch 06 图谱关系</h3><strong>4,381</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -272,7 +605,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 05 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 05 图谱节点</h3><strong>1,229</strong></div><div class="metric"><h3>Batch 05 图谱关系</h3><strong>4,748</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 05 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 05 图谱节点</h3><strong>1,229</strong></div><div class="metric"><h3>Batch 05 图谱关系</h3><strong>4,748</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -289,7 +622,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 04 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 04 图谱节点</h3><strong>989</strong></div><div class="metric"><h3>Batch 04 图谱关系</h3><strong>3,525</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 04 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 04 图谱节点</h3><strong>989</strong></div><div class="metric"><h3>Batch 04 图谱关系</h3><strong>3,525</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -306,7 +639,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 03 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 03 图谱节点</h3><strong>1,385</strong></div><div class="metric"><h3>Batch 03 图谱关系</h3><strong>5,193</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 03 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 03 图谱节点</h3><strong>1,385</strong></div><div class="metric"><h3>Batch 03 图谱关系</h3><strong>5,193</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -323,7 +656,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 02 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 02 图谱节点</h3><strong>934</strong></div><div class="metric"><h3>Batch 02 图谱关系</h3><strong>3,337</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 02 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 02 图谱节点</h3><strong>934</strong></div><div class="metric"><h3>Batch 02 图谱关系</h3><strong>3,337</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
@@ -340,7 +673,7 @@
     <p>以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
   </div>
   <div class="metric-grid">
-    <div class="metric"><h3>已确认匹配报告</h3><strong>319</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>171</strong></div><div class="metric"><h3>已抽取页数</h3><strong>42,846</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,585</strong></div><div class="metric"><h3>证据候选条数</h3><strong>74,651</strong></div><div class="metric"><h3>Batch 01 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 01 图谱节点</h3><strong>1,307</strong></div><div class="metric"><h3>Batch 01 图谱关系</h3><strong>4,866</strong></div>
+    <div class="metric"><h3>已确认匹配报告</h3><strong>332</strong></div><div class="metric"><h3>待校核未决匹配</h3><strong>167</strong></div><div class="metric"><h3>已抽取页数</h3><strong>44,870</strong></div><div class="metric"><h3>OCR 页数</h3><strong>2,604</strong></div><div class="metric"><h3>证据候选条数</h3><strong>78,134</strong></div><div class="metric"><h3>Batch 01 报告数</h3><strong>25</strong></div><div class="metric"><h3>Batch 01 图谱节点</h3><strong>1,307</strong></div><div class="metric"><h3>Batch 01 图谱关系</h3><strong>4,866</strong></div>
   </div>
   <div class="card" style="margin-top:16px;">
     <p class="report-figure-note">以下展示的是当前批次 25 份已确认匹配报告的回填结果，以及当前 500 份推进版的匹配、页级抽取、证据挖掘与 review queue 状态。</p>
