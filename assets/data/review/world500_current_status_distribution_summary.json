@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-15 20:30:51",
+  "generated_at": "2026-04-15 20:54:28",
   "total_companies": 500,
   "matched_reports": 332,
-  "published_batch_count": 13,
+  "published_batch_count": 14,
   "published_batch_ids": [
     "batch_01",
     "batch_02",
@@ -16,13 +16,12 @@
     "batch_10",
     "batch_11",
     "batch_12",
-    "batch_13"
-  ],
-  "published_report_count": 325,
-  "pending_publish_count": 7,
-  "pending_batch_ids": [
+    "batch_13",
     "batch_14"
   ],
+  "published_report_count": 332,
+  "pending_publish_count": 0,
+  "pending_batch_ids": [],
   "open_unmatched_count": 167,
   "manual_unmatched_rejected": 1,
   "diagnosis_counts": {
@@ -44,24 +43,14 @@
       "序号": 1,
       "一级状态": "正式成果",
       "二级状态": "已完成正式批次图谱并接入站点",
-      "企业数": 325,
-      "占500家比例": "65.0%",
+      "企业数": 332,
+      "占500家比例": "66.4%",
       "当前口径": "已完成报告匹配、页级抽取、证据挖掘、批次图谱构建，并已接入现有发布站点。",
       "下一步处理": "持续清理 extract_quality 与 evidence_gap，并做增量更新。",
-      "状态依据": "已发布批次：batch_01, batch_02, batch_03, batch_04, batch_05, batch_06, batch_07, batch_08, batch_09, batch_10, batch_11, batch_12, batch_13"
+      "状态依据": "已发布批次：batch_01, batch_02, batch_03, batch_04, batch_05, batch_06, batch_07, batch_08, batch_09, batch_10, batch_11, batch_12, batch_13, batch_14"
     },
     {
       "序号": 2,
-      "一级状态": "待发布",
-      "二级状态": "已匹配且完成抽取/证据，但尚未进入已发布批次",
-      "企业数": 7,
-      "占500家比例": "1.4%",
-      "当前口径": "已完成报告匹配并进入批次编排，但尚未纳入已发布批次成果。",
-      "下一步处理": "优先完成待发布批次的正式出图、指标汇总和站点接入。",
-      "状态依据": "待发布批次：batch_14"
-    },
-    {
-      "序号": 3,
       "一级状态": "未匹配待补库/复核",
       "二级状态": "库内无母公司主报告",
       "企业数": 161,
@@ -71,7 +60,7 @@
       "状态依据": "来源：world500_unmatched_diagnosis.csv 开放未决匹配诊断"
     },
     {
-      "序号": 4,
+      "序号": 3,
       "一级状态": "未匹配待补库/复核",
       "二级状态": "仅发现子公司/关联主体文件",
       "企业数": 6,
@@ -81,7 +70,7 @@
       "状态依据": "来源：world500_unmatched_diagnosis.csv 开放未决匹配诊断"
     },
     {
-      "序号": 5,
+      "序号": 4,
       "一级状态": "未匹配待补库/复核",
       "二级状态": "人工判定驳回的错误匹配",
       "企业数": 1,
