@@ -1190,6 +1190,32 @@
   <data key="d14">19</data>
   <data key="d15">seed_batch_04</data>
 </node>
+<node id="standard::SSE Environmental Information Disclosure Guidelines">
+  <data key="d0">上海证券交易所上市公司环境信息披露指引</data>
+  <data key="d1">Standard</data>
+  <data key="d13">SSE Environmental Information Disclosure Guidelines</data>
+</node>
+<node id="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__sse_environmental_information_disclosure_guidelines__p3">
+  <data key="d0">batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__sse_environmental_information_disclosure_guidelines__p3</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">3</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
+<node id="standard::CASS-ESG 6.0">
+  <data key="d0">中国企业社会责任报告指南基础框架 6.0</data>
+  <data key="d1">Standard</data>
+  <data key="d13">CASS-ESG 6.0</data>
+</node>
+<node id="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__cass_esg_6_0__p3">
+  <data key="d0">batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__cass_esg_6_0__p3</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">3</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
+<node id="standard_role::Reporting guideline">
+  <data key="d0">报告指引</data>
+  <data key="d1">StandardRole</data>
+</node>
 <node id="methodology::batch_04__r131_waltdisney__20240__other__p21__scope_3__0001">
   <data key="d0">batch_04__r131_waltdisney__20240__other__p21__scope_3__0001</data>
   <data key="d1">MethodologyFact</data>
@@ -9738,6 +9764,17 @@
   <data key="d19"></data>
   <data key="d20">Value-chain activities</data>
 </node>
+<node id="methodology::batch_04__r146_japanpostholdings__20230__other__manual_axis__report_disclosure__p90">
+  <data key="d0">batch_04__r146_japanpostholdings__20230__other__manual_axis__report_disclosure__p90</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">90</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16"></data>
+  <data key="d17"></data>
+  <data key="d18">Report disclosure</data>
+  <data key="d19"></data>
+  <data key="d20"></data>
+</node>
 <edge source="company::r131_waltdisney" target="report::r131_waltdisney__20240__other" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -11931,6 +11968,10 @@
   <data key="d21">documents_standard_reference</data>
   <data key="d22">19</data>
 </edge>
+<edge source="report::r146_japanpostholdings__20230__other" target="methodology::batch_04__r146_japanpostholdings__20230__other__manual_axis__report_disclosure__p90" id="0">
+  <data key="d21">documents_methodology</data>
+  <data key="d22">90</data>
+</edge>
 <edge source="company::r148_mitsubishiufjfinancialgroup" target="report::r148_mitsubishiufjfinancialgroup__20240__other" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -11956,6 +11997,14 @@
 </edge>
 <edge source="report::r150_wuchanzhongdagroup__20240__other" target="source::2024物产中大集团股份有限公司环境、社会及治理报告.pdf" id="0">
   <data key="d21">matched_to_source</data>
+</edge>
+<edge source="report::r150_wuchanzhongdagroup__20240__other" target="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__sse_environmental_information_disclosure_guidelines__p3" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">3</data>
+</edge>
+<edge source="report::r150_wuchanzhongdagroup__20240__other" target="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__cass_esg_6_0__p3" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">3</data>
 </edge>
 <edge source="company::r151_sevenandi控股公司" target="report::r151_sevenandi控股公司__20240__other" id="0">
   <data key="d21">publishes</data>
@@ -13979,6 +14028,24 @@
   <data key="d21">belongs_to_standard_family</data>
 </edge>
 <edge source="standard_ref::batch_04__r166_vinci__20240__other__ghg_protocol" target="standard_role::Accounting standard" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__sse_environmental_information_disclosure_guidelines__p3" target="standard::SSE Environmental Information Disclosure Guidelines" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__sse_environmental_information_disclosure_guidelines__p3" target="standard_family::ESG disclosure framework" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__sse_environmental_information_disclosure_guidelines__p3" target="standard_role::Disclosure guideline" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__cass_esg_6_0__p3" target="standard::CASS-ESG 6.0" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__cass_esg_6_0__p3" target="standard_family::ESG disclosure framework" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_04__r150_wuchanzhongdagroup__20240__other__manual_axis__cass_esg_6_0__p3" target="standard_role::Reporting guideline" id="0">
   <data key="d21">has_standard_role</data>
 </edge>
 <edge source="methodology::batch_04__r131_waltdisney__20240__other__p21__scope_3__0001" target="scope::Scope 3" id="0">
@@ -21150,5 +21217,11 @@
 </edge>
 <edge source="methodology::batch_04__r166_vinci__20240__other__p90__scope_3__0764" target="activity::Value-chain activities" id="0">
   <data key="d21">has_activity_category</data>
+</edge>
+<edge source="methodology::batch_04__r146_japanpostholdings__20230__other__manual_axis__report_disclosure__p90" target="assurance::Report disclosure" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_04__r146_japanpostholdings__20230__other__manual_axis__report_disclosure__p90" target="boundary::Business-unit boundary" id="0">
+  <data key="d21">has_boundary_type</data>
 </edge>
 </graph></graphml>

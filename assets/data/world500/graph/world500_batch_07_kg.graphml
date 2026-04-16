@@ -15407,6 +15407,17 @@
   <data key="d19">PCAF financed emissions methodology</data>
   <data key="d20"></data>
 </node>
+<node id="methodology::batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56">
+  <data key="d0">batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">56</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16">Scope 2</data>
+  <data key="d17">Secondary data</data>
+  <data key="d18">Report disclosure</data>
+  <data key="d19">Market-based</data>
+  <data key="d20"></data>
+</node>
 <edge source="company::r264_riotintogroup" target="report::r264_riotintogroup__20240__annualreport" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -20523,6 +20534,10 @@
 <edge source="report::r318_sumitomo__20240__sustainabilityreport" target="standard_ref::batch_07__r318_sumitomo__20240__sustainabilityreport__tcfd" id="0">
   <data key="d21">documents_standard_reference</data>
   <data key="d22">47</data>
+</edge>
+<edge source="report::r318_sumitomo__20240__sustainabilityreport" target="methodology::batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56" id="0">
+  <data key="d21">documents_methodology</data>
+  <data key="d22">56</data>
 </edge>
 <edge source="company::r319_worldkinect公司" target="report::r319_worldkinect公司__20220__sustainabilityreport" id="0">
   <data key="d21">publishes</data>
@@ -33987,5 +34002,20 @@
 </edge>
 <edge source="methodology::batch_07__r324_americaninternationalgroup__20240__sustainabilityreport__p40__scope_3__1267" target="scope3::15.0" id="0">
   <data key="d21">has_scope3_category</data>
+</edge>
+<edge source="methodology::batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56" target="scope::Scope 2" id="0">
+  <data key="d21">for_scope</data>
+</edge>
+<edge source="methodology::batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56" target="data_source::Secondary data" id="0">
+  <data key="d21">has_data_source_type</data>
+</edge>
+<edge source="methodology::batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56" target="assurance::Report disclosure" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56" target="calc_method::Market-based" id="0">
+  <data key="d21">has_calculation_method</data>
+</edge>
+<edge source="methodology::batch_07__r318_sumitomo__20240__sustainabilityreport__manual_axis__secondary_data__p56" target="boundary::Operational control" id="0">
+  <data key="d21">has_boundary_type</data>
 </edge>
 </graph></graphml>

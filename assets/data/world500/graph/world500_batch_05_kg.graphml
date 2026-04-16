@@ -12203,6 +12203,17 @@
   <data key="d19">Market-based</data>
   <data key="d20"></data>
 </node>
+<node id="methodology::batch_05__r192_beijingautomotivegroup__20240__other__manual_axis__primary_data__p86">
+  <data key="d0">batch_05__r192_beijingautomotivegroup__20240__other__manual_axis__primary_data__p86</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">86</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16"></data>
+  <data key="d17">Primary data</data>
+  <data key="d18">Report disclosure</data>
+  <data key="d19"></data>
+  <data key="d20"></data>
+</node>
 <edge source="company::r168_torontodominionbank" target="report::r168_torontodominionbank__20240__sustainabilityreport" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -14121,6 +14132,10 @@
 </edge>
 <edge source="report::r192_beijingautomotivegroup__20240__other" target="standard_ref::batch_05__r192_beijingautomotivegroup__20240__other__gri" id="0">
   <data key="d21">documents_standard_reference</data>
+  <data key="d22">86</data>
+</edge>
+<edge source="report::r192_beijingautomotivegroup__20240__other" target="methodology::batch_05__r192_beijingautomotivegroup__20240__other__manual_axis__primary_data__p86" id="0">
+  <data key="d21">documents_methodology</data>
   <data key="d22">86</data>
 </edge>
 <edge source="company::r193_lockheedmartin" target="report::r193_lockheedmartin__20240__sustainabilityreport" id="0">
@@ -27527,5 +27542,14 @@
 </edge>
 <edge source="methodology::batch_05__r222_nvidia__20250__sustainabilityreport__p39__scope_2__0969" target="calc_method::Market-based" id="0">
   <data key="d21">has_calculation_method</data>
+</edge>
+<edge source="methodology::batch_05__r192_beijingautomotivegroup__20240__other__manual_axis__primary_data__p86" target="data_source::Primary data" id="0">
+  <data key="d21">has_data_source_type</data>
+</edge>
+<edge source="methodology::batch_05__r192_beijingautomotivegroup__20240__other__manual_axis__primary_data__p86" target="assurance::Report disclosure" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_05__r192_beijingautomotivegroup__20240__other__manual_axis__primary_data__p86" target="boundary::Corporate inventory boundary" id="0">
+  <data key="d21">has_boundary_type</data>
 </edge>
 </graph></graphml>

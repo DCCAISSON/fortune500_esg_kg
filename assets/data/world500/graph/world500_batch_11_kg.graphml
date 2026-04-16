@@ -1212,6 +1212,21 @@
   <data key="d14">49</data>
   <data key="d15">seed_batch_11</data>
 </node>
+<node id="standard::Guidance for Integrated Corporate Disclosure and Company-Investor Dialogues for Collaborative Value Creation">
+  <data key="d0">价值协同创造综合披露与投资者对话指引</data>
+  <data key="d1">Standard</data>
+  <data key="d13">Guidance for Integrated Corporate Disclosure and Company-Investor Dialogues for Collaborative Value Creation</data>
+</node>
+<node id="standard_ref::batch_11__r495_subaru__20250__integratedreport__manual_axis__guidance_for_integrated_corporate_disclosure_and_company_investor_dialogues_for_collaborative_value_creation__p3">
+  <data key="d0">batch_11__r495_subaru__20250__integratedreport__manual_axis__guidance_for_integrated_corporate_disclosure_and_company_investor_dialogues_for_collaborative_value_creation__p3</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">3</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
+<node id="standard_family::Integrated reporting framework">
+  <data key="d0">整合报告框架</data>
+  <data key="d1">StandardFamily</data>
+</node>
 <node id="methodology::batch_11__r022_industrialandcommercialbankofchina__20240__sustainabilityreport__p73__inventory__0001">
   <data key="d0">batch_11__r022_industrialandcommercialbankofchina__20240__sustainabilityreport__p73__inventory__0001</data>
   <data key="d1">MethodologyFact</data>
@@ -13242,6 +13257,10 @@
 <edge source="report::r495_subaru__20250__integratedreport" target="source::2025 SUBARU integrated report.pdf" id="0">
   <data key="d21">matched_to_source</data>
 </edge>
+<edge source="report::r495_subaru__20250__integratedreport" target="standard_ref::batch_11__r495_subaru__20250__integratedreport__manual_axis__guidance_for_integrated_corporate_disclosure_and_company_investor_dialogues_for_collaborative_value_creation__p3" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">3</data>
+</edge>
 <edge source="report::r495_subaru__20250__integratedreport" target="methodology::batch_11__r495_subaru__20250__integratedreport__p3__inventory__0996" id="0">
   <data key="d21">documents_methodology</data>
   <data key="d22">3</data>
@@ -17649,6 +17668,15 @@
   <data key="d21">belongs_to_standard_family</data>
 </edge>
 <edge source="standard_ref::batch_11__r494_metro__nan__other__esrs_csrd" target="standard_role::Disclosure standard" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_11__r495_subaru__20250__integratedreport__manual_axis__guidance_for_integrated_corporate_disclosure_and_company_investor_dialogues_for_collaborative_value_creation__p3" target="standard::Guidance for Integrated Corporate Disclosure and Company-Investor Dialogues for Collaborative Value Creation" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_11__r495_subaru__20250__integratedreport__manual_axis__guidance_for_integrated_corporate_disclosure_and_company_investor_dialogues_for_collaborative_value_creation__p3" target="standard_family::Integrated reporting framework" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_11__r495_subaru__20250__integratedreport__manual_axis__guidance_for_integrated_corporate_disclosure_and_company_investor_dialogues_for_collaborative_value_creation__p3" target="standard_role::Disclosure guideline" id="0">
   <data key="d21">has_standard_role</data>
 </edge>
 <edge source="methodology::batch_11__r022_industrialandcommercialbankofchina__20240__sustainabilityreport__p73__inventory__0001" target="assurance::Report disclosure" id="0">

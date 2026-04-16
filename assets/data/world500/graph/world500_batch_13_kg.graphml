@@ -1279,6 +1279,22 @@
   <data key="d14">14</data>
   <data key="d15">seed_batch_13</data>
 </node>
+<node id="standard_ref::batch_13__r384_meituan__20240__other__manual_axis__gb_t_36001_2015__p35">
+  <data key="d0">batch_13__r384_meituan__20240__other__manual_axis__gb_t_36001_2015__p35</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">35</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
+<node id="standard_family::National disclosure guideline">
+  <data key="d0">国家披露指引</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard_ref::batch_13__r203_aeon__nan__sustainabilityreport__manual_axis__iso_14064_3__p8">
+  <data key="d0">batch_13__r203_aeon__nan__sustainabilityreport__manual_axis__iso_14064_3__p8</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">8</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
 <node id="methodology::batch_13__r198_wilmarinternational__20240__other__p21__scope_1__0001">
   <data key="d0">batch_13__r198_wilmarinternational__20240__other__p21__scope_1__0001</data>
   <data key="d1">MethodologyFact</data>
@@ -10900,6 +10916,10 @@
 <edge source="report::r203_aeon__nan__sustainabilityreport" target="source::AEON sustainability report.pdf" id="0">
   <data key="d21">matched_to_source</data>
 </edge>
+<edge source="report::r203_aeon__nan__sustainabilityreport" target="standard_ref::batch_13__r203_aeon__nan__sustainabilityreport__manual_axis__iso_14064_3__p8" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">8</data>
+</edge>
 <edge source="report::r203_aeon__nan__sustainabilityreport" target="methodology::batch_13__r203_aeon__nan__sustainabilityreport__p4__inventory__0038" id="0">
   <data key="d21">documents_methodology</data>
   <data key="d22">4</data>
@@ -14322,6 +14342,10 @@
 <edge source="report::r384_meituan__20240__other" target="source::美团2024 corporate social responsibility report.pdf" id="0">
   <data key="d21">matched_to_source</data>
 </edge>
+<edge source="report::r384_meituan__20240__other" target="standard_ref::batch_13__r384_meituan__20240__other__manual_axis__gb_t_36001_2015__p35" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">35</data>
+</edge>
 <edge source="report::r384_meituan__20240__other" target="methodology::batch_13__r384_meituan__20240__other__p21__inventory__0788" id="0">
   <data key="d21">documents_methodology</data>
   <data key="d22">21</data>
@@ -15459,6 +15483,24 @@
   <data key="d21">belongs_to_standard_family</data>
 </edge>
 <edge source="standard_ref::batch_13__r444_quantacomputer__20230__other__iso_14064" target="standard_role::Guideline" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_13__r384_meituan__20240__other__manual_axis__gb_t_36001_2015__p35" target="standard::GB/T 36001-2015" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_13__r384_meituan__20240__other__manual_axis__gb_t_36001_2015__p35" target="standard_family::National disclosure guideline" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_13__r384_meituan__20240__other__manual_axis__gb_t_36001_2015__p35" target="standard_role::Disclosure guideline" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_13__r203_aeon__nan__sustainabilityreport__manual_axis__iso_14064_3__p8" target="standard::ISO 14064-3" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_13__r203_aeon__nan__sustainabilityreport__manual_axis__iso_14064_3__p8" target="standard_family::ISO assurance system" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_13__r203_aeon__nan__sustainabilityreport__manual_axis__iso_14064_3__p8" target="standard_role::Verification and assurance standard" id="0">
   <data key="d21">has_standard_role</data>
 </edge>
 <edge source="methodology::batch_13__r198_wilmarinternational__20240__other__p21__scope_1__0001" target="scope::Scope 1" id="0">

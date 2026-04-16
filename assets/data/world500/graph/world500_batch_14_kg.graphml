@@ -2028,6 +2028,21 @@
   <data key="d19"></data>
   <data key="d20"></data>
 </node>
+<node id="methodology::batch_14__r493_vibraenergia公司__20240__other__manual_axis__primary_data__p160">
+  <data key="d0">batch_14__r493_vibraenergia公司__20240__other__manual_axis__primary_data__p160</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">160</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16"></data>
+  <data key="d17">Primary data</data>
+  <data key="d18">Assurance</data>
+  <data key="d19"></data>
+  <data key="d20"></data>
+</node>
+<node id="boundary::Corporate inventory boundary">
+  <data key="d0">企业清单边界</data>
+  <data key="d1">BoundaryType</data>
+</node>
 <edge source="company::r457_molinahealthcare公司" target="report::r457_molinahealthcare公司__20240__other" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -2361,6 +2376,10 @@
 <edge source="report::r493_vibraenergia公司__20240__other" target="standard_ref::batch_14__r493_vibraenergia公司__20240__other__ifrs_s2" id="0">
   <data key="d21">documents_standard_reference</data>
   <data key="d22">109</data>
+</edge>
+<edge source="report::r493_vibraenergia公司__20240__other" target="methodology::batch_14__r493_vibraenergia公司__20240__other__manual_axis__primary_data__p160" id="0">
+  <data key="d21">documents_methodology</data>
+  <data key="d22">160</data>
 </edge>
 <edge source="company::r498_瑞士abb集团" target="report::r498_瑞士abb集团__20240__sustainabilityreport" id="0">
   <data key="d21">publishes</data>
@@ -4337,5 +4356,14 @@
 </edge>
 <edge source="methodology::batch_14__r498_瑞士abb集团__20240__sustainabilityreport__p113__scope_3__0131" target="assurance::Report disclosure" id="0">
   <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_14__r493_vibraenergia公司__20240__other__manual_axis__primary_data__p160" target="data_source::Primary data" id="0">
+  <data key="d21">has_data_source_type</data>
+</edge>
+<edge source="methodology::batch_14__r493_vibraenergia公司__20240__other__manual_axis__primary_data__p160" target="assurance::Assurance" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_14__r493_vibraenergia公司__20240__other__manual_axis__primary_data__p160" target="boundary::Corporate inventory boundary" id="0">
+  <data key="d21">has_boundary_type</data>
 </edge>
 </graph></graphml>

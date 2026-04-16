@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15 20:54:28",
+  "generated_at": "2026-04-15 22:21:46",
   "total_companies": 500,
   "matched_reports": 332,
   "published_batch_count": 14,
@@ -33,10 +33,10 @@
     "集团关联经营主体报告": 1
   },
   "review_queue_counts": {
-    "extract_quality": 288,
     "report_unmatched": 167,
-    "evidence_gap": 133,
-    "match_spotcheck": 51
+    "evidence_gap": 87,
+    "match_spotcheck": 51,
+    "extract_quality": 6
   },
   "status_table": [
     {
@@ -148,28 +148,28 @@
   ],
   "queue_table": [
     {
-      "运行队列类型": "页级抽取质量待复核",
-      "issue_type": "extract_quality",
-      "条目数": 288,
-      "占全部队列比例": "45.1%"
-    },
-    {
       "运行队列类型": "报告匹配未解决",
       "issue_type": "report_unmatched",
       "条目数": 167,
-      "占全部队列比例": "26.1%"
+      "占全部队列比例": "53.7%"
     },
     {
       "运行队列类型": "关键证据缺口待补齐",
       "issue_type": "evidence_gap",
-      "条目数": 133,
-      "占全部队列比例": "20.8%"
+      "条目数": 87,
+      "占全部队列比例": "28.0%"
     },
     {
       "运行队列类型": "匹配结果抽检",
       "issue_type": "match_spotcheck",
       "条目数": 51,
-      "占全部队列比例": "8.0%"
+      "占全部队列比例": "16.4%"
+    },
+    {
+      "运行队列类型": "页级抽取质量待复核",
+      "issue_type": "extract_quality",
+      "条目数": 6,
+      "占全部队列比例": "1.9%"
     }
   ]
 }

@@ -14055,6 +14055,50 @@
   <data key="d19"></data>
   <data key="d20">Fugitive emissions</data>
 </node>
+<node id="methodology::batch_03__r084_chinaenergyinvestment__20240__sustainabilityreport__manual_axis__primary_data__p46">
+  <data key="d0">batch_03__r084_chinaenergyinvestment__20240__sustainabilityreport__manual_axis__primary_data__p46</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">46</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16"></data>
+  <data key="d17">Primary data</data>
+  <data key="d18">Report disclosure</data>
+  <data key="d19"></data>
+  <data key="d20"></data>
+</node>
+<node id="methodology::batch_03__r085_xiamencandd__20240__sustainabilityreport__manual_axis__primary_data__p57">
+  <data key="d0">batch_03__r085_xiamencandd__20240__sustainabilityreport__manual_axis__primary_data__p57</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">57</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16"></data>
+  <data key="d17">Primary data</data>
+  <data key="d18">Report disclosure</data>
+  <data key="d19"></data>
+  <data key="d20"></data>
+</node>
+<node id="methodology::batch_03__r093_saicmotor__20240__other__manual_axis__primary_data__p3">
+  <data key="d0">batch_03__r093_saicmotor__20240__other__manual_axis__primary_data__p3</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">3</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16"></data>
+  <data key="d17">Primary data</data>
+  <data key="d18">Report disclosure</data>
+  <data key="d19"></data>
+  <data key="d20"></data>
+</node>
+<node id="methodology::batch_03__r112_sinopharm__20220__other__manual_axis__primary_data__p44">
+  <data key="d0">batch_03__r112_sinopharm__20220__other__manual_axis__primary_data__p44</data>
+  <data key="d1">MethodologyFact</data>
+  <data key="d14">44</data>
+  <data key="d15">manual_axis_backfill</data>
+  <data key="d16"></data>
+  <data key="d17">Primary data</data>
+  <data key="d18">Report disclosure</data>
+  <data key="d19"></data>
+  <data key="d20"></data>
+</node>
 <edge source="company::r079_uniper公司" target="report::r079_uniper公司__20250__climatereport" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -14714,6 +14758,10 @@
   <data key="d21">documents_standard_reference</data>
   <data key="d22">46</data>
 </edge>
+<edge source="report::r084_chinaenergyinvestment__20240__sustainabilityreport" target="methodology::batch_03__r084_chinaenergyinvestment__20240__sustainabilityreport__manual_axis__primary_data__p46" id="0">
+  <data key="d21">documents_methodology</data>
+  <data key="d22">46</data>
+</edge>
 <edge source="company::r085_xiamencandd" target="report::r085_xiamencandd__20240__sustainabilityreport" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -14729,6 +14777,10 @@
 </edge>
 <edge source="report::r085_xiamencandd__20240__sustainabilityreport" target="standard_ref::batch_03__r085_xiamencandd__20240__sustainabilityreport__ifrs_s2" id="0">
   <data key="d21">documents_standard_reference</data>
+  <data key="d22">57</data>
+</edge>
+<edge source="report::r085_xiamencandd__20240__sustainabilityreport" target="methodology::batch_03__r085_xiamencandd__20240__sustainabilityreport__manual_axis__primary_data__p57" id="0">
+  <data key="d21">documents_methodology</data>
   <data key="d22">57</data>
 </edge>
 <edge source="company::r086_relianceindustries" target="report::r086_relianceindustries__20240__other" id="0">
@@ -15646,6 +15698,10 @@
 </edge>
 <edge source="report::r093_saicmotor__20240__other" target="standard_ref::batch_03__r093_saicmotor__20240__other__gri" id="0">
   <data key="d21">documents_standard_reference</data>
+  <data key="d22">3</data>
+</edge>
+<edge source="report::r093_saicmotor__20240__other" target="methodology::batch_03__r093_saicmotor__20240__other__manual_axis__primary_data__p3" id="0">
+  <data key="d21">documents_methodology</data>
   <data key="d22">3</data>
 </edge>
 <edge source="company::r096_nestlé" target="report::r096_nestlé__20240__other" id="0">
@@ -17101,6 +17157,10 @@
 </edge>
 <edge source="report::r112_sinopharm__20220__other" target="standard_ref::batch_03__r112_sinopharm__20220__other__gri" id="0">
   <data key="d21">documents_standard_reference</data>
+  <data key="d22">44</data>
+</edge>
+<edge source="report::r112_sinopharm__20220__other" target="methodology::batch_03__r112_sinopharm__20220__other__manual_axis__primary_data__p44" id="0">
+  <data key="d21">documents_methodology</data>
   <data key="d22">44</data>
 </edge>
 <edge source="company::r113_brookfield" target="report::r113_brookfield__20240__sustainabilityreport" id="0">
@@ -30870,5 +30930,41 @@
 </edge>
 <edge source="methodology::batch_03__r130_engie集团__20240__other__p513__scope_2__1152" target="activity::Fugitive emissions" id="0">
   <data key="d21">has_activity_category</data>
+</edge>
+<edge source="methodology::batch_03__r084_chinaenergyinvestment__20240__sustainabilityreport__manual_axis__primary_data__p46" target="data_source::Primary data" id="0">
+  <data key="d21">has_data_source_type</data>
+</edge>
+<edge source="methodology::batch_03__r084_chinaenergyinvestment__20240__sustainabilityreport__manual_axis__primary_data__p46" target="assurance::Report disclosure" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_03__r084_chinaenergyinvestment__20240__sustainabilityreport__manual_axis__primary_data__p46" target="boundary::Corporate inventory boundary" id="0">
+  <data key="d21">has_boundary_type</data>
+</edge>
+<edge source="methodology::batch_03__r085_xiamencandd__20240__sustainabilityreport__manual_axis__primary_data__p57" target="data_source::Primary data" id="0">
+  <data key="d21">has_data_source_type</data>
+</edge>
+<edge source="methodology::batch_03__r085_xiamencandd__20240__sustainabilityreport__manual_axis__primary_data__p57" target="assurance::Report disclosure" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_03__r085_xiamencandd__20240__sustainabilityreport__manual_axis__primary_data__p57" target="boundary::Corporate inventory boundary" id="0">
+  <data key="d21">has_boundary_type</data>
+</edge>
+<edge source="methodology::batch_03__r093_saicmotor__20240__other__manual_axis__primary_data__p3" target="data_source::Primary data" id="0">
+  <data key="d21">has_data_source_type</data>
+</edge>
+<edge source="methodology::batch_03__r093_saicmotor__20240__other__manual_axis__primary_data__p3" target="assurance::Report disclosure" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_03__r093_saicmotor__20240__other__manual_axis__primary_data__p3" target="boundary::Corporate inventory boundary" id="0">
+  <data key="d21">has_boundary_type</data>
+</edge>
+<edge source="methodology::batch_03__r112_sinopharm__20220__other__manual_axis__primary_data__p44" target="data_source::Primary data" id="0">
+  <data key="d21">has_data_source_type</data>
+</edge>
+<edge source="methodology::batch_03__r112_sinopharm__20220__other__manual_axis__primary_data__p44" target="assurance::Report disclosure" id="0">
+  <data key="d21">has_assurance_stage</data>
+</edge>
+<edge source="methodology::batch_03__r112_sinopharm__20220__other__manual_axis__primary_data__p44" target="boundary::Corporate inventory boundary" id="0">
+  <data key="d21">has_boundary_type</data>
 </edge>
 </graph></graphml>

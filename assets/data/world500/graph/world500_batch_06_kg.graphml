@@ -1294,6 +1294,25 @@
   <data key="d14">28</data>
   <data key="d15">seed_batch_06</data>
 </node>
+<node id="standard::Basic Guidelines for Calculating Greenhouse Gas Emissions Throughout the Supply Chain Ver. 2.6">
+  <data key="d0">供应链温室气体排放量算定基本指南 Ver.2.6</data>
+  <data key="d1">Standard</data>
+  <data key="d13">Basic Guidelines for Calculating Greenhouse Gas Emissions Throughout the Supply Chain Ver. 2.6</data>
+</node>
+<node id="standard_ref::batch_06__r226_mizuhofinancialgroup__20240__datapack__manual_axis__basic_guidelines_for_calculating_greenhouse_gas_emissions_throughout_the_supply_chain_ver_2_6__p16">
+  <data key="d0">batch_06__r226_mizuhofinancialgroup__20240__datapack__manual_axis__basic_guidelines_for_calculating_greenhouse_gas_emissions_throughout_the_supply_chain_ver_2_6__p16</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">16</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
+<node id="standard_family::GHG accounting guideline">
+  <data key="d0">温室气体核算指引</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard_role::Accounting guideline">
+  <data key="d0">核算指引</data>
+  <data key="d1">StandardRole</data>
+</node>
 <node id="methodology::batch_06__r223_stonex集团__20240__other__p9__scope_1__0001">
   <data key="d0">batch_06__r223_stonex集团__20240__other__p9__scope_1__0001</data>
   <data key="d1">MethodologyFact</data>
@@ -12406,6 +12425,10 @@
 <edge source="report::r226_mizuhofinancialgroup__20240__datapack" target="source::MIZUHO FINANCIAL GROUP esg_databook_2024.pdf" id="0">
   <data key="d21">matched_to_source</data>
 </edge>
+<edge source="report::r226_mizuhofinancialgroup__20240__datapack" target="standard_ref::batch_06__r226_mizuhofinancialgroup__20240__datapack__manual_axis__basic_guidelines_for_calculating_greenhouse_gas_emissions_throughout_the_supply_chain_ver_2_6__p16" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">16</data>
+</edge>
 <edge source="report::r226_mizuhofinancialgroup__20240__datapack" target="methodology::batch_06__r226_mizuhofinancialgroup__20240__datapack__p14__scope_2__0136" id="0">
   <data key="d21">documents_methodology</data>
   <data key="d22">14</data>
@@ -16974,6 +16997,15 @@
   <data key="d21">belongs_to_standard_family</data>
 </edge>
 <edge source="standard_ref::batch_06__r263_novartis__20240__integratedreport__ghg_protocol" target="standard_role::Accounting standard" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_06__r226_mizuhofinancialgroup__20240__datapack__manual_axis__basic_guidelines_for_calculating_greenhouse_gas_emissions_throughout_the_supply_chain_ver_2_6__p16" target="standard::Basic Guidelines for Calculating Greenhouse Gas Emissions Throughout the Supply Chain Ver. 2.6" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_06__r226_mizuhofinancialgroup__20240__datapack__manual_axis__basic_guidelines_for_calculating_greenhouse_gas_emissions_throughout_the_supply_chain_ver_2_6__p16" target="standard_family::GHG accounting guideline" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_06__r226_mizuhofinancialgroup__20240__datapack__manual_axis__basic_guidelines_for_calculating_greenhouse_gas_emissions_throughout_the_supply_chain_ver_2_6__p16" target="standard_role::Accounting guideline" id="0">
   <data key="d21">has_standard_role</data>
 </edge>
 <edge source="methodology::batch_06__r223_stonex集团__20240__other__p9__scope_1__0001" target="scope::Scope 1" id="0">
