@@ -67,6 +67,14 @@ a{text-decoration:none;color:inherit}
 .report-figure-caption strong{display:inline-block;margin-right:8px;color:var(--accent2);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase}
 .visual-figure{width:100%;border-radius:16px;border:1px solid var(--line);background:#fff;cursor:zoom-in}
 .visual-support{margin-top:16px}
+.table-kicker{display:inline-flex;align-items:center;justify-content:center;margin-bottom:10px;padding:6px 12px;border-radius:999px;background:rgba(47,111,99,.12);color:var(--accent2);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.table-lead{margin:0 0 16px;color:var(--muted);line-height:1.75}
+.table-summary-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:0 0 16px}
+.table-summary-item{padding:14px 14px 12px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(243,236,223,.82))}
+.table-summary-item strong{display:block;margin-bottom:6px;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2)}
+.table-summary-value{display:block;margin-bottom:4px;font-size:18px;font-weight:800;color:var(--ink);line-height:1.35}
+.table-summary-note{display:block;color:var(--muted);line-height:1.55;font-size:12.5px}
+.report-table-card{padding:20px;background:linear-gradient(180deg,rgba(255,253,248,.98),rgba(249,243,233,.96));box-shadow:var(--shadow)}
 .table-wrap{overflow:auto}
 table{width:100%;border-collapse:collapse;background:#fff}
 th,td{padding:10px 12px;border-bottom:1px solid #ebe3d5;text-align:left;vertical-align:top}
