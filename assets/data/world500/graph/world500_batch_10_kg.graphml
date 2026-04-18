@@ -22,7 +22,28 @@
 <key id="d2" for="node" attr.name="company_id" attr.type="string"/>
 <key id="d1" for="node" attr.name="node_type" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="directed"><node id="company::r448_jabil">
+<graph edgedefault="directed"><node id="company::r446_aiagroup">
+  <data key="d0">友邦保险控股有限公司</data>
+  <data key="d1">Company</data>
+  <data key="d2">r446_aiagroup</data>
+  <data key="d3">友邦保险控股有限公司</data>
+  <data key="d4">AIA GROUP</data>
+  <data key="d5">446</data>
+</node>
+<node id="report::r446_aiagroup__nan__esgreport">
+  <data key="d0">r446_aiagroup__nan__esgreport</data>
+  <data key="d1">Report</data>
+  <data key="d6">r446_aiagroup__nan__esgreport</data>
+  <data key="d7">AIA GROUP-Main-ESG-Report_CH.pdf</data>
+  <data key="d8">59</data>
+  <data key="d9">matched_auto_high</data>
+</node>
+<node id="source::AIA GROUP-Main-ESG-Report_CH.pdf">
+  <data key="d0">AIA GROUP-Main-ESG-Report_CH.pdf</data>
+  <data key="d1">SourceFile</data>
+  <data key="d7">AIA GROUP-Main-ESG-Report_CH.pdf</data>
+</node>
+<node id="company::r448_jabil">
   <data key="d0">捷普公司</data>
   <data key="d1">Company</data>
   <data key="d2">r448_jabil</data>
@@ -526,26 +547,12 @@
   <data key="d1">SourceFile</data>
   <data key="d7">CENTRICA people-planet-report-2024.pdf</data>
 </node>
-<node id="company::r486_linde">
-  <data key="d0">林德集团</data>
-  <data key="d1">Company</data>
-  <data key="d2">r486_linde</data>
-  <data key="d3">林德集团</data>
-  <data key="d4">LINDE</data>
-  <data key="d5">486</data>
-</node>
-<node id="report::r486_linde__20240__other">
-  <data key="d0">r486_linde__20240__other</data>
-  <data key="d1">Report</data>
-  <data key="d6">r486_linde__20240__other</data>
-  <data key="d7">2024-LINDE-sustainable-development-report.pdf</data>
-  <data key="d8">116</data>
-  <data key="d9">matched_auto_high</data>
-</node>
-<node id="source::2024-LINDE-sustainable-development-report.pdf">
-  <data key="d0">2024-LINDE-sustainable-development-report.pdf</data>
-  <data key="d1">SourceFile</data>
-  <data key="d7">2024-LINDE-sustainable-development-report.pdf</data>
+<node id="industry::J">
+  <data key="d0">J 金融业</data>
+  <data key="d1">IndustrySection</data>
+  <data key="d10">J</data>
+  <data key="d11">金融业</data>
+  <data key="d12">Finance</data>
 </node>
 <node id="industry::C">
   <data key="d0">C 制造业</data>
@@ -553,13 +560,6 @@
   <data key="d10">C</data>
   <data key="d11">制造业</data>
   <data key="d12">Manufacturing</data>
-</node>
-<node id="industry::J">
-  <data key="d0">J 金融业</data>
-  <data key="d1">IndustrySection</data>
-  <data key="d10">J</data>
-  <data key="d11">金融业</data>
-  <data key="d12">Finance</data>
 </node>
 <node id="industry::E">
   <data key="d0">E 建筑业</data>
@@ -610,15 +610,34 @@
   <data key="d11">电力、热力、燃气及水生产和供应业</data>
   <data key="d12">Information Transmission, Software and Information Technology Services</data>
 </node>
+<node id="standard::ISO 14064">
+  <data key="d0">ISO 14064</data>
+  <data key="d1">Standard</data>
+  <data key="d13">ISO 14064</data>
+</node>
+<node id="standard_ref::batch_10__r446_aiagroup__nan__esgreport__iso_14064">
+  <data key="d0">batch_10__r446_aiagroup__nan__esgreport__iso_14064</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">10</data>
+  <data key="d15">seed_batch_10</data>
+</node>
+<node id="standard_family::Other reporting framework">
+  <data key="d0">其他报告框架</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard_role::Guideline">
+  <data key="d0">指引</data>
+  <data key="d1">StandardRole</data>
+</node>
 <node id="standard::GRI">
   <data key="d0">GRI</data>
   <data key="d1">Standard</data>
   <data key="d13">GRI</data>
 </node>
-<node id="standard_ref::batch_10__r448_jabil__20240__sustainabilityreport__gri">
-  <data key="d0">batch_10__r448_jabil__20240__sustainabilityreport__gri</data>
+<node id="standard_ref::batch_10__r446_aiagroup__nan__esgreport__gri">
+  <data key="d0">batch_10__r446_aiagroup__nan__esgreport__gri</data>
   <data key="d1">StandardReference</data>
-  <data key="d14">3</data>
+  <data key="d14">22</data>
   <data key="d15">seed_batch_10</data>
 </node>
 <node id="standard_family::ESG disclosure framework">
@@ -628,6 +647,65 @@
 <node id="standard_role::Disclosure standard">
   <data key="d0">披露标准</data>
   <data key="d1">StandardRole</data>
+</node>
+<node id="standard::IFRS S2">
+  <data key="d0">IFRS S2</data>
+  <data key="d1">Standard</data>
+  <data key="d13">IFRS S2</data>
+</node>
+<node id="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ifrs_s2">
+  <data key="d0">batch_10__r446_aiagroup__nan__esgreport__ifrs_s2</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">22</data>
+  <data key="d15">seed_batch_10</data>
+</node>
+<node id="standard_family::Climate disclosure standard">
+  <data key="d0">气候披露标准</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard::SBTi">
+  <data key="d0">SBTi</data>
+  <data key="d1">Standard</data>
+  <data key="d13">SBTi</data>
+</node>
+<node id="standard_ref::batch_10__r446_aiagroup__nan__esgreport__sbti">
+  <data key="d0">batch_10__r446_aiagroup__nan__esgreport__sbti</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">24</data>
+  <data key="d15">seed_batch_10</data>
+</node>
+<node id="standard_family::Climate target governance system">
+  <data key="d0">气候目标治理体系</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard_role::Target validation guideline">
+  <data key="d0">目标审定指引</data>
+  <data key="d1">StandardRole</data>
+</node>
+<node id="standard::GHG Protocol">
+  <data key="d0">GHG Protocol</data>
+  <data key="d1">Standard</data>
+  <data key="d13">GHG Protocol</data>
+</node>
+<node id="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ghg_protocol">
+  <data key="d0">batch_10__r446_aiagroup__nan__esgreport__ghg_protocol</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">58</data>
+  <data key="d15">seed_batch_10</data>
+</node>
+<node id="standard_family::GHG accounting system">
+  <data key="d0">温室气体核算体系</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard_role::Accounting standard">
+  <data key="d0">核算标准</data>
+  <data key="d1">StandardRole</data>
+</node>
+<node id="standard_ref::batch_10__r448_jabil__20240__sustainabilityreport__gri">
+  <data key="d0">batch_10__r448_jabil__20240__sustainabilityreport__gri</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">3</data>
+  <data key="d15">seed_batch_10</data>
 </node>
 <node id="standard::SASB">
   <data key="d0">SASB</data>
@@ -682,24 +760,11 @@
   <data key="d0">披露建议</data>
   <data key="d1">StandardRole</data>
 </node>
-<node id="standard::GHG Protocol">
-  <data key="d0">GHG Protocol</data>
-  <data key="d1">Standard</data>
-  <data key="d13">GHG Protocol</data>
-</node>
 <node id="standard_ref::batch_10__r448_jabil__20240__sustainabilityreport__ghg_protocol">
   <data key="d0">batch_10__r448_jabil__20240__sustainabilityreport__ghg_protocol</data>
   <data key="d1">StandardReference</data>
   <data key="d14">55</data>
   <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_family::GHG accounting system">
-  <data key="d0">温室气体核算体系</data>
-  <data key="d1">StandardFamily</data>
-</node>
-<node id="standard_role::Accounting standard">
-  <data key="d0">核算标准</data>
-  <data key="d1">StandardRole</data>
 </node>
 <node id="standard_ref::batch_10__r449_nationalaustraliabank__20240__climatereport__tcfd">
   <data key="d0">batch_10__r449_nationalaustraliabank__20240__climatereport__tcfd</data>
@@ -707,24 +772,11 @@
   <data key="d14">3</data>
   <data key="d15">seed_batch_10</data>
 </node>
-<node id="standard::SBTi">
-  <data key="d0">SBTi</data>
-  <data key="d1">Standard</data>
-  <data key="d13">SBTi</data>
-</node>
 <node id="standard_ref::batch_10__r449_nationalaustraliabank__20240__climatereport__sbti">
   <data key="d0">batch_10__r449_nationalaustraliabank__20240__climatereport__sbti</data>
   <data key="d1">StandardReference</data>
   <data key="d14">19</data>
   <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_family::Climate target governance system">
-  <data key="d0">气候目标治理体系</data>
-  <data key="d1">StandardFamily</data>
-</node>
-<node id="standard_role::Target validation guideline">
-  <data key="d0">目标审定指引</data>
-  <data key="d1">StandardRole</data>
 </node>
 <node id="standard::PCAF">
   <data key="d0">PCAF</data>
@@ -783,20 +835,11 @@
   <data key="d14">5</data>
   <data key="d15">seed_batch_10</data>
 </node>
-<node id="standard::IFRS S2">
-  <data key="d0">IFRS S2</data>
-  <data key="d1">Standard</data>
-  <data key="d13">IFRS S2</data>
-</node>
 <node id="standard_ref::batch_10__r451_crrcgroup__20240__other__ifrs_s2">
   <data key="d0">batch_10__r451_crrcgroup__20240__other__ifrs_s2</data>
   <data key="d1">StandardReference</data>
   <data key="d14">5</data>
   <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_family::Climate disclosure standard">
-  <data key="d0">气候披露标准</data>
-  <data key="d1">StandardFamily</data>
 </node>
 <node id="standard::ISO 14067">
   <data key="d0">ISO 14067</data>
@@ -817,24 +860,11 @@
   <data key="d0">方法学标准</data>
   <data key="d1">StandardRole</data>
 </node>
-<node id="standard::ISO 14064">
-  <data key="d0">ISO 14064</data>
-  <data key="d1">Standard</data>
-  <data key="d13">ISO 14064</data>
-</node>
 <node id="standard_ref::batch_10__r454_sompoholdings__20240__sustainabilityreport__iso_14064">
   <data key="d0">batch_10__r454_sompoholdings__20240__sustainabilityreport__iso_14064</data>
   <data key="d1">StandardReference</data>
   <data key="d14">2</data>
   <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_family::Other reporting framework">
-  <data key="d0">其他报告框架</data>
-  <data key="d1">StandardFamily</data>
-</node>
-<node id="standard_role::Guideline">
-  <data key="d0">指引</data>
-  <data key="d1">StandardRole</data>
 </node>
 <node id="standard_ref::batch_10__r454_sompoholdings__20240__sustainabilityreport__gri">
   <data key="d0">batch_10__r454_sompoholdings__20240__sustainabilityreport__gri</data>
@@ -1350,48 +1380,6 @@
   <data key="d0">batch_10__r485_centrica__20240__other__ghg_protocol</data>
   <data key="d1">StandardReference</data>
   <data key="d14">42</data>
-  <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_ref::batch_10__r486_linde__20240__other__gri">
-  <data key="d0">batch_10__r486_linde__20240__other__gri</data>
-  <data key="d1">StandardReference</data>
-  <data key="d14">3</data>
-  <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_ref::batch_10__r486_linde__20240__other__sasb">
-  <data key="d0">batch_10__r486_linde__20240__other__sasb</data>
-  <data key="d1">StandardReference</data>
-  <data key="d14">3</data>
-  <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_ref::batch_10__r486_linde__20240__other__tcfd">
-  <data key="d0">batch_10__r486_linde__20240__other__tcfd</data>
-  <data key="d1">StandardReference</data>
-  <data key="d14">3</data>
-  <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_ref::batch_10__r486_linde__20240__other__ifrs_s2">
-  <data key="d0">batch_10__r486_linde__20240__other__ifrs_s2</data>
-  <data key="d1">StandardReference</data>
-  <data key="d14">3</data>
-  <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_ref::batch_10__r486_linde__20240__other__sbti">
-  <data key="d0">batch_10__r486_linde__20240__other__sbti</data>
-  <data key="d1">StandardReference</data>
-  <data key="d14">20</data>
-  <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_ref::batch_10__r486_linde__20240__other__ghg_protocol">
-  <data key="d0">batch_10__r486_linde__20240__other__ghg_protocol</data>
-  <data key="d1">StandardReference</data>
-  <data key="d14">58</data>
-  <data key="d15">seed_batch_10</data>
-</node>
-<node id="standard_ref::batch_10__r486_linde__20240__other__iso_14064_3">
-  <data key="d0">batch_10__r486_linde__20240__other__iso_14064_3</data>
-  <data key="d1">StandardReference</data>
-  <data key="d14">98</data>
   <data key="d15">seed_batch_10</data>
 </node>
 <node id="standard::Business Responsibility and Sustainability Reporting (BRSR)">
@@ -18011,571 +17999,35 @@
   <data key="d19"></data>
   <data key="d20"></data>
 </node>
-<node id="methodology::batch_10__r486_linde__20240__other__p25__scope_2__1494">
-  <data key="d0">batch_10__r486_linde__20240__other__p25__scope_2__1494</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">25</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Purchased electricity</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1495">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_2__1495</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17">Derived data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1496">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_2__1496</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17">Derived data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Purchased electricity</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1497">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_2__1497</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17">Derived data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1498">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_3__1498</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Derived data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1499">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_3__1499</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Derived data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Purchased electricity</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1500">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_3__1500</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Derived data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1501">
-  <data key="d0">batch_10__r486_linde__20240__other__p61__scope_3__1501</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">61</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19">Distance-based</data>
-  <data key="d20"></data>
-</node>
-<node id="calc_method::Distance-based">
-  <data key="d0">距离法</data>
-  <data key="d1">CalculationMethod</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1502">
-  <data key="d0">batch_10__r486_linde__20240__other__p61__scope_3__1502</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">61</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19">Distance-based</data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1503">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__scope_1__1503</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1504">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__scope_2__1504</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1505">
-  <data key="d0">batch_10__r486_linde__20240__other__p63__scope_3__1505</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">63</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Business travel</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1506">
-  <data key="d0">batch_10__r486_linde__20240__other__p63__scope_3__1506</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">63</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1507">
-  <data key="d0">batch_10__r486_linde__20240__other__p63__scope_3__1507</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">63</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1508">
-  <data key="d0">batch_10__r486_linde__20240__other__p63__scope_3__1508</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">63</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p7__inventory__1509">
-  <data key="d0">batch_10__r486_linde__20240__other__p7__inventory__1509</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">7</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p14__inventory__1510">
-  <data key="d0">batch_10__r486_linde__20240__other__p14__inventory__1510</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">14</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p46__inventory__1511">
-  <data key="d0">batch_10__r486_linde__20240__other__p46__inventory__1511</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">46</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p55__inventory__1512">
-  <data key="d0">batch_10__r486_linde__20240__other__p55__inventory__1512</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">55</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p58__scope_3__1513">
-  <data key="d0">batch_10__r486_linde__20240__other__p58__scope_3__1513</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">58</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Primary data</data>
-  <data key="d18">Verification</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p59__inventory__1514">
-  <data key="d0">batch_10__r486_linde__20240__other__p59__inventory__1514</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">59</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Primary data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1515">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_3__1515</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Secondary data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1516">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_3__1516</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Secondary data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1517">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_3__1517</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Secondary data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p61__inventory__1518">
-  <data key="d0">batch_10__r486_linde__20240__other__p61__inventory__1518</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">61</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Primary data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p61__inventory__1519">
-  <data key="d0">batch_10__r486_linde__20240__other__p61__inventory__1519</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">61</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Primary data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Mobile emission source</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__inventory__1520">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__inventory__1520</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__inventory__1521">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__inventory__1521</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Use of sold products</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__inventory__1522">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__inventory__1522</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p64__inventory__1523">
-  <data key="d0">batch_10__r486_linde__20240__other__p64__inventory__1523</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">64</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p65__inventory__1524">
-  <data key="d0">batch_10__r486_linde__20240__other__p65__inventory__1524</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">65</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p99__inventory__1525">
-  <data key="d0">batch_10__r486_linde__20240__other__p99__inventory__1525</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">99</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Primary data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p100__inventory__1526">
-  <data key="d0">batch_10__r486_linde__20240__other__p100__inventory__1526</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">100</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16"></data>
-  <data key="d17">Derived data</data>
-  <data key="d18">Verification</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p101__scope_3__1527">
-  <data key="d0">batch_10__r486_linde__20240__other__p101__scope_3__1527</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">101</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Assurance</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p7__scope_1__1528">
-  <data key="d0">batch_10__r486_linde__20240__other__p7__scope_1__1528</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">7</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Process emissions</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p20__scope_1__1529">
-  <data key="d0">batch_10__r486_linde__20240__other__p20__scope_1__1529</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">20</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1530">
-  <data key="d0">batch_10__r486_linde__20240__other__p22__scope_1__1530</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">22</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Stationary emission source</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1531">
-  <data key="d0">batch_10__r486_linde__20240__other__p22__scope_1__1531</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">22</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p58__scope_1__1532">
-  <data key="d0">batch_10__r486_linde__20240__other__p58__scope_1__1532</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">58</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17">Primary data</data>
-  <data key="d18">Verification</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_1__1533">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_1__1533</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1534">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_2__1534</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1535">
-  <data key="d0">batch_10__r486_linde__20240__other__p60__scope_3__1535</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">60</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17">Estimated data</data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1536">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__scope_1__1536</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1537">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__scope_2__1537</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p62__scope_3__1538">
-  <data key="d0">batch_10__r486_linde__20240__other__p62__scope_3__1538</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">62</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p63__scope_1__1539">
-  <data key="d0">batch_10__r486_linde__20240__other__p63__scope_1__1539</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">63</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19"></data>
-  <data key="d20">Value-chain activities</data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p94__scope_1__1540">
-  <data key="d0">batch_10__r486_linde__20240__other__p94__scope_1__1540</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">94</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19">Market-based</data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p94__scope_2__1541">
-  <data key="d0">batch_10__r486_linde__20240__other__p94__scope_2__1541</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">94</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19">Market-based</data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p94__scope_3__1542">
-  <data key="d0">batch_10__r486_linde__20240__other__p94__scope_3__1542</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">94</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 3</data>
-  <data key="d17"></data>
-  <data key="d18">Report disclosure</data>
-  <data key="d19">Market-based</data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p99__scope_1__1543">
-  <data key="d0">batch_10__r486_linde__20240__other__p99__scope_1__1543</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">99</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 1</data>
-  <data key="d17"></data>
-  <data key="d18">Verification</data>
-  <data key="d19">Market-based</data>
-  <data key="d20"></data>
-</node>
-<node id="methodology::batch_10__r486_linde__20240__other__p99__scope_2__1544">
-  <data key="d0">batch_10__r486_linde__20240__other__p99__scope_2__1544</data>
-  <data key="d1">MethodologyFact</data>
-  <data key="d14">99</data>
-  <data key="d15">seed_batch_10</data>
-  <data key="d16">Scope 2</data>
-  <data key="d17"></data>
-  <data key="d18">Verification</data>
-  <data key="d19">Market-based</data>
-  <data key="d20"></data>
-</node>
+<edge source="company::r446_aiagroup" target="report::r446_aiagroup__nan__esgreport" id="0">
+  <data key="d21">publishes</data>
+</edge>
+<edge source="company::r446_aiagroup" target="industry::J" id="0">
+  <data key="d21">classified_as</data>
+</edge>
+<edge source="report::r446_aiagroup__nan__esgreport" target="source::AIA GROUP-Main-ESG-Report_CH.pdf" id="0">
+  <data key="d21">matched_to_source</data>
+</edge>
+<edge source="report::r446_aiagroup__nan__esgreport" target="standard_ref::batch_10__r446_aiagroup__nan__esgreport__iso_14064" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">10</data>
+</edge>
+<edge source="report::r446_aiagroup__nan__esgreport" target="standard_ref::batch_10__r446_aiagroup__nan__esgreport__gri" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">22</data>
+</edge>
+<edge source="report::r446_aiagroup__nan__esgreport" target="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ifrs_s2" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">22</data>
+</edge>
+<edge source="report::r446_aiagroup__nan__esgreport" target="standard_ref::batch_10__r446_aiagroup__nan__esgreport__sbti" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">24</data>
+</edge>
+<edge source="report::r446_aiagroup__nan__esgreport" target="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ghg_protocol" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">58</data>
+</edge>
 <edge source="company::r448_jabil" target="report::r448_jabil__20240__sustainabilityreport" id="0">
   <data key="d21">publishes</data>
 </edge>
@@ -25176,246 +24628,50 @@
   <data key="d21">documents_methodology</data>
   <data key="d22">10</data>
 </edge>
-<edge source="company::r486_linde" target="report::r486_linde__20240__other" id="0">
-  <data key="d21">publishes</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__iso_14064" target="standard::ISO 14064" id="0">
+  <data key="d21">references_standard</data>
 </edge>
-<edge source="company::r486_linde" target="industry::C" id="0">
-  <data key="d21">classified_as</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__iso_14064" target="standard_family::Other reporting framework" id="0">
+  <data key="d21">belongs_to_standard_family</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="source::2024-LINDE-sustainable-development-report.pdf" id="0">
-  <data key="d21">matched_to_source</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__iso_14064" target="standard_role::Guideline" id="0">
+  <data key="d21">has_standard_role</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="standard_ref::batch_10__r486_linde__20240__other__gri" id="0">
-  <data key="d21">documents_standard_reference</data>
-  <data key="d22">3</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__gri" target="standard::GRI" id="0">
+  <data key="d21">references_standard</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="standard_ref::batch_10__r486_linde__20240__other__sasb" id="0">
-  <data key="d21">documents_standard_reference</data>
-  <data key="d22">3</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__gri" target="standard_family::ESG disclosure framework" id="0">
+  <data key="d21">belongs_to_standard_family</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="standard_ref::batch_10__r486_linde__20240__other__tcfd" id="0">
-  <data key="d21">documents_standard_reference</data>
-  <data key="d22">3</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__gri" target="standard_role::Disclosure standard" id="0">
+  <data key="d21">has_standard_role</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="standard_ref::batch_10__r486_linde__20240__other__ifrs_s2" id="0">
-  <data key="d21">documents_standard_reference</data>
-  <data key="d22">3</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ifrs_s2" target="standard::IFRS S2" id="0">
+  <data key="d21">references_standard</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="standard_ref::batch_10__r486_linde__20240__other__sbti" id="0">
-  <data key="d21">documents_standard_reference</data>
-  <data key="d22">20</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ifrs_s2" target="standard_family::Climate disclosure standard" id="0">
+  <data key="d21">belongs_to_standard_family</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="standard_ref::batch_10__r486_linde__20240__other__ghg_protocol" id="0">
-  <data key="d21">documents_standard_reference</data>
-  <data key="d22">58</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ifrs_s2" target="standard_role::Disclosure standard" id="0">
+  <data key="d21">has_standard_role</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="standard_ref::batch_10__r486_linde__20240__other__iso_14064_3" id="0">
-  <data key="d21">documents_standard_reference</data>
-  <data key="d22">98</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__sbti" target="standard::SBTi" id="0">
+  <data key="d21">references_standard</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p25__scope_2__1494" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">25</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__sbti" target="standard_family::Climate target governance system" id="0">
+  <data key="d21">belongs_to_standard_family</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1495" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__sbti" target="standard_role::Target validation guideline" id="0">
+  <data key="d21">has_standard_role</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1496" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ghg_protocol" target="standard::GHG Protocol" id="0">
+  <data key="d21">references_standard</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1497" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ghg_protocol" target="standard_family::GHG accounting system" id="0">
+  <data key="d21">belongs_to_standard_family</data>
 </edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1498" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1499" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1500" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1501" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">61</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1502" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">61</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1503" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1504" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1505" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">63</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1506" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">63</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1507" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">63</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1508" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">63</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p7__inventory__1509" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">7</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p14__inventory__1510" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">14</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p46__inventory__1511" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">46</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p55__inventory__1512" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">55</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p58__scope_3__1513" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">58</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p59__inventory__1514" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">59</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1515" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1516" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1517" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p61__inventory__1518" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">61</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p61__inventory__1519" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">61</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__inventory__1520" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__inventory__1521" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__inventory__1522" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p64__inventory__1523" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">64</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p65__inventory__1524" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">65</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p99__inventory__1525" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">99</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p100__inventory__1526" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">100</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p101__scope_3__1527" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">101</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p7__scope_1__1528" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">7</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p20__scope_1__1529" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">20</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1530" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">22</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1531" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">22</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p58__scope_1__1532" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">58</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_1__1533" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1534" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1535" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">60</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1536" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1537" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p62__scope_3__1538" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">62</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p63__scope_1__1539" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">63</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p94__scope_1__1540" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">94</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p94__scope_2__1541" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">94</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p94__scope_3__1542" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">94</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p99__scope_1__1543" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">99</data>
-</edge>
-<edge source="report::r486_linde__20240__other" target="methodology::batch_10__r486_linde__20240__other__p99__scope_2__1544" id="0">
-  <data key="d21">documents_methodology</data>
-  <data key="d22">99</data>
+<edge source="standard_ref::batch_10__r446_aiagroup__nan__esgreport__ghg_protocol" target="standard_role::Accounting standard" id="0">
+  <data key="d21">has_standard_role</data>
 </edge>
 <edge source="standard_ref::batch_10__r448_jabil__20240__sustainabilityreport__gri" target="standard::GRI" id="0">
   <data key="d21">references_standard</data>
@@ -26324,69 +25580,6 @@
   <data key="d21">belongs_to_standard_family</data>
 </edge>
 <edge source="standard_ref::batch_10__r485_centrica__20240__other__ghg_protocol" target="standard_role::Accounting standard" id="0">
-  <data key="d21">has_standard_role</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__gri" target="standard::GRI" id="0">
-  <data key="d21">references_standard</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__gri" target="standard_family::ESG disclosure framework" id="0">
-  <data key="d21">belongs_to_standard_family</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__gri" target="standard_role::Disclosure standard" id="0">
-  <data key="d21">has_standard_role</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__sasb" target="standard::SASB" id="0">
-  <data key="d21">references_standard</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__sasb" target="standard_family::Industry disclosure framework" id="0">
-  <data key="d21">belongs_to_standard_family</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__sasb" target="standard_role::Disclosure guideline" id="0">
-  <data key="d21">has_standard_role</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__tcfd" target="standard::TCFD" id="0">
-  <data key="d21">references_standard</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__tcfd" target="standard_family::Climate disclosure framework" id="0">
-  <data key="d21">belongs_to_standard_family</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__tcfd" target="standard_role::Disclosure recommendation" id="0">
-  <data key="d21">has_standard_role</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__ifrs_s2" target="standard::IFRS S2" id="0">
-  <data key="d21">references_standard</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__ifrs_s2" target="standard_family::Climate disclosure standard" id="0">
-  <data key="d21">belongs_to_standard_family</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__ifrs_s2" target="standard_role::Disclosure standard" id="0">
-  <data key="d21">has_standard_role</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__sbti" target="standard::SBTi" id="0">
-  <data key="d21">references_standard</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__sbti" target="standard_family::Climate target governance system" id="0">
-  <data key="d21">belongs_to_standard_family</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__sbti" target="standard_role::Target validation guideline" id="0">
-  <data key="d21">has_standard_role</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__ghg_protocol" target="standard::GHG Protocol" id="0">
-  <data key="d21">references_standard</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__ghg_protocol" target="standard_family::GHG accounting system" id="0">
-  <data key="d21">belongs_to_standard_family</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__ghg_protocol" target="standard_role::Accounting standard" id="0">
-  <data key="d21">has_standard_role</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__iso_14064_3" target="standard::ISO 14064-3" id="0">
-  <data key="d21">references_standard</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__iso_14064_3" target="standard_family::ISO assurance system" id="0">
-  <data key="d21">belongs_to_standard_family</data>
-</edge>
-<edge source="standard_ref::batch_10__r486_linde__20240__other__iso_14064_3" target="standard_role::Verification and assurance standard" id="0">
   <data key="d21">has_standard_role</data>
 </edge>
 <edge source="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__business_responsibility_and_sustainability_reporting_brsr__p40" target="standard::Business Responsibility and Sustainability Reporting (BRSR)" id="0">
@@ -41328,467 +40521,5 @@
 </edge>
 <edge source="methodology::batch_10__r485_centrica__20240__other__p10__inventory__1493" target="assurance::Report disclosure" id="0">
   <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p25__scope_2__1494" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p25__scope_2__1494" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p25__scope_2__1494" target="activity::Purchased electricity" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1495" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1495" target="data_source::Derived data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1495" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1496" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1496" target="data_source::Derived data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1496" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1496" target="activity::Purchased electricity" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1497" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1497" target="data_source::Derived data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1497" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1497" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1498" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1498" target="data_source::Derived data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1498" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1499" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1499" target="data_source::Derived data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1499" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1499" target="activity::Purchased electricity" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1500" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1500" target="data_source::Derived data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1500" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1500" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1501" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1501" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1501" target="calc_method::Distance-based" id="0">
-  <data key="d21">has_calculation_method</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1502" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1502" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1502" target="calc_method::Distance-based" id="0">
-  <data key="d21">has_calculation_method</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__scope_3__1502" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1503" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1503" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1503" target="scope3::15.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1504" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1504" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1504" target="scope3::15.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1505" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1505" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1505" target="activity::Business travel" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1505" target="scope3::6.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1506" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1506" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1506" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1506" target="scope3::1.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1507" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1507" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1507" target="scope3::1.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1508" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1508" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_3__1508" target="scope3::6.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p7__inventory__1509" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p7__inventory__1509" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p14__inventory__1510" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p14__inventory__1510" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p46__inventory__1511" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p46__inventory__1511" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p55__inventory__1512" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p55__inventory__1512" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p58__scope_3__1513" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p58__scope_3__1513" target="data_source::Primary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p58__scope_3__1513" target="assurance::Verification" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p59__inventory__1514" target="data_source::Primary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p59__inventory__1514" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1515" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1515" target="data_source::Secondary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1515" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1516" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1516" target="data_source::Secondary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1516" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1516" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1516" target="scope3::3.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1517" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1517" target="data_source::Secondary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1517" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1517" target="scope3::3.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__inventory__1518" target="data_source::Primary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__inventory__1518" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__inventory__1519" target="data_source::Primary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__inventory__1519" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p61__inventory__1519" target="activity::Mobile emission source" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1520" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1520" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1521" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1521" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1521" target="activity::Use of sold products" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1521" target="scope3::11.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1522" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1522" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__inventory__1522" target="scope3::11.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p64__inventory__1523" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p64__inventory__1523" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p65__inventory__1524" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p65__inventory__1524" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__inventory__1525" target="data_source::Primary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__inventory__1525" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p100__inventory__1526" target="data_source::Derived data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p100__inventory__1526" target="assurance::Verification" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p101__scope_3__1527" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p101__scope_3__1527" target="assurance::Assurance" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p101__scope_3__1527" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p7__scope_1__1528" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p7__scope_1__1528" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p7__scope_1__1528" target="activity::Process emissions" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p20__scope_1__1529" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p20__scope_1__1529" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p20__scope_1__1529" target="scope3::15.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1530" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1530" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1530" target="activity::Stationary emission source" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1530" target="scope3::15.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1531" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1531" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p22__scope_1__1531" target="scope3::15.0" id="0">
-  <data key="d21">has_scope3_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p58__scope_1__1532" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p58__scope_1__1532" target="data_source::Primary data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p58__scope_1__1532" target="assurance::Verification" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_1__1533" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_1__1533" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_1__1533" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1534" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1534" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_2__1534" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1535" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1535" target="data_source::Estimated data" id="0">
-  <data key="d21">has_data_source_type</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p60__scope_3__1535" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1536" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1536" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_1__1536" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1537" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1537" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_2__1537" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_3__1538" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_3__1538" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p62__scope_3__1538" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_1__1539" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_1__1539" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p63__scope_1__1539" target="activity::Value-chain activities" id="0">
-  <data key="d21">has_activity_category</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_1__1540" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_1__1540" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_1__1540" target="calc_method::Market-based" id="0">
-  <data key="d21">has_calculation_method</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_2__1541" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_2__1541" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_2__1541" target="calc_method::Market-based" id="0">
-  <data key="d21">has_calculation_method</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_3__1542" target="scope::Scope 3" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_3__1542" target="assurance::Report disclosure" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p94__scope_3__1542" target="calc_method::Market-based" id="0">
-  <data key="d21">has_calculation_method</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__scope_1__1543" target="scope::Scope 1" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__scope_1__1543" target="assurance::Verification" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__scope_1__1543" target="calc_method::Market-based" id="0">
-  <data key="d21">has_calculation_method</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__scope_2__1544" target="scope::Scope 2" id="0">
-  <data key="d21">for_scope</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__scope_2__1544" target="assurance::Verification" id="0">
-  <data key="d21">has_assurance_stage</data>
-</edge>
-<edge source="methodology::batch_10__r486_linde__20240__other__p99__scope_2__1544" target="calc_method::Market-based" id="0">
-  <data key="d21">has_calculation_method</data>
 </edge>
 </graph></graphml>
