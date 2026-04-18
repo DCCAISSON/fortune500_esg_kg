@@ -63,8 +63,8 @@ a{text-decoration:none;color:inherit}
 .tag{display:inline-flex;align-items:center;justify-content:center;min-width:56px;padding:8px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-weight:800}
 .report-figure-insight{margin:12px 0 14px;padding:14px 16px;border-left:4px solid var(--accent);background:linear-gradient(90deg,rgba(199,107,45,.12),rgba(199,107,45,.04));border-radius:0 12px 12px 0;line-height:1.75}
 .report-figure-note{margin:0;color:var(--muted);line-height:1.7}
-.report-figure-caption{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);line-height:1.75;font-size:14px}
-.report-figure-caption strong{color:var(--ink)}
+.report-figure-caption{margin-top:12px;padding:10px 0 0;border-top:1px dashed var(--line);color:var(--muted);line-height:1.6;font-size:12.5px;letter-spacing:.01em}
+.report-figure-caption strong{display:inline-block;margin-right:8px;color:var(--accent2);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase}
 .visual-figure{width:100%;border-radius:16px;border:1px solid var(--line);background:#fff;cursor:zoom-in}
 .visual-support{margin-top:16px}
 .table-wrap{overflow:auto}
