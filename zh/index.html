@@ -23,9 +23,7 @@
               <p>我基于世界500强企业公开年报、可持续发展报告与碳相关披露文件，构建了这套 ESG 知识图谱展示站点。当前公开页以 351 家已发布企业为正式成果口径，另有 147 家因缺母公司主报告或仍待复核，暂未进入正式版主图谱。</p>
               <p>首页主图区已按需求方原始表述重排为标准分层链条、Scope 与直接/间接排放、排放方法与数据质量、活动类别、行业归类和技术聚类展示。原 10 份示范样本图表已下沉至附录区，仅作为单报告建模示例保留。</p>
               <div class="downloads">
-                <a class="btn alt" href="../assets/data/graph/fortune500_esg_kg.graphml">下载 GraphML</a>
-                <a class="btn alt" href="../assets/data/graph/nodes.csv">下载 nodes.csv</a>
-                <a class="btn alt" href="../assets/data/graph/edges.csv">下载 edges.csv</a>
+                <a class="btn alt" href="../assets/data/world500/graph/world500_published_kg.graphml">下载正式版 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_nodes.csv">下载正式版 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_edges.csv">下载正式版 edges.csv</a>
               </div>
             </section>
 
@@ -52,6 +50,31 @@
     <div class="table-card"><h3>500 家当前状态总分布表</h3><div class="table-wrap"><table><tr><th>一级状态</th><th>二级状态</th><th>企业数</th><th>占 500 家比例</th><th>当前口径</th><th>下一步处理</th></tr><tr><td>正式成果</td><td>已完成正式批次图谱并接入站点</td><td>351</td><td>70.2%</td><td>已完成报告匹配、页级抽取、证据挖掘、批次图谱构建，并已接入现有发布站点。</td><td>持续清理 extract_quality 与 evidence_gap，并做增量更新。</td></tr><tr><td>未匹配待补库/复核</td><td>库内无母公司主报告</td><td>141</td><td>28.2%</td><td>当前库存中未发现可安全归属母公司的正式主报告文件。</td><td>保持未匹配状态，按高价值对象继续二次检索补库。</td></tr><tr><td>未匹配待补库/复核</td><td>仅发现子公司/关联主体文件</td><td>6</td><td>1.2%</td><td>仅发现上市子公司或关联经营主体材料，不能替代母公司主报告。</td><td>人工复核是否补采母公司主报告；现有关联主体文件不直接入主图谱。</td></tr><tr><td>未匹配待补库/复核</td><td>人工判定驳回的错误匹配</td><td>2</td><td>0.4%</td><td>已存在人工驳回记录，确认当前候选文件不能安全匹配到母公司主报告。</td><td>保留 rejection note，不做硬匹配。</td></tr><tr><td>合计</td><td></td><td>500</td><td>100.0%</td><td>500 家世界500强正式推进对象。</td><td></td></tr></table></div></div>
   </div>
 </section>
+
+
+<section class="section">
+  <div class="section-head">
+    <h2>正式成果版知识图谱总览</h2>
+    <p>这里直接展示已发布批次合并后的正式版知识图谱，不再只是专题统计图。图谱把企业、报告、标准、活动类别、Scope、数据质量方法和行业门类连接在同一张关系网络中。</p>
+  </div>
+  <div class="card">
+    <div class="report-figure-head">
+      <div class="report-figure-title"><h3>已发布批次合并图谱网络总览</h3></div>
+      <div class="downloads"><a class="btn alt" href="../assets/data/world500/graph/world500_published_kg.graphml">下载正式版 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_nodes.csv">下载正式版 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_edges.csv">下载正式版 edges.csv</a></div>
+    </div>
+    <div class="report-figure-insight"><strong>一行汇报结论:</strong> 正式版图谱本体已经具备公开展示条件，当前首页补上的是图谱网络总览、节点结构和关系结构，让需求方能直接看到“知识图谱”而不是只看到其分析结果。图谱企业节点数以当前合并入图结果为准。</div>
+    <img class="visual-figure" src="../assets/figures/zh/world500_formal_graph_overview.png" alt="已发布批次合并图谱网络总览" data-lightbox-src="../assets/figures/zh/world500_formal_graph_overview.png" data-lightbox-title="已发布批次合并图谱网络总览" tabindex="0">
+    <div class="report-figure-caption"><strong>页脚注释:</strong> 口径：合并已发布批次的正式版 nodes / edges / GraphML。内容：主图展示正式版关系网络，下方给出节点类型与关系类型摘要。用途：直接向需求方展示知识图谱本体及其结构组成。</div>
+    <div class="visual-support">
+      <div class="metric-grid"><div class="metric"><h3>正式版图谱节点</h3><strong>16,349</strong></div><div class="metric"><h3>正式版图谱关系</h3><strong>64,071</strong></div><div class="metric"><h3>已纳入企业</h3><strong>332</strong></div><div class="metric"><h3>节点类型</h3><strong>16</strong></div><div class="metric"><h3>关系类型</h3><strong>15</strong></div></div>
+      <div class="grid-2" style="margin-top:16px;">
+        <div class="table-card"><h3>正式版图谱节点类型摘要</h3><div class="table-wrap"><table><tr><th>节点类型</th><th>数量</th></tr><tr><td>方法学事实</td><td>13940</td></tr><tr><td>标准引用事实</td><td>1301</td></tr><tr><td>企业</td><td>332</td></tr><tr><td>报告</td><td>332</td></tr><tr><td>源文件</td><td>330</td></tr><tr><td>标准</td><td>27</td></tr><tr><td>标准体系</td><td>18</td></tr><tr><td>标准角色</td><td>13</td></tr></table></div></div>
+        <div class="table-card"><h3>正式版图谱关系类型摘要</h3><div class="table-wrap"><table><tr><th>关系类型</th><th>数量</th></tr><tr><td>形成方法学事实</td><td>13940</td></tr><tr><td>对应核查/鉴证环节</td><td>13940</td></tr><tr><td>面向Scope</td><td>10043</td></tr><tr><td>对应数据类型</td><td>5983</td></tr><tr><td>对应活动类别</td><td>5773</td></tr><tr><td>对应Scope 3类别</td><td>5125</td></tr><tr><td>采用核算方法</td><td>2484</td></tr><tr><td>形成标准引用事实</td><td>1301</td></tr></table></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
             <section class="section">
               <div class="section-head">

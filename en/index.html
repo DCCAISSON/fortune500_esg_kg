@@ -23,9 +23,7 @@
               <p>This site presents my ESG knowledge graph built from public Fortune 500 annual reports, sustainability reports, and carbon-related disclosures. The public-facing version now centers on 351 published companies, while another 147 remain outside the formal graph because a parent-company report is missing or the match still requires review.</p>
               <p>The main figure sequence now follows the stakeholder&#x27;s requested logic more directly: standards layering, GHG or ISO or GB chains, scope and direct or indirect emissions, methodology and data quality, activity and industry mapping, and technology clustering. The original 10-report demo visuals remain in the appendix only.</p>
               <div class="downloads">
-                <a class="btn alt" href="../assets/data/graph/fortune500_esg_kg.graphml">Download GraphML</a>
-                <a class="btn alt" href="../assets/data/graph/nodes.csv">Download nodes.csv</a>
-                <a class="btn alt" href="../assets/data/graph/edges.csv">Download edges.csv</a>
+                <a class="btn alt" href="../assets/data/world500/graph/world500_published_kg.graphml">Download published GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_nodes.csv">Download published nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_edges.csv">Download published edges.csv</a>
               </div>
             </section>
 
@@ -52,6 +50,31 @@
     <div class="table-card"><h3>Current Status Distribution Table</h3><div class="table-wrap"><table><tr><th>Primary status</th><th>Secondary status</th><th>Company count</th><th>Share of 500</th><th>Current interpretation</th><th>Next action</th></tr><tr><td>正式成果</td><td>已完成正式批次图谱并接入站点</td><td>351</td><td>70.2%</td><td>已完成报告匹配、页级抽取、证据挖掘、批次图谱构建，并已接入现有发布站点。</td><td>持续清理 extract_quality 与 evidence_gap，并做增量更新。</td></tr><tr><td>未匹配待补库/复核</td><td>库内无母公司主报告</td><td>141</td><td>28.2%</td><td>当前库存中未发现可安全归属母公司的正式主报告文件。</td><td>保持未匹配状态，按高价值对象继续二次检索补库。</td></tr><tr><td>未匹配待补库/复核</td><td>仅发现子公司/关联主体文件</td><td>6</td><td>1.2%</td><td>仅发现上市子公司或关联经营主体材料，不能替代母公司主报告。</td><td>人工复核是否补采母公司主报告；现有关联主体文件不直接入主图谱。</td></tr><tr><td>未匹配待补库/复核</td><td>人工判定驳回的错误匹配</td><td>2</td><td>0.4%</td><td>已存在人工驳回记录，确认当前候选文件不能安全匹配到母公司主报告。</td><td>保留 rejection note，不做硬匹配。</td></tr><tr><td>合计</td><td></td><td>500</td><td>100.0%</td><td>500 家世界500强正式推进对象。</td><td></td></tr></table></div></div>
   </div>
 </section>
+
+
+<section class="section">
+  <div class="section-head">
+    <h2>Formal Knowledge Graph Overview</h2>
+    <p>This section shows the merged formal knowledge graph from published production batches rather than only thematic summary figures. The graph connects companies, reports, standards, activity classes, scope, data-quality methods, and industry sections in one network.</p>
+  </div>
+  <div class="card">
+    <div class="report-figure-head">
+      <div class="report-figure-title"><h3>Merged graph network from published batches</h3></div>
+      <div class="downloads"><a class="btn alt" href="../assets/data/world500/graph/world500_published_kg.graphml">Download published GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_nodes.csv">Download published nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_edges.csv">Download published edges.csv</a></div>
+    </div>
+    <div class="report-figure-insight"><strong>Briefing takeaway:</strong> The formal graph itself is now surfaced directly, so the homepage shows the knowledge graph network, node structure, and relation structure rather than only the analytical results derived from it. The company-node count follows the current merged graph output.</div>
+    <img class="visual-figure" src="../assets/figures/en/world500_formal_graph_overview.png" alt="Merged graph network from published batches" data-lightbox-src="../assets/figures/en/world500_formal_graph_overview.png" data-lightbox-title="Merged graph network from published batches" tabindex="0">
+    <div class="report-figure-caption"><strong>Footer Note:</strong> Scope: merged nodes, edges, and GraphML from published production batches. Layout: the main image shows the formal relation network, followed by node-type and relation-type summaries. Use: shows the knowledge graph itself, not only derived charts.</div>
+    <div class="visual-support">
+      <div class="metric-grid"><div class="metric"><h3>Graph nodes</h3><strong>16,349</strong></div><div class="metric"><h3>Graph edges</h3><strong>64,071</strong></div><div class="metric"><h3>Published companies</h3><strong>332</strong></div><div class="metric"><h3>Node types</h3><strong>16</strong></div><div class="metric"><h3>Relation types</h3><strong>15</strong></div></div>
+      <div class="grid-2" style="margin-top:16px;">
+        <div class="table-card"><h3>Formal graph node-type summary</h3><div class="table-wrap"><table><tr><th>Node type</th><th>Count</th></tr><tr><td>MethodologyFact</td><td>13940</td></tr><tr><td>StandardReference</td><td>1301</td></tr><tr><td>Company</td><td>332</td></tr><tr><td>Report</td><td>332</td></tr><tr><td>SourceFile</td><td>330</td></tr><tr><td>Standard</td><td>27</td></tr><tr><td>StandardFamily</td><td>18</td></tr><tr><td>StandardRole</td><td>13</td></tr></table></div></div>
+        <div class="table-card"><h3>Formal graph relation-type summary</h3><div class="table-wrap"><table><tr><th>Relation type</th><th>Count</th></tr><tr><td>documents_methodology</td><td>13940</td></tr><tr><td>has_assurance_stage</td><td>13940</td></tr><tr><td>for_scope</td><td>10043</td></tr><tr><td>has_data_source_type</td><td>5983</td></tr><tr><td>has_activity_category</td><td>5773</td></tr><tr><td>has_scope3_category</td><td>5125</td></tr><tr><td>has_calculation_method</td><td>2484</td></tr><tr><td>documents_standard_reference</td><td>1301</td></tr></table></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
             <section class="section">
               <div class="section-head">
