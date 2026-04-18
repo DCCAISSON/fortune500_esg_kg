@@ -1394,6 +1394,44 @@
   <data key="d14">98</data>
   <data key="d15">seed_batch_10</data>
 </node>
+<node id="standard::Business Responsibility and Sustainability Reporting (BRSR)">
+  <data key="d0">商业责任与可持续发展报告（BRSR）</data>
+  <data key="d1">Standard</data>
+  <data key="d13">Business Responsibility and Sustainability Reporting (BRSR)</data>
+</node>
+<node id="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__business_responsibility_and_sustainability_reporting_brsr__p40">
+  <data key="d0">batch_10__r463_rajeshexports公司__20240__other__manual_axis__business_responsibility_and_sustainability_reporting_brsr__p40</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">40</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
+<node id="standard_family::Indian ESG disclosure framework">
+  <data key="d0">印度ESG披露框架</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard_role::Disclosure framework">
+  <data key="d0">披露框架</data>
+  <data key="d1">StandardRole</data>
+</node>
+<node id="standard::National Guidelines on Responsible Business Conduct (NGRBC)">
+  <data key="d0">国家负责任商业行为准则（NGRBC）</data>
+  <data key="d1">Standard</data>
+  <data key="d13">National Guidelines on Responsible Business Conduct (NGRBC)</data>
+</node>
+<node id="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__national_guidelines_on_responsible_business_conduct_ngrbc__p44">
+  <data key="d0">batch_10__r463_rajeshexports公司__20240__other__manual_axis__national_guidelines_on_responsible_business_conduct_ngrbc__p44</data>
+  <data key="d1">StandardReference</data>
+  <data key="d14">44</data>
+  <data key="d15">manual_axis_backfill</data>
+</node>
+<node id="standard_family::Responsible business conduct guideline">
+  <data key="d0">负责任商业行为指引</data>
+  <data key="d1">StandardFamily</data>
+</node>
+<node id="standard_role::Principle guideline">
+  <data key="d0">原则指引</data>
+  <data key="d1">StandardRole</data>
+</node>
 <node id="methodology::batch_10__r448_jabil__20240__sustainabilityreport__p27__scope_1__0001">
   <data key="d0">batch_10__r448_jabil__20240__sustainabilityreport__p27__scope_1__0001</data>
   <data key="d1">MethodologyFact</data>
@@ -20929,6 +20967,14 @@
 <edge source="report::r463_rajeshexports公司__20240__other" target="source::RajeshExportsAR2024.pdf" id="0">
   <data key="d21">matched_to_source</data>
 </edge>
+<edge source="report::r463_rajeshexports公司__20240__other" target="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__business_responsibility_and_sustainability_reporting_brsr__p40" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">40</data>
+</edge>
+<edge source="report::r463_rajeshexports公司__20240__other" target="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__national_guidelines_on_responsible_business_conduct_ngrbc__p44" id="0">
+  <data key="d21">documents_standard_reference</data>
+  <data key="d22">44</data>
+</edge>
 <edge source="report::r463_rajeshexports公司__20240__other" target="methodology::batch_10__r463_rajeshexports公司__20240__other__p37__inventory__0542" id="0">
   <data key="d21">documents_methodology</data>
   <data key="d22">37</data>
@@ -26341,6 +26387,24 @@
   <data key="d21">belongs_to_standard_family</data>
 </edge>
 <edge source="standard_ref::batch_10__r486_linde__20240__other__iso_14064_3" target="standard_role::Verification and assurance standard" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__business_responsibility_and_sustainability_reporting_brsr__p40" target="standard::Business Responsibility and Sustainability Reporting (BRSR)" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__business_responsibility_and_sustainability_reporting_brsr__p40" target="standard_family::Indian ESG disclosure framework" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__business_responsibility_and_sustainability_reporting_brsr__p40" target="standard_role::Disclosure framework" id="0">
+  <data key="d21">has_standard_role</data>
+</edge>
+<edge source="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__national_guidelines_on_responsible_business_conduct_ngrbc__p44" target="standard::National Guidelines on Responsible Business Conduct (NGRBC)" id="0">
+  <data key="d21">references_standard</data>
+</edge>
+<edge source="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__national_guidelines_on_responsible_business_conduct_ngrbc__p44" target="standard_family::Responsible business conduct guideline" id="0">
+  <data key="d21">belongs_to_standard_family</data>
+</edge>
+<edge source="standard_ref::batch_10__r463_rajeshexports公司__20240__other__manual_axis__national_guidelines_on_responsible_business_conduct_ngrbc__p44" target="standard_role::Principle guideline" id="0">
   <data key="d21">has_standard_role</data>
 </edge>
 <edge source="methodology::batch_10__r448_jabil__20240__sustainabilityreport__p27__scope_1__0001" target="scope::Scope 1" id="0">

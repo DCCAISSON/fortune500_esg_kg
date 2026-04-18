@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-15 22:21:46",
+  "generated_at": "2026-04-18 11:23:28",
   "total_companies": 500,
-  "matched_reports": 332,
-  "published_batch_count": 14,
+  "matched_reports": 351,
+  "published_batch_count": 15,
   "published_batch_ids": [
     "batch_01",
     "batch_02",
@@ -17,15 +17,16 @@
     "batch_11",
     "batch_12",
     "batch_13",
-    "batch_14"
+    "batch_14",
+    "batch_15"
   ],
-  "published_report_count": 332,
+  "published_report_count": 351,
   "pending_publish_count": 0,
   "pending_batch_ids": [],
-  "open_unmatched_count": 167,
-  "manual_unmatched_rejected": 1,
+  "open_unmatched_count": 147,
+  "manual_unmatched_rejected": 2,
   "diagnosis_counts": {
-    "No parent-company main report in corpus": 161,
+    "No parent-company main report in corpus": 141,
     "Only subsidiary or affiliated-entity files found": 6
   },
   "affiliate_subtype_counts": {
@@ -33,28 +34,29 @@
     "集团关联经营主体报告": 1
   },
   "review_queue_counts": {
-    "report_unmatched": 167,
-    "evidence_gap": 87,
+    "report_unmatched": 146,
+    "evidence_gap": 92,
     "match_spotcheck": 51,
-    "extract_quality": 6
+    "page_extract_missing": 2,
+    "report_match_review": 1
   },
   "status_table": [
     {
       "序号": 1,
       "一级状态": "正式成果",
       "二级状态": "已完成正式批次图谱并接入站点",
-      "企业数": 332,
-      "占500家比例": "66.4%",
+      "企业数": 351,
+      "占500家比例": "70.2%",
       "当前口径": "已完成报告匹配、页级抽取、证据挖掘、批次图谱构建，并已接入现有发布站点。",
       "下一步处理": "持续清理 extract_quality 与 evidence_gap，并做增量更新。",
-      "状态依据": "已发布批次：batch_01, batch_02, batch_03, batch_04, batch_05, batch_06, batch_07, batch_08, batch_09, batch_10, batch_11, batch_12, batch_13, batch_14"
+      "状态依据": "已发布批次：batch_01, batch_02, batch_03, batch_04, batch_05, batch_06, batch_07, batch_08, batch_09, batch_10, batch_11, batch_12, batch_13, batch_14, batch_15"
     },
     {
       "序号": 2,
       "一级状态": "未匹配待补库/复核",
       "二级状态": "库内无母公司主报告",
-      "企业数": 161,
-      "占500家比例": "32.2%",
+      "企业数": 141,
+      "占500家比例": "28.2%",
       "当前口径": "当前库存中未发现可安全归属母公司的正式主报告文件。",
       "下一步处理": "保持未匹配状态，按高价值对象继续二次检索补库。",
       "状态依据": "来源：world500_unmatched_diagnosis.csv 开放未决匹配诊断"
@@ -73,8 +75,8 @@
       "序号": 4,
       "一级状态": "未匹配待补库/复核",
       "二级状态": "人工判定驳回的错误匹配",
-      "企业数": 1,
-      "占500家比例": "0.2%",
+      "企业数": 2,
+      "占500家比例": "0.4%",
       "当前口径": "已存在人工驳回记录，确认当前候选文件不能安全匹配到母公司主报告。",
       "下一步处理": "保留 rejection note，不做硬匹配。",
       "状态依据": "来源：world500_report_catalog.csv 中 match_status=unmatched_manual"
@@ -94,9 +96,9 @@
     {
       "诊断类别": "库内无母公司主报告",
       "Diagnosis Category (EN)": "No parent-company main report in corpus",
-      "企业数": 161,
-      "占500家比例": "32.2%",
-      "占开放未决匹配比例": "96.4%",
+      "企业数": 141,
+      "占500家比例": "28.2%",
+      "占开放未决匹配比例": "95.9%",
       "说明": "当前库存中未发现可安全归属母公司的正式主报告文件。"
     },
     {
@@ -104,7 +106,7 @@
       "Diagnosis Category (EN)": "Only subsidiary or affiliated-entity files found",
       "企业数": 6,
       "占500家比例": "1.2%",
-      "占开放未决匹配比例": "3.6%",
+      "占开放未决匹配比例": "4.1%",
       "说明": "仅发现上市子公司或关联经营主体材料，不能替代母公司主报告。"
     },
     {
@@ -126,8 +128,8 @@
     {
       "诊断类别": "人工判定驳回的错误匹配",
       "Diagnosis Category (EN)": "manual_unmatched_rejected",
-      "企业数": 1,
-      "占500家比例": "0.2%",
+      "企业数": 2,
+      "占500家比例": "0.4%",
       "占开放未决匹配比例": "",
       "说明": "已存在人工驳回记录，确认当前候选文件不能安全匹配到母公司主报告。"
     }
@@ -150,26 +152,32 @@
     {
       "运行队列类型": "报告匹配未解决",
       "issue_type": "report_unmatched",
-      "条目数": 167,
-      "占全部队列比例": "53.7%"
+      "条目数": 146,
+      "占全部队列比例": "50.0%"
     },
     {
       "运行队列类型": "关键证据缺口待补齐",
       "issue_type": "evidence_gap",
-      "条目数": 87,
-      "占全部队列比例": "28.0%"
+      "条目数": 92,
+      "占全部队列比例": "31.5%"
     },
     {
       "运行队列类型": "匹配结果抽检",
       "issue_type": "match_spotcheck",
       "条目数": 51,
-      "占全部队列比例": "16.4%"
+      "占全部队列比例": "17.5%"
     },
     {
-      "运行队列类型": "页级抽取质量待复核",
-      "issue_type": "extract_quality",
-      "条目数": 6,
-      "占全部队列比例": "1.9%"
+      "运行队列类型": "page_extract_missing",
+      "issue_type": "page_extract_missing",
+      "条目数": 2,
+      "占全部队列比例": "0.7%"
+    },
+    {
+      "运行队列类型": "report_match_review",
+      "issue_type": "report_match_review",
+      "条目数": 1,
+      "占全部队列比例": "0.3%"
     }
   ]
 }
