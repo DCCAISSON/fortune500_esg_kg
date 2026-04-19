@@ -75,6 +75,15 @@ a{text-decoration:none;color:inherit}
 .table-summary-value{display:block;margin-bottom:4px;font-size:18px;font-weight:800;color:var(--ink);line-height:1.35}
 .table-summary-note{display:block;color:var(--muted);line-height:1.55;font-size:12.5px}
 .report-table-card{padding:20px;background:linear-gradient(180deg,rgba(255,253,248,.98),rgba(249,243,233,.96));box-shadow:var(--shadow)}
+.entity-explorer{margin-top:16px;padding:18px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(243,236,223,.82))}
+.entity-explorer h3{margin:0 0 8px;font-size:20px}
+.entity-detail{border:1px solid var(--line);border-radius:16px;background:#fff;margin-top:12px;overflow:hidden}
+.entity-detail summary{padding:14px 16px;cursor:pointer;font-weight:800;background:#f8f1e6}
+.entity-detail[open] summary{border-bottom:1px solid #ebe3d5}
+.entity-meta{margin:0;padding:12px 16px 0;color:var(--muted);line-height:1.7}
+.entity-chip-cloud{display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px 16px}
+.entity-chip{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(47,111,99,.10);border:1px solid rgba(47,111,99,.18);font-size:13px;line-height:1.4}
+.entity-note{margin:14px 0 0;color:var(--muted);line-height:1.7;font-size:13px}
 .table-wrap{overflow:auto}
 table{width:100%;border-collapse:collapse;background:#fff}
 th,td{padding:10px 12px;border-bottom:1px solid #ebe3d5;text-align:left;vertical-align:top}
