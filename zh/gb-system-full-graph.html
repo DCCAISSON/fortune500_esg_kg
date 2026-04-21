@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+        <html lang="zh">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>GB/国标体系全屏实体级知识图谱</title>
+          <link rel="stylesheet" href="../assets/css/site.css">
+        </head>
+        <body>
+          <div class="shell graph-page-shell">
+            <div class="topbar">
+              <div class="brand">世界500强 ESG 知识图谱</div>
+              <div class="nav">
+                <a class="pill" href="../index.html">Home</a>
+                <a class="pill" href="./index.html">返回中文详细页</a>
+                <a class="pill" href="../en/gb-system-full-graph.html">English</a>
+              </div>
+            </div>
+            <section class="hero">
+              <div class="eyebrow">标准体系</div>
+              <h1>GB/国标体系全屏实体级知识图谱</h1>
+              <p>该页将 GB/国标体系 下识别到的 10 个具体标准与 10 家企业全部放入同一张交互式知识图谱网络图。</p>
+              <p>页面支持拖拽平移、滚轮缩放、企业检索、节点高亮和证据回链，适合单独展开查看“采用该体系的企业分别对应到哪些具体标准”。</p>
+              <div class="metric-grid"><div class="metric"><h3>企业节点</h3><strong>10</strong></div><div class="metric"><h3>具体标准</h3><strong>10</strong></div><div class="metric"><h3>标准事实</h3><strong>14</strong></div><div class="metric"><h3>角色/原则</h3><strong>3 / 3</strong></div></div>
+            </section>
+            <section class="section">
+              <div class="graph-page-layout">
+                <div class="card graph-canvas-card">
+                  <div class="graph-toolbar">
+                    <label class="entity-search graph-search">
+                      <span>企业检索</span>
+                      <input id="generic-full-graph-search" type="search" placeholder="输入企业名称或世界500强排名">
+                    </label>
+                    <div class="graph-toolbar-actions">
+                      <button class="pill" id="generic-full-graph-clear" type="button">清空检索</button>
+                      <button class="pill" id="generic-full-graph-fit" type="button">回到全图</button>
+                      <button class="btn alt" id="generic-full-graph-reset" type="button">重置视图</button>
+                    </div>
+                  </div>
+                  <div class="graph-canvas-wrap">
+                    <svg id="generic-full-graph-svg" class="ghg-full-graph-svg" aria-label="GB/国标体系全屏实体级知识图谱">
+                      <g id="generic-full-graph-viewport"></g>
+                    </svg>
+                  </div>
+                  <div class="report-figure-caption"><strong>NOTE</strong>交互说明：拖拽平移，滚轮缩放，点击系统、具体节点或企业节点可在右侧查看详情与证据回链。</div>
+                </div>
+                <aside class="graph-side-panel">
+                  <div class="card graph-side-card">
+                    <h3>图谱图例</h3>
+                    <div class="graph-legend-list">
+                      <div class="graph-legend-item"><span class="graph-legend-swatch is-system"></span><span>体系节点</span></div>
+                      <div class="graph-legend-item"><span class="graph-legend-swatch is-standard"></span><span>具体标准节点</span></div>
+                      <div class="graph-legend-item"><span class="graph-legend-swatch is-company"></span><span>企业节点</span></div>
+                    </div>
+                  </div>
+                  <div class="card graph-side-card" id="generic-full-graph-selection"></div>
+                  <div class="card graph-side-card" id="generic-full-graph-results"></div>
+                </aside>
+              </div>
+            </section>
+          </div>
+          <script type="application/json" id="world500-generic-full-graph-data">{"labels": {"search_label": "企业检索", "search_placeholder": "输入企业名称或世界500强排名", "clear_search": "清空检索", "reset_view": "重置视图", "fit_view": "回到全图", "graph_hint": "交互说明：拖拽平移，滚轮缩放，点击系统、具体节点或企业节点可在右侧查看详情与证据回链。", "legend_title": "图谱图例", "legend_system": "体系节点", "legend_middle": "具体标准节点", "legend_company": "企业节点", "selection_title": "当前节点详情", "selection_default": "点击左侧体系节点、中间具体节点或任意企业节点，这里会展示对象属性与证据回链。", "selection_type": "节点类型", "selection_name": "节点名称", "selection_system": "所属体系", "selection_middle": "当前中层节点", "selection_rank": "世界500强排名", "selection_fact_count": "关联事实数", "selection_company_count": "关联企业数", "selection_roles": "标准角色", "selection_principles": "核算原则", "selection_linked_items": "同体系关联标准", "results_title": "检索结果", "results_empty": "输入企业名称或排名后，这里会显示匹配结果；未检索时默认列出前 12 家企业。", "results_count": "当前匹配 {total} 家企业", "results_focus": "点击下方企业可在主图中定位并放大。", "system_type": "体系", "middle_type": "具体标准", "company_type": "企业", "evidence_title": "证据回链", "evidence_report": "报告", "evidence_page": "页码", "evidence_confidence": "置信度", "evidence_review": "校核状态", "evidence_empty": "当前节点没有挂接证据。", "eyebrow": "标准体系", "back_to_detail": "返回中文详细页", "metric_companies": "企业节点", "metric_items": "具体标准", "metric_facts": "标准事实", "metric_rules": "角色/原则", "selection_item_count": "具体标准数", "page_title_template": "{system}全屏实体级知识图谱", "page_intro": "该页将 {system} 下识别到的 {item_total} 个具体标准与 {company_total} 家企业全部放入同一张交互式知识图谱网络图。", "page_intro_2": "页面支持拖拽平移、滚轮缩放、企业检索、节点高亮和证据回链，适合单独展开查看“采用该体系的企业分别对应到哪些具体标准”。", "page_title": "GB/国标体系全屏实体级知识图谱", "page_intro_text": "该页将 GB/国标体系 下识别到的 10 个具体标准与 10 家企业全部放入同一张交互式知识图谱网络图。"}, "metricCards": [{"label": "企业节点", "value": 10}, {"label": "具体标准", "value": 10}, {"label": "标准事实", "value": 14}, {"label": "角色/原则", "value": "3 / 3"}], "system": {"key": "gb", "label": "GB/国标体系", "color": "#e76f51", "companyCount": 10, "itemCount": 10, "factCount": 14}, "middleNodes": [{"id": "GB/T 2589-2020", "name": "GB/T 2589-2020", "companyCount": 3, "factCount": 3, "roles": ["计量标准"], "principles": ["标准化计量"], "companyIds": ["r037_bankofchina", "r053_pinganinsurance", "r250_contemporaryamperextechnology"], "evidence": [{"report": "2024中国平安可持续报告.pdf", "page": "171", "snippet": "张使用和差旅温室气体排放 ( 吨二和氧化碳当量 ) 68,941 68,921 37,434 范围一、二、三温室气体排放总量 ( 吨二氧化碳当量 ) 439,291 478,606 492,710 人均温室气体排放量 ( 吨二氧化碳当量/人) 1.56 1.51 1.43 天1. 本集团环境数据的边界范围为集团主要成员公司范围，不包括自营物业。集团主要成员公司范围指本集团总部以及寿险及健康险、财产保险、银行、资产管理等主要业务经营范围内的子公司、联营及合营公司。组织边界确定及", "confidence": "medium", "review_status": "seed_batch_11"}, {"report": "2024中国银行股份有限公司社会责任报告.pdf", "page": "24", "snippet": "、甲烷及氧化亚气，自身运营温室气体排放 承销境内、境外绿色债券改行规模分别位列银行间市声 了 cee syne 了 -本和四 von — _ II, 加 工 IE IS . IAF I 了 7 ~~. 7 7 二日 oR » 7 ~_ 第 、彭情“全球离库绿色债券”排行檬中资同业第一。 为汽油、柴油、天然气、液化天然气、液化石油气、燃料油、煤等化石将料任底产生的 色金融债券和 100 亿元境 接排放;范围二为外购电力和热力隐含的间接排放;范围三类别 5 包括废纸、办公垃圾及", "confidence": "medium", "review_status": "seed_batch_02"}, {"report": "宁德时代2024年ESG报告.pdf", "page": "64", "snippet": "电池生产基地排放强度 温室气体排放强度 3 吨二氧化碳当量/ 兆瓦时 9.98 5.77 4.56 电芯 吨二氧化碳当量/ 兆瓦时 8.74 5.02 4.12 封装模组 吨二氧化碳当量/ 兆瓦时 0.34 0.15 0.04 电池包 吨二氧化碳当量/ 兆瓦时 0.22 0.11 0.08 其他 吨二氧化碳当量/ 兆瓦时 0.69 0.49 0.32 温室气体排放强度同比下降比例 4 % 28.61 42.18 20.97 1 温室气体排放总量包括范围一、范围二温室气体排放。", "confidence": "medium", "review_status": "seed_batch_12"}]}, {"id": "GB/T 36001-2015", "name": "GB/T 36001-2015", "companyCount": 3, "factCount": 3, "roles": ["指引"], "principles": [], "companyIds": ["r135_chinatelecommunications", "r185_zhejianggeelyholdinggroup", "r326_sinomach"], "evidence": [{"report": "2024-中国电信集团有限公司可持续发展报告.pdf", "page": "2", "snippet": "内部收集，部分 案例引用媒体公开报道的信息。如无特别说明，所涉金额均以人民币计量。 © 参考标准 本报告主要参照国务院国有资产监督管理委员会 (简称国务院国资委) 《关于新时代中央企业高标准履行社会责任 的指导意见》、国家市场监督管理总局和国家标准化管理委员会《社会责任报告编写指南》 (GB/T 36001-2015) 、中 通信企业协会《中国信息通信行业企业社会责任管理体系》 (2016 年版) 和中国社会科学院《中国企业社会责任报告 SR) (CASS-CSR4.0) 》", "confidence": "medium", "review_status": "seed_batch_04"}, {"report": "中国机械工业集团有限公司社会责任报告 2024.pdf", "page": "3", "snippet": "| 报告时间范围 报告发布周期 2024年1月1日至2024年12月31 日， 本报告为年度报告，是中国机械工业集 部分内容超出上述范围。 团有限公司 《简称“国机集团”) 发布 的第十五份社会责任报告 ~ | | & 报告组织范围 te 报告数据来源 WES 见报告“走进国机”部分内 司机集团总部及下属企业 〈组织机构参 报告中数据均来自国机集团正式文件、 统计报告和财务报告等，并已通过公司 审核。 容)。 报告编制依据 司务院国资委《关于新时代中央企业高标准履行社会责任的", "confidence": "medium", "review_status": "seed_batch_08"}, {"report": "Geely-Holding-Group-Sustainability-Report-2024-ZH.pdf", "page": "4", "snippet": "信念，以及为全球可持续发展 目标作贡献的勃勃雄心。自 2022 年起，吉利控股集团承 诺履行以联合国公约为基础的，涵盖人权、劳工标准、环 境和反腐败领域的全球契约十项原则。 本报告涵盖2024 年 1 月 1 日至 2024 年 12 月 31 日财务年度（“报告期”）的工作。 为增强报告可比性和完整性，部分内容适当溯及以往年度或延伸至 2025 年。 本报告以简体中文和英文两种文字发布。在两种文本理解发生歧义时，请以简 体中文文本为准。 本报告参照全球可持续发展标准委员会（", "confidence": "medium", "review_status": "seed_batch_13"}]}, {"id": "GB/T 23331-2020", "name": "GB/T 23331-2020", "companyCount": 1, "factCount": 1, "roles": ["指引"], "principles": [], "companyIds": ["r179_chinamerchantsbank"], "evidence": [{"report": "2024-招商银行股份有限公司可持续发展报告.pdf", "page": "38", "snippet": "管理体系，系统推进低碳办公转型，有效减少自 身运莒对环境产生的影响。深圳总行大厦、研发中心、平湖金融创新大厦等自有办公物业通过环境管理体系 ISO 14001:2015(GB/T24001-2016)、能源管理体系1SO 50001:2018 ( GB/T 23331-2020 ) 认证。2024 年，本公司未发生突发重大环境事件，未发生因环境事件受到生态环境等有关部门重大行政处罚或追究刑事责任的情况 。 自身运营温室气体排放管理 2024 年，本公司着力构建自身运营温室气体", "confidence": "medium", "review_status": "seed_batch_05"}]}, {"id": "GB/T 24067-2024", "name": "GB/T 24067-2024", "companyCount": 1, "factCount": 1, "roles": ["指引"], "principles": [], "companyIds": ["r467_tongweigroup"], "evidence": [{"report": "2024 TONGWEI GROUP ESG report.pdf", "page": "14", "snippet": "ng renew- able energy power production and consumption\". • In September 2024, MEE released the national standard GB/T 24067-2024, Greenhouse gases-Carbon footprint of products-Requirements and guidelines for quantiﬁcation. This standard suc", "confidence": "medium", "review_status": "seed_batch_10"}]}, {"id": "GB/T 32150-2015", "name": "GB/T 32150-2015", "companyCount": 1, "factCount": 1, "roles": ["指引"], "principles": [], "companyIds": ["r250_contemporaryamperextechnology"], "evidence": [{"report": "宁德时代2024年ESG报告.pdf", "page": "64", "snippet": "电池生产基地排放强度 温室气体排放强度 3 吨二氧化碳当量/ 兆瓦时 9.98 5.77 4.56 电芯 吨二氧化碳当量/ 兆瓦时 8.74 5.02 4.12 封装模组 吨二氧化碳当量/ 兆瓦时 0.34 0.15 0.04 电池包 吨二氧化碳当量/ 兆瓦时 0.22 0.11 0.08 其他 吨二氧化碳当量/ 兆瓦时 0.69 0.49 0.32 温室气体排放强度同比下降比例 4 % 28.61 42.18 20.97 1 温室气体排放总量包括范围一、范围二温室气体排放。", "confidence": "medium", "review_status": "seed_batch_12"}]}, {"id": "GB/T 36000-2015", "name": "GB/T 36000-2015", "companyCount": 1, "factCount": 1, "roles": ["指引"], "principles": [], "companyIds": ["r035_chinarailwayengineeringgroup"], "evidence": [{"report": "2021中国铁路工程集团有限公司ESG报告.pdf", "page": "5", "snippet": "C. With the time span of 1st January to 31st December of 2021, this report pays due attention to how the CREC fulfilled its social responsibility before 2021. Reporting frequency yearly report References The Ten Principles promulgated by th", "confidence": "medium", "review_status": "seed_batch_01"}]}, {"id": "GB/T24001-2016", "name": "GB/T24001-2016", "companyCount": 1, "factCount": 1, "roles": ["指引"], "principles": [], "companyIds": ["r179_chinamerchantsbank"], "evidence": [{"report": "2024-招商银行股份有限公司可持续发展报告.pdf", "page": "38", "snippet": "管理体系，系统推进低碳办公转型，有效减少自 身运莒对环境产生的影响。深圳总行大厦、研发中心、平湖金融创新大厦等自有办公物业通过环境管理体系 ISO 14001:2015(GB/T24001-2016)、能源管理体系1SO 50001:2018 ( GB/T 23331-2020 ) 认证。2024 年，本公司未发生突发重大环境事件，未发生因环境事件受到生态环境等有关部门重大行政处罚或追究刑事责任的情况 。 自身运营温室气体排放管理 2024 年，本公司着力构建自身运营温室气体", "confidence": "medium", "review_status": "seed_batch_05"}]}, {"id": "GB/T36001-2015", "name": "GB/T36001-2015", "companyCount": 1, "factCount": 1, "roles": ["指引"], "principles": [], "companyIds": ["r035_chinarailwayengineeringgroup"], "evidence": [{"report": "2021中国铁路工程集团有限公司ESG报告.pdf", "page": "5", "snippet": "C. With the time span of 1st January to 31st December of 2021, this report pays due attention to how the CREC fulfilled its social responsibility before 2021. Reporting frequency yearly report References The Ten Principles promulgated by th", "confidence": "medium", "review_status": "seed_batch_01"}]}, {"id": "GB/T36002-2015", "name": "GB/T36002-2015", "companyCount": 1, "factCount": 1, "roles": ["指引"], "principles": [], "companyIds": ["r035_chinarailwayengineeringgroup"], "evidence": [{"report": "2021中国铁路工程集团有限公司ESG报告.pdf", "page": "5", "snippet": "C. With the time span of 1st January to 31st December of 2021, this report pays due attention to how the CREC fulfilled its social responsibility before 2021. Reporting frequency yearly report References The Ten Principles promulgated by th", "confidence": "medium", "review_status": "seed_batch_01"}]}, {"id": "社会责任报告编写指南(GB/T 36001-2015)", "name": "社会责任报告编写指南(GB/T 36001-2015)", "companyCount": 1, "factCount": 1, "roles": ["披露指引"], "principles": ["透明性", "可比性"], "companyIds": ["r384_meituan"], "evidence": [{"report": "美团2024 corporate social responsibility report.pdf", "page": "35", "snippet": "This report was prepared with reference to the Chinese national standard Guidelines for Preparing Social Responsibility Reports (GB/T 36001-2015).", "confidence": "high", "review_status": "manual_axis_backfill"}]}], "companies": [{"id": "r035_chinarailwayengineeringgroup", "name": "中国铁路工程集团有限公司", "rank": 35, "factCount": 3, "roles": ["指引"], "principles": [], "linkedItems": ["GB/T 36000-2015", "GB/T36001-2015", "GB/T36002-2015"], "evidenceByItem": {"GB/T 36000-2015": [{"report": "2021中国铁路工程集团有限公司ESG报告.pdf", "page": "5", "snippet": "C. With the time span of 1st January to 31st December of 2021, this report pays due attention to how the CREC fulfilled its social responsibility before 2021. Reporting frequency yearly report References The Ten Principles promulgated by th", "confidence": "medium", "review_status": "seed_batch_01"}], "GB/T36001-2015": [{"report": "2021中国铁路工程集团有限公司ESG报告.pdf", "page": "5", "snippet": "C. With the time span of 1st January to 31st December of 2021, this report pays due attention to how the CREC fulfilled its social responsibility before 2021. Reporting frequency yearly report References The Ten Principles promulgated by th", "confidence": "medium", "review_status": "seed_batch_01"}], "GB/T36002-2015": [{"report": "2021中国铁路工程集团有限公司ESG报告.pdf", "page": "5", "snippet": "C. With the time span of 1st January to 31st December of 2021, this report pays due attention to how the CREC fulfilled its social responsibility before 2021. Reporting frequency yearly report References The Ten Principles promulgated by th", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r037_bankofchina", "name": "中国银行股份有限公司", "rank": 37, "factCount": 1, "roles": ["计量标准"], "principles": ["标准化计量"], "linkedItems": ["GB/T 2589-2020"], "evidenceByItem": {"GB/T 2589-2020": [{"report": "2024中国银行股份有限公司社会责任报告.pdf", "page": "24", "snippet": "、甲烷及氧化亚气，自身运营温室气体排放 承销境内、境外绿色债券改行规模分别位列银行间市声 了 cee syne 了 -本和四 von — _ II, 加 工 IE IS . IAF I 了 7 ~~. 7 7 二日 oR » 7 ~_ 第 、彭情“全球离库绿色债券”排行檬中资同业第一。 为汽油、柴油、天然气、液化天然气、液化石油气、燃料油、煤等化石将料任底产生的 色金融债券和 100 亿元境 接排放;范围二为外购电力和热力隐含的间接排放;范围三类别 5 包括废纸、办公垃圾及", "confidence": "medium", "review_status": "seed_batch_02"}]}, "extraFields": []}, {"id": "r053_pinganinsurance", "name": "中国平安保险（集团）股份有限公司", "rank": 53, "factCount": 1, "roles": ["计量标准"], "principles": ["标准化计量"], "linkedItems": ["GB/T 2589-2020"], "evidenceByItem": {"GB/T 2589-2020": [{"report": "2024中国平安可持续报告.pdf", "page": "171", "snippet": "张使用和差旅温室气体排放 ( 吨二和氧化碳当量 ) 68,941 68,921 37,434 范围一、二、三温室气体排放总量 ( 吨二氧化碳当量 ) 439,291 478,606 492,710 人均温室气体排放量 ( 吨二氧化碳当量/人) 1.56 1.51 1.43 天1. 本集团环境数据的边界范围为集团主要成员公司范围，不包括自营物业。集团主要成员公司范围指本集团总部以及寿险及健康险、财产保险、银行、资产管理等主要业务经营范围内的子公司、联营及合营公司。组织边界确定及", "confidence": "medium", "review_status": "seed_batch_11"}]}, "extraFields": []}, {"id": "r135_chinatelecommunications", "name": "中国电信集团有限公司", "rank": 135, "factCount": 1, "roles": ["指引"], "principles": [], "linkedItems": ["GB/T 36001-2015"], "evidenceByItem": {"GB/T 36001-2015": [{"report": "2024-中国电信集团有限公司可持续发展报告.pdf", "page": "2", "snippet": "内部收集，部分 案例引用媒体公开报道的信息。如无特别说明，所涉金额均以人民币计量。 © 参考标准 本报告主要参照国务院国有资产监督管理委员会 (简称国务院国资委) 《关于新时代中央企业高标准履行社会责任 的指导意见》、国家市场监督管理总局和国家标准化管理委员会《社会责任报告编写指南》 (GB/T 36001-2015) 、中 通信企业协会《中国信息通信行业企业社会责任管理体系》 (2016 年版) 和中国社会科学院《中国企业社会责任报告 SR) (CASS-CSR4.0) 》", "confidence": "medium", "review_status": "seed_batch_04"}]}, "extraFields": []}, {"id": "r179_chinamerchantsbank", "name": "招商银行股份有限公司", "rank": 179, "factCount": 2, "roles": ["指引"], "principles": [], "linkedItems": ["GB/T 23331-2020", "GB/T24001-2016"], "evidenceByItem": {"GB/T 23331-2020": [{"report": "2024-招商银行股份有限公司可持续发展报告.pdf", "page": "38", "snippet": "管理体系，系统推进低碳办公转型，有效减少自 身运莒对环境产生的影响。深圳总行大厦、研发中心、平湖金融创新大厦等自有办公物业通过环境管理体系 ISO 14001:2015(GB/T24001-2016)、能源管理体系1SO 50001:2018 ( GB/T 23331-2020 ) 认证。2024 年，本公司未发生突发重大环境事件，未发生因环境事件受到生态环境等有关部门重大行政处罚或追究刑事责任的情况 。 自身运营温室气体排放管理 2024 年，本公司着力构建自身运营温室气体", "confidence": "medium", "review_status": "seed_batch_05"}], "GB/T24001-2016": [{"report": "2024-招商银行股份有限公司可持续发展报告.pdf", "page": "38", "snippet": "管理体系，系统推进低碳办公转型，有效减少自 身运莒对环境产生的影响。深圳总行大厦、研发中心、平湖金融创新大厦等自有办公物业通过环境管理体系 ISO 14001:2015(GB/T24001-2016)、能源管理体系1SO 50001:2018 ( GB/T 23331-2020 ) 认证。2024 年，本公司未发生突发重大环境事件，未发生因环境事件受到生态环境等有关部门重大行政处罚或追究刑事责任的情况 。 自身运营温室气体排放管理 2024 年，本公司着力构建自身运营温室气体", "confidence": "medium", "review_status": "seed_batch_05"}]}, "extraFields": []}, {"id": "r185_zhejianggeelyholdinggroup", "name": "浙江吉利控股集团有限公司", "rank": 185, "factCount": 1, "roles": ["指引"], "principles": [], "linkedItems": ["GB/T 36001-2015"], "evidenceByItem": {"GB/T 36001-2015": [{"report": "Geely-Holding-Group-Sustainability-Report-2024-ZH.pdf", "page": "4", "snippet": "信念，以及为全球可持续发展 目标作贡献的勃勃雄心。自 2022 年起，吉利控股集团承 诺履行以联合国公约为基础的，涵盖人权、劳工标准、环 境和反腐败领域的全球契约十项原则。 本报告涵盖2024 年 1 月 1 日至 2024 年 12 月 31 日财务年度（“报告期”）的工作。 为增强报告可比性和完整性，部分内容适当溯及以往年度或延伸至 2025 年。 本报告以简体中文和英文两种文字发布。在两种文本理解发生歧义时，请以简 体中文文本为准。 本报告参照全球可持续发展标准委员会（", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r250_contemporaryamperextechnology", "name": "宁德时代新能源科技股份有限公司", "rank": 250, "factCount": 2, "roles": ["指引", "计量标准"], "principles": ["标准化计量"], "linkedItems": ["GB/T 2589-2020", "GB/T 32150-2015"], "evidenceByItem": {"GB/T 2589-2020": [{"report": "宁德时代2024年ESG报告.pdf", "page": "64", "snippet": "电池生产基地排放强度 温室气体排放强度 3 吨二氧化碳当量/ 兆瓦时 9.98 5.77 4.56 电芯 吨二氧化碳当量/ 兆瓦时 8.74 5.02 4.12 封装模组 吨二氧化碳当量/ 兆瓦时 0.34 0.15 0.04 电池包 吨二氧化碳当量/ 兆瓦时 0.22 0.11 0.08 其他 吨二氧化碳当量/ 兆瓦时 0.69 0.49 0.32 温室气体排放强度同比下降比例 4 % 28.61 42.18 20.97 1 温室气体排放总量包括范围一、范围二温室气体排放。", "confidence": "medium", "review_status": "seed_batch_12"}], "GB/T 32150-2015": [{"report": "宁德时代2024年ESG报告.pdf", "page": "64", "snippet": "电池生产基地排放强度 温室气体排放强度 3 吨二氧化碳当量/ 兆瓦时 9.98 5.77 4.56 电芯 吨二氧化碳当量/ 兆瓦时 8.74 5.02 4.12 封装模组 吨二氧化碳当量/ 兆瓦时 0.34 0.15 0.04 电池包 吨二氧化碳当量/ 兆瓦时 0.22 0.11 0.08 其他 吨二氧化碳当量/ 兆瓦时 0.69 0.49 0.32 温室气体排放强度同比下降比例 4 % 28.61 42.18 20.97 1 温室气体排放总量包括范围一、范围二温室气体排放。", "confidence": "medium", "review_status": "seed_batch_12"}]}, "extraFields": []}, {"id": "r326_sinomach", "name": "中国机械工业集团有限公司", "rank": 326, "factCount": 1, "roles": ["指引"], "principles": [], "linkedItems": ["GB/T 36001-2015"], "evidenceByItem": {"GB/T 36001-2015": [{"report": "中国机械工业集团有限公司社会责任报告 2024.pdf", "page": "3", "snippet": "| 报告时间范围 报告发布周期 2024年1月1日至2024年12月31 日， 本报告为年度报告，是中国机械工业集 部分内容超出上述范围。 团有限公司 《简称“国机集团”) 发布 的第十五份社会责任报告 ~ | | & 报告组织范围 te 报告数据来源 WES 见报告“走进国机”部分内 司机集团总部及下属企业 〈组织机构参 报告中数据均来自国机集团正式文件、 统计报告和财务报告等，并已通过公司 审核。 容)。 报告编制依据 司务院国资委《关于新时代中央企业高标准履行社会责任的", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r384_meituan", "name": "美团", "rank": 384, "factCount": 1, "roles": ["披露指引"], "principles": ["可比性", "透明性"], "linkedItems": ["社会责任报告编写指南(GB/T 36001-2015)"], "evidenceByItem": {"社会责任报告编写指南(GB/T 36001-2015)": [{"report": "美团2024 corporate social responsibility report.pdf", "page": "35", "snippet": "This report was prepared with reference to the Chinese national standard Guidelines for Preparing Social Responsibility Reports (GB/T 36001-2015).", "confidence": "high", "review_status": "manual_axis_backfill"}]}, "extraFields": []}, {"id": "r467_tongweigroup", "name": "通威集团有限公司", "rank": 467, "factCount": 1, "roles": ["指引"], "principles": [], "linkedItems": ["GB/T 24067-2024"], "evidenceByItem": {"GB/T 24067-2024": [{"report": "2024 TONGWEI GROUP ESG report.pdf", "page": "14", "snippet": "ng renew- able energy power production and consumption\". • In September 2024, MEE released the national standard GB/T 24067-2024, Greenhouse gases-Carbon footprint of products-Requirements and guidelines for quantiﬁcation. This standard suc", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}], "initialMiddleId": "GB/T 2589-2020"}</script>
+
+<script>
+  (function () {
+    const dataNode = document.getElementById('world500-generic-full-graph-data');
+    const svg = document.getElementById('generic-full-graph-svg');
+    const viewport = document.getElementById('generic-full-graph-viewport');
+    const selectionCard = document.getElementById('generic-full-graph-selection');
+    const resultsCard = document.getElementById('generic-full-graph-results');
+    const searchInput = document.getElementById('generic-full-graph-search');
+    const clearButton = document.getElementById('generic-full-graph-clear');
+    const resetButton = document.getElementById('generic-full-graph-reset');
+    const fitButton = document.getElementById('generic-full-graph-fit');
+    if (!dataNode || !svg || !viewport || !selectionCard || !resultsCard || !searchInput || !clearButton || !resetButton || !fitButton) return;
+
+    let data;
+    try {
+      data = JSON.parse(dataNode.textContent || '{}');
+    } catch (error) {
+      console.error('Failed to parse generic full-graph payload.', error);
+      return;
+    }
+
+    const labels = data.labels || {};
+    const middleNodes = Array.isArray(data.middleNodes) ? data.middleNodes.slice() : [];
+    const companies = Array.isArray(data.companies) ? data.companies.slice() : [];
+    const system = data.system || {};
+    const GRAPH_WIDTH = 6200;
+    const GRAPH_HEIGHT = 4200;
+    const CENTER_X = 3300;
+    const CENTER_Y = 2100;
+    const SYSTEM_POS = { x: 720, y: CENTER_Y };
+    const MIDDLE_RING_SPECS = [
+      { capacity: 6, radius: 430 },
+      { capacity: 10, radius: 740 },
+      { capacity: 14, radius: 1040 },
+    ];
+    const COMPANY_RING_SPECS = [
+      { capacity: 44, radius: 1360 },
+      { capacity: 60, radius: 1640 },
+      { capacity: 80, radius: 1920 },
+      { capacity: 100, radius: 2200 },
+      { capacity: 140, radius: 2480 },
+    ];
+    const ARC_START = -Math.PI * 0.82;
+    const ARC_END = Math.PI * 0.82;
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+    const state = {
+      selectedKind: 'system',
+      selectedMiddleId: '',
+      selectedCompanyId: '',
+      hoveredCompanyId: '',
+      hoveredMiddleId: '',
+      query: '',
+      scale: 0.96,
+      tx: 0,
+      ty: 0,
+      panning: false,
+      panPointerId: null,
+      panOrigin: null,
+    };
+
+    svg.setAttribute('viewBox', `0 0 ${GRAPH_WIDTH} ${GRAPH_HEIGHT}`);
+
+    function createSvgEl(tag, attrs) {
+      const node = document.createElementNS(SVG_NS, tag);
+      if (attrs) {
+        Object.entries(attrs).forEach(([key, value]) => {
+          if (value !== undefined && value !== null) node.setAttribute(key, String(value));
+        });
+      }
+      return node;
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function formatInt(value) {
+      const numeric = Number(value);
+      return Number.isFinite(numeric) ? numeric.toLocaleString() : String(value ?? '');
+    }
+
+    function formatRank(value) {
+      const numeric = Number(value);
+      return Number.isFinite(numeric) && numeric > 0 ? `#${numeric}` : '-';
+    }
+
+    function splitLabel(text, maxChars) {
+      const value = String(text || '').trim();
+      if (!value) return [''];
+      if (!value.includes(' ')) {
+        const lines = [];
+        for (let cursor = 0; cursor < value.length; cursor += maxChars) lines.push(value.slice(cursor, cursor + maxChars));
+        return lines;
+      }
+      const words = value.split(/\s+/);
+      const lines = [];
+      let line = '';
+      words.forEach((word) => {
+        const candidate = line ? `${line} ${word}` : word;
+        if (candidate.length <= maxChars) {
+          line = candidate;
+        } else {
+          if (line) lines.push(line);
+          line = word;
+        }
+      });
+      if (line) lines.push(line);
+      return lines;
+    }
+
+    function appendTextBlock(group, lines, x, y, className, lineHeight) {
+      lines.forEach((line, index) => {
+        const text = createSvgEl('text', { x, y: y + index * lineHeight, class: className, 'text-anchor': 'middle' });
+        text.textContent = line;
+        group.appendChild(text);
+      });
+    }
+
+    function matchesQuery(company, query) {
+      if (!query) return true;
+      const rank = company.rank === null || company.rank === undefined ? '' : String(company.rank);
+      return String(company.name || '').toLowerCase().includes(query) || rank.includes(query);
+    }
+
+    function evidenceHtml(items) {
+      const rows = Array.isArray(items) ? items : [];
+      if (!rows.length) {
+        return `<div class="entity-evidence-block"><h4>${escapeHtml(labels.evidence_title)}</h4><p>${escapeHtml(labels.evidence_empty)}</p></div>`;
+      }
+      return (
+        `<div class="entity-evidence-block"><h4>${escapeHtml(labels.evidence_title)}</h4>` +
+        rows.map((item) => `
+          <article class="entity-evidence-item">
+            <div class="entity-evidence-head">
+              <strong>${escapeHtml(item.report || '-')}</strong>
+              <span>${escapeHtml(labels.evidence_page)} ${escapeHtml(item.page || '-')}</span>
+            </div>
+            <p>${escapeHtml(item.snippet || '')}</p>
+            <div class="entity-evidence-meta">
+              <span>${escapeHtml(labels.evidence_confidence)}: ${escapeHtml(item.confidence || '-')}</span>
+              <span>${escapeHtml(labels.evidence_review)}: ${escapeHtml(item.review_status || '-')}</span>
+            </div>
+          </article>
+        `).join('') +
+        `</div>`
+      );
+    }
+
+    const middleMap = new Map();
+    middleNodes.forEach((item) => middleMap.set(item.id, item));
+    const companyMap = new Map();
+    companies.forEach((item) => companyMap.set(item.id, item));
+
+    const layers = {
+      rings: createSvgEl('g', { class: 'graph-rings-layer' }),
+      edges: createSvgEl('g', { class: 'graph-edges-layer' }),
+      nodes: createSvgEl('g', { class: 'graph-nodes-layer' }),
+      labels: createSvgEl('g', { class: 'graph-labels-layer' }),
+    };
+    viewport.append(layers.rings, layers.edges, layers.nodes, layers.labels);
+
+    COMPANY_RING_SPECS.forEach((spec) => {
+      const ring = createSvgEl('ellipse', {
+        cx: CENTER_X,
+        cy: CENTER_Y,
+        rx: spec.radius,
+        ry: spec.radius * 0.74,
+        class: 'graph-ring',
+      });
+      layers.rings.appendChild(ring);
+    });
+
+    const middleElements = new Map();
+    const companyElements = new Map();
+    const edgeElements = [];
+
+    const placedMiddleNodes = [];
+    let middleCursor = 0;
+    MIDDLE_RING_SPECS.forEach((spec, ringIndex) => {
+      const remaining = middleNodes.length - middleCursor;
+      if (remaining <= 0) return;
+      const count = Math.min(spec.capacity, remaining);
+      const offset = ringIndex % 2 === 0 ? 0 : Math.PI / count;
+      for (let index = 0; index < count; index += 1) {
+        const item = middleNodes[middleCursor + index];
+        const angle = (-Math.PI / 2) + offset + ((Math.PI * 2 * index) / count);
+        placedMiddleNodes.push({
+          ...item,
+          x: CENTER_X + (spec.radius * Math.cos(angle)),
+          y: CENTER_Y + ((spec.radius * 0.66) * Math.sin(angle)),
+        });
+      }
+      middleCursor += count;
+    });
+
+    const placedCompanies = [];
+    let companyCursor = 0;
+    COMPANY_RING_SPECS.forEach((spec) => {
+      const remaining = companies.length - companyCursor;
+      if (remaining <= 0) return;
+      const count = Math.min(spec.capacity, remaining);
+      for (let index = 0; index < count; index += 1) {
+        const company = companies[companyCursor + index];
+        const angle = ARC_START + (((ARC_END - ARC_START) * index) / Math.max(1, count - 1));
+        placedCompanies.push({
+          ...company,
+          x: CENTER_X + (spec.radius * Math.cos(angle)),
+          y: CENTER_Y + ((spec.radius * 0.74) * Math.sin(angle)),
+        });
+      }
+      companyCursor += count;
+    });
+
+    const systemGroup = createSvgEl('g', { class: 'graph-system-node is-active', 'data-node-kind': 'system' });
+    systemGroup.appendChild(createSvgEl('rect', { x: SYSTEM_POS.x - 210, y: SYSTEM_POS.y - 86, width: 420, height: 172, rx: 28, ry: 28 }));
+    appendTextBlock(systemGroup, splitLabel(system.label || '', 14), SYSTEM_POS.x, SYSTEM_POS.y - 18, 'graph-block-title', 26);
+    appendTextBlock(systemGroup, [formatInt(system.itemCount || 0), formatInt(system.companyCount || 0)], SYSTEM_POS.x, SYSTEM_POS.y + 42, 'graph-block-meta', 22);
+    systemGroup.addEventListener('click', (event) => {
+      event.stopPropagation();
+      state.selectedKind = 'system';
+      state.selectedMiddleId = '';
+      state.selectedCompanyId = '';
+      updateGraphState();
+    });
+    layers.nodes.appendChild(systemGroup);
+
+    placedMiddleNodes.forEach((item) => {
+      const group = createSvgEl('g', { class: 'graph-middle-node', 'data-node-kind': 'middle', 'data-middle-id': item.id });
+      const width = item.name && String(item.name).length > 18 ? 250 : 220;
+      group.appendChild(createSvgEl('rect', { x: item.x - width / 2, y: item.y - 48, width, height: 96, rx: 20, ry: 20 }));
+      appendTextBlock(group, splitLabel(item.name || '', 12), item.x, item.y - 10, 'graph-middle-title', 20);
+      appendTextBlock(group, [formatInt(item.companyCount || 0)], item.x, item.y + 28, 'graph-middle-meta', 18);
+      group.addEventListener('click', (event) => {
+        event.stopPropagation();
+        state.selectedKind = 'middle';
+        state.selectedMiddleId = item.id;
+        state.selectedCompanyId = '';
+        updateGraphState();
+      });
+      group.addEventListener('mouseenter', () => {
+        state.hoveredMiddleId = item.id;
+        updateGraphState();
+      });
+      group.addEventListener('mouseleave', () => {
+        state.hoveredMiddleId = '';
+        updateGraphState();
+      });
+      layers.nodes.appendChild(group);
+      middleElements.set(item.id, { data: item, group, x: item.x, y: item.y });
+
+      const systemEdge = createSvgEl('line', {
+        x1: SYSTEM_POS.x + 210,
+        y1: SYSTEM_POS.y,
+        x2: item.x - 120,
+        y2: item.y,
+        class: 'graph-edge graph-edge-system',
+      });
+      layers.edges.appendChild(systemEdge);
+      edgeElements.push({ edge: systemEdge, type: 'system', middleId: item.id });
+    });
+
+    placedCompanies.forEach((company) => {
+      const radius = company.rank && Number(company.rank) <= 50 ? 11.2 : company.rank && Number(company.rank) <= 100 ? 9.8 : 8.6;
+      const group = createSvgEl('g', { class: 'graph-company-node', 'data-node-kind': 'company', 'data-company-id': company.id });
+      const circle = createSvgEl('circle', { cx: company.x, cy: company.y, r: radius });
+      const title = createSvgEl('title');
+      title.textContent = `${company.name} ${formatRank(company.rank)}`;
+      group.append(circle, title);
+      group.addEventListener('click', (event) => {
+        event.stopPropagation();
+        selectCompany(company.id, true);
+      });
+      group.addEventListener('mouseenter', () => {
+        state.hoveredCompanyId = company.id;
+        updateGraphState();
+      });
+      group.addEventListener('mouseleave', () => {
+        state.hoveredCompanyId = '';
+        updateGraphState();
+      });
+      layers.nodes.appendChild(group);
+
+      const label = createSvgEl('text', { x: company.x + 18, y: company.y - 12, class: 'graph-company-label' });
+      label.textContent = company.name;
+      layers.labels.appendChild(label);
+      companyElements.set(company.id, { data: company, group, label, x: company.x, y: company.y });
+    });
+
+    middleMap.forEach((item) => {
+      const middleEntry = middleElements.get(item.id);
+      if (!middleEntry) return;
+      (item.companyIds || []).forEach((companyId) => {
+        const companyEntry = companyElements.get(companyId);
+        if (!companyEntry) return;
+        const edge = createSvgEl('line', {
+          x1: middleEntry.x,
+          y1: middleEntry.y,
+          x2: companyEntry.x,
+          y2: companyEntry.y,
+          class: 'graph-edge graph-edge-company',
+        });
+        layers.edges.appendChild(edge);
+        edgeElements.push({ edge, type: 'company', middleId: item.id, companyId });
+      });
+    });
+
+    function applyTransform() {
+      viewport.setAttribute('transform', `matrix(${state.scale} 0 0 ${state.scale} ${state.tx} ${state.ty})`);
+    }
+
+    function clampTransform() {
+      const margin = 260;
+      const minTx = GRAPH_WIDTH * (1 - state.scale) - margin;
+      const maxTx = margin;
+      const minTy = GRAPH_HEIGHT * (1 - state.scale) - margin;
+      const maxTy = margin;
+      state.tx = Math.min(maxTx, Math.max(minTx, state.tx));
+      state.ty = Math.min(maxTy, Math.max(minTy, state.ty));
+    }
+
+    function toSvgPoint(clientX, clientY) {
+      const point = svg.createSVGPoint();
+      point.x = clientX;
+      point.y = clientY;
+      return point.matrixTransform(svg.getScreenCTM().inverse());
+    }
+
+    function resetView() {
+      state.scale = 0.96;
+      state.tx = 0;
+      state.ty = 0;
+      applyTransform();
+    }
+
+    function focusPoint(x, y, scale) {
+      state.scale = scale;
+      state.tx = (GRAPH_WIDTH / 2) - (x * state.scale);
+      state.ty = (GRAPH_HEIGHT / 2) - (y * state.scale);
+      clampTransform();
+      applyTransform();
+    }
+
+    function filteredCompanies() {
+      const query = state.query.trim().toLowerCase();
+      if (!query) return placedCompanies.slice(0, 12);
+      return placedCompanies.filter((company) => matchesQuery(company, query));
+    }
+
+    function renderResults() {
+      const query = state.query.trim().toLowerCase();
+      const results = filteredCompanies();
+      const countLine = query
+        ? `<p class="table-lead">${escapeHtml(labels.results_count.replace('{total}', formatInt(results.length)))}<br>${escapeHtml(labels.results_focus)}</p>`
+        : `<p class="table-lead">${escapeHtml(labels.results_empty)}</p>`;
+      const rows = results.map((company) => `
+        <button class="graph-match-item${company.id === state.selectedCompanyId ? ' is-active' : ''}" type="button" data-result-company="${escapeHtml(company.id)}">
+          <strong>${escapeHtml(company.name)}</strong>
+          <span>${escapeHtml(formatRank(company.rank))} · ${escapeHtml(formatInt(company.factCount || 0))}</span>
+        </button>
+      `).join('');
+      resultsCard.innerHTML = `
+        <h3>${escapeHtml(labels.results_title)}</h3>
+        ${countLine}
+        <div class="graph-match-list">${rows || `<div class="entity-empty">${escapeHtml(labels.results_empty)}</div>`}</div>
+      `;
+      resultsCard.querySelectorAll('[data-result-company]').forEach((button) => {
+        button.addEventListener('click', () => selectCompany(button.getAttribute('data-result-company') || '', true));
+      });
+    }
+
+    function currentMiddleForCompany(company) {
+      const linkedItems = Array.isArray(company.linkedItems) ? company.linkedItems : [];
+      if (state.selectedMiddleId && linkedItems.includes(state.selectedMiddleId)) return state.selectedMiddleId;
+      return linkedItems.length ? linkedItems[0] : '';
+    }
+
+    function renderSelection() {
+      if (state.selectedKind === 'company' && state.selectedCompanyId && companyMap.has(state.selectedCompanyId)) {
+        const company = companyMap.get(state.selectedCompanyId);
+        const activeMiddleId = currentMiddleForCompany(company);
+        const middle = activeMiddleId ? middleMap.get(activeMiddleId) : null;
+        const roleText = Array.isArray(company.roles) && company.roles.length ? company.roles.join(' | ') : '-';
+        const principleText = Array.isArray(company.principles) && company.principles.length ? company.principles.join(' | ') : '-';
+        const linkedItemsText = Array.isArray(company.linkedItems) && company.linkedItems.length ? company.linkedItems.join(' | ') : '-';
+        const extraHtml = Array.isArray(company.extraFields) && company.extraFields.length
+          ? company.extraFields.map((field) => `
+            <div class="entity-inspector-item">
+              <strong>${escapeHtml(field.label || '')}</strong>
+              <span>${escapeHtml(field.value || '-')}</span>
+            </div>
+          `).join('')
+          : '';
+        const evidenceRows = activeMiddleId && company.evidenceByItem ? (company.evidenceByItem[activeMiddleId] || []) : [];
+        selectionCard.innerHTML = `
+          <h3>${escapeHtml(labels.selection_title)}</h3>
+          <div class="entity-inspector-grid">
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.company_type)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(company.name)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_middle)}</strong><span>${escapeHtml(middle ? middle.name : '-')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_rank)}</strong><span>${escapeHtml(formatRank(company.rank))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(company.factCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_roles)}</strong><span>${escapeHtml(roleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_principles)}</strong><span>${escapeHtml(principleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_linked_items)}</strong><span>${escapeHtml(linkedItemsText)}</span></div>
+            ${extraHtml}
+          </div>
+          ${evidenceHtml(evidenceRows)}
+        `;
+        return;
+      }
+
+      if (state.selectedKind === 'middle' && state.selectedMiddleId && middleMap.has(state.selectedMiddleId)) {
+        const middle = middleMap.get(state.selectedMiddleId);
+        const roleText = Array.isArray(middle.roles) && middle.roles.length ? middle.roles.join(' | ') : '-';
+        const principleText = Array.isArray(middle.principles) && middle.principles.length ? middle.principles.join(' | ') : '-';
+        selectionCard.innerHTML = `
+          <h3>${escapeHtml(labels.selection_title)}</h3>
+          <div class="entity-inspector-grid">
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.middle_type)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(middle.name || '')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_system)}</strong><span>${escapeHtml(system.label || '')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_company_count)}</strong><span>${escapeHtml(formatInt(middle.companyCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(middle.factCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_roles)}</strong><span>${escapeHtml(roleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_principles)}</strong><span>${escapeHtml(principleText)}</span></div>
+          </div>
+          ${evidenceHtml(middle.evidence)}
+        `;
+        return;
+      }
+
+      selectionCard.innerHTML = `
+        <h3>${escapeHtml(labels.selection_title)}</h3>
+        <div class="entity-inspector-grid">
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.system_type)}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(system.label || '')}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_item_count)}</strong><span>${escapeHtml(formatInt(system.itemCount || 0))}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_company_count)}</strong><span>${escapeHtml(formatInt(system.companyCount || 0))}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(system.factCount || 0))}</span></div>
+        </div>
+        <p style="margin-top:12px;">${escapeHtml(labels.selection_default)}</p>
+      `;
+    }
+
+    function updateGraphState() {
+      const query = state.query.trim().toLowerCase();
+      const matched = new Set();
+      if (query) {
+        placedCompanies.forEach((company) => {
+          if (matchesQuery(company, query)) matched.add(company.id);
+        });
+      }
+
+      const selectedCompany = state.selectedCompanyId ? companyMap.get(state.selectedCompanyId) : null;
+      const linkedMiddleIds = selectedCompany ? new Set(selectedCompany.linkedItems || []) : new Set();
+      const activeMiddleId = state.selectedKind === 'middle' ? state.selectedMiddleId : '';
+
+      systemGroup.classList.toggle('is-active', state.selectedKind === 'system');
+      middleElements.forEach((entry, middleId) => {
+        const isActive = state.selectedKind === 'middle' && activeMiddleId === middleId;
+        const isLinked = selectedCompany ? linkedMiddleIds.has(middleId) : false;
+        entry.group.classList.toggle('is-active', isActive);
+        entry.group.classList.toggle('is-linked-company', isLinked);
+      });
+
+      companyElements.forEach((entry, companyId) => {
+        const company = entry.data;
+        const matchesMiddle = !activeMiddleId || (Array.isArray(company.linkedItems) && company.linkedItems.includes(activeMiddleId));
+        const matchesSearch = !query || matched.has(companyId);
+        const isSelected = state.selectedKind === 'company' && state.selectedCompanyId === companyId;
+        const isHovered = state.hoveredCompanyId === companyId;
+        const isDimmed = !matchesMiddle || !matchesSearch;
+        const showLabel = isSelected || isHovered || (query && matched.has(companyId) && matched.size <= 24);
+        entry.group.classList.toggle('is-active', isSelected);
+        entry.group.classList.toggle('is-hovered', isHovered);
+        entry.group.classList.toggle('is-match', Boolean(query && matched.has(companyId)));
+        entry.group.classList.toggle('is-dimmed', Boolean(isDimmed));
+        entry.label.classList.toggle('is-visible', Boolean(showLabel));
+      });
+
+      edgeElements.forEach((item) => {
+        if (item.type === 'system') {
+          item.edge.classList.toggle('is-active', state.selectedKind === 'middle' && item.middleId === activeMiddleId);
+          return;
+        }
+        const company = companyMap.get(item.companyId);
+        const matchesMiddle = !activeMiddleId || (company && Array.isArray(company.linkedItems) && company.linkedItems.includes(activeMiddleId));
+        const matchesSearch = !query || matched.has(item.companyId);
+        const isSelectedEdge = (state.selectedKind === 'middle' && item.middleId === activeMiddleId) ||
+          (state.selectedKind === 'company' && item.companyId === state.selectedCompanyId && linkedMiddleIds.has(item.middleId));
+        item.edge.classList.toggle('is-active', Boolean(isSelectedEdge));
+        item.edge.classList.toggle('is-dimmed', !(matchesMiddle && matchesSearch));
+      });
+
+      renderSelection();
+      renderResults();
+    }
+
+    function selectCompany(companyId, focus) {
+      if (!companyId || !companyMap.has(companyId)) return;
+      state.selectedKind = 'company';
+      state.selectedCompanyId = companyId;
+      if (focus) {
+        const entry = companyElements.get(companyId);
+        focusPoint(entry.x, entry.y, 1.7);
+      }
+      updateGraphState();
+    }
+
+    searchInput.addEventListener('input', () => {
+      state.query = searchInput.value || '';
+      updateGraphState();
+    });
+    clearButton.addEventListener('click', () => {
+      state.query = '';
+      searchInput.value = '';
+      updateGraphState();
+    });
+    resetButton.addEventListener('click', () => {
+      state.selectedKind = 'system';
+      state.selectedMiddleId = '';
+      state.selectedCompanyId = '';
+      resetView();
+      updateGraphState();
+    });
+    fitButton.addEventListener('click', () => resetView());
+
+    svg.addEventListener('wheel', (event) => {
+      event.preventDefault();
+      const point = toSvgPoint(event.clientX, event.clientY);
+      const nextScale = Math.max(0.72, Math.min(4.4, state.scale * (event.deltaY < 0 ? 1.12 : 1 / 1.12)));
+      const worldX = (point.x - state.tx) / state.scale;
+      const worldY = (point.y - state.ty) / state.scale;
+      state.scale = nextScale;
+      state.tx = point.x - worldX * state.scale;
+      state.ty = point.y - worldY * state.scale;
+      clampTransform();
+      applyTransform();
+    }, { passive: false });
+
+    svg.addEventListener('pointerdown', (event) => {
+      if (event.target.closest('[data-node-kind="company"],[data-node-kind="middle"],[data-node-kind="system"]')) return;
+      state.panning = true;
+      state.panPointerId = event.pointerId;
+      state.panOrigin = { point: toSvgPoint(event.clientX, event.clientY), tx: state.tx, ty: state.ty };
+      svg.classList.add('is-panning');
+    });
+    svg.addEventListener('pointermove', (event) => {
+      if (!state.panning || state.panPointerId !== event.pointerId || !state.panOrigin) return;
+      const point = toSvgPoint(event.clientX, event.clientY);
+      state.tx = state.panOrigin.tx + (point.x - state.panOrigin.point.x);
+      state.ty = state.panOrigin.ty + (point.y - state.panOrigin.point.y);
+      clampTransform();
+      applyTransform();
+    });
+    function stopPan(event) {
+      if (state.panPointerId !== null && event.pointerId !== undefined && event.pointerId !== state.panPointerId) return;
+      state.panning = false;
+      state.panPointerId = null;
+      state.panOrigin = null;
+      svg.classList.remove('is-panning');
+    }
+    svg.addEventListener('pointerup', stopPan);
+    svg.addEventListener('pointerleave', stopPan);
+    svg.addEventListener('pointercancel', stopPan);
+
+    resetView();
+    updateGraphState();
+  })();
+</script>
+
+        </body>
+        </html>

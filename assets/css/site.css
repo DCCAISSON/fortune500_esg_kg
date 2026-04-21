@@ -107,6 +107,8 @@ th{background:#f6efe4;font-weight:800}
 .entity-overview-kicker{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--entity-tone);font-weight:800}
 .entity-overview-head h3{margin:4px 0 0;font-size:18px}
 .entity-overview-jump{background:color-mix(in srgb,var(--entity-tone) 10%,#fff)}
+.entity-overview-actions-inline{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.entity-overview-cta{background:color-mix(in srgb,var(--accent) 12%,#fff);border-color:color-mix(in srgb,var(--accent) 32%,var(--line))}
 .entity-overview-image{width:100%;max-height:260px;object-fit:contain;border:1px solid var(--line);border-radius:16px;background:#fff}
 .entity-overview-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .entity-overview-metrics span{display:block;padding:10px 12px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.92);font-size:13px;line-height:1.45}
@@ -212,10 +214,14 @@ radial-gradient(circle at 80% 20%,rgba(199,107,45,.05),transparent 18%),
 .graph-edge-system{stroke:#c76b2d;stroke-width:5;opacity:.72}
 .graph-edge-company.is-active{stroke:#2f6f63;stroke-width:3.5;opacity:.92}
 .graph-edge-company.is-dimmed{opacity:.06}
-.graph-system-node,.graph-standard-node,.graph-company-node{cursor:pointer}
+.graph-system-node,.graph-standard-node,.graph-middle-node,.graph-company-node{cursor:pointer}
 .graph-system-node rect{fill:#eef7f4;stroke:#2f6f63;stroke-width:3}
 .graph-standard-node rect{fill:#fff1e8;stroke:#c76b2d;stroke-width:3.2;filter:drop-shadow(0 16px 28px rgba(23,49,62,.12))}
+.graph-middle-node rect{fill:#fff5e6;stroke:#c76b2d;stroke-width:3.2;filter:drop-shadow(0 16px 28px rgba(23,49,62,.12))}
 .graph-system-node.is-active rect,.graph-standard-node.is-active rect{stroke-width:4.2}
+.graph-middle-node.is-active rect{stroke-width:4.2}
+.graph-middle-node.is-linked-company rect{stroke-dasharray:8 8}
+.graph-middle-node.is-dimmed rect{opacity:.24}
 .graph-company-node circle{fill:#5f7f96;stroke:#fff;stroke-width:1.4;opacity:.9;transition:all .18s ease}
 .graph-company-node.is-match circle{fill:#2f6f63}
 .graph-company-node.is-active circle{fill:#c76b2d;stroke:#17313e;stroke-width:2.4}
@@ -223,6 +229,8 @@ radial-gradient(circle at 80% 20%,rgba(199,107,45,.05),transparent 18%),
 .graph-company-node.is-dimmed circle{opacity:.12}
 .graph-block-title{font-size:30px;font-weight:800;fill:#17313e}
 .graph-block-meta{font-size:18px;font-weight:700;fill:#556b78}
+.graph-middle-title{font-size:18px;font-weight:800;fill:#17313e}
+.graph-middle-meta{font-size:16px;font-weight:700;fill:#556b78}
 .graph-company-label{font-size:16px;font-weight:700;fill:#17313e;paint-order:stroke;stroke:#fffefb;stroke-width:5;opacity:0;pointer-events:none;transition:opacity .18s ease}
 .graph-company-label.is-visible{opacity:1}
 @media (max-width:1180px){.graph-page-layout{grid-template-columns:1fr}.graph-canvas-wrap,.ghg-full-graph-svg{height:68vh}}

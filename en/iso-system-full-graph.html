@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>ISO systems Full-screen Entity Knowledge Graph</title>
+          <link rel="stylesheet" href="../assets/css/site.css">
+        </head>
+        <body>
+          <div class="shell graph-page-shell">
+            <div class="topbar">
+              <div class="brand">Fortune 500 ESG Knowledge Graph</div>
+              <div class="nav">
+                <a class="pill" href="../index.html">Home</a>
+                <a class="pill" href="./index.html">Back to English detail page</a>
+                <a class="pill" href="../zh/iso-system-full-graph.html">中文</a>
+              </div>
+            </div>
+            <section class="hero">
+              <div class="eyebrow">Standards system</div>
+              <h1>ISO systems Full-screen Entity Knowledge Graph</h1>
+              <p>This page places all 4 specific standards and 69 companies identified under ISO systems into one interactive knowledge-graph network.</p>
+              <p>The page supports drag-to-pan, wheel zoom, company search, node highlighting, and evidence back-links so stakeholders can inspect exactly which companies map to which standards inside the selected system.</p>
+              <div class="metric-grid"><div class="metric"><h3>Company nodes</h3><strong>69</strong></div><div class="metric"><h3>Specific standards</h3><strong>4</strong></div><div class="metric"><h3>Standard facts</h3><strong>81</strong></div><div class="metric"><h3>Roles / principles</h3><strong>3 / 8</strong></div></div>
+            </section>
+            <section class="section">
+              <div class="graph-page-layout">
+                <div class="card graph-canvas-card">
+                  <div class="graph-toolbar">
+                    <label class="entity-search graph-search">
+                      <span>Company search</span>
+                      <input id="generic-full-graph-search" type="search" placeholder="Search by company name or World500 rank">
+                    </label>
+                    <div class="graph-toolbar-actions">
+                      <button class="pill" id="generic-full-graph-clear" type="button">Clear search</button>
+                      <button class="pill" id="generic-full-graph-fit" type="button">Fit graph</button>
+                      <button class="btn alt" id="generic-full-graph-reset" type="button">Reset view</button>
+                    </div>
+                  </div>
+                  <div class="graph-canvas-wrap">
+                    <svg id="generic-full-graph-svg" class="ghg-full-graph-svg" aria-label="ISO systems Full-screen Entity Knowledge Graph">
+                      <g id="generic-full-graph-viewport"></g>
+                    </svg>
+                  </div>
+                  <div class="report-figure-caption"><strong>NOTE</strong>Interaction: drag to pan, use the mouse wheel to zoom, and click the system, any middle-layer node, or any company node to inspect details and evidence on the right.</div>
+                </div>
+                <aside class="graph-side-panel">
+                  <div class="card graph-side-card">
+                    <h3>Legend</h3>
+                    <div class="graph-legend-list">
+                      <div class="graph-legend-item"><span class="graph-legend-swatch is-system"></span><span>System node</span></div>
+                      <div class="graph-legend-item"><span class="graph-legend-swatch is-standard"></span><span>Specific-standard node</span></div>
+                      <div class="graph-legend-item"><span class="graph-legend-swatch is-company"></span><span>Company node</span></div>
+                    </div>
+                  </div>
+                  <div class="card graph-side-card" id="generic-full-graph-selection"></div>
+                  <div class="card graph-side-card" id="generic-full-graph-results"></div>
+                </aside>
+              </div>
+            </section>
+          </div>
+          <script type="application/json" id="world500-generic-full-graph-data">{"labels": {"search_label": "Company search", "search_placeholder": "Search by company name or World500 rank", "clear_search": "Clear search", "reset_view": "Reset view", "fit_view": "Fit graph", "graph_hint": "Interaction: drag to pan, use the mouse wheel to zoom, and click the system, any middle-layer node, or any company node to inspect details and evidence on the right.", "legend_title": "Legend", "legend_system": "System node", "legend_middle": "Specific-standard node", "legend_company": "Company node", "selection_title": "Current node details", "selection_default": "Click the system node, a middle-layer node, or any company node to inspect attributes and evidence back-links here.", "selection_type": "Node type", "selection_name": "Node name", "selection_system": "System", "selection_middle": "Current middle-layer node", "selection_rank": "World500 rank", "selection_fact_count": "Linked facts", "selection_company_count": "Linked companies", "selection_roles": "Standard roles", "selection_principles": "Accounting principles", "selection_linked_items": "Linked standards in system", "results_title": "Search results", "results_empty": "Search by company name or rank to list matches here; when no search is active, the panel shows the first 12 companies.", "results_count": "{total} matching companies", "results_focus": "Click any company below to focus and zoom to it in the main graph.", "system_type": "System", "middle_type": "Specific standard", "company_type": "Company", "evidence_title": "Evidence back-links", "evidence_report": "Report", "evidence_page": "Page", "evidence_confidence": "Confidence", "evidence_review": "Review", "evidence_empty": "No evidence is linked to the current node.", "eyebrow": "Standards system", "back_to_detail": "Back to English detail page", "metric_companies": "Company nodes", "metric_items": "Specific standards", "metric_facts": "Standard facts", "metric_rules": "Roles / principles", "selection_item_count": "Specific standards", "page_title_template": "{system} Full-screen Entity Knowledge Graph", "page_intro": "This page places all {item_total} specific standards and {company_total} companies identified under {system} into one interactive knowledge-graph network.", "page_intro_2": "The page supports drag-to-pan, wheel zoom, company search, node highlighting, and evidence back-links so stakeholders can inspect exactly which companies map to which standards inside the selected system.", "page_title": "ISO systems Full-screen Entity Knowledge Graph", "page_intro_text": "This page places all 4 specific standards and 69 companies identified under ISO systems into one interactive knowledge-graph network."}, "metricCards": [{"label": "Company nodes", "value": 69}, {"label": "Specific standards", "value": 4}, {"label": "Standard facts", "value": 81}, {"label": "Roles / principles", "value": "3 / 8"}], "system": {"key": "iso", "label": "ISO systems", "color": "#457b9d", "companyCount": 69, "itemCount": 4, "factCount": 81}, "middleNodes": [{"id": "ISO 14064", "name": "ISO 14064", "companyCount": 40, "factCount": 40, "roles": ["Accounting standard"], "principles": ["Relevance", "Completeness", "Consistency"], "companyIds": ["r013_shell", "r022_industrialandcommercialbankofchina", "r028_stellantis集团", "r031_samsungelectronics", "r032_honhaiprecisionindustry", "r036_fordmotor", "r047_jdcom", "r049_electricitédefrance", "r090_target", "r098_eni", "r103_huaweiinvestmentandholding", "r116_indianoil", "r126_axa", "r130_engie集团", "r141_tencentholdings", "r157_jiangxicopper", "r182_ubsgroup", "r186_taiwansemiconductormanufacturing", "r189_itaúunibancoholding", "r206_chinavanke", "r217_bancodobrasil", "r250_contemporaryamperextechnology", "r252_bancobradesco", "r273_iberdrola公司", "r313_exor集团", "r327_talanx公司", "r339_hyundaimobis", "r375_pegatron", "r392_coop集团", "r397_xiaomi", "r415_sfholding", "r433_mercadona公司", "r444_quantacomputer", "r446_aiagroup", "r454_sompoholdings", "r456_koreagas", "r467_tongweigroup", "r468_netflix公司", "r480_ecopetrol", "r500_三星candt公司"], "evidence": [{"report": "AIA GROUP-Main-ESG-Report_CH.pdf", "page": "10", "snippet": "Song - AIA Journey」計劃向弱勢兒童提供超 過13,000輛自行車，提升他們接受 教育的機會。 「Sac Hong Thang 10 — 粉紅十月」活動旨在提高公 眾對乳癌的認識，而芹滁縣 （Can Gio）撥出10公頃紅樹林用作 支持氣候行動。我們也為受颱風摩 羯吹襲的民眾提供救災物資，並透 過友邦保險「AIA健康校園」計劃 鼓勵20,000多名師生參與。 這些行動體現友邦保險幫助大眾 實踐「健康、長久、好生活」的使 命，同時為可持續發展的未來作 出貢獻。", "confidence": "medium", "review_status": "seed_batch_10"}, {"report": "腾讯年度ESG报告2024.pdf", "page": "100", "snippet": "置量（吨）13 33,097.8 46,536.4 33,062.4 每收入单位的无害废弃物处置量（千克/百万人民币）13 50.1 76.4 59.6 有害废弃物处置量（吨）14 3,105.8 1,321.7 1,051.0 每收入单位的有害废弃物处置量（千克/百万人民币）14 4.7 2.2 1.9 注： 1. 腾讯的主要排放物为温室气体排放，由燃料和购买以化石燃料生产的电力所产生。 2. 2022 年起，腾讯按照《温室气体核算体系：企业核算与报告标准》、SBTi《信息", "confidence": "medium", "review_status": "seed_batch_13"}, {"report": "gsm25-IBERDROLA-sustainability-report-2024.pdf", "page": "103", "snippet": "25 and 2026, respectively, as a result of the projection of CO2 emissions based on the generation forecast presented in the Company's Long-Term Strategic Prospects for 2024. The emissions inventory used for the calculation is certified by a", "confidence": "medium", "review_status": "seed_batch_07"}, {"report": "shell-annual-report-2024.pdf", "page": "103", "snippet": "ry 11 remained unchanged at 878 million tonnes CO2e. Revisions did not impact Category 11 emissions from the use of oil products. Biogenic emissions CO2 emissions from biogenic sources related to the combustion of sold biofuels are estimate", "confidence": "medium", "review_status": "seed_batch_01"}, {"report": "ITAÚ UNIBANCO HOLDING ESG Report 2024.pdf", "page": "113", "snippet": "n to the Carbon Credit Desk, our Sustainability and Legal teams also participate in the selection of carbon credits and the evolution of our GHG emissions offsetting strategy. GHG emissions inventory | GRI 305-1 | 305-2 | 305-3 | 305-4 | 30", "confidence": "medium", "review_status": "seed_batch_05"}, {"report": "2025 Samsung C&T Sustainability Report.pdf", "page": "119", "snippet": "tegory 7 commuting Data Verified: Domestic and Overseas Corporation Scope 1&2 Emissions in 2024 Verification Criteria and Protocol The verification was performed at the request of Samsung C&T Corporation using the following verification sta", "confidence": "medium", "review_status": "seed_batch_12"}]}, {"id": "ISO 14064-3", "name": "ISO 14064-3", "companyCount": 20, "factCount": 20, "roles": ["Verification and assurance standard"], "principles": ["Verifiability", "Credibility"], "companyIds": ["r001_walmart", "r007_apple", "r032_honhaiprecisionindustry", "r097_enel", "r100_sk集团", "r117_adm公司", "r141_tencentholdings", "r164_daiichilifeholdings", "r203_aeon", "r209_lg电子", "r234_panasonicholdings", "r339_hyundaimobis", "r367_canadianimperialbankofcommerce", "r413_honeywellinternational", "r415_sfholding", "r440_philipmorrisinternational", "r456_koreagas", "r466_bankofnewyorkmellon", "r486_linde", "r491_apolloglobalmanagement"], "evidence": [{"report": "Apple_Environmental_Progress_Report_2025.pdf", "page": "108", "snippet": "e Engagements (ISAE) 3000 Revised, Assurance Engagements Other than Audits or Reviews of Historical Financial Information (effective for assurance reports dated on or after Dec. 15, 2015), issued by the International Auditing and Assurance", "confidence": "medium", "review_status": "seed_batch_01"}, {"report": "腾讯年度ESG报告2024.pdf", "page": "108", "snippet": "107 1. 保护环境 企业管治 2. 关心员工成长 ESG管治 3. 保障数字权益 6. 商业道德 导言 4. 数字包容 5. 数字技术助力可持续发展目标 附录 温室气体核查声明 声明编码CN25/00001936 温室气体核查声明 以下组织的2024 年01 月01 日至2024 年12 月31 日温室气体盘查清册 腾讯控股有限公司 注册地址：总办事处：中国广东省深圳市南山区海天二路腾讯滨海大厦. 组织边界. 已由SGS 依据ISO 14064-3:2019 进行了核查并", "confidence": "medium", "review_status": "seed_batch_13"}, {"report": "apollo-2024-sustainability-report-june-2025.pdf", "page": "110", "snippet": "xpressing an opinion on the GHG statement based on the verification. Rouha Hussaina Head of Energy Transition Services Sproule ERCE METHODOLOGY Sproule ERCE conducted its review to a limited level of assurance, in accordance with the proced", "confidence": "medium", "review_status": "seed_batch_14"}, {"report": "2023-BANK OF NEW YORK MELLON sustainability-report.pdf", "page": "129", "snippet": "31, 2023 Criteria against which verification conducted: • World Resources Institute (WRI)/World Business Council for Sustainable Development (WBCSD) Greenhouse Gas Protocol, Corporate Accounting and Reporting Standard, Revised Edition (Scop", "confidence": "medium", "review_status": "seed_batch_10"}, {"report": "ENEL-integrated-annual-report_2024.pdf", "page": "145", "snippet": "e for Scope 3 emissions included in the field of application of the in- ventory. The audit was conducted according to Stand- ard ISO 14064-3 for the compliance of greenhouse gas (GHG) inventories with the WBCSD/WRI Corporate Accounting and", "confidence": "medium", "review_status": "seed_batch_13"}, {"report": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf", "page": "146", "snippet": "rtification of Emissions under the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notice 2024-155) • ‌\u0007Verification Guidelines for the Operation of the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notic", "confidence": "medium", "review_status": "seed_batch_12"}]}, {"id": "ISO 14067", "name": "ISO 14067", "companyCount": 16, "factCount": 16, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "companyIds": ["r004_saudiaramco", "r017_alphabet公司", "r054_sinochemholdings", "r098_eni", "r105_boschgroup", "r143_byd", "r162_kia", "r186_taiwansemiconductormanufacturing", "r222_nvidia", "r248_lenovogroup", "r250_contemporaryamperextechnology", "r261_intel", "r387_schneiderelectric", "r451_crrcgroup", "r467_tongweigroup", "r479_schlumberger"], "evidence": [{"report": "2025 KIA Sustainability Report.pdf", "page": "133", "snippet": "eme, accredited by the Korea Laboratory Accreditation Scheme (KOLAS) under the National Institute of Technology and Standards of Korea for ISO/IEC 17029:2019 (Conformity Assessment - General principles and requirements for validation and ve", "confidence": "medium", "review_status": "seed_batch_13"}, {"report": "2024 TONGWEI GROUP ESG report.pdf", "page": "14", "snippet": "ng renew- able energy power production and consumption\". • In September 2024, MEE released the national standard GB/T 24067-2024, Greenhouse gases-Carbon footprint of products-Requirements and guidelines for quantiﬁcation. This standard suc", "confidence": "medium", "review_status": "seed_batch_10"}, {"report": "SCHLUMBERGER-sustainability-report-2024.pdf", "page": "16", "snippet": "Scope 3 in Our Value Chain continued The Environmental Steward (TES) Application Deployed in 2024 and to be adopted by all engineering teams, the TES app formalizes adherence to our ISO 14067-aligned Life Cycle Assessment (LCA) method, enab", "confidence": "medium", "review_status": "seed_batch_10"}, {"report": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf", "page": "20", "snippet": "perform third-party verified Life Cycle Assessments (LCAs) and Product Carbon Footprints (PCFs) aligned with ISO international standards. In FY26, we published a PCF summary for our NVIDIA HGX™ H100 GPU baseboard. The PCF was developed in c", "confidence": "medium", "review_status": "seed_batch_06"}, {"report": "2024-saudi-aramco-sustainability-report-full-en.pdf", "page": "23", "snippet": "North America to Asia. The next entity in the value chain of this pilot, Motiva’s Port Arthur Manufacturing Complex, made progress in their measurement of the product-level emissions of their base oils production by undergoing third-party v", "confidence": "medium", "review_status": "seed_batch_01"}, {"report": "ENI-Annual-Report-2024.pdf", "page": "239", "snippet": "re lower than the greenhouse gas emissions in the life cycle of equivalent primary form plastics manufactured from fossil fuels. Greenhouse gas emissions over the life cycle are calculated using Recommendation 2013/179/ EU or, alternatively", "confidence": "medium", "review_status": "seed_batch_13"}]}, {"id": "ISO 14040/14044", "name": "ISO 14040/14044", "companyCount": 5, "factCount": 5, "roles": ["Methodology standard"], "principles": ["Completeness", "Life-cycle perspective"], "companyIds": ["r011_volkswagen", "r017_alphabet公司", "r054_sinochemholdings", "r248_lenovogroup", "r368_lyondellbasellindustries"], "evidence": [{"report": "2024-LYONDELLBASELL INDUSTRIES-sustainability-report.pdf", "page": "26", "snippet": "with customers on their scope 3 emission targets, and work to evaluate our supply chain. Additionally, we are collaborating to support the harmonization of product life cycle metrics and their application (e.g., ISO 14040/44, Product Enviro", "confidence": "medium", "review_status": "seed_batch_08"}, {"report": "2024中国中化控股有限责任公司ESG报告.pdf", "page": "29", "snippet": "including mixed methylcyclosiloxane, formic acid, polycarbonate, and electrode paste, were subject to carbon footprint accounting, and some products obtained certifications from a third-party authoritative certification body based on ISO 14", "confidence": "medium", "review_status": "seed_batch_02"}, {"report": "FY2025-lenovo-sustainability-report.pdf", "page": "34", "snippet": "A is a key priority, reflecting a commitment to supporting customers’ sustainability goals by designing products with lower footprint. Lenovo recognizes the importance of adhering to globally recognized standards, including ISO 14040 and IS", "confidence": "medium", "review_status": "seed_batch_06"}, {"report": "2023_Volkswagen_Group_Sustainability_Report.pdf", "page": "61", "snippet": "cycling emissions, have been verified externally and inde­ pendently in accordance with the ISO 14040 and ISO 14044 standards. Scope 3 also includes emissions from additional Group entities and regions in some categories that are not direct", "confidence": "medium", "review_status": "seed_batch_01"}, {"report": "google-2025-environmental-report.pdf", "page": "99", "snippet": "d offices, and additional capital goods purchased for Alphabet’s operations. We use a combination of the average-data, and spend-based methods, as defined by the Scope 3 Technical Guidance, as well as LCAs that are in accordance with ISO 14", "confidence": "medium", "review_status": "seed_batch_13"}]}], "companies": [{"id": "r001_walmart", "name": "WALMART", "rank": 1, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "FY2025-Walmart-ESG-Report.pdf", "page": "7", "snippet": "rting Walmart Inc. calculates its GHG emissions footprint estimates in alignment with the Greenhouse Gas Protocol’s Corporate Accounting and Reporting Standard as well as the Corporate Value Chain (Scope 3) Accounting and Reporting Standard", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r004_saudiaramco", "name": "SAUDI ARAMCO", "rank": 4, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "2024-saudi-aramco-sustainability-report-full-en.pdf", "page": "23", "snippet": "North America to Asia. The next entity in the value chain of this pilot, Motiva’s Port Arthur Manufacturing Complex, made progress in their measurement of the product-level emissions of their base oils production by undergoing third-party v", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r007_apple", "name": "APPLE", "rank": 7, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "Apple_Environmental_Progress_Report_2025.pdf", "page": "108", "snippet": "e Engagements (ISAE) 3000 Revised, Assurance Engagements Other than Audits or Reviews of Historical Financial Information (effective for assurance reports dated on or after Dec. 15, 2015), issued by the International Auditing and Assurance", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r011_volkswagen", "name": "VOLKSWAGEN", "rank": 11, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Completeness", "Life-cycle perspective"], "linkedItems": ["ISO 14040/14044"], "evidenceByItem": {"ISO 14040/14044": [{"report": "2023_Volkswagen_Group_Sustainability_Report.pdf", "page": "61", "snippet": "cycling emissions, have been verified externally and inde­ pendently in accordance with the ISO 14040 and ISO 14044 standards. Scope 3 also includes emissions from additional Group entities and regions in some categories that are not direct", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r013_shell", "name": "SHELL", "rank": 13, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "shell-annual-report-2024.pdf", "page": "103", "snippet": "ry 11 remained unchanged at 878 million tonnes CO2e. Revisions did not impact Category 11 emissions from the use of oil products. Biogenic emissions CO2 emissions from biogenic sources related to the combustion of sold biofuels are estimate", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r017_alphabet公司", "name": "Alphabet公司", "rank": 17, "factCount": 2, "roles": ["Methodology standard"], "principles": ["Completeness", "Life-cycle perspective"], "linkedItems": ["ISO 14040/14044", "ISO 14067"], "evidenceByItem": {"ISO 14040/14044": [{"report": "google-2025-environmental-report.pdf", "page": "99", "snippet": "d offices, and additional capital goods purchased for Alphabet’s operations. We use a combination of the average-data, and spend-based methods, as defined by the Scope 3 Technical Guidance, as well as LCAs that are in accordance with ISO 14", "confidence": "medium", "review_status": "seed_batch_13"}], "ISO 14067": [{"report": "google-2025-environmental-report.pdf", "page": "99", "snippet": "d offices, and additional capital goods purchased for Alphabet’s operations. We use a combination of the average-data, and spend-based methods, as defined by the Scope 3 Technical Guidance, as well as LCAs that are in accordance with ISO 14", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r022_industrialandcommercialbankofchina", "name": "INDUSTRIAL & COMMERCIAL BANK OF CHINA", "rank": 22, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "ICBC_2024_Sustainability_Report.pdf", "page": "73", "snippet": "e branches, tier-two branches, sub-branches, outlets, directly managed institutions, and domestic subsidiaries (including Bank of Jinzhou). 2. The Bank’s carbon emissions were calculated with the operational control method, according to the", "confidence": "medium", "review_status": "seed_batch_11"}]}, "extraFields": []}, {"id": "r028_stellantis集团", "name": "Stellantis集团", "rank": 28, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "Stellantis-2024-Climate-Policy-Report.pdf", "page": "6", "snippet": "to our automotive business and strategic plan, decarbonisation and alignment with global climate agreements. In future reports, we will endeavour to widen and focus on other areas. - Paris Agreement Stellantis computes its carbon footprint", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r031_samsungelectronics", "name": "SAMSUNG ELECTRONICS", "rank": 31, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "SAMSUNG ELECTRONICS_Sustainability_report_2024_en.pdf", "page": "62", "snippet": "nnes CO₂e 489 530 540 HFCs 1,000 tonnes CO₂e 902 679 314 PFCs 1,000 tonnes CO₂e 4,787 3,333 1,533 SF6 1,000 tonnes CO₂e 214 173 124 1) \u0007GHG emissions from business sites: Calculated based on country-specific GHG management guidelines, the I", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r032_honhaiprecisionindustry", "name": "HON HAI PRECISION INDUSTRY", "rank": 32, "factCount": 2, "roles": ["Accounting standard", "Verification and assurance standard"], "principles": ["Completeness", "Consistency", "Credibility", "Relevance", "Verifiability"], "linkedItems": ["ISO 14064", "ISO 14064-3"], "evidenceByItem": {"ISO 14064": [{"report": "鸿海精密工业股份有限公司2024 - 中文完整版.pdf", "page": "119", "snippet": "支挝。 at2: 以深圳能革刻区作为试点，半入无人机空气品质监控系统，透过整合无人机、微型气体感测器、雪端物联网与AI大数据分析技术，建构出3D全方位的动态空气品质监控架构，协助厂区即时辨识民常排放、漳源污染源薄迅速与现场稽查联动， 避免因延误应对而产生环保国除。相较传统方式晒著提升稽查精准度与即时反应能力，大幅提升稽查管理效益。自2023 年专案推动导入无人机进行预防性巡检，2024年起扩大龙华及观测围区日夜间空气品质管理应用，於2023至2025年间成功实 ISO 140", "confidence": "medium", "review_status": "seed_batch_01"}], "ISO 14064-3": [{"report": "鸿海精密工业股份有限公司2024 - 中文完整版.pdf", "page": "209", "snippet": "169.66 2,272,277 .12 20,265,302.49 和范畴一 0.00006 0.04972 0.04978 0s — (nd Ht) 0.00264 0.32861 0.33125 i= 资诚PWC 资诚PWC 资诚PWC 诚PWC 资诚PWC 资诚PWC 必维认证(北京)有 限公司 SAE 3410确信淮有 SAE 3410确信淮有 SAE 3410确信淮有 SAE 3410确信淮有 SAE 3410确信淮有 SAE 3410确信淮有 温室气体核算体系-", "confidence": "medium", "review_status": "seed_batch_01"}]}, "extraFields": []}, {"id": "r036_fordmotor", "name": "FORD MOTOR", "rank": 36, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2025-integrated-sustainability-and-financial-report-FORD MOTOR.pdf", "page": "67", "snippet": "nd-of-Life | Air, Water, and Soil Pollution | Water Resources | Biodiversity and Ecosystems Climate Change — Achieving Carbon Neutrality — continued Ford Integrated Sustainability and Financial Report 2025 67 The Inventory Management Plan,", "confidence": "medium", "review_status": "seed_batch_02"}]}, "extraFields": []}, {"id": "r047_jdcom", "name": "JD.COM", "rank": 47, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2024_京东集团股份有限公司ESG报告.pdf", "page": "31", "snippet": "握供应链与物流市场的发展机遇。 \u0007\u0003 \u0003 京东自有的物流体系使供应链与物流环节减排能更好地集中管理，更有机会在产业链减排上 取得优势。 中期、长期 通过数智化为企业 提供节能降碳服务 \u0003 \u0003 节能环保政策的持续出台及市场对绿色产品及服务的偏好转向使更多的企业产生节能降碳服 务的需求。若京东集团能有效回应市场需求，提供高效的节能降碳服务，将有望在B 端节能 降碳服务方面取得业务增长。 \u0007 \u0007运用数智化能力，提供能耗监测、碳排放监测管理及配套的咨询服务，助力企业和政府制定 减碳路", "confidence": "medium", "review_status": "seed_batch_02"}]}, "extraFields": []}, {"id": "r049_electricitédefrance", "name": "ELECTRICITÉ DE FRANCE", "rank": 49, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "edf-urd-annual-financial-report-2024-en-accessible.pdf", "page": "207", "snippet": "spread over their accounting lifespan. This makes it possible to smooth out the indirect emissions over the lifespan of the equipment, while retaining the information on the carbon stock in the atmosphere. In doing so, the methodology used", "confidence": "medium", "review_status": "seed_batch_11"}]}, "extraFields": []}, {"id": "r054_sinochemholdings", "name": "SINOCHEM HOLDINGS", "rank": 54, "factCount": 2, "roles": ["Methodology standard"], "principles": ["Completeness", "Life-cycle perspective"], "linkedItems": ["ISO 14040/14044", "ISO 14067"], "evidenceByItem": {"ISO 14040/14044": [{"report": "2024中国中化控股有限责任公司ESG报告.pdf", "page": "29", "snippet": "including mixed methylcyclosiloxane, formic acid, polycarbonate, and electrode paste, were subject to carbon footprint accounting, and some products obtained certifications from a third-party authoritative certification body based on ISO 14", "confidence": "medium", "review_status": "seed_batch_02"}], "ISO 14067": [{"report": "2024中国中化控股有限责任公司ESG报告.pdf", "page": "29", "snippet": "including mixed methylcyclosiloxane, formic acid, polycarbonate, and electrode paste, were subject to carbon footprint accounting, and some products obtained certifications from a third-party authoritative certification body based on ISO 14", "confidence": "medium", "review_status": "seed_batch_02"}]}, "extraFields": []}, {"id": "r090_target", "name": "TARGET", "rank": 90, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "TARGET-2024-Sustainability-and-Governance-Report-Appendix.pdf", "page": "7", "snippet": "ivalent (mtCO 2 e) or Giga Joules (GJ). The reductions in GHG emissions occurred in direct (scope 1) and indirect (scope 2) emissions. Gases included in the calculation: CO 2 , CH 4 , N 2 O and HFCs. Scope 1 and 2 reporting is organized in", "confidence": "medium", "review_status": "seed_batch_03"}]}, "extraFields": []}, {"id": "r097_enel", "name": "ENEL", "rank": 97, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "ENEL-integrated-annual-report_2024.pdf", "page": "145", "snippet": "e for Scope 3 emissions included in the field of application of the in- ventory. The audit was conducted according to Stand- ard ISO 14064-3 for the compliance of greenhouse gas (GHG) inventories with the WBCSD/WRI Corporate Accounting and", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r098_eni", "name": "ENI", "rank": 98, "factCount": 2, "roles": ["Accounting standard", "Methodology standard"], "principles": ["Completeness", "Consistency", "Life-cycle perspective", "Relevance"], "linkedItems": ["ISO 14064", "ISO 14067"], "evidenceByItem": {"ISO 14064": [{"report": "ENI-Annual-Report-2024.pdf", "page": "239", "snippet": "re lower than the greenhouse gas emissions in the life cycle of equivalent primary form plastics manufactured from fossil fuels. Greenhouse gas emissions over the life cycle are calculated using Recommendation 2013/179/ EU or, alternatively", "confidence": "medium", "review_status": "seed_batch_13"}], "ISO 14067": [{"report": "ENI-Annual-Report-2024.pdf", "page": "239", "snippet": "re lower than the greenhouse gas emissions in the life cycle of equivalent primary form plastics manufactured from fossil fuels. Greenhouse gas emissions over the life cycle are calculated using Recommendation 2013/179/ EU or, alternatively", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r100_sk集团", "name": "SK集团", "rank": 100, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "2025_SK-Inc_Sustainability Report_KOR.pdf", "page": "195", "snippet": "증절차를 수행하였습니다. Assurance 검증 범위 검증 기준 및 절차 검증 수준 검증 결론 Scope 1, 2 온실가스 배출량 한국표준협회는 다음의 기준 및 절차에 따라 검증을 수행하였습니다. · 온실가스 배출권거래제의 배출량 보고 및 인증에 관한 지침(환경부고시 제2024-155호) · 온실가스 배출권거래제 운영을 위한 검증지침(환경부고시 제2024-169호) · 2006 IPCC Guidelines, KS I ISO14", "confidence": "medium", "review_status": "seed_batch_11"}]}, "extraFields": []}, {"id": "r103_huaweiinvestmentandholding", "name": "HUAWEI INVESTMENT & HOLDING", "rank": 103, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "Huawei_2024_Annual_Report.pdf", "page": "75", "snippet": "defect management, lean manufacturing, and intelligent manufacturing. Together, we aspire to create world-class quality brands. – ISO 9001 – TL 9000 – IATF 16949 – ISO 13485 – Capability Maturity Model Integration (CMMI) – ISO 17025 – ISO 1", "confidence": "medium", "review_status": "seed_batch_11"}]}, "extraFields": []}, {"id": "r105_boschgroup", "name": "BOSCH GROUP", "rank": 105, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "bosch-sustainability-report-2024.pdf", "page": "42", "snippet": "venue. It is therefore 13 Unless otherwise stated, carbon footprint takes into account all greenhouse gas emissions ranging from raw materials extraction to transport, production, sales, and use through to disposal of the product (cradle to", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r116_indianoil", "name": "INDIAN OIL", "rank": 116, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "INDIAN OIL-IOCL-Sustainability-Report-2023-24.pdf", "page": "56", "snippet": "ntal regulations. Our commitment to environmental leadership includes biodiversity conservation and ecosystem restoration. IndianOil integrates sustainability into operations, setting industry benchmarks through innovation and research. All", "confidence": "medium", "review_status": "seed_batch_03"}]}, "extraFields": []}, {"id": "r117_adm公司", "name": "ADM公司", "rank": 117, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "final_archer-daniels-midland-adm_2023-corporate-sustainability-report.pdf", "page": "50", "snippet": ") 733-2739 * www.apexcos.com DAN APEX roa Period covered by GHG emissions verification: © January 1, 2023 to December 31, 2023 Criteria against which verification conducted: ‘+ The Climate Registry General Reporting Protocol (Scope 1 and Sc", "confidence": "medium", "review_status": "seed_batch_03"}]}, "extraFields": []}, {"id": "r126_axa", "name": "AXA", "rank": 126, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "axa_urd2024_accessible_va.pdf", "page": "176", "snippet": "onmental impact; (ii) they must be located in countries where AXA operates; and (iii) they must meet high quality standards through certification (including Gold Standard for the Global Goals, Verified Carbon Standard - Verra, Climate Actio", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r130_engie集团", "name": "Engie集团", "rank": 130, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "ENGIE_DEU_2024_US__PDF_MEL_v3.pdf", "page": "119", "snippet": "e 7 of Section 6.2.2. “Notes to the consolidated financial statements”. Methodology used to calculate the Group’s total GHG emissions [AR 39a] The Group's GHG emissions calculation (Scopes 1, 2 and 3) relies on the principles, requirements", "confidence": "medium", "review_status": "seed_batch_03"}]}, "extraFields": []}, {"id": "r141_tencentholdings", "name": "TENCENT HOLDINGS", "rank": 141, "factCount": 2, "roles": ["Accounting standard", "Verification and assurance standard"], "principles": ["Completeness", "Consistency", "Credibility", "Relevance", "Verifiability"], "linkedItems": ["ISO 14064", "ISO 14064-3"], "evidenceByItem": {"ISO 14064": [{"report": "腾讯年度ESG报告2024.pdf", "page": "100", "snippet": "置量（吨）13 33,097.8 46,536.4 33,062.4 每收入单位的无害废弃物处置量（千克/百万人民币）13 50.1 76.4 59.6 有害废弃物处置量（吨）14 3,105.8 1,321.7 1,051.0 每收入单位的有害废弃物处置量（千克/百万人民币）14 4.7 2.2 1.9 注： 1. 腾讯的主要排放物为温室气体排放，由燃料和购买以化石燃料生产的电力所产生。 2. 2022 年起，腾讯按照《温室气体核算体系：企业核算与报告标准》、SBTi《信息", "confidence": "medium", "review_status": "seed_batch_13"}], "ISO 14064-3": [{"report": "腾讯年度ESG报告2024.pdf", "page": "108", "snippet": "107 1. 保护环境 企业管治 2. 关心员工成长 ESG管治 3. 保障数字权益 6. 商业道德 导言 4. 数字包容 5. 数字技术助力可持续发展目标 附录 温室气体核查声明 声明编码CN25/00001936 温室气体核查声明 以下组织的2024 年01 月01 日至2024 年12 月31 日温室气体盘查清册 腾讯控股有限公司 注册地址：总办事处：中国广东省深圳市南山区海天二路腾讯滨海大厦. 组织边界. 已由SGS 依据ISO 14064-3:2019 进行了核查并", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r143_byd", "name": "BYD", "rank": 143, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "比亚迪年度可持续报告2024.pdf", "page": "46", "snippet": "相关制度。此外，我们鼓励供 相当于减少碳排放超忆1 0 , O O O吨二氧化碳当量s。 应商在生产过程中逐步扩大绿电使用比例、使用新能源车辆、推动节能技改以降低运营过程碳排放，也鼓励 a 供应商参与产品的回收和再利用，推广循环经济理念，以减少废弃物产生、提升资源利用率 。同时，我们积 极推动绿色采购，制定绿色采购方针政策，并建立健全“绿色供应商、绿色原材料 ”绿色采购体系， 请参阅 本报告《责任供应链》。 = tay : 民 > ”节能减排项目 为获取打造绿色产品的数据决策", "confidence": "medium", "review_status": "seed_batch_04"}]}, "extraFields": []}, {"id": "r157_jiangxicopper", "name": "JIANGXI COPPER", "rank": 157, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2024江西铜业集团有限公司环境、社会及管治报告.pdf", "page": "30", "snippet": "IB I, ABIES AR Soy BHR Mate HSE. 53 | 江西铜业股份有限公司 ROL, LMA coi ewe 揣手直人进 绿色先行 智领未来 以人为本 责任失当 INE 共享负责价值链 共和缩可持续未来 FARES 共建温暖职场 践行社会承诺 BARE “SHAS BesrHe—SR” 江西铜业牵头制定的《温室气体排放核算与报告要求 第 42 部分: SAREE), RE “SHR ALBRESS 会技术标准优秀奖一等奖”，这是江铜思续两年这头的标准项目", "confidence": "medium", "review_status": "seed_batch_04"}]}, "extraFields": []}, {"id": "r162_kia", "name": "KIA", "rank": 162, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "2025 KIA Sustainability Report.pdf", "page": "133", "snippet": "eme, accredited by the Korea Laboratory Accreditation Scheme (KOLAS) under the National Institute of Technology and Standards of Korea for ISO/IEC 17029:2019 (Conformity Assessment - General principles and requirements for validation and ve", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r164_daiichilifeholdings", "name": "DAI-ICHI LIFE HOLDINGS", "rank": 164, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "2024-DAI-ICHI LIFE HOLDINGS-index_001.pdf", "page": "261", "snippet": "any. The purpose of the verification is to evaluate the Statement objectively and to enhance the credibility of the Statement. *The fiscal year 2023 of the Company ended on March 31, 2024. 2. Procedures Performed JQA conducted verification", "confidence": "medium", "review_status": "seed_batch_04"}]}, "extraFields": []}, {"id": "r182_ubsgroup", "name": "UBS GROUP", "rank": 182, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "UBS GROUP-sustainability-report-2024.pdf", "page": "51", "snippet": "critical role of biodiversity. Our reporting on environmental targets and indicators in our own operations The information about our environmental targets and indicators is included in our yearly GHG emissions report, which is prepared in a", "confidence": "medium", "review_status": "seed_batch_05"}]}, "extraFields": []}, {"id": "r186_taiwansemiconductormanufacturing", "name": "TAIWAN SEMICONDUCTOR MANUFACTURING", "rank": 186, "factCount": 2, "roles": ["Accounting standard", "Methodology standard"], "principles": ["Completeness", "Consistency", "Life-cycle perspective", "Relevance"], "linkedItems": ["ISO 14064", "ISO 14067"], "evidenceByItem": {"ISO 14064": [{"report": "台积公司2022c-all.pdf", "page": "75", "snippet": "成 未達成 註 1：第一階供應商：直接交易且年度訂單3 筆以上，交易金額大於500 萬新台幣者，民國111 年共1,230 家符合定義 註 2：關鍵供應商：符合占比前85% 採購支出、單一採購來源或評估其市場占有率、產品庫存水位與特性等綜合風險指標後認定 註3：因近年新增新進製程亦納入風險評估考量，故民國119 年目標由145 項上調至185 項 註4：以位於台灣之供應商為主要執行範圍 註5：民國110 年共稽核70 家關鍵高風險供應商， 其中5 家安全衛生稽核分數低於70", "confidence": "medium", "review_status": "seed_batch_05"}], "ISO 14067": [{"report": "台积公司2022c-all.pdf", "page": "89", "snippet": "營 運能力。 ●完善供應鏈碳資訊 民國111 年，台積公司要求137 家原物料 及設備供應商參與CDP 供應鏈專案，並辦理 組織型溫室氣體盤查訓練及CDP 揭露問卷說 明，以提高資料品質，總計322 人次參與訓 練、111 家供應商完成問卷。調查結果顯示， 84% 受訪廠商已將氣候變遷議題納入董事會 監管，93% 已進行溫室氣體盤查或估算， 71% 設定減排目標，約51% 供應商提供範 疇三排放數據。此外，為提升碳排放數據品 質，台積公司已於民國110 年起要求年度 溫室氣體", "confidence": "medium", "review_status": "seed_batch_05"}]}, "extraFields": []}, {"id": "r189_itaúunibancoholding", "name": "ITAÚ UNIBANCO HOLDING", "rank": 189, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "ITAÚ UNIBANCO HOLDING ESG Report 2024.pdf", "page": "113", "snippet": "n to the Carbon Credit Desk, our Sustainability and Legal teams also participate in the selection of carbon credits and the evolution of our GHG emissions offsetting strategy. GHG emissions inventory | GRI 305-1 | 305-2 | 305-3 | 305-4 | 30", "confidence": "medium", "review_status": "seed_batch_05"}]}, "extraFields": []}, {"id": "r203_aeon", "name": "AEON", "rank": 203, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "AEON sustainability report.pdf", "page": "8", "snippet": "ISO 14064-3 requirements are cited as the basis for third-party verification of Scope 1 and Scope 2 emissions.", "confidence": "high", "review_status": "manual_axis_backfill"}]}, "extraFields": []}, {"id": "r206_chinavanke", "name": "CHINA VANKE", "rank": 206, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2024-CHINA VANKE-sustainability-report.pdf", "page": "62", "snippet": "mission management of data centres and actively promotes the construction of green and low-carbon data centres via usage efficiency optimisation, business upgrading, and management measures improvement. In 2024, Vanke’s data centres continu", "confidence": "medium", "review_status": "seed_batch_05"}]}, "extraFields": []}, {"id": "r209_lg电子", "name": "LG电子", "rank": 209, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "2024-2025_LGE_Sustainability_Report_English.pdf", "page": "24", "snippet": "eas production sites of LG Electronics Verification Principles and Standards - \u0007South Korea: Guidelines on Reporting and Certification of Emissions under the Emissions Trading Scheme, Guidelines for Verification under the Emissions Trading", "confidence": "medium", "review_status": "seed_batch_13"}]}, "extraFields": []}, {"id": "r217_bancodobrasil", "name": "BANCO DO BRASIL", "rank": 217, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "BANCO DO BRASIL Annual Report - 2024.pdf", "page": "130", "snippet": "1 emissions by 42% by 2030, based on the criteria of the Science-Based Targets initiative (SBTi) and the scenario of a global temperature increase below 2°C. To achieve this goal, we maintain an annual GHG inventory, in accordance with NBR", "confidence": "medium", "review_status": "seed_batch_05"}]}, "extraFields": []}, {"id": "r222_nvidia", "name": "NVIDIA", "rank": 222, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf", "page": "20", "snippet": "perform third-party verified Life Cycle Assessments (LCAs) and Product Carbon Footprints (PCFs) aligned with ISO international standards. In FY26, we published a PCF summary for our NVIDIA HGX™ H100 GPU baseboard. The PCF was developed in c", "confidence": "medium", "review_status": "seed_batch_06"}]}, "extraFields": []}, {"id": "r234_panasonicholdings", "name": "PANASONIC HOLDINGS", "rank": 234, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "2025_Sustainability Date Book PANASONIC HOLDINGS.pdf", "page": "155", "snippet": "bility Data Book 2025 (“the report”) for the fiscal year 2025 (from 1 April 2024 to 31 March 2025) against the assurance criteria below to a limited level of assurance and materiality of the professional judgement of the verifier using ISAE", "confidence": "medium", "review_status": "seed_batch_06"}]}, "extraFields": []}, {"id": "r248_lenovogroup", "name": "LENOVO GROUP", "rank": 248, "factCount": 2, "roles": ["Methodology standard"], "principles": ["Completeness", "Life-cycle perspective"], "linkedItems": ["ISO 14040/14044", "ISO 14067"], "evidenceByItem": {"ISO 14040/14044": [{"report": "FY2025-lenovo-sustainability-report.pdf", "page": "34", "snippet": "A is a key priority, reflecting a commitment to supporting customers’ sustainability goals by designing products with lower footprint. Lenovo recognizes the importance of adhering to globally recognized standards, including ISO 14040 and IS", "confidence": "medium", "review_status": "seed_batch_06"}], "ISO 14067": [{"report": "FY2025-lenovo-sustainability-report.pdf", "page": "34", "snippet": "A is a key priority, reflecting a commitment to supporting customers’ sustainability goals by designing products with lower footprint. Lenovo recognizes the importance of adhering to globally recognized standards, including ISO 14040 and IS", "confidence": "medium", "review_status": "seed_batch_06"}]}, "extraFields": []}, {"id": "r250_contemporaryamperextechnology", "name": "CONTEMPORARY AMPEREX TECHNOLOGY", "rank": 250, "factCount": 2, "roles": ["Accounting standard", "Methodology standard"], "principles": ["Completeness", "Consistency", "Life-cycle perspective", "Relevance"], "linkedItems": ["ISO 14064", "ISO 14067"], "evidenceByItem": {"ISO 14064": [{"report": "宁德时代2024年ESG报告.pdf", "page": "43", "snippet": "能宣传周 公司面向全体员工及配套物业人员开展以“绿色转型，节能攻坚”为主题的节能宣传周活动， 并举办节能亮点征集和知识竞赛，持续通过节能相关科普培训深化全员节能低碳意识。 气候与碳管理培训 公司建立系统化的碳管理培训体系，通过专业化的课程设计与实施，赋能员工及供应商提升 碳管理能力。针对内部员工，公司自主开发《全球与中国碳市场概况》《如何做好组织碳盘 查》《双碳知识框架》《时代碳链碳足迹核算》等课程，并结合前端实用碳知识、生命周期 评价等实用内容，帮助员工深化碳管理认知与技能", "confidence": "medium", "review_status": "seed_batch_12"}], "ISO 14067": [{"report": "宁德时代2024年ESG报告.pdf", "page": "43", "snippet": "能宣传周 公司面向全体员工及配套物业人员开展以“绿色转型，节能攻坚”为主题的节能宣传周活动， 并举办节能亮点征集和知识竞赛，持续通过节能相关科普培训深化全员节能低碳意识。 气候与碳管理培训 公司建立系统化的碳管理培训体系，通过专业化的课程设计与实施，赋能员工及供应商提升 碳管理能力。针对内部员工，公司自主开发《全球与中国碳市场概况》《如何做好组织碳盘 查》《双碳知识框架》《时代碳链碳足迹核算》等课程，并结合前端实用碳知识、生命周期 评价等实用内容，帮助员工深化碳管理认知与技能", "confidence": "medium", "review_status": "seed_batch_12"}]}, "extraFields": []}, {"id": "r252_bancobradesco", "name": "BANCO BRADESCO", "rank": 252, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2024  BANCO BRADESCO ESG Report.pdf", "page": "46", "snippet": "Through the annual greenhouse gas inventory, we track the evolution of our operational emissions since 2006, following the guidelines of the ABNT ISO 14064-1 standard and, since 2008, incorporating the specifications of the Brazilian GHG Pr", "confidence": "medium", "review_status": "seed_batch_06"}]}, "extraFields": []}, {"id": "r261_intel", "name": "INTEL", "rank": 261, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "INTEL CSR-2024-25-Full-Report.pdf", "page": "44", "snippet": "orting Protocol Working Groups in the Semiconductor Climate Consortium and the Massachusetts Institute of Technology’s (MIT) Product Attribute to Impact Algorithm (PAIA) Consortium. Our approach to modeling the embodied PCF1 of Intel proces", "confidence": "medium", "review_status": "seed_batch_06"}]}, "extraFields": []}, {"id": "r273_iberdrola公司", "name": "Iberdrola公司", "rank": 273, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "gsm25-IBERDROLA-sustainability-report-2024.pdf", "page": "103", "snippet": "25 and 2026, respectively, as a result of the projection of CO2 emissions based on the generation forecast presented in the Company's Long-Term Strategic Prospects for 2024. The emissions inventory used for the calculation is certified by a", "confidence": "medium", "review_status": "seed_batch_07"}]}, "extraFields": []}, {"id": "r313_exor集团", "name": "EXOR集团", "rank": 313, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "EXOR GROUP Sustainability Report 2023.pdf", "page": "13", "snippet": "tomakers has not been released as of the date of publication of the 2023 Ferrari Annual Report. Since 2021, Ferrari has calculated its carbon footprint considering the GHG emissions related to all Ferrari Group activities over its entire va", "confidence": "medium", "review_status": "seed_batch_07"}]}, "extraFields": []}, {"id": "r327_talanx公司", "name": "Talanx公司", "rank": 327, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf", "page": "33", "snippet": "ctive core employees, not including the Hannover Re Group (2023: 24.357, 2022: 20,346, 2019: 19,741). 3 \u0007Total emissions are based on actual, estimated or extrapolated data. All assumptions and methods of calculation are in line with the pr", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r339_hyundaimobis", "name": "HYUNDAI MOBIS", "rank": 339, "factCount": 2, "roles": ["Accounting standard", "Verification and assurance standard"], "principles": ["Completeness", "Consistency", "Credibility", "Relevance", "Verifiability"], "linkedItems": ["ISO 14064", "ISO 14064-3"], "evidenceByItem": {"ISO 14064": [{"report": "HYUNDAI MOBIS sustainability report 2025.pdf", "page": "158", "snippet": "rational control and organizational boundary of company during 2024. 2) Unitus Co., Ltd., Motras Co., Ltd., Hyundai IHL Co., Ltd., H Green Power Co., Ltd., GIT Co., Ltd. Verification Criteria The verification was carried out at the request", "confidence": "medium", "review_status": "seed_batch_08"}], "ISO 14064-3": [{"report": "HYUNDAI MOBIS sustainability report 2025.pdf", "page": "157", "snippet": "td. during 2024. Verification Criteria The verification process was based on [Rule for emission reporting and certification of greenhouse gas emission trading Scheme 1)], [Rules for verification of operating the greenhouse gas emission trad", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r367_canadianimperialbankofcommerce", "name": "CANADIAN IMPERIAL BANK OF COMMERCE", "rank": 367, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "CANADIAN IMPERIAL BANK OF COMMERCE-sustainability-report-2024-en.pdf", "page": "26", "snippet": "s in Board-approved executive roles (Canada) • \u0007 • Percent of workforce that identify as Indigenous peoples (Canada) • \u0007 ISAE 3000 Employee engagement score ISAE 3000 Community investment ISAE 3000 Sustainable finance ISAE 3000 Scope 1, 2,", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r368_lyondellbasellindustries", "name": "LYONDELLBASELL INDUSTRIES", "rank": 368, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Completeness", "Life-cycle perspective"], "linkedItems": ["ISO 14040/14044"], "evidenceByItem": {"ISO 14040/14044": [{"report": "2024-LYONDELLBASELL INDUSTRIES-sustainability-report.pdf", "page": "26", "snippet": "with customers on their scope 3 emission targets, and work to evaluate our supply chain. Additionally, we are collaborating to support the harmonization of product life cycle metrics and their application (e.g., ISO 14040/44, Product Enviro", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r375_pegatron", "name": "PEGATRON", "rank": 375, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "和硕年度报告2023.pdf", "page": "6", "snippet": "Corporate Social Responsibility #325 8 规划及管理种机，兹由董事会失任和经济、环境及社会重大主题之最高决策单位。董事 ei KM 了 . 二 14001)、职业安全卫生管理系统(ISO 45001)、品质及无有害物质管理系统 实务守则授权纺经理担任主任委员。 委员会成员 筹长、品质竖永续发展中心、人资行政中 二 REST RUENS owas BR BABA SEE eS mE SAID S 人年林政 (ISO 9001 & IECQ Q", "confidence": "medium", "review_status": "seed_batch_14"}]}, "extraFields": []}, {"id": "r387_schneiderelectric", "name": "SCHNEIDER ELECTRIC", "rank": 387, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "2024-SCHNEIDER ELECTRIC-sustainability-report_tcm564-513141.pdf", "page": "48", "snippet": "ct-related R&D project of the Group enables a substantial carbon footprint saving through more efficient products and systems. Those improvements are measured with a lifecycle assessment (LCA) shared publicly in the Product Environmental Pr", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r392_coop集团", "name": "Coop集团", "rank": 392, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "COOP GROUP Fortschrittsbericht-Nachhaltigkeit-2024_en.pdf", "page": "216", "snippet": "We used the “operational control” approach as per the Green­ house Gas (GHG) Protocol to calculate CO2e emissions. The Scope 3 emissions were calculated in accordance with ISO 14064 and the GHG Protocol guidelines. Detailed informa­ tion on", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r397_xiaomi", "name": "XIAOMI", "rank": 397, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "Xiaomi 2023 Environmental, Social, and Governance Report.pdf", "page": "37", "snippet": "iaomi’s goal of attaining to achieve carbon neutrality by 2040, we further updated our GHG reduction targets accordingly during the year. 28 \u0007GHG emissions: Refers to the Company’s GHG emissions (absolute value) calculated in accordance wit", "confidence": "medium", "review_status": "seed_batch_08"}]}, "extraFields": []}, {"id": "r413_honeywellinternational", "name": "HONEYWELL INTERNATIONAL", "rank": 413, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "HONEYWELL INTERNATIONAL-2025-impact-report.pdf", "page": "17", "snippet": "Honeywell | 17 IMPACT REPORT 2025 | PLANET REDUCING GHG EMISSIONS Honeywell reports on its global GHG emissions pursuant to Greenhouse Gas Protocol and reports through CDP, a U.K.-based organization that supports companies’ and cities’ envi", "confidence": "medium", "review_status": "seed_batch_09"}]}, "extraFields": []}, {"id": "r415_sfholding", "name": "S.F. HOLDING", "rank": 415, "factCount": 2, "roles": ["Accounting standard", "Verification and assurance standard"], "principles": ["Completeness", "Consistency", "Credibility", "Relevance", "Verifiability"], "linkedItems": ["ISO 14064", "ISO 14064-3"], "evidenceByItem": {"ISO 14064": [{"report": "顺丰控股2024年度可持续发展报告.pdf", "page": "74", "snippet": "144 顺丰控股 2024 年度可持续 资料说明 顺丰控股于2025年3 发展报告 顺利通过国际独立第三方审验机构SGS通标标准技术服务有限公 司的核查，完成了2024 室气体排放量 的第三方核证，并 获得温室气体核查声明证书。 声明编码 CN25/00001737 温室气体核查声明 深圳顺丰泰森控股(集团)有限公司 注册地址，深圳市前海深洪合作区南山街道兴海大道 076 号顺丰总部大厦 43楼4301 组织边界， 涉及多地址，具体的组织边界信息在后续页列出 已由 SGS 依", "confidence": "medium", "review_status": "seed_batch_14"}], "ISO 14064-3": [{"report": "顺丰控股2024年度可持续发展报告.pdf", "page": "74", "snippet": "144 顺丰控股 2024 年度可持续 资料说明 顺丰控股于2025年3 发展报告 顺利通过国际独立第三方审验机构SGS通标标准技术服务有限公 司的核查，完成了2024 室气体排放量 的第三方核证，并 获得温室气体核查声明证书。 声明编码 CN25/00001737 温室气体核查声明 深圳顺丰泰森控股(集团)有限公司 注册地址，深圳市前海深洪合作区南山街道兴海大道 076 号顺丰总部大厦 43楼4301 组织边界， 涉及多地址，具体的组织边界信息在后续页列出 已由 SGS 依", "confidence": "medium", "review_status": "seed_batch_14"}]}, "extraFields": []}, {"id": "r433_mercadona公司", "name": "Mercadona公司", "rank": 433, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "Mercadona-annual-report-2024.pdf", "page": "87", "snippet": "nd climate change Every year, Mercadona analyses its carbon footprint to determine its evolution and establish new objectives and strategies to accelerate the reduction of its impact. Over the last twelve months, following the application o", "confidence": "medium", "review_status": "seed_batch_09"}]}, "extraFields": []}, {"id": "r440_philipmorrisinternational", "name": "PHILIP MORRIS INTERNATIONAL", "rank": 440, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "PHILIP MORRIS INTERNATIONAL-integrated-report-2024.pdf", "page": "62", "snippet": "nufacturing emissions intensity than cigarettes. Progress in 2024 122 Philip Morris International Integrated Report 2024 Highlights Challenges Overview of our GHG emission footprint We calculate our GHG emission footprint annually, followin", "confidence": "medium", "review_status": "seed_batch_09"}]}, "extraFields": []}, {"id": "r444_quantacomputer", "name": "QUANTA COMPUTER", "rank": 444, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "Quanta_ESG_CN_2023.pdf", "page": "14", "snippet": "12 關於報告書 廣達承諾及利害關係人溝通 永續治理誠信經營 以人為本多元職場 關愛地球綠色永續 永續供應鏈管理 關愛社會文化均富 附錄 使命 聯合國永續目標 對應之廣達永續目標 2023年成果 環境保護 SDG 13 氣候行動 完備減緩調適行動，以因應 氣候變遷及其影響 致力減少廢棄物，降低對環境的 衝擊。 遵守各營運據點當地環保法規。 呼應全球控制升溫1.5℃，訂定並 達成科學減碳目標。 5. 各廠區均取得ISO 14064，ISO 14001。台灣、上海、重慶取得ISO", "confidence": "medium", "review_status": "seed_batch_14"}]}, "extraFields": []}, {"id": "r446_aiagroup", "name": "AIA GROUP", "rank": 446, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "AIA GROUP-Main-ESG-Report_CH.pdf", "page": "10", "snippet": "Song - AIA Journey」計劃向弱勢兒童提供超 過13,000輛自行車，提升他們接受 教育的機會。 「Sac Hong Thang 10 — 粉紅十月」活動旨在提高公 眾對乳癌的認識，而芹滁縣 （Can Gio）撥出10公頃紅樹林用作 支持氣候行動。我們也為受颱風摩 羯吹襲的民眾提供救災物資，並透 過友邦保險「AIA健康校園」計劃 鼓勵20,000多名師生參與。 這些行動體現友邦保險幫助大眾 實踐「健康、長久、好生活」的使 命，同時為可持續發展的未來作 出貢獻。", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r451_crrcgroup", "name": "CRRC GROUP", "rank": 451, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "中国中车2024ESG报告.pdf", "page": "49", "snippet": "48 ISO 14067 产品碳足迹证书 案例：公司举办碳资产碳足迹培训班 2024 年3 月，公司举办“碳资产碳足迹培训班”，65 家子公司共计124 人参 加。培训内容涉及碳市场现状与分析、碳资产交易与管理、绿电绿证申领、碳足迹 标准。 举办碳资产碳足迹培训班  零碳场景示范建设 开展零碳场景示范建设工作，打造4 个零碳工厂和5 个零碳车间。长客 股份公司、唐山公司2 家子公司荣获“2024 年中国工业碳达峰”“领跑者 企业”称号。  轨道交通装备绿色转型 持续促进能", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r454_sompoholdings", "name": "SOMPO HOLDINGS", "rank": 454, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2024_SOMPO HOLDINGS_sustainability_report.pdf", "page": "2", "snippet": "sion: October 2024 (Previous issue date: March 2024) Referenced guidelines • GRI Sustainability Reporting Standards • ISO 26000: International standard on social responsibility • SDG Compass: The guide for business action on the SDGs • TCFD", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r456_koreagas", "name": "KOREA GAS", "rank": 456, "factCount": 2, "roles": ["Accounting standard", "Verification and assurance standard"], "principles": ["Completeness", "Consistency", "Credibility", "Relevance", "Verifiability"], "linkedItems": ["ISO 14064", "ISO 14064-3"], "evidenceByItem": {"ISO 14064": [{"report": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf", "page": "146", "snippet": "rtification of Emissions under the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notice 2024-155) • ‌\u0007Verification Guidelines for the Operation of the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notic", "confidence": "medium", "review_status": "seed_batch_12"}], "ISO 14064-3": [{"report": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf", "page": "146", "snippet": "rtification of Emissions under the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notice 2024-155) • ‌\u0007Verification Guidelines for the Operation of the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notic", "confidence": "medium", "review_status": "seed_batch_12"}]}, "extraFields": []}, {"id": "r466_bankofnewyorkmellon", "name": "BANK OF NEW YORK MELLON", "rank": 466, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "2023-BANK OF NEW YORK MELLON sustainability-report.pdf", "page": "129", "snippet": "31, 2023 Criteria against which verification conducted: • World Resources Institute (WRI)/World Business Council for Sustainable Development (WBCSD) Greenhouse Gas Protocol, Corporate Accounting and Reporting Standard, Revised Edition (Scop", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r467_tongweigroup", "name": "TONGWEI GROUP", "rank": 467, "factCount": 2, "roles": ["Accounting standard", "Methodology standard"], "principles": ["Completeness", "Consistency", "Life-cycle perspective", "Relevance"], "linkedItems": ["ISO 14064", "ISO 14067"], "evidenceByItem": {"ISO 14064": [{"report": "2024 TONGWEI GROUP ESG report.pdf", "page": "31", "snippet": "such as environmental management, product quality, occupational health and safety, compliance governance, and information security. Tongwei's Sustainable Development Certiﬁcation System Major Domains Certiﬁcation Name Environmental Social G", "confidence": "medium", "review_status": "seed_batch_10"}], "ISO 14067": [{"report": "2024 TONGWEI GROUP ESG report.pdf", "page": "14", "snippet": "ng renew- able energy power production and consumption\". • In September 2024, MEE released the national standard GB/T 24067-2024, Greenhouse gases-Carbon footprint of products-Requirements and guidelines for quantiﬁcation. This standard suc", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r468_netflix公司", "name": "Netflix公司", "rank": 468, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2024-Netflix-Environmental-Social-Governance-Report.pdf", "page": "44", "snippet": "isplacing emissions from one location to another) These criteria align with the 2024 Core Carbon Principles (CCPs) defined by the Integrity Council for the Voluntary Carbon Market (ICVCM), as well as with foundational project accounting sta", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r479_schlumberger", "name": "SCHLUMBERGER", "rank": 479, "factCount": 1, "roles": ["Methodology standard"], "principles": ["Life-cycle perspective"], "linkedItems": ["ISO 14067"], "evidenceByItem": {"ISO 14067": [{"report": "SCHLUMBERGER-sustainability-report-2024.pdf", "page": "16", "snippet": "Scope 3 in Our Value Chain continued The Environmental Steward (TES) Application Deployed in 2024 and to be adopted by all engineering teams, the TES app formalizes adherence to our ISO 14067-aligned Life Cycle Assessment (LCA) method, enab", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r480_ecopetrol", "name": "ECOPETROL", "rank": 480, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2024-ECOPETROL-integrated-management-report.pdf", "page": "297", "snippet": "st prevention, revenues, tax incentives, among others 132,600,000,000 243,000,000,000 431,403,799,438 % of operations covered 100 100 100 Climate Change Ecopetrol’s atmospheric emissions inventory is structured in accordance with ISO 14064-", "confidence": "medium", "review_status": "seed_batch_10"}]}, "extraFields": []}, {"id": "r486_linde", "name": "LINDE", "rank": 486, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "2024-LINDE-sustainable-development-report.pdf", "page": "98", "snippet": "rance of other reported KPI values and to assess the accuracy, completeness, relevance, consistency and transparency of Linde, Inc.'s information and assertions. Carbon Verification Service assessed conformance of Linde, Inc.’s GHG emission", "confidence": "medium", "review_status": "seed_batch_11"}]}, "extraFields": []}, {"id": "r491_apolloglobalmanagement", "name": "APOLLO GLOBAL MANAGEMENT", "rank": 491, "factCount": 1, "roles": ["Verification and assurance standard"], "principles": ["Credibility", "Verifiability"], "linkedItems": ["ISO 14064-3"], "evidenceByItem": {"ISO 14064-3": [{"report": "apollo-2024-sustainability-report-june-2025.pdf", "page": "110", "snippet": "xpressing an opinion on the GHG statement based on the verification. Rouha Hussaina Head of Energy Transition Services Sproule ERCE METHODOLOGY Sproule ERCE conducted its review to a limited level of assurance, in accordance with the proced", "confidence": "medium", "review_status": "seed_batch_14"}]}, "extraFields": []}, {"id": "r500_三星candt公司", "name": "三星C&T公司", "rank": 500, "factCount": 1, "roles": ["Accounting standard"], "principles": ["Completeness", "Consistency", "Relevance"], "linkedItems": ["ISO 14064"], "evidenceByItem": {"ISO 14064": [{"report": "2025 Samsung C&T Sustainability Report.pdf", "page": "119", "snippet": "tegory 7 commuting Data Verified: Domestic and Overseas Corporation Scope 1&2 Emissions in 2024 Verification Criteria and Protocol The verification was performed at the request of Samsung C&T Corporation using the following verification sta", "confidence": "medium", "review_status": "seed_batch_12"}]}, "extraFields": []}], "initialMiddleId": "ISO 14064"}</script>
+
+<script>
+  (function () {
+    const dataNode = document.getElementById('world500-generic-full-graph-data');
+    const svg = document.getElementById('generic-full-graph-svg');
+    const viewport = document.getElementById('generic-full-graph-viewport');
+    const selectionCard = document.getElementById('generic-full-graph-selection');
+    const resultsCard = document.getElementById('generic-full-graph-results');
+    const searchInput = document.getElementById('generic-full-graph-search');
+    const clearButton = document.getElementById('generic-full-graph-clear');
+    const resetButton = document.getElementById('generic-full-graph-reset');
+    const fitButton = document.getElementById('generic-full-graph-fit');
+    if (!dataNode || !svg || !viewport || !selectionCard || !resultsCard || !searchInput || !clearButton || !resetButton || !fitButton) return;
+
+    let data;
+    try {
+      data = JSON.parse(dataNode.textContent || '{}');
+    } catch (error) {
+      console.error('Failed to parse generic full-graph payload.', error);
+      return;
+    }
+
+    const labels = data.labels || {};
+    const middleNodes = Array.isArray(data.middleNodes) ? data.middleNodes.slice() : [];
+    const companies = Array.isArray(data.companies) ? data.companies.slice() : [];
+    const system = data.system || {};
+    const GRAPH_WIDTH = 6200;
+    const GRAPH_HEIGHT = 4200;
+    const CENTER_X = 3300;
+    const CENTER_Y = 2100;
+    const SYSTEM_POS = { x: 720, y: CENTER_Y };
+    const MIDDLE_RING_SPECS = [
+      { capacity: 6, radius: 430 },
+      { capacity: 10, radius: 740 },
+      { capacity: 14, radius: 1040 },
+    ];
+    const COMPANY_RING_SPECS = [
+      { capacity: 44, radius: 1360 },
+      { capacity: 60, radius: 1640 },
+      { capacity: 80, radius: 1920 },
+      { capacity: 100, radius: 2200 },
+      { capacity: 140, radius: 2480 },
+    ];
+    const ARC_START = -Math.PI * 0.82;
+    const ARC_END = Math.PI * 0.82;
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+    const state = {
+      selectedKind: 'system',
+      selectedMiddleId: '',
+      selectedCompanyId: '',
+      hoveredCompanyId: '',
+      hoveredMiddleId: '',
+      query: '',
+      scale: 0.96,
+      tx: 0,
+      ty: 0,
+      panning: false,
+      panPointerId: null,
+      panOrigin: null,
+    };
+
+    svg.setAttribute('viewBox', `0 0 ${GRAPH_WIDTH} ${GRAPH_HEIGHT}`);
+
+    function createSvgEl(tag, attrs) {
+      const node = document.createElementNS(SVG_NS, tag);
+      if (attrs) {
+        Object.entries(attrs).forEach(([key, value]) => {
+          if (value !== undefined && value !== null) node.setAttribute(key, String(value));
+        });
+      }
+      return node;
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function formatInt(value) {
+      const numeric = Number(value);
+      return Number.isFinite(numeric) ? numeric.toLocaleString() : String(value ?? '');
+    }
+
+    function formatRank(value) {
+      const numeric = Number(value);
+      return Number.isFinite(numeric) && numeric > 0 ? `#${numeric}` : '-';
+    }
+
+    function splitLabel(text, maxChars) {
+      const value = String(text || '').trim();
+      if (!value) return [''];
+      if (!value.includes(' ')) {
+        const lines = [];
+        for (let cursor = 0; cursor < value.length; cursor += maxChars) lines.push(value.slice(cursor, cursor + maxChars));
+        return lines;
+      }
+      const words = value.split(/\s+/);
+      const lines = [];
+      let line = '';
+      words.forEach((word) => {
+        const candidate = line ? `${line} ${word}` : word;
+        if (candidate.length <= maxChars) {
+          line = candidate;
+        } else {
+          if (line) lines.push(line);
+          line = word;
+        }
+      });
+      if (line) lines.push(line);
+      return lines;
+    }
+
+    function appendTextBlock(group, lines, x, y, className, lineHeight) {
+      lines.forEach((line, index) => {
+        const text = createSvgEl('text', { x, y: y + index * lineHeight, class: className, 'text-anchor': 'middle' });
+        text.textContent = line;
+        group.appendChild(text);
+      });
+    }
+
+    function matchesQuery(company, query) {
+      if (!query) return true;
+      const rank = company.rank === null || company.rank === undefined ? '' : String(company.rank);
+      return String(company.name || '').toLowerCase().includes(query) || rank.includes(query);
+    }
+
+    function evidenceHtml(items) {
+      const rows = Array.isArray(items) ? items : [];
+      if (!rows.length) {
+        return `<div class="entity-evidence-block"><h4>${escapeHtml(labels.evidence_title)}</h4><p>${escapeHtml(labels.evidence_empty)}</p></div>`;
+      }
+      return (
+        `<div class="entity-evidence-block"><h4>${escapeHtml(labels.evidence_title)}</h4>` +
+        rows.map((item) => `
+          <article class="entity-evidence-item">
+            <div class="entity-evidence-head">
+              <strong>${escapeHtml(item.report || '-')}</strong>
+              <span>${escapeHtml(labels.evidence_page)} ${escapeHtml(item.page || '-')}</span>
+            </div>
+            <p>${escapeHtml(item.snippet || '')}</p>
+            <div class="entity-evidence-meta">
+              <span>${escapeHtml(labels.evidence_confidence)}: ${escapeHtml(item.confidence || '-')}</span>
+              <span>${escapeHtml(labels.evidence_review)}: ${escapeHtml(item.review_status || '-')}</span>
+            </div>
+          </article>
+        `).join('') +
+        `</div>`
+      );
+    }
+
+    const middleMap = new Map();
+    middleNodes.forEach((item) => middleMap.set(item.id, item));
+    const companyMap = new Map();
+    companies.forEach((item) => companyMap.set(item.id, item));
+
+    const layers = {
+      rings: createSvgEl('g', { class: 'graph-rings-layer' }),
+      edges: createSvgEl('g', { class: 'graph-edges-layer' }),
+      nodes: createSvgEl('g', { class: 'graph-nodes-layer' }),
+      labels: createSvgEl('g', { class: 'graph-labels-layer' }),
+    };
+    viewport.append(layers.rings, layers.edges, layers.nodes, layers.labels);
+
+    COMPANY_RING_SPECS.forEach((spec) => {
+      const ring = createSvgEl('ellipse', {
+        cx: CENTER_X,
+        cy: CENTER_Y,
+        rx: spec.radius,
+        ry: spec.radius * 0.74,
+        class: 'graph-ring',
+      });
+      layers.rings.appendChild(ring);
+    });
+
+    const middleElements = new Map();
+    const companyElements = new Map();
+    const edgeElements = [];
+
+    const placedMiddleNodes = [];
+    let middleCursor = 0;
+    MIDDLE_RING_SPECS.forEach((spec, ringIndex) => {
+      const remaining = middleNodes.length - middleCursor;
+      if (remaining <= 0) return;
+      const count = Math.min(spec.capacity, remaining);
+      const offset = ringIndex % 2 === 0 ? 0 : Math.PI / count;
+      for (let index = 0; index < count; index += 1) {
+        const item = middleNodes[middleCursor + index];
+        const angle = (-Math.PI / 2) + offset + ((Math.PI * 2 * index) / count);
+        placedMiddleNodes.push({
+          ...item,
+          x: CENTER_X + (spec.radius * Math.cos(angle)),
+          y: CENTER_Y + ((spec.radius * 0.66) * Math.sin(angle)),
+        });
+      }
+      middleCursor += count;
+    });
+
+    const placedCompanies = [];
+    let companyCursor = 0;
+    COMPANY_RING_SPECS.forEach((spec) => {
+      const remaining = companies.length - companyCursor;
+      if (remaining <= 0) return;
+      const count = Math.min(spec.capacity, remaining);
+      for (let index = 0; index < count; index += 1) {
+        const company = companies[companyCursor + index];
+        const angle = ARC_START + (((ARC_END - ARC_START) * index) / Math.max(1, count - 1));
+        placedCompanies.push({
+          ...company,
+          x: CENTER_X + (spec.radius * Math.cos(angle)),
+          y: CENTER_Y + ((spec.radius * 0.74) * Math.sin(angle)),
+        });
+      }
+      companyCursor += count;
+    });
+
+    const systemGroup = createSvgEl('g', { class: 'graph-system-node is-active', 'data-node-kind': 'system' });
+    systemGroup.appendChild(createSvgEl('rect', { x: SYSTEM_POS.x - 210, y: SYSTEM_POS.y - 86, width: 420, height: 172, rx: 28, ry: 28 }));
+    appendTextBlock(systemGroup, splitLabel(system.label || '', 14), SYSTEM_POS.x, SYSTEM_POS.y - 18, 'graph-block-title', 26);
+    appendTextBlock(systemGroup, [formatInt(system.itemCount || 0), formatInt(system.companyCount || 0)], SYSTEM_POS.x, SYSTEM_POS.y + 42, 'graph-block-meta', 22);
+    systemGroup.addEventListener('click', (event) => {
+      event.stopPropagation();
+      state.selectedKind = 'system';
+      state.selectedMiddleId = '';
+      state.selectedCompanyId = '';
+      updateGraphState();
+    });
+    layers.nodes.appendChild(systemGroup);
+
+    placedMiddleNodes.forEach((item) => {
+      const group = createSvgEl('g', { class: 'graph-middle-node', 'data-node-kind': 'middle', 'data-middle-id': item.id });
+      const width = item.name && String(item.name).length > 18 ? 250 : 220;
+      group.appendChild(createSvgEl('rect', { x: item.x - width / 2, y: item.y - 48, width, height: 96, rx: 20, ry: 20 }));
+      appendTextBlock(group, splitLabel(item.name || '', 12), item.x, item.y - 10, 'graph-middle-title', 20);
+      appendTextBlock(group, [formatInt(item.companyCount || 0)], item.x, item.y + 28, 'graph-middle-meta', 18);
+      group.addEventListener('click', (event) => {
+        event.stopPropagation();
+        state.selectedKind = 'middle';
+        state.selectedMiddleId = item.id;
+        state.selectedCompanyId = '';
+        updateGraphState();
+      });
+      group.addEventListener('mouseenter', () => {
+        state.hoveredMiddleId = item.id;
+        updateGraphState();
+      });
+      group.addEventListener('mouseleave', () => {
+        state.hoveredMiddleId = '';
+        updateGraphState();
+      });
+      layers.nodes.appendChild(group);
+      middleElements.set(item.id, { data: item, group, x: item.x, y: item.y });
+
+      const systemEdge = createSvgEl('line', {
+        x1: SYSTEM_POS.x + 210,
+        y1: SYSTEM_POS.y,
+        x2: item.x - 120,
+        y2: item.y,
+        class: 'graph-edge graph-edge-system',
+      });
+      layers.edges.appendChild(systemEdge);
+      edgeElements.push({ edge: systemEdge, type: 'system', middleId: item.id });
+    });
+
+    placedCompanies.forEach((company) => {
+      const radius = company.rank && Number(company.rank) <= 50 ? 11.2 : company.rank && Number(company.rank) <= 100 ? 9.8 : 8.6;
+      const group = createSvgEl('g', { class: 'graph-company-node', 'data-node-kind': 'company', 'data-company-id': company.id });
+      const circle = createSvgEl('circle', { cx: company.x, cy: company.y, r: radius });
+      const title = createSvgEl('title');
+      title.textContent = `${company.name} ${formatRank(company.rank)}`;
+      group.append(circle, title);
+      group.addEventListener('click', (event) => {
+        event.stopPropagation();
+        selectCompany(company.id, true);
+      });
+      group.addEventListener('mouseenter', () => {
+        state.hoveredCompanyId = company.id;
+        updateGraphState();
+      });
+      group.addEventListener('mouseleave', () => {
+        state.hoveredCompanyId = '';
+        updateGraphState();
+      });
+      layers.nodes.appendChild(group);
+
+      const label = createSvgEl('text', { x: company.x + 18, y: company.y - 12, class: 'graph-company-label' });
+      label.textContent = company.name;
+      layers.labels.appendChild(label);
+      companyElements.set(company.id, { data: company, group, label, x: company.x, y: company.y });
+    });
+
+    middleMap.forEach((item) => {
+      const middleEntry = middleElements.get(item.id);
+      if (!middleEntry) return;
+      (item.companyIds || []).forEach((companyId) => {
+        const companyEntry = companyElements.get(companyId);
+        if (!companyEntry) return;
+        const edge = createSvgEl('line', {
+          x1: middleEntry.x,
+          y1: middleEntry.y,
+          x2: companyEntry.x,
+          y2: companyEntry.y,
+          class: 'graph-edge graph-edge-company',
+        });
+        layers.edges.appendChild(edge);
+        edgeElements.push({ edge, type: 'company', middleId: item.id, companyId });
+      });
+    });
+
+    function applyTransform() {
+      viewport.setAttribute('transform', `matrix(${state.scale} 0 0 ${state.scale} ${state.tx} ${state.ty})`);
+    }
+
+    function clampTransform() {
+      const margin = 260;
+      const minTx = GRAPH_WIDTH * (1 - state.scale) - margin;
+      const maxTx = margin;
+      const minTy = GRAPH_HEIGHT * (1 - state.scale) - margin;
+      const maxTy = margin;
+      state.tx = Math.min(maxTx, Math.max(minTx, state.tx));
+      state.ty = Math.min(maxTy, Math.max(minTy, state.ty));
+    }
+
+    function toSvgPoint(clientX, clientY) {
+      const point = svg.createSVGPoint();
+      point.x = clientX;
+      point.y = clientY;
+      return point.matrixTransform(svg.getScreenCTM().inverse());
+    }
+
+    function resetView() {
+      state.scale = 0.96;
+      state.tx = 0;
+      state.ty = 0;
+      applyTransform();
+    }
+
+    function focusPoint(x, y, scale) {
+      state.scale = scale;
+      state.tx = (GRAPH_WIDTH / 2) - (x * state.scale);
+      state.ty = (GRAPH_HEIGHT / 2) - (y * state.scale);
+      clampTransform();
+      applyTransform();
+    }
+
+    function filteredCompanies() {
+      const query = state.query.trim().toLowerCase();
+      if (!query) return placedCompanies.slice(0, 12);
+      return placedCompanies.filter((company) => matchesQuery(company, query));
+    }
+
+    function renderResults() {
+      const query = state.query.trim().toLowerCase();
+      const results = filteredCompanies();
+      const countLine = query
+        ? `<p class="table-lead">${escapeHtml(labels.results_count.replace('{total}', formatInt(results.length)))}<br>${escapeHtml(labels.results_focus)}</p>`
+        : `<p class="table-lead">${escapeHtml(labels.results_empty)}</p>`;
+      const rows = results.map((company) => `
+        <button class="graph-match-item${company.id === state.selectedCompanyId ? ' is-active' : ''}" type="button" data-result-company="${escapeHtml(company.id)}">
+          <strong>${escapeHtml(company.name)}</strong>
+          <span>${escapeHtml(formatRank(company.rank))} · ${escapeHtml(formatInt(company.factCount || 0))}</span>
+        </button>
+      `).join('');
+      resultsCard.innerHTML = `
+        <h3>${escapeHtml(labels.results_title)}</h3>
+        ${countLine}
+        <div class="graph-match-list">${rows || `<div class="entity-empty">${escapeHtml(labels.results_empty)}</div>`}</div>
+      `;
+      resultsCard.querySelectorAll('[data-result-company]').forEach((button) => {
+        button.addEventListener('click', () => selectCompany(button.getAttribute('data-result-company') || '', true));
+      });
+    }
+
+    function currentMiddleForCompany(company) {
+      const linkedItems = Array.isArray(company.linkedItems) ? company.linkedItems : [];
+      if (state.selectedMiddleId && linkedItems.includes(state.selectedMiddleId)) return state.selectedMiddleId;
+      return linkedItems.length ? linkedItems[0] : '';
+    }
+
+    function renderSelection() {
+      if (state.selectedKind === 'company' && state.selectedCompanyId && companyMap.has(state.selectedCompanyId)) {
+        const company = companyMap.get(state.selectedCompanyId);
+        const activeMiddleId = currentMiddleForCompany(company);
+        const middle = activeMiddleId ? middleMap.get(activeMiddleId) : null;
+        const roleText = Array.isArray(company.roles) && company.roles.length ? company.roles.join(' | ') : '-';
+        const principleText = Array.isArray(company.principles) && company.principles.length ? company.principles.join(' | ') : '-';
+        const linkedItemsText = Array.isArray(company.linkedItems) && company.linkedItems.length ? company.linkedItems.join(' | ') : '-';
+        const extraHtml = Array.isArray(company.extraFields) && company.extraFields.length
+          ? company.extraFields.map((field) => `
+            <div class="entity-inspector-item">
+              <strong>${escapeHtml(field.label || '')}</strong>
+              <span>${escapeHtml(field.value || '-')}</span>
+            </div>
+          `).join('')
+          : '';
+        const evidenceRows = activeMiddleId && company.evidenceByItem ? (company.evidenceByItem[activeMiddleId] || []) : [];
+        selectionCard.innerHTML = `
+          <h3>${escapeHtml(labels.selection_title)}</h3>
+          <div class="entity-inspector-grid">
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.company_type)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(company.name)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_middle)}</strong><span>${escapeHtml(middle ? middle.name : '-')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_rank)}</strong><span>${escapeHtml(formatRank(company.rank))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(company.factCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_roles)}</strong><span>${escapeHtml(roleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_principles)}</strong><span>${escapeHtml(principleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_linked_items)}</strong><span>${escapeHtml(linkedItemsText)}</span></div>
+            ${extraHtml}
+          </div>
+          ${evidenceHtml(evidenceRows)}
+        `;
+        return;
+      }
+
+      if (state.selectedKind === 'middle' && state.selectedMiddleId && middleMap.has(state.selectedMiddleId)) {
+        const middle = middleMap.get(state.selectedMiddleId);
+        const roleText = Array.isArray(middle.roles) && middle.roles.length ? middle.roles.join(' | ') : '-';
+        const principleText = Array.isArray(middle.principles) && middle.principles.length ? middle.principles.join(' | ') : '-';
+        selectionCard.innerHTML = `
+          <h3>${escapeHtml(labels.selection_title)}</h3>
+          <div class="entity-inspector-grid">
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.middle_type)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(middle.name || '')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_system)}</strong><span>${escapeHtml(system.label || '')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_company_count)}</strong><span>${escapeHtml(formatInt(middle.companyCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(middle.factCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_roles)}</strong><span>${escapeHtml(roleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_principles)}</strong><span>${escapeHtml(principleText)}</span></div>
+          </div>
+          ${evidenceHtml(middle.evidence)}
+        `;
+        return;
+      }
+
+      selectionCard.innerHTML = `
+        <h3>${escapeHtml(labels.selection_title)}</h3>
+        <div class="entity-inspector-grid">
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.system_type)}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(system.label || '')}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_item_count)}</strong><span>${escapeHtml(formatInt(system.itemCount || 0))}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_company_count)}</strong><span>${escapeHtml(formatInt(system.companyCount || 0))}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(system.factCount || 0))}</span></div>
+        </div>
+        <p style="margin-top:12px;">${escapeHtml(labels.selection_default)}</p>
+      `;
+    }
+
+    function updateGraphState() {
+      const query = state.query.trim().toLowerCase();
+      const matched = new Set();
+      if (query) {
+        placedCompanies.forEach((company) => {
+          if (matchesQuery(company, query)) matched.add(company.id);
+        });
+      }
+
+      const selectedCompany = state.selectedCompanyId ? companyMap.get(state.selectedCompanyId) : null;
+      const linkedMiddleIds = selectedCompany ? new Set(selectedCompany.linkedItems || []) : new Set();
+      const activeMiddleId = state.selectedKind === 'middle' ? state.selectedMiddleId : '';
+
+      systemGroup.classList.toggle('is-active', state.selectedKind === 'system');
+      middleElements.forEach((entry, middleId) => {
+        const isActive = state.selectedKind === 'middle' && activeMiddleId === middleId;
+        const isLinked = selectedCompany ? linkedMiddleIds.has(middleId) : false;
+        entry.group.classList.toggle('is-active', isActive);
+        entry.group.classList.toggle('is-linked-company', isLinked);
+      });
+
+      companyElements.forEach((entry, companyId) => {
+        const company = entry.data;
+        const matchesMiddle = !activeMiddleId || (Array.isArray(company.linkedItems) && company.linkedItems.includes(activeMiddleId));
+        const matchesSearch = !query || matched.has(companyId);
+        const isSelected = state.selectedKind === 'company' && state.selectedCompanyId === companyId;
+        const isHovered = state.hoveredCompanyId === companyId;
+        const isDimmed = !matchesMiddle || !matchesSearch;
+        const showLabel = isSelected || isHovered || (query && matched.has(companyId) && matched.size <= 24);
+        entry.group.classList.toggle('is-active', isSelected);
+        entry.group.classList.toggle('is-hovered', isHovered);
+        entry.group.classList.toggle('is-match', Boolean(query && matched.has(companyId)));
+        entry.group.classList.toggle('is-dimmed', Boolean(isDimmed));
+        entry.label.classList.toggle('is-visible', Boolean(showLabel));
+      });
+
+      edgeElements.forEach((item) => {
+        if (item.type === 'system') {
+          item.edge.classList.toggle('is-active', state.selectedKind === 'middle' && item.middleId === activeMiddleId);
+          return;
+        }
+        const company = companyMap.get(item.companyId);
+        const matchesMiddle = !activeMiddleId || (company && Array.isArray(company.linkedItems) && company.linkedItems.includes(activeMiddleId));
+        const matchesSearch = !query || matched.has(item.companyId);
+        const isSelectedEdge = (state.selectedKind === 'middle' && item.middleId === activeMiddleId) ||
+          (state.selectedKind === 'company' && item.companyId === state.selectedCompanyId && linkedMiddleIds.has(item.middleId));
+        item.edge.classList.toggle('is-active', Boolean(isSelectedEdge));
+        item.edge.classList.toggle('is-dimmed', !(matchesMiddle && matchesSearch));
+      });
+
+      renderSelection();
+      renderResults();
+    }
+
+    function selectCompany(companyId, focus) {
+      if (!companyId || !companyMap.has(companyId)) return;
+      state.selectedKind = 'company';
+      state.selectedCompanyId = companyId;
+      if (focus) {
+        const entry = companyElements.get(companyId);
+        focusPoint(entry.x, entry.y, 1.7);
+      }
+      updateGraphState();
+    }
+
+    searchInput.addEventListener('input', () => {
+      state.query = searchInput.value || '';
+      updateGraphState();
+    });
+    clearButton.addEventListener('click', () => {
+      state.query = '';
+      searchInput.value = '';
+      updateGraphState();
+    });
+    resetButton.addEventListener('click', () => {
+      state.selectedKind = 'system';
+      state.selectedMiddleId = '';
+      state.selectedCompanyId = '';
+      resetView();
+      updateGraphState();
+    });
+    fitButton.addEventListener('click', () => resetView());
+
+    svg.addEventListener('wheel', (event) => {
+      event.preventDefault();
+      const point = toSvgPoint(event.clientX, event.clientY);
+      const nextScale = Math.max(0.72, Math.min(4.4, state.scale * (event.deltaY < 0 ? 1.12 : 1 / 1.12)));
+      const worldX = (point.x - state.tx) / state.scale;
+      const worldY = (point.y - state.ty) / state.scale;
+      state.scale = nextScale;
+      state.tx = point.x - worldX * state.scale;
+      state.ty = point.y - worldY * state.scale;
+      clampTransform();
+      applyTransform();
+    }, { passive: false });
+
+    svg.addEventListener('pointerdown', (event) => {
+      if (event.target.closest('[data-node-kind="company"],[data-node-kind="middle"],[data-node-kind="system"]')) return;
+      state.panning = true;
+      state.panPointerId = event.pointerId;
+      state.panOrigin = { point: toSvgPoint(event.clientX, event.clientY), tx: state.tx, ty: state.ty };
+      svg.classList.add('is-panning');
+    });
+    svg.addEventListener('pointermove', (event) => {
+      if (!state.panning || state.panPointerId !== event.pointerId || !state.panOrigin) return;
+      const point = toSvgPoint(event.clientX, event.clientY);
+      state.tx = state.panOrigin.tx + (point.x - state.panOrigin.point.x);
+      state.ty = state.panOrigin.ty + (point.y - state.panOrigin.point.y);
+      clampTransform();
+      applyTransform();
+    });
+    function stopPan(event) {
+      if (state.panPointerId !== null && event.pointerId !== undefined && event.pointerId !== state.panPointerId) return;
+      state.panning = false;
+      state.panPointerId = null;
+      state.panOrigin = null;
+      svg.classList.remove('is-panning');
+    }
+    svg.addEventListener('pointerup', stopPan);
+    svg.addEventListener('pointerleave', stopPan);
+    svg.addEventListener('pointercancel', stopPan);
+
+    resetView();
+    updateGraphState();
+  })();
+</script>
+
+        </body>
+        </html>
