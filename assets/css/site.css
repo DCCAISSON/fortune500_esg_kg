@@ -145,6 +145,8 @@ th{background:#f6efe4;font-weight:800}
 .entity-node-mini{display:block;margin-top:8px;color:var(--accent2);font-size:12px;line-height:1.55}
 .entity-company-node-btn{display:grid;gap:4px}
 .entity-company-rank{display:inline-flex;align-items:center;justify-content:center;width:max-content;padding:3px 8px;border-radius:999px;background:rgba(47,111,99,.10);font-size:12px;font-weight:800;color:var(--accent2)}
+.entity-company-toggle{display:flex;justify-content:center;padding-top:6px}
+.entity-company-toggle-btn{background:color-mix(in srgb,var(--entity-tone) 10%,#fff);border-color:color-mix(in srgb,var(--entity-tone) 28%,var(--line))}
 .entity-stage-note{margin:0;padding:14px 16px;border-left:4px solid var(--entity-tone);background:linear-gradient(90deg,color-mix(in srgb,var(--entity-tone) 14%,#fff),rgba(255,255,255,.72));border-radius:0 14px 14px 0;color:var(--muted);line-height:1.75}
 .entity-kb-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .entity-kb-card{padding:16px;border:1px solid var(--line);border-radius:18px;background:#fff}
