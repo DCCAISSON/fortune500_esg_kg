@@ -17,6 +17,17 @@ a{text-decoration:none;color:inherit}
 .hero p{max-width:980px;line-height:1.8;color:var(--muted)}
 .actions,.downloads{display:flex;gap:12px;flex-wrap:wrap}
 .actions{margin-top:16px}
+.anchor-target{display:block;position:relative;top:-16px;height:0;visibility:hidden}
+.homepage-quicknav{padding:22px;background:linear-gradient(180deg,rgba(255,255,255,.98),rgba(243,236,223,.88))}
+.homepage-quicknav-head{display:grid;gap:8px;margin-bottom:16px}
+.homepage-quicknav-head h2{margin:0;font-size:24px}
+.homepage-quicknav-head p{margin:0;color:var(--muted);line-height:1.75}
+.home-quicknav-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.home-quicknav-card{display:grid;gap:10px;padding:18px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 12px 26px rgba(23,49,62,.06);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.home-quicknav-card:hover{transform:translateY(-2px);box-shadow:0 16px 30px rgba(23,49,62,.10);border-color:color-mix(in srgb,var(--accent2) 36%,var(--line))}
+.home-quicknav-kicker{display:inline-flex;align-items:center;width:max-content;padding:6px 10px;border-radius:999px;background:rgba(47,111,99,.10);color:var(--accent2);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.home-quicknav-card strong{font-size:18px;line-height:1.45}
+.home-quicknav-card p{margin:0;color:var(--muted);line-height:1.7}
 .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent2);font-weight:800}
 .section{margin-top:26px}
 .section-head{margin-bottom:14px}
