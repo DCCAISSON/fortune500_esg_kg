@@ -1,0 +1,354 @@
+{
+  "company_id": "r399_meijiyasudalifeinsurance",
+  "company_name_en": "MEIJI YASUDA LIFE INSURANCE",
+  "company_name_zh": "日本明治安田生命保险公司",
+  "world500_rank": 399,
+  "industry_section_code": "J",
+  "industry_section_en": "Finance",
+  "industry_section_zh": "金融业",
+  "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
+  "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "report_count": 1,
+  "report_titles": [
+    "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf"
+  ],
+  "source_files": [
+    "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf"
+  ],
+  "standards_count": 1,
+  "method_rows_count": 4,
+  "keyword_summary_count": 1,
+  "authoritative_scope_count": 0,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
+  "standard_systems_zh": [
+    "气候披露/目标框架"
+  ],
+  "standard_systems_en": [
+    "Climate disclosure / target framework"
+  ],
+  "standard_names_zh": [
+    "TCFD"
+  ],
+  "standard_names_en": [
+    "TCFD"
+  ],
+  "calculation_methods_zh": [],
+  "calculation_methods_en": [],
+  "data_source_types_zh": [
+    "估算数据"
+  ],
+  "data_source_types_en": [
+    "Estimated data"
+  ],
+  "assurance_stages_zh": [
+    "报告披露"
+  ],
+  "assurance_stages_en": [
+    "Report disclosure"
+  ],
+  "activity_categories_zh": [
+    "价值链活动"
+  ],
+  "activity_categories_en": [
+    "Generic value-chain activity"
+  ],
+  "standards": [
+    {
+      "system_key": "climate",
+      "system_label_zh": "气候披露/目标框架",
+      "system_label_en": "Climate disclosure / target framework",
+      "standard_name_en": "TCFD",
+      "standard_name_zh": "TCFD",
+      "standard_family_en": "Climate disclosure framework",
+      "standard_family_zh": "气候披露框架",
+      "standard_role_en": "Disclosure recommendation",
+      "standard_role_zh": "披露建议",
+      "accounting_principle_en": "Consistency|Materiality",
+      "accounting_principle_zh": "一致性|重要性",
+      "evidence_page": "2",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "well as health and productivity management· · · 78 Push Ahead Further with IT- and Digital-Related Investment (DX strategy 2.0) · · · · · · · · · · · · · · · · · · · 80 Promoting Sustainability Management Environmental Protection and Climat",
+      "snippet_zh": "well as health and productivity management· · · 78 Push Ahead Further with IT- and Digital-Related Investment (DX strategy 2.0) · · · · · · · · · · · · · · ·...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09",
+      "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
+      "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
+    }
+  ],
+  "method_rows": [
+    {
+      "scope_en": "Scope 1",
+      "scope_zh": "范围1",
+      "emission_type_en": "Direct emissions",
+      "emission_type_zh": "直接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "estimate_basis_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda ...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    },
+    {
+      "scope_en": "Scope 1",
+      "scope_zh": "范围1",
+      "emission_type_en": "Direct emissions",
+      "emission_type_zh": "直接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "Generic value-chain activity",
+      "activity_standard_category_zh": "价值链活动",
+      "activity_evidence_mapping_en": "Value-chain activities",
+      "activity_evidence_mapping_zh": "价值链活动",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "Evidence-based mapping",
+      "classification_stage_zh": "基于证据规则映射",
+      "estimate_basis_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "estimate_basis_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda ...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    },
+    {
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "estimate_basis_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda ...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    },
+    {
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "Generic value-chain activity",
+      "activity_standard_category_zh": "价值链活动",
+      "activity_evidence_mapping_en": "Value-chain activities",
+      "activity_evidence_mapping_zh": "价值链活动",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "Evidence-based mapping",
+      "classification_stage_zh": "基于证据规则映射",
+      "estimate_basis_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "estimate_basis_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda ...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    }
+  ],
+  "keyword_summary": [
+    {
+      "key": "estimated_data",
+      "family": "data_source",
+      "label_zh": "估算数据",
+      "label_en": "Estimated data",
+      "hit_count": 4,
+      "pages": [
+        "45"
+      ],
+      "sample_scope_zh": [
+        "范围1",
+        "范围3"
+      ],
+      "sample_scope_en": [
+        "Scope 1",
+        "Scope 3"
+      ]
+    }
+  ],
+  "authoritative_scope_rows": [],
+  "scope_candidates": [],
+  "scope3_candidates": [],
+  "evidence_ledger": [
+    {
+      "fact_type_en": "Standard reference",
+      "fact_type_zh": "标准引用事实",
+      "label_en": "TCFD",
+      "label_zh": "TCFD",
+      "page": "2",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "well as health and productivity management· · · 78 Push Ahead Further with IT- and Digital-Related Investment (DX strategy 2.0) · · · · · · · · · · · · · · · · · · · 80 Promoting Sustainability Management Environmental Protection and Climat",
+      "snippet_zh": "well as health and productivity management· · · 78 Push Ahead Further with IT- and Digital-Related Investment (DX strategy 2.0) · · · · · · · · · · · · · · ·...",
+      "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
+      "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "45",
+      "source_file": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "report_title": "MEIJI YASUDA LIFE INSURANCE annual_2024_all.pdf",
+      "snippet_en": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and the U.S.-based StanCorp Financial Group, Inc. Emissions from St",
+      "snippet_zh": "omestic consolidated subsidiaries (Meiji Yasuda General Insurance Co., Ltd., Meiji Yasuda Asset Management Company Ltd. and Meiji Yasuda System Technology Company Limited), and ...",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09"
+    }
+  ]
+}

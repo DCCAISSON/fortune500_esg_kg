@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>方法关键词与核算口径追踪</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">世界500强 ESG 知识图谱</div>
+      <div class="nav">
+        <a class="pill" href="../index.html">Home</a>
+        <a class="pill" href="./index.html">中文</a>
+        <a class="pill" href="../en/method-keyword-trace.html">English</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Method Keyword Trace</div>
+      <h1>方法关键词与核算口径追踪</h1>
+      <p>本页围绕市场法、位置法、支出法、平均数据法、距离法、混合法、PCAF、初级数据、次级数据、估算数据、代理数据等高频关键词，展示它们出现在哪些企业、哪些页码，以及原文如何描述。</p>
+      <p>页面同时给出每类方法的计算含义、典型适用场景和报告中的原文识别依据，便于把“核算概念”与“企业实证文本”对应起来。</p>
+      <div class="actions workbench-toolbar">
+        <label class="entity-search workbench-search">
+          <span>企业/关键词筛选</span>
+          <input id="method-keyword-search" type="search" placeholder="输入企业名、方法名或源文件名">
+        </label>
+        <a class="btn alt" href="./company-accounting-workbench.html">企业工作台</a>
+        <a class="btn alt" href="./index.html">返回中文首页</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="entity-system-tabs" id="method-keyword-tabs"></div>
+    </section>
+    <section class="section">
+      <div class="metric-grid" id="method-keyword-metrics"></div>
+    </section>
+    <section class="section" id="method-keyword-status"></section>
+    <section class="section" id="method-keyword-guide"></section>
+    <section class="section" id="method-keyword-results"></section>
+    <section class="section" id="method-keyword-evidence"></section>
+  </div>
+
+  <script>
+    window.WORKBENCH_CONFIG = {
+      lang: "zh",
+      assetBase: "../assets/data/world500/workbench",
+      text: {
+        loading: "正在加载方法关键词数据…",
+        load_error: "方法关键词数据加载失败。",
+        loaded_ok: "专题已加载",
+        no_data: "暂无数据",
+        empty_table: "暂无可显示记录",
+        metric_keywords: "当前关键词",
+        metric_companies: "涉及企业",
+        metric_hits: "命中记录",
+        metric_examples: "示例证据",
+        guide_kicker: "方法说明",
+        guide_formula: "计算口径",
+        guide_scenarios: "典型场景",
+        guide_sample_companies: "涉及企业示例",
+        results_kicker: "结构化命中结果",
+        results_title: "企业方法命中表",
+        results_lead: "表中保留企业、行业、Scope、方法、数据类型、页码和原文识别依据，可直接用于后续人工核查和规则优化。",
+        results_headers: ["排名", "企业", "行业", "Scope", "方法", "数据类型", "页码", "识别依据与原文"],
+        evidence_kicker: "证据回链",
+        evidence_title: "原文证据摘要卡",
+        evidence_lead: "卡片区适合快速查看该方法/关键词在不同报告中的原文上下文。",
+        evidence_page: "页码"
+      }
+    };
+  </script>
+  <script src="../assets/js/workbench_shared.js"></script>
+  <script src="../assets/js/method_keyword_trace.js"></script>
+</body>
+</html>

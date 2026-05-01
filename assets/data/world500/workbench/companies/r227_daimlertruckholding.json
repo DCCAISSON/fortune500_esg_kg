@@ -1,0 +1,234 @@
+{
+  "company_id": "r227_daimlertruckholding",
+  "company_name_en": "DAIMLER TRUCK HOLDING",
+  "company_name_zh": "戴姆勒卡车控股股份公司",
+  "world500_rank": 227,
+  "industry_section_code": "C",
+  "industry_section_en": "Manufacturing",
+  "industry_section_zh": "制造业",
+  "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
+  "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "report_count": 1,
+  "report_titles": [
+    "daimler-truck-esg-factbook-fy-2024.pdf"
+  ],
+  "source_files": [
+    "daimler-truck-esg-factbook-fy-2024.pdf"
+  ],
+  "standards_count": 1,
+  "method_rows_count": 2,
+  "keyword_summary_count": 1,
+  "authoritative_scope_count": 0,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
+  "standard_systems_zh": [
+    "气候披露/目标框架"
+  ],
+  "standard_systems_en": [
+    "Climate disclosure / target framework"
+  ],
+  "standard_names_zh": [
+    "ESRS/CSRD"
+  ],
+  "standard_names_en": [
+    "ESRS/CSRD"
+  ],
+  "calculation_methods_zh": [
+    "市场法"
+  ],
+  "calculation_methods_en": [
+    "Market-based"
+  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
+  "assurance_stages_zh": [
+    "报告披露"
+  ],
+  "assurance_stages_en": [
+    "Report disclosure"
+  ],
+  "activity_categories_zh": [],
+  "activity_categories_en": [],
+  "standards": [
+    {
+      "system_key": "climate",
+      "system_label_zh": "气候披露/目标框架",
+      "system_label_en": "Climate disclosure / target framework",
+      "standard_name_en": "ESRS/CSRD",
+      "standard_name_zh": "ESRS/CSRD",
+      "standard_family_en": "EU sustainability disclosure regime",
+      "standard_family_zh": "欧盟可持续披露体系",
+      "standard_role_en": "Disclosure standard",
+      "standard_role_zh": "披露标准",
+      "accounting_principle_en": "Comparability|Double materiality",
+      "accounting_principle_zh": "可比性|双重重要性",
+      "evidence_page": "5",
+      "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "snippet_en": "rbon Disclosure Project (CDP); Targeted suppliers are direct suppliers for production material. Calculation based on production material purchasing volume. 2 New allocation of \"scrape for recycling\" to category \"diverted from disposal\" sinc",
+      "snippet_zh": "rbon Disclosure Project (CDP); Targeted suppliers are direct suppliers for production material. Calculation based on production material purchasing volume. 2...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06",
+      "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
+      "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
+    }
+  ],
+  "method_rows": [
+    {
+      "scope_en": "Scope 1",
+      "scope_zh": "范围1",
+      "emission_type_en": "Direct emissions",
+      "emission_type_zh": "直接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "Market-based",
+      "calculation_method_zh": "市场法",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Produc...",
+      "estimate_basis_zh": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relev...",
+      "keyword_keys": [
+        "market_based"
+      ],
+      "keyword_labels_en": [
+        "Market-based"
+      ],
+      "keyword_labels_zh": [
+        "市场法"
+      ],
+      "evidence_page": "3",
+      "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "snippet_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Production, development and test track locations. 2024 2024 2023 2022",
+      "snippet_zh": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Produc...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
+    },
+    {
+      "scope_en": "Scope 2",
+      "scope_zh": "范围2",
+      "emission_type_en": "Indirect energy emissions",
+      "emission_type_zh": "能源间接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "Market-based",
+      "calculation_method_zh": "市场法",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Produc...",
+      "estimate_basis_zh": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relev...",
+      "keyword_keys": [
+        "market_based"
+      ],
+      "keyword_labels_en": [
+        "Market-based"
+      ],
+      "keyword_labels_zh": [
+        "市场法"
+      ],
+      "evidence_page": "3",
+      "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "snippet_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Production, development and test track locations. 2024 2024 2023 2022",
+      "snippet_zh": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Produc...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
+    }
+  ],
+  "keyword_summary": [
+    {
+      "key": "market_based",
+      "family": "method",
+      "label_zh": "市场法",
+      "label_en": "Market-based",
+      "hit_count": 2,
+      "pages": [
+        "3"
+      ],
+      "sample_scope_zh": [
+        "范围1",
+        "范围2"
+      ],
+      "sample_scope_en": [
+        "Scope 1",
+        "Scope 2"
+      ]
+    }
+  ],
+  "authoritative_scope_rows": [],
+  "scope_candidates": [],
+  "scope3_candidates": [],
+  "evidence_ledger": [
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Market-based",
+      "label_zh": "市场法",
+      "page": "3",
+      "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "snippet_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Production, development and test track locations. 2024 2024 2023 2022",
+      "snippet_zh": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Produc...",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Market-based",
+      "label_zh": "市场法",
+      "page": "3",
+      "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "snippet_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Production, development and test track locations. 2024 2024 2023 2022",
+      "snippet_zh": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Produc...",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06"
+    },
+    {
+      "fact_type_en": "Standard reference",
+      "fact_type_zh": "标准引用事实",
+      "label_en": "ESRS/CSRD",
+      "label_zh": "ESRS/CSRD",
+      "page": "5",
+      "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
+      "snippet_en": "rbon Disclosure Project (CDP); Targeted suppliers are direct suppliers for production material. Calculation based on production material purchasing volume. 2 New allocation of \"scrape for recycling\" to category \"diverted from disposal\" sinc",
+      "snippet_zh": "rbon Disclosure Project (CDP); Targeted suppliers are direct suppliers for production material. Calculation based on production material purchasing volume. 2...",
+      "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
+      "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06"
+    }
+  ]
+}

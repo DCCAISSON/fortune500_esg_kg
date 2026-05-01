@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Method Keyword and Accounting Basis Trace</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">Fortune 500 ESG Knowledge Graph</div>
+      <div class="nav">
+        <a class="pill" href="../index.html">Home</a>
+        <a class="pill" href="../zh/method-keyword-trace.html">中文</a>
+        <a class="pill" href="./index.html">English</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Method Keyword Trace</div>
+      <h1>Method Keyword and Accounting Basis Trace</h1>
+      <p>This page centers on high-frequency method and data cues such as market-based, location-based, spend-based, average-data, distance-based, hybrid, PCAF, primary data, secondary data, estimated data, and proxy data. It shows which companies mention them, on which pages, and how the report text describes them.</p>
+      <p>Each keyword view also keeps a concise method note, typical use scenarios, and the report-side recognition basis so accounting concepts can be read together with enterprise evidence.</p>
+      <div class="actions workbench-toolbar">
+        <label class="entity-search workbench-search">
+          <span>Company / keyword filter</span>
+          <input id="method-keyword-search" type="search" placeholder="Enter company, method, or source filename">
+        </label>
+        <a class="btn alt" href="./company-accounting-workbench.html">Company workbench</a>
+        <a class="btn alt" href="./index.html">Back to English Home</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="entity-system-tabs" id="method-keyword-tabs"></div>
+    </section>
+    <section class="section">
+      <div class="metric-grid" id="method-keyword-metrics"></div>
+    </section>
+    <section class="section" id="method-keyword-status"></section>
+    <section class="section" id="method-keyword-guide"></section>
+    <section class="section" id="method-keyword-results"></section>
+    <section class="section" id="method-keyword-evidence"></section>
+  </div>
+
+  <script>
+    window.WORKBENCH_CONFIG = {
+      lang: "en",
+      assetBase: "../assets/data/world500/workbench",
+      text: {
+        loading: "Loading method keyword data...",
+        load_error: "Failed to load method keyword data.",
+        loaded_ok: "Topic loaded",
+        no_data: "No data",
+        empty_table: "No records to display",
+        metric_keywords: "Current keyword",
+        metric_companies: "Companies",
+        metric_hits: "Matched rows",
+        metric_examples: "Example evidence rows",
+        guide_kicker: "Method note",
+        guide_formula: "Accounting basis",
+        guide_scenarios: "Typical scenarios",
+        guide_sample_companies: "Example companies",
+        results_kicker: "Structured matched results",
+        results_title: "Company method hit table",
+        results_lead: "The table keeps company, industry, scope, method, data-source type, page, and recognition basis for later manual validation and rule refinement.",
+        results_headers: ["Rank", "Company", "Industry", "Scope", "Method", "Data type", "Page", "Recognition basis and source text"],
+        evidence_kicker: "Evidence back-links",
+        evidence_title: "Source-evidence summary cards",
+        evidence_lead: "The card area is designed for quick reading of how the selected method or keyword appears across reports.",
+        evidence_page: "Page"
+      }
+    };
+  </script>
+  <script src="../assets/js/workbench_shared.js"></script>
+  <script src="../assets/js/method_keyword_trace.js"></script>
+</body>
+</html>

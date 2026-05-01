@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>排放量账本与行业汇总</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">世界500强 ESG 知识图谱</div>
+      <div class="nav">
+        <a class="pill" href="../index.html">Home</a>
+        <a class="pill" href="./index.html">中文</a>
+        <a class="pill" href="../en/emission-ledger.html">English</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Emission Ledger</div>
+      <h1>排放量账本与行业汇总</h1>
+      <p>本页按 Scope、行业门类和 Scope 3 类别，集中展示结构化绝对量、正式版原文中的 Scope 数值候选，以及 Scope 3 类别数值候选。页面区分“已有人审结构化值”和“原文候选值”两层，不混为同一口径。</p>
+      <p>对于可折算为 MtCO2e 的记录，页面同步给出行业聚合结果；对于单位不完整或仅能作为候选的记录，则保留原文值、页码和提取规则，供后续人工复核。</p>
+    </section>
+
+    <section class="section">
+      <div class="metric-grid" id="emission-ledger-metrics"></div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="section-head">
+          <h2>筛选条件</h2>
+          <p>按行业门类和 Scope 过滤当前账本视图。</p>
+        </div>
+        <div class="actions workbench-toolbar">
+          <label class="entity-search workbench-search">
+            <span>行业门类</span>
+            <select id="emission-ledger-industry"></select>
+          </label>
+          <label class="entity-search workbench-search">
+            <span>Scope</span>
+            <select id="emission-ledger-scope"></select>
+          </label>
+          <a class="btn alt" href="./company-accounting-workbench.html">企业工作台</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="emission-ledger-status"></section>
+    <section class="section" id="emission-ledger-authoritative"></section>
+    <section class="section" id="emission-ledger-candidate"></section>
+    <section class="section" id="emission-ledger-industry-summary"></section>
+    <section class="section" id="emission-ledger-scope3"></section>
+    <section class="section" id="emission-ledger-scope3-summary"></section>
+  </div>
+
+  <script>
+    window.WORKBENCH_CONFIG = {
+      lang: "zh",
+      assetBase: "../assets/data/world500/workbench",
+      text: {
+        loading: "正在加载排放量账本数据…",
+        load_error: "排放量账本数据加载失败。",
+        loaded_ok: "账本已加载",
+        empty_table: "暂无可显示记录",
+        filter_all: "全部",
+        metric_authoritative: "结构化绝对量企业数",
+        metric_scope_company: "Scope 候选企业数",
+        metric_scope_rows: "Scope 候选记录",
+        metric_scope3_company: "Scope 3 类别企业数",
+        metric_scope3_rows: "Scope 3 类别候选",
+        metric_total_companies: "正式版企业总数",
+        authoritative_kicker: "结构化绝对量",
+        authoritative_title: "已有人审结构化 Scope 值",
+        authoritative_lead: "该表仅保留已有人审并可直接用于正式计算的结构化绝对量。",
+        authoritative_headers: ["排名", "企业", "行业", "Scope", "绝对量 MtCO2e", "占比 %", "页码", "依据说明"],
+        candidate_kicker: "原文候选层",
+        candidate_title: "正式版 Scope 原文数值候选",
+        candidate_lead: "候选层用于支撑追溯、校核和后续入库，不直接替代最终人审值。",
+        candidate_headers: ["排名", "企业", "行业", "Scope", "口径/方法", "原文数值", "原文单位", "折算 MtCO2e", "页码", "提取规则与原文"],
+        industry_kicker: "行业聚合",
+        industry_title: "按行业门类聚合的 Scope 候选总量",
+        industry_lead: "聚合结果仅基于已能折算为 MtCO2e 的候选记录。",
+        industry_headers: ["行业门类", "Scope", "口径/方法", "企业数", "候选总量 MtCO2e"],
+        scope3_kicker: "Scope 3 类别候选",
+        scope3_title: "按企业列示的 Scope 3 类别数值候选",
+        scope3_lead: "类别候选表保留原文数值、单位上下文和提取规则。",
+        scope3_headers: ["排名", "企业", "行业", "Scope 3 类别", "原文数值", "单位上下文", "折算 MtCO2e", "页码", "提取规则与原文"],
+        scope3_summary_kicker: "Scope 3 行业汇总",
+        scope3_summary_title: "按行业门类聚合的 Scope 3 类别候选总量",
+        scope3_summary_lead: "该汇总同样只基于可折算为 MtCO2e 的类别候选记录。",
+        scope3_summary_headers: ["行业门类", "Scope 3 类别", "企业数", "候选总量 MtCO2e"]
+      }
+    };
+  </script>
+  <script src="../assets/js/workbench_shared.js"></script>
+  <script src="../assets/js/emission_ledger.js"></script>
+</body>
+</html>

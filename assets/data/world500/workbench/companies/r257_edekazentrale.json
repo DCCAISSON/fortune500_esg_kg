@@ -1,0 +1,232 @@
+{
+  "company_id": "r257_edekazentrale",
+  "company_name_en": "EDEKA ZENTRALE",
+  "company_name_zh": "德国艾德卡公司",
+  "world500_rank": 257,
+  "industry_section_code": "F",
+  "industry_section_en": "Wholesale and Retail Trade",
+  "industry_section_zh": "批发和零售业",
+  "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
+  "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "report_count": 1,
+  "report_titles": [
+    "edeka_group_company_report_2023__english_version-2.pdf"
+  ],
+  "source_files": [
+    "edeka_group_company_report_2023__english_version-2.pdf"
+  ],
+  "standards_count": 1,
+  "method_rows_count": 2,
+  "keyword_summary_count": 1,
+  "authoritative_scope_count": 0,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
+  "standard_systems_zh": [
+    "气候披露/目标框架"
+  ],
+  "standard_systems_en": [
+    "Climate disclosure / target framework"
+  ],
+  "standard_names_zh": [
+    "科学碳目标倡议(SBTi)"
+  ],
+  "standard_names_en": [
+    "SBTi"
+  ],
+  "calculation_methods_zh": [],
+  "calculation_methods_en": [],
+  "data_source_types_zh": [
+    "推导数据"
+  ],
+  "data_source_types_en": [
+    "Derived data"
+  ],
+  "assurance_stages_zh": [
+    "报告披露"
+  ],
+  "assurance_stages_en": [
+    "Report disclosure"
+  ],
+  "activity_categories_zh": [
+    "移动排放源"
+  ],
+  "activity_categories_en": [
+    "Mobile emission source"
+  ],
+  "standards": [
+    {
+      "system_key": "climate",
+      "system_label_zh": "气候披露/目标框架",
+      "system_label_en": "Climate disclosure / target framework",
+      "standard_name_en": "SBTi",
+      "standard_name_zh": "科学碳目标倡议(SBTi)",
+      "standard_family_en": "Climate target governance system",
+      "standard_family_zh": "气候目标治理体系",
+      "standard_role_en": "Target validation guideline",
+      "standard_role_zh": "目标审定指引",
+      "accounting_principle_en": "Science-based ambition",
+      "accounting_principle_zh": "科学目标约束",
+      "evidence_page": "21",
+      "source_file": "edeka_group_company_report_2023__english_version-2.pdf",
+      "report_title": "edeka_group_company_report_2023__english_version-2.pdf",
+      "snippet_en": "As early as 2022, the EDEKA headquarters joined the Science Based Targets Initiative to combat the climate crisis and became the first German grocery retailer to commit to the initiative's Net Zero goals. These science-based and ambitiou...",
+      "snippet_zh": "As early as 2022, the EDEKA headquarters joined the Science Based Targets Initiative to combat the climate crisis and became the first German grocery retaile...",
+      "confidence_level": "high",
+      "review_status": "manual_axis_backfill",
+      "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
+      "recognition_basis_zh": "结构化标准标注：科学碳目标倡议(SBTi)；标准角色：目标审定指引"
+    }
+  ],
+  "method_rows": [
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Derived data",
+      "data_source_type_zh": "推导数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- m...",
+      "estimate_basis_zh": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, whol...",
+      "keyword_keys": [
+        "derived_data"
+      ],
+      "keyword_labels_en": [
+        "Derived data"
+      ],
+      "keyword_labels_zh": [
+        "推导数据"
+      ],
+      "evidence_page": "15",
+      "source_file": "edeka_group_company_report_2023__english_version-2.pdf",
+      "report_title": "edeka_group_company_report_2023__english_version-2.pdf",
+      "snippet_en": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- menting renewable and environmentally friendly bio-LNG fuel acro",
+      "snippet_zh": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- m...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_14",
+      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
+      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
+    },
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "Mobile emission source",
+      "activity_standard_category_zh": "移动排放源",
+      "activity_evidence_mapping_en": "Mobile emission source",
+      "activity_evidence_mapping_zh": "移动排放源",
+      "data_source_type_en": "Derived data",
+      "data_source_type_zh": "推导数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "Explicit mention",
+      "classification_stage_zh": "原文明确提及",
+      "estimate_basis_en": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- m...",
+      "estimate_basis_zh": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, whol...",
+      "keyword_keys": [
+        "derived_data"
+      ],
+      "keyword_labels_en": [
+        "Derived data"
+      ],
+      "keyword_labels_zh": [
+        "推导数据"
+      ],
+      "evidence_page": "15",
+      "source_file": "edeka_group_company_report_2023__english_version-2.pdf",
+      "report_title": "edeka_group_company_report_2023__english_version-2.pdf",
+      "snippet_en": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- menting renewable and environmentally friendly bio-LNG fuel acro",
+      "snippet_zh": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- m...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_14",
+      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
+      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
+    }
+  ],
+  "keyword_summary": [
+    {
+      "key": "derived_data",
+      "family": "data_source",
+      "label_zh": "推导数据",
+      "label_en": "Derived data",
+      "hit_count": 2,
+      "pages": [
+        "15"
+      ],
+      "sample_scope_zh": [],
+      "sample_scope_en": []
+    }
+  ],
+  "authoritative_scope_rows": [],
+  "scope_candidates": [],
+  "scope3_candidates": [],
+  "evidence_ledger": [
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Derived data",
+      "label_zh": "推导数据",
+      "page": "15",
+      "source_file": "edeka_group_company_report_2023__english_version-2.pdf",
+      "report_title": "edeka_group_company_report_2023__english_version-2.pdf",
+      "snippet_en": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- menting renewable and environmentally friendly bio-LNG fuel acro",
+      "snippet_zh": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- m...",
+      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
+      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_14"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Derived data",
+      "label_zh": "推导数据",
+      "page": "15",
+      "source_file": "edeka_group_company_report_2023__english_version-2.pdf",
+      "report_title": "edeka_group_company_report_2023__english_version-2.pdf",
+      "snippet_en": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- menting renewable and environmentally friendly bio-LNG fuel acro",
+      "snippet_zh": "nies EDEKA North and Netto Marken-Discount participated in a station for emission-free “green” hydrogen in Neumünster. Additionally, wholesale company Minden-Hanover is imple- m...",
+      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
+      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_14"
+    },
+    {
+      "fact_type_en": "Standard reference",
+      "fact_type_zh": "标准引用事实",
+      "label_en": "SBTi",
+      "label_zh": "科学碳目标倡议(SBTi)",
+      "page": "21",
+      "source_file": "edeka_group_company_report_2023__english_version-2.pdf",
+      "report_title": "edeka_group_company_report_2023__english_version-2.pdf",
+      "snippet_en": "As early as 2022, the EDEKA headquarters joined the Science Based Targets Initiative to combat the climate crisis and became the first German grocery retailer to commit to the initiative's Net Zero goals. These science-based and ambitiou...",
+      "snippet_zh": "As early as 2022, the EDEKA headquarters joined the Science Based Targets Initiative to combat the climate crisis and became the first German grocery retaile...",
+      "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
+      "recognition_basis_zh": "结构化标准标注：科学碳目标倡议(SBTi)；标准角色：目标审定指引",
+      "confidence_level": "high",
+      "review_status": "manual_axis_backfill"
+    }
+  ]
+}

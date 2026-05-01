@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Carbon Accounting Workbench</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">Fortune 500 ESG Knowledge Graph</div>
+      <div class="nav">
+        <a class="pill" href="../index.html">Home</a>
+        <a class="pill" href="../zh/company-accounting-workbench.html">中文</a>
+        <a class="pill" href="./index.html">English</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Carbon Accounting Workbench</div>
+      <h1>Company Carbon Accounting Workbench</h1>
+      <p>Inspect a company’s identified standards, calculation methods, data types, assurance stages, activity classes, scope-value candidates, and Scope 3 category candidates together with source filename, page number, evidence snippet, recognition basis, confidence, and review status.</p>
+      <p>Search by company name or Fortune 500 company identifier to open the detailed accounting view. Structured authoritative values and raw text-derived candidates are shown separately so downstream calculation and human review remain transparent.</p>
+      <div class="actions workbench-toolbar">
+        <label class="entity-search workbench-search">
+          <span>Company Search</span>
+          <input id="company-workbench-search" type="search" list="company-workbench-options" placeholder="Enter company name or company_id">
+          <datalist id="company-workbench-options"></datalist>
+        </label>
+        <button class="btn" id="company-workbench-open" type="button">Open Workbench</button>
+        <a class="btn alt" href="./index.html">Back to English Home</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="metric-grid" id="company-workbench-metrics"></div>
+    </section>
+
+    <section class="section" id="company-workbench-status"></section>
+    <section class="section" id="company-workbench-profile"></section>
+    <section class="section" id="company-workbench-standards"></section>
+    <section class="section" id="company-workbench-methods"></section>
+    <section class="section" id="company-workbench-scope"></section>
+    <section class="section" id="company-workbench-scope3"></section>
+    <section class="section" id="company-workbench-keywords"></section>
+    <section class="section" id="company-workbench-evidence"></section>
+  </div>
+
+  <script>
+    window.WORKBENCH_CONFIG = {
+      lang: "en",
+      assetBase: "../assets/data/world500/workbench",
+      text: {
+        loading: "Loading company workbench data...",
+        load_error: "Failed to load company workbench data.",
+        loaded_ok: "Company profile loaded",
+        invalid_company: "Company not found. Please select a value from the candidate list.",
+        no_data: "No data",
+        empty_table: "No records to display",
+        metric_companies: "Selected company",
+        metric_standards: "Standard references",
+        metric_methods: "Method facts",
+        metric_keywords: "Keyword clusters",
+        metric_scope_values: "Scope value candidates",
+        metric_scope3_values: "Scope 3 category candidates",
+        profile_kicker: "Company profile",
+        profile_lead: "This page brings together the structured fields and source-trace details needed for downstream carbon-accounting work.",
+        profile_rank: "Fortune 500 rank",
+        profile_industry: "Industry section",
+        profile_reports: "Linked reports",
+        profile_standards: "Standard rows",
+        profile_methods: "Method rows",
+        profile_scope_candidates: "Scope candidates",
+        profile_report_titles: "Report titles",
+        profile_source_files: "Source filenames",
+        profile_mapping_basis: "Industry mapping basis",
+        group_standard_systems: "Standard systems",
+        group_methods: "Calculation methods",
+        group_data_sources: "Data-source types",
+        group_assurance: "Verification / assurance / validation",
+        group_activity: "Activity classes",
+        standards_kicker: "Standards and frameworks",
+        standards_title: "Standards, roles, and accounting principles",
+        standards_lead: "The standards table keeps system, specific standard, role, principle, and the original recognition basis so the reporting and accounting basis can be checked directly.",
+        standards_headers: ["System", "Specific standard", "Role", "Principle", "Page", "Source file", "Recognition basis and source text"],
+        methods_kicker: "Method and data quality",
+        methods_title: "Calculation methods, data types, and activity classes",
+        methods_lead: "The methods table keeps scope, method, data-source type, assurance stage, activity class, and source evidence needed for later calculation design.",
+        methods_headers: ["Scope", "Method", "Data type", "Assurance stage", "Standard activity class", "Evidence-mapped activity", "Page", "Recognition basis and source text"],
+        scope_kicker: "Emission ledger",
+        scope_title: "Scope 1 / 2 / 3 values",
+        scope_lead: "Structured authoritative values and raw text-derived candidates are separated. Candidate rows support traceability and review, not final human-validated totals.",
+        scope_authoritative_title: "Structured authoritative values",
+        scope_authoritative_headers: ["Scope", "Absolute value MtCO2e", "Share %", "Entity level", "Page", "Basis note"],
+        scope_candidate_title: "Raw value candidates",
+        scope_candidate_headers: ["Scope", "Basis / method", "Raw value", "Raw unit", "Converted MtCO2e", "Page", "Extraction rule and source text"],
+        scope3_kicker: "Scope 3 category ledger",
+        scope3_title: "Fifteen Scope 3 category candidates",
+        scope3_lead: "This table keeps category-level raw candidates, unit context, and extraction rules for later human validation and category-level insertion.",
+        scope3_headers: ["Scope 3 category", "Raw value", "Unit context", "Converted MtCO2e", "Page", "Extraction rule and source text"],
+        keywords_kicker: "Keyword hits",
+        keywords_title: "Method and data-quality keyword clusters",
+        keywords_lead: "Keyword clusters summarize method names, data-source labels, and assurance cues found in the report text.",
+        keyword_hit_count: "Hits",
+        keyword_page: "Page",
+        evidence_kicker: "Source traceability",
+        evidence_title: "Evidence back-link ledger",
+        evidence_lead: "The ledger places standard references, methodology facts, scope candidates, and Scope 3 category candidates into one traceable evidence list.",
+        evidence_page: "Page",
+        evidence_confidence: "Confidence",
+        evidence_review: "Review"
+      }
+    };
+  </script>
+  <script src="../assets/js/workbench_shared.js"></script>
+  <script src="../assets/js/company_workbench.js"></script>
+</body>
+</html>

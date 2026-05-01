@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emission Ledger and Industry Aggregates</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">Fortune 500 ESG Knowledge Graph</div>
+      <div class="nav">
+        <a class="pill" href="../index.html">Home</a>
+        <a class="pill" href="../zh/emission-ledger.html">中文</a>
+        <a class="pill" href="./index.html">English</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Emission Ledger</div>
+      <h1>Emission Ledger and Industry Aggregates</h1>
+      <p>This page organizes structured authoritative scope values, raw scope value candidates from the formal corpus, and Scope 3 category candidates by scope, industry section, and category. Authoritative values and text-derived candidates are kept in separate layers.</p>
+      <p>Where records can be normalized into MtCO2e, industry aggregation is shown. Where unit context remains incomplete, the page keeps the raw value, page number, and extraction rule for later human review.</p>
+    </section>
+
+    <section class="section">
+      <div class="metric-grid" id="emission-ledger-metrics"></div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="section-head">
+          <h2>Filters</h2>
+          <p>Filter the current ledger view by industry section and scope.</p>
+        </div>
+        <div class="actions workbench-toolbar">
+          <label class="entity-search workbench-search">
+            <span>Industry section</span>
+            <select id="emission-ledger-industry"></select>
+          </label>
+          <label class="entity-search workbench-search">
+            <span>Scope</span>
+            <select id="emission-ledger-scope"></select>
+          </label>
+          <a class="btn alt" href="./company-accounting-workbench.html">Company workbench</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="emission-ledger-status"></section>
+    <section class="section" id="emission-ledger-authoritative"></section>
+    <section class="section" id="emission-ledger-candidate"></section>
+    <section class="section" id="emission-ledger-industry-summary"></section>
+    <section class="section" id="emission-ledger-scope3"></section>
+    <section class="section" id="emission-ledger-scope3-summary"></section>
+  </div>
+
+  <script>
+    window.WORKBENCH_CONFIG = {
+      lang: "en",
+      assetBase: "../assets/data/world500/workbench",
+      text: {
+        loading: "Loading emission ledger data...",
+        load_error: "Failed to load emission ledger data.",
+        loaded_ok: "Ledger loaded",
+        empty_table: "No records to display",
+        filter_all: "All",
+        metric_authoritative: "Authoritative scope companies",
+        metric_scope_company: "Scope-candidate companies",
+        metric_scope_rows: "Scope candidate rows",
+        metric_scope3_company: "Scope 3 category companies",
+        metric_scope3_rows: "Scope 3 category rows",
+        metric_total_companies: "Total published companies",
+        authoritative_kicker: "Structured authoritative layer",
+        authoritative_title: "Human-validated structured scope values",
+        authoritative_lead: "This table contains only structured absolute values that can already be used directly in formal calculation work.",
+        authoritative_headers: ["Rank", "Company", "Industry", "Scope", "Absolute value MtCO2e", "Share %", "Page", "Basis note"],
+        candidate_kicker: "Raw candidate layer",
+        candidate_title: "Formal scope value candidates from source text",
+        candidate_lead: "The candidate layer supports traceability, review, and later insertion. It does not replace final human-validated totals.",
+        candidate_headers: ["Rank", "Company", "Industry", "Scope", "Basis / method", "Raw value", "Raw unit", "Converted MtCO2e", "Page", "Extraction rule and source text"],
+        industry_kicker: "Industry aggregation",
+        industry_title: "Scope candidate totals aggregated by industry section",
+        industry_lead: "Aggregates are based only on candidate rows that can be normalized into MtCO2e.",
+        industry_headers: ["Industry section", "Scope", "Basis / method", "Companies", "Candidate total MtCO2e"],
+        scope3_kicker: "Scope 3 category candidates",
+        scope3_title: "Company-level Scope 3 category value candidates",
+        scope3_lead: "The category table keeps raw values, unit context, and extraction rules at category level.",
+        scope3_headers: ["Rank", "Company", "Industry", "Scope 3 category", "Raw value", "Unit context", "Converted MtCO2e", "Page", "Extraction rule and source text"],
+        scope3_summary_kicker: "Scope 3 industry aggregation",
+        scope3_summary_title: "Scope 3 category totals aggregated by industry section",
+        scope3_summary_lead: "This aggregation also uses only category rows that can be normalized into MtCO2e.",
+        scope3_summary_headers: ["Industry section", "Scope 3 category", "Companies", "Candidate total MtCO2e"]
+      }
+    };
+  </script>
+  <script src="../assets/js/workbench_shared.js"></script>
+  <script src="../assets/js/emission_ledger.js"></script>
+</body>
+</html>

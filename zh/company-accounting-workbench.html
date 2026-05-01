@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>企业碳核算工作台</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">世界500强 ESG 知识图谱</div>
+      <div class="nav">
+        <a class="pill" href="../index.html">Home</a>
+        <a class="pill" href="./index.html">中文</a>
+        <a class="pill" href="../en/company-accounting-workbench.html">English</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Carbon Accounting Workbench</div>
+      <h1>企业碳核算工作台</h1>
+      <p>按企业查看已识别的标准、核算方法、数据类型、核查环节、活动类别、Scope 数值候选与 Scope 3 类别数值候选，并保留报告文件名、页码、原文片段、识别依据、置信度和校核状态。</p>
+      <p>输入企业名称或世界500强企业编号后，可直接下钻到该企业的碳排放计算依据页面。结构化绝对量与原文数值候选分开呈现，便于后续人工复核与计算入库。</p>
+      <div class="actions workbench-toolbar">
+        <label class="entity-search workbench-search">
+          <span>企业检索</span>
+          <input id="company-workbench-search" type="search" list="company-workbench-options" placeholder="输入企业名称或 company_id">
+          <datalist id="company-workbench-options"></datalist>
+        </label>
+        <button class="btn" id="company-workbench-open" type="button">打开企业工作台</button>
+        <a class="btn alt" href="./index.html">返回中文首页</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="metric-grid" id="company-workbench-metrics"></div>
+    </section>
+
+    <section class="section" id="company-workbench-status"></section>
+    <section class="section" id="company-workbench-profile"></section>
+    <section class="section" id="company-workbench-standards"></section>
+    <section class="section" id="company-workbench-methods"></section>
+    <section class="section" id="company-workbench-scope"></section>
+    <section class="section" id="company-workbench-scope3"></section>
+    <section class="section" id="company-workbench-keywords"></section>
+    <section class="section" id="company-workbench-evidence"></section>
+  </div>
+
+  <script>
+    window.WORKBENCH_CONFIG = {
+      lang: "zh",
+      assetBase: "../assets/data/world500/workbench",
+      text: {
+        loading: "正在加载企业工作台数据…",
+        load_error: "工作台数据加载失败，请稍后重试。",
+        loaded_ok: "企业画像已加载",
+        invalid_company: "未找到该企业，请从下拉候选中选择。",
+        no_data: "暂无数据",
+        empty_table: "暂无可显示记录",
+        metric_companies: "当前企业",
+        metric_standards: "标准引用",
+        metric_methods: "方法事实",
+        metric_keywords: "关键词簇",
+        metric_scope_values: "Scope 数值候选",
+        metric_scope3_values: "Scope 3 类别候选",
+        profile_kicker: "企业画像",
+        profile_lead: "本页把该企业后续碳排放计算直接需要的结构化要素和源文件追溯信息集中到同一工作台中。",
+        profile_rank: "世界500强排名",
+        profile_industry: "行业门类",
+        profile_reports: "关联报告数",
+        profile_standards: "标准记录数",
+        profile_methods: "方法记录数",
+        profile_scope_candidates: "Scope 候选数",
+        profile_report_titles: "报告标题",
+        profile_source_files: "源文件名",
+        profile_mapping_basis: "行业归类依据",
+        group_standard_systems: "标准体系",
+        group_methods: "核算方法",
+        group_data_sources: "数据类型",
+        group_assurance: "核查/鉴证/审定",
+        group_activity: "活动类别",
+        standards_kicker: "标准与准则维度",
+        standards_title: "标准、角色与核算原则",
+        standards_lead: "标准表保留体系、具体标准、角色、原则以及原文识别依据，便于判断企业在何种规则下进行披露或核算。",
+        standards_headers: ["体系", "具体标准", "角色", "原则/准则", "页码", "源文件", "识别依据与原文"],
+        methods_kicker: "方法与数据质量维度",
+        methods_title: "核算方法、数据类型与活动类别",
+        methods_lead: "方法表保留 Scope、方法、数据类型、核查环节、活动类别以及原文识别依据，用于支撑后续计算规则设计。",
+        methods_headers: ["Scope", "方法", "数据类型", "核查环节", "标准活动类别", "证据映射活动", "页码", "识别依据与原文"],
+        scope_kicker: "排放量账本",
+        scope_title: "Scope 1 / 2 / 3 数值",
+        scope_lead: "已有人审的结构化绝对量与正式版原文中的数值候选分开呈现。候选层仅用于追溯和复核，不直接替代最终人审入库值。",
+        scope_authoritative_title: "结构化绝对量",
+        scope_authoritative_headers: ["Scope", "绝对量 MtCO2e", "占比 %", "实体层级", "页码", "依据说明"],
+        scope_candidate_title: "原文数值候选",
+        scope_candidate_headers: ["Scope", "口径/方法", "原文数值", "原文单位", "折算 MtCO2e", "页码", "提取规则与原文"],
+        scope3_kicker: "Scope 3 类别账本",
+        scope3_title: "15 类 Scope 3 数值候选",
+        scope3_lead: "该表保留类别级原文数值候选、单位上下文与提取规则，用于后续人工校核和类别入库。",
+        scope3_headers: ["Scope 3 类别", "原文数值", "单位上下文", "折算 MtCO2e", "页码", "提取规则与原文"],
+        keywords_kicker: "关键词命中",
+        keywords_title: "方法与数据质量关键词簇",
+        keywords_lead: "关键词簇汇总当前企业在原文中出现的方法名、数据类型名和核查环节名，可作为后续抽取规则与人工复核入口。",
+        keyword_hit_count: "命中次数",
+        keyword_page: "页",
+        evidence_kicker: "源文件追溯",
+        evidence_title: "证据回链总账",
+        evidence_lead: "总账把标准引用、方法事实、Scope 数值候选和 Scope 3 类别候选放到同一追溯清单里，阅读时可直接按页码回看原文。",
+        evidence_page: "页码",
+        evidence_confidence: "置信度",
+        evidence_review: "校核状态"
+      }
+    };
+  </script>
+  <script src="../assets/js/workbench_shared.js"></script>
+  <script src="../assets/js/company_workbench.js"></script>
+</body>
+</html>
