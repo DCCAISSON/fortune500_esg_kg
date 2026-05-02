@@ -1,4 +1,4 @@
-(async () => {
+﻿(async () => {
   const shared = window.World500WorkbenchShared;
   const config = window.WORKBENCH_CONFIG;
   if (!shared || !config) return;

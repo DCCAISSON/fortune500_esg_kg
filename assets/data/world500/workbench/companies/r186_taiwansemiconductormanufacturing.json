@@ -21,11 +21,12 @@
     "台积公司2022c-all.pdf"
   ],
   "standards_count": 6,
-  "method_rows_count": 1,
-  "keyword_summary_count": 0,
+  "method_rows_count": 4,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
+  "evidence_ledger_count": 10,
   "standard_systems_zh": [
     "ESG 披露框架",
     "ISO 体系",
@@ -54,13 +55,19 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [],
-  "data_source_types_en": [],
+  "data_source_types_zh": [
+    "估算数据"
+  ],
+  "data_source_types_en": [
+    "Estimated data"
+  ],
   "assurance_stages_zh": [
-    "鉴证"
+    "鉴证",
+    "报告披露"
   ],
   "assurance_stages_en": [
-    "Assurance"
+    "Assurance",
+    "Report disclosure"
   ],
   "activity_categories_zh": [
     "价值链活动"
@@ -216,10 +223,10 @@
   ],
   "method_rows": [
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
       "scope3_category_code": "",
       "scope3_category_en": "",
       "scope3_category_zh": "",
@@ -246,16 +253,170 @@
       "source_file": "台积公司2022c-all.pdf",
       "report_title": "台积公司2022c-all.pdf",
       "snippet_en": "e Global Supply Chain of Mineral from Conflict- Affected and High Risk Areas）」盡職調 查（due diligence）架構。同時，台積公 司也是責任礦產倡議組織 （Responsible Minerals Initiative, RMI）與全球永續議 題e 化倡議組織（Global e-Sustainability Initiative, GeSI）最堅定的支持者之一， 依據「負責任礦產確保計畫（R",
-      "snippet_zh": "e Global Supply Chain of Mineral from Conflict- Affected and High Risk Areas）」盡職調 查（due diligence）架構。同時，台積公 司也是責任礦產倡議組織 （Responsible Minerals Initiative, RMI）與全球永續議 題e 化倡議組織（Glo...",
+      "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
       "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 83",
       "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
+    },
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "F）公布的「淨零挑戰：供 應鏈的契機」指引，以「完善供應鏈碳資訊、 低碳方案最佳化、與供應商合作、推動低碳 生態系統及建立內部減碳制度」五大面向， 提出具體行動方針，持續精進低碳供應鏈營 運能力。 ●完善供應鏈碳資訊 民國111 年，台積公司要求137 家原物料 及設備供應商參與CDP 供應鏈專案，並辦理 組織型溫室氣體盤查訓練及CDP 揭露問卷說 明...",
+      "estimate_basis_zh": "F）公布的「淨零挑戰：供 應鏈的契機」指引，以「完善供應鏈碳資訊、 低碳方案最佳化、與供應商合作、推動低碳 生態系統及建立內部減碳制度」五大面向， 提出具體行動方針，持續精進低碳供應鏈營 運能力。 ●完善供應鏈碳資訊 民國111 年，台積公司要求137 家原物料 及設備供應...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "89",
+      "source_file": "台积公司2022c-all.pdf",
+      "report_title": "台积公司2022c-all.pdf",
+      "snippet_en": "F）公布的「淨零挑戰：供 應鏈的契機」指引，以「完善供應鏈碳資訊、 低碳方案最佳化、與供應商合作、推動低碳 生態系統及建立內部減碳制度」五大面向， 提出具體行動方針，持續精進低碳供應鏈營 運能力。 ●完善供應鏈碳資訊 民國111 年，台積公司要求137 家原物料 及設備供應商參與CDP 供應鏈專案，並辦理 組織型溫室氣體盤查訓練及CDP 揭露問卷說 明，以提高資料品質，總計322 人次參與訓 練、111 家供應商完成問卷。調查結果顯示， 84% 受訪廠商已將氣候變遷議題納入董",
+      "snippet_zh": "nan",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 89",
+      "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：89",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    },
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "間接排放則占39%。因先進製程產 能持續擴充，溫室氣體整體排放較前一年上 升14%，但考量產能增長比例，單位產品排 放量則較前一年微幅下降，顯示台積公司持 續精進低碳製造作為，仍有效降低單位產品 溫室氣體排放。 台積公司除致力落實領先業界的溫室氣體減 量標竿作為，包括製程端加速汰換與新設現址 式處理設備、使用碳中和天然氣、打造符合 綠建築認證的綠色廠房...",
+      "estimate_basis_zh": "間接排放則占39%。因先進製程產 能持續擴充，溫室氣體整體排放較前一年上 升14%，但考量產能增長比例，單位產品排 放量則較前一年微幅下降，顯示台積公司持 續精進低碳製造作為，仍有效降低單位產品 溫室氣體排放。 台積公司除致力落實領先業界的溫室氣體減 量標竿作為，包括製程端...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "97",
+      "source_file": "台积公司2022c-all.pdf",
+      "report_title": "台积公司2022c-all.pdf",
+      "snippet_en": "間接排放則占39%。因先進製程產 能持續擴充，溫室氣體整體排放較前一年上 升14%，但考量產能增長比例，單位產品排 放量則較前一年微幅下降，顯示台積公司持 續精進低碳製造作為，仍有效降低單位產品 溫室氣體排放。 台積公司除致力落實領先業界的溫室氣體減 量標竿作為，包括製程端加速汰換與新設現址 式處理設備、使用碳中和天然氣、打造符合 綠建築認證的綠色廠房、執行機台與廠務節能 專案並擴大使用再生能源等；為因應未來全 球低碳轉型導致碳成本上升，民國111 年開 始廣泛運用內部碳定價",
+      "snippet_zh": "nan",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 97",
+      "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：97",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    },
+    {
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "能資 源使用效率，並同步輔導供應商一同跟進， 為環境永續發展全力以赴。此外，雖然台積 台積公司積極優化製程能資源使用效率，減少溫室氣體排放 註1：範疇一與範疇二的溫室氣體排放數據涵蓋範疇為台灣廠區、台積電（中國）、台積電（南京）、WaferTech、采鈺公司 註2：範疇一盤查數據從民國109 年起改使用《聯合國溫室氣體盤查指引2019 更新版》 註3：...",
+      "estimate_basis_zh": "能資 源使用效率，並同步輔導供應商一同跟進， 為環境永續發展全力以赴。此外，雖然台積 台積公司積極優化製程能資源使用效率，減少溫室氣體排放 註1：範疇一與範疇二的溫室氣體排放數據涵蓋範疇為台灣廠區、台積電（中國）、台積電（南京）、WaferTech、采鈺公司 註2：範疇一盤...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "99",
+      "source_file": "台积公司2022c-all.pdf",
+      "report_title": "台积公司2022c-all.pdf",
+      "snippet_en": "能資 源使用效率，並同步輔導供應商一同跟進， 為環境永續發展全力以赴。此外，雖然台積 台積公司積極優化製程能資源使用效率，減少溫室氣體排放 註1：範疇一與範疇二的溫室氣體排放數據涵蓋範疇為台灣廠區、台積電（中國）、台積電（南京）、WaferTech、采鈺公司 註2：範疇一盤查數據從民國109 年起改使用《聯合國溫室氣體盤查指引2019 更新版》 註3：範疇三的溫室氣體排放數據涵蓋範疇為台灣廠區 註4：電力排放係數以能源局民國111 年公告0.509 公斤二氧化碳當量／度電，1",
+      "snippet_zh": "nan",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 99",
+      "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：99",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
   ],
-  "keyword_summary": [],
+  "keyword_summary": [
+    {
+      "key": "estimated_data",
+      "family": "data_source",
+      "label_zh": "估算数据",
+      "label_en": "Estimated data",
+      "hit_count": 3,
+      "pages": [
+        "89",
+        "97",
+        "99"
+      ],
+      "sample_scope_zh": [
+        "范围3"
+      ],
+      "sample_scope_en": [
+        "Scope 3"
+      ]
+    }
+  ],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
@@ -320,13 +481,30 @@
       "source_file": "台积公司2022c-all.pdf",
       "report_title": "台积公司2022c-all.pdf",
       "snippet_en": "e Global Supply Chain of Mineral from Conflict- Affected and High Risk Areas）」盡職調 查（due diligence）架構。同時，台積公 司也是責任礦產倡議組織 （Responsible Minerals Initiative, RMI）與全球永續議 題e 化倡議組織（Global e-Sustainability Initiative, GeSI）最堅定的支持者之一， 依據「負責任礦產確保計畫（R",
-      "snippet_zh": "e Global Supply Chain of Mineral from Conflict- Affected and High Risk Areas）」盡職調 查（due diligence）架構。同時，台積公 司也是責任礦產倡議組織 （Responsible Minerals Initiative, RMI）與全球永續議 題e 化倡議組織（Glo...",
+      "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
       "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 83",
       "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：83"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "89",
+      "source_file": "台积公司2022c-all.pdf",
+      "report_title": "台积公司2022c-all.pdf",
+      "snippet_en": "F）公布的「淨零挑戰：供 應鏈的契機」指引，以「完善供應鏈碳資訊、 低碳方案最佳化、與供應商合作、推動低碳 生態系統及建立內部減碳制度」五大面向， 提出具體行動方針，持續精進低碳供應鏈營 運能力。 ●完善供應鏈碳資訊 民國111 年，台積公司要求137 家原物料 及設備供應商參與CDP 供應鏈專案，並辦理 組織型溫室氣體盤查訓練及CDP 揭露問卷說 明，以提高資料品質，總計322 人次參與訓 練、111 家供應商完成問卷。調查結果顯示， 84% 受訪廠商已將氣候變遷議題納入董",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 89",
+      "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：89"
     },
     {
       "fact_type_en": "Standard reference",
@@ -378,6 +556,40 @@
       "review_status": "seed_batch_05",
       "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 96",
       "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：96"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "97",
+      "source_file": "台积公司2022c-all.pdf",
+      "report_title": "台积公司2022c-all.pdf",
+      "snippet_en": "間接排放則占39%。因先進製程產 能持續擴充，溫室氣體整體排放較前一年上 升14%，但考量產能增長比例，單位產品排 放量則較前一年微幅下降，顯示台積公司持 續精進低碳製造作為，仍有效降低單位產品 溫室氣體排放。 台積公司除致力落實領先業界的溫室氣體減 量標竿作為，包括製程端加速汰換與新設現址 式處理設備、使用碳中和天然氣、打造符合 綠建築認證的綠色廠房、執行機台與廠務節能 專案並擴大使用再生能源等；為因應未來全 球低碳轉型導致碳成本上升，民國111 年開 始廣泛運用內部碳定價",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 97",
+      "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：97"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "99",
+      "source_file": "台积公司2022c-all.pdf",
+      "report_title": "台积公司2022c-all.pdf",
+      "snippet_en": "能資 源使用效率，並同步輔導供應商一同跟進， 為環境永續發展全力以赴。此外，雖然台積 台積公司積極優化製程能資源使用效率，減少溫室氣體排放 註1：範疇一與範疇二的溫室氣體排放數據涵蓋範疇為台灣廠區、台積電（中國）、台積電（南京）、WaferTech、采鈺公司 註2：範疇一盤查數據從民國109 年起改使用《聯合國溫室氣體盤查指引2019 更新版》 註3：範疇三的溫室氣體排放數據涵蓋範疇為台灣廠區 註4：電力排放係數以能源局民國111 年公告0.509 公斤二氧化碳當量／度電，1",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 台积公司2022c-all.pdf | File: 台积公司2022c-all.pdf | Page: 99",
+      "evidence_locator_zh": "报告：台积公司2022c-all.pdf | 文件：台积公司2022c-all.pdf | 页码：99"
     }
   ]
 }

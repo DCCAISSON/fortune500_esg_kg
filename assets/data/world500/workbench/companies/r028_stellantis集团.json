@@ -1,7 +1,7 @@
 {
   "company_id": "r028_stellantis集团",
-  "company_name_en": "Stellantis集团",
-  "company_name_zh": "Stellantis集团",
+  "company_name_en": "Stellantis",
+  "company_name_zh": "Stellantis",
   "world500_rank": 28,
   "industry_section_code": "C",
   "industry_section_en": "Manufacturing",
@@ -21,11 +21,12 @@
     "Stellantis-2024-Climate-Policy-Report.pdf"
   ],
   "standards_count": 2,
-  "method_rows_count": 1,
-  "keyword_summary_count": 1,
+  "method_rows_count": 0,
+  "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
+  "evidence_ledger_count": 2,
   "standard_systems_zh": [
     "GHG 体系",
     "ISO 体系"
@@ -44,18 +45,10 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [
-    "估算数据"
-  ],
-  "data_source_types_en": [
-    "Estimated data"
-  ],
-  "assurance_stages_zh": [
-    "报告披露"
-  ],
-  "assurance_stages_en": [
-    "Report disclosure"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
+  "assurance_stages_zh": [],
+  "assurance_stages_en": [],
   "activity_categories_zh": [],
   "activity_categories_en": [],
   "standards": [
@@ -108,67 +101,8 @@
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准"
     }
   ],
-  "method_rows": [
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "tters.\" ACEA report Charging Ahead \"EU electric car sales grew three times faster than charging point installation between 2017 and 2023, ACEA’s report shows. Looking ahead, the...",
-      "estimate_basis_zh": "tters.\" ACEA report Charging Ahead \"EU electric car sales grew three times faster than charging point installation between 2017 and 2023,...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "21",
-      "source_file": "Stellantis-2024-Climate-Policy-Report.pdf",
-      "report_title": "Stellantis-2024-Climate-Policy-Report.pdf",
-      "snippet_en": "tters.\" ACEA report Charging Ahead \"EU electric car sales grew three times faster than charging point installation between 2017 and 2023, ACEA’s report shows. Looking ahead, the EU needs eight times more charging points annually by 2030, ac",
-      "snippet_zh": "tters.\" ACEA report Charging Ahead \"EU electric car sales grew three times faster than charging point installation between 2017 and 2023, ACEA’s report shows. Looking ahead, the...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: Stellantis-2024-Climate-Policy-Report.pdf | File: Stellantis-2024-Climate-Policy-Report.pdf | Page: 21",
-      "evidence_locator_zh": "报告：Stellantis-2024-Climate-Policy-Report.pdf | 文件：Stellantis-2024-Climate-Policy-Report.pdf | 页码：21",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    }
-  ],
-  "keyword_summary": [
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 1,
-      "pages": [
-        "21"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    }
-  ],
+  "method_rows": [],
+  "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
@@ -206,23 +140,6 @@
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: Stellantis-2024-Climate-Policy-Report.pdf | File: Stellantis-2024-Climate-Policy-Report.pdf | Page: 6",
       "evidence_locator_zh": "报告：Stellantis-2024-Climate-Policy-Report.pdf | 文件：Stellantis-2024-Climate-Policy-Report.pdf | 页码：6"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "21",
-      "source_file": "Stellantis-2024-Climate-Policy-Report.pdf",
-      "report_title": "Stellantis-2024-Climate-Policy-Report.pdf",
-      "snippet_en": "tters.\" ACEA report Charging Ahead \"EU electric car sales grew three times faster than charging point installation between 2017 and 2023, ACEA’s report shows. Looking ahead, the EU needs eight times more charging points annually by 2030, ac",
-      "snippet_zh": "tters.\" ACEA report Charging Ahead \"EU electric car sales grew three times faster than charging point installation between 2017 and 2023, ACEA’s report shows. Looking ahead, the...",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: Stellantis-2024-Climate-Policy-Report.pdf | File: Stellantis-2024-Climate-Policy-Report.pdf | Page: 21",
-      "evidence_locator_zh": "报告：Stellantis-2024-Climate-Policy-Report.pdf | 文件：Stellantis-2024-Climate-Policy-Report.pdf | 页码：21"
     }
   ]
 }

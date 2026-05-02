@@ -21,11 +21,12 @@
     "2024中国建筑集团有限公司ESG报告.pdf"
   ],
   "standards_count": 1,
-  "method_rows_count": 0,
+  "method_rows_count": 2,
   "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
+  "evidence_ledger_count": 3,
   "standard_systems_zh": [
     "ESG 披露框架"
   ],
@@ -42,10 +43,18 @@
   "calculation_methods_en": [],
   "data_source_types_zh": [],
   "data_source_types_en": [],
-  "assurance_stages_zh": [],
-  "assurance_stages_en": [],
-  "activity_categories_zh": [],
-  "activity_categories_en": [],
+  "assurance_stages_zh": [
+    "核查"
+  ],
+  "assurance_stages_en": [
+    "Verification"
+  ],
+  "activity_categories_zh": [
+    "投融资活动"
+  ],
+  "activity_categories_en": [
+    "Financed emissions activity"
+  ],
   "standards": [
     {
       "system_key": "esg",
@@ -72,7 +81,86 @@
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
   ],
-  "method_rows": [],
+  "method_rows": [
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "15",
+      "scope3_category_en": "Category 15 Investments",
+      "scope3_category_zh": "类别15 投资",
+      "activity_standard_category_en": "Financed emissions activity",
+      "activity_standard_category_zh": "投融资活动",
+      "activity_evidence_mapping_en": "Investments",
+      "activity_evidence_mapping_zh": "投资",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Verification",
+      "assurance_stage_zh": "核查",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "Evidence-based mapping",
+      "classification_stage_zh": "基于证据规则映射",
+      "estimate_basis_en": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Management 中国建筑持续跟踪温室气体排放情况，完整建立了“总 部- 子企业- 项目”...",
+      "estimate_basis_zh": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Managem...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
+      "evidence_page": "17",
+      "source_file": "2024中国建筑集团有限公司ESG报告.pdf",
+      "report_title": "2024中国建筑集团有限公司ESG报告.pdf",
+      "snippet_en": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Management 中国建筑持续跟踪温室气体排放情况，完整建立了“总 部- 子企业- 项目”多级联动的系统性碳排放数据管理 体系，12 家公司内部技术单位组成碳盘查工作营，发 布公司碳盘查工作指南、碳盘查工作问答手册等",
+      "snippet_zh": "",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024中国建筑集团有限公司ESG报告.pdf | File: 2024中国建筑集团有限公司ESG报告.pdf | Page: 17",
+      "evidence_locator_zh": "报告：2024中国建筑集团有限公司ESG报告.pdf | 文件：2024中国建筑集团有限公司ESG报告.pdf | 页码：17",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查"
+    },
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "15",
+      "scope3_category_en": "Category 15 Investments",
+      "scope3_category_zh": "类别15 投资",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Verification",
+      "assurance_stage_zh": "核查",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Management 中国建筑持续跟踪温室气体排放情况，完整建立了“总 部- 子企业- 项目”...",
+      "estimate_basis_zh": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Managem...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
+      "evidence_page": "17",
+      "source_file": "2024中国建筑集团有限公司ESG报告.pdf",
+      "report_title": "2024中国建筑集团有限公司ESG报告.pdf",
+      "snippet_en": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Management 中国建筑持续跟踪温室气体排放情况，完整建立了“总 部- 子企业- 项目”多级联动的系统性碳排放数据管理 体系，12 家公司内部技术单位组成碳盘查工作营，发 布公司碳盘查工作指南、碳盘查工作问答手册等",
+      "snippet_zh": "",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024中国建筑集团有限公司ESG报告.pdf | File: 2024中国建筑集团有限公司ESG报告.pdf | Page: 17",
+      "evidence_locator_zh": "报告：2024中国建筑集团有限公司ESG报告.pdf | 文件：2024中国建筑集团有限公司ESG报告.pdf | 页码：17",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查"
+    }
+  ],
   "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
@@ -94,6 +182,40 @@
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024中国建筑集团有限公司ESG报告.pdf | File: 2024中国建筑集团有限公司ESG报告.pdf | Page: 3",
       "evidence_locator_zh": "报告：2024中国建筑集团有限公司ESG报告.pdf | 文件：2024中国建筑集团有限公司ESG报告.pdf | 页码：3"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "",
+      "label_zh": "",
+      "page": "17",
+      "source_file": "2024中国建筑集团有限公司ESG报告.pdf",
+      "report_title": "2024中国建筑集团有限公司ESG报告.pdf",
+      "snippet_en": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Management 中国建筑持续跟踪温室气体排放情况，完整建立了“总 部- 子企业- 项目”多级联动的系统性碳排放数据管理 体系，12 家公司内部技术单位组成碳盘查工作营，发 布公司碳盘查工作指南、碳盘查工作问答手册等",
+      "snippet_zh": "",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024中国建筑集团有限公司ESG报告.pdf | File: 2024中国建筑集团有限公司ESG报告.pdf | Page: 17",
+      "evidence_locator_zh": "报告：2024中国建筑集团有限公司ESG报告.pdf | 文件：2024中国建筑集团有限公司ESG报告.pdf | 页码：17"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Financed emissions activity",
+      "label_zh": "投融资活动",
+      "page": "17",
+      "source_file": "2024中国建筑集团有限公司ESG报告.pdf",
+      "report_title": "2024中国建筑集团有限公司ESG报告.pdf",
+      "snippet_en": "遇， 以及它们对企业收入、成本、投资和声誉的实际和潜 在影响，帮助理解ESG 因素如何转化为财务绩效，并 将问卷调查结果作为后续指导开展气候相关风险和机 遇分析和管理的依据之一。 影响、风险和机遇管理 Impact, Risk and Opportunity Management 中国建筑持续跟踪温室气体排放情况，完整建立了“总 部- 子企业- 项目”多级联动的系统性碳排放数据管理 体系，12 家公司内部技术单位组成碳盘查工作营，发 布公司碳盘查工作指南、碳盘查工作问答手册等",
+      "snippet_zh": "",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024中国建筑集团有限公司ESG报告.pdf | File: 2024中国建筑集团有限公司ESG报告.pdf | Page: 17",
+      "evidence_locator_zh": "报告：2024中国建筑集团有限公司ESG报告.pdf | 文件：2024中国建筑集团有限公司ESG报告.pdf | 页码：17"
     }
   ]
 }

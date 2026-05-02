@@ -21,11 +21,12 @@
     "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf"
   ],
   "standards_count": 2,
-  "method_rows_count": 0,
-  "keyword_summary_count": 0,
+  "method_rows_count": 3,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
+  "evidence_ledger_count": 5,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架"
@@ -44,12 +45,26 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [],
-  "data_source_types_en": [],
-  "assurance_stages_zh": [],
-  "assurance_stages_en": [],
-  "activity_categories_zh": [],
-  "activity_categories_en": [],
+  "data_source_types_zh": [
+    "估算数据"
+  ],
+  "data_source_types_en": [
+    "Estimated data"
+  ],
+  "assurance_stages_zh": [
+    "核查",
+    "报告披露"
+  ],
+  "assurance_stages_en": [
+    "Verification",
+    "Report disclosure"
+  ],
+  "activity_categories_zh": [
+    "投融资活动"
+  ],
+  "activity_categories_en": [
+    "Financed emissions activity"
+  ],
   "standards": [
     {
       "system_key": "esg",
@@ -100,8 +115,145 @@
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准"
     }
   ],
-  "method_rows": [],
-  "keyword_summary": [],
+  "method_rows": [
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "15",
+      "scope3_category_en": "Category 15 Investments",
+      "scope3_category_zh": "类别15 投资",
+      "activity_standard_category_en": "Financed emissions activity",
+      "activity_standard_category_zh": "投融资活动",
+      "activity_evidence_mapping_en": "Investments",
+      "activity_evidence_mapping_zh": "投资",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Verification",
+      "assurance_stage_zh": "核查",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "Evidence-based mapping",
+      "classification_stage_zh": "基于证据规则映射",
+      "estimate_basis_en": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区域新增红树林项目产生的蓝碳(海洋 碳汇) 于2023 年9月15 日在北部湾产权...",
+      "estimate_basis_zh": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
+      "evidence_page": "62",
+      "source_file": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "report_title": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "snippet_en": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区域新增红树林项目产生的蓝碳(海洋 碳汇) 于2023 年9月15 日在北部湾产权交易所集团广西(中国一东盟) eS 易服务平台挂牌成交，交易量为 500 吨 CO，这是中国交建首单、广西首单蓝碳 交易。 温",
+      "snippet_zh": "",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_02",
+      "evidence_locator_en": "Report: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | File: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | Page: 62",
+      "evidence_locator_zh": "报告：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 文件：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 页码：62",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查"
+    },
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "15",
+      "scope3_category_en": "Category 15 Investments",
+      "scope3_category_zh": "类别15 投资",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Verification",
+      "assurance_stage_zh": "核查",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区域新增红树林项目产生的蓝碳(海洋 碳汇) 于2023 年9月15 日在北部湾产权...",
+      "estimate_basis_zh": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
+      "evidence_page": "62",
+      "source_file": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "report_title": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "snippet_en": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区域新增红树林项目产生的蓝碳(海洋 碳汇) 于2023 年9月15 日在北部湾产权交易所集团广西(中国一东盟) eS 易服务平台挂牌成交，交易量为 500 吨 CO，这是中国交建首单、广西首单蓝碳 交易。 温",
+      "snippet_zh": "",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_02",
+      "evidence_locator_en": "Report: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | File: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | Page: 62",
+      "evidence_locator_zh": "报告：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 文件：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 页码：62",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查"
+    },
+    {
+      "scope_en": "",
+      "scope_zh": "",
+      "emission_type_en": "",
+      "emission_type_zh": "",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "术成果和 专项方 案策划 码头和 拓高端 案模板，推广绿色低碳公路、绿色低碳港口、零碳服务区、零碳建筑等 与设计, 依托宁波梅山等重点项目打造全生命周期绿色智慧自动化集装箱 PRES, 落实各设计阶段碳排放测算和软件应用, 在传统产业市场开 方案咨询与绿色低碳特色设计业务。 案例; 发布 S 项绿色低碳企业标准 中 价标准 运工程 国交建正式发布 5 ...",
+      "estimate_basis_zh": "术成果和 专项方 案策划 码头和 拓高端 案模板，推广绿色低碳公路、绿色低碳港口、零碳服务区、零碳建筑等 与设计, 依托宁波梅山等重点项目打造全生命周期绿色智慧自动化集装箱 PRES, 落实各设计阶段碳排放测算和软件应用, 在传统产业市场开 方案咨询与绿色低碳特色设计业务。...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "74",
+      "source_file": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "report_title": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "snippet_en": "术成果和 专项方 案策划 码头和 拓高端 案模板，推广绿色低碳公路、绿色低碳港口、零碳服务区、零碳建筑等 与设计, 依托宁波梅山等重点项目打造全生命周期绿色智慧自动化集装箱 PRES, 落实各设计阶段碳排放测算和软件应用, 在传统产业市场开 方案咨询与绿色低碳特色设计业务。 案例; 发布 S 项绿色低碳企业标准 中 价标准 运工程 国交建正式发布 5 项绿色低碳企业标准, 包括《港口工程绿色低碳设计评 》《港口工程绿色低碳设计指南》《水运工程绿色低碳施工技术指南》《水 绿色低",
+      "snippet_zh": "",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_02",
+      "evidence_locator_en": "Report: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | File: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | Page: 74",
+      "evidence_locator_zh": "报告：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 文件：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 页码：74",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    }
+  ],
+  "keyword_summary": [
+    {
+      "key": "estimated_data",
+      "family": "data_source",
+      "label_zh": "估算数据",
+      "label_en": "Estimated data",
+      "hit_count": 1,
+      "pages": [
+        "74"
+      ],
+      "sample_scope_zh": [],
+      "sample_scope_en": []
+    }
+  ],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
@@ -139,6 +291,57 @@
       "review_status": "seed_batch_02",
       "evidence_locator_en": "Report: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | File: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | Page: 3",
       "evidence_locator_zh": "报告：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 文件：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 页码：3"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "",
+      "label_zh": "",
+      "page": "62",
+      "source_file": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "report_title": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "snippet_en": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区域新增红树林项目产生的蓝碳(海洋 碳汇) 于2023 年9月15 日在北部湾产权交易所集团广西(中国一东盟) eS 易服务平台挂牌成交，交易量为 500 吨 CO，这是中国交建首单、广西首单蓝碳 交易。 温",
+      "snippet_zh": "",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_02",
+      "evidence_locator_en": "Report: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | File: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | Page: 62",
+      "evidence_locator_zh": "报告：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 文件：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 页码：62"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Financed emissions activity",
+      "label_zh": "投融资活动",
+      "page": "62",
+      "source_file": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "report_title": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "snippet_en": "实现了基建行业首笔公路施工阶段碳排放额度的内部交易签约，交易量为 891 吨，按当日收盘价约合 9.17 万元。这是国内基建行业碳交易领域的首次成功实 践，是中国交建应用市场化手段促进降碳场景积累的一次重大实践。 案例: 首单蓝碳交易成交 中交城投投资建设的广西钦州孔雀湾区域新增红树林项目产生的蓝碳(海洋 碳汇) 于2023 年9月15 日在北部湾产权交易所集团广西(中国一东盟) eS 易服务平台挂牌成交，交易量为 500 吨 CO，这是中国交建首单、广西首单蓝碳 交易。 温",
+      "snippet_zh": "",
+      "recognition_basis_en": "Structured assurance tag: Verification",
+      "recognition_basis_zh": "结构化核查环节：核查",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_02",
+      "evidence_locator_en": "Report: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | File: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | Page: 62",
+      "evidence_locator_zh": "报告：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 文件：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 页码：62"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "74",
+      "source_file": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "report_title": "中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf",
+      "snippet_en": "术成果和 专项方 案策划 码头和 拓高端 案模板，推广绿色低碳公路、绿色低碳港口、零碳服务区、零碳建筑等 与设计, 依托宁波梅山等重点项目打造全生命周期绿色智慧自动化集装箱 PRES, 落实各设计阶段碳排放测算和软件应用, 在传统产业市场开 方案咨询与绿色低碳特色设计业务。 案例; 发布 S 项绿色低碳企业标准 中 价标准 运工程 国交建正式发布 5 项绿色低碳企业标准, 包括《港口工程绿色低碳设计评 》《港口工程绿色低碳设计指南》《水运工程绿色低碳施工技术指南》《水 绿色低",
+      "snippet_zh": "",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_02",
+      "evidence_locator_en": "Report: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | File: 中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | Page: 74",
+      "evidence_locator_zh": "报告：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 文件：中国交通建设股份有限公司2024 年度环境、社会及管治报告.pdf | 页码：74"
     }
   ]
 }

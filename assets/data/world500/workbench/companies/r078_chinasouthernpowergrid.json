@@ -21,11 +21,12 @@
     "34056978.pdf"
   ],
   "standards_count": 1,
-  "method_rows_count": 1,
-  "keyword_summary_count": 1,
+  "method_rows_count": 0,
+  "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
+  "evidence_ledger_count": 1,
   "standard_systems_zh": [
     "ESG 披露框架"
   ],
@@ -40,18 +41,10 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [
-    "初级数据"
-  ],
-  "data_source_types_en": [
-    "Primary data"
-  ],
-  "assurance_stages_zh": [
-    "报告披露"
-  ],
-  "assurance_stages_en": [
-    "Report disclosure"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
+  "assurance_stages_zh": [],
+  "assurance_stages_en": [],
   "activity_categories_zh": [],
   "activity_categories_en": [],
   "standards": [
@@ -80,67 +73,8 @@
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
   ],
-  "method_rows": [
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "Corporate inventory boundary",
-      "boundary_type_zh": "企业清单边界",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "The data note states that report data come from the company and externally published official documents and reports, and the reporting boundary covers Southern Power Grid and it...",
-      "estimate_basis_zh": "数据说明指出，报告数据来自公司及外部正式发布的文件和报告，报告边界覆盖南方电网公司及所属分子公司和直属机构。",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "49",
-      "source_file": "34056978.pdf",
-      "report_title": "34056978.pdf",
-      "snippet_en": "The data note states that report data come from the company and externally published official documents and reports, and the reporting boundary covers Southern Power Grid and its subsidiaries and directly affiliated institutions.",
-      "snippet_zh": "数据说明指出，报告数据来自公司及外部正式发布的文件和报告，报告边界覆盖南方电网公司及所属分子公司和直属机构。",
-      "confidence_level": "high",
-      "review_status": "manual_axis_backfill",
-      "evidence_locator_en": "Report: 34056978.pdf | File: 34056978.pdf | Page: 49",
-      "evidence_locator_zh": "报告：34056978.pdf | 文件：34056978.pdf | 页码：49",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
-    }
-  ],
-  "keyword_summary": [
-    {
-      "key": "primary_data",
-      "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
-      "hit_count": 1,
-      "pages": [
-        "49"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    }
-  ],
+  "method_rows": [],
+  "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
@@ -161,23 +95,6 @@
       "review_status": "seed_batch_11",
       "evidence_locator_en": "Report: 34056978.pdf | File: 34056978.pdf | Page: 47",
       "evidence_locator_zh": "报告：34056978.pdf | 文件：34056978.pdf | 页码：47"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "49",
-      "source_file": "34056978.pdf",
-      "report_title": "34056978.pdf",
-      "snippet_en": "The data note states that report data come from the company and externally published official documents and reports, and the reporting boundary covers Southern Power Grid and its subsidiaries and directly affiliated institutions.",
-      "snippet_zh": "数据说明指出，报告数据来自公司及外部正式发布的文件和报告，报告边界覆盖南方电网公司及所属分子公司和直属机构。",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
-      "confidence_level": "high",
-      "review_status": "manual_axis_backfill",
-      "evidence_locator_en": "Report: 34056978.pdf | File: 34056978.pdf | Page: 49",
-      "evidence_locator_zh": "报告：34056978.pdf | 文件：34056978.pdf | 页码：49"
     }
   ]
 }

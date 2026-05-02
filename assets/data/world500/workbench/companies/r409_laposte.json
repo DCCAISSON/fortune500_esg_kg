@@ -21,11 +21,12 @@
     "2024 LA POSTE ESG.pdf"
   ],
   "standards_count": 2,
-  "method_rows_count": 3,
-  "keyword_summary_count": 2,
+  "method_rows_count": 1,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
+  "evidence_ledger_count": 3,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架"
@@ -48,12 +49,8 @@
   "calculation_methods_en": [
     "Market-based"
   ],
-  "data_source_types_zh": [
-    "估算数据"
-  ],
-  "data_source_types_en": [
-    "Estimated data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
     "报告披露"
   ],
@@ -114,51 +111,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Market-based",
-      "calculation_method_zh": "市场法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Grou...",
-      "estimate_basis_zh": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2...",
-      "keyword_keys": [
-        "market_based"
-      ],
-      "keyword_labels_en": [
-        "Market-based"
-      ],
-      "keyword_labels_zh": [
-        "市场法"
-      ],
-      "evidence_page": "45",
-      "source_file": "2024 LA POSTE ESG.pdf",
-      "report_title": "2024 LA POSTE ESG.pdf",
-      "snippet_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Groupe Tonnes éq. CO2 2 392 988 5 708 785 5 480 257 - 4,0 % ■dont é",
-      "snippet_zh": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Grou...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_09",
-      "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 45",
-      "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：45",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
-    },
-    {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
       "emission_type_en": "Indirect energy emissions",
@@ -195,58 +147,13 @@
       "source_file": "2024 LA POSTE ESG.pdf",
       "report_title": "2024 LA POSTE ESG.pdf",
       "snippet_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Groupe Tonnes éq. CO2 2 392 988 5 708 785 5 480 257 - 4,0 % ■dont é",
-      "snippet_zh": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Grou...",
+      "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_09",
       "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 45",
       "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：45",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "Tonnes 94 749 137 742 ●envoyés en valorisation énergétique (37b iii) Groupe Tonnes 1 935 503 ●envoyés en autres opérations de valorisation (37b iii) Groupe Tonnes 15 2 (1) Afin ...",
-      "estimate_basis_zh": "Tonnes 94 749 137 742 ●envoyés en valorisation énergétique (37b iii) Groupe Tonnes 1 935 503 ●envoyés en autres opérations de valorisatio...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "48",
-      "source_file": "2024 LA POSTE ESG.pdf",
-      "report_title": "2024 LA POSTE ESG.pdf",
-      "snippet_en": "Tonnes 94 749 137 742 ●envoyés en valorisation énergétique (37b iii) Groupe Tonnes 1 935 503 ●envoyés en autres opérations de valorisation (37b iii) Groupe Tonnes 15 2 (1) Afin d’étendre le périmètre couvert à l’ensemble du groupe, une nouv",
-      "snippet_zh": "Tonnes 94 749 137 742 ●envoyés en valorisation énergétique (37b iii) Groupe Tonnes 1 935 503 ●envoyés en autres opérations de valorisation (37b iii) Groupe Tonnes 15 2 (1) Afin ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_09",
-      "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 48",
-      "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：48",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
   ],
   "keyword_summary": [
@@ -255,30 +162,16 @@
       "family": "method",
       "label_zh": "市场法",
       "label_en": "Market-based",
-      "hit_count": 2,
+      "hit_count": 1,
       "pages": [
         "45"
       ],
       "sample_scope_zh": [
-        "范围1",
         "范围2"
       ],
       "sample_scope_en": [
-        "Scope 1",
         "Scope 2"
       ]
-    },
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 1,
-      "pages": [
-        "48"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     }
   ],
   "authoritative_scope_rows": [],
@@ -328,47 +221,13 @@
       "source_file": "2024 LA POSTE ESG.pdf",
       "report_title": "2024 LA POSTE ESG.pdf",
       "snippet_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Groupe Tonnes éq. CO2 2 392 988 5 708 785 5 480 257 - 4,0 % ■dont é",
-      "snippet_zh": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Grou...",
+      "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
       "review_status": "seed_batch_09",
       "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 45",
       "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：45"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Market-based",
-      "label_zh": "市场法",
-      "page": "45",
-      "source_file": "2024 LA POSTE ESG.pdf",
-      "report_title": "2024 LA POSTE ESG.pdf",
-      "snippet_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Groupe Tonnes éq. CO2 2 392 988 5 708 785 5 480 257 - 4,0 % ■dont é",
-      "snippet_zh": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Grou...",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_09",
-      "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 45",
-      "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：45"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "48",
-      "source_file": "2024 LA POSTE ESG.pdf",
-      "report_title": "2024 LA POSTE ESG.pdf",
-      "snippet_en": "Tonnes 94 749 137 742 ●envoyés en valorisation énergétique (37b iii) Groupe Tonnes 1 935 503 ●envoyés en autres opérations de valorisation (37b iii) Groupe Tonnes 15 2 (1) Afin d’étendre le périmètre couvert à l’ensemble du groupe, une nouv",
-      "snippet_zh": "Tonnes 94 749 137 742 ●envoyés en valorisation énergétique (37b iii) Groupe Tonnes 1 935 503 ●envoyés en autres opérations de valorisation (37b iii) Groupe Tonnes 15 2 (1) Afin ...",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_09",
-      "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 48",
-      "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：48"
     }
   ]
 }

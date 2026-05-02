@@ -1,7 +1,7 @@
 {
   "company_id": "r395_pbfenergy公司",
-  "company_name_en": "PBF Energy公司",
-  "company_name_zh": "PBF Energy公司",
+  "company_name_en": "PBF Energy",
+  "company_name_zh": "PBF Energy",
   "world500_rank": 395,
   "industry_section_code": "D",
   "industry_section_en": "Electricity, Heat, Gas and Water Production and Supply",
@@ -21,11 +21,12 @@
     "2024-PBF-Sustainability-Report.pdf"
   ],
   "standards_count": 2,
-  "method_rows_count": 4,
-  "keyword_summary_count": 3,
+  "method_rows_count": 1,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
+  "evidence_ledger_count": 3,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架"
@@ -48,14 +49,8 @@
   "calculation_methods_en": [
     "Location-based"
   ],
-  "data_source_types_zh": [
-    "估算数据",
-    "推导数据"
-  ],
-  "data_source_types_en": [
-    "Estimated data",
-    "Derived data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
     "报告披露"
   ],
@@ -116,141 +111,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "air, and healthier communities. In addition to its environmental benefits, the RDU contributes positively to the local economy. The project supported over 200 jobs during its co...",
-      "estimate_basis_zh": "air, and healthier communities. In addition to its environmental benefits, the RDU contributes positively to the local economy. The proje...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "10",
-      "source_file": "2024-PBF-Sustainability-Report.pdf",
-      "report_title": "2024-PBF-Sustainability-Report.pdf",
-      "snippet_en": "air, and healthier communities. In addition to its environmental benefits, the RDU contributes positively to the local economy. The project supported over 200 jobs during its construction phase and has created approximately 20 direct refine",
-      "snippet_zh": "air, and healthier communities. In addition to its environmental benefits, the RDU contributes positively to the local economy. The project supported over 200 jobs during its co...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 10",
-      "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：10",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "petrochemicals. While refineries might not immediately invoke thoughts of brightly colored jerseys or lightweight footwear, they play a critical role in the development of high-...",
-      "estimate_basis_zh": "petrochemicals. While refineries might not immediately invoke thoughts of brightly colored jerseys or lightweight footwear, they play a c...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
-      "evidence_page": "7",
-      "source_file": "2024-PBF-Sustainability-Report.pdf",
-      "report_title": "2024-PBF-Sustainability-Report.pdf",
-      "snippet_en": "petrochemicals. While refineries might not immediately invoke thoughts of brightly colored jerseys or lightweight footwear, they play a critical role in the development of high-quality athletic gear. Sporting equipment is just one example o",
-      "snippet_zh": "petrochemicals. While refineries might not immediately invoke thoughts of brightly colored jerseys or lightweight footwear, they play a critical role in the development of high-...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 7",
-      "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：7",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Location-based",
-      "calculation_method_zh": "位置法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMEN...",
-      "estimate_basis_zh": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,77...",
-      "keyword_keys": [
-        "location_based"
-      ],
-      "keyword_labels_en": [
-        "Location-based"
-      ],
-      "keyword_labels_zh": [
-        "位置法"
-      ],
-      "evidence_page": "9",
-      "source_file": "2024-PBF-Sustainability-Report.pdf",
-      "report_title": "2024-PBF-Sustainability-Report.pdf",
-      "snippet_en": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMENTAL POLICY STATEMENT GREENHOUSE GAS EMISSIONS AIR QUALITY AND E",
-      "snippet_zh": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMEN...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 9",
-      "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：9",
-      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
-      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
-    },
-    {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
       "emission_type_en": "Indirect energy emissions",
@@ -287,7 +147,7 @@
       "source_file": "2024-PBF-Sustainability-Report.pdf",
       "report_title": "2024-PBF-Sustainability-Report.pdf",
       "snippet_en": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMENTAL POLICY STATEMENT GREENHOUSE GAS EMISSIONS AIR QUALITY AND E",
-      "snippet_zh": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMEN...",
+      "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 9",
@@ -302,42 +162,16 @@
       "family": "method",
       "label_zh": "位置法",
       "label_en": "Location-based",
-      "hit_count": 2,
+      "hit_count": 1,
       "pages": [
         "9"
       ],
       "sample_scope_zh": [
-        "范围1",
         "范围2"
       ],
       "sample_scope_en": [
-        "Scope 1",
         "Scope 2"
       ]
-    },
-    {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 1,
-      "pages": [
-        "7"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    },
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 1,
-      "pages": [
-        "10"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     }
   ],
   "authoritative_scope_rows": [],
@@ -360,23 +194,6 @@
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 4",
       "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：4"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
-      "page": "7",
-      "source_file": "2024-PBF-Sustainability-Report.pdf",
-      "report_title": "2024-PBF-Sustainability-Report.pdf",
-      "snippet_en": "petrochemicals. While refineries might not immediately invoke thoughts of brightly colored jerseys or lightweight footwear, they play a critical role in the development of high-quality athletic gear. Sporting equipment is just one example o",
-      "snippet_zh": "petrochemicals. While refineries might not immediately invoke thoughts of brightly colored jerseys or lightweight footwear, they play a critical role in the development of high-...",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 7",
-      "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Standard reference",
@@ -404,47 +221,13 @@
       "source_file": "2024-PBF-Sustainability-Report.pdf",
       "report_title": "2024-PBF-Sustainability-Report.pdf",
       "snippet_en": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMENTAL POLICY STATEMENT GREENHOUSE GAS EMISSIONS AIR QUALITY AND E",
-      "snippet_zh": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMEN...",
+      "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 9",
       "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：9"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Location-based",
-      "label_zh": "位置法",
-      "page": "9",
-      "source_file": "2024-PBF-Sustainability-Report.pdf",
-      "report_title": "2024-PBF-Sustainability-Report.pdf",
-      "snippet_en": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMENTAL POLICY STATEMENT GREENHOUSE GAS EMISSIONS AIR QUALITY AND E",
-      "snippet_zh": "9 2024 SUSTAINABILITY REPORT 2022 2023 2024 SCOPE 1 11.75 10.78 10.46 SCOPE 2 LOCATION-BASED 0.89 0.87 0.86 2022 2023 2024 NOX 4,843 4,777 4,490 SO2 1,582 1,232 1,525 ENVIRONMEN...",
-      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
-      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 9",
-      "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：9"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "10",
-      "source_file": "2024-PBF-Sustainability-Report.pdf",
-      "report_title": "2024-PBF-Sustainability-Report.pdf",
-      "snippet_en": "air, and healthier communities. In addition to its environmental benefits, the RDU contributes positively to the local economy. The project supported over 200 jobs during its construction phase and has created approximately 20 direct refine",
-      "snippet_zh": "air, and healthier communities. In addition to its environmental benefits, the RDU contributes positively to the local economy. The project supported over 200 jobs during its co...",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: 2024-PBF-Sustainability-Report.pdf | File: 2024-PBF-Sustainability-Report.pdf | Page: 10",
-      "evidence_locator_zh": "报告：2024-PBF-Sustainability-Report.pdf | 文件：2024-PBF-Sustainability-Report.pdf | 页码：10"
     }
   ]
 }

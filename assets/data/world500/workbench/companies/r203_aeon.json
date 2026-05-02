@@ -20,24 +20,17 @@
   "source_files": [
     "AEON sustainability report.pdf"
   ],
-  "standards_count": 1,
+  "standards_count": 0,
   "method_rows_count": 1,
   "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "standard_systems_zh": [
-    "ISO 体系"
-  ],
-  "standard_systems_en": [
-    "ISO system"
-  ],
-  "standard_names_zh": [
-    "ISO 14064-3"
-  ],
-  "standard_names_en": [
-    "ISO 14064-3"
-  ],
+  "evidence_ledger_count": 1,
+  "standard_systems_zh": [],
+  "standard_systems_en": [],
+  "standard_names_zh": [],
+  "standard_names_en": [],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
   "data_source_types_zh": [],
@@ -54,32 +47,7 @@
   "activity_categories_en": [
     "Fugitive emissions"
   ],
-  "standards": [
-    {
-      "system_key": "iso",
-      "system_label_zh": "ISO 体系",
-      "system_label_en": "ISO system",
-      "standard_name_en": "ISO 14064-3",
-      "standard_name_zh": "ISO 14064-3",
-      "standard_family_en": "ISO assurance system",
-      "standard_family_zh": "ISO鉴证体系",
-      "standard_role_en": "Verification and assurance standard",
-      "standard_role_zh": "核查与鉴证标准",
-      "accounting_principle_en": "Verifiability|Credibility",
-      "accounting_principle_zh": "可核查性|可信性",
-      "evidence_page": "8",
-      "source_file": "AEON sustainability report.pdf",
-      "report_title": "AEON sustainability report.pdf",
-      "snippet_en": "ISO 14064-3 requirements are cited as the basis for third-party verification of Scope 1 and Scope 2 emissions.",
-      "snippet_zh": "ISO 14064-3 requirements are cited as the basis for third-party verification of Scope 1 and Scope 2 emissions.",
-      "confidence_level": "high",
-      "review_status": "manual_axis_backfill",
-      "evidence_locator_en": "Report: AEON sustainability report.pdf | File: AEON sustainability report.pdf | Page: 8",
-      "evidence_locator_zh": "报告：AEON sustainability report.pdf | 文件：AEON sustainability report.pdf | 页码：8",
-      "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
-      "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准"
-    }
-  ],
+  "standards": [],
   "method_rows": [
     {
       "scope_en": "",
@@ -112,7 +80,7 @@
       "source_file": "AEON sustainability report.pdf",
       "report_title": "AEON sustainability report.pdf",
       "snippet_en": "イオン サステナビリティ データ集 ■具体的な取り組み 脱炭素社会の実現に向けた取り組み https://www.aeon.info/sustainability/datsutanso/ 自然冷媒宣言 https://www.aeon.info/sustainability/environment/refrigerants/ 電気自動車充電ステーション https://www.aeon.info/sustainability/environment/ev_station/ 成",
-      "snippet_zh": "イオン サステナビリティ データ集 ■具体的な取り組み 脱炭素社会の実現に向けた取り組み https://www.aeon.info/sustainability/datsutanso/ 自然冷媒宣言 https://www.aeon.info/sustainability/environment/refrigerants/ 電気自動車充電ステーション...",
+      "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
       "evidence_locator_en": "Report: AEON sustainability report.pdf | File: AEON sustainability report.pdf | Page: 4",
@@ -135,30 +103,13 @@
       "source_file": "AEON sustainability report.pdf",
       "report_title": "AEON sustainability report.pdf",
       "snippet_en": "イオン サステナビリティ データ集 ■具体的な取り組み 脱炭素社会の実現に向けた取り組み https://www.aeon.info/sustainability/datsutanso/ 自然冷媒宣言 https://www.aeon.info/sustainability/environment/refrigerants/ 電気自動車充電ステーション https://www.aeon.info/sustainability/environment/ev_station/ 成",
-      "snippet_zh": "イオン サステナビリティ データ集 ■具体的な取り組み 脱炭素社会の実現に向けた取り組み https://www.aeon.info/sustainability/datsutanso/ 自然冷媒宣言 https://www.aeon.info/sustainability/environment/refrigerants/ 電気自動車充電ステーション...",
+      "snippet_zh": "",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
       "evidence_locator_en": "Report: AEON sustainability report.pdf | File: AEON sustainability report.pdf | Page: 4",
       "evidence_locator_zh": "报告：AEON sustainability report.pdf | 文件：AEON sustainability report.pdf | 页码：4"
-    },
-    {
-      "fact_type_en": "Standard reference",
-      "fact_type_zh": "标准引用事实",
-      "label_en": "ISO 14064-3",
-      "label_zh": "ISO 14064-3",
-      "page": "8",
-      "source_file": "AEON sustainability report.pdf",
-      "report_title": "AEON sustainability report.pdf",
-      "snippet_en": "ISO 14064-3 requirements are cited as the basis for third-party verification of Scope 1 and Scope 2 emissions.",
-      "snippet_zh": "ISO 14064-3 requirements are cited as the basis for third-party verification of Scope 1 and Scope 2 emissions.",
-      "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
-      "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准",
-      "confidence_level": "high",
-      "review_status": "manual_axis_backfill",
-      "evidence_locator_en": "Report: AEON sustainability report.pdf | File: AEON sustainability report.pdf | Page: 8",
-      "evidence_locator_zh": "报告：AEON sustainability report.pdf | 文件：AEON sustainability report.pdf | 页码：8"
     }
   ]
 }
