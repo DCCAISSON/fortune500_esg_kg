@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "中国中车2024ESG报告.pdf"
@@ -69,6 +74,8 @@
       "snippet_zh": "48 ISO 14067 产品碳足迹证书 案例：公司举办碳资产碳足迹培训班 2024 年3 月，公司举办“碳资产碳足迹培训班”，65 家子公司共计124 人参 加。培训内容涉及碳市场现状与分析、碳资产交易与管理、绿电绿证申领、碳足迹 标准。 举办碳资产碳足迹培训班  零碳场景示范建设 开展零碳场景示范建设工作，...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 中国中车2024ESG报告.pdf | File: 中国中车2024ESG报告.pdf | Page: 49",
+      "evidence_locator_zh": "报告：中国中车2024ESG报告.pdf | 文件：中国中车2024ESG报告.pdf | 页码：49",
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准"
     },
@@ -91,6 +98,8 @@
       "snippet_zh": "本报告参照上海证券交易所《上市公司自律监管指引第14 号——可持续发 展报告（试行）》《上市公司自律监管指南第4 号——可持续发展报告编制》《上 市公司环境信息披露指引》相关要求、香港联合交易所有限公司发布的附录C2 《环境、社会及管治报告守则》相关要求、财政部《企业可持续披露准则——基 本准则（试行）》、国际可...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 中国中车2024ESG报告.pdf | File: 中国中车2024ESG报告.pdf | Page: 5",
+      "evidence_locator_zh": "报告：中国中车2024ESG报告.pdf | 文件：中国中车2024ESG报告.pdf | 页码：5",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -113,6 +122,8 @@
       "snippet_zh": "本报告参照上海证券交易所《上市公司自律监管指引第14 号——可持续发 展报告（试行）》《上市公司自律监管指南第4 号——可持续发展报告编制》《上 市公司环境信息披露指引》相关要求、香港联合交易所有限公司发布的附录C2 《环境、社会及管治报告守则》相关要求、财政部《企业可持续披露准则——基 本准则（试行）》、国际可...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 中国中车2024ESG报告.pdf | File: 中国中车2024ESG报告.pdf | Page: 5",
+      "evidence_locator_zh": "报告：中国中车2024ESG报告.pdf | 文件：中国中车2024ESG报告.pdf | 页码：5",
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准"
     }
@@ -136,7 +147,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 中国中车2024ESG报告.pdf | File: 中国中车2024ESG报告.pdf | Page: 5",
+      "evidence_locator_zh": "报告：中国中车2024ESG报告.pdf | 文件：中国中车2024ESG报告.pdf | 页码：5"
     },
     {
       "fact_type_en": "Standard reference",
@@ -151,7 +164,9 @@
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 中国中车2024ESG报告.pdf | File: 中国中车2024ESG报告.pdf | Page: 5",
+      "evidence_locator_zh": "报告：中国中车2024ESG报告.pdf | 文件：中国中车2024ESG报告.pdf | 页码：5"
     },
     {
       "fact_type_en": "Standard reference",
@@ -166,7 +181,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 中国中车2024ESG报告.pdf | File: 中国中车2024ESG报告.pdf | Page: 49",
+      "evidence_locator_zh": "报告：中国中车2024ESG报告.pdf | 文件：中国中车2024ESG报告.pdf | 页码：49"
     }
   ]
 }

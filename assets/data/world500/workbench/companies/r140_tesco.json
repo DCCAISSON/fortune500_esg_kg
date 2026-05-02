@@ -8,6 +8,11 @@
   "industry_section_zh": "批发和零售业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "tesco-sustainability-report-2025.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 52,
   "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 3,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "GHG 体系",
@@ -105,6 +110,8 @@
       "snippet_zh": "Scope 3 methodology We continually work to improve our footprint data to comply with the SBTi guidelines and the GHG Protocol. Our footprint calculations wer...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -127,6 +134,8 @@
       "snippet_zh": "kills\b 32 Human rights\b 34 Communities\b 36 Overview \b 36 Stronger Starts\b 37 Food redistribution\b 39 Charity initiatives\b 40 Governance\b 41 Overview\b 42 Sust...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 2",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -149,6 +158,8 @@
       "snippet_zh": "kills\b 32 Human rights\b 34 Communities\b 36 Overview \b 36 Stronger Starts\b 37 Food redistribution\b 39 Charity initiatives\b 40 Governance\b 41 Overview\b 42 Sust...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 2",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -171,6 +182,8 @@
       "snippet_zh": "n more about our planet plan Jump to Databook Carbon-neutral operations by 2035, with interim targets to: Reduce absolute Scope 1 and 2 emissions by 60% by D...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 9",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：9",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     }
@@ -216,6 +229,8 @@
       "snippet_zh": "hodology We continually work to improve our footprint data to comply with the SBTi guidelines and the GHG Protocol. Our footprint calculations were mainly based on secondary emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -259,6 +274,8 @@
       "snippet_zh": "hodology We continually work to improve our footprint data to comply with the SBTi guidelines and the GHG Protocol. Our footprint calculations were mainly based on secondary emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -296,6 +313,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -333,6 +352,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -370,6 +391,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -407,6 +430,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -444,6 +469,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -481,6 +508,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -518,6 +547,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -555,6 +586,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -592,6 +625,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -629,6 +664,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -666,6 +703,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -703,6 +742,8 @@
       "snippet_zh": "print, with 57% of them carrying this out in 2023. More broadly we continue to support and encourage carbon footprinting as a key step in helping farmers understand what they ca...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -740,6 +781,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -777,6 +820,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -814,6 +859,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -851,6 +898,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -888,6 +937,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -925,6 +976,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -962,6 +1015,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -999,6 +1054,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1036,6 +1093,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1073,6 +1132,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1110,6 +1171,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1147,6 +1210,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1184,6 +1249,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1221,6 +1288,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1258,6 +1327,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1295,6 +1366,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1332,6 +1405,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1369,6 +1444,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1406,6 +1483,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1443,6 +1522,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1480,6 +1561,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1517,6 +1600,8 @@
       "snippet_zh": "ng to natural refrigerants. Separately, we are decarbonising our fleet through a combination of efficiency projects and asset replacements. Our total emissions footprint 2024/25...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1554,6 +1639,8 @@
       "snippet_zh": "ow-rolling resistance tyres to improve efficiency. In ROI, we’ve also replaced 50 diesel HGV trucks with biomethane-fuelled trucks. Within our Group capital strategic plan, we c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1591,6 +1678,8 @@
       "snippet_zh": "ow-rolling resistance tyres to improve efficiency. In ROI, we’ve also replaced 50 diesel HGV trucks with biomethane-fuelled trucks. Within our Group capital strategic plan, we c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1628,6 +1717,8 @@
       "snippet_zh": "rialling electric alternatives to gas boilers. In the UK, more than 95% of our convenience stores now use heat pumps. We’re also optimising heating settings and decommissioning ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 12",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1665,6 +1756,8 @@
       "snippet_zh": "rialling electric alternatives to gas boilers. In the UK, more than 95% of our convenience stores now use heat pumps. We’re also optimising heating settings and decommissioning ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 12",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1702,6 +1795,8 @@
       "snippet_zh": "commodities. This year our focus has been on supporting suppliers to be compliant across relevant categories and products. Our goal for sourcing soy goes beyond EUDR. We remain ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 17",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1739,6 +1834,8 @@
       "snippet_zh": "links Soy Sourcing soy responsibly Timber/paper Sourcing timber responsibly Beef Sourcing beef responsibly Palm oil Sourcing palm oil responsibly Coffee Cocoa Fish Sourcing seaf...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 19",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：19",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1776,6 +1873,8 @@
       "snippet_zh": "links Soy Sourcing soy responsibly Timber/paper Sourcing timber responsibly Beef Sourcing beef responsibly Palm oil Sourcing palm oil responsibly Coffee Cocoa Fish Sourcing seaf...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 19",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：19",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1813,6 +1912,8 @@
       "snippet_zh": "e progress we’re making on inclusion, including our gender and ethnicity pay gap Detailing the steps taken to minimise the risk of modern slavery in our operations and supply ch...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 45",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：45",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1856,6 +1957,8 @@
       "snippet_zh": "Databook. Planet. Topic Target Description of KPI Baseline year and figure 20/21 21/22 22/23 23/24 24/25 Climate change Carbon neutral across our own operations by 2035, aligned...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：46",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1899,6 +2002,8 @@
       "snippet_zh": "Databook. Planet. Topic Target Description of KPI Baseline year and figure 20/21 21/22 22/23 23/24 24/25 Climate change Carbon neutral across our own operations by 2035, aligned...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：46",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1936,6 +2041,8 @@
       "snippet_zh": "2024/25 Further information Fleet fuel management FB-FR-110a.1 Total fleet fuel consumed, percentage renewable Not disclosed 1,676 GWh 1,543 GWh 1,535 GWh Jump to climate change...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 54",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1973,6 +2080,8 @@
       "snippet_zh": "2024/25 Further information Fleet fuel management FB-FR-110a.1 Total fleet fuel consumed, percentage renewable Not disclosed 1,676 GWh 1,543 GWh 1,535 GWh Jump to climate change...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 54",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2016,6 +2125,8 @@
       "snippet_zh": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Sc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2059,6 +2170,8 @@
       "snippet_zh": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Sc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2096,6 +2209,8 @@
       "snippet_zh": "3 5,037 4,638 4,549 * Scope 3 disclosure includes: Third-party logistics that Tesco would otherwise fulfil; transmission and distribution losses and well-to-tank; business trave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2133,6 +2248,8 @@
       "snippet_zh": "3 5,037 4,638 4,549 * Scope 3 disclosure includes: Third-party logistics that Tesco would otherwise fulfil; transmission and distribution losses and well-to-tank; business trave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     }
@@ -2171,77 +2288,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r140_tesco",
-      "company_name_en": "TESCO",
-      "company_name_zh": "乐购",
-      "world500_rank": "140",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "46",
-      "source_file": "tesco-sustainability-report-2025.pdf",
-      "report_title": "tesco-sustainability-report-2025.pdf",
-      "snippet_en": "Databook. Planet. Topic Target Description of KPI Baseline year and figure 20/21 21/22 22/23 23/24 24/25 Climate change Carbon neutral across our own operations by 2035, aligned to a 1.5 degree pathway Percentage reduction of Scope 1 and 2",
-      "snippet_zh": "Databook. Planet. Topic Target Description of KPI Baseline year and figure 20/21 21/22 22/23 23/24 24/25 Climate change Carbon neutral across our own operations by 2035, aligned to a 1.5 degree pat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r140_tesco",
-      "company_name_en": "TESCO",
-      "company_name_zh": "乐购",
-      "world500_rank": "140",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "1,240,871",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "59",
-      "source_file": "tesco-sustainability-report-2025.pdf",
-      "report_title": "tesco-sustainability-report-2025.pdf",
-      "snippet_en": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based method) 1,095,671 13,631 16,107 7,796 6,259",
-      "snippet_zh": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r140_tesco",
-      "company_name_en": "TESCO",
-      "company_name_zh": "乐购",
-      "world500_rank": "140",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "1,095,671",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "59",
-      "source_file": "tesco-sustainability-report-2025.pdf",
-      "report_title": "tesco-sustainability-report-2025.pdf",
-      "snippet_en": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based method) 1,095,671 13,631 16,107 7,796 6,259",
-      "snippet_zh": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -2257,7 +2304,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 2",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2272,7 +2321,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 2",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2287,7 +2338,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 9",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：9"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2302,7 +2355,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2317,7 +2372,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2332,7 +2389,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2347,7 +2406,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2362,7 +2423,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2377,7 +2440,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2392,7 +2457,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2407,7 +2474,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2422,7 +2491,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2437,7 +2508,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2452,7 +2525,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2467,7 +2542,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2482,7 +2559,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2497,7 +2576,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2512,7 +2593,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2527,7 +2610,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2542,7 +2627,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2557,7 +2644,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2572,7 +2661,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2587,7 +2678,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2602,7 +2695,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2617,7 +2712,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2632,7 +2729,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2647,7 +2746,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2662,7 +2763,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2677,7 +2780,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2692,7 +2797,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2707,7 +2814,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2722,7 +2831,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2737,7 +2848,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2752,7 +2865,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2767,7 +2882,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2782,7 +2899,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2797,7 +2916,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2812,7 +2933,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2827,7 +2950,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2842,7 +2967,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 10",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2857,7 +2984,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2872,7 +3001,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2887,7 +3018,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 12",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2902,7 +3035,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 12",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2917,7 +3052,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 17",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2932,7 +3069,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 19",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：19"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2947,7 +3086,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 19",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：19"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2962,7 +3103,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 45",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2977,7 +3120,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2992,22 +3137,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "46",
-      "source_file": "tesco-sustainability-report-2025.pdf",
-      "report_title": "tesco-sustainability-report-2025.pdf",
-      "snippet_en": "Databook. Planet. Topic Target Description of KPI Baseline year and figure 20/21 21/22 22/23 23/24 24/25 Climate change Carbon neutral across our own operations by 2035, aligned to a 1.5 degree pathway Percentage reduction of Scope 1 and 2",
-      "snippet_zh": "Databook. Planet. Topic Target Description of KPI Baseline year and figure 20/21 21/22 22/23 23/24 24/25 Climate change Carbon neutral across our own operations by 2035, aligned to a 1.5 degree pat...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3022,7 +3154,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 54",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3037,7 +3171,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 54",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3052,7 +3188,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3067,7 +3205,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3082,7 +3222,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3097,37 +3239,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "59",
-      "source_file": "tesco-sustainability-report-2025.pdf",
-      "report_title": "tesco-sustainability-report-2025.pdf",
-      "snippet_en": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based method) 1,095,671 13,631 16,107 7,796 6,259",
-      "snippet_zh": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2 Market-based",
-      "label_zh": "范围2 市场法",
-      "page": "59",
-      "source_file": "tesco-sustainability-report-2025.pdf",
-      "report_title": "tesco-sustainability-report-2025.pdf",
-      "snippet_en": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based method) 1,095,671 13,631 16,107 7,796 6,259",
-      "snippet_zh": "Climate and energy. GHG emissions data - Group tCO2e 2015/16 baseline 2020/21 2021/22 2022/23 2023/24 2024/25 Scope 1 1,240,871 1,053,131 1,110,098 1,039,346 902,830 802,425◊ Scope 2 (Market-based ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: tesco-sustainability-report-2025.pdf | File: tesco-sustainability-report-2025.pdf | Page: 59",
+      "evidence_locator_zh": "报告：tesco-sustainability-report-2025.pdf | 文件：tesco-sustainability-report-2025.pdf | 页码：59"
     }
   ]
 }

@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "日本邮政控股公司-2023_all.pdf"
@@ -65,6 +70,8 @@
       "snippet_zh": "事業を展開して いますが、気候変動は郵便局ネットワークの寸断や、これ に伴うサービス提供の遮断にもつながる可能性がある など、当社グループの事業に重大な影響を及ぼす課題で あると認識しています。 当社グループでは、これまでも「日本郵政グループサス テナビリティ基本方針」においてSDGsの達成に向けた 取り組みの一...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 日本邮政控股公司-2023_all.pdf | File: 日本邮政控股公司-2023_all.pdf | Page: 19",
+      "evidence_locator_zh": "报告：日本邮政控股公司-2023_all.pdf | 文件：日本邮政控股公司-2023_all.pdf | 页码：19",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     }
@@ -104,6 +111,8 @@
       "snippet_zh": "数据注释明确说明环境指标仅覆盖主要集团公司及主要设施，属于业务单元边界披露。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 日本邮政控股公司-2023_all.pdf | File: 日本邮政控股公司-2023_all.pdf | Page: 90",
+      "evidence_locator_zh": "报告：日本邮政控股公司-2023_all.pdf | 文件：日本邮政控股公司-2023_all.pdf | 页码：90",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -126,7 +135,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 日本邮政控股公司-2023_all.pdf | File: 日本邮政控股公司-2023_all.pdf | Page: 19",
+      "evidence_locator_zh": "报告：日本邮政控股公司-2023_all.pdf | 文件：日本邮政控股公司-2023_all.pdf | 页码：19"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -141,7 +152,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 日本邮政控股公司-2023_all.pdf | File: 日本邮政控股公司-2023_all.pdf | Page: 90",
+      "evidence_locator_zh": "报告：日本邮政控股公司-2023_all.pdf | 文件：日本邮政控股公司-2023_all.pdf | 页码：90"
     }
   ]
 }

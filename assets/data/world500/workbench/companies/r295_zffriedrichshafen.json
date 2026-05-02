@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "ZF_AnnualReport24.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 53,
   "keyword_summary_count": 7,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 4,
-  "scope3_candidate_count": 3,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架"
   ],
@@ -101,6 +106,8 @@
       "snippet_zh": "s model, management and processes for this purpose. The basis for our activities is the climate risk analysis. APPROACH AND METHODOLOGY OF ZF’S CLIMATE RISK ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 64",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：64",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -123,6 +130,8 @@
       "snippet_zh": "ZF defined these science-based targets as early as in 2021. They were validated by the Science Based Targets initiative (SBTi) in January 2022 and are thus i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 65",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：65",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -145,6 +154,8 @@
       "snippet_zh": "ively seize opportunities. This is also evident in our approach to dealing with ­uncertainties regarding the regulatory framework for environmental, social a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 7",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：7",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     }
@@ -190,6 +201,8 @@
       "snippet_zh": "commitment to a sustainable circular economy was honored. The ZF Aftermarket Division rolled out a system solution for the process of returning used parts for remanufacturing an...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 10",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：10",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -233,6 +246,8 @@
       "snippet_zh": "income, analogous to the hedged item. The cumulative currency ­effects of the hedging instrument are not reclassified into the consolidated statement of profit or loss until the...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -276,6 +291,8 @@
       "snippet_zh": "liability is recognized at the present value of the future lease payments and discounted using the interest rate implicit in the lease. If this cannot be determined, ZF’s increm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -319,6 +336,8 @@
       "snippet_zh": ". In addition to the present value of the future lease payments, the cost of the right-of-use asset is determined by taking into account any payments made before the commencemen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 121",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：121",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -362,6 +381,8 @@
       "snippet_zh": ". In addition to the present value of the future lease payments, the cost of the right-of-use asset is determined by taking into account any payments made before the commencemen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 121",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：121",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -405,6 +426,8 @@
       "snippet_zh": "or fiscal years. Deferred tax ­income ­includes tax income of approximately €184 million (2023: €71 million) in ­connection with the development of temporary differences. The cu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 129",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：129",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -448,6 +471,8 @@
       "snippet_zh": "tinction is drawn between cash flows from operating, investing and financing activities. The cash flows from investing and financing activities are determined on the basis of pa...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 156",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：156",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -491,6 +516,8 @@
       "snippet_zh": "truments for which prices for identical assets and liabilities quoted on active markets are available. Allocation to level 2 occurs if input parameters are used for the measurem...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 159",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：159",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -537,6 +564,8 @@
       "snippet_zh": "would affect the fair value of these investments in participations in the amount of –€2 million (2023: –€9 million) to +€18 million (2023: +€69 million). The trade and other rec...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 161",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：161",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Measured data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 实测数据"
     },
@@ -583,6 +612,8 @@
       "snippet_zh": "would affect the fair value of these investments in participations in the amount of –€2 million (2023: –€9 million) to +€18 million (2023: +€69 million). The trade and other rec...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 161",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：161",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Measured data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 实测数据"
     },
@@ -629,6 +660,8 @@
       "snippet_zh": "would affect the fair value of these investments in participations in the amount of –€2 million (2023: –€9 million) to +€18 million (2023: +€69 million). The trade and other rec...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 161",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：161",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Measured data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 实测数据"
     },
@@ -666,6 +699,8 @@
       "snippet_zh": "consistently on reducing the CO2 emissions in our production plants and, where possible, eliminating them entirely. This enabled us to reduce CO2e emissions by 51 percent compar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 25",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -709,6 +744,8 @@
       "snippet_zh": "reas of environmental, social and ­corporate governance (ESG) in the year under ­review. The report is based on the European Sustainability Reporting Standards (ESRS), which are...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：59",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -746,6 +783,8 @@
       "snippet_zh": "ive program, we have selected the following non-financial KPIs: 1. CO2e emissions \u000710% of the total LTI is linked to our climate targets. The LTI’s share of the total remunerati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 61",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -783,6 +822,8 @@
       "snippet_zh": "ive program, we have selected the following non-financial KPIs: 1. CO2e emissions \u000710% of the total LTI is linked to our climate targets. The LTI’s share of the total remunerati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 61",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -820,6 +861,8 @@
       "snippet_zh": "hrough greenhouse gas ­emissions (GHG). Our Green Power Standard forms the basis for the purchase of green electricity and certificate manage- ment, demonstrating the credibilit...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 65",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：65",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -857,6 +900,8 @@
       "snippet_zh": "hrough greenhouse gas ­emissions (GHG). Our Green Power Standard forms the basis for the purchase of green electricity and certificate manage- ment, demonstrating the credibilit...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 65",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：65",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -894,6 +939,8 @@
       "snippet_zh": "or target achievement at various organizational levels during the year. We capture Product Carbon Footprint (PCF) values during procurement to ensure our suppliers have the lowe...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 66",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：66",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -931,6 +978,8 @@
       "snippet_zh": "MWh 2024 2023 2019 Baseline Total consumption of fuel 1,085,761 1,172,533 1,954,370 fuels from non-renewable sources 1) 1,081,762 1,169,369 1,954,370 thereof natural gas 944,623...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 67",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：67",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -974,6 +1023,8 @@
       "snippet_zh": "stream (in tCO2e per € million of sales) 1) 369.820 394.042 682.266 Net revenue (€ million) 41,377 46,627 36,518 1) \u0007In 2024 audited with limited assurance by EY. 2) \u0007In the rep...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Assurance; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：鉴证；原文命中关键词：次级数据"
     },
@@ -1011,6 +1062,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1048,6 +1101,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1085,6 +1140,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1122,6 +1179,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1159,6 +1218,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1196,6 +1257,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1233,6 +1296,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1270,6 +1335,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1307,6 +1374,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1344,6 +1413,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1381,6 +1452,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1418,6 +1491,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1455,6 +1530,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1492,6 +1569,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1529,6 +1608,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1575,6 +1656,8 @@
       "snippet_zh": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1621,6 +1704,8 @@
       "snippet_zh": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1658,6 +1743,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1695,6 +1782,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1732,6 +1821,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1769,6 +1860,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1806,6 +1899,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1843,6 +1938,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1880,6 +1977,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1917,6 +2016,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1954,6 +2055,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1991,6 +2094,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2028,6 +2133,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2065,6 +2172,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2102,6 +2211,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2139,6 +2250,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2176,6 +2289,8 @@
       "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2219,6 +2334,8 @@
       "snippet_zh": "er of the Board of Management responsible for Quality. “DNA of Quality” strategy In addition, we have implemented various strategies to ensure customer satisfaction and protect ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 98",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：98",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     }
@@ -2329,168 +2446,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r295_zffriedrichshafen",
-      "company_name_en": "ZF FRIEDRICHSHAFEN",
-      "company_name_zh": "采埃孚",
-      "world500_rank": "295",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r295_zffriedrichshafen",
-      "company_name_en": "ZF FRIEDRICHSHAFEN",
-      "company_name_zh": "采埃孚",
-      "world500_rank": "295",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 market-based 1) 0.649 0.805 1.371 Scope 1 +",
-      "snippet_zh": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r295_zffriedrichshafen",
-      "company_name_en": "ZF FRIEDRICHSHAFEN",
-      "company_name_zh": "采埃孚",
-      "world500_rank": "295",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "1",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 market-based 1) 0.649 0.805 1.371 Scope 1 +",
-      "snippet_zh": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r295_zffriedrichshafen",
-      "company_name_en": "ZF FRIEDRICHSHAFEN",
-      "company_name_zh": "采埃孚",
-      "world500_rank": "295",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "67.205",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r295_zffriedrichshafen",
-      "company_name_en": "ZF FRIEDRICHSHAFEN",
-      "company_name_zh": "采埃孚",
-      "world500_rank": "295",
-      "scope3_category_code": "1",
-      "scope3_category_en": "Category 1 Purchased goods and services",
-      "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r295_zffriedrichshafen",
-      "company_name_en": "ZF FRIEDRICHSHAFEN",
-      "company_name_zh": "采埃孚",
-      "world500_rank": "295",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "2",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "161",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "would affect the fair value of these investments in participations in the amount of –€2 million (2023: –€9 million) to +€18 million (2023: +€69 million). The trade and other receivables measured at fair value are allocated to level 2 since",
-      "snippet_zh": "would affect the fair value of these investments in participations in the amount of –€2 million (2023: –€9 million) to +€18 million (2023: +€69 million). The trade and other receivables measured at...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r295_zffriedrichshafen",
-      "company_name_en": "ZF FRIEDRICHSHAFEN",
-      "company_name_zh": "采埃孚",
-      "world500_rank": "295",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -2505,7 +2462,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 7",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：7"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2520,7 +2479,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 10",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2535,7 +2496,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 25",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2550,7 +2513,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2565,7 +2530,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 61",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2580,7 +2547,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 61",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：61"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2595,7 +2564,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 64",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2610,7 +2581,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 65",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：65"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2625,7 +2598,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 65",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：65"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2640,7 +2615,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 65",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：65"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2655,7 +2632,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 66",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2670,7 +2649,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 67",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2685,7 +2666,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2700,7 +2683,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2715,7 +2700,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2730,7 +2717,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2745,7 +2734,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2760,7 +2751,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2775,7 +2768,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2790,7 +2785,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2805,7 +2802,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2820,7 +2819,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2835,7 +2836,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2850,7 +2853,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2865,7 +2870,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2880,7 +2887,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2895,7 +2904,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2910,7 +2921,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2925,7 +2938,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2940,7 +2955,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2955,7 +2972,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2970,7 +2989,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2985,7 +3006,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Assurance; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：鉴证；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3000,7 +3023,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3015,7 +3040,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3030,7 +3057,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3045,7 +3074,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3060,7 +3091,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3075,7 +3108,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3090,7 +3125,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3105,7 +3142,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3120,7 +3159,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3135,7 +3176,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3150,7 +3193,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3165,97 +3210,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 1 Purchased goods and services",
-      "label_zh": "类别1 购买的商品和服务",
-      "page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 market-based 1) 0.649 0.805 1.371 Scope 1 +",
-      "snippet_zh": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2 Market-based",
-      "label_zh": "范围2 市场法",
-      "page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 market-based 1) 0.649 0.805 1.371 Scope 1 +",
-      "snippet_zh": "Gross GHG emissions of Scope 1, 2 and 3 and total GHG emissions in million tons (CO2-aquivalent) 2024 2023 2019 Baseline Scope 1 1) 0.229 0.247 0.406 Scope 2 1) location-based 1) 1.144 1.184 1.437 ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "68",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related emissions (not included in Scope 1 or 2) 1)",
-      "snippet_zh": "e per € million of sales) 21.220 22.562 48.661 Scope 3 67.205 82.456 102.719 1 Purchased goods and services 1) 12.345 15.169 21.688 2 Capital goods 1) 1.418 1.528 1.485 3 Fuel- and energy-related e...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 68",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3270,7 +3227,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 98",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：98"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3285,7 +3244,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3300,7 +3261,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3315,7 +3278,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 121",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：121"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3330,7 +3295,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 121",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：121"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3345,7 +3312,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 129",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：129"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3360,7 +3329,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 156",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：156"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3375,7 +3346,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 159",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：159"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3390,7 +3363,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Measured data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 161",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：161"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3405,7 +3380,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Measured data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 161",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：161"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3420,22 +3397,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Measured data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "161",
-      "source_file": "ZF_AnnualReport24.pdf",
-      "report_title": "ZF_AnnualReport24.pdf",
-      "snippet_en": "would affect the fair value of these investments in participations in the amount of –€2 million (2023: –€9 million) to +€18 million (2023: +€69 million). The trade and other receivables measured at fair value are allocated to level 2 since",
-      "snippet_zh": "would affect the fair value of these investments in participations in the amount of –€2 million (2023: –€9 million) to +€18 million (2023: +€69 million). The trade and other receivables measured at...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: ZF_AnnualReport24.pdf | File: ZF_AnnualReport24.pdf | Page: 161",
+      "evidence_locator_zh": "报告：ZF_AnnualReport24.pdf | 文件：ZF_AnnualReport24.pdf | 页码：161"
     }
   ]
 }

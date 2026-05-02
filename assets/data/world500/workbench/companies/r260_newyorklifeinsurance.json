@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet, but source-text candidates are present for review and backfill.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，但已有原文候选值可进入复核与回填。",
   "report_count": 1,
   "report_titles": [
     "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 68,
   "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 4,
-  "scope3_candidate_count": 5,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 1,
   "standard_systems_zh": [
     "GHG 体系",
     "ESG 披露框架",
@@ -101,6 +106,8 @@
       "snippet_zh": "OPERATIONAL TARGET AND SCOPE 1 AND 2 EMISSIONS In 2024, New York Life's operational Scope 1 and 2 were down 16% compared to our 2019 baseline. This is due to...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -123,6 +130,8 @@
       "snippet_zh": "Life | Corporate Responsibility Report 01 49 Empowering Our People 05 06 07 07 Appendix 02 01 03 04 05 06 Appendix SUSTAINABILITY SCORECARD STAKEHOLDER ENGAG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：49",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -145,6 +154,8 @@
       "snippet_zh": "CFD report is intended to provide our stakeholders with an understanding of how New York Life addresses climate risk throughout our organization and across o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：56",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -167,6 +178,8 @@
       "snippet_zh": "billion in total company dividends annually, with more than $50 billion in total dividend payments over that time. This track record of success and sharing i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：6",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -189,6 +202,8 @@
       "snippet_zh": "missions calculation New York Life is working on measuring our financed emissions where data is available and standard calculation methodologies exist. For m...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 64",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：64",
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法"
     }
@@ -228,6 +243,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -265,6 +282,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -302,6 +321,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -339,6 +360,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -376,6 +399,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -413,6 +438,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -450,6 +477,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -487,6 +516,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -524,6 +555,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -561,6 +594,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -598,6 +633,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -635,6 +672,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -672,6 +711,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -715,6 +756,8 @@
       "snippet_zh": "col Corporate Standardxvii to calculate our emissions. Additionally, New York Life employs estimates for about 30% of our Scope 2 emissions (based on total square footage) for l...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -752,6 +795,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -789,6 +834,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -826,6 +873,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -863,6 +912,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -900,6 +951,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -937,6 +990,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -974,6 +1029,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1011,6 +1068,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1048,6 +1107,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1085,6 +1146,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1122,6 +1185,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1159,6 +1224,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1196,6 +1263,8 @@
       "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services compan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1239,6 +1308,8 @@
       "snippet_zh": "aminate work surfaces. Only 4.5% of the materials ended up going into the waste stream, resulting in a 95.5% diversion rate for this project, and over 1,700 tons of avoided emis...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：47",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1276,6 +1347,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1313,6 +1386,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1350,6 +1425,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1387,6 +1464,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1424,6 +1503,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1467,6 +1548,8 @@
       "snippet_zh": "New York Life | Corporate Responsibility Report 01 54 Empowering Our People 05 06 07 07 Appendix 02 01 03 04 05 06 OPERATING WITH ENVIRONMENTAL RESPONSIBILITY27 2019 2020 2021 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1510,6 +1593,8 @@
       "snippet_zh": "New York Life | Corporate Responsibility Report 01 54 Empowering Our People 05 06 07 07 Appendix 02 01 03 04 05 06 OPERATING WITH ENVIRONMENTAL RESPONSIBILITY27 2019 2020 2021 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1547,6 +1632,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1584,6 +1671,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1621,6 +1710,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1658,6 +1749,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1695,6 +1788,8 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1732,6 +1827,8 @@
       "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Su...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1769,6 +1866,8 @@
       "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Su...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1806,6 +1905,8 @@
       "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Su...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1843,6 +1944,8 @@
       "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Su...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1880,6 +1983,8 @@
       "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Su...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1917,6 +2022,8 @@
       "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Su...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1954,6 +2061,8 @@
       "snippet_zh": "rs and issuers. In addition to New York Life’s entity-wide GHG emissions inventory, certain subsidiaries and asset management boutiques calculate and report their own inventorie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1991,6 +2100,8 @@
       "snippet_zh": "rs and issuers. In addition to New York Life’s entity-wide GHG emissions inventory, certain subsidiaries and asset management boutiques calculate and report their own inventorie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2028,6 +2139,8 @@
       "snippet_zh": "rs and issuers. In addition to New York Life’s entity-wide GHG emissions inventory, certain subsidiaries and asset management boutiques calculate and report their own inventorie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2065,6 +2178,8 @@
       "snippet_zh": "orking on the following categories: • Category 1: Purchased Goods and Services New York Life is actively working to collect data related to the greenhouse gas emissions of our s...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2102,6 +2217,8 @@
       "snippet_zh": "orking on the following categories: • Category 1: Purchased Goods and Services New York Life is actively working to collect data related to the greenhouse gas emissions of our s...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2139,6 +2256,8 @@
       "snippet_zh": "orking on the following categories: • Category 1: Purchased Goods and Services New York Life is actively working to collect data related to the greenhouse gas emissions of our s...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2176,6 +2295,8 @@
       "snippet_zh": "orking on the following categories: • Category 1: Purchased Goods and Services New York Life is actively working to collect data related to the greenhouse gas emissions of our s...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2213,6 +2334,8 @@
       "snippet_zh": "orking on the following categories: • Category 1: Purchased Goods and Services New York Life is actively working to collect data related to the greenhouse gas emissions of our s...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2250,6 +2373,8 @@
       "snippet_zh": "rs and issuers. In addition to New York Life’s entity-wide GHG emissions inventory, certain subsidiaries and asset management boutiques calculate and report their own inventorie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2287,6 +2412,8 @@
       "snippet_zh": "rs and issuers. In addition to New York Life’s entity-wide GHG emissions inventory, certain subsidiaries and asset management boutiques calculate and report their own inventorie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2324,6 +2451,8 @@
       "snippet_zh": "rs and issuers. In addition to New York Life’s entity-wide GHG emissions inventory, certain subsidiaries and asset management boutiques calculate and report their own inventorie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2367,6 +2496,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2410,6 +2541,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2453,6 +2586,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2496,6 +2631,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2539,6 +2676,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2582,6 +2721,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2625,6 +2766,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2668,6 +2811,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2711,6 +2856,8 @@
       "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2748,6 +2895,8 @@
       "snippet_zh": "le – SVP, Corporate Responsibility, and President, New York Life Foundation (heather_nesle@newyorklife.com) d. Lydia Jung – Media Contact (Lydia_Jung@newyorklife.com) 2-4 Restat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：66",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2785,6 +2934,8 @@
       "snippet_zh": "o various stakeholders. These terms are not intended to align with their definitions in financial statements, financial reporting, or SEC rules. xvii ghgprotocol.org/corporate-s...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 72",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：72",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -2858,100 +3009,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "44",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following categories of Scope 3 emissions are not releva",
-      "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following cat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "54",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emissions by Fuel Type (Scope 1) Emissions (MT CO2e",
-      "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emission...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "6,072",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "54",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "New York Life | Corporate Responsibility Report 01 54 Empowering Our People 05 06 07 07 Appendix 02 01 03 04 05 06 OPERATING WITH ENVIRONMENTAL RESPONSIBILITY27 2019 2020 2021 2022 2023 2024 Scope 1 GHG Emissions 6,072 6,704 7,702 9,866 10,",
-      "snippet_zh": "New York Life | Corporate Responsibility Report 01 54 Empowering Our People 05 06 07 07 Appendix 02 01 03 04 05 06 OPERATING WITH ENVIRONMENTAL RESPONSIBILITY27 2019 2020 2021 2022 2023 2024 Scope ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "28,431",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "54",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emissions by Fuel Type (Scope 1) Emissions (MT CO2e",
-      "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emission...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [
     {
       "company_id": "r260_newyorklifeinsurance",
@@ -2961,9 +3019,9 @@
       "scope3_category_code": "13",
       "scope3_category_en": "Category 13 Downstream leased assets",
       "scope3_category_zh": "类别13 下游租赁资产",
-      "value_text": "2",
-      "unit_context": "",
-      "value_mtco2e": NaN,
+      "value_text": "10,846",
+      "unit_context": "MtCO2e",
+      "value_mtco2e": 10846.0,
       "evidence_page": "54",
       "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
       "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
@@ -2971,97 +3029,21 @@
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "2024",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "61",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Sustainability Report. New York Life discloses its carbon dioxide",
-      "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Sustainability Report....",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "410",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "63",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financed Emissions FN-IN-410c.1: Absolute gross financed emissions, d",
-      "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financed Emissions FN-IN-4...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "3",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "44",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following categories of Scope 3 emissions are not releva",
-      "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following cat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r260_newyorklifeinsurance",
-      "company_name_en": "NEW YORK LIFE INSURANCE",
-      "company_name_zh": "美国纽约人寿保险公司",
-      "world500_rank": "260",
-      "scope3_category_code": "8",
-      "scope3_category_en": "Category 8 Upstream leased assets",
-      "scope3_category_zh": "类别8 上游租赁资产",
-      "value_text": "3",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "44",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following categories of Scope 3 emissions are not releva",
-      "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following cat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
+      "candidate_quality": "high",
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "J",
+      "industry_section_en": "Finance",
+      "industry_section_zh": "金融业",
+      "industry_comparable_company_count": 1,
+      "acceptance_tier_code": "C2",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     }
   ],
   "evidence_ledger": [
@@ -3078,7 +3060,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3093,7 +3077,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3108,7 +3094,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3123,7 +3111,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3138,7 +3128,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3153,7 +3145,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3168,7 +3162,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3183,7 +3179,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3198,7 +3196,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3213,7 +3213,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3228,7 +3230,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3243,7 +3247,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3258,7 +3264,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3273,7 +3281,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3288,7 +3298,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3303,7 +3315,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3318,7 +3332,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3333,7 +3349,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3348,7 +3366,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3363,7 +3383,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3378,7 +3400,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3393,7 +3417,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3408,7 +3434,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3423,7 +3451,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3438,7 +3468,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3453,7 +3485,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3468,7 +3502,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3483,52 +3519,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "44",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following categories of Scope 3 emissions are not releva",
-      "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following cat...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 8 Upstream leased assets",
-      "label_zh": "类别8 上游租赁资产",
-      "page": "44",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following categories of Scope 3 emissions are not releva",
-      "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following cat...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "44",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following categories of Scope 3 emissions are not releva",
-      "snippet_zh": "ed not relevant because they are already included in our Scope 1 and 2 emissions: Upstream Capital Goods and Upstream Leased Assets. Additionally, as a financial services company, the following cat...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3543,7 +3536,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3558,7 +3553,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：47"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3573,7 +3570,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3588,7 +3587,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3603,7 +3604,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3618,7 +3621,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3633,7 +3638,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3648,7 +3655,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3663,7 +3672,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3678,7 +3689,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3693,7 +3706,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3708,7 +3723,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3723,7 +3740,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3738,7 +3757,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3753,7 +3774,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Scope 3 category value candidate",
@@ -3765,55 +3788,14 @@
       "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
       "snippet_en": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emissions by Fuel Type (Scope 1) Emissions (MT CO2e",
       "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emission...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "54",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emissions by Fuel Type (Scope 1) Emissions (MT CO2e",
-      "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emission...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "54",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "New York Life | Corporate Responsibility Report 01 54 Empowering Our People 05 06 07 07 Appendix 02 01 03 04 05 06 OPERATING WITH ENVIRONMENTAL RESPONSIBILITY27 2019 2020 2021 2022 2023 2024 Scope 1 GHG Emissions 6,072 6,704 7,702 9,866 10,",
-      "snippet_zh": "New York Life | Corporate Responsibility Report 01 54 Empowering Our People 05 06 07 07 Appendix 02 01 03 04 05 06 OPERATING WITH ENVIRONMENTAL RESPONSIBILITY27 2019 2020 2021 2022 2023 2024 Scope ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "54",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emissions by Fuel Type (Scope 1) Emissions (MT CO2e",
-      "snippet_zh": "k-at-Home (MT CO2e) - - - 748 8,164 11,475 Category 13: Downstream Leased Assets (MT CO2e) 10,846 12,121 13,961 17,308 15,002 27,734 Total Scope 3 28,431 18,189 18,409 30,180 39,420 57,931 Emission...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "confidence_level": "high",
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：54",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3828,7 +3810,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3843,7 +3827,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3858,7 +3844,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3873,7 +3861,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3888,7 +3878,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3903,7 +3895,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3918,22 +3912,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "61",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Sustainability Report. New York Life discloses its carbon dioxide",
-      "snippet_zh": "covering Insurance as a part of its annual disclosure. New York Life Investments publishes an SASB Index that covers Asset Management & Custodial Services as part of its 2024 Sustainability Report....",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3948,7 +3929,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3963,7 +3946,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3978,7 +3963,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3993,7 +3980,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4008,7 +3997,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4023,7 +4014,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4038,7 +4031,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4053,7 +4048,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4068,7 +4065,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4083,7 +4082,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4098,7 +4099,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4113,7 +4116,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4128,7 +4133,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4143,7 +4150,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4158,7 +4167,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4173,7 +4184,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4188,7 +4201,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4203,7 +4218,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4218,7 +4235,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4233,22 +4252,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "63",
-      "source_file": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "report_title": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
-      "snippet_en": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financed Emissions FN-IN-410c.1: Absolute gross financed emissions, d",
-      "snippet_zh": "ntally responsible actions and/or behaviors Please see the “Managing Capital Responsibly” section of this report and the New York Life Investments’ Sustainability Report. Financed Emissions FN-IN-4...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4263,7 +4269,9 @@
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 64",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4278,7 +4286,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4293,7 +4303,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | File: 2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | Page: 72",
+      "evidence_locator_zh": "报告：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 文件：2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf | 页码：72"
     }
   ]
 }

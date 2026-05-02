@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 99,
   "keyword_summary_count": 9,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 2,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "GHG 体系",
@@ -113,6 +118,8 @@
       "snippet_zh": ". 96 Economic inclusion . . . . . . . . . . . . . . . . . . . . 100 Appendices . . . . . . . . . . . . . . . . . . . 102 Appendix 1: Endnotes . . . . . . . ....",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -135,6 +142,8 @@
       "snippet_zh": "ional details on our methodology, including how our approach differs from those of other banks and third-parties, refer to Appendix 5: Methodology and data c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 48",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：48",
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准"
     },
@@ -157,6 +166,8 @@
       "snippet_zh": "B-15 disclosure expectations. • I nternational Financial Reporting Standards (IFRS) Sustainability Standards – issued by the International Sustainability Sta...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：5",
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准"
     },
@@ -179,6 +190,8 @@
       "snippet_zh": "B-15 disclosure expectations. • I nternational Financial Reporting Standards (IFRS) Sustainability Standards – issued by the International Sustainability Sta...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：5",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -201,6 +214,8 @@
       "snippet_zh": "le 16: Global emissions from our operations, for the year ended October 31 provides our global operational emissions for the last three years and our 2018 ba...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -246,6 +261,8 @@
       "snippet_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104",
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -289,6 +306,8 @@
       "snippet_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104",
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -326,6 +345,8 @@
       "snippet_zh": "ions. To guide companies in the task of identifying and calculating the emissions they create and contribute to across the value chain, the GHG Protocol Corporate Accounting and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -369,6 +390,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -412,6 +435,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -455,6 +480,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -492,6 +519,8 @@
       "snippet_zh": "ions. To guide companies in the task of identifying and calculating the emissions they create and contribute to across the value chain, the GHG Protocol Corporate Accounting and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -535,6 +564,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -578,6 +609,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -621,6 +654,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -658,6 +693,8 @@
       "snippet_zh": "ions. To guide companies in the task of identifying and calculating the emissions they create and contribute to across the value chain, the GHG Protocol Corporate Accounting and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -701,6 +738,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -744,6 +783,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -787,6 +828,8 @@
       "snippet_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -830,6 +873,8 @@
       "snippet_zh": "53. Emission factors are a way to estimate the emissions of our clients. We use both internally-developed and external emission factors that are generally developed using a vari...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 107",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：107",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -873,6 +918,8 @@
       "snippet_zh": "rces such as hydroelectricity, wind and solar. Renewable energy Renewable energy is defined as the construction, development, operation, acquisition, maintenance and connection ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 112",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：112",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
     },
@@ -922,6 +969,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -971,6 +1020,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1020,6 +1071,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1069,6 +1122,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1118,6 +1173,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1167,6 +1224,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1216,6 +1275,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1265,6 +1326,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1314,6 +1377,8 @@
       "snippet_zh": ", 10-11) Description of proxy voting and investee engagement policies and procedures FN-AC-410a.3 Refer to the following: ■ RBC GAM Our Approach to Responsible Investment (pages...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -1357,6 +1422,8 @@
       "snippet_zh": "dit analysis FN-CB-410a.2 Refer to the following: ■ Climate-related risk management in this Report ■ 2024 Annual Report for Environmental and social risk management (pages 68, 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1400,6 +1467,8 @@
       "snippet_zh": "dit analysis FN-CB-410a.2 Refer to the following: ■ Climate-related risk management in this Report ■ 2024 Annual Report for Environmental and social risk management (pages 68, 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1443,6 +1512,8 @@
       "snippet_zh": "dit analysis FN-CB-410a.2 Refer to the following: ■ Climate-related risk management in this Report ■ 2024 Annual Report for Environmental and social risk management (pages 68, 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1486,6 +1557,8 @@
       "snippet_zh": "dit analysis FN-CB-410a.2 Refer to the following: ■ Climate-related risk management in this Report ■ 2024 Annual Report for Environmental and social risk management (pages 68, 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1529,6 +1602,8 @@
       "snippet_zh": "dit analysis FN-CB-410a.2 Refer to the following: ■ Climate-related risk management in this Report ■ 2024 Annual Report for Environmental and social risk management (pages 68, 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1572,6 +1647,8 @@
       "snippet_zh": "dit analysis FN-CB-410a.2 Refer to the following: ■ Climate-related risk management in this Report ■ 2024 Annual Report for Environmental and social risk management (pages 68, 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1618,6 +1695,8 @@
       "snippet_zh": "e metrics used by the FRFI to assess climate-related risks and opportunities in line with its strategy and risk management process. Climate: Climate-related risk management Clim...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 估算数据"
     },
@@ -1664,6 +1743,8 @@
       "snippet_zh": "e metrics used by the FRFI to assess climate-related risks and opportunities in line with its strategy and risk management process. Climate: Climate-related risk management Clim...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 估算数据"
     },
@@ -1707,6 +1788,8 @@
       "snippet_zh": "Report for more details). Eligible activities under low-carbon energy are: ■renewable energy: construction, development, operation, acquisition, maintenance and connection of th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 128",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：128",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
     },
@@ -1750,6 +1833,8 @@
       "snippet_zh": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synt...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1793,6 +1878,8 @@
       "snippet_zh": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synt...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1836,6 +1923,8 @@
       "snippet_zh": "ted emissions: When a client directly reports their emissions data, via a company’s sustainability report or other publicly available disclosures, we source this data directly f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 135",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：135",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1879,6 +1968,8 @@
       "snippet_zh": "nd availability We collect client emissions data from publicly available sources of information, through engagement with our clients, and through third-party data vendors. Where...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1922,6 +2013,8 @@
       "snippet_zh": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1965,6 +2058,8 @@
       "snippet_zh": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2008,6 +2103,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2051,6 +2148,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2094,6 +2193,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2137,6 +2238,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2180,6 +2283,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2223,6 +2328,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2266,6 +2373,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2309,6 +2418,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2352,6 +2463,8 @@
       "snippet_zh": "tives (Canada) 43% Percentage of BIPOC Executives (Canada) 27% Percentage of Women in Senior Management (Canada) 40% Percentage of BIPOC in Senior Management (Canada) 40% Percen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -2395,6 +2508,8 @@
       "snippet_zh": "imates and judgments. In addition, as discussed herein, some of the information provided, including regarding our Interim Targets, our performance against our sustainability-rel...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 150",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：150",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据"
     },
@@ -2438,6 +2553,8 @@
       "snippet_zh": "Capital Markets segments. (9) For information about our authorized lending to pure play low-carbon energy entities, refer to Advise and finance client actions that support the t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2481,6 +2598,8 @@
       "snippet_zh": "Capital Markets segments. (9) For information about our authorized lending to pure play low-carbon energy entities, refer to Advise and finance client actions that support the t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2524,6 +2643,8 @@
       "snippet_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2567,6 +2688,8 @@
       "snippet_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2610,6 +2733,8 @@
       "snippet_zh": "Capital Markets segments. (9) For information about our authorized lending to pure play low-carbon energy entities, refer to Advise and finance client actions that support the t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2653,6 +2778,8 @@
       "snippet_zh": "Capital Markets segments. (9) For information about our authorized lending to pure play low-carbon energy entities, refer to Advise and finance client actions that support the t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2696,6 +2823,8 @@
       "snippet_zh": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Cl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2739,6 +2868,8 @@
       "snippet_zh": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Cl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2782,6 +2913,8 @@
       "snippet_zh": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Cl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2825,6 +2958,8 @@
       "snippet_zh": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Cl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2862,6 +2997,8 @@
       "snippet_zh": "des our global operational emissions for the last three years and our 2018 baseline. We report on our operational emissions with multi- year data calculated in accordance with t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2899,6 +3036,8 @@
       "snippet_zh": "des our global operational emissions for the last three years and our 2018 baseline. We report on our operational emissions with multi- year data calculated in accordance with t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2936,6 +3075,8 @@
       "snippet_zh": "ing fuels, such as natural gas used to heat our branches, major properties, and data centres. We also include emissions associated with business travel in company-owned and leas...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2973,6 +3114,8 @@
       "snippet_zh": "ing fuels, such as natural gas used to heat our branches, major properties, and data centres. We also include emissions associated with business travel in company-owned and leas...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3010,6 +3153,8 @@
       "snippet_zh": "ing fuels, such as natural gas used to heat our branches, major properties, and data centres. We also include emissions associated with business travel in company-owned and leas...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3056,6 +3201,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3102,6 +3249,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3148,6 +3297,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3194,6 +3345,8 @@
       "snippet_zh": "l Scope 2 Guidance defines the market-based method as a method for Scope 2 emissions accounting that reflects emissions from electricity that a reporting company has purposely c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Derived data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 推导数据"
     },
@@ -3240,6 +3393,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3286,6 +3441,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3332,6 +3489,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3378,6 +3537,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3424,6 +3585,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3470,6 +3633,8 @@
       "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -3513,6 +3678,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3556,6 +3723,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3599,6 +3768,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3642,6 +3813,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3685,6 +3858,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3728,6 +3903,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3771,6 +3948,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3814,6 +3993,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3857,6 +4038,8 @@
       "snippet_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3900,6 +4083,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3943,6 +4128,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -3986,6 +4173,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -4029,6 +4218,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -4072,6 +4263,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -4115,6 +4308,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -4158,6 +4353,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -4201,6 +4398,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -4244,6 +4443,8 @@
       "snippet_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -4287,6 +4488,8 @@
       "snippet_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -4330,6 +4533,8 @@
       "snippet_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -4373,6 +4578,8 @@
       "snippet_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -4416,6 +4623,8 @@
       "snippet_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -4459,6 +4668,8 @@
       "snippet_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -4502,6 +4713,8 @@
       "snippet_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     }
@@ -4681,78 +4894,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r137_royalbankofcanada",
-      "company_name_en": "ROYAL BANK OF CANADA",
-      "company_name_zh": "加拿大皇家银行",
-      "world500_rank": "137",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "23,090",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "59",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 location-based (1) 68,051 63,713 65,577 102,",
-      "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 l...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r137_royalbankofcanada",
-      "company_name_en": "ROYAL BANK OF CANADA",
-      "company_name_zh": "加拿大皇家银行",
-      "world500_rank": "137",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "1",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "59",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 location-based (1) 68,051 63,713 65,577 102,",
-      "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 l...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r137_royalbankofcanada",
-      "company_name_en": "ROYAL BANK OF CANADA",
-      "company_name_zh": "加拿大皇家银行",
-      "world500_rank": "137",
-      "scope3_category_code": "6",
-      "scope3_category_en": "Category 6 Business travel",
-      "scope3_category_zh": "类别6 商务差旅",
-      "value_text": "2",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "58",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ing fuels, such as natural gas used to heat our branches, major properties, and data centres. We also include emissions associated with business travel in company-owned and leased modes of transportation. ■Scope 2 (Indirect) – Electricity a",
-      "snippet_zh": "ing fuels, such as natural gas used to heat our branches, major properties, and data centres. We also include emissions associated with business travel in company-owned and leased modes of transpor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -4767,7 +4910,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4782,7 +4927,9 @@
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4797,7 +4944,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4812,7 +4961,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4827,7 +4978,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4842,7 +4995,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4857,7 +5012,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4872,7 +5029,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4887,7 +5046,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4902,7 +5063,9 @@
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 48",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：48"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4917,7 +5080,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4932,7 +5097,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4947,7 +5114,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4962,7 +5131,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4977,7 +5148,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4992,7 +5165,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5007,7 +5182,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5022,7 +5199,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5037,22 +5216,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 6 Business travel",
-      "label_zh": "类别6 商务差旅",
-      "page": "58",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ing fuels, such as natural gas used to heat our branches, major properties, and data centres. We also include emissions associated with business travel in company-owned and leased modes of transportation. ■Scope 2 (Indirect) – Electricity a",
-      "snippet_zh": "ing fuels, such as natural gas used to heat our branches, major properties, and data centres. We also include emissions associated with business travel in company-owned and leased modes of transpor...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5067,7 +5233,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5082,7 +5250,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5097,7 +5267,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5112,7 +5284,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5127,7 +5301,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Derived data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5142,7 +5318,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5157,7 +5335,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5172,7 +5352,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5187,7 +5369,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5202,7 +5386,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5217,37 +5403,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "59",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 location-based (1) 68,051 63,713 65,577 102,",
-      "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 l...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2 Market-based",
-      "label_zh": "范围2 市场法",
-      "page": "59",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 location-based (1) 68,051 63,713 65,577 102,",
-      "snippet_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 l...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5262,7 +5420,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5277,7 +5437,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5292,7 +5454,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5307,7 +5471,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5322,7 +5488,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5337,7 +5505,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5352,7 +5522,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5367,7 +5539,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5382,7 +5556,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5397,7 +5573,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5412,7 +5590,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5427,7 +5607,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5442,7 +5624,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5457,7 +5641,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5472,7 +5658,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5487,7 +5675,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5502,7 +5692,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5517,7 +5709,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 69",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5532,7 +5726,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5547,7 +5743,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5562,7 +5760,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5577,7 +5777,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5592,7 +5794,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5607,7 +5811,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5622,7 +5828,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5637,7 +5845,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5652,7 +5862,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5667,7 +5879,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5682,7 +5896,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5697,7 +5913,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5712,7 +5930,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5727,7 +5947,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5742,7 +5964,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5757,7 +5981,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5772,7 +5998,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5787,7 +6015,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5802,7 +6032,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5817,7 +6049,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5832,7 +6066,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 107",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5847,7 +6083,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 112",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：112"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5862,7 +6100,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5877,7 +6117,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5892,7 +6134,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5907,7 +6151,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5922,7 +6168,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5937,7 +6185,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5952,7 +6202,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5967,7 +6219,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5982,7 +6236,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5997,7 +6253,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6012,7 +6270,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6027,7 +6287,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6042,7 +6304,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6057,7 +6321,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6072,7 +6338,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6087,7 +6355,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6102,7 +6372,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6117,7 +6389,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 128",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：128"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6132,7 +6406,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6147,7 +6423,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6162,7 +6440,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 135",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：135"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6177,7 +6457,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6192,7 +6474,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6207,7 +6491,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6222,7 +6508,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6237,7 +6525,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6252,7 +6542,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6267,7 +6559,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6282,7 +6576,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6297,7 +6593,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6312,7 +6610,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6327,7 +6627,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6342,7 +6644,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 147",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6357,7 +6661,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 150",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：150"
     }
   ]
 }

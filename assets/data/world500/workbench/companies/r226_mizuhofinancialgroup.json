@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "MIZUHO FINANCIAL GROUP esg_databook_2024.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 4,
   "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "其他标准/指引"
@@ -75,6 +80,8 @@
       "snippet_zh": "The ESG databook cites the Basic Guidelines Ver. 2.6 concerning supply-chain greenhouse-gas calculation.",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16",
       "recognition_basis_en": "Structured standard tag: Basic Guidelines for Calculating Greenhouse Gas Emissions Throughout the Supply Chain Ver. 2.6; Standard role: Accounting guideline",
       "recognition_basis_zh": "结构化标准标注：供应链温室气体排放量算定基本指南 Ver.2.6；标准角色：核算指引"
     }
@@ -120,6 +127,8 @@
       "snippet_zh": "69 ガソリン*2海外分 Gasoline outside Japan t- CO2 962 753 663 ☆ 602 880 678 〇 1,135 小計 Subtotal t- CO2 14,756 ★ 14,053 ★ 11,306 ☆ 11,996 12,453 10,946 〇 11,566 間接的エネルギ ー消費 （スコープ２） Indi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：14",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -163,6 +172,8 @@
       "snippet_zh": "renewable energy menus. 算定方法（CO2排出量）/ Calculation method (CO2 emissions) *9 算定には地球温暖化対策の推進に関する法律に基づく排出係数を使用。算定式は 「エネルギー使用量×エネルギー毎の排出係数」。なお、直接的エネルギー消費および間接的エネルギー消費の量については、 移転に伴う対...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -200,6 +211,8 @@
       "snippet_zh": "\" Basic Guidelines Ver. 2.6 Concerning the Calculation of Greenhouse Gas Emission Volume throughout Supply Chains” \" (Ministry of the Environment and Ministry of Economy, Trade ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -237,6 +250,8 @@
       "snippet_zh": "\" Basic Guidelines Ver. 2.6 Concerning the Calculation of Greenhouse Gas Emission Volume throughout Supply Chains” \" (Ministry of the Environment and Ministry of Economy, Trade ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     }
@@ -261,31 +276,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r226_mizuhofinancialgroup",
-      "company_name_en": "MIZUHO FINANCIAL GROUP",
-      "company_name_zh": "日本瑞穗金融集团",
-      "world500_rank": "226",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "14",
-      "source_file": "MIZUHO FINANCIAL GROUP esg_databook_2024.pdf",
-      "report_title": "MIZUHO FINANCIAL GROUP esg_databook_2024.pdf",
-      "snippet_en": "69 ガソリン*2海外分 Gasoline outside Japan t- CO2 962 753 663 ☆ 602 880 678 〇 1,135 小計 Subtotal t- CO2 14,756 ★ 14,053 ★ 11,306 ☆ 11,996 12,453 10,946 〇 11,566 間接的エネルギ ー消費 （スコープ２） Indirect energy consumption (Scope 2) 電力*3国内分（基礎排出係数）*10 Electricit",
-      "snippet_zh": "69 ガソリン*2海外分 Gasoline outside Japan t- CO2 962 753 663 ☆ 602 880 678 〇 1,135 小計 Subtotal t- CO2 14,756 ★ 14,053 ★ 11,306 ☆ 11,996 12,453 10,946 〇 11,566 間接的エネルギ ー消費 （スコープ２） Indirect energy consumpt...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -301,22 +292,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "14",
-      "source_file": "MIZUHO FINANCIAL GROUP esg_databook_2024.pdf",
-      "report_title": "MIZUHO FINANCIAL GROUP esg_databook_2024.pdf",
-      "snippet_en": "69 ガソリン*2海外分 Gasoline outside Japan t- CO2 962 753 663 ☆ 602 880 678 〇 1,135 小計 Subtotal t- CO2 14,756 ★ 14,053 ★ 11,306 ☆ 11,996 12,453 10,946 〇 11,566 間接的エネルギ ー消費 （スコープ２） Indirect energy consumption (Scope 2) 電力*3国内分（基礎排出係数）*10 Electricit",
-      "snippet_zh": "69 ガソリン*2海外分 Gasoline outside Japan t- CO2 962 753 663 ☆ 602 880 678 〇 1,135 小計 Subtotal t- CO2 14,756 ★ 14,053 ★ 11,306 ☆ 11,996 12,453 10,946 〇 11,566 間接的エネルギ ー消費 （スコープ２） Indirect energy consumpt...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -331,7 +309,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -346,7 +326,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -361,7 +343,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Standard reference",
@@ -376,7 +360,9 @@
       "recognition_basis_en": "Structured standard tag: Basic Guidelines for Calculating Greenhouse Gas Emissions Throughout the Supply Chain Ver. 2.6; Standard role: Accounting guideline",
       "recognition_basis_zh": "结构化标准标注：供应链温室气体排放量算定基本指南 Ver.2.6；标准角色：核算指引",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | File: MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 文件：MIZUHO FINANCIAL GROUP esg_databook_2024.pdf | 页码：16"
     }
   ]
 }

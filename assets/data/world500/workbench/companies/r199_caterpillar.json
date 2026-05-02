@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet, but source-text candidates are present for review and backfill.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，但已有原文候选值可进入复核与回填。",
   "report_count": 1,
   "report_titles": [
     "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 43,
   "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 4,
-  "scope3_candidate_count": 2,
+  "scope_candidate_count": 1,
+  "scope3_candidate_count": 1,
   "standard_systems_zh": [
     "GHG 体系",
     "ESG 披露框架",
@@ -107,6 +112,8 @@
       "snippet_zh": "cope 3 emissions are either not relevant to our business or are immaterial, representing collectively less than 5% of total enterprise GHG emissions. The tre...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：估算数据"
     },
@@ -129,6 +136,8 @@
       "snippet_zh": "◆Human Rights 58 ◆Strategic Procurement & Responsible Sourcing 59 REPORTING ◆About This Report 61 ◆Prioritization & Management of ESG Issues 62 ◆ESG Data Tab...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -151,6 +160,8 @@
       "snippet_zh": "◆Human Rights 58 ◆Strategic Procurement & Responsible Sourcing 59 REPORTING ◆About This Report 61 ◆Prioritization & Management of ESG Issues 62 ◆ESG Data Tab...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -173,6 +184,8 @@
       "snippet_zh": "◆Human Rights 58 ◆Strategic Procurement & Responsible Sourcing 59 REPORTING ◆About This Report 61 ◆Prioritization & Management of ESG Issues 62 ◆ESG Data Tab...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -195,6 +208,8 @@
       "snippet_zh": "uracy and consistency in electrical grid energy data for U.S. locations. The goal remains unchanged at 30% and is aligned to the SBTi methodology guidance at...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引；原文命中关键词：位置法"
     }
@@ -234,6 +249,8 @@
       "snippet_zh": "chines while the Cat dealer and Caterpillar maintain customer expectations by collaborating on jobsite and power requirements. The Cat 320 electric medium excavator and Cat 950 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 15",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：15",
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定"
     },
@@ -271,6 +288,8 @@
       "snippet_zh": "emissions while helping our customers meet their sustainability-related objectives. ◆Climate & Energy Statement 22 ◆Climate Scenarios 24 ◆Climate-Related Physical Issues 24 ◆Cli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -308,6 +327,8 @@
       "snippet_zh": "emissions while helping our customers meet their sustainability-related objectives. ◆Climate & Energy Statement 22 ◆Climate Scenarios 24 ◆Climate-Related Physical Issues 24 ◆Cli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -345,6 +366,8 @@
       "snippet_zh": "emissions while helping our customers meet their sustainability-related objectives. ◆Climate & Energy Statement 22 ◆Climate Scenarios 24 ◆Climate-Related Physical Issues 24 ◆Cli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -382,6 +405,8 @@
       "snippet_zh": "emissions while helping our customers meet their sustainability-related objectives. ◆Climate & Energy Statement 22 ◆Climate Scenarios 24 ◆Climate-Related Physical Issues 24 ◆Cli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -419,6 +444,8 @@
       "snippet_zh": "f our advocacy efforts and political engagements, including Energy Lobbying, as well as a description of the oversight and management of these activities. • • To measure our pro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 23",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：23",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -462,6 +489,8 @@
       "snippet_zh": "ng underlying climate hazards such as extreme heat, wildfires and floods. Drawing on scientific consensus on future climate scenarios from the IPCC, the physical climate scenari...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 24",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：24",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -499,6 +528,8 @@
       "snippet_zh": "s that resulted in an 11% reduction in their water consumption intensity from their 2018 baseline year. • • Our Research and Development Center in Wuxi, China, implemented a hea...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 28",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -542,6 +573,8 @@
       "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -585,6 +618,8 @@
       "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -628,6 +663,8 @@
       "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -671,6 +708,8 @@
       "snippet_zh": "ssumed to be diesel and all gaseous fuel is assumed to be natural gas. Excluded from this calculation are emissions from upstream production of fuel consumed in Caterpillar prod...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -714,6 +753,8 @@
       "snippet_zh": "ssumed to be diesel and all gaseous fuel is assumed to be natural gas. Excluded from this calculation are emissions from upstream production of fuel consumed in Caterpillar prod...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -757,6 +798,8 @@
       "snippet_zh": "ssumed to be diesel and all gaseous fuel is assumed to be natural gas. Excluded from this calculation are emissions from upstream production of fuel consumed in Caterpillar prod...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -800,6 +843,8 @@
       "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -843,6 +888,8 @@
       "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -886,6 +933,8 @@
       "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -923,6 +972,8 @@
       "snippet_zh": "tomers 12 ◆Innovating Advanced Technologies 13 ◆Supporting a Circular Economy 17 ◆Caterpillar Services & Sustainability 19 ◆Customer & Product Safety 20 SUPPORTING ENVIRONMENTAL...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -960,6 +1011,8 @@
       "snippet_zh": "tomers 12 ◆Innovating Advanced Technologies 13 ◆Supporting a Circular Economy 17 ◆Caterpillar Services & Sustainability 19 ◆Customer & Product Safety 20 SUPPORTING ENVIRONMENTAL...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -997,6 +1050,8 @@
       "snippet_zh": "tomers 12 ◆Innovating Advanced Technologies 13 ◆Supporting a Circular Economy 17 ◆Caterpillar Services & Sustainability 19 ◆Customer & Product Safety 20 SUPPORTING ENVIRONMENTAL...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1034,6 +1089,8 @@
       "snippet_zh": "tomers 12 ◆Innovating Advanced Technologies 13 ◆Supporting a Circular Economy 17 ◆Caterpillar Services & Sustainability 19 ◆Customer & Product Safety 20 SUPPORTING ENVIRONMENTAL...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1077,6 +1134,8 @@
       "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1120,6 +1179,8 @@
       "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1163,6 +1224,8 @@
       "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1206,6 +1269,8 @@
       "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1243,6 +1308,8 @@
       "snippet_zh": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 6...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 67",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：67",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1280,6 +1347,8 @@
       "snippet_zh": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 6...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 67",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：67",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1323,6 +1392,8 @@
       "snippet_zh": "lectric locomotives and others, applied at the product-level to calculate lifetime emissions, then aggregated across the full enterprise portfolio. Included in the calculation a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1366,6 +1437,8 @@
       "snippet_zh": "are naturally replenishing over a short period of time and virtually inexhaustible. Power generation examples include wind, solar, hydro, geothermal, tidal, wave, biomass and bi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1409,6 +1482,8 @@
       "snippet_zh": "for improved accuracy. 3. Represents percentage of grid electricity as compared to total electricity. 4. Renewable energy percentage includes purchased and on-site generated ren...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -1452,6 +1527,8 @@
       "snippet_zh": "are naturally replenishing over a short period of time and virtually inexhaustible. Power generation examples include wind, solar, hydro, geothermal, tidal, wave, biomass and bi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1495,6 +1572,8 @@
       "snippet_zh": "e Report, in all material respects, in accordan ce with the reporting criteria. Our assurance engagement does not extend to information in respect of earlier periods or to any o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 70",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1538,6 +1617,8 @@
       "snippet_zh": "e Report, in all material respects, in accordan ce with the reporting criteria. Our assurance engagement does not extend to information in respect of earlier periods or to any o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 70",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1581,6 +1662,8 @@
       "snippet_zh": "tical accuracy of conversions and calculations, and consolidation in line with the stated reporting boundary; • Conducting virtual visits to four Caterpillar sites to review sou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 71",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：71",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Assurance; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：鉴证；原文命中关键词：次级数据"
     },
@@ -1618,6 +1701,8 @@
       "snippet_zh": "Reporting criteria • WBCSD/WRI GHG Protocol: A Corporate Accounting Standard (2004, as updated January 2015) • The WBCSD/WRI GHG Protocol Corporate Value Chain (Scope 3) Account...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 71",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：71",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1661,6 +1746,8 @@
       "snippet_zh": "1 Represents percentage of grid electricity as compared to total electricity. 2 Renewable sources includes purchased and on-site generated renewable energy, and the renewable en...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 75",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：75",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -1698,6 +1785,8 @@
       "snippet_zh": "*All figures represent year-end 2024 data unless otherwise noted. All data represents 2024, unless otherwise noted. 2024 SUSTAINABILITY HIGHLIGHTS All data represents 2024, unle...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 8",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：8",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1735,6 +1824,8 @@
       "snippet_zh": "*All figures represent year-end 2024 data unless otherwise noted. All data represents 2024, unless otherwise noted. 2024 SUSTAINABILITY HIGHLIGHTS All data represents 2024, unle...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 8",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：8",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1772,6 +1863,8 @@
       "snippet_zh": "rom non-renewable and renewable sources 2024 Sustainability Report > Reporting > ESG Data > Energy-Operations 302-2 Energy consumption outside of the organization: Upstream and ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 82",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：82",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1809,6 +1902,8 @@
       "snippet_zh": "rom non-renewable and renewable sources 2024 Sustainability Report > Reporting > ESG Data > Energy-Operations 302-2 Energy consumption outside of the organization: Upstream and ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 82",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：82",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1846,6 +1941,8 @@
       "snippet_zh": "rom non-renewable and renewable sources 2024 Sustainability Report > Reporting > ESG Data > Energy-Operations 302-2 Energy consumption outside of the organization: Upstream and ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 82",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：82",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1883,6 +1980,8 @@
       "snippet_zh": "f significant waste-related impacts: Circularity measures taken to prevent waste generation in the organization’s own activities and upstream and downstream in its value chain 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 85",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：85",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1920,6 +2019,8 @@
       "snippet_zh": "f significant waste-related impacts: Circularity measures taken to prevent waste generation in the organization’s own activities and upstream and downstream in its value chain 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 85",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：85",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -2009,90 +2110,29 @@
       "world500_rank": "199",
       "scope_en": "Scope 1",
       "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Products / Thousands of Dollars of Enterprise S",
-      "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Prod...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r199_caterpillar",
-      "company_name_en": "CATERPILLAR",
-      "company_name_zh": "卡特彼勒",
-      "world500_rank": "199",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "8",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "*All figures represent year-end 2024 data unless otherwise noted. All data represents 2024, unless otherwise noted. 2024 SUSTAINABILITY HIGHLIGHTS All data represents 2024, unless otherwise noted. 34% reduction in Scope 1 + 2 GHG emissions",
-      "snippet_zh": "*All figures represent year-end 2024 data unless otherwise noted. All data represents 2024, unless otherwise noted. 2024 SUSTAINABILITY HIGHLIGHTS All data represents 2024, unless otherwise noted. ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r199_caterpillar",
-      "company_name_en": "CATERPILLAR",
-      "company_name_zh": "卡特彼勒",
-      "world500_rank": "199",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
+      "basis_en": "Market-Based",
       "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
+      "value_text": "0.70",
+      "unit_raw": "million metric tons CO2e",
+      "value_mtco2e": 0.7,
       "evidence_page": "64",
       "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
       "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
       "snippet_en": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric tons CO2e 0.70 0.74 0.74 0.69 0.68 /A/ Scope 2 Market-based indi",
-      "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric tons CO2e 0.70 0.74 0...",
+      "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric tons CO2e 0.70 0.74 0.74 0.69 0.68 /A/ Sc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r199_caterpillar",
-      "company_name_en": "CATERPILLAR",
-      "company_name_zh": "卡特彼勒",
-      "world500_rank": "199",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "11",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "67",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 680 /A/ Caterpillar is represented by durable, reliable and inno",
-      "snippet_zh": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 680 /A/ Caterpillar i...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
+      "candidate_quality": "high",
+      "extraction_rule_en": "Scope sentence/table extraction with explicit unit binding",
+      "extraction_rule_zh": "Scope 句式抽取，要求显式单位绑定",
+      "source_layer": "candidate_scope_numeric",
+      "acceptance_tier_code": "C1",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核",
+      "priority_level_en": "high",
+      "priority_level_zh": "高",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64"
     }
   ],
   "scope3_candidates": [
@@ -2104,31 +2144,9 @@
       "scope3_category_code": "11",
       "scope3_category_en": "Category 11 Use of sold products",
       "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "3",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Products / Thousands of Dollars of Enterprise S",
-      "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Prod...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r199_caterpillar",
-      "company_name_en": "CATERPILLAR",
-      "company_name_zh": "卡特彼勒",
-      "world500_rank": "199",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "2",
+      "value_text": "571 564 606 759 680",
       "unit_context": "MtCO2e",
-      "value_mtco2e": 2.0,
+      "value_mtco2e": 571564606759680.0,
       "evidence_page": "67",
       "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
       "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
@@ -2137,8 +2155,20 @@
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
       "candidate_quality": "high",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "C",
+      "industry_section_en": "Manufacturing",
+      "industry_section_zh": "制造业",
+      "industry_comparable_company_count": 1,
+      "acceptance_tier_code": "C2",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 67",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：67"
     }
   ],
   "evidence_ledger": [
@@ -2155,7 +2185,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2170,7 +2202,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2185,7 +2219,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2200,7 +2236,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2215,7 +2253,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2230,7 +2270,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2245,7 +2287,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 3",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2260,7 +2304,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 8",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：8"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2275,22 +2321,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "8",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "*All figures represent year-end 2024 data unless otherwise noted. All data represents 2024, unless otherwise noted. 2024 SUSTAINABILITY HIGHLIGHTS All data represents 2024, unless otherwise noted. 34% reduction in Scope 1 + 2 GHG emissions",
-      "snippet_zh": "*All figures represent year-end 2024 data unless otherwise noted. All data represents 2024, unless otherwise noted. 2024 SUSTAINABILITY HIGHLIGHTS All data represents 2024, unless otherwise noted. ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 8",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：8"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2305,7 +2338,9 @@
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 15",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：15"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2320,7 +2355,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2335,7 +2372,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2350,7 +2389,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2365,7 +2406,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 21",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2380,7 +2423,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 23",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2395,7 +2440,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 24",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2410,7 +2457,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 28",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2425,7 +2474,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2440,7 +2491,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2455,7 +2508,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2470,7 +2525,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2485,7 +2542,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2500,7 +2559,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2515,7 +2576,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2530,7 +2593,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2545,37 +2610,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "29",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Products / Thousands of Dollars of Enterprise S",
-      "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Prod...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "29",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Products / Thousands of Dollars of Enterprise S",
-      "snippet_zh": "SCOPE 3 USE OF SOLD PRODUCTS EMISSIONS Our Scope 3 emissions are estimated to be more than 95% of the company’s total Scope 1, 2 and 3 GHG emissions inventory. Emissions Intensity (Use of Sold Prod...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2590,7 +2627,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 29",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2605,7 +2644,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2620,7 +2661,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2635,7 +2678,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2650,22 +2695,28 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64"
     },
     {
       "fact_type_en": "Scope value candidate",
       "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
+      "label_en": "Scope 1 Market-Based",
       "label_zh": "范围1 市场法",
       "page": "64",
       "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
       "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
       "snippet_en": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric tons CO2e 0.70 0.74 0.74 0.69 0.68 /A/ Scope 2 Market-based indi",
-      "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric tons CO2e 0.70 0.74 0...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "snippet_zh": "2018 baseline. Scope 1 & 2 Absolute greenhouse gas (GHG) emissions2, 6, 7, 8 million metric tons CO2e 2.08 1.49 1.52 1.49 1.44 1.37 /A/ Scope 1 Direct emissions million metric tons CO2e 0.70 0.74 0.74 0.69 0.68 /A/ Sc...",
+      "recognition_basis_en": "Scope sentence/table extraction with explicit unit binding",
+      "recognition_basis_zh": "Scope 句式抽取，要求显式单位绑定",
+      "confidence_level": "high",
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 64",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：64",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2680,7 +2731,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 67",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2695,7 +2748,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 67",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：67"
     },
     {
       "fact_type_en": "Scope 3 category value candidate",
@@ -2707,25 +2762,14 @@
       "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
       "snippet_en": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 680 /A/ Caterpillar is represented by durable, reliable and inno",
       "snippet_zh": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 680 /A/ Caterpillar i...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
       "confidence_level": "high",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "67",
-      "source_file": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "report_title": "CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf",
-      "snippet_en": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 680 /A/ Caterpillar is represented by durable, reliable and inno",
-      "snippet_zh": "2018 Baseline (2030 Goals) 2020 2021 2022 2023 2024 Perspective Product Scope 3 Emissions Enterprise11 use of sold products emissions, million metric tons CO2e 571 564 606 759 680 /A/ Caterpillar i...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 67",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：67",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2740,7 +2784,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2755,7 +2801,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2770,7 +2818,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2785,7 +2835,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2800,7 +2852,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 69",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：69"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2815,7 +2869,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 70",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2830,7 +2886,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 70",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2845,7 +2903,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 71",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：71"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2860,7 +2920,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Assurance; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：鉴证；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 71",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：71"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2875,7 +2937,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 75",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：75"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2890,7 +2954,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 82",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2905,7 +2971,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 82",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2920,7 +2988,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 82",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2935,7 +3005,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 85",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：85"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2950,7 +3022,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | File: CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | Page: 85",
+      "evidence_locator_zh": "报告：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 文件：CATERPILLAR 2024 SUSTAINABILITY REPORT.pdf | 页码：85"
     }
   ]
 }

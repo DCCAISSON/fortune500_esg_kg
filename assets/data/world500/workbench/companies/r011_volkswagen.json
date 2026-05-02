@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "A",
+  "enterprise_use_tier_en": "A direct-use absolute values",
+  "enterprise_use_tier_zh": "A 可直接用绝对量",
+  "enterprise_use_tier_detail_en": "At least one company-level absolute value has already entered the structured authoritative layer.",
+  "enterprise_use_tier_detail_zh": "至少有一条公司级绝对量已经进入结构化采信层。",
   "report_count": 1,
   "report_titles": [
     "2023_Volkswagen_Group_Sustainability_Report.pdf"
@@ -20,7 +25,7 @@
   "keyword_summary_count": 5,
   "authoritative_scope_count": 3,
   "scope_candidate_count": 0,
-  "scope3_candidate_count": 1,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架",
@@ -113,6 +118,8 @@
       "snippet_zh": "is because this directly and indirectly impacts Volkswagen’s market capitalization, costs of capital and attractiveness to investors. This is partly due to i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：23",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     },
@@ -135,6 +142,8 @@
       "snippet_zh": "Volkswagen Group Sustainability ­Communication 2023 A N N U A L R E P O R T 2023 S U S TA I N A B I L I T Y R E P O R T \u0007Information Accompanying the Reporti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -157,6 +166,8 @@
       "snippet_zh": "Volkswagen Group Sustainability ­Communication 2023 A N N U A L R E P O R T 2023 S U S TA I N A B I L I T Y R E P O R T \u0007Information Accompanying the Reporti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -179,6 +190,8 @@
       "snippet_zh": "ion and storage; hydrogen; and heat pump technology. Climate Protection in Manufacturing Volkswagen wants to reduce greenhouse gas emissions in production by...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：56",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -201,6 +214,8 @@
       "snippet_zh": "cycling emissions, have been verified externally and inde­ pendently in accordance with the ISO 14040 and ISO 14044 standards. Scope 3 also includes emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：61",
       "recognition_basis_en": "Structured standard tag: ISO 14040/14044; Standard role: Methodology standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14040/14044；标准角色：方法学标准"
     },
@@ -223,6 +238,8 @@
       "snippet_zh": "inum content (since 2022). Transparency on CO₂ Emissions as a Basis for Improvements Every year, we calculate the Group’s carbon footprint using the Scope 1 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：62",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -268,6 +285,8 @@
       "snippet_zh": "by €3.8 (3.6) billion of this amount results from lawsuits filed by in­ vestors in Germany. The provisions recognized, the contingent liabilities disclosed, and the other latent...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 10",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：10",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -311,6 +330,8 @@
       "snippet_zh": "omote the sharing of best practices and to discuss the implementation of programs and action. An Integral Part of Group Strategy Diversity was defined as a focus topic for susta...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 104",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：104",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -354,6 +375,8 @@
       "snippet_zh": "man rights due diligence, responsible procurement of raw materials, and diversity and inclusion in our supply chains. In addition, our activities are anchored as a focus topic f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 121",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：121",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -397,6 +420,8 @@
       "snippet_zh": "man rights due diligence, responsible procurement of raw materials, and diversity and inclusion in our supply chains. In addition, our activities are anchored as a focus topic f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 121",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：121",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -440,6 +465,8 @@
       "snippet_zh": "in the fields of the environment, social aspects and ­integrity and to mitigate risks. It is directly relevant to awarding contracts. 1 \u0007The relevance of a supplier for media sc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 123",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：123",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -477,6 +504,8 @@
       "snippet_zh": "130 Supply Chain and Human Rights KPIs Unit 2023 2022 Notes and comments Training and certification Revenue-based direct suppliers in scope with certified environmental manageme...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 130",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：130",
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定"
     },
@@ -514,6 +543,8 @@
       "snippet_zh": "\u0007People in the Transformation 90 People in the Transformation 4 \u0007Diversity 104 Diversity 5 Integrity and Compliance 109 Integrity and Compliance 6 \u0007Supply Chain and Human Rights...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：2",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -557,6 +588,8 @@
       "snippet_zh": "y established reporting standards. The Group conducted a materiality analysis in 2022. In review­ ing a large number of potentially material issues, we consid­ ered both externa...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 22",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：22",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -600,6 +633,8 @@
       "snippet_zh": "rove the environmental impact of our factories had a positive impact on the specific environmental KPIs per vehicle in 2023. The UEP improved significantly overall from –37.4% t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 35",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：35",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -643,6 +678,8 @@
       "snippet_zh": "); one MAN Truck & Bus SE site (Serendah); one site in China (Suzhou) and one site currently still under construction in China (Changchun) with planned production start at the e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -686,6 +723,8 @@
       "snippet_zh": "); one MAN Truck & Bus SE site (Serendah); one site in China (Suzhou) and one site currently still under construction in China (Changchun) with planned production start at the e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -729,6 +768,8 @@
       "snippet_zh": "); one MAN Truck & Bus SE site (Serendah); one site in China (Suzhou) and one site currently still under construction in China (Changchun) with planned production start at the e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -775,6 +816,8 @@
       "snippet_zh": "step the Group conducted an analysis of phys­ ical climate risks for 33 EU-Taxonomy-relevant produc­ tion locations, derived recommendations for implement­ ing specific adaptati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：51",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data / Derived data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据 / 推导数据"
     },
@@ -812,6 +855,8 @@
       "snippet_zh": "ons of CO2 for the Group. As part of net carbon-neutral delivery, we offset unavoidable emissions from the life cycle phases, such as from the supply chain or production, throug...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -849,6 +894,8 @@
       "snippet_zh": "ese targets are to be achieved through appropriate reduction measures. In a final step, residual CO2 emissions will be offset. Since 2022, the carbon footprint of the entire dea...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -886,6 +933,8 @@
       "snippet_zh": "ese targets are to be achieved through appropriate reduction measures. In a final step, residual CO2 emissions will be offset. Since 2022, the carbon footprint of the entire dea...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -929,6 +978,8 @@
       "snippet_zh": "is also calculated on the ­basis of region-specific energy mixes. Maintenance of the vehicles is not taken into account here. Our vehicle life cycle assessments, which are used ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：61",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价"
     },
@@ -972,6 +1023,8 @@
       "snippet_zh": "is also calculated on the ­basis of region-specific energy mixes. Maintenance of the vehicles is not taken into account here. Our vehicle life cycle assessments, which are used ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：61",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价"
     },
@@ -1015,6 +1068,8 @@
       "snippet_zh": "ndings or changes. There may be various reasons to recalculate the emissions of past years to enable a fair comparison with current emissions: structural changes in the Group, c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：62",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1058,6 +1113,8 @@
       "snippet_zh": "); one MAN Truck & Bus SE site (Serendah); one site in China (Suzhou) and one site currently still under construction in China (Changchun) with planned production start at the e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1101,6 +1158,8 @@
       "snippet_zh": "); one MAN Truck & Bus SE site (Serendah); one site in China (Suzhou) and one site currently still under construction in China (Changchun) with planned production start at the e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1144,6 +1203,8 @@
       "snippet_zh": "il travel and extrapolated for the Group. The increase in emissions is due to the removal of travel restrictions during the reporting year. Category 7:4 Employee commuting in me...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1187,6 +1248,8 @@
       "snippet_zh": "il travel and extrapolated for the Group. The increase in emissions is due to the removal of travel restrictions during the reporting year. Category 7:4 Employee commuting in me...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1230,6 +1293,8 @@
       "snippet_zh": "il travel and extrapolated for the Group. The increase in emissions is due to the removal of travel restrictions during the reporting year. Category 7:4 Employee commuting in me...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1273,6 +1338,8 @@
       "snippet_zh": "nput-output analysis using the investment data in the Volkswagen AG Annual Report. The emission factors used in the calculation will be adjusted for inflation from the 2023 repo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1316,6 +1383,8 @@
       "snippet_zh": "nput-output analysis using the investment data in the Volkswagen AG Annual Report. The emission factors used in the calculation will be adjusted for inflation from the 2023 repo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1359,6 +1428,8 @@
       "snippet_zh": "nput-output analysis using the investment data in the Volkswagen AG Annual Report. The emission factors used in the calculation will be adjusted for inflation from the 2023 repo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1402,6 +1473,8 @@
       "snippet_zh": "34,162/ 0.3 The Group-wide consumption of energy is recorded annually in our internal environmental information system and converted into CO₂ equivalents using emission factors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1445,6 +1518,8 @@
       "snippet_zh": "34,162/ 0.3 The Group-wide consumption of energy is recorded annually in our internal environmental information system and converted into CO₂ equivalents using emission factors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1488,6 +1563,8 @@
       "snippet_zh": "34,162/ 0.3 The Group-wide consumption of energy is recorded annually in our internal environmental information system and converted into CO₂ equivalents using emission factors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1531,6 +1608,8 @@
       "snippet_zh": "34,162/ 0.3 The Group-wide consumption of energy is recorded annually in our internal environmental information system and converted into CO₂ equivalents using emission factors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1574,6 +1653,8 @@
       "snippet_zh": "leased assets in metric tons of CO₂/in % 8,627,724/ 2.1 9,162,826/ 2.3 The calculation is based on, among other things, payments received by the Group for rights to use land, bu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1617,6 +1698,8 @@
       "snippet_zh": "leased assets in metric tons of CO₂/in % 8,627,724/ 2.1 9,162,826/ 2.3 The calculation is based on, among other things, payments received by the Group for rights to use land, bu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1660,6 +1743,8 @@
       "snippet_zh": "leased assets in metric tons of CO₂/in % 8,627,724/ 2.1 9,162,826/ 2.3 The calculation is based on, among other things, payments received by the Group for rights to use land, bu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1703,6 +1788,8 @@
       "snippet_zh": "leased assets in metric tons of CO₂/in % 8,627,724/ 2.1 9,162,826/ 2.3 The calculation is based on, among other things, payments received by the Group for rights to use land, bu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1746,6 +1833,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1789,6 +1878,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1832,6 +1923,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1875,6 +1968,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1918,6 +2013,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1961,6 +2058,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2004,6 +2103,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2047,6 +2148,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2090,6 +2193,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2133,6 +2238,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2176,6 +2283,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2219,6 +2328,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2262,6 +2373,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2305,6 +2418,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2348,6 +2463,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2391,6 +2508,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2434,6 +2553,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2477,6 +2598,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2520,6 +2643,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2563,6 +2688,8 @@
       "snippet_zh": "buildings and buildings on third-party land. The emissions for this category were esti­ mated using an economic input-output analysis. The emission factors used in the calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2609,6 +2736,8 @@
       "snippet_zh": "ctivities to climate change mitigation, we have developed a systematic method of calculating life-cycle greenhouse gas (GHG) emissions that is based on parameters and is suitabl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 71",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：71",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment / Primary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：生命周期评价 / 初级数据"
     },
@@ -2646,6 +2775,8 @@
       "snippet_zh": "eckarsulm, the Audi plants in ­Ingolstadt and Győr and the multi-brand plant in Bratislava have now also joined the Aluminum Closed Loop process. The process itself and the resu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 88",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：88",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -2689,6 +2820,8 @@
       "snippet_zh": "s on the measures derived and their implementation status takes place using a top-down approach, beginning with the respective division manager/Board member and proceeding to th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 95",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：95",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2732,6 +2865,8 @@
       "snippet_zh": "s on the measures derived and their implementation status takes place using a top-down approach, beginning with the respective division manager/Board member and proceeding to th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 95",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：95",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     }
@@ -2837,7 +2972,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Volkswagen Group Sustainability Report 2023",
+      "report_title_en": "Volkswagen Group Sustainability Report 2023",
+      "report_title_zh": "大众汽车集团 2023 可持续发展报告",
+      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
+      "snippet_en": "Mt CO2e; 2023 absolute emissions.",
+      "snippet_zh": "Mt CO2e; 2023 absolute emissions.",
+      "evidence_locator_en": "Report: Volkswagen Group Sustainability Report 2023 | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：大众汽车集团 2023 可持续发展报告 | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r011_volkswagen",
@@ -2854,7 +3004,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Volkswagen Group Sustainability Report 2023",
+      "report_title_en": "Volkswagen Group Sustainability Report 2023",
+      "report_title_zh": "大众汽车集团 2023 可持续发展报告",
+      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
+      "snippet_en": "Mt CO2e; 2023 absolute emissions.",
+      "snippet_zh": "Mt CO2e; 2023 absolute emissions.",
+      "evidence_locator_en": "Report: Volkswagen Group Sustainability Report 2023 | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：大众汽车集团 2023 可持续发展报告 | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r011_volkswagen",
@@ -2871,34 +3036,26 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Volkswagen Group Sustainability Report 2023",
+      "report_title_en": "Volkswagen Group Sustainability Report 2023",
+      "report_title_zh": "大众汽车集团 2023 可持续发展报告",
+      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
+      "snippet_en": "Mt CO2e; 2023 total Scope 3 inventory.",
+      "snippet_zh": "Mt CO2e; 2023 total Scope 3 inventory.",
+      "evidence_locator_en": "Report: Volkswagen Group Sustainability Report 2023 | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：大众汽车集团 2023 可持续发展报告 | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     }
   ],
   "scope_candidates": [],
-  "scope3_candidates": [
-    {
-      "company_id": "r011_volkswagen",
-      "company_name_en": "VOLKSWAGEN",
-      "company_name_zh": "大众公司",
-      "world500_rank": "11",
-      "scope3_category_code": "7",
-      "scope3_category_en": "Category 7 Employee commuting",
-      "scope3_category_zh": "类别7 员工通勤",
-      "value_text": "1,114,774",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "67",
-      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
-      "report_title": "2023_Volkswagen_Group_Sustainability_Report.pdf",
-      "snippet_en": "il travel and extrapolated for the Group. The increase in emissions is due to the removal of travel restrictions during the reporting year. Category 7:4 Employee commuting in metric tons of CO₂/in % 1,114,774/ 0.3 1,099,091/ 0.3 The CO₂ emi",
-      "snippet_zh": "il travel and extrapolated for the Group. The increase in emissions is due to the removal of travel restrictions during the reporting year. Category 7:4 Employee commuting in metric tons of CO₂/in ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -2913,7 +3070,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2928,7 +3087,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2943,7 +3104,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2958,7 +3121,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 10",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2973,7 +3138,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 22",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：22"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2988,7 +3155,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3003,7 +3172,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 35",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：35"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3018,7 +3189,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3033,7 +3206,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3048,7 +3223,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3063,7 +3240,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data / Derived data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：51"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3078,7 +3257,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3093,7 +3274,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3108,7 +3291,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3123,7 +3308,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3138,7 +3325,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3153,7 +3342,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3168,7 +3359,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14040/14044; Standard role: Methodology standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14040/14044；标准角色：方法学标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3183,7 +3376,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3198,7 +3393,66 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：62"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 1",
+      "label_zh": "范围 1",
+      "page": "66",
+      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
+      "report_title": "Volkswagen Group Sustainability Report 2023",
+      "snippet_en": "Mt CO2e; 2023 absolute emissions.",
+      "snippet_zh": "Mt CO2e; 2023 absolute emissions.",
+      "recognition_basis_en": "Mt CO2e; 2023 absolute emissions.",
+      "recognition_basis_zh": "Mt CO2e; 2023 absolute emissions.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: Volkswagen Group Sustainability Report 2023 | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：大众汽车集团 2023 可持续发展报告 | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 2",
+      "label_zh": "范围 2",
+      "page": "66",
+      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
+      "report_title": "Volkswagen Group Sustainability Report 2023",
+      "snippet_en": "Mt CO2e; 2023 absolute emissions.",
+      "snippet_zh": "Mt CO2e; 2023 absolute emissions.",
+      "recognition_basis_en": "Mt CO2e; 2023 absolute emissions.",
+      "recognition_basis_zh": "Mt CO2e; 2023 absolute emissions.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: Volkswagen Group Sustainability Report 2023 | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：大众汽车集团 2023 可持续发展报告 | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 3",
+      "label_zh": "范围 3",
+      "page": "66",
+      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
+      "report_title": "Volkswagen Group Sustainability Report 2023",
+      "snippet_en": "Mt CO2e; 2023 total Scope 3 inventory.",
+      "snippet_zh": "Mt CO2e; 2023 total Scope 3 inventory.",
+      "recognition_basis_en": "Mt CO2e; 2023 total Scope 3 inventory.",
+      "recognition_basis_zh": "Mt CO2e; 2023 total Scope 3 inventory.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: Volkswagen Group Sustainability Report 2023 | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：大众汽车集团 2023 可持续发展报告 | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3213,7 +3467,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3228,7 +3484,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3243,7 +3501,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3258,7 +3518,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3273,7 +3535,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3288,7 +3552,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3303,7 +3569,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3318,7 +3586,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3333,7 +3603,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3348,7 +3620,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3363,7 +3637,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3378,22 +3654,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 7 Employee commuting",
-      "label_zh": "类别7 员工通勤",
-      "page": "67",
-      "source_file": "2023_Volkswagen_Group_Sustainability_Report.pdf",
-      "report_title": "2023_Volkswagen_Group_Sustainability_Report.pdf",
-      "snippet_en": "il travel and extrapolated for the Group. The increase in emissions is due to the removal of travel restrictions during the reporting year. Category 7:4 Employee commuting in metric tons of CO₂/in % 1,114,774/ 0.3 1,099,091/ 0.3 The CO₂ emi",
-      "snippet_zh": "il travel and extrapolated for the Group. The increase in emissions is due to the removal of travel restrictions during the reporting year. Category 7:4 Employee commuting in metric tons of CO₂/in ...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 67",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3408,7 +3671,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3423,7 +3688,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3438,7 +3705,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3453,7 +3722,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3468,7 +3739,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3483,7 +3756,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3498,7 +3773,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3513,7 +3790,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3528,7 +3807,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3543,7 +3824,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3558,7 +3841,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3573,7 +3858,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3588,7 +3875,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3603,7 +3892,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3618,7 +3909,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3633,7 +3926,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3648,7 +3943,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3663,7 +3960,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3678,7 +3977,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3693,7 +3994,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3708,7 +4011,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3723,7 +4028,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3738,7 +4045,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3753,7 +4062,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 68",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3768,7 +4079,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment / Primary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：生命周期评价 / 初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 71",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：71"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3783,7 +4096,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 88",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：88"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3798,7 +4113,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 95",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：95"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3813,7 +4130,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 95",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：95"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3828,7 +4147,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 104",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3843,7 +4164,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 121",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：121"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3858,7 +4181,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 121",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：121"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3873,7 +4198,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 123",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：123"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3888,7 +4215,9 @@
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2023_Volkswagen_Group_Sustainability_Report.pdf | File: 2023_Volkswagen_Group_Sustainability_Report.pdf | Page: 130",
+      "evidence_locator_zh": "报告：2023_Volkswagen_Group_Sustainability_Report.pdf | 文件：2023_Volkswagen_Group_Sustainability_Report.pdf | 页码：130"
     }
   ]
 }

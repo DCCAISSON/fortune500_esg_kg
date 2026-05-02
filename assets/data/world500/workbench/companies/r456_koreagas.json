@@ -8,6 +8,11 @@
   "industry_section_zh": "电力、热力、燃气及水生产和供应业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 45,
   "keyword_summary_count": 3,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ISO 体系",
     "ESG 披露框架",
@@ -103,6 +108,8 @@
       "snippet_zh": "rtification of Emissions under the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notice 2024-155) • ‌\u0007Verification Guidelines for the Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146",
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准"
     },
@@ -125,6 +132,8 @@
       "snippet_zh": "rtification of Emissions under the Greenhouse Gas Emissions Trading Scheme (Ministry of Environment Notice 2024-155) • ‌\u0007Verification Guidelines for the Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146",
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准"
     },
@@ -147,6 +156,8 @@
       "snippet_zh": "er World.” To fulfill the mission, KOGAS ensures a stable supply of natural gas and faithfully carries out its social responsibilities by creating social val...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 2",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -169,6 +180,8 @@
       "snippet_zh": "ssessment Process Derive an issue pool We derived a short list of 19 issues by considering key activities across KOGAS’s entire value chain and comprehensive...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 25",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：25",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准；原文命中关键词：推导数据"
     },
@@ -191,6 +204,8 @@
       "snippet_zh": "Safety Responsibility Management Human Rights Management Talent Management Supply Chain Management Mutual Prosperity with the Local Communities Job Creation ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 3",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -213,6 +228,8 @@
       "snippet_zh": "Safety Responsibility Management Human Rights Management Talent Management Supply Chain Management Mutual Prosperity with the Local Communities Job Creation ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 3",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     }
@@ -258,6 +275,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -301,6 +320,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -344,6 +365,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -387,6 +410,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -430,6 +455,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -473,6 +500,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -516,6 +545,8 @@
       "snippet_zh": "ach emission figure is rounded and may not match the total of Scope 1 and Scope 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business site...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -559,6 +590,8 @@
       "snippet_zh": "ach emission figure is rounded and may not match the total of Scope 1 and Scope 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business site...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -602,6 +635,8 @@
       "snippet_zh": "ach emission figure is rounded and may not match the total of Scope 1 and Scope 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business site...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -645,6 +680,8 @@
       "snippet_zh": "ach emission figure is rounded and may not match the total of Scope 1 and Scope 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business site...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -688,6 +725,8 @@
       "snippet_zh": "ach emission figure is rounded and may not match the total of Scope 1 and Scope 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business site...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -731,6 +770,8 @@
       "snippet_zh": "ach emission figure is rounded and may not match the total of Scope 1 and Scope 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business site...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -774,6 +815,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -817,6 +860,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -860,6 +905,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -903,6 +950,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -946,6 +995,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -989,6 +1040,8 @@
       "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the ave...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1026,6 +1079,8 @@
       "snippet_zh": "ification Index Description Page GRI 2 #2-1 Organizational details 6-7 #2-2 Entities included in the organization’s sustainability reporting 2 #2-3 Reporting period, frequency a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 136",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1063,6 +1118,8 @@
       "snippet_zh": "fication Scope • ‌\u0007Boundary: All business sites and emission facilities under the operational control of the organization • ‌\u0007Verification Entity: Korea Gas Corporation • ‌\u0007Veri...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1100,6 +1157,8 @@
       "snippet_zh": "fication Scope • ‌\u0007Boundary: All business sites and emission facilities under the operational control of the organization • ‌\u0007Verification Entity: Korea Gas Corporation • ‌\u0007Veri...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1137,6 +1196,8 @@
       "snippet_zh": "s also participating in the development of international standards for the accurate measurement and reporting of methane emissions across all overseas operations. As the only do...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 16",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1174,6 +1235,8 @@
       "snippet_zh": "s also participating in the development of international standards for the accurate measurement and reporting of methane emissions across all overseas operations. As the only do...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 16",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1217,6 +1280,8 @@
       "snippet_zh": "the atmosphere into present value. According to a paper published in 2024 in the Proceedings of the National Academy of Sciences (PNAS) by a research team led by Professor Franc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 29",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：29",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1254,6 +1319,8 @@
       "snippet_zh": "ement Talent Management Supply Chain Management Mutual Prosperity with the Local Communities Job Creation Customer Satisfaction Management Information Security 52 59 66 74 81 88...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 3",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：3",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1291,6 +1358,8 @@
       "snippet_zh": "e future Goal Stable gas supply through proactive response to the climate crisis Implementation strategies Facility sector Public service sector Facility management sector • \u0007St...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 36",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1328,6 +1397,8 @@
       "snippet_zh": "current natural gas supply chain. We are also actively participating in the CLEAN2) cooperation framework under the Korea–Japan Methane Reduction Joint Declaration, leading the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 38",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：38",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1365,6 +1436,8 @@
       "snippet_zh": "vercoming the climate change crisis, KOGAS has been systematically calculating its GHG emissions since 2008 by establishing a GHG inventory, with the aim of contributing to the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 39",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：39",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1402,6 +1475,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1439,6 +1514,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1476,6 +1553,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1513,6 +1592,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1550,6 +1631,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1587,6 +1670,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1624,6 +1709,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1661,6 +1748,8 @@
       "snippet_zh": "natural gas processing), and investments (emissions from natural gas production in overseas resource development), etc. Classification Unit 2020 2021 2) 2022 2023 2024 Natural g...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1698,6 +1787,8 @@
       "snippet_zh": "natural gas processing), and investments (emissions from natural gas production in overseas resource development), etc. Classification Unit 2020 2021 2) 2022 2023 2024 Natural g...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1735,6 +1826,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1772,6 +1865,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1809,6 +1904,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1846,6 +1943,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1883,6 +1982,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1920,6 +2021,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1957,6 +2060,8 @@
       "snippet_zh": "ry. 2) \u0007Climate change has led to an increase in the sales of natural gas for power generation and city gas for business heating, resulting in increased operation of production ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2000,6 +2105,8 @@
       "snippet_zh": "ess of our tasks monthly through the headquarters’ Performance Management Committee and receive feedback every six months from a job advisory group composed of external experts ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 88",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：88",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     }
@@ -2051,55 +2158,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r456_koreagas",
-      "company_name_en": "KOREA GAS",
-      "company_name_zh": "韩国天然气公司",
-      "world500_rank": "456",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "120",
-      "source_file": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "report_title": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "snippet_en": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the average emission factor of the regional power grid for energy cons",
-      "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the average emission factor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r456_koreagas",
-      "company_name_en": "KOREA GAS",
-      "company_name_zh": "韩国天然气公司",
-      "world500_rank": "456",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "2020",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "40",
-      "source_file": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "report_title": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "snippet_en": "natural gas processing), and investments (emissions from natural gas production in overseas resource development), etc. Classification Unit 2020 2021 2) 2022 2023 2024 Natural gas sales volume 1000 tons 32,367 36,914 38,397 34,642 34,125 To",
-      "snippet_zh": "natural gas processing), and investments (emissions from natural gas production in overseas resource development), etc. Classification Unit 2020 2021 2) 2022 2023 2024 Natural gas sales volume 1000...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -2114,7 +2174,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 2",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2129,7 +2191,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 3",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2144,7 +2208,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 3",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2159,7 +2225,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 3",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2174,7 +2242,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 16",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2189,7 +2259,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 16",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：16"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2204,7 +2276,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 25",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2219,7 +2293,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 29",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2234,7 +2310,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 36",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2249,7 +2327,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 38",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：38"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2264,7 +2344,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 39",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2279,7 +2361,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2294,7 +2378,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2309,7 +2395,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2324,7 +2412,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2339,7 +2429,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2354,7 +2446,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2369,7 +2463,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2384,7 +2480,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2399,7 +2497,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2414,7 +2514,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2429,7 +2531,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2444,7 +2548,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2459,7 +2565,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2474,7 +2582,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2489,7 +2599,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2504,22 +2616,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "40",
-      "source_file": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "report_title": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "snippet_en": "natural gas processing), and investments (emissions from natural gas production in overseas resource development), etc. Classification Unit 2020 2021 2) 2022 2023 2024 Natural gas sales volume 1000 tons 32,367 36,914 38,397 34,642 34,125 To",
-      "snippet_zh": "natural gas processing), and investments (emissions from natural gas production in overseas resource development), etc. Classification Unit 2020 2021 2) 2022 2023 2024 Natural gas sales volume 1000...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 40",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2534,7 +2633,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 88",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：88"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2549,7 +2650,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2564,7 +2667,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2579,7 +2684,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2594,7 +2701,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2609,7 +2718,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2624,7 +2735,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2639,7 +2752,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2654,7 +2769,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2669,7 +2786,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2684,7 +2803,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2699,7 +2820,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2714,7 +2837,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2729,7 +2854,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2744,7 +2871,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2759,7 +2888,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2774,7 +2905,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2789,7 +2922,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2804,22 +2939,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "120",
-      "source_file": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "report_title": "KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf",
-      "snippet_en": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the average emission factor of the regional power grid for energy cons",
-      "snippet_zh": "e 2 emissions. - Organizational scope of Scope 1 and 2 emissions: Headquarters and 16 business sites (as reported to the Ministry of Environment). 2) Calculated based on the average emission factor...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 120",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2834,7 +2956,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 136",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2849,7 +2973,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2864,7 +2990,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2879,7 +3007,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2894,7 +3024,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | File: KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | Page: 146",
+      "evidence_locator_zh": "报告：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 文件：KOGAS 2025 SUSTAINABILITY REPORT(A4).pdf | 页码：146"
     }
   ]
 }

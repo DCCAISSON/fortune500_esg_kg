@@ -8,6 +8,11 @@
   "industry_section_zh": "电力、热力、燃气及水生产和供应业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet, but source-text candidates are present for review and backfill.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，但已有原文候选值可进入复核与回填。",
   "report_count": 1,
   "report_titles": [
     "SCHLUMBERGER-sustainability-report-2024.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 67,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 5,
-  "scope3_candidate_count": 4,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 1,
   "standard_systems_zh": [
     "ISO 体系",
     "ESG 披露框架",
@@ -105,6 +110,8 @@
       "snippet_zh": "Scope 3 in Our Value Chain continued The Environmental Steward (TES) Application Deployed in 2024 and to be adopted by all engineering teams, the TES app for...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准；原文命中关键词：生命周期评价"
     },
@@ -127,6 +134,8 @@
       "snippet_zh": "ip 33 → Enabling Circularity 35 → Safeguarding Biodiversity Cybersecurity 36 → Data Privacy and Cybersecurity Stakeholder Engagement 37 → Stakeholder Engagem...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -149,6 +158,8 @@
       "snippet_zh": "ip 33 → Enabling Circularity 35 → Safeguarding Biodiversity Cybersecurity 36 → Data Privacy and Cybersecurity Stakeholder Engagement 37 → Stakeholder Engagem...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -171,6 +182,8 @@
       "snippet_zh": "ip 33 → Enabling Circularity 35 → Safeguarding Biodiversity Cybersecurity 36 → Data Privacy and Cybersecurity Stakeholder Engagement 37 → Stakeholder Engagem...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -193,6 +206,8 @@
       "snippet_zh": "to implement effective GHG emission reduction efforts. We also, annually, commission an external third party to perform attest procedures with respect to cer...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 51",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：51",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -232,6 +247,8 @@
       "snippet_zh": "In 2024, we advanced our Scope 1, 2, and 3 greenhouse gas (GHG) emission reductions, focusing on field operations, facilities, digital innovation, and supply chain. Climate Acti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -269,6 +286,8 @@
       "snippet_zh": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 15",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：15",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -306,6 +325,8 @@
       "snippet_zh": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 15",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：15",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -349,6 +370,8 @@
       "snippet_zh": "Scope 3 in Our Value Chain continued The Environmental Steward (TES) Application Deployed in 2024 and to be adopted by all engineering teams, the TES app formalizes adherence to...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
     },
@@ -392,6 +415,8 @@
       "snippet_zh": "Scope 3 in Our Value Chain continued The Environmental Steward (TES) Application Deployed in 2024 and to be adopted by all engineering teams, the TES app formalizes adherence to...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
     },
@@ -429,6 +454,8 @@
       "snippet_zh": "thane emissions and routine flaring, providing customers with planning, measurement, and abatement services. In 2024, SEES continued to innovate, with notable advances in methan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -472,6 +499,8 @@
       "snippet_zh": "is shift allows for a more accurate assessment of emissions associated with each product, enhancing our ability to identify reduction levers and engage with suppliers on decarbo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 18",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：18",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -509,6 +538,8 @@
       "snippet_zh": "In 2024, we strengthened our efforts to reduce Scope 3 emissions by enhancing sustainability practices throughout our supply chain. We continued to focus on supplier engagement ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 18",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：18",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -546,6 +577,8 @@
       "snippet_zh": "ontact January 1–December 31, 2024, unless otherwise noted, published February 24, 2025, and reported annually sustainability@slb.com 2-4 Restatements of information 2024 Sustai...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -583,6 +616,8 @@
       "snippet_zh": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -620,6 +655,8 @@
       "snippet_zh": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -657,6 +694,8 @@
       "snippet_zh": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -694,6 +733,8 @@
       "snippet_zh": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -737,6 +778,8 @@
       "snippet_zh": "dium- to long-term time horizons. In parallel, we work with our customers to find new opportunities to mitigate potential negative environmental and social impacts of oil and ga...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：46",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -774,6 +817,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -811,6 +856,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -848,6 +895,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -885,6 +934,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -922,6 +973,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -959,6 +1012,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -996,6 +1051,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1033,6 +1090,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1070,6 +1129,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1107,6 +1168,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1144,6 +1207,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1181,6 +1246,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1218,6 +1285,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1255,6 +1324,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1292,6 +1363,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1329,6 +1402,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1366,6 +1441,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1403,6 +1480,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1440,6 +1519,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1477,6 +1558,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1514,6 +1597,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1551,6 +1636,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1588,6 +1675,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1625,6 +1714,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1662,6 +1753,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1699,6 +1792,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1736,6 +1831,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1773,6 +1870,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1810,6 +1909,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1847,6 +1948,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1884,6 +1987,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1921,6 +2026,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1958,6 +2065,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1995,6 +2104,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2032,6 +2143,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2069,6 +2182,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2106,6 +2221,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2143,6 +2260,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2180,6 +2299,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2217,6 +2338,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2254,6 +2377,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2291,6 +2416,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2328,6 +2455,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2365,6 +2494,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2402,6 +2533,8 @@
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activiti...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2445,6 +2578,8 @@
       "snippet_zh": "sions (2023: 719 thousand metric tons of CO2e and 2019 baseline: 685 thousand metric tons of CO2e). 3. In 2024, SLB implemented changes to utilize more precise data in calculati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2488,6 +2623,8 @@
       "snippet_zh": "hanged to exclude the emissions from these facilities. We concluded we do not have operational control over these facilities. For comparability, we have revised our previously r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2531,6 +2668,8 @@
       "snippet_zh": "hanged to exclude the emissions from these facilities. We concluded we do not have operational control over these facilities. For comparability, we have revised our previously r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2574,6 +2713,8 @@
       "snippet_zh": "hanged to exclude the emissions from these facilities. We concluded we do not have operational control over these facilities. For comparability, we have revised our previously r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2611,6 +2752,8 @@
       "snippet_zh": "3 1,354 1,240 Total responsive suppliers number of suppliers 1,164 1,124 893 SLB supplier response rate percentage 85 83 72 Average CDP member response rate percentage 40 59 64 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 54",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2648,6 +2791,8 @@
       "snippet_zh": "ESG PERFORMANCE* MSCI: AA Sustainalytics: 18.5 (low risk) CDP Supply Chain: A Included in the Dow Jones Best-in-Class World Index CLIMATE ACTION HIG HLIG HTS 30% Scope 1 and 2 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 6",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：6",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2685,6 +2830,8 @@
       "snippet_zh": "ESG PERFORMANCE* MSCI: AA Sustainalytics: 18.5 (low risk) CDP Supply Chain: A Included in the Dow Jones Best-in-Class World Index CLIMATE ACTION HIG HLIG HTS 30% Scope 1 and 2 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 6",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：6",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2728,6 +2875,8 @@
       "snippet_zh": "echnologies portfolio, and further innovations, such as SLB End-to-end Emissions Solutions (SEES) in methane monitoring and reporting. >950k TCO2e avoided emissions with SLB Tra...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 8",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：8",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     }
@@ -2816,123 +2965,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2,",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "11",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "In 2024, we advanced our Scope 1, 2, and 3 greenhouse gas (GHG) emission reductions, focusing on field operations, facilities, digital innovation, and supply chain. Climate Action 11 SLB 2024 Sustainability Report SLB 2024 Sustainability Re",
-      "snippet_zh": "In 2024, we advanced our Scope 1, 2, and 3 greenhouse gas (GHG) emission reductions, focusing on field operations, facilities, digital innovation, and supply chain. Climate Action 11 SLB 2024 Susta...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "15",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023. In addition to our Scope 1 and 2 key perfo",
-      "snippet_zh": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023....",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in scope 1 or scope 2) thousands of metric ton",
-      "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "6",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ESG PERFORMANCE* MSCI: AA Sustainalytics: 18.5 (low risk) CDP Supply Chain: A Included in the Dow Jones Best-in-Class World Index CLIMATE ACTION HIG HLIG HTS 30% Scope 1 and 2 absolute emissions reduction from our 2019 baseline 26% Scope 3",
-      "snippet_zh": "ESG PERFORMANCE* MSCI: AA Sustainalytics: 18.5 (low risk) CDP Supply Chain: A Included in the Dow Jones Best-in-Class World Index CLIMATE ACTION HIG HLIG HTS 30% Scope 1 and 2 absolute emissions re...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2024,",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "15",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023. In addition to our Scope 1 and 2 key perfo",
-      "snippet_zh": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023....",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [
     {
       "company_id": "r479_schlumberger",
@@ -2942,9 +2975,9 @@
       "scope3_category_code": "1",
       "scope3_category_en": "Category 1 Purchased goods and services",
       "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "2",
+      "value_text": "9,864",
       "unit_context": "tCO2e",
-      "value_mtco2e": 2e-06,
+      "value_mtco2e": 0.009864,
       "evidence_page": "52",
       "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
       "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
@@ -2953,74 +2986,20 @@
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
       "candidate_quality": "high",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "2050",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "45",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its 2050 net zero target that is inclusive of Scope 3 emissions an",
-      "snippet_zh": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its 2050 net zero targe...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "2",
-      "unit_context": "tCO2e",
-      "value_mtco2e": 2e-06,
-      "evidence_page": "52",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in scope 1 or scope 2) thousands of metric ton",
-      "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "high",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r479_schlumberger",
-      "company_name_en": "SCHLUMBERGER",
-      "company_name_zh": "斯伦贝谢公司",
-      "world500_rank": "479",
-      "scope3_category_code": "3",
-      "scope3_category_en": "Category 3 Fuel- and energy-related activities",
-      "scope3_category_zh": "类别3 燃料与能源相关活动",
-      "value_text": "1",
-      "unit_context": "tCO2e",
-      "value_mtco2e": 1e-06,
-      "evidence_page": "52",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in scope 1 or scope 2) thousands of metric ton",
-      "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "high",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "D",
+      "industry_section_en": "Electricity, Heat, Gas and Water Production and Supply",
+      "industry_section_zh": "电力、热力、燃气及水生产和供应业",
+      "industry_comparable_company_count": 3,
+      "acceptance_tier_code": "C1",
+      "acceptance_tier_en": "C1 explicit category value with industry-comparable coverage; high-priority review",
+      "acceptance_tier_zh": "C1 类别值原文显式且具行业可比口径，高优先复核",
+      "priority_level_en": "high",
+      "priority_level_zh": "高",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     }
   ],
   "evidence_ledger": [
@@ -3037,7 +3016,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3052,7 +3033,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3067,7 +3050,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3082,7 +3067,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 6",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3097,22 +3084,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "6",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ESG PERFORMANCE* MSCI: AA Sustainalytics: 18.5 (low risk) CDP Supply Chain: A Included in the Dow Jones Best-in-Class World Index CLIMATE ACTION HIG HLIG HTS 30% Scope 1 and 2 absolute emissions reduction from our 2019 baseline 26% Scope 3",
-      "snippet_zh": "ESG PERFORMANCE* MSCI: AA Sustainalytics: 18.5 (low risk) CDP Supply Chain: A Included in the Dow Jones Best-in-Class World Index CLIMATE ACTION HIG HLIG HTS 30% Scope 1 and 2 absolute emissions re...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 6",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3127,7 +3101,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 8",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：8"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3142,22 +3118,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "11",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "In 2024, we advanced our Scope 1, 2, and 3 greenhouse gas (GHG) emission reductions, focusing on field operations, facilities, digital innovation, and supply chain. Climate Action 11 SLB 2024 Sustainability Report SLB 2024 Sustainability Re",
-      "snippet_zh": "In 2024, we advanced our Scope 1, 2, and 3 greenhouse gas (GHG) emission reductions, focusing on field operations, facilities, digital innovation, and supply chain. Climate Action 11 SLB 2024 Susta...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3172,7 +3135,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 15",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：15"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3187,37 +3152,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "15",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023. In addition to our Scope 1 and 2 key perfo",
-      "snippet_zh": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023....",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "15",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023. In addition to our Scope 1 and 2 key perfo",
-      "snippet_zh": "Scope 3 in Our Value Chain In 2024, we increased our research and development (R&D) spend for solutions to decarbonize customer operations, CCS, and New Energy by approximately 6% compared to 2023....",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 15",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：15"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3232,7 +3169,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3247,7 +3186,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3262,7 +3203,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3277,7 +3220,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3292,7 +3237,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 18",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：18"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3307,7 +3254,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 18",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：18"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3322,7 +3271,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3337,7 +3288,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3352,7 +3305,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3367,7 +3322,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3382,22 +3339,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "45",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its 2050 net zero target that is inclusive of Scope 3 emissions an",
-      "snippet_zh": "and emissions monitoring portfolios—as well as our SLB New Energy investments in low-carbon and carbon-neutral energy technologies. The Board oversees SLB’s roadmap to reach its 2050 net zero targe...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3412,7 +3356,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：46"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3427,7 +3373,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 51",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：51"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3442,7 +3390,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3457,7 +3407,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3472,7 +3424,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3487,7 +3441,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3502,7 +3458,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3517,7 +3475,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3532,7 +3492,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3547,7 +3509,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3562,7 +3526,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3577,7 +3543,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3592,7 +3560,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3607,7 +3577,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3622,7 +3594,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3637,7 +3611,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3652,7 +3628,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3667,7 +3645,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3682,7 +3662,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3697,7 +3679,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3712,7 +3696,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3727,7 +3713,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3742,7 +3730,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3757,7 +3747,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3772,7 +3764,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3787,7 +3781,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3802,7 +3798,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3817,7 +3815,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3832,7 +3832,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3847,7 +3849,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3862,7 +3866,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3877,7 +3883,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3892,7 +3900,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3907,7 +3917,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3922,7 +3934,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3937,7 +3951,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3952,7 +3968,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3967,7 +3985,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3982,7 +4002,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3997,7 +4019,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4012,7 +4036,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4027,7 +4053,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4042,7 +4070,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4057,7 +4087,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4072,7 +4104,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4087,7 +4121,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4102,7 +4138,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52"
     },
     {
       "fact_type_en": "Scope 3 category value candidate",
@@ -4114,55 +4152,14 @@
       "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
       "snippet_en": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in scope 1 or scope 2) thousands of metric ton",
       "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in ...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
       "confidence_level": "high",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "52",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in scope 1 or scope 2) thousands of metric ton",
-      "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in ...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "high",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 3 Fuel- and energy-related activities",
-      "label_zh": "类别3 燃料与能源相关活动",
-      "page": "52",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in scope 1 or scope 2) thousands of metric ton",
-      "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in ...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "high",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "52",
-      "source_file": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "report_title": "SCHLUMBERGER-sustainability-report-2024.pdf",
-      "snippet_en": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in scope 1 or scope 2) thousands of metric ton",
-      "snippet_zh": "ies 1. Purchased goods and services thousands of metric tons CO2e 9,864 10,231 9,747 2. Capital goods thousands of metric tons CO2e 60 63 59 3. Fuel- and energy-related activities (not included in ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：52",
+      "acceptance_tier_en": "C1 explicit category value with industry-comparable coverage; high-priority review",
+      "acceptance_tier_zh": "C1 类别值原文显式且具行业可比口径，高优先复核"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4177,7 +4174,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4192,7 +4191,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4207,7 +4208,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4222,7 +4225,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4237,7 +4242,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: SCHLUMBERGER-sustainability-report-2024.pdf | File: SCHLUMBERGER-sustainability-report-2024.pdf | Page: 54",
+      "evidence_locator_zh": "报告：SCHLUMBERGER-sustainability-report-2024.pdf | 文件：SCHLUMBERGER-sustainability-report-2024.pdf | 页码：54"
     }
   ]
 }

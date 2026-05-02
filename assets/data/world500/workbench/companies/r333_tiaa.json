@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "TIAA climate_report_2024.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 55,
   "keyword_summary_count": 3,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 2,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
@@ -93,6 +98,8 @@
       "snippet_zh": "ents’ financial futures and the generations beyond, we continue to make meaningful progress against these targets and guide the company through the low-carbo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -115,6 +122,8 @@
       "snippet_zh": "cial impacts to TIAA. Nuveen: Physical risk exposures and/or scenario analysis are incorporated into investment processes. Integration is actively being expl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 30",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：30",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -137,6 +146,8 @@
       "snippet_zh": "n Accounting Financials (PCAF) is a global partnership of financial institutions that work together to develop and implement a harmonized approach to assess ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：37",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -159,6 +170,8 @@
       "snippet_zh": "n Accounting Financials (PCAF) is a global partnership of financial institutions that work together to develop and implement a harmonized approach to assess ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：37",
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法"
     }
@@ -198,6 +211,8 @@
       "snippet_zh": "on asset-level data is becoming available, which will unlock further transparency to the GA’s decarbonization journey. iii. \u0007Disclosure of carbon emissions data is still volunta...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -235,6 +250,8 @@
       "snippet_zh": "on asset-level data is becoming available, which will unlock further transparency to the GA’s decarbonization journey. iii. \u0007Disclosure of carbon emissions data is still volunta...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -278,6 +295,8 @@
       "snippet_zh": "untry’s arable land was irrigated while the remainder depended largely on rainfed irrigation. Many farms had no access to reliable energy. Second, in helping farmers increase th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：24",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -315,6 +334,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -352,6 +373,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -389,6 +412,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -426,6 +451,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -463,6 +490,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -500,6 +529,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -537,6 +568,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -574,6 +607,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -611,6 +646,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -648,6 +685,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -685,6 +724,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -722,6 +763,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -759,6 +802,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -796,6 +841,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -833,6 +880,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -870,6 +919,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -907,6 +958,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -944,6 +997,8 @@
       "snippet_zh": "e stakeholders with clear, data-driven insights. This upgrade marks a significant step forward in our sustainability journey, reinforcing our commitment to responsible business ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -981,6 +1036,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1018,6 +1075,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1055,6 +1114,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1092,6 +1153,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1129,6 +1192,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1166,6 +1231,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1203,6 +1270,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1240,6 +1309,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1277,6 +1348,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1314,6 +1387,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1351,6 +1426,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1388,6 +1465,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1425,6 +1504,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1462,6 +1543,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1499,6 +1582,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1536,6 +1621,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1573,6 +1660,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1610,6 +1699,8 @@
       "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Sco...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1647,6 +1738,8 @@
       "snippet_zh": "some residual emissions from heating and other Scope 1 sources can’t be reduced through operational changes due to supply chain or technological delays. When this occurs, TIAA w...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 36",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1690,6 +1783,8 @@
       "snippet_zh": "1–5 scoring spectrum, the conceptual hierarchy of quality is as follows: • \u0007Score 1: The highest-quality data comes from verified or assured emissions directly disclosed by the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：37",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据"
     },
@@ -1733,6 +1828,8 @@
       "snippet_zh": "ion-based method, and district thermals. Scope 3 refers to those emissions associated with actual energy obtained by the landlord but used by the tenant, if submeter data is ava...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：40",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1776,6 +1873,8 @@
       "snippet_zh": "Intensity Industrial 0.0389 0.0962 Residential Oﬃce Retail Total 2019-2022 Emissions Intensity 0.0760 0.0857 0.0624 0.0310 0.0762 0.0492 0.0734 0.0492 -20% -21% -35% -14% -21% T...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1819,6 +1918,8 @@
       "snippet_zh": "Intensity Industrial 0.0389 0.0962 Residential Oﬃce Retail Total 2019-2022 Emissions Intensity 0.0760 0.0857 0.0624 0.0310 0.0762 0.0492 0.0734 0.0492 -20% -21% -35% -14% -21% T...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1862,6 +1963,8 @@
       "snippet_zh": "Intensity Industrial 0.0389 0.0962 Residential Oﬃce Retail Total 2019-2022 Emissions Intensity 0.0760 0.0857 0.0624 0.0310 0.0762 0.0492 0.0734 0.0492 -20% -21% -35% -14% -21% T...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1905,6 +2008,8 @@
       "snippet_zh": "ate (Equity) Direct Commercial Real Estate Equity and Funds will target a reduction of area normalized (per square meter) total building operating emissions, which includes both...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1948,6 +2053,8 @@
       "snippet_zh": "ate (Equity) Direct Commercial Real Estate Equity and Funds will target a reduction of area normalized (per square meter) total building operating emissions, which includes both...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1991,6 +2098,8 @@
       "snippet_zh": "ate (Equity) Direct Commercial Real Estate Equity and Funds will target a reduction of area normalized (per square meter) total building operating emissions, which includes both...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2037,6 +2146,8 @@
       "snippet_zh": "Infrastructure The Nuveen Infrastructure Sustainability team engaged with a vendor to assist in the top-down calculation of carbon emissions for the portfolio. As a result of th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：46",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -2083,6 +2194,8 @@
       "snippet_zh": "Infrastructure The Nuveen Infrastructure Sustainability team engaged with a vendor to assist in the top-down calculation of carbon emissions for the portfolio. As a result of th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：46",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -2129,6 +2242,8 @@
       "snippet_zh": "Infrastructure The Nuveen Infrastructure Sustainability team engaged with a vendor to assist in the top-down calculation of carbon emissions for the portfolio. As a result of th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：46",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -2172,6 +2287,8 @@
       "snippet_zh": "ce emission across key parts of their business. Looking ahead to next steps in carbon accounting and reporting capabilities, Churchill is working on a solution to model emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2215,6 +2332,8 @@
       "snippet_zh": "form. Unmatched securities were evaluated against other security identifiers on a “best-efforts” basis to generate a match against MSCI ESG data fields. Securities that MSCI was...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：48",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2258,6 +2377,8 @@
       "snippet_zh": "form. Unmatched securities were evaluated against other security identifiers on a “best-efforts” basis to generate a match against MSCI ESG data fields. Securities that MSCI was...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：48",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2301,6 +2422,8 @@
       "snippet_zh": "form. Unmatched securities were evaluated against other security identifiers on a “best-efforts” basis to generate a match against MSCI ESG data fields. Securities that MSCI was...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：48",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -2362,54 +2485,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r333_tiaa",
-      "company_name_en": "TIAA",
-      "company_name_zh": "美国教师退休基金会",
-      "world500_rank": "333",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "34",
-      "source_file": "TIAA climate_report_2024.pdf",
-      "report_title": "TIAA climate_report_2024.pdf",
-      "snippet_en": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3 Natural gas and propane stationary combust",
-      "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r333_tiaa",
-      "company_name_en": "TIAA",
-      "company_name_zh": "美国教师退休基金会",
-      "world500_rank": "333",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "34",
-      "source_file": "TIAA climate_report_2024.pdf",
-      "report_title": "TIAA climate_report_2024.pdf",
-      "snippet_en": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3 Natural gas and propane stationary combust",
-      "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -2425,7 +2501,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2440,7 +2518,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2455,7 +2535,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2470,7 +2552,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：24"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2485,7 +2569,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 30",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2500,7 +2586,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2515,7 +2603,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2530,7 +2620,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2545,7 +2637,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2560,7 +2654,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2575,7 +2671,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2590,7 +2688,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2605,7 +2705,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2620,7 +2722,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2635,7 +2739,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2650,7 +2756,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2665,7 +2773,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2680,7 +2790,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2695,7 +2807,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2710,7 +2824,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2725,7 +2841,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2740,7 +2858,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2755,7 +2875,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2770,7 +2892,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2785,7 +2909,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2800,7 +2926,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2815,7 +2943,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2830,7 +2960,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2845,7 +2977,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2860,7 +2994,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2875,7 +3011,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2890,7 +3028,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2905,7 +3045,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2920,7 +3062,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2935,7 +3079,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2950,7 +3096,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2965,7 +3113,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2980,7 +3130,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2995,7 +3147,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3010,7 +3164,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3025,37 +3181,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "34",
-      "source_file": "TIAA climate_report_2024.pdf",
-      "report_title": "TIAA climate_report_2024.pdf",
-      "snippet_en": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3 Natural gas and propane stationary combust",
-      "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "34",
-      "source_file": "TIAA climate_report_2024.pdf",
-      "report_title": "TIAA climate_report_2024.pdf",
-      "snippet_en": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3 Natural gas and propane stationary combust",
-      "snippet_zh": "630 2020 28,137 5,646 12,122 10,369 2021 73,868 4,258 29,373 40,237 2022 72.353 3,639 28,791 39,232 2023 0K TIAA's operational emissions impact Total GHG emissions (mt CO2e) Scope 1 Scope 2 Scope 3...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3070,7 +3198,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 36",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3085,7 +3215,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：37"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3100,7 +3232,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：37"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3115,7 +3249,9 @@
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3130,7 +3266,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3145,7 +3283,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3160,7 +3300,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3175,7 +3317,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3190,7 +3334,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3205,7 +3351,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3220,7 +3368,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3235,7 +3385,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3250,7 +3402,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3265,7 +3419,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3280,7 +3436,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3295,7 +3453,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：48"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3310,7 +3470,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：48"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3325,7 +3487,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: TIAA climate_report_2024.pdf | File: TIAA climate_report_2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：TIAA climate_report_2024.pdf | 文件：TIAA climate_report_2024.pdf | 页码：48"
     }
   ]
 }

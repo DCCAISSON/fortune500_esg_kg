@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "LIC_Annual_Report_2023_2024.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 31,
   "keyword_summary_count": 3,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
@@ -93,6 +98,8 @@
       "snippet_zh": "Independent Reasonable Assurance Report on identified sustainability information in the Business Responsibility and Sustainability Reporting (BRSR) 2023-24 ....",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 157",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：157",
       "recognition_basis_en": "Structured standard tag: Business Responsibility and Sustainability Reporting (BRSR) Core Format; Standard role: Disclosure framework",
       "recognition_basis_zh": "结构化标准标注：商业责任与可持续发展报告（BRSR）核心格式；标准角色：披露框架"
     },
@@ -115,6 +122,8 @@
       "snippet_zh": "Reporting criteria ... World Resource Institute (WRI) / World Business Council for Sustainable Development (WBCSD) Greenhouse Gas (GHG) Protocol (A Corporate...",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 157",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：157",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -137,6 +146,8 @@
       "snippet_zh": "Reporting criteria ... Regulation 34(2)(f) of the Securities and Exchange Board of India (SEBI) Listing Obligations and Disclosure Requirements (SEBI LODR).",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 157",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：157",
       "recognition_basis_en": "Structured standard tag: SEBI LODR Regulation 34(2)(f); Standard role: Disclosure regulation",
       "recognition_basis_zh": "结构化标准标注：SEBI 上市义务与披露要求条例第34(2)(f)条；标准角色：披露监管规则"
     },
@@ -159,6 +170,8 @@
       "snippet_zh": "We conducted our engagement in accordance with ... SAE 3410 'Assurance Engagements on Greenhouse Gas Statements'.",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 158",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：158",
       "recognition_basis_en": "Structured standard tag: ISAE 3410; Standard role: Assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISAE 3410 温室气体声明鉴证准则；标准角色：鉴证标准"
     }
@@ -204,6 +217,8 @@
       "snippet_zh": "rajectory reflects resilience and adaptability. As the nation navigates economic complexities, strategic policies and global cooperation will play pivotal roles. Despite the sho...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 176",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：176",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -247,6 +262,8 @@
       "snippet_zh": "177 (iii) Urbanisation: Urbanisation across the world has increased and similar trend has been observed in India, currently, close to 35% of the population live in urban areas a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 179",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：179",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -290,6 +307,8 @@
       "snippet_zh": "177 (iii) Urbanisation: Urbanisation across the world has increased and similar trend has been observed in India, currently, close to 35% of the population live in urban areas a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 179",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：179",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -333,6 +352,8 @@
       "snippet_zh": "177 (iii) Urbanisation: Urbanisation across the world has increased and similar trend has been observed in India, currently, close to 35% of the population live in urban areas a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 179",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：179",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -370,6 +391,8 @@
       "snippet_zh": "ncial year: Total number of training and awareness programmes held Topics / principles covered under the training and its impact %age of persons in respective category covered b...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 281",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：281",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -413,6 +436,8 @@
       "snippet_zh": "297 7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format: Parameter Unit FY 2023-24 (Current Financial Year) F...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 299",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：299",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -456,6 +481,8 @@
       "snippet_zh": "297 7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format: Parameter Unit FY 2023-24 (Current Financial Year) F...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 299",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：299",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -499,6 +526,8 @@
       "snippet_zh": "to third-parties - No treatment - With treatment – please specify level of treatment (v) Others - No treatment - With treatment – please specify level of treatment Total water d...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 302",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：302",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Assurance; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：鉴证；原文命中关键词：初级数据"
     },
@@ -536,6 +565,8 @@
       "snippet_zh": ". We have carried out the following key audit procedures: • Understood the Corporation’s process and procedures and tested controls to ensure proper classification and valuation...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 335",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：335",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -573,6 +604,8 @@
       "snippet_zh": ". We have carried out the following key audit procedures: • Understood the Corporation’s process and procedures and tested controls to ensure proper classification and valuation...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 335",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：335",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -616,6 +649,8 @@
       "snippet_zh": "ystem logs of all commands executed are captured and recorded. Also database transaction log is available as mySQLbinlog. However, audit transaction log in Database is not enabl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 347",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：347",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -653,6 +688,8 @@
       "snippet_zh": "rs of the Corporation charged with compliance and the same being noted by the Board, nothing has come to our attention that causes us to believe that the Corporation has not com...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 355",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：355",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -690,6 +727,8 @@
       "snippet_zh": "rs of the Corporation charged with compliance and the same being noted by the Board, nothing has come to our attention that causes us to believe that the Corporation has not com...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 355",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：355",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -733,6 +772,8 @@
       "snippet_zh": "r the properties taken in possession, pending documentation, are accounted under ‘House Property and Land’. 9. Depreciation/Amortisation: Depreciation /amortisation on fixed ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 419",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：419",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -776,6 +817,8 @@
       "snippet_zh": "Assets 1,058.80 1,378.80 3. Actuarial Assumptions for valuation of Policy liabilities: The Corporation’s Life Insurance Business consists of linked and non-linked business under...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 427",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：427",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -819,6 +862,8 @@
       "snippet_zh": "ion adjustments 0.00 0.00 Actual return on Plan Assets 1,209.17 1,013.30 Contributions 488.00 3,305.00 Benefits paid (1,262.60) (1,202.93) Fair Value of Plan Assets at the end o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 439",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：439",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -862,6 +907,8 @@
       "snippet_zh": "0 Acquisition adjustments 0.00 0.00 Actual return on Plan Assets 498.01 420.81 Contributions 570.00 1,147.00 Benefits paid (614.83) (527.21) Fair Value of Plan Assets at the end...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 443",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：443",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -905,6 +952,8 @@
       "snippet_zh": "86.86 Actuarial gain 0.00 (1,257.51) Actual Return on Plan Assets 8,722.82 7,302.70 Contributions 15,782.13 16,127.06 Benefits Paid (10,998.18) (7,504.29) Fair value of plan ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 447",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：447",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -948,6 +997,8 @@
       "snippet_zh": "f the year 254.57 219.14 Actuarial gain/loss 0.00 0.00 Actual Return on Plan Assets 20.45 17.16 Contributions 20.06 23.05 Benefits Paid (24.15) (1.59) Fair value of plan assets ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 451",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：451",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -991,6 +1042,8 @@
       "snippet_zh": "rmediaries 486.81 Due to revised Board Approved policy. 33) Wage Revision: Wage revision of the employees of the Corporation is done every five years and the last wage revision ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 489",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：489",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1034,6 +1087,8 @@
       "snippet_zh": "591 Insurance Risk: Insurance risk can occur as a result of adverse experience in claims, morbidity, mortality, withdrawals, expenses, taxation treatment and other assumptions t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 593",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：593",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -1071,6 +1126,8 @@
       "snippet_zh": "We have carried out the following key audit procedures: • Understood the Corporation’s process and procedures and tested controls to ensure proper classification and valuation /...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 607",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：607",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1108,6 +1165,8 @@
       "snippet_zh": "We have carried out the following key audit procedures: • Understood the Corporation’s process and procedures and tested controls to ensure proper classification and valuation /...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 607",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：607",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1151,6 +1210,8 @@
       "snippet_zh": "ystem logs of all commands executed are captured and recorded. Also database transaction log is available as mySQLbinlog. However, audit transaction log in Database is not enabl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 621",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：621",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1194,6 +1255,8 @@
       "snippet_zh": "the properties taken in possession, pending documentation, are accounted under ‘House Property and Land. 6.2 Depreciation / Amortisation Depreciation / amortisation on fixed ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 677",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：677",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1237,6 +1300,8 @@
       "snippet_zh": ",058.80 1,378.80 4. Actuarial Assumptions for valuation of policy liabilities of LICI: The Corporation’s Life Insurance Business consists of linked and non-linked business under...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 695",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：695",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -1280,6 +1345,8 @@
       "snippet_zh": "quisition adjustments - - Actual return on Plan Assets 1,209.17 1,013.30 Contributions 488.00 3,305.00 Benefits paid (1,262.60) (1,202.93) Fair Value of Plan Assets at the end o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 707",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：707",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1323,6 +1390,8 @@
       "snippet_zh": ",191.70 Acquisition adjustments - - Actual return on Plan Assets 498.01 420.81 Contributions 570.00 1,147.00 Benefits paid (614.83) (527.21) Fair Value of Plan Assets at the end...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 711",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：711",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1366,6 +1435,8 @@
       "snippet_zh": "86.86 Actuarial gain 0.00 (1,257.51) Actual Return on Plan Assets 8,722.82 7,302.70 Contributions 15,782.13 16,127.06 Benefits Paid (10,998.18) (7,504.29) Fair value of plan ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 715",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：715",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1409,6 +1480,8 @@
       "snippet_zh": "ning of the year 254.57 219.14 Actuarial gain/loss - - Actual Return on Plan Assets 20.45 17.16 Contributions 20.06 23.05 Benefits Paid (24.15) (1.59) Fair value of plan assets ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 719",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：719",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1452,6 +1525,8 @@
       "snippet_zh": "755 48. Wage Revision of LICI: Wage revision of the employees of the Corporation is done every five years and the last wage revision has become due on August 01, 2022. The provi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 757",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：757",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -1512,31 +1587,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r095_lifeinsurancecorpofindia",
-      "company_name_en": "LIFE INSURANCE CORP. OF INDIA",
-      "company_name_zh": "印度人寿保险公司",
-      "world500_rank": "95",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "299",
-      "source_file": "LIC_Annual_Report_2023_2024.pdf",
-      "report_title": "LIC_Annual_Report_2023_2024.pdf",
-      "snippet_en": "297 7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format: Parameter Unit FY 2023-24 (Current Financial Year) FY 2022-23 (Previous Financial Year) Total Scope 1 emissions (Br",
-      "snippet_zh": "297 7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format: Parameter Unit FY 2023-24 (Current Financial Year) FY 2022-23 (Previous ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -1552,7 +1603,9 @@
       "recognition_basis_en": "Structured standard tag: Business Responsibility and Sustainability Reporting (BRSR) Core Format; Standard role: Disclosure framework",
       "recognition_basis_zh": "结构化标准标注：商业责任与可持续发展报告（BRSR）核心格式；标准角色：披露框架",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 157",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：157"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1567,7 +1620,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 157",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：157"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1582,7 +1637,9 @@
       "recognition_basis_en": "Structured standard tag: SEBI LODR Regulation 34(2)(f); Standard role: Disclosure regulation",
       "recognition_basis_zh": "结构化标准标注：SEBI 上市义务与披露要求条例第34(2)(f)条；标准角色：披露监管规则",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 157",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：157"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1597,7 +1654,9 @@
       "recognition_basis_en": "Structured standard tag: ISAE 3410; Standard role: Assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISAE 3410 温室气体声明鉴证准则；标准角色：鉴证标准",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 158",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：158"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1612,7 +1671,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 176",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：176"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1627,7 +1688,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 179",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：179"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1642,7 +1705,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 179",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：179"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1657,7 +1722,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 179",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：179"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1672,7 +1739,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 281",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：281"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1687,7 +1756,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 299",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：299"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1702,22 +1773,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "299",
-      "source_file": "LIC_Annual_Report_2023_2024.pdf",
-      "report_title": "LIC_Annual_Report_2023_2024.pdf",
-      "snippet_en": "297 7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format: Parameter Unit FY 2023-24 (Current Financial Year) FY 2022-23 (Previous Financial Year) Total Scope 1 emissions (Br",
-      "snippet_zh": "297 7. Provide details of greenhouse gas emissions (Scope 1 and Scope 2 emissions) & its intensity, in the following format: Parameter Unit FY 2023-24 (Current Financial Year) FY 2022-23 (Previous ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 299",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：299"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1732,7 +1790,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Assurance; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：鉴证；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 302",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：302"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1747,7 +1807,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 335",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：335"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1762,7 +1824,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 335",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：335"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1777,7 +1841,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 347",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：347"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1792,7 +1858,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 355",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：355"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1807,7 +1875,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 355",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：355"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1822,7 +1892,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 419",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：419"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1837,7 +1909,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 427",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：427"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1852,7 +1926,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 439",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：439"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1867,7 +1943,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 443",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：443"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1882,7 +1960,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 447",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：447"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1897,7 +1977,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 451",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：451"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1912,7 +1994,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 489",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：489"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1927,7 +2011,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 593",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：593"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1942,7 +2028,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 607",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：607"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1957,7 +2045,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 607",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：607"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1972,7 +2062,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 621",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：621"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1987,7 +2079,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 677",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：677"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2002,7 +2096,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 695",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：695"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2017,7 +2113,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 707",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：707"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2032,7 +2130,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 711",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：711"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2047,7 +2147,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 715",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：715"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2062,7 +2164,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 719",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：719"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2077,7 +2181,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: LIC_Annual_Report_2023_2024.pdf | File: LIC_Annual_Report_2023_2024.pdf | Page: 757",
+      "evidence_locator_zh": "报告：LIC_Annual_Report_2023_2024.pdf | 文件：LIC_Annual_Report_2023_2024.pdf | 页码：757"
     }
   ]
 }

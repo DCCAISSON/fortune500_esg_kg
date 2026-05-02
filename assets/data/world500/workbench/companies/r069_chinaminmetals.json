@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "34033037.pdf"
@@ -61,6 +66,8 @@
       "snippet_zh": "，本报告是自2007 年以来连续发布的第18 份可持续发展报告。 报告范围 中国五矿集团有限公司总部及下属各单位（基于各单 位的业务属性，各议题披露的边界和范围略有不同，已在 报告相应位置界定说明）。 称谓说明 为了便于表述和方便阅读，“中国五矿集团有限公司” 在本报告中也以“中国五矿”“公司”或“我们”来代指。...",
       "confidence_level": "medium",
       "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: 34033037.pdf | File: 34033037.pdf | Page: 2",
+      "evidence_locator_zh": "报告：34033037.pdf | 文件：34033037.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
@@ -84,7 +91,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_11"
+      "review_status": "seed_batch_11",
+      "evidence_locator_en": "Report: 34033037.pdf | File: 34033037.pdf | Page: 2",
+      "evidence_locator_zh": "报告：34033037.pdf | 文件：34033037.pdf | 页码：2"
     }
   ]
 }

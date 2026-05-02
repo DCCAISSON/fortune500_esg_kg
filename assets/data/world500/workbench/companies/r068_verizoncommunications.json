@@ -8,6 +8,11 @@
   "industry_section_zh": "信息传输、软件和信息技术服务业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "Verizon-2023-ESG-Report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 36,
   "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 2,
-  "scope3_candidate_count": 3,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架"
@@ -95,6 +100,8 @@
       "snippet_zh": "mpacts 47 Helping customers reduce their emissions 49 Network resilience 50 Community 51 Citizen Verizon goals 52 Digital equity and inclusion 53 Climate pro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -117,6 +124,8 @@
       "snippet_zh": "mpacts 47 Helping customers reduce their emissions 49 Network resilience 50 Community 51 Citizen Verizon goals 52 Digital equity and inclusion 53 Climate pro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -139,6 +148,8 @@
       "snippet_zh": "nt to 13% of electricity usage Target: Expect to source renewable energy equivalent to 100% of our annual electricity usage By 2030 * Scope 1, 2 and 3 emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 41",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：41",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -161,6 +172,8 @@
       "snippet_zh": "k Management, Legal and Accounting Policy, is implementing an expanded internal control framework for ESG information to facilitate our compliance with ESG-r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 9",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：9",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     }
@@ -206,6 +219,8 @@
       "snippet_zh": "rom the transition to a low-carbon economy and physical risks, such as extreme weather and long-term changes in climate. We have set long-term goals and interim targets to addre...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 41",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：41",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -243,6 +258,8 @@
       "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories be...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -280,6 +297,8 @@
       "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories be...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -317,6 +336,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -354,6 +375,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -391,6 +414,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -428,6 +453,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -465,6 +492,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -502,6 +531,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -539,6 +570,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -576,6 +609,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -613,6 +648,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -650,6 +687,8 @@
       "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories be...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -687,6 +726,8 @@
       "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories be...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -724,6 +765,8 @@
       "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories be...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -761,6 +804,8 @@
       "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories be...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -798,6 +843,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -835,6 +882,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -872,6 +921,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -909,6 +960,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -946,6 +999,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -983,6 +1038,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1020,6 +1077,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1057,6 +1116,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1094,6 +1155,8 @@
       "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1131,6 +1194,8 @@
       "snippet_zh": "y management across Verizon and our value chain. To embed climate awareness across the enterprise, Verizon’s short- term incentive plan for management employees includes a perfo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1168,6 +1233,8 @@
       "snippet_zh": "y management across Verizon and our value chain. To embed climate awareness across the enterprise, Verizon’s short- term incentive plan for management employees includes a perfo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1205,6 +1272,8 @@
       "snippet_zh": "y management across Verizon and our value chain. To embed climate awareness across the enterprise, Verizon’s short- term incentive plan for management employees includes a perfo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1242,6 +1311,8 @@
       "snippet_zh": "y management across Verizon and our value chain. To embed climate awareness across the enterprise, Verizon’s short- term incentive plan for management employees includes a perfo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1279,6 +1350,8 @@
       "snippet_zh": "ble us to better understand the emissions from our value chain and ultimately manage them more effectively. As part of our supplier engagement, we convey our expectation for acc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 46",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：46",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1316,6 +1389,8 @@
       "snippet_zh": "erwriters that have established clear and impactful commitments in support of the UN SDGs, are a diverse-owned firm or have a core mission of promoting DEI. Our annual Green Bon...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 46",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：46",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1359,6 +1434,8 @@
       "snippet_zh": "to minimize climate impact on communities • Expect to achieve net-zero operational emissions by 2035 • Expect to source renewable energy equivalent to 100% of our annual electri...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 52",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1402,6 +1479,8 @@
       "snippet_zh": "ing Fios internet services, Digital Subscriber Line and postpaid, prepaid and IoT FWA as of the end of the period. TC-TL-000.D Network traffic in petabytes 114,413 134,202 Pendi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -1439,6 +1518,8 @@
       "snippet_zh": "ew Jersey. Our countries of operation can be found on our website. 2-3 Reporting period, frequency and contact point January 1, 2023 – December 31, 2023, unless otherwise noted ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：66",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1482,6 +1563,8 @@
       "snippet_zh": "in the global energy mix 7.3: By 2030, double the global rate of improvement in energy efficiency • Source renewable energy equivalent to 50% of our total annual electricity con...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：70",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1525,6 +1608,8 @@
       "snippet_zh": "to file a Conflict Minerals Report in 2023 for the period from January 1, 2022, to December 31, 2022, because we did not manufacture or contract to manufacture products subject ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 71",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：71",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据"
     }
@@ -1563,122 +1648,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r068_verizoncommunications",
-      "company_name_en": "VERIZON COMMUNICATIONS",
-      "company_name_zh": "威瑞森电信",
-      "world500_rank": "68",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power our fleet, heat our buildings and power our b",
-      "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power ou...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r068_verizoncommunications",
-      "company_name_en": "VERIZON COMMUNICATIONS",
-      "company_name_zh": "威瑞森电信",
-      "world500_rank": "68",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power our fleet, heat our buildings and power our b",
-      "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power ou...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r068_verizoncommunications",
-      "company_name_en": "VERIZON COMMUNICATIONS",
-      "company_name_zh": "威瑞森电信",
-      "world500_rank": "68",
-      "scope3_category_code": "1",
-      "scope3_category_en": "Category 1 Purchased goods and services",
-      "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (not included in scope 1 or 2) and use of sold",
-      "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (no...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r068_verizoncommunications",
-      "company_name_en": "VERIZON COMMUNICATIONS",
-      "company_name_zh": "威瑞森电信",
-      "world500_rank": "68",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (not included in scope 1 or 2) and use of sold",
-      "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (no...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r068_verizoncommunications",
-      "company_name_en": "VERIZON COMMUNICATIONS",
-      "company_name_zh": "威瑞森电信",
-      "world500_rank": "68",
-      "scope3_category_code": "3",
-      "scope3_category_en": "Category 3 Fuel- and energy-related activities",
-      "scope3_category_zh": "类别3 燃料与能源相关活动",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (not included in scope 1 or 2) and use of sold",
-      "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (no...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -1693,7 +1664,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1708,7 +1681,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1723,7 +1698,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 9",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：9"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1738,7 +1715,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 41",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：41"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1753,7 +1732,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 41",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1768,7 +1749,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1783,7 +1766,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1798,7 +1783,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1813,7 +1800,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1828,7 +1817,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1843,7 +1834,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1858,7 +1851,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1873,7 +1868,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1888,7 +1885,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1903,7 +1902,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1918,7 +1919,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1933,7 +1936,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1948,7 +1953,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1963,7 +1970,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1978,7 +1987,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1993,7 +2004,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2008,7 +2021,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2023,7 +2038,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2038,7 +2055,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2053,7 +2072,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2068,7 +2089,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2083,7 +2106,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2098,7 +2123,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2113,82 +2140,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 1 Purchased goods and services",
-      "label_zh": "类别1 购买的商品和服务",
-      "page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (not included in scope 1 or 2) and use of sold",
-      "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (no...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (not included in scope 1 or 2) and use of sold",
-      "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (no...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 3 Fuel- and energy-related activities",
-      "label_zh": "类别3 燃料与能源相关活动",
-      "page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (not included in scope 1 or 2) and use of sold",
-      "snippet_zh": "gs. Indirect emissions associated with Verizon’s upstream and downstream value chain. The largest categories are purchased goods and services, capital goods, fuel- and energy-related activities (no...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power our fleet, heat our buildings and power our b",
-      "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power ou...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "43",
-      "source_file": "Verizon-2023-ESG-Report.pdf",
-      "report_title": "Verizon-2023-ESG-Report.pdf",
-      "snippet_en": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power our fleet, heat our buildings and power our b",
-      "snippet_zh": "such, 2019 serves as the baseline year for our climate goals. Scope 1 Scope 2 Scope 3 All direct sources of emissions owned or controlled by Verizon, with the main categories being fuel to power ou...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2203,7 +2157,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2218,7 +2174,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2233,7 +2191,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2248,7 +2208,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2263,7 +2225,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 46",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2278,7 +2242,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 46",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2293,7 +2259,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 52",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2308,7 +2276,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2323,7 +2293,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2338,7 +2310,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 70",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2353,7 +2327,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: Verizon-2023-ESG-Report.pdf | File: Verizon-2023-ESG-Report.pdf | Page: 71",
+      "evidence_locator_zh": "报告：Verizon-2023-ESG-Report.pdf | 文件：Verizon-2023-ESG-Report.pdf | 页码：71"
     }
   ]
 }

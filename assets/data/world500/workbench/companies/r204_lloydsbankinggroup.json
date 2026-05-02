@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "Lloyds_Banking_Group_Annual_Report_2024.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 101,
   "keyword_summary_count": 8,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 3,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
@@ -115,6 +120,8 @@
       "snippet_zh": "e’s review 04 Our business model 08 Our external environment 12 Our strategy 16 Our key performance indicators 26 Our colleagues 30 Risk overview 33 Viabilit...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -137,6 +144,8 @@
       "snippet_zh": "develop our disclosures against the TCFD recommendations and recommended disclosures, considering relevant TCFD guidance and materials along with new disclos...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：46",
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准"
     },
@@ -159,6 +168,8 @@
       "snippet_zh": "ainability report 2024 pages 83 to 84 and 122 • Our Scope 1 and 2 emissions for own operations have been reported in line with Streamlined Energy Carbon Repo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -181,6 +192,8 @@
       "snippet_zh": "esses and tools with the aim of embedding a double materiality assessment in due course. The Group is considering the regulatory landscape and is preparing f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：53",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     },
@@ -203,6 +216,8 @@
       "snippet_zh": "The assurance engagement was planned and performed in accordance with the International Standard on Assurance Engagements 3000 (Revised).",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 58",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：58",
       "recognition_basis_en": "Structured standard tag: ISAE 3000 (Revised); Standard role: Assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISAE 3000(修订版)；标准角色：鉴证标准"
     },
@@ -225,6 +240,8 @@
       "snippet_zh": "The assurance engagement was planned and performed in accordance with the International Standard on Assurance Engagements 3410 (ISAE 3410).",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 58",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：58",
       "recognition_basis_en": "Structured standard tag: ISAE 3410; Standard role: Assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISAE 3410 温室气体声明鉴证准则；标准角色：鉴证标准"
     },
@@ -247,6 +264,8 @@
       "snippet_zh": "Streamlined energy carbon reporting Methodology ... own operations have been reported in line with Streamlined Energy Carbon Reporting requirements.",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured standard tag: Streamlined Energy and Carbon Reporting (SECR); Standard role: Disclosure regulation",
       "recognition_basis_zh": "结构化标准标注：英国精简能源与碳报告要求(SECR)；标准角色：披露监管规则"
     }
@@ -286,6 +305,8 @@
       "snippet_zh": "gulatory requirements, with a focus on the translation to financial statement impact. Progress on disclosure enhancements with improvements in dedicated sustainability reporting...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 104",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：104",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -329,6 +350,8 @@
       "snippet_zh": "eview of external reporting documents Significant accounting judgements Going concern assumption/viability statement Regulatory reporting Sustainability-related reporting Activi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -366,6 +389,8 @@
       "snippet_zh": "sment of how effectively we are serving customers across our brands, products and services. Reducing operational carbon emissions • A 30 per cent reduction has been achieved in ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 124",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：124",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -403,6 +428,8 @@
       "snippet_zh": "sment of how effectively we are serving customers across our brands, products and services. Reducing operational carbon emissions • A 30 per cent reduction has been achieved in ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 124",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：124",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -446,6 +473,8 @@
       "snippet_zh": "eholding has been recalculated using the average share price for the period 1 January 2024 to 31 December 2024 (53.439 pence). 3 Unvested shares subject to continued employment ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 129",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：129",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -489,6 +518,8 @@
       "snippet_zh": "culates regulatory capital on the basis of an internal model, which has been approved by the PRA. The minimum required capital must be maintained at all times throughout the yea...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 154",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：154",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -532,6 +563,8 @@
       "snippet_zh": "culates regulatory capital on the basis of an internal model, which has been approved by the PRA. The minimum required capital must be maintained at all times throughout the yea...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 154",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：154",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -575,6 +608,8 @@
       "snippet_zh": "culates regulatory capital on the basis of an internal model, which has been approved by the PRA. The minimum required capital must be maintained at all times throughout the yea...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 154",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：154",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -618,6 +653,8 @@
       "snippet_zh": "arming. However, current modelling approaches suggest significant impacts relating to physical risks will be longer term, although there are industry-wide weaknesses in determin...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 155",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：155",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -661,6 +698,8 @@
       "snippet_zh": "nitored and reviewed. Collateral values are reviewed based on lending type, collateral and account performance to ensure they remain appropriate. If collateral value declines, t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 161",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：161",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -704,6 +743,8 @@
       "snippet_zh": "ld as security for Retail loans and advances to customers (audited) UK mortgages An analysis by loan-to-value ratio of the Group’s UK residential mortgage lending is provided be...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 180",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：180",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -747,6 +788,8 @@
       "snippet_zh": "effectiveness of controls that manage insurance underwriting risk is evaluated and significant divergences from experience or movements in risk exposures are investigated and re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 186",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：186",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -790,6 +833,8 @@
       "snippet_zh": "Cash flows arising from insurance liabilities (audited) The following table presents the estimated amount and timing of the remaining contractual discounted cash flows arising f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 193",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：193",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -833,6 +878,8 @@
       "snippet_zh": "The Group is aware that any assumptions-based model is open to challenge. A full behavioural review is performed annually, or in response to changing market conditions, to ensur...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 196",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：196",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据"
     },
@@ -876,6 +923,8 @@
       "snippet_zh": "d balance sheet 214 Consolidated statement of changes in equity 215 Consolidated cash flow statement 218 Notes to the consolidated financial statements 1. Basis of preparation 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 203",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：203",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -919,6 +968,8 @@
       "snippet_zh": "In performing our audit risk assessments, we considered the impact of macroeconomic factors on the Group’s key accounting judgements and sources of estimation uncertainty. The k...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -956,6 +1007,8 @@
       "snippet_zh": "We were engaged separately to provide independent limited assurance under International Standard on Assurance Engagements (‘ISAE’) 3000 (Revised) and ISAE 3410 to the directors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -993,6 +1046,8 @@
       "snippet_zh": "We were engaged separately to provide independent limited assurance under International Standard on Assurance Engagements (‘ISAE’) 3000 (Revised) and ISAE 3410 to the directors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1030,6 +1085,8 @@
       "snippet_zh": "We were engaged separately to provide independent limited assurance under International Standard on Assurance Engagements (‘ISAE’) 3000 (Revised) and ISAE 3410 to the directors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1067,6 +1124,8 @@
       "snippet_zh": "We were engaged separately to provide independent limited assurance under International Standard on Assurance Engagements (‘ISAE’) 3000 (Revised) and ISAE 3410 to the directors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1104,6 +1163,8 @@
       "snippet_zh": "We were engaged separately to provide independent limited assurance under International Standard on Assurance Engagements (‘ISAE’) 3000 (Revised) and ISAE 3410 to the directors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1141,6 +1202,8 @@
       "snippet_zh": "We were engaged separately to provide independent limited assurance under International Standard on Assurance Engagements (‘ISAE’) 3000 (Revised) and ISAE 3410 to the directors ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1184,6 +1247,8 @@
       "snippet_zh": "ed by the model; performed a stand back assessment of the appropriateness of the weightings applied to each of the scenarios based on publicly available data; and evaluated the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 207",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：207",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1227,6 +1292,8 @@
       "snippet_zh": "ssets into stages, including those to determine the credit risk rating in the Commercial Banking division; and completeness and accuracy of the data used by the model. Working w...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 208",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：208",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1270,6 +1337,8 @@
       "snippet_zh": "t uncertainty around the final outcome as a result of the recent Court of Appeal decisions, appeal to the Supreme Court and the impact of the on-going review by the Financial Co...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 209",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：209",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1313,6 +1382,8 @@
       "snippet_zh": "e carrying value of attributable goodwill is included in the calculation of the profit or loss on disposal. (C) Other intangible assets Intangible assets which have been determi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 224",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：224",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1356,6 +1427,8 @@
       "snippet_zh": "cial guarantee contracts. Expected credit losses are calculated as an unbiased and probability-weighted estimate using an appropriate probability of default, adjusted to take in...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 226",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：226",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1399,6 +1472,8 @@
       "snippet_zh": "ctates that continuing attempts to recover are no longer appropriate. For commercial lending, a write-off occurs if the loan facility with the customer is restructured, the asse...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 227",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：227",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1442,6 +1517,8 @@
       "snippet_zh": "for the year ended 31 December Note 2: Accounting policies continued Operating lease assets are included within other assets at cost and depreciated over their estimated useful ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 228",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：228",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1485,6 +1562,8 @@
       "snippet_zh": "ed on the investment profile that the customer selected on origination of the contract. These services comprise an indeterminate number of acts over the lives of the individual ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 231",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：231",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1528,6 +1607,8 @@
       "snippet_zh": "or liquidation. (O) Provisions and contingent liabilities Provisions are recognised in respect of present obligations arising from past events where it is probable that outflows...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 232",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：232",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1571,6 +1652,8 @@
       "snippet_zh": "Note 3: Critical accounting judgements and key sources of estimation uncertainty Consideration of climate change continued Financial statement preparation includes the considera...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 233",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：233",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1614,6 +1697,8 @@
       "snippet_zh": "The Group expects the CSM to be derecognised in 2025 upon disposal of the reinsurance contract assets. Further information on the disposal group is provided in note 24. (I) Life...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 246",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：246",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1657,6 +1742,8 @@
       "snippet_zh": "rance business continued 2024 2023 Change in variable Increase (reduction) in profit before tax £m Increase (reduction) in equity £m Increase (reduction) in profit before tax £m...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 247",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：247",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1700,6 +1787,8 @@
       "snippet_zh": "eighted average share price £0.58 £0.52 £0.56 £0.48 Weighted average exercise price £0.52 Nil Nil Nil Expected volatility is a measure of the amount by which the Group’s shares ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 251",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：251",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1743,6 +1832,8 @@
       "snippet_zh": "aves the Group within this three-year period for other than a ‘good’ reason, all of the shares awarded will be forfeited. There have not been any awards made since 2021. Note 12...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 252",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：252",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1786,6 +1877,8 @@
       "snippet_zh": "e materially offset by holdings of inflation-linked gilts and, in most cases, caps on the level of inflationary increases are in place to protect against extreme inflation. Inte...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 255",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：255",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1829,6 +1922,8 @@
       "snippet_zh": "taken to meet the cost of post-retirement healthcare for all eligible former employees (and their dependants) who retired prior to 1 January 1996. The Group has entered into an ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 257",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：257",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1872,6 +1967,8 @@
       "snippet_zh": "Note 15: Tax continued At 31 December 2024 the Group carried deferred tax assets on its balance sheet of £5,005 million (2023: £5,185 million) principally relating to tax losses...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 261",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：261",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1915,6 +2012,8 @@
       "snippet_zh": "ch instruments would include the Group’s venture capital and unlisted equity investments which are valued using various valuation techniques that require significant management ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 264",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：264",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1958,6 +2057,8 @@
       "snippet_zh": "ch instruments would include the Group’s venture capital and unlisted equity investments which are valued using various valuation techniques that require significant management ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 264",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：264",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2001,6 +2102,8 @@
       "snippet_zh": "ch instruments would include the Group’s venture capital and unlisted equity investments which are valued using various valuation techniques that require significant management ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 264",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：264",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2050,6 +2153,8 @@
       "snippet_zh": "valued and is derived by reference to the current market-based multiple. Consideration is given to the risk attributes, growth prospects and financial gearing of comparable busi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 267",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：267",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data / Derived data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据 / 推导数据"
     },
@@ -2093,6 +2198,8 @@
       "snippet_zh": "£234 million), before tax, recognised in other comprehensive income. Trading liabilities in respect of securities sold under repurchase agreements The fair value of these liabil...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 269",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：269",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2136,6 +2243,8 @@
       "snippet_zh": "Note 17: Fair values of financial assets and liabilities continued (D) Sensitivity of level 3 valuations Critical accounting judgements and key sources of estimation uncertainty...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 270",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：270",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2179,6 +2288,8 @@
       "snippet_zh": "er fair value Volatility parameters represent key attributes of option behaviour; higher volatilities typically denote a wider range of possible outcomes Earnings multiples are ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 271",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：271",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2222,6 +2333,8 @@
       "snippet_zh": "er fair value Volatility parameters represent key attributes of option behaviour; higher volatilities typically denote a wider range of possible outcomes Earnings multiples are ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 271",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：271",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2265,6 +2378,8 @@
       "snippet_zh": "er fair value Volatility parameters represent key attributes of option behaviour; higher volatilities typically denote a wider range of possible outcomes Earnings multiples are ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 271",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：271",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2308,6 +2423,8 @@
       "snippet_zh": "Fair values of financial assets and liabilities continued Valuation methodology Loans and advances to banks The carrying value of short-dated loans and advances to banks is assu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 272",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：272",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2351,6 +2468,8 @@
       "snippet_zh": "Note 21: Allowance for expected credit losses continued Critical accounting judgements and key sources of estimation uncertainty Critical judgements: Determining an appropriate ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 279",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：279",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2394,6 +2513,8 @@
       "snippet_zh": "se scenario is updated. The base case scenario is central to a range of future economic scenarios generated by simulation of an economic model, for which the same conditioning a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 281",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：281",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2437,6 +2558,8 @@
       "snippet_zh": "ision impact was assessed by transforming the account level assessment of affordability and valuation impacts of each climate scenario to adjust inputs used in existing Probabil...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 287",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：287",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2480,6 +2603,8 @@
       "snippet_zh": "stry information. New business cash flows beyond the four-year period have been extrapolated using a reducing balance growth rate that falls from 3.5 per cent to 2.0 per cent af...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 289",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：289",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -2523,6 +2648,8 @@
       "snippet_zh": "formation on the disposal group is provided in note 24. The maturity analysis of the Group’s lease liabilities on an undiscounted basis is set out in the liquidity risk section ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 292",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：292",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2566,6 +2693,8 @@
       "snippet_zh": "decisions via the Fixed Sum Award process, with operational costs, redress and tax costs associated with the re-reviews recognised within the amount provided. Notwithstanding th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 293",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：293",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2609,6 +2738,8 @@
       "snippet_zh": "l assessments and other supporting measures where appropriate. The Group also mitigates insurance underwriting risk via the use of reinsurance arrangements. More information is ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 304",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：304",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2652,6 +2783,8 @@
       "snippet_zh": "tion of purchased intangibles, the insurance gross up and other statutory items. New business value This represents the value added to the contractual service margin and risk ad...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 318",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：318",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2689,6 +2822,8 @@
       "snippet_zh": "d to ensure open challenge and enable effective Board engagement and decision making 06 Three lines of defence • • The three lines of defence model defines the responsibilities ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：37",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2726,6 +2861,8 @@
       "snippet_zh": "management and act as an enabler to drive strategic developments of AI and machine learning in a safe way. Key mitigating actions Enhancement of the model risk management framew...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2763,6 +2900,8 @@
       "snippet_zh": "surance, Pensions & Investments (IP&I) including a commitment to increase digitisation across customer journeys In May, the Board considered the Group ’s focus to deepen custome...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2800,6 +2939,8 @@
       "snippet_zh": "surance, Pensions & Investments (IP&I) including a commitment to increase digitisation across customer journeys In May, the Board considered the Group ’s focus to deepen custome...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2837,6 +2978,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2874,6 +3017,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2911,6 +3056,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2948,6 +3095,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2985,6 +3134,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3022,6 +3173,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3059,6 +3212,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3096,6 +3251,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3133,6 +3290,8 @@
       "snippet_zh": "page 140 TCFD supplemental guidance • Our exposure to sectors with increased climate risk has been analysed, and used to set our bank emission ambition and Net Zero Banking Alli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3176,6 +3335,8 @@
       "snippet_zh": "tements’ section; and (ii) the ‘sustainability metrics basis of reporting’ which details how our metrics are calculated. This can be found on our website . Empowering our custom...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 51",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：51",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3213,6 +3374,8 @@
       "snippet_zh": "n emissions2 by 2050 or sooner. Supply chain Working with our suppliers to reduce the emissions generated by 50 per cent by 2030, on the path to net zero by 2050 or sooner3 . Ou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 58",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -3259,6 +3422,8 @@
       "snippet_zh": "ensure there is a supportive external environment to facilitate transition. Sustainable farming and food The agriculture sector is responsible for 12 per cent1,2 of UK emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据"
     },
@@ -3305,6 +3470,8 @@
       "snippet_zh": "ensure there is a supportive external environment to facilitate transition. Sustainable farming and food The agriculture sector is responsible for 12 per cent1,2 of UK emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据"
     },
@@ -3351,6 +3518,8 @@
       "snippet_zh": "ensure there is a supportive external environment to facilitate transition. Sustainable farming and food The agriculture sector is responsible for 12 per cent1,2 of UK emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据"
     },
@@ -3397,6 +3566,8 @@
       "snippet_zh": "ensure there is a supportive external environment to facilitate transition. Sustainable farming and food The agriculture sector is responsible for 12 per cent1,2 of UK emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据"
     },
@@ -3440,6 +3611,8 @@
       "snippet_zh": "supply chain emissions have been calculated using supplier emissions disclosure data where possible which is supplemented with CEDA carbon factors when we are unable to draw on ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3483,6 +3656,8 @@
       "snippet_zh": "supply chain emissions have been calculated using supplier emissions disclosure data where possible which is supplemented with CEDA carbon factors when we are unable to draw on ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3520,6 +3695,8 @@
       "snippet_zh": "y report 2024 . Supporting the transition to net zero continued Supply chain Our ambition Reduce our supply chain emissions by 50 per cent by 2030, on a path to net zero by 2050...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3566,6 +3743,8 @@
       "snippet_zh": "Lloyds 明确说明，供应链排放优先采用供应商披露数据，在无法获取时辅以 CEDA 碳因子，并以 46 亿英镑（不含增值税）的供应商支出作为最新报告期测算基础。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured method tag: Spend-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Spend-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：支出法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：支出法 / 次级数据"
     },
@@ -3603,6 +3782,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3640,6 +3821,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3677,6 +3860,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3714,6 +3899,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3757,6 +3944,8 @@
       "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -3794,6 +3983,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3831,6 +4022,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3868,6 +4061,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3905,6 +4100,8 @@
       "snippet_zh": "operational control approach. Reported Scope 1 emissions are from activities for which the Group is responsible, including those generated from gas and oil used in buildings, em...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3948,6 +4145,8 @@
       "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -3994,6 +4193,8 @@
       "snippet_zh": "Lloyds 明确说明，范围2在运营控制边界下同时采用位置法和市场法，其中自2019年以来，因购电协议、绿色电价和可再生电力证书安排，其市场法电力排放为零。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -4037,6 +4238,8 @@
       "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -4074,6 +4277,8 @@
       "snippet_zh": "storical emissions. Scope 3 – Business Travel (category 6) also restated to reflect improving data coverage for Air and Rail emissions. 2 Grey fleet refers to colleague and hire...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4111,6 +4316,8 @@
       "snippet_zh": "storical emissions. Scope 3 – Business Travel (category 6) also restated to reflect improving data coverage for Air and Rail emissions. 2 Grey fleet refers to colleague and hire...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4148,6 +4355,8 @@
       "snippet_zh": "storical emissions. Scope 3 – Business Travel (category 6) also restated to reflect improving data coverage for Air and Rail emissions. 2 Grey fleet refers to colleague and hire...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4191,6 +4400,8 @@
       "snippet_zh": "owned vehicle energy 8,704,843 10,108,961 7,599,309 Total grey fleet2 vehicle energy 5,067,165 4,564,047 4,015,361 1 Restated data since 2021/22 to improve the accuracy of repor...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -4234,6 +4445,8 @@
       "snippet_zh": "owned vehicle energy 8,704,843 10,108,961 7,599,309 Total grey fleet2 vehicle energy 5,067,165 4,564,047 4,015,361 1 Restated data since 2021/22 to improve the accuracy of repor...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -4277,6 +4490,8 @@
       "snippet_zh": "owned vehicle energy 8,704,843 10,108,961 7,599,309 Total grey fleet2 vehicle energy 5,067,165 4,564,047 4,015,361 1 Restated data since 2021/22 to improve the accuracy of repor...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -4320,6 +4535,8 @@
       "snippet_zh": "owned vehicle energy 8,704,843 10,108,961 7,599,309 Total grey fleet2 vehicle energy 5,067,165 4,564,047 4,015,361 1 Restated data since 2021/22 to improve the accuracy of repor...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -4363,6 +4580,8 @@
       "snippet_zh": "y loss component on onerous contracts (which is recognised directly in the income statement) but does not include existing business increments. 3 The movement in asset inflows a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 73",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：73",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4406,6 +4625,8 @@
       "snippet_zh": "greed sale (subject to High Court approval) of the in-force bulk annuity portfolio • Payment of a £100 million final dividend to Lloyds Banking Group plc in February 2025, after...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 78",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：78",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -4555,77 +4776,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r204_lloydsbankinggroup",
-      "company_name_en": "LLOYDS BANKING GROUP",
-      "company_name_zh": "英国劳埃德银行集团",
-      "world500_rank": "204",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "20,441",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "63",
-      "source_file": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "report_title": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "snippet_en": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total Scope 3 103,515 100,826 90,196 Indicator is",
-      "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r204_lloydsbankinggroup",
-      "company_name_en": "LLOYDS BANKING GROUP",
-      "company_name_zh": "英国劳埃德银行集团",
-      "world500_rank": "204",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "4",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "63",
-      "source_file": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "report_title": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "snippet_en": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total Scope 3 103,515 100,826 90,196 Indicator is",
-      "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r204_lloydsbankinggroup",
-      "company_name_en": "LLOYDS BANKING GROUP",
-      "company_name_zh": "英国劳埃德银行集团",
-      "world500_rank": "204",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "103,515",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "63",
-      "source_file": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "report_title": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "snippet_en": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total Scope 3 103,515 100,826 90,196 Indicator is",
-      "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -4641,7 +4792,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4656,7 +4809,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 37",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4671,7 +4826,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4686,7 +4843,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4701,7 +4860,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 44",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：44"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4716,7 +4877,9 @@
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4731,7 +4894,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4746,7 +4911,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4761,7 +4928,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4776,7 +4945,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4791,7 +4962,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4806,7 +4979,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4821,7 +4996,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4836,7 +5013,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4851,7 +5030,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4866,7 +5047,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4881,7 +5064,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 51",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：51"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4896,7 +5081,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 53",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4911,7 +5098,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 58",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：58"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4926,7 +5115,9 @@
       "recognition_basis_en": "Structured standard tag: ISAE 3000 (Revised); Standard role: Assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISAE 3000(修订版)；标准角色：鉴证标准",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 58",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：58"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4941,7 +5132,9 @@
       "recognition_basis_en": "Structured standard tag: ISAE 3410; Standard role: Assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISAE 3410 温室气体声明鉴证准则；标准角色：鉴证标准",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 58",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4956,7 +5149,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4971,7 +5166,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4986,7 +5183,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5001,7 +5200,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5016,7 +5217,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5031,7 +5234,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5046,7 +5251,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5061,7 +5268,9 @@
       "recognition_basis_en": "Structured method tag: Spend-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Spend-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：支出法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：支出法 / 次级数据",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5076,7 +5285,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5091,7 +5302,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5106,7 +5319,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5121,7 +5336,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5136,7 +5353,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5151,7 +5370,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5166,7 +5387,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5181,7 +5404,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5196,7 +5421,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5211,7 +5438,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5226,7 +5455,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5241,52 +5472,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "63",
-      "source_file": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "report_title": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "snippet_en": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total Scope 3 103,515 100,826 90,196 Indicator is",
-      "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "63",
-      "source_file": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "report_title": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "snippet_en": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total Scope 3 103,515 100,826 90,196 Indicator is",
-      "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "63",
-      "source_file": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "report_title": "Lloyds_Banking_Group_Annual_Report_2024.pdf",
-      "snippet_en": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total Scope 3 103,515 100,826 90,196 Indicator is",
-      "snippet_zh": "d 2 (market based) 20,262 21,528 27,208 Total Scope 1 20,441 21,727 27,473 Total Scope 2 (market based) 4 11 2 Of which: Electricity – – – Total Scope 2 (location based) 50,704 53,767 58,777 Total ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5301,7 +5489,9 @@
       "recognition_basis_en": "Structured standard tag: Streamlined Energy and Carbon Reporting (SECR); Standard role: Disclosure regulation",
       "recognition_basis_zh": "结构化标准标注：英国精简能源与碳报告要求(SECR)；标准角色：披露监管规则",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 63",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5316,7 +5506,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5331,7 +5523,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5346,7 +5540,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5361,7 +5557,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5376,7 +5574,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5391,7 +5591,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5406,7 +5608,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5421,7 +5625,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 73",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：73"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5436,7 +5642,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 78",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：78"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5451,7 +5659,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 104",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5466,7 +5676,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5481,7 +5693,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 124",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：124"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5496,7 +5710,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 124",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：124"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5511,7 +5727,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 129",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：129"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5526,7 +5744,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 154",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：154"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5541,7 +5761,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 154",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：154"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5556,7 +5778,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 154",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：154"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5571,7 +5795,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 155",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：155"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5586,7 +5812,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 161",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：161"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5601,7 +5829,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 180",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：180"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5616,7 +5846,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 186",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：186"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5631,7 +5863,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 193",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：193"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5646,7 +5880,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 196",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：196"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5661,7 +5897,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 203",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：203"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5676,7 +5914,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5691,7 +5931,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5706,7 +5948,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5721,7 +5965,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5736,7 +5982,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5751,7 +5999,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5766,7 +6016,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 205",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：205"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5781,7 +6033,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 207",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：207"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5796,7 +6050,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 208",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：208"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5811,7 +6067,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 209",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：209"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5826,7 +6084,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 224",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：224"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5841,7 +6101,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 226",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：226"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5856,7 +6118,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 227",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：227"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5871,7 +6135,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 228",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：228"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5886,7 +6152,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 231",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：231"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5901,7 +6169,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 232",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：232"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5916,7 +6186,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 233",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：233"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5931,7 +6203,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 246",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：246"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5946,7 +6220,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 247",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：247"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5961,7 +6237,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 251",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：251"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5976,7 +6254,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 252",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：252"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5991,7 +6271,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 255",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：255"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6006,7 +6288,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 257",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：257"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6021,7 +6305,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 261",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：261"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6036,7 +6322,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 264",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：264"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6051,7 +6339,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 264",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：264"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6066,7 +6356,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 264",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：264"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6081,7 +6373,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data / Derived data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 267",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：267"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6096,7 +6390,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 269",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：269"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6111,7 +6407,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 270",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：270"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6126,7 +6424,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 271",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：271"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6141,7 +6441,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 271",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：271"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6156,7 +6458,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 271",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：271"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6171,7 +6475,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 272",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：272"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6186,7 +6492,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 279",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：279"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6201,7 +6509,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 281",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：281"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6216,7 +6526,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 287",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：287"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6231,7 +6543,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 289",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：289"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6246,7 +6560,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 292",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：292"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6261,7 +6577,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 293",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：293"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6276,7 +6594,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 304",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：304"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6291,7 +6611,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: Lloyds_Banking_Group_Annual_Report_2024.pdf | File: Lloyds_Banking_Group_Annual_Report_2024.pdf | Page: 318",
+      "evidence_locator_zh": "报告：Lloyds_Banking_Group_Annual_Report_2024.pdf | 文件：Lloyds_Banking_Group_Annual_Report_2024.pdf | 页码：318"
     }
   ]
 }

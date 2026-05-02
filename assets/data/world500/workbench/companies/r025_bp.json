@@ -8,6 +8,11 @@
   "industry_section_zh": "电力、热力、燃气及水生产和供应业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "bp-sustainability-report-2024.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 25,
   "keyword_summary_count": 3,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 2,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架"
@@ -93,6 +98,8 @@
       "snippet_zh": "range of ways that the energy system could evolve throughout this decade. These include scenarios consistent with limiting temperature rise to 1.5°C and, in ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -115,6 +122,8 @@
       "snippet_zh": "long-term goals, climate governance, TCFD disclosures and capital allocation. CDP We submit data as part of the CDP climate change questionnaire and make a c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：47",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -137,6 +146,8 @@
       "snippet_zh": "long-term goals, climate governance, TCFD disclosures and capital allocation. CDP We submit data as part of the CDP climate change questionnaire and make a c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：47",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     }
@@ -176,6 +187,8 @@
       "snippet_zh": "investment approval is conducted through the executive-level RCM, which is chaired by our chief executive officer. The RCM reviews the merits of each investment case against a b...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -213,6 +226,8 @@
       "snippet_zh": "investment approval is conducted through the executive-level RCM, which is chaired by our chief executive officer. The RCM reviews the merits of each investment case against a b...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -256,6 +271,8 @@
       "snippet_zh": "of which relates to sustainability. With these points in mind, our updated aims are as follows: Net zero operations This aim now combines our previous operational emissions redu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 19",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：19",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -293,6 +310,8 @@
       "snippet_zh": "Our aim for net zero operations Our aim is to reach net zero by 2050 or sooner for Scope 1 and 2 emissions within bp’s operational control (on a CO2e basis), including by maint...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 20",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：20",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -330,6 +349,8 @@
       "snippet_zh": "ortfolio and focus on our most resilient assets. For example, in September 2024 we announced the sale of mature gas fields in Trinidad and Tobago to Perenco, as part of the refo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -373,6 +394,8 @@
       "snippet_zh": "nitoring systems across our bp-operated liquefied natural gas (LNG) fleet to provide more accurate quantification of methane slip from combustion engines – the main source of me...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：22",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Validation; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：审定；原文命中关键词：次级数据"
     },
@@ -416,6 +439,8 @@
       "snippet_zh": "nitoring systems across our bp-operated liquefied natural gas (LNG) fleet to provide more accurate quantification of methane slip from combustion engines – the main source of me...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：22",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Validation; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：审定；原文命中关键词：次级数据"
     },
@@ -459,6 +484,8 @@
       "snippet_zh": "nitoring systems across our bp-operated liquefied natural gas (LNG) fleet to provide more accurate quantification of methane slip from combustion engines – the main source of me...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：22",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Validation; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：审定；原文命中关键词：次级数据"
     },
@@ -502,6 +529,8 @@
       "snippet_zh": "e average lifecycle carbon intensity of the energy products we sell by 2050 or sooner, enabled by supportive government policies and the decarbonization of energy demand. This ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：23",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -545,6 +574,8 @@
       "snippet_zh": "e average lifecycle carbon intensity of the energy products we sell by 2050 or sooner, enabled by supportive government policies and the decarbonization of energy demand. This ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：23",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -582,6 +613,8 @@
       "snippet_zh": "050 or sooner 2022 performance 4% 5% Net zero c 8 -10 % 4% 2020 performance 4% 5% 2024 performance 6% Methodology update We have updated our net zero sales methodology to follow...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：23",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -625,6 +658,8 @@
       "snippet_zh": "ge carbon intensity of our sold energy products. Achievement of the aim and all interim milestones need to be enabled by supportive government policy and by the decarbonization ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：24",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -668,6 +703,8 @@
       "snippet_zh": "ge carbon intensity of our sold energy products. Achievement of the aim and all interim milestones need to be enabled by supportive government policy and by the decarbonization ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：24",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -711,6 +748,8 @@
       "snippet_zh": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas produ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -754,6 +793,8 @@
       "snippet_zh": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas produ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -797,6 +838,8 @@
       "snippet_zh": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas produ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -840,6 +883,8 @@
       "snippet_zh": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas produ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -883,6 +928,8 @@
       "snippet_zh": "one million Too Good To Go magic bags sold across our retail network. This diverted more than one million kilograms of surplus food from going to waste. Supporting circularity t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 39",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -920,6 +967,8 @@
       "snippet_zh": "e foundations for growth – and sustainability remains part of the balanced criteria we use for investment decisions. In 2024 we continued to make progress on our aims: y Net zer...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 4",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：4",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -957,6 +1006,8 @@
       "snippet_zh": "e foundations for growth – and sustainability remains part of the balanced criteria we use for investment decisions. In 2024 we continued to make progress on our aims: y Net zer...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 4",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：4",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1000,6 +1051,8 @@
       "snippet_zh": "Glossary Average carbon intensity of sold energy products The rate of GHG emissions per unit of energy delivered (in grams CO2e/MJ) estimated in respect of sold energy products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：48",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1043,6 +1096,8 @@
       "snippet_zh": "d in terms of absolute reductions relative to the baseline year of 2019. Net zero production In relation to bp’s now retired (as of February 2025) aim 2, to reach net zero CO2 e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 49",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：49",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1086,6 +1141,8 @@
       "snippet_zh": "d in terms of absolute reductions relative to the baseline year of 2019. Net zero production In relation to bp’s now retired (as of February 2025) aim 2, to reach net zero CO2 e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 49",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：49",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1123,6 +1180,8 @@
       "snippet_zh": "ect) carbon dioxide emissions (operational boundary) MtCO2 31.4 9. Scope 1 (direct) methane emissions (operational boundary) Mte 0.05 10. Methane intensity % 0.07 11. Energy con...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 50",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：50",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1160,6 +1219,8 @@
       "snippet_zh": "to be a net zero company by 2050 or sooner, its five refreshed sustainability aims relating to net zero operations, net zero sales, people, biodiversity and water and retirement...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -1214,78 +1275,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r025_bp",
-      "company_name_en": "BP",
-      "company_name_zh": "英国石油公司",
-      "world500_rank": "25",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "20",
-      "source_file": "bp-sustainability-report-2024.pdf",
-      "report_title": "bp-sustainability-report-2024.pdf",
-      "snippet_en": "Our aim for net zero operations Our aim is to reach net zero by 2050 or sooner for Scope 1 and 2 emissions within bp’s operational control (on a CO2e basis), including by maintaining ‘near-zero’a methane intensity across our operated prod",
-      "snippet_zh": "Our aim for net zero operations Our aim is to reach net zero by 2050 or sooner for Scope 1 and 2 emissions within bp’s operational control (on a CO2e basis), including by maintaining ‘near-zero’a ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r025_bp",
-      "company_name_en": "BP",
-      "company_name_zh": "英国石油公司",
-      "world500_rank": "25",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "11",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "26",
-      "source_file": "bp-sustainability-report-2024.pdf",
-      "report_title": "bp-sustainability-report-2024.pdf",
-      "snippet_en": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas productiona. The estimated Scope 3 emissions from the carbon in our",
-      "snippet_zh": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas productiona. The estimate...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r025_bp",
-      "company_name_en": "BP",
-      "company_name_zh": "英国石油公司",
-      "world500_rank": "25",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "2024,",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "4",
-      "source_file": "bp-sustainability-report-2024.pdf",
-      "report_title": "bp-sustainability-report-2024.pdf",
-      "snippet_en": "e foundations for growth – and sustainability remains part of the balanced criteria we use for investment decisions. In 2024 we continued to make progress on our aims: y Net zero operations – we made a number of investments in 2024, which",
-      "snippet_zh": "e foundations for growth – and sustainability remains part of the balanced criteria we use for investment decisions. In 2024 we continued to make progress on our aims: y Net zero operations – we m...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -1300,7 +1291,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 4",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：4"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1315,22 +1308,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "4",
-      "source_file": "bp-sustainability-report-2024.pdf",
-      "report_title": "bp-sustainability-report-2024.pdf",
-      "snippet_en": "e foundations for growth – and sustainability remains part of the balanced criteria we use for investment decisions. In 2024 we continued to make progress on our aims: y Net zero operations – we made a number of investments in 2024, which",
-      "snippet_zh": "e foundations for growth – and sustainability remains part of the balanced criteria we use for investment decisions. In 2024 we continued to make progress on our aims: y Net zero operations – we m...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 4",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：4"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1345,7 +1325,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1360,7 +1342,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1375,7 +1359,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1390,7 +1376,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 19",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：19"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1405,22 +1393,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "20",
-      "source_file": "bp-sustainability-report-2024.pdf",
-      "report_title": "bp-sustainability-report-2024.pdf",
-      "snippet_en": "Our aim for net zero operations Our aim is to reach net zero by 2050 or sooner for Scope 1 and 2 emissions within bp’s operational control (on a CO2e basis), including by maintaining ‘near-zero’a methane intensity across our operated prod",
-      "snippet_zh": "Our aim for net zero operations Our aim is to reach net zero by 2050 or sooner for Scope 1 and 2 emissions within bp’s operational control (on a CO2e basis), including by maintaining ‘near-zero’a ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 20",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：20"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1435,7 +1410,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1450,7 +1427,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Validation; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：审定；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1465,7 +1444,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Validation; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：审定；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1480,7 +1461,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Validation; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：审定；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1495,7 +1478,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1510,7 +1495,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1525,7 +1512,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1540,7 +1529,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1555,7 +1546,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1570,7 +1563,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1585,7 +1580,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1600,7 +1597,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1615,22 +1614,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "26",
-      "source_file": "bp-sustainability-report-2024.pdf",
-      "report_title": "bp-sustainability-report-2024.pdf",
-      "snippet_en": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas productiona. The estimated Scope 3 emissions from the carbon in our",
-      "snippet_zh": "Carbon in our upstream oil and gas production We have retired our aim related to the estimated Scope 3 (category 11) emissions from the carbon in our upstream oil and gas productiona. The estimate...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 26",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1645,7 +1631,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 39",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：39"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1660,7 +1648,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1675,7 +1665,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1690,7 +1682,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 48",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：48"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1705,7 +1699,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 49",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1720,7 +1716,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 49",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1735,7 +1733,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 50",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：50"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1750,7 +1750,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: bp-sustainability-report-2024.pdf | File: bp-sustainability-report-2024.pdf | Page: 52",
+      "evidence_locator_zh": "报告：bp-sustainability-report-2024.pdf | 文件：bp-sustainability-report-2024.pdf | 页码：52"
     }
   ]
 }

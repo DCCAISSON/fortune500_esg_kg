@@ -8,6 +8,11 @@
   "industry_section_zh": "租赁和商务服务业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet, but source-text candidates are present for review and backfill.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，但已有原文候选值可进入复核与回填。",
   "report_count": 1,
   "report_titles": [
     "2024_trafigura_sustainability_report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 52,
   "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 3,
-  "scope3_candidate_count": 0,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 1,
   "standard_systems_zh": [
     "GHG 体系",
     "气候披露/目标框架"
@@ -93,6 +98,8 @@
       "snippet_zh": "FY2020 baseline year of 1.729 mtCO2e (Scope 1) and 1.691 mtCO2e (Scope 2), which was restated in FY2024 on the basis of improvements to the calculation metho...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：市场法"
     },
@@ -115,6 +122,8 @@
       "snippet_zh": "ging economies. In FY2024, we initiated a major Group-wide initiative which will continue throughout FY2025 and beyond to prepare the company to comply with ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：6",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     }
@@ -154,6 +163,8 @@
       "snippet_zh": "Climate change and environment Climate change We aim to reduce greenhouse gas emissions (GHGs) in our own operations and work with counterparties to decarbonise supply chains. H...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：24",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -191,6 +202,8 @@
       "snippet_zh": "Climate change and environment Climate change We aim to reduce greenhouse gas emissions (GHGs) in our own operations and work with counterparties to decarbonise supply chains. H...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：24",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -228,6 +241,8 @@
       "snippet_zh": "Climate change and environment Climate change We aim to reduce greenhouse gas emissions (GHGs) in our own operations and work with counterparties to decarbonise supply chains. H...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：24",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -265,6 +280,8 @@
       "snippet_zh": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of as...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -302,6 +319,8 @@
       "snippet_zh": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of as...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -339,6 +358,8 @@
       "snippet_zh": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of as...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -376,6 +397,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -413,6 +436,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -450,6 +475,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -487,6 +514,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -524,6 +553,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -561,6 +592,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -598,6 +631,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -635,6 +670,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -672,6 +709,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -709,6 +748,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -746,6 +787,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -783,6 +826,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -820,6 +865,8 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -857,6 +904,8 @@
       "snippet_zh": "Scope 3 value chain GHG emissions Scope 3 emissions relate to the GHG emissions outside of our own operations and control. We report on Scope 3 value chain emissions associated ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -900,6 +949,8 @@
       "snippet_zh": "Decarbonising shipping The shipping sector accounts for over 80 percent of the world’s trade volume and an estimated three percent of all GHG emissions globally. With over 5,000...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -943,6 +994,8 @@
       "snippet_zh": "Decarbonising shipping The shipping sector accounts for over 80 percent of the world’s trade volume and an estimated three percent of all GHG emissions globally. With over 5,000...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -980,6 +1033,8 @@
       "snippet_zh": "eaning and propeller polishing. Target: To achieve a 25% reduction in GHG emissions intensity of our shipping operations by end of FY2030 compared to 2019 IMO benchmark. 2022 -1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1017,6 +1072,8 @@
       "snippet_zh": "eaning and propeller polishing. Target: To achieve a 25% reduction in GHG emissions intensity of our shipping operations by end of FY2030 compared to 2019 IMO benchmark. 2022 -1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1054,6 +1111,8 @@
       "snippet_zh": "stomers. We are recently invested in the Lobito Atlantic Railway joint-venture consortium, which provides an efficient western route to export critical minerals out of the Afric...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 28",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1097,6 +1156,8 @@
       "snippet_zh": "imately 20,000tCO2e emissions per year. In Romania, Nala Renewables has invested in a 99MWp wind project that is currently under construction, and a 61MWp solar project. The win...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：30",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1140,6 +1201,8 @@
       "snippet_zh": "imately 20,000tCO2e emissions per year. In Romania, Nala Renewables has invested in a 99MWp wind project that is currently under construction, and a 61MWp solar project. The win...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：30",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1177,6 +1240,8 @@
       "snippet_zh": "al systems and projects to de-characterize conventional tailings through decommissioning engineering (tailings removal and land-forming). Air quality We monitor and manage air q...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 33",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1214,6 +1279,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1251,6 +1318,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1288,6 +1357,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1325,6 +1396,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1362,6 +1435,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1399,6 +1474,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1436,6 +1513,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1473,6 +1552,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1510,6 +1591,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1547,6 +1630,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1584,6 +1669,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1621,6 +1708,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1658,6 +1747,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1695,6 +1786,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1732,6 +1825,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1769,6 +1864,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1806,6 +1903,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1843,6 +1942,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1880,6 +1981,8 @@
       "snippet_zh": "2 emissions by approximately three percent each year. Our Scope 3 GHG emissions reporting includes purchased goods and services, the processing of sold products, the use of sold...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1923,6 +2026,8 @@
       "snippet_zh": "o: • Category 1 – Purchased goods and services. Includes upstream emissions from the extraction and processing of all commodities we source from third-party producers and sell t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1966,6 +2071,8 @@
       "snippet_zh": "o: • Category 1 – Purchased goods and services. Includes upstream emissions from the extraction and processing of all commodities we source from third-party producers and sell t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2009,6 +2116,8 @@
       "snippet_zh": "o: • Category 1 – Purchased goods and services. Includes upstream emissions from the extraction and processing of all commodities we source from third-party producers and sell t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2052,6 +2161,8 @@
       "snippet_zh": "o: • Category 1 – Purchased goods and services. Includes upstream emissions from the extraction and processing of all commodities we source from third-party producers and sell t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2095,6 +2206,8 @@
       "snippet_zh": "o: • Category 1 – Purchased goods and services. Includes upstream emissions from the extraction and processing of all commodities we source from third-party producers and sell t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     }
@@ -2131,65 +2244,19 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
+  "scope_candidates": [],
+  "scope3_candidates": [
     {
       "company_id": "r019_trafiguragroup",
       "company_name_en": "TRAFIGURA GROUP",
       "company_name_zh": "托克集团",
       "world500_rank": "19",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "25",
-      "source_file": "2024_trafigura_sustainability_report.pdf",
-      "report_title": "2024_trafigura_sustainability_report.pdf",
-      "snippet_en": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assurance process included a review of activity da",
-      "snippet_zh": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assuran...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r019_trafiguragroup",
-      "company_name_en": "TRAFIGURA GROUP",
-      "company_name_zh": "托克集团",
-      "world500_rank": "19",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "25",
-      "source_file": "2024_trafigura_sustainability_report.pdf",
-      "report_title": "2024_trafigura_sustainability_report.pdf",
-      "snippet_en": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assurance process included a review of activity da",
-      "snippet_zh": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assuran...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r019_trafiguragroup",
-      "company_name_en": "TRAFIGURA GROUP",
-      "company_name_zh": "托克集团",
-      "world500_rank": "19",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
+      "scope3_category_code": "3",
+      "scope3_category_en": "Category 3 Fuel- and energy-related activities",
+      "scope3_category_zh": "类别3 燃料与能源相关活动",
+      "value_text": "862,398 884,531",
+      "unit_context": "tCO2e",
+      "value_mtco2e": 862398.8845309999,
       "evidence_page": "26",
       "source_file": "2024_trafigura_sustainability_report.pdf",
       "report_title": "2024_trafigura_sustainability_report.pdf",
@@ -2197,12 +2264,23 @@
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere of influence: Categor...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
+      "candidate_quality": "high",
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "L",
+      "industry_section_en": "Leasing and Business Services",
+      "industry_section_zh": "租赁和商务服务业",
+      "industry_comparable_company_count": 1,
+      "acceptance_tier_code": "C2",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     }
   ],
-  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -2217,7 +2295,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2232,7 +2312,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2247,7 +2329,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2262,7 +2346,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2277,7 +2363,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2292,7 +2380,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2307,37 +2397,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "25",
-      "source_file": "2024_trafigura_sustainability_report.pdf",
-      "report_title": "2024_trafigura_sustainability_report.pdf",
-      "snippet_en": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assurance process included a review of activity da",
-      "snippet_zh": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assuran...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "25",
-      "source_file": "2024_trafigura_sustainability_report.pdf",
-      "report_title": "2024_trafigura_sustainability_report.pdf",
-      "snippet_en": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assurance process included a review of activity da",
-      "snippet_zh": "Scope 1, Scope 2 and Scope 3 GHG emissions data assured by ERM CVS Our GHG emissions reporting is assured by ERM CVS, an independent assurance provider, to a limited level of assurance. The assuran...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2352,7 +2414,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2367,7 +2431,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2382,7 +2448,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2397,7 +2465,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2412,7 +2482,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2427,7 +2499,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2442,7 +2516,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2457,7 +2533,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2472,7 +2550,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2487,7 +2567,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2502,7 +2584,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2517,7 +2601,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2532,7 +2618,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2547,7 +2635,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2562,22 +2652,28 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26"
     },
     {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
+      "fact_type_en": "Scope 3 category value candidate",
+      "fact_type_zh": "Scope 3 类别数值候选",
+      "label_en": "Category 3 Fuel- and energy-related activities",
+      "label_zh": "类别3 燃料与能源相关活动",
       "page": "26",
       "source_file": "2024_trafigura_sustainability_report.pdf",
       "report_title": "2024_trafigura_sustainability_report.pdf",
       "snippet_en": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere of influence: Category 3 Fuel and energy-related 862,398 884,531",
       "snippet_zh": "ainst the backdrop of global and national policy, and wider economic drivers and demand. Scope 3 GHG emissions (tCO2e)1 FY2024 FY2023 FY2022 Areas where we have greater sphere of influence: Categor...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "confidence_level": "high",
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：26",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2592,7 +2688,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2607,7 +2705,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2622,7 +2722,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2637,7 +2739,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 27",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2652,7 +2756,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 28",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2667,7 +2773,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2682,7 +2790,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2697,7 +2807,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 33",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2712,7 +2824,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2727,7 +2841,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2742,7 +2858,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2757,7 +2875,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2772,7 +2892,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2787,7 +2909,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2802,7 +2926,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2817,7 +2943,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2832,7 +2960,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2847,7 +2977,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2862,7 +2994,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2877,7 +3011,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2892,7 +3028,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2907,7 +3045,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2922,7 +3062,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2937,7 +3079,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2952,7 +3096,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2967,7 +3113,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2982,7 +3130,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2997,7 +3147,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3012,7 +3164,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3027,7 +3181,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3042,7 +3198,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3057,7 +3215,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2024_trafigura_sustainability_report.pdf | File: 2024_trafigura_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_trafigura_sustainability_report.pdf | 文件：2024_trafigura_sustainability_report.pdf | 页码：56"
     }
   ]
 }

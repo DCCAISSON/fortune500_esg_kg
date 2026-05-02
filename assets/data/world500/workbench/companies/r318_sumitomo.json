@@ -8,6 +8,11 @@
   "industry_section_zh": "租赁和商务服务业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "2024_SUMITOMO_sustainability_report.pdf"
@@ -73,6 +78,8 @@
       "snippet_zh": "ネットワーキングを行っていきます。 日本CCS調査・Global CCS Institute・ アジアCCUSネットワーク 日本CCS調査㈱に参画し、CO2を回収し地中貯留するCCS技術及びCO2の化学合成等の活用に関する実証試験を行っていま す。また、Global CCS Institute（GCCSI）に参画...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: 2024_SUMITOMO_sustainability_report.pdf | File: 2024_SUMITOMO_sustainability_report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024_SUMITOMO_sustainability_report.pdf | 文件：2024_SUMITOMO_sustainability_report.pdf | 页码：47",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     }
@@ -121,6 +128,8 @@
       "snippet_zh": "ESG 数据页说明自 2023 年起采用 GHG Protocol 经营控制边界，并采用电力公司及 IEA 发布的市场法排放因子。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 2024_SUMITOMO_sustainability_report.pdf | File: 2024_SUMITOMO_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_SUMITOMO_sustainability_report.pdf | 文件：2024_SUMITOMO_sustainability_report.pdf | 页码：56",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据"
     }
@@ -176,7 +185,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: 2024_SUMITOMO_sustainability_report.pdf | File: 2024_SUMITOMO_sustainability_report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024_SUMITOMO_sustainability_report.pdf | 文件：2024_SUMITOMO_sustainability_report.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -191,7 +202,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 2024_SUMITOMO_sustainability_report.pdf | File: 2024_SUMITOMO_sustainability_report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024_SUMITOMO_sustainability_report.pdf | 文件：2024_SUMITOMO_sustainability_report.pdf | 页码：56"
     }
   ]
 }

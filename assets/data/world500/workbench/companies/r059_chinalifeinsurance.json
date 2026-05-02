@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "ChinaLifeGroup_2024_CSR_Report.pdf"
@@ -67,6 +72,8 @@
       "snippet_zh": "报告参考标准：中国社会科学院《中国企业社会责任报告指南基础框架 CASS-CSR4.0》。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: ChinaLifeGroup_2024_CSR_Report.pdf | File: ChinaLifeGroup_2024_CSR_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ChinaLifeGroup_2024_CSR_Report.pdf | 文件：ChinaLifeGroup_2024_CSR_Report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: CASS-CSR 4.0; Standard role: Reporting guideline",
       "recognition_basis_zh": "结构化标准标注：中国企业社会责任报告指南基础框架 CASS-CSR 4.0；标准角色：报告指引"
     },
@@ -89,6 +96,8 @@
       "snippet_zh": "报告参考标准：国家金融监督管理总局《银行业保险业绿色金融指引》。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: ChinaLifeGroup_2024_CSR_Report.pdf | File: ChinaLifeGroup_2024_CSR_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ChinaLifeGroup_2024_CSR_Report.pdf | 文件：ChinaLifeGroup_2024_CSR_Report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: Green Finance Guidelines for the Banking and Insurance Industries; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：银行业保险业绿色金融指引；标准角色：披露指引"
     },
@@ -111,6 +120,8 @@
       "snippet_zh": "报告参考标准：中国保险行业协会《保险机构环境、社会和治理信息披露指南》。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: ChinaLifeGroup_2024_CSR_Report.pdf | File: ChinaLifeGroup_2024_CSR_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ChinaLifeGroup_2024_CSR_Report.pdf | 文件：ChinaLifeGroup_2024_CSR_Report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: Insurance Institution ESG Information Disclosure Guidelines; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：保险机构环境、社会和治理信息披露指南；标准角色：披露指引"
     }
@@ -134,7 +145,9 @@
       "recognition_basis_en": "Structured standard tag: CASS-CSR 4.0; Standard role: Reporting guideline",
       "recognition_basis_zh": "结构化标准标注：中国企业社会责任报告指南基础框架 CASS-CSR 4.0；标准角色：报告指引",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: ChinaLifeGroup_2024_CSR_Report.pdf | File: ChinaLifeGroup_2024_CSR_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ChinaLifeGroup_2024_CSR_Report.pdf | 文件：ChinaLifeGroup_2024_CSR_Report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -149,7 +162,9 @@
       "recognition_basis_en": "Structured standard tag: Green Finance Guidelines for the Banking and Insurance Industries; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：银行业保险业绿色金融指引；标准角色：披露指引",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: ChinaLifeGroup_2024_CSR_Report.pdf | File: ChinaLifeGroup_2024_CSR_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ChinaLifeGroup_2024_CSR_Report.pdf | 文件：ChinaLifeGroup_2024_CSR_Report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -164,7 +179,9 @@
       "recognition_basis_en": "Structured standard tag: Insurance Institution ESG Information Disclosure Guidelines; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：保险机构环境、社会和治理信息披露指南；标准角色：披露指引",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: ChinaLifeGroup_2024_CSR_Report.pdf | File: ChinaLifeGroup_2024_CSR_Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：ChinaLifeGroup_2024_CSR_Report.pdf | 文件：ChinaLifeGroup_2024_CSR_Report.pdf | 页码：2"
     }
   ]
 }

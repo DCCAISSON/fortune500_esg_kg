@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf"
@@ -20,7 +25,7 @@
   "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
-  "scope3_candidate_count": 6,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "GHG 体系",
     "ISO 体系",
@@ -105,6 +110,8 @@
       "snippet_zh": "age the greenhouse gas (GHG) emissions footprint of our data centers, labs, and offices, we strategically focus on locating new sites, selecting facilities t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 12",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：12",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -127,6 +134,8 @@
       "snippet_zh": "perform third-party verified Life Cycle Assessments (LCAs) and Product Carbon Footprints (PCFs) aligned with ISO international standards. In FY26, we publish...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20",
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准；原文命中关键词：生命周期评价"
     },
@@ -149,6 +158,8 @@
       "snippet_zh": "y assessment, assessing sustainability issues based on financial and impact materiality. We determine the sustainability topics to include in our reporting b...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 8",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：8",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -171,6 +182,8 @@
       "snippet_zh": "y assessment, assessing sustainability issues based on financial and impact materiality. We determine the sustainability topics to include in our reporting b...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 8",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：8",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -193,6 +206,8 @@
       "snippet_zh": "y assessment, assessing sustainability issues based on financial and impact materiality. We determine the sustainability topics to include in our reporting b...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 8",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：8",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     }
@@ -232,6 +247,8 @@
       "snippet_zh": "missions We assess our carbon footprint across our product lifecycle and climate risks, including current and emerging regulations and market impacts. Achieving our Climate Targ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -269,6 +286,8 @@
       "snippet_zh": "d in our products, aiming to ensure that they come from socially responsible sources and don’t contribute to human conflict. Our goal is to use only conflict-free gold, tantalum...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 18",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：18",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -312,6 +331,8 @@
       "snippet_zh": "egic suppliers on their corrective action plans and continue monitoring suppliers to ensure compliance. Product Environmental Impact To understand the greenhouse gas emissions g...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价"
     },
@@ -349,6 +370,8 @@
       "snippet_zh": "understand our product manufacturing impact and allocate carbon emissions to our customers. We accomplished our goal to engage manufacturing suppliers to effect supplier adoptio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -386,6 +409,8 @@
       "snippet_zh": "ergy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Our model risk management guidance is integrate...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 24",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：24",
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定"
     },
@@ -423,6 +448,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -460,6 +487,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -497,6 +526,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -534,6 +565,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -571,6 +604,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -608,6 +643,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -645,6 +682,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -682,6 +721,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -719,6 +760,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -762,6 +805,8 @@
       "snippet_zh": "age From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -805,6 +850,8 @@
       "snippet_zh": "age From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -848,6 +895,8 @@
       "snippet_zh": "age From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -891,6 +940,8 @@
       "snippet_zh": "age From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -928,6 +979,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -965,6 +1018,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1002,6 +1057,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1039,6 +1096,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1076,6 +1135,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1113,6 +1174,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1150,6 +1213,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1187,6 +1252,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1224,6 +1291,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1261,6 +1330,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1298,6 +1369,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1335,6 +1408,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1372,6 +1447,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1409,6 +1486,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1446,6 +1525,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1483,6 +1564,8 @@
       "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1520,6 +1603,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1557,6 +1642,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1594,6 +1681,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1631,6 +1720,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1668,6 +1759,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1705,6 +1798,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1742,6 +1837,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1779,6 +1876,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1816,6 +1915,8 @@
       "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1859,6 +1960,8 @@
       "snippet_zh": "age From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1902,6 +2005,8 @@
       "snippet_zh": "age From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficie...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1939,6 +2044,8 @@
       "snippet_zh": "ge From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficien...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 30",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1976,6 +2083,8 @@
       "snippet_zh": "ge From Our CEO Introduction Energy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Energy, Efficien...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 30",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2022,6 +2131,8 @@
       "snippet_zh": "emissions footprint of our data centers, labs, and offices, we focus on siting expansions strategically, managing our operations efficiently, and sourcing renewable energy. We a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 39",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：39",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Primary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 初级数据"
     },
@@ -2065,6 +2176,8 @@
       "snippet_zh": "to emissions factors, that is obtained from published sources or third parties. The accuracy and completeness of such information are not guaranteed. Such information is subject...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 40",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：40",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据"
     },
@@ -2108,6 +2221,8 @@
       "snippet_zh": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2151,6 +2266,8 @@
       "snippet_zh": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2188,6 +2305,8 @@
       "snippet_zh": "People, Diversity, and Inclusion 1 in 5 Employees have been with NVIDIA for a decade or longer 1,000 Employees participated in our mentorship program 2.5% Overall turnover rate,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 6",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：6",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2225,6 +2344,8 @@
       "snippet_zh": "People, Diversity, and Inclusion 1 in 5 Employees have been with NVIDIA for a decade or longer 1,000 Employees participated in our mentorship program 2.5% Overall turnover rate,...",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 6",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：6",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -2295,140 +2416,7 @@
   ],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
-  "scope3_candidates": [
-    {
-      "company_id": "r222_nvidia",
-      "company_name_en": "NVIDIA",
-      "company_name_zh": "英伟达公司",
-      "world500_rank": "222",
-      "scope3_category_code": "1",
-      "scope3_category_en": "Category 1 Purchased goods and services",
-      "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "6,036,105",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-and energy-related activities 75,035 61,590",
-      "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r222_nvidia",
-      "company_name_en": "NVIDIA",
-      "company_name_zh": "英伟达公司",
-      "world500_rank": "222",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "570,175",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-and energy-related activities 75,035 61,590",
-      "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r222_nvidia",
-      "company_name_en": "NVIDIA",
-      "company_name_zh": "英伟达公司",
-      "world500_rank": "222",
-      "scope3_category_code": "5",
-      "scope3_category_en": "Category 5 Waste generated in operations",
-      "scope3_category_zh": "类别5 运营产生的废弃物",
-      "value_text": "1,416",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r222_nvidia",
-      "company_name_en": "NVIDIA",
-      "company_name_zh": "英伟达公司",
-      "world500_rank": "222",
-      "scope3_category_code": "6",
-      "scope3_category_en": "Category 6 Business travel",
-      "scope3_category_zh": "类别6 商务差旅",
-      "value_text": "36,032",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r222_nvidia",
-      "company_name_en": "NVIDIA",
-      "company_name_zh": "英伟达公司",
-      "world500_rank": "222",
-      "scope3_category_code": "7",
-      "scope3_category_en": "Category 7 Employee commuting",
-      "scope3_category_zh": "类别7 员工通勤",
-      "value_text": "45,255",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r222_nvidia",
-      "company_name_en": "NVIDIA",
-      "company_name_zh": "英伟达公司",
-      "world500_rank": "222",
-      "scope3_category_code": "8",
-      "scope3_category_en": "Category 8 Upstream leased assets",
-      "scope3_category_zh": "类别8 上游租赁资产",
-      "value_text": "70,360",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -2443,7 +2431,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2458,7 +2448,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2473,7 +2465,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 6",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2488,7 +2482,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 6",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：6"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2503,7 +2499,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 8",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：8"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2518,7 +2516,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 8",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：8"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2533,7 +2533,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 8",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：8"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2548,7 +2550,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：11"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2563,7 +2567,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 12",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2578,7 +2584,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 18",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：18"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2593,7 +2601,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2608,7 +2618,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2623,7 +2635,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2638,7 +2652,9 @@
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 24",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2653,7 +2669,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2668,7 +2686,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2683,7 +2703,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2698,7 +2720,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2713,7 +2737,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2728,7 +2754,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2743,7 +2771,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2758,7 +2788,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2773,7 +2805,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2788,7 +2822,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2803,7 +2839,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2818,7 +2856,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2833,7 +2873,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2848,7 +2890,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2863,7 +2907,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2878,7 +2924,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2893,7 +2941,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2908,7 +2958,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2923,7 +2975,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2938,7 +2992,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2953,37 +3009,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2998,7 +3026,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3013,7 +3043,43 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Scope 3",
+      "label_zh": "范围3",
+      "page": "29",
+      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
+      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
+      "recognition_basis_en": "Structured assurance tag: Assurance",
+      "recognition_basis_zh": "结构化核查环节：鉴证",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Scope 3",
+      "label_zh": "范围3",
+      "page": "29",
+      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
+      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
+      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,2...",
+      "recognition_basis_en": "Structured assurance tag: Assurance",
+      "recognition_basis_zh": "结构化核查环节：鉴证",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3028,7 +3094,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3043,7 +3111,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3058,7 +3128,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3073,7 +3145,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3088,7 +3162,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3103,7 +3179,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3118,7 +3196,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3133,7 +3213,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3148,7 +3230,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3163,7 +3247,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3178,7 +3264,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3193,7 +3281,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3208,7 +3298,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3223,7 +3315,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3238,97 +3332,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 1 Purchased goods and services",
-      "label_zh": "类别1 购买的商品和服务",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-and energy-related activities 75,035 61,590",
-      "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-and energy-related activities 75,035 61,590",
-      "snippet_zh": "ope 3 6,912,577 3,638,432 3,514,763 GRI 305-3 UNGC E6,E6.1 Category 1: Purchased goods and services 6,036,105 3,216,144 2,975,189 Category 2: Capital goods 570,175 200,483 353,280 Category 3: Fuel-...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 5 Waste generated in operations",
-      "label_zh": "类别5 运营产生的废弃物",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 6 Business travel",
-      "label_zh": "类别6 商务差旅",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 7 Employee commuting",
-      "label_zh": "类别7 员工通勤",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 8 Upstream leased assets",
-      "label_zh": "类别8 上游租赁资产",
-      "page": "29",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Category 8: Upstream leased assets 70,360 45,9",
-      "snippet_zh": "distribution 78,199 72,562 60,572 Category 5: Waste generated in operations 1,416 1,571 1,342 Category 6: Business travel 36,032 17,132 8,633 Category 7: Employee commuting 45,255 23,019 14,990 Cat...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3343,7 +3349,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 30",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3358,7 +3366,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 30",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3373,7 +3383,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Primary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 39",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3388,7 +3400,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_06"
+      "review_status": "seed_batch_06",
+      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 40",
+      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：40"
     }
   ]
 }

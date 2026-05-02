@@ -8,6 +8,11 @@
   "industry_section_zh": "交通运输、仓储和邮政业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "2024-UPS-GRI-Report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 100,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 7,
-  "scope3_candidate_count": 5,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "GHG 体系"
@@ -101,6 +106,8 @@
       "snippet_zh": "2024 | GRI 1 Global Reporting Initiative January 1, 2024 - December 31, 2024",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 1",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：1",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -123,6 +130,8 @@
       "snippet_zh": "sustainability reports prior to publication. The Board's Audit Committee is responsible for overseeing the annual engagement of the independent third-party t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 10",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：10",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -168,6 +177,8 @@
       "snippet_zh": "matters described in Note 10 of our Annual Report on Form 10-K, and we intend to vigorously defend each matter. We accrue amounts associated with judicial proceedings and other ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：14",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -205,6 +216,8 @@
       "snippet_zh": "eporting - Our reporting solution allows customers to view their emissions data in multiple ways, such as by mode, service level, business unit and by package. Our assertion on ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 21",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -242,6 +255,8 @@
       "snippet_zh": "eporting - Our reporting solution allows customers to view their emissions data in multiple ways, such as by mode, service level, business unit and by package. Our assertion on ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 21",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -285,6 +300,8 @@
       "snippet_zh": "matters described in Note 10 of our Annual Report on Form 10-K, and we intend to vigorously defend each matter. We accrue amounts associated with judicial proceedings and other ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：23",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -322,6 +339,8 @@
       "snippet_zh": "bate emissions. We have and expect to continue to offer voluntary carbon offset products to customers. Customer Products Many of UPS’s customers have established goals to reduce...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -359,6 +378,8 @@
       "snippet_zh": "with leading nongovernmental organizations (NGOs), we support a regulatory environment that aligns with our vision of a more resilient and sustainable future for our customers, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -396,6 +417,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -433,6 +456,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -470,6 +495,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -507,6 +534,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -544,6 +573,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -581,6 +612,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -618,6 +651,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -655,6 +690,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -692,6 +729,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -729,6 +768,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -766,6 +807,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -803,6 +846,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -840,6 +885,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -877,6 +924,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -914,6 +963,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -951,6 +1002,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -988,6 +1041,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1025,6 +1080,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1062,6 +1119,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1099,6 +1158,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1136,6 +1197,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1173,6 +1236,8 @@
       "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1210,6 +1275,8 @@
       "snippet_zh": "nual advancement of the Company's safety systems. The program employs data analytics, behavioral observation, and feedback for comprehensive risk assessment and mitigation. Thes...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 37",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：37",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1253,6 +1320,8 @@
       "snippet_zh": "elated injuries is not being tracked by UPS. There are currently no intentions of collecting this data. 1 Information relating to industry performance was not subject to Deloitt...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 40",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：40",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -1296,6 +1365,8 @@
       "snippet_zh": "nformation. Measurement of certain amounts and disclosures includes estimates and assumptions that are subject to substantial inherent measurement uncertainty including, for exa...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 45",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1333,6 +1404,8 @@
       "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1370,6 +1443,8 @@
       "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1407,6 +1482,8 @@
       "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1450,6 +1527,8 @@
       "snippet_zh": "Biomass CO2 Emissions ('000 tonnes, not included in above totals) 2024 2023 % Change (2024/2023) Base Year (2020) Mobile Combustion – Biomass CO₂ (e.g., ethanol, bio-diesel) 1,1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：49",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1493,6 +1572,8 @@
       "snippet_zh": "Biomass CO2 Emissions ('000 tonnes, not included in above totals) 2024 2023 % Change (2024/2023) Base Year (2020) Mobile Combustion – Biomass CO₂ (e.g., ethanol, bio-diesel) 1,1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：49",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1536,6 +1617,8 @@
       "snippet_zh": "Biomass CO2 Emissions ('000 tonnes, not included in above totals) 2024 2023 % Change (2024/2023) Base Year (2020) Mobile Combustion – Biomass CO₂ (e.g., ethanol, bio-diesel) 1,1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：49",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1579,6 +1662,8 @@
       "snippet_zh": ", 2025. Please send comments or questions about this report to sustainability@ups.com or in writing to: UPS Attention: Sustainability Building 1, Floor 4 55 Glenlake Parkway Atl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：5",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1622,6 +1707,8 @@
       "snippet_zh": ", 2025. Please send comments or questions about this report to sustainability@ups.com or in writing to: UPS Attention: Sustainability Building 1, Floor 4 55 Glenlake Parkway Atl...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：5",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1659,6 +1746,8 @@
       "snippet_zh": "hed by Intergovernmental Panel on Climate Change Methane (CH4) 27.9 Nitrous Oxide (N2O) 273 1values reflect draft version of AR6 as the final was not available until mid-2024. G...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：51",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1696,6 +1785,8 @@
       "snippet_zh": "hed by Intergovernmental Panel on Climate Change Methane (CH4) 27.9 Nitrous Oxide (N2O) 273 1values reflect draft version of AR6 as the final was not available until mid-2024. G...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：51",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1733,6 +1824,8 @@
       "snippet_zh": "hed by Intergovernmental Panel on Climate Change Methane (CH4) 27.9 Nitrous Oxide (N2O) 273 1values reflect draft version of AR6 as the final was not available until mid-2024. G...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：51",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1770,6 +1863,8 @@
       "snippet_zh": "Operational Boundary – Detailed Description Scope 1 and 2 Source: Scope 1 - Jet-A (mobile) • U.S. Package Operations: All jet fuel used for UPS-owned aircraft and leased aircraf...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 52",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1813,6 +1908,8 @@
       "snippet_zh": "cilities we own or lease • Supply Chain Solutions: Electricity usage for facilities we own or lease Operational Boundary – Detailed Description Scope 3 Note regarding the interp...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 53",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：53",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1856,6 +1953,8 @@
       "snippet_zh": "cilities we own or lease • Supply Chain Solutions: Electricity usage for facilities we own or lease Operational Boundary – Detailed Description Scope 3 Note regarding the interp...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 53",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：53",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1899,6 +1998,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1942,6 +2043,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1985,6 +2088,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2022,6 +2127,8 @@
       "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2059,6 +2166,8 @@
       "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2096,6 +2205,8 @@
       "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2139,6 +2250,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2182,6 +2295,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2225,6 +2340,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2268,6 +2385,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2311,6 +2430,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2354,6 +2475,8 @@
       "snippet_zh": "ding) combustion for the following global fuel sources: Jet-A, diesel, gasoline, CNG, propane/LPG, LNG, biomass, natural gas and heating oil. Includes the upstream emissions ass...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2391,6 +2514,8 @@
       "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2428,6 +2553,8 @@
       "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2465,6 +2592,8 @@
       "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2502,6 +2631,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2539,6 +2670,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2576,6 +2709,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2613,6 +2748,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2656,6 +2793,8 @@
       "snippet_zh": "excluded due to lack of means to measure emission source. • Description of methodology: Actual number of employees multiplied by average gallons used per employee (UPS calculate...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2699,6 +2838,8 @@
       "snippet_zh": "excluded due to lack of means to measure emission source. • Description of methodology: Actual number of employees multiplied by average gallons used per employee (UPS calculate...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2742,6 +2883,8 @@
       "snippet_zh": "excluded due to lack of means to measure emission source. • Description of methodology: Actual number of employees multiplied by average gallons used per employee (UPS calculate...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2785,6 +2928,8 @@
       "snippet_zh": "excluded due to lack of means to measure emission source. • Description of methodology: Actual number of employees multiplied by average gallons used per employee (UPS calculate...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2822,6 +2967,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2859,6 +3006,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2896,6 +3045,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2933,6 +3084,8 @@
       "snippet_zh": "m Leased Assets • Emissions included/excluded (UPS scope and boundary): Not Relevant — We do not report on this category since the category as described by the WRI Guidelines is...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2976,6 +3129,8 @@
       "snippet_zh": "eviewing ways to address uncertainty on a yearly basis. GHG emission factors The carbon dioxide equivalent emissions associated with the activities described in the detailed des...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3019,6 +3174,8 @@
       "snippet_zh": "is supported through energy attribute certificates and supplier contracts. GHG emission factors by source After a review of the applicable emission factors available, updates we...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3062,6 +3219,8 @@
       "snippet_zh": "is supported through energy attribute certificates and supplier contracts. GHG emission factors by source After a review of the applicable emission factors available, updates we...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：56",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3105,6 +3264,8 @@
       "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3148,6 +3309,8 @@
       "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3191,6 +3354,8 @@
       "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3234,6 +3399,8 @@
       "snippet_zh": "Emissions Source Emission Factor Employed Scope 1 — Global U.S. Department of Energy (DOE), Argonne National Laboratory, GREET 2022 model U.S. EPA Emission Factor Hub, Emission ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3277,6 +3444,8 @@
       "snippet_zh": "Emissions Source Emission Factor Employed Scope 1 — Global U.S. Department of Energy (DOE), Argonne National Laboratory, GREET 2022 model U.S. EPA Emission Factor Hub, Emission ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3320,6 +3489,8 @@
       "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3363,6 +3534,8 @@
       "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3406,6 +3579,8 @@
       "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodol...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3443,6 +3618,8 @@
       "snippet_zh": "REDD+ Sierra Leone VCS Forest Protection 37,646 53,238 Portfolio - Nicaragua Amayo Nicaragua Gold Renewable Energy 0 36,754 Wind Portfolio Power India, China CDM Renewable Energ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3480,6 +3657,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3517,6 +3696,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3554,6 +3735,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3591,6 +3774,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3628,6 +3813,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3665,6 +3852,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3702,6 +3891,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3739,6 +3930,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3776,6 +3969,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3813,6 +4008,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3850,6 +4047,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3887,6 +4086,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3924,6 +4125,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3961,6 +4164,8 @@
       "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Servic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -4004,6 +4209,8 @@
       "snippet_zh": "nd assumptions that affect the reported information. Measurement of GHG emissions includes estimates and assumptions that are subject to inherent measurement uncertainty includi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4041,6 +4248,8 @@
       "snippet_zh": "ndix 6 of the Company’s 2024 Global Reporting Initiative (“GRI\") Content Index is presented in accordance with the Greenhouse Gas Protocol: A Corporate Accounting and Reporting ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -4136,281 +4345,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "7,169",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "47",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761 Scope 3 4,601 4,908 6,660 Total Scope 1, 2",
-      "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Operational Boundary – Detailed Description Scope 1 and 2 Source: Scope 1 - Jet-A (mobile) • U.S. Package Operations: All jet fuel used for UPS-owned aircraft and leased aircraft for which UPS has operational control (U.S. flights). We have",
-      "snippet_zh": "Operational Boundary – Detailed Description Scope 1 and 2 Source: Scope 1 - Jet-A (mobile) • U.S. Package Operations: All jet fuel used for UPS-owned aircraft and leased aircraft for which UPS has ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "54",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material extraction up to the point of (but excludi",
-      "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2,",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "57",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodology For scope 1 and 2, primary usage data is used to calculate",
-      "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodology For scope 1 and ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "487",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "47",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761 Scope 3 4,601 4,908 6,660 Total Scope 1, 2",
-      "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "4,601",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "47",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761 Scope 3 4,601 4,908 6,660 Total Scope 1, 2",
-      "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "9,833",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "59",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Capital Goods 698 987 1,290 3 Fuel and Energy",
-      "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Cap...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope3_category_code": "1",
-      "scope3_category_en": "Category 1 Purchased goods and services",
-      "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "31",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not Reported n/a Not Reported 3. Fuel and Energy",
-      "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not R...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope3_category_code": "1",
-      "scope3_category_en": "Category 1 Purchased goods and services",
-      "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "579",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "59",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Capital Goods 698 987 1,290 3 Fuel and Energy",
-      "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Cap...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "31",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not Reported n/a Not Reported 3. Fuel and Energy",
-      "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not R...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "698",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "59",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Capital Goods 698 987 1,290 3 Fuel and Energy",
-      "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Cap...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r124_unitedparcelservice",
-      "company_name_en": "UNITED PARCEL SERVICE",
-      "company_name_zh": "联合包裹速递服务公司",
-      "world500_rank": "124",
-      "scope3_category_code": "3",
-      "scope3_category_en": "Category 3 Fuel- and energy-related activities",
-      "scope3_category_zh": "类别3 燃料与能源相关活动",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "54",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material extraction up to the point of (but excludi",
-      "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -4425,7 +4361,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 1",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：1"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4440,7 +4378,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4455,7 +4395,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4470,7 +4412,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 10",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4485,7 +4429,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4500,7 +4446,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 21",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4515,7 +4463,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 21",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4530,7 +4480,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4545,7 +4497,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4560,7 +4514,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 26",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4575,7 +4531,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4590,7 +4548,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4605,7 +4565,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4620,7 +4582,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4635,7 +4599,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4650,7 +4616,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4665,7 +4633,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4680,7 +4650,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4695,7 +4667,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4710,7 +4684,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4725,7 +4701,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4740,7 +4718,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4755,7 +4735,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4770,7 +4752,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4785,7 +4769,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4800,7 +4786,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4815,7 +4803,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4830,7 +4820,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4845,7 +4837,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4860,7 +4854,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4875,7 +4871,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4890,37 +4888,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 1 Purchased goods and services",
-      "label_zh": "类别1 购买的商品和服务",
-      "page": "31",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not Reported n/a Not Reported 3. Fuel and Energy",
-      "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not R...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "31",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not Reported n/a Not Reported 3. Fuel and Energy",
-      "snippet_zh": "al Energy (‘000 GJs) 2024 2023 Percent Change (2024/2023) Base Year (2020) Upstream 1. Purchased Goods and Services1 Not Reported Not Reported n/a Not Reported 2. Capital Goods 1 Not Reported Not R...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4935,7 +4905,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 37",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4950,7 +4922,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 40",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4965,7 +4939,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 45",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4980,7 +4956,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4995,7 +4973,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5010,52 +4990,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "47",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761 Scope 3 4,601 4,908 6,660 Total Scope 1, 2",
-      "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "47",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761 Scope 3 4,601 4,908 6,660 Total Scope 1, 2",
-      "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "47",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761 Scope 3 4,601 4,908 6,660 Total Scope 1, 2",
-      "snippet_zh": "Global CO2e Emissions ('000 tonnes) Emissions by Business Unit U.S. Domestic Package 2024 2023 Base Year (2020) Scope 1 7,169 7,721 10,129 Scope 2 487 536 632 Total Scope 1 and 2 7,656 8,257 10,761...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5070,7 +5007,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5085,7 +5024,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5100,7 +5041,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5115,7 +5058,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：51"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5130,7 +5075,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：51"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5145,7 +5092,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 51",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：51"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5160,22 +5109,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "52",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Operational Boundary – Detailed Description Scope 1 and 2 Source: Scope 1 - Jet-A (mobile) • U.S. Package Operations: All jet fuel used for UPS-owned aircraft and leased aircraft for which UPS has operational control (U.S. flights). We have",
-      "snippet_zh": "Operational Boundary – Detailed Description Scope 1 and 2 Source: Scope 1 - Jet-A (mobile) • U.S. Package Operations: All jet fuel used for UPS-owned aircraft and leased aircraft for which UPS has ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 52",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5190,7 +5126,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 53",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5205,7 +5143,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 53",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5220,7 +5160,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5235,7 +5177,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5250,7 +5194,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5265,7 +5211,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5280,7 +5228,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5295,7 +5245,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5310,7 +5262,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5325,7 +5279,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5340,7 +5296,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5355,7 +5313,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5370,7 +5330,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5385,7 +5347,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5400,7 +5364,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5415,7 +5381,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5430,37 +5398,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 3 Fuel- and energy-related activities",
-      "label_zh": "类别3 燃料与能源相关活动",
-      "page": "54",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material extraction up to the point of (but excludi",
-      "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "54",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material extraction up to the point of (but excludi",
-      "snippet_zh": "Category 3: Fuel- and Energy-Related Activities Not Included in scope 1 or 2 • Emissions included/excluded (UPS scope and boundary): Includes the upstream (well-to-pump) emissions from raw material...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 54",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5475,7 +5415,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5490,7 +5432,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5505,7 +5449,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5520,7 +5466,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5535,7 +5483,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5550,7 +5500,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5565,7 +5517,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5580,7 +5534,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5595,7 +5551,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5610,7 +5568,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5625,7 +5585,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5640,7 +5602,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 55",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5655,7 +5619,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5670,7 +5636,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5685,7 +5653,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 56",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5700,7 +5670,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5715,7 +5687,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5730,7 +5704,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5745,7 +5721,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5760,7 +5738,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5775,7 +5755,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5790,7 +5772,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5805,22 +5789,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "57",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodology For scope 1 and 2, primary usage data is used to calculate",
-      "snippet_zh": "transport emission factors, 2023 Category 6: EPA Emission Factors for GHG Inventories, March 2018 Category 4, 7: U.S. DOE, Argonne National Laboratory, GREET 2022 model Methodology For scope 1 and ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 57",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5835,7 +5806,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 58",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5850,7 +5823,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5865,7 +5840,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5880,7 +5857,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5895,7 +5874,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5910,7 +5891,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5925,7 +5908,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5940,7 +5925,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5955,7 +5942,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5970,7 +5959,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5985,7 +5976,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6000,7 +5993,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6015,7 +6010,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6030,7 +6027,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6045,52 +6044,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 1 Purchased goods and services",
-      "label_zh": "类别1 购买的商品和服务",
-      "page": "59",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Capital Goods 698 987 1,290 3 Fuel and Energy",
-      "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Cap...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "59",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Capital Goods 698 987 1,290 3 Fuel and Energy",
-      "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Cap...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "59",
-      "source_file": "2024-UPS-GRI-Report.pdf",
-      "report_title": "2024-UPS-GRI-Report.pdf",
-      "snippet_en": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Capital Goods 698 987 1,290 3 Fuel and Energy",
-      "snippet_zh": "indirect (Scope 3) GHG emissions Global CO₂e Emissions ('000 tonnes) 2024 2023 Base Year (2020) Total Scope 3 Emissions 9,833 10,216 12,059 Upstream 1 Purchased Goods and Services 579 580 604 2 Cap...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 59",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6105,7 +6061,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6120,7 +6078,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 2024-UPS-GRI-Report.pdf | File: 2024-UPS-GRI-Report.pdf | Page: 62",
+      "evidence_locator_zh": "报告：2024-UPS-GRI-Report.pdf | 文件：2024-UPS-GRI-Report.pdf | 页码：62"
     }
   ]
 }

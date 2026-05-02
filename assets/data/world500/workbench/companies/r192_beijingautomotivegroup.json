@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "北京汽车集团有限公司esg报告baicgroup2024.pdf"
@@ -69,6 +74,8 @@
       "snippet_zh": "。 ▎报告体系 年度信息披露——年度社会责任报告/可持续发展报告（2012-2024） 日常信息披露——https://www.baicgroup.com.cn/public-benefit-activities.html ▎内容选择与安排 本报告内容范围的选择遵循GRI的实质性、利益相关方参与、可持续发展背景及...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 北京汽车集团有限公司esg报告baicgroup2024.pdf | File: 北京汽车集团有限公司esg报告baicgroup2024.pdf | Page: 86",
+      "evidence_locator_zh": "报告：北京汽车集团有限公司esg报告baicgroup2024.pdf | 文件：北京汽车集团有限公司esg报告baicgroup2024.pdf | 页码：86",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
@@ -114,6 +121,8 @@
       "snippet_zh": "报告明确说明数据来自北汽集团及下属机构正式文件和统计报告。",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 北京汽车集团有限公司esg报告baicgroup2024.pdf | File: 北京汽车集团有限公司esg报告baicgroup2024.pdf | Page: 86",
+      "evidence_locator_zh": "报告：北京汽车集团有限公司esg报告baicgroup2024.pdf | 文件：北京汽车集团有限公司esg报告baicgroup2024.pdf | 页码：86",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     }
@@ -149,7 +158,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 北京汽车集团有限公司esg报告baicgroup2024.pdf | File: 北京汽车集团有限公司esg报告baicgroup2024.pdf | Page: 86",
+      "evidence_locator_zh": "报告：北京汽车集团有限公司esg报告baicgroup2024.pdf | 文件：北京汽车集团有限公司esg报告baicgroup2024.pdf | 页码：86"
     },
     {
       "fact_type_en": "Standard reference",
@@ -164,7 +175,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: 北京汽车集团有限公司esg报告baicgroup2024.pdf | File: 北京汽车集团有限公司esg报告baicgroup2024.pdf | Page: 86",
+      "evidence_locator_zh": "报告：北京汽车集团有限公司esg报告baicgroup2024.pdf | 文件：北京汽车集团有限公司esg报告baicgroup2024.pdf | 页码：86"
     }
   ]
 }

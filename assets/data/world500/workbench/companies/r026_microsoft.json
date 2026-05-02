@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "D",
+  "enterprise_use_tier_en": "D share-only disclosure",
+  "enterprise_use_tier_zh": "D 仅占比披露",
+  "enterprise_use_tier_detail_en": "Only percentage-based disclosure is available; no directly usable absolute value is present yet.",
+  "enterprise_use_tier_detail_zh": "当前仅有占比披露，尚无可直接用于计算的绝对量。",
   "report_count": 1,
   "report_titles": [
     "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf"
@@ -18,9 +23,9 @@
   "standards_count": 3,
   "method_rows_count": 49,
   "keyword_summary_count": 6,
-  "authoritative_scope_count": 6,
-  "scope_candidate_count": 1,
-  "scope3_candidate_count": 1,
+  "authoritative_scope_count": 3,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "GHG 体系",
@@ -111,6 +116,8 @@
       "snippet_zh": "sity and ecosystem reporting In collaboration with internal teams and external partners, Microsoft has identified science- based AI tools for biodiversity an...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 78",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：78",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     },
@@ -133,6 +140,8 @@
       "snippet_zh": "performance and progress against our goals, and key challenges and trends we see in this work. We also publish our environmental data, which is included in t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 88",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：88",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -155,6 +164,8 @@
       "snippet_zh": "performance and progress against our goals, and key challenges and trends we see in this work. We also publish our environmental data, which is included in t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 88",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：88",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
@@ -194,6 +205,8 @@
       "snippet_zh": "2030 Target year Total target carbon emissions Projected carbon removal Retirements Emissions FY20 FY21 FY22 FY23 FY24 SCOPE 3 Direct emissions created by a company’s activities...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 12",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -231,6 +244,8 @@
       "snippet_zh": "2030 Target year Total target carbon emissions Projected carbon removal Retirements Emissions FY20 FY21 FY22 FY23 FY24 SCOPE 3 Direct emissions created by a company’s activities...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 12",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -268,6 +283,8 @@
       "snippet_zh": "2030 Target year Total target carbon emissions Projected carbon removal Retirements Emissions FY20 FY21 FY22 FY23 FY24 SCOPE 3 Direct emissions created by a company’s activities...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 12",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -311,6 +328,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -354,6 +373,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -397,6 +418,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -440,6 +463,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -483,6 +508,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -526,6 +553,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -569,6 +598,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -612,6 +643,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -655,6 +688,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -698,6 +733,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -741,6 +778,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -784,6 +823,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -827,6 +868,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -870,6 +913,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -913,6 +958,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -956,6 +1003,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -999,6 +1048,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1042,6 +1093,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1085,6 +1138,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1128,6 +1183,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1171,6 +1228,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1214,6 +1273,8 @@
       "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1257,6 +1318,8 @@
       "snippet_zh": "oft, we are advancing the use of low- carbon building materials4 at our datacenters. As a sector, building materials such as steel and cement are currently some of the highest c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：14",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1300,6 +1363,8 @@
       "snippet_zh": "oft, we are advancing the use of low- carbon building materials4 at our datacenters. As a sector, building materials such as steel and cement are currently some of the highest c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：14",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1337,6 +1402,8 @@
       "snippet_zh": "steel products that can be used in multiple applications, including datacenter supply chains. Stegra is building the world’s first commercial scale near-zero-carbon steel plant ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：14",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1374,6 +1441,8 @@
       "snippet_zh": "xtends beyond our internal operations, and we continue to partner with suppliers to reduce emissions across our supply chain. The Microsoft Supplier Engagement Program uses in-d...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 16",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1417,6 +1486,8 @@
       "snippet_zh": "cility in Pennsylvania, retired in 2019, providing a significant supply of new, reliable, CFE to the PJM power grid— a critical energy region for Microsoft’s datacenters. The pr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 20",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：20",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1460,6 +1531,8 @@
       "snippet_zh": "to spend less time on manual data processing and more time on ecodesign and circularity. In Azure hardware, Makersite supported our successful transition from spend-based to act...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：23",
       "recognition_basis_en": "Structured method tag: Spend-based; Structured assurance tag: Report disclosure; Matched keywords: Spend-based",
       "recognition_basis_zh": "结构化方法标注：支出法；结构化核查环节：报告披露；原文命中关键词：支出法"
     },
@@ -1503,6 +1576,8 @@
       "snippet_zh": "to spend less time on manual data processing and more time on ecodesign and circularity. In Azure hardware, Makersite supported our successful transition from spend-based to act...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：23",
       "recognition_basis_en": "Structured method tag: Spend-based; Structured assurance tag: Report disclosure; Matched keywords: Spend-based",
       "recognition_basis_zh": "结构化方法标注：支出法；结构化核查环节：报告披露；原文命中关键词：支出法"
     },
@@ -1549,6 +1624,8 @@
       "snippet_zh": "lection across the industry to ease the reporting obligations on suppliers. We’ve incorporated both the CFE data from our suppliers and the semiconductor manufacturing data from...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：24",
       "recognition_basis_en": "Structured method tag: Supplier-specific and industry-average factors; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Supplier-specific / industry-average factors / Primary data",
       "recognition_basis_zh": "结构化方法标注：供应商特定数据与行业平均因子；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：供应商特定/行业平均因子法 / 初级数据"
     },
@@ -1586,6 +1663,8 @@
       "snippet_zh": "ng urgency of decarbonization, amplified by the introduction of the new Supplier Code of Conduct requirement to transition to 100% CFE by 2030. Strengthening engagement Measurin...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1629,6 +1708,8 @@
       "snippet_zh": "across our global operations, with a focus on water-stressed regions where we work. Over 100 million cubic meters of water replenishment volume In FY24, we increased the number ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 28",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：28",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1672,6 +1753,8 @@
       "snippet_zh": "to combat water loss in collaboration with Aganova, FIDO, FluxGen, and Orbia. These projects use AI to analyze data, precisely identifying the size and location of leaks faster ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：31",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1715,6 +1798,8 @@
       "snippet_zh": "to combat water loss in collaboration with Aganova, FIDO, FluxGen, and Orbia. These projects use AI to analyze data, precisely identifying the size and location of leaks faster ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：31",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1758,6 +1843,8 @@
       "snippet_zh": "e processing at a local sugar mill. Through a partnership with Botanical Water Technologies, water harvesting units will be deployed to capture and purify condensate into safe d...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 33",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：33",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1801,6 +1888,8 @@
       "snippet_zh": "umption informs our replenishment targets Our water consumption and withdrawal trend has shown an increase over the years, in alignment with our business growth. The consumption...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 37",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：37",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1844,6 +1933,8 @@
       "snippet_zh": "on track to replenish more water than we consume across global operations and improve datacenter water use efficiency, including through a new innovative datacenter design that ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 4",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：4",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1881,6 +1972,8 @@
       "snippet_zh": "rked with 82 supplier factories to achieve waste diversion rates of 90% or higher in the manufacturing process. Among these, 25 factories obtained UL 2799 Zero Waste to Landfill...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定"
     },
@@ -1918,6 +2011,8 @@
       "snippet_zh": "intent to impact. Microsoft for Sustainability helps organizations navigate evolving regulations, gain insights, reduce costs, and strengthen business resilience. With centraliz...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 58",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定"
     },
@@ -1955,6 +2050,8 @@
       "snippet_zh": "IF has allocated over $793 million in capital to bring new supply to market and accelerate adoption and cost reduction in key target technologies. While private market investmen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 73",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：73",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1992,6 +2089,8 @@
       "snippet_zh": "IF has allocated over $793 million in capital to bring new supply to market and accelerate adoption and cost reduction in key target technologies. While private market investmen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 73",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：73",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2029,6 +2128,8 @@
       "snippet_zh": "and digitalization. Decarbonizing our supply chain in Asia At Microsoft, 97% of our emissions are in the Scope 3 category, with the majority of these emissions within our supply...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 82",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：82",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2066,6 +2167,8 @@
       "snippet_zh": "and digitalization. Decarbonizing our supply chain in Asia At Microsoft, 97% of our emissions are in the Scope 3 category, with the majority of these emissions within our supply...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 82",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：82",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2112,6 +2215,8 @@
       "snippet_zh": "uestration; and storage charged with CFE generation. Microsoft acknowledges that CFE technologies have indirect carbon dioxide emissions and these are accounted for in our LCAs....",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 89",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：89",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data / On-site data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据 / 现场/在场数据"
     },
@@ -2158,6 +2263,8 @@
       "snippet_zh": "uestration; and storage charged with CFE generation. Microsoft acknowledges that CFE technologies have indirect carbon dioxide emissions and these are accounted for in our LCAs....",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 89",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：89",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data / On-site data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据 / 现场/在场数据"
     },
@@ -2195,6 +2302,8 @@
       "snippet_zh": "2b4d84120336d3f 5. Fennell, Paul, et al. “Cement and Steel—Nine Steps to Net Zero.” Nature, March 23, 2022. https://www.nature.com/ articles/d41586-022-00758-4 6. Microsoft defi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 89",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：89",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -2296,7 +2405,7 @@
       "world500_rank": "26",
       "scope_en": "Scope 1",
       "scope_zh": "范围 1",
-      "value_mtco2e": NaN,
+      "value_mtco2e": null,
       "share_percent": 0.97,
       "evidence_page": "13",
       "basis_note_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
@@ -2304,24 +2413,22 @@
       "review_status": "manual_validated",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
-    },
-    {
-      "company_id": "r026_microsoft",
-      "company_name_en": "MICROSOFT",
-      "company_name_zh": "微软",
-      "world500_rank": "26",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围 1",
-      "value_mtco2e": NaN,
-      "share_percent": 0.97,
-      "evidence_page": "13",
-      "basis_note_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
-      "basis_note_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
-      "review_status": "manual_validated",
-      "confidence_level": "high",
-      "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Microsoft Environmental Sustainability Report 2025",
+      "report_title_en": "Microsoft Environmental Sustainability Report 2025",
+      "report_title_zh": "微软 2025 环境可持续发展报告",
+      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+      "snippet_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "snippet_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "evidence_locator_en": "Report: Microsoft Environmental Sustainability Report 2025 | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：微软 2025 环境可持续发展报告 | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
+      "acceptance_tier_code": "D1",
+      "acceptance_tier_en": "D1 share-only disclosure; not usable for absolute-value calculation",
+      "acceptance_tier_zh": "D1 仅占比披露，不可直接用于绝对量计算",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r026_microsoft",
@@ -2330,7 +2437,7 @@
       "world500_rank": "26",
       "scope_en": "Scope 2",
       "scope_zh": "范围 2",
-      "value_mtco2e": NaN,
+      "value_mtco2e": null,
       "share_percent": 1.74,
       "evidence_page": "13",
       "basis_note_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
@@ -2338,24 +2445,22 @@
       "review_status": "manual_validated",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
-    },
-    {
-      "company_id": "r026_microsoft",
-      "company_name_en": "MICROSOFT",
-      "company_name_zh": "微软",
-      "world500_rank": "26",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围 2",
-      "value_mtco2e": NaN,
-      "share_percent": 1.74,
-      "evidence_page": "13",
-      "basis_note_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
-      "basis_note_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
-      "review_status": "manual_validated",
-      "confidence_level": "high",
-      "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Microsoft Environmental Sustainability Report 2025",
+      "report_title_en": "Microsoft Environmental Sustainability Report 2025",
+      "report_title_zh": "微软 2025 环境可持续发展报告",
+      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+      "snippet_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "snippet_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "evidence_locator_en": "Report: Microsoft Environmental Sustainability Report 2025 | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：微软 2025 环境可持续发展报告 | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
+      "acceptance_tier_code": "D1",
+      "acceptance_tier_en": "D1 share-only disclosure; not usable for absolute-value calculation",
+      "acceptance_tier_zh": "D1 仅占比披露，不可直接用于绝对量计算",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r026_microsoft",
@@ -2364,7 +2469,7 @@
       "world500_rank": "26",
       "scope_en": "Scope 3",
       "scope_zh": "范围 3",
-      "value_mtco2e": NaN,
+      "value_mtco2e": null,
       "share_percent": 97.29,
       "evidence_page": "13",
       "basis_note_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
@@ -2372,75 +2477,26 @@
       "review_status": "manual_validated",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
-    },
-    {
-      "company_id": "r026_microsoft",
-      "company_name_en": "MICROSOFT",
-      "company_name_zh": "微软",
-      "world500_rank": "26",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围 3",
-      "value_mtco2e": NaN,
-      "share_percent": 97.29,
-      "evidence_page": "13",
-      "basis_note_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
-      "basis_note_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
-      "review_status": "manual_validated",
-      "confidence_level": "high",
-      "entity_type": "company",
-      "source_layer": "authoritative_structured"
-    }
-  ],
-  "scope_candidates": [
-    {
-      "company_id": "r026_microsoft",
-      "company_name_en": "MICROSOFT",
-      "company_name_zh": "微软",
-      "world500_rank": "26",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "1",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "13",
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Microsoft Environmental Sustainability Report 2025",
+      "report_title_en": "Microsoft Environmental Sustainability Report 2025",
+      "report_title_zh": "微软 2025 环境可持续发展报告",
       "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "report_title": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "snippet_en": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2 Capital Goods 40.83% 3 Fuel- and Energy-Related Activities (Ma",
-      "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2 Capital Goods 40.83...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
+      "snippet_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "snippet_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "evidence_locator_en": "Report: Microsoft Environmental Sustainability Report 2025 | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：微软 2025 环境可持续发展报告 | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
+      "acceptance_tier_code": "D1",
+      "acceptance_tier_en": "D1 share-only disclosure; not usable for absolute-value calculation",
+      "acceptance_tier_zh": "D1 仅占比披露，不可直接用于绝对量计算",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     }
   ],
-  "scope3_candidates": [
-    {
-      "company_id": "r026_microsoft",
-      "company_name_en": "MICROSOFT",
-      "company_name_zh": "微软",
-      "world500_rank": "26",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "2020",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "73",
-      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "report_title": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "snippet_en": "IF has allocated over $793 million in capital to bring new supply to market and accelerate adoption and cost reduction in key target technologies. While private market investments in climate tech have doubled from 2020 to 2022, sectors crit",
-      "snippet_zh": "IF has allocated over $793 million in capital to bring new supply to market and accelerate adoption and cost reduction in key target technologies. While private market investments in climate tech h...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -2455,7 +2511,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 4",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：4"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2470,7 +2528,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 12",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2485,7 +2545,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 12",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2500,7 +2562,66 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 12",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：12"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 1",
+      "label_zh": "范围 1",
+      "page": "13",
+      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+      "report_title": "Microsoft Environmental Sustainability Report 2025",
+      "snippet_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "snippet_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "recognition_basis_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "recognition_basis_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "confidence_level": "high",
+      "review_status": "manual_validated",
+      "evidence_locator_en": "Report: Microsoft Environmental Sustainability Report 2025 | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：微软 2025 环境可持续发展报告 | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
+      "acceptance_tier_en": "D1 share-only disclosure; not usable for absolute-value calculation",
+      "acceptance_tier_zh": "D1 仅占比披露，不可直接用于绝对量计算"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 2",
+      "label_zh": "范围 2",
+      "page": "13",
+      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+      "report_title": "Microsoft Environmental Sustainability Report 2025",
+      "snippet_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "snippet_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "recognition_basis_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "recognition_basis_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "confidence_level": "high",
+      "review_status": "manual_validated",
+      "evidence_locator_en": "Report: Microsoft Environmental Sustainability Report 2025 | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：微软 2025 环境可持续发展报告 | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
+      "acceptance_tier_en": "D1 share-only disclosure; not usable for absolute-value calculation",
+      "acceptance_tier_zh": "D1 仅占比披露，不可直接用于绝对量计算"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 3",
+      "label_zh": "范围 3",
+      "page": "13",
+      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+      "report_title": "Microsoft Environmental Sustainability Report 2025",
+      "snippet_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "snippet_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "recognition_basis_en": "Reviewed on 2026-04-13: the current report package discloses Scope 1 to 3 shares and baseline-change percentages but does not provide absolute company totals in the main PDF. Retain share-only disclosure.",
+      "recognition_basis_zh": "于 2026-04-13 复核确认 当前报告包在主 PDF 中仅披露 Scope 1 到 3 占比及基线变化比例 未提供公司级绝对量 因此保留仅占比披露。",
+      "confidence_level": "high",
+      "review_status": "manual_validated",
+      "evidence_locator_en": "Report: Microsoft Environmental Sustainability Report 2025 | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：微软 2025 环境可持续发展报告 | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13",
+      "acceptance_tier_en": "D1 share-only disclosure; not usable for absolute-value calculation",
+      "acceptance_tier_zh": "D1 仅占比披露，不可直接用于绝对量计算"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2515,7 +2636,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2530,7 +2653,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2545,7 +2670,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2560,7 +2687,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2575,7 +2704,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2590,7 +2721,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2605,7 +2738,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2620,7 +2755,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2635,7 +2772,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2650,7 +2789,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2665,7 +2806,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2680,7 +2823,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2695,7 +2840,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2710,7 +2857,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2725,7 +2874,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2740,7 +2891,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2755,7 +2908,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2770,7 +2925,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2785,7 +2942,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2800,7 +2959,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2815,7 +2976,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2830,22 +2993,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3 Market-based",
-      "label_zh": "范围3 市场法",
-      "page": "13",
-      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "report_title": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "snippet_en": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2 Capital Goods 40.83% 3 Fuel- and Energy-Related Activities (Ma",
-      "snippet_zh": "oods and Services (Category 1) and Capital Goods (Category 2), and one downstream, Use of Sold Products (Category 11). Scope 3 Categories 1 Purchased Goods and Services 34.04% 2 Capital Goods 40.83...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2860,7 +3010,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2875,7 +3027,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2890,7 +3044,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2905,7 +3061,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 16",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2920,7 +3078,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 20",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：20"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2935,7 +3095,9 @@
       "recognition_basis_en": "Structured method tag: Spend-based; Structured assurance tag: Report disclosure; Matched keywords: Spend-based",
       "recognition_basis_zh": "结构化方法标注：支出法；结构化核查环节：报告披露；原文命中关键词：支出法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2950,7 +3112,9 @@
       "recognition_basis_en": "Structured method tag: Spend-based; Structured assurance tag: Report disclosure; Matched keywords: Spend-based",
       "recognition_basis_zh": "结构化方法标注：支出法；结构化核查环节：报告披露；原文命中关键词：支出法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 23",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2965,7 +3129,9 @@
       "recognition_basis_en": "Structured method tag: Supplier-specific and industry-average factors; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Supplier-specific / industry-average factors / Primary data",
       "recognition_basis_zh": "结构化方法标注：供应商特定数据与行业平均因子；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：供应商特定/行业平均因子法 / 初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 24",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2980,7 +3146,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 25",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2995,7 +3163,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 28",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3010,7 +3180,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3025,7 +3197,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 31",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3040,7 +3214,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 33",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3055,7 +3231,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 37",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3070,7 +3248,9 @@
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 47",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3085,7 +3265,9 @@
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 58",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3100,7 +3282,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 73",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：73"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3115,22 +3299,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "73",
-      "source_file": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "report_title": "2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
-      "snippet_en": "IF has allocated over $793 million in capital to bring new supply to market and accelerate adoption and cost reduction in key target technologies. While private market investments in climate tech have doubled from 2020 to 2022, sectors crit",
-      "snippet_zh": "IF has allocated over $793 million in capital to bring new supply to market and accelerate adoption and cost reduction in key target technologies. While private market investments in climate tech h...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 73",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：73"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3145,7 +3316,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 78",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：78"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3160,7 +3333,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 82",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3175,7 +3350,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 82",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：82"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3190,7 +3367,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 88",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：88"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3205,7 +3384,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 88",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：88"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3220,7 +3401,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data / On-site data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据 / 现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 89",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：89"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3235,7 +3418,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data / On-site data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据 / 现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 89",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：89"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3250,7 +3435,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | File: 2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | Page: 89",
+      "evidence_locator_zh": "报告：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 文件：2025-Microsoft-Environmental-Sustainability-Report-PDF.pdf | 页码：89"
     }
   ]
 }

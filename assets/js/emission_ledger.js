@@ -86,7 +86,8 @@
       escapeHtml(pickText(item, lang, "scope_zh", "scope_en")),
       escapeHtml(item.value_mtco2e === null || item.value_mtco2e === undefined ? "-" : formatMaybeNumber(item.value_mtco2e, 6)),
       escapeHtml(item.share_percent === null || item.share_percent === undefined ? "-" : formatMaybeNumber(item.share_percent, 2)),
-      escapeHtml(item.evidence_page || "-"),
+      escapeHtml(pickText(item, lang, "acceptance_tier_zh", "acceptance_tier_en") || "-"),
+      escapeHtml(pickText(item, lang, "evidence_locator_zh", "evidence_locator_en") || item.evidence_page || "-"),
       escapeHtml(pickText(item, lang, "basis_note_zh", "basis_note_en")),
     ]);
     elements.authoritative.innerHTML = `
@@ -110,7 +111,8 @@
       escapeHtml(item.value_text || "-"),
       escapeHtml(item.unit_raw || "-"),
       escapeHtml(item.value_mtco2e === null || item.value_mtco2e === undefined ? "-" : formatMaybeNumber(item.value_mtco2e, 6)),
-      escapeHtml(item.evidence_page || "-"),
+      escapeHtml(pickText(item, lang, "acceptance_tier_zh", "acceptance_tier_en") || "-"),
+      escapeHtml(pickText(item, lang, "evidence_locator_zh", "evidence_locator_en") || item.evidence_page || "-"),
       `<div class="cell-block"><div>${escapeHtml(pickText(item, lang, "extraction_rule_zh", "extraction_rule_en"))}</div><div class="cell-snippet">${escapeHtml(pickText(item, lang, "snippet_zh", "snippet_en"))}</div></div>`,
     ]);
     elements.candidate.innerHTML = `
@@ -161,7 +163,9 @@
       escapeHtml(item.value_text || "-"),
       escapeHtml(item.unit_context || "-"),
       escapeHtml(item.value_mtco2e === null || item.value_mtco2e === undefined ? "-" : formatMaybeNumber(item.value_mtco2e, 6)),
-      escapeHtml(item.evidence_page || "-"),
+      escapeHtml(pickText(item, lang, "acceptance_tier_zh", "acceptance_tier_en") || "-"),
+      escapeHtml(pickText(item, lang, "priority_level_zh", "priority_level_en") || "-"),
+      escapeHtml(pickText(item, lang, "evidence_locator_zh", "evidence_locator_en") || item.evidence_page || "-"),
       `<div class="cell-block"><div>${escapeHtml(pickText(item, lang, "extraction_rule_zh", "extraction_rule_en"))}</div><div class="cell-snippet">${escapeHtml(pickText(item, lang, "snippet_zh", "snippet_en"))}</div></div>`,
     ]);
     elements.scope3.innerHTML = `
@@ -198,10 +202,11 @@
   function render() {
     const summary = state.payload?.summary || {};
     elements.metrics.innerHTML = metricCards([
-      { label: t.metric_authoritative, value: formatInt(summary.authoritative_scope_company_count || 0) },
-      { label: t.metric_scope_company, value: formatInt(summary.scope_candidate_company_count || 0) },
+      { label: t.metric_tier_a, value: formatInt(summary.tier_a_company_count || 0) },
+      { label: t.metric_tier_b, value: formatInt(summary.tier_b_company_count || 0) },
+      { label: t.metric_tier_c, value: formatInt(summary.tier_c_company_count || 0) },
+      { label: t.metric_tier_d, value: formatInt(summary.tier_d_company_count || 0) },
       { label: t.metric_scope_rows, value: formatInt(summary.scope_candidate_rows || 0) },
-      { label: t.metric_scope3_company, value: formatInt(summary.scope3_candidate_company_count || 0) },
       { label: t.metric_scope3_rows, value: formatInt(summary.scope3_candidate_rows || 0) },
       { label: t.metric_total_companies, value: formatInt(summary.company_count || 0) },
     ]);

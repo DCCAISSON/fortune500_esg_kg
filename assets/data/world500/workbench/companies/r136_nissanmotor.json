@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "NISSAN MOTOR-DB25_E_All.pdf"
@@ -20,7 +25,7 @@
   "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
-  "scope3_candidate_count": 4,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -101,6 +106,8 @@
       "snippet_zh": "ear 2024 (April 2024 to March 2025); content that describes efforts outside this period is indicated in the respective sections. Organization: Nissan Motor C...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 2",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -123,6 +130,8 @@
       "snippet_zh": "ear 2024 (April 2024 to March 2025); content that describes efforts outside this period is indicated in the respective sections. Organization: Nissan Motor C...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 2",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -145,6 +154,8 @@
       "snippet_zh": "[Remarks] Basis of calculation for CO2 emissions subject to third-party assurance ■ CO2 emissions from Nissan Motor Co., Ltd. and consolidated subsidiaries: ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -184,6 +195,8 @@
       "snippet_zh": "Environmental Nissan Motor Corporation Corporate direction Social Environmental Data Governance Contents Sustainability data book 2025 Third-party assurance Understanding of env...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 14",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：14",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -227,6 +240,8 @@
       "snippet_zh": "ssions from Nissan Motor Co., Ltd. manufacturing sites calculated based on the Act on Promotion of Global Warming Countermeasures. *4 The boundary of data aggregation has been r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 147",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：147",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -270,6 +285,8 @@
       "snippet_zh": ",774k-tons. CO2 emissions from logistics (per vehicle produced) In fiscal year 2024, CO2 emissions were 0.54 tons per vehicle produced. 0.48 2022 0.54 2024 0.53 2023*5 0.51 2021...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 149",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：149",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -313,6 +330,8 @@
       "snippet_zh": "vels nature can absorb Emissions & waste * Based on Beyond Growth: The Economics of Sustainable Development, by Herman E. Daly Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 15",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：15",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -356,6 +375,8 @@
       "snippet_zh": "vels nature can absorb Emissions & waste * Based on Beyond Growth: The Economics of Sustainable Development, by Herman E. Daly Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 15",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：15",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -393,6 +414,8 @@
       "snippet_zh": "(CO2 emissions from purchased goods & services). >>> P062 *2 The calculation method has changed from the fiscal year 2024 result. Click here for the revised calculation method (...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -430,6 +453,8 @@
       "snippet_zh": "(CO2 emissions from purchased goods & services). >>> P062 *2 The calculation method has changed from the fiscal year 2024 result. Click here for the revised calculation method (...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -467,6 +492,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -504,6 +531,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -541,6 +570,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -578,6 +609,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -615,6 +648,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -652,6 +687,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -689,6 +726,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -726,6 +765,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -763,6 +804,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -800,6 +843,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -837,6 +882,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -874,6 +921,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -911,6 +960,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -948,6 +999,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -985,6 +1038,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1022,6 +1077,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1059,6 +1116,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1096,6 +1155,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1133,6 +1194,8 @@
       "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1170,6 +1233,8 @@
       "snippet_zh": "Scope 3 emissions by category We conducted a study based on standards such as the Corporate Value Chain （Scope 3） Accounting and Reporting Standard from the GHG Protocol and fou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1207,6 +1272,8 @@
       "snippet_zh": "good health. In addition, we are pursuing business structure reforms enabling us to move away from dependence on fossil fuels. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 16",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1244,6 +1311,8 @@
       "snippet_zh": "Executive Committee Execution Supervision Corporate Risk Management Committee Internal Audit Committee * End-of-life vehicles Nissan Motor Corporation Corporate direction Social...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 17",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1281,6 +1350,8 @@
       "snippet_zh": "evaluations of all employees are conducted at plants to develop human resources able to continuously improve their competence Nissan Motor Corporation Corporate direction Social...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 18",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：18",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1318,6 +1389,8 @@
       "snippet_zh": "exceeded. We coordinated with authorities to take appropriate corrective actions and implement recurrence prevention measures. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 19",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：19",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1355,6 +1428,8 @@
       "snippet_zh": "terial mining/manufacturing/ component manufacturing Repurpose/Reuse Fuel/ electricity production Vehicle Use Recycle Disposal Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：20",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1392,6 +1467,8 @@
       "snippet_zh": "aste Volume of water use Emissions of toxic pollutants to water and soil Emissions of non-GHG air pollutants Direct operations Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 21",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1429,6 +1506,8 @@
       "snippet_zh": "rs. Nissan supports the TCFD’s recommendations and will strive to disclose information in line with its recommended framework. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 22",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：22",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1466,6 +1545,8 @@
       "snippet_zh": "medium term (up to three years), and long term (three years or longer) *2 Degree of impact on sales *3 NZE: Net-Zero Emissions Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 23",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：23",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1509,6 +1590,8 @@
       "snippet_zh": "on taxes. Although the level of taxation and the industries subject to the tax vary by country and region, this analysis will focus on the financial impact of the carbon taxes d...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 24",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：24",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1555,6 +1638,8 @@
       "snippet_zh": "n Green Program promotes environmental activities and the impact of annual carbon tax could be curbed *1 Click here for more information on the results from life cycle assessmen...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 24",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：24",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Estimated data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 估算数据"
     },
@@ -1598,6 +1683,8 @@
       "snippet_zh": "demands. To contribute to the resolution of these important issues and create new value, we are working to ascertain needs through stakeholder engagement and strengthening our f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 25",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：25",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1635,6 +1722,8 @@
       "snippet_zh": "83 kton-CO2 Long-term vision for life cycles 30% 100% （%） 100 80 60 40 20 0 2018 base 2030 2050 （FY） CO2 emissions per vehicle Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 26",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：26",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1678,6 +1767,8 @@
       "snippet_zh": "y initiatives In 2018, the IPCC Special Report on Global Warming of 1.5℃ indicated the necessity of limiting the global average temperature rise to 1.5℃ above pre-industrial lev...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 27",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：27",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1715,6 +1806,8 @@
       "snippet_zh": "new vehicles (Four regions: Japan, U.S.A., Europe and China) 50% 100% （%） 100 80 60 40 20 0 2018 base 2030 2050 （FY） t-CO2/km Nissan Motor Corporation Corporate direction Social...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 28",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1752,6 +1845,8 @@
       "snippet_zh": "or more information on “Sustainability requirements” https://www.nissan-global.com/EN/SUSTAINABILITY/LIBRARY/GREEN_PURCHASING/ Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1789,6 +1884,8 @@
       "snippet_zh": "・・・・・・・・・ 024 Value chain activity achievements・・・・・・・・・・・・・・・・・・・・ 034 Products ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・ 034 Corporate activities ・・・・・・・・・・・・・・・・・・・・・・・・...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 3",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：3",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1826,6 +1923,8 @@
       "snippet_zh": "recycled water using reverse osmosis (RO) membranes has allowed some manufacturing sites to achieve zero wastewater discharge. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 30",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1863,6 +1962,8 @@
       "snippet_zh": "hat readily evaporate and become gaseous at normal temperature and pressure conditions. *2 Click here for information. >>>P042 Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 31",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1900,6 +2001,8 @@
       "snippet_zh": "e understanding of environmental laws through educational activities for employees and other initiatives on a worldwide basis. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 32",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1937,6 +2040,8 @@
       "snippet_zh": "hnologies, including the completion of field operational trials for AC V2G technology in the U.K. in 2024. NGP2030 action plan Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 33",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1974,6 +2079,8 @@
       "snippet_zh": "environmental governance Incorporated the updated global environmental policy in FY2023 into our internal training materials. Nissan Motor Corporation Corporate direction Social...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 34",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2011,6 +2118,8 @@
       "snippet_zh": ", manufacturing P035- Construction of vehicle-charging infrastructure P040- Secondary use and recycling of batteries P042 P042 Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 35",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：35",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2048,6 +2157,8 @@
       "snippet_zh": "tic improvement in thermal efficiency, leading to the development of a technology realizing thermal efficiencies of up to 50%. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 36",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2085,6 +2196,8 @@
       "snippet_zh": "he Compact Car and Compact SUV segments of J.D. Power’s 2024 Japan APEAL (Automotive Performance, Execution and Layout) study. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 37",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：37",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2122,6 +2235,8 @@
       "snippet_zh": "ion on the Nissan Intelligent Factory. >>> P045 *3 Click here for more information on the reuse of vehicle batteries. >>> P042 Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 38",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：38",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2165,6 +2280,8 @@
       "snippet_zh": "200 has a range of business applications. (Production of the e-NV200 has ended.) Zero-emission EV ambulance based on the NV400 Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 39",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -2208,6 +2325,8 @@
       "snippet_zh": "200 has a range of business applications. (Production of the e-NV200 has ended.) Zero-emission EV ambulance based on the NV400 Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 39",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -2251,6 +2370,8 @@
       "snippet_zh": "Japan have been selling virtually 100% renewable electricity on behalf of electric power companies to encourage EV users to charge at home. From the beginning of fiscal year 202...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 40",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：40",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2294,6 +2415,8 @@
       "snippet_zh": "Japan have been selling virtually 100% renewable electricity on behalf of electric power companies to encourage EV users to charge at home. From the beginning of fiscal year 202...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 40",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：40",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2331,6 +2454,8 @@
       "snippet_zh": "ng this network is another step by Nissan to improve the customer experience and make EV ownership easier and more convenient. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 41",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2368,6 +2493,8 @@
       "snippet_zh": "hnical standard that applies to the connection of power-generating assets to the electricity distribution networks in the U.K. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 42",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：42",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2405,6 +2532,8 @@
       "snippet_zh": "high-quality batteries previously used in the Nissan LEAF Nissan LEAF Batteries Portable storage battery from the Nissan LEAF Nissan Motor Corporation Corporate direction Social...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 43",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2442,6 +2571,8 @@
       "snippet_zh": "ry regarding in-cabin VOCs. *1 NMVOC: Non-Methane Volatile Organic Compounds *2 PM: Particulate Matter *3 Passenger cars only. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 44",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2479,6 +2610,8 @@
       "snippet_zh": "the region) ・Carbon neutrality through full adoption of renewable energy, alternative energy generation, and CO2 sequestration Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 46",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：46",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2516,6 +2649,8 @@
       "snippet_zh": "ed lighting and air-conditioning for low-energy consumption and low- energy-loss operations. We promote CO2 emission reduction Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 47",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2553,6 +2688,8 @@
       "snippet_zh": "a stationary, bioethanol-fueled system capable of high- efficiency power generation and commenced trials at its Tochigi Plant. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 48",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：48",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2596,6 +2733,8 @@
       "snippet_zh": "ove its power generation capacity through trial operations and work toward full-scale operations starting from 2030. In-house power generation using SOFC Along with SOFC systems...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 49",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：49",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2633,6 +2772,8 @@
       "snippet_zh": "ortation of complete vehicles and service parts. Click here for more information on the data for the past five years. >>> P148 Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 50",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：50",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2670,6 +2811,8 @@
       "snippet_zh": "reducing electricity consumption and switching to LED lighting have been incorporated into the activity plans of each company. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 51",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：51",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2713,6 +2856,8 @@
       "snippet_zh": "ecture-owned hydroelectric power plants and its environmental value. This electricity has high added value, including not only the environmental value of zero carbon dioxide emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 52",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：52",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2750,6 +2895,8 @@
       "snippet_zh": "els, which require high-mix, low-volume production. This enables us to extend vehicle lifetimes while helping to reduce waste. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 53",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：53",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2787,6 +2934,8 @@
       "snippet_zh": "3 Air nozzle LIBS laser Cleaning laser 3D sensor Finished product Scratches on the coating Steel Upgrade recycling of aluminum Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 54",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2824,6 +2973,8 @@
       "snippet_zh": "3 Air nozzle LIBS laser Cleaning laser 3D sensor Finished product Scratches on the coating Steel Upgrade recycling of aluminum Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 54",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2861,6 +3012,8 @@
       "snippet_zh": "cycling of plastics materials Shredded bumper products (with coating) Products with coating removed Recycled plastics material Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 55",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2898,6 +3051,8 @@
       "snippet_zh": "op and are recovered Motor Carburizing material Pig Iron Fe O Re C Iron oxide REEs Flux Electriﬁed vehicle motor Flux is added Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 56",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2935,6 +3090,8 @@
       "snippet_zh": "and society. We are also considering ways to maximize the use of vehicles through mobility services and connected vehicles.*7 Nissan Motor Corporation Corporate direction Social...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 57",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：57",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2978,6 +3135,8 @@
       "snippet_zh": "A - 602105 Water Positive Certification for Facility – Platinum Category Scope: Water Positive Certification scheme developed by DQS India based on ISO 14046, Alliance Water Ste...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 58",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：58",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Verification; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：核查；原文命中关键词：推导数据"
     },
@@ -3021,6 +3180,8 @@
       "snippet_zh": "hu *3 Based on GRI 303, total water consumption is total water withdrawn minus total water discharged as calculated by Nissan. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 59",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：59",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -3064,6 +3225,8 @@
       "snippet_zh": "hu *3 Based on GRI 303, total water consumption is total water withdrawn minus total water discharged as calculated by Nissan. Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 59",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：59",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -3101,6 +3264,8 @@
       "snippet_zh": "bal.nissannews.com/ja-JP/releases/240624-01-j *3 Click here for more information on the GX League. https://gx-league.go.jp/en/ Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 60",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：60",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -3138,6 +3303,8 @@
       "snippet_zh": "mental surveys Requirements for suppliers under the Nissan Green Purchasing Guidelines Environmental activity briefing meeting Nissan Motor Corporation Corporate direction Socia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 61",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -3181,6 +3348,8 @@
       "snippet_zh": "ly referring to or describing the criteria used; and - preparing the SMI in accordance with the Criteria. Inherent limitations in preparing the SMI As described in Sustainabilit...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 62",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：62",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3224,6 +3393,8 @@
       "snippet_zh": "024 to determine the total CO2 emissions. ■ CO2 emissions from the use of sold products: The calculation formula has been revised based on the fiscal year 2024 results. Calculat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3267,6 +3438,8 @@
       "snippet_zh": "024 to determine the total CO2 emissions. ■ CO2 emissions from the use of sold products: The calculation formula has been revised based on the fiscal year 2024 results. Calculat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3310,6 +3483,8 @@
       "snippet_zh": "024 to determine the total CO2 emissions. ■ CO2 emissions from the use of sold products: The calculation formula has been revised based on the fiscal year 2024 results. Calculat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3353,6 +3528,8 @@
       "snippet_zh": "with each of these materials and promote sustainable procurement, while regularly reviewing and updating our risk assessments. High risk Ta Au Sn Co Natural rubber Identiﬁcation...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 89",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：89",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -3433,96 +3610,7 @@
   ],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
-  "scope3_candidates": [
-    {
-      "company_id": "r136_nissanmotor",
-      "company_name_en": "NISSAN MOTOR",
-      "company_name_zh": "日产汽车",
-      "world500_rank": "136",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "2024",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "150",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-CO2 1,271 3. Fuel- and energy-related activ",
-      "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r136_nissanmotor",
-      "company_name_en": "NISSAN MOTOR",
-      "company_name_zh": "日产汽车",
-      "world500_rank": "136",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "062",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "150",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "(CO2 emissions from purchased goods & services). >>> P062 *2 The calculation method has changed from the fiscal year 2024 result. Click here for the revised calculation method (CO2 emissions from the use of sold products). >>> P062 ★ This f",
-      "snippet_zh": "(CO2 emissions from purchased goods & services). >>> P062 *2 The calculation method has changed from the fiscal year 2024 result. Click here for the revised calculation method (CO2 emissions from t...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r136_nissanmotor",
-      "company_name_en": "NISSAN MOTOR",
-      "company_name_zh": "日产汽车",
-      "world500_rank": "136",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "2024",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "63",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "024 to determine the total CO2 emissions. ■ CO2 emissions from the use of sold products: The calculation formula has been revised based on the fiscal year 2024 results. Calculated using the average regional CO2 emissions per vehicle multipl",
-      "snippet_zh": "024 to determine the total CO2 emissions. ■ CO2 emissions from the use of sold products: The calculation formula has been revised based on the fiscal year 2024 results. Calculated using the average...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r136_nissanmotor",
-      "company_name_en": "NISSAN MOTOR",
-      "company_name_zh": "日产汽车",
-      "world500_rank": "136",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "2",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "150",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-CO2 1,271 3. Fuel- and energy-related activ",
-      "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -3537,7 +3625,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 2",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3552,7 +3642,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 2",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3567,7 +3659,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 3",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3582,7 +3676,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 14",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3597,7 +3693,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 15",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：15"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3612,7 +3710,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 15",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：15"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3627,7 +3727,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 16",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3642,7 +3744,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 17",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3657,7 +3761,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 18",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：18"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3672,7 +3778,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 19",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：19"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3687,7 +3795,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 20",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：20"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3702,7 +3812,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 21",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3717,7 +3829,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 22",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3732,7 +3846,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 23",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3747,7 +3863,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 24",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3762,7 +3880,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Estimated data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 24",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3777,7 +3897,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 25",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3792,7 +3914,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 26",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3807,7 +3931,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 27",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3822,7 +3948,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 28",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3837,7 +3965,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 29",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3852,7 +3982,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 30",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3867,7 +3999,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 31",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3882,7 +4016,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 32",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3897,7 +4033,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 33",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3912,7 +4050,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 34",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3927,7 +4067,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 35",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：35"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3942,7 +4084,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 36",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3957,7 +4101,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 37",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3972,7 +4118,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 38",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：38"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3987,7 +4135,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 39",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4002,7 +4152,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 39",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4017,7 +4169,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 40",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4032,7 +4186,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 40",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4047,7 +4203,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 41",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4062,7 +4220,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 42",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：42"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4077,7 +4237,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 43",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4092,7 +4254,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 44",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4107,7 +4271,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 46",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4122,7 +4288,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 47",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4137,7 +4305,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 48",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：48"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4152,7 +4322,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 49",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4167,7 +4339,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 50",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：50"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4182,7 +4356,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 51",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：51"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4197,7 +4373,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 52",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4212,7 +4390,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 53",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4227,7 +4407,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 54",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4242,7 +4424,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 54",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4257,7 +4441,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 55",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4272,7 +4458,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 56",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4287,7 +4475,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 57",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4302,7 +4492,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Verification; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：核查；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 58",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4317,7 +4509,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 59",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4332,7 +4526,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 59",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4347,7 +4543,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 60",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4362,7 +4560,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 61",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4377,7 +4577,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 62",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4392,7 +4594,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4407,7 +4611,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4422,22 +4628,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "63",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "024 to determine the total CO2 emissions. ■ CO2 emissions from the use of sold products: The calculation formula has been revised based on the fiscal year 2024 results. Calculated using the average regional CO2 emissions per vehicle multipl",
-      "snippet_zh": "024 to determine the total CO2 emissions. ■ CO2 emissions from the use of sold products: The calculation formula has been revised based on the fiscal year 2024 results. Calculated using the average...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4452,7 +4645,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 63",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4467,7 +4662,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 89",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：89"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4482,7 +4679,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 147",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：147"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4497,7 +4696,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 149",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：149"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4512,7 +4713,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4527,7 +4730,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4542,7 +4747,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4557,7 +4764,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4572,7 +4781,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4587,7 +4798,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4602,7 +4815,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4617,7 +4832,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4632,7 +4849,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4647,7 +4866,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4662,7 +4883,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4677,7 +4900,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4692,7 +4917,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4707,7 +4934,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4722,7 +4951,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4737,7 +4968,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4752,7 +4985,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4767,7 +5002,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4782,7 +5019,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4797,7 +5036,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4812,7 +5053,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4827,52 +5070,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "150",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-CO2 1,271 3. Fuel- and energy-related activ",
-      "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "150",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "(CO2 emissions from purchased goods & services). >>> P062 *2 The calculation method has changed from the fiscal year 2024 result. Click here for the revised calculation method (CO2 emissions from the use of sold products). >>> P062 ★ This f",
-      "snippet_zh": "(CO2 emissions from purchased goods & services). >>> P062 *2 The calculation method has changed from the fiscal year 2024 result. Click here for the revised calculation method (CO2 emissions from t...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_04"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "150",
-      "source_file": "NISSAN MOTOR-DB25_E_All.pdf",
-      "report_title": "NISSAN MOTOR-DB25_E_All.pdf",
-      "snippet_en": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-CO2 1,271 3. Fuel- and energy-related activ",
-      "snippet_zh": "om the GHG Protocol and found that about 81％ of our Scope 3 emissions were from the use of sold products. （FY） Category Unit 2024 1. Purchased goods & services*1 kt-CO2 23,365★ 2. Capital goods kt-...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: NISSAN MOTOR-DB25_E_All.pdf | File: NISSAN MOTOR-DB25_E_All.pdf | Page: 150",
+      "evidence_locator_zh": "报告：NISSAN MOTOR-DB25_E_All.pdf | 文件：NISSAN MOTOR-DB25_E_All.pdf | 页码：150"
     }
   ]
 }

@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "A",
+  "enterprise_use_tier_en": "A direct-use absolute values",
+  "enterprise_use_tier_zh": "A 可直接用绝对量",
+  "enterprise_use_tier_detail_en": "At least one company-level absolute value has already entered the structured authoritative layer.",
+  "enterprise_use_tier_detail_zh": "至少有一条公司级绝对量已经进入结构化采信层。",
   "report_count": 1,
   "report_titles": [
     "比亚迪年度可持续报告2024.pdf"
@@ -69,6 +74,8 @@
       "snippet_zh": "d Governance, ESG) 报告守则 》 ( 以下简称“联交所《 守则 》” ) ，及《 深圳证券交易所上市公司自律监管指 引第17号一一可持续发展报告 ( 试行) 》( 以下简称“深交所《 指引 》” ) 。同时，本报告参照多项可持续发展报告标准、框架及倡议进行编制，包括欧洲财务报告咨询组《 欧洲可持...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 比亚迪年度可持续报告2024.pdf | File: 比亚迪年度可持续报告2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：比亚迪年度可持续报告2024.pdf | 文件：比亚迪年度可持续报告2024.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     },
@@ -91,6 +98,8 @@
       "snippet_zh": "d Governance, ESG) 报告守则 》 ( 以下简称“联交所《 守则 》” ) ，及《 深圳证券交易所上市公司自律监管指 引第17号一一可持续发展报告 ( 试行) 》( 以下简称“深交所《 指引 》” ) 。同时，本报告参照多项可持续发展报告标准、框架及倡议进行编制，包括欧洲财务报告咨询组《 欧洲可持...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 比亚迪年度可持续报告2024.pdf | File: 比亚迪年度可持续报告2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：比亚迪年度可持续报告2024.pdf | 文件：比亚迪年度可持续报告2024.pdf | 页码：3",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -113,6 +122,8 @@
       "snippet_zh": "相关制度。此外，我们鼓励供 相当于减少碳排放超忆1 0 , O O O吨二氧化碳当量s。 应商在生产过程中逐步扩大绿电使用比例、使用新能源车辆、推动节能技改以降低运营过程碳排放，也鼓励 a 供应商参与产品的回收和再利用，推广循环经济理念，以减少废弃物产生、提升资源利用率 。同时，我们积 极推动绿色采购，制定绿色采...",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 比亚迪年度可持续报告2024.pdf | File: 比亚迪年度可持续报告2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：比亚迪年度可持续报告2024.pdf | 文件：比亚迪年度可持续报告2024.pdf | 页码：46",
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准"
     }
@@ -135,7 +146,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "BYD Sustainability Report 2024",
+      "report_title_en": "BYD Sustainability Report 2024",
+      "report_title_zh": "比亚迪 2024 可持续发展报告",
+      "source_file": "比亚迪年度可持续报告2024.pdf",
+      "snippet_en": "Mt CO2e; direct emissions.",
+      "snippet_zh": "Mt CO2e; direct emissions.",
+      "evidence_locator_en": "Report: BYD Sustainability Report 2024 | File: 比亚迪年度可持续报告2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：比亚迪 2024 可持续发展报告 | 文件：比亚迪年度可持续报告2024.pdf | 页码：127",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r143_byd",
@@ -152,7 +178,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "BYD Sustainability Report 2024",
+      "report_title_en": "BYD Sustainability Report 2024",
+      "report_title_zh": "比亚迪 2024 可持续发展报告",
+      "source_file": "比亚迪年度可持续报告2024.pdf",
+      "snippet_en": "Mt CO2e; energy indirect emissions.",
+      "snippet_zh": "Mt CO2e; energy indirect emissions.",
+      "evidence_locator_en": "Report: BYD Sustainability Report 2024 | File: 比亚迪年度可持续报告2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：比亚迪 2024 可持续发展报告 | 文件：比亚迪年度可持续报告2024.pdf | 页码：127",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r143_byd",
@@ -169,7 +210,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "BYD Sustainability Report 2024",
+      "report_title_en": "BYD Sustainability Report 2024",
+      "report_title_zh": "比亚迪 2024 可持续发展报告",
+      "source_file": "比亚迪年度可持续报告2024.pdf",
+      "snippet_en": "Mt CO2e; employee travel, commuting, and fuel-and-energy-related activities are disclosed.",
+      "snippet_zh": "Mt CO2e; employee travel, commuting, and fuel-and-energy-related activities are disclosed.",
+      "evidence_locator_en": "Report: BYD Sustainability Report 2024 | File: 比亚迪年度可持续报告2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：比亚迪 2024 可持续发展报告 | 文件：比亚迪年度可持续报告2024.pdf | 页码：127",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     }
   ],
   "scope_candidates": [],
@@ -188,7 +244,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 比亚迪年度可持续报告2024.pdf | File: 比亚迪年度可持续报告2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：比亚迪年度可持续报告2024.pdf | 文件：比亚迪年度可持续报告2024.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -203,7 +261,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 比亚迪年度可持续报告2024.pdf | File: 比亚迪年度可持续报告2024.pdf | Page: 3",
+      "evidence_locator_zh": "报告：比亚迪年度可持续报告2024.pdf | 文件：比亚迪年度可持续报告2024.pdf | 页码：3"
     },
     {
       "fact_type_en": "Standard reference",
@@ -218,7 +278,66 @@
       "recognition_basis_en": "Structured standard tag: ISO 14067; Standard role: Methodology standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14067；标准角色：方法学标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_04"
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: 比亚迪年度可持续报告2024.pdf | File: 比亚迪年度可持续报告2024.pdf | Page: 46",
+      "evidence_locator_zh": "报告：比亚迪年度可持续报告2024.pdf | 文件：比亚迪年度可持续报告2024.pdf | 页码：46"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 1",
+      "label_zh": "范围 1",
+      "page": "127",
+      "source_file": "比亚迪年度可持续报告2024.pdf",
+      "report_title": "BYD Sustainability Report 2024",
+      "snippet_en": "Mt CO2e; direct emissions.",
+      "snippet_zh": "Mt CO2e; direct emissions.",
+      "recognition_basis_en": "Mt CO2e; direct emissions.",
+      "recognition_basis_zh": "Mt CO2e; direct emissions.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: BYD Sustainability Report 2024 | File: 比亚迪年度可持续报告2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：比亚迪 2024 可持续发展报告 | 文件：比亚迪年度可持续报告2024.pdf | 页码：127",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 2",
+      "label_zh": "范围 2",
+      "page": "127",
+      "source_file": "比亚迪年度可持续报告2024.pdf",
+      "report_title": "BYD Sustainability Report 2024",
+      "snippet_en": "Mt CO2e; energy indirect emissions.",
+      "snippet_zh": "Mt CO2e; energy indirect emissions.",
+      "recognition_basis_en": "Mt CO2e; energy indirect emissions.",
+      "recognition_basis_zh": "Mt CO2e; energy indirect emissions.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: BYD Sustainability Report 2024 | File: 比亚迪年度可持续报告2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：比亚迪 2024 可持续发展报告 | 文件：比亚迪年度可持续报告2024.pdf | 页码：127",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 3",
+      "label_zh": "范围 3",
+      "page": "127",
+      "source_file": "比亚迪年度可持续报告2024.pdf",
+      "report_title": "BYD Sustainability Report 2024",
+      "snippet_en": "Mt CO2e; employee travel, commuting, and fuel-and-energy-related activities are disclosed.",
+      "snippet_zh": "Mt CO2e; employee travel, commuting, and fuel-and-energy-related activities are disclosed.",
+      "recognition_basis_en": "Mt CO2e; employee travel, commuting, and fuel-and-energy-related activities are disclosed.",
+      "recognition_basis_zh": "Mt CO2e; employee travel, commuting, and fuel-and-energy-related activities are disclosed.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: BYD Sustainability Report 2024 | File: 比亚迪年度可持续报告2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：比亚迪 2024 可持续发展报告 | 文件：比亚迪年度可持续报告2024.pdf | 页码：127",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
     }
   ]
 }

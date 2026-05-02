@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "DENSO-annual-report-doc-2024-printing-en.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 22,
   "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 2,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架"
@@ -87,6 +92,8 @@
       "snippet_zh": "essage from the Chief Monozukuri Officer 60 Intellectual Capital 64 Message from the Chief Technology Officer 65 Message from the Chief Software Officer 66 M...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 4",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：4",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -109,6 +116,8 @@
       "snippet_zh": "average temperature increase to 1.5℃ above pre-industrial levels, which is set forth by the Paris Agreement. As a result, our targets have obtained Science B...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 75",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：75",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     }
@@ -148,6 +157,8 @@
       "snippet_zh": "• \u0007Focused on the development of car air-conditioning systems that use natural refrigerant to curb the destruction of the ozone layer caused by conventional refrigerant • \u0007Devel...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 18",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：18",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -185,6 +196,8 @@
       "snippet_zh": "trality Achievements to Date • \u0007Prepared scenarios for de-emphasizing and discontinuing internal combustion engine products in collaboration with customers and supply chain comp...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 38",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：38",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -222,6 +235,8 @@
       "snippet_zh": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbon...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -259,6 +274,8 @@
       "snippet_zh": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbon...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -302,6 +319,8 @@
       "snippet_zh": "Road Map for Scope 3 Carbon Neutrality Fiscal 2021 100 (1.9 million tons) 65 1. Thoroughly conserve energy and increase renewable energy utilization 3. Promote energy conservati...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -339,6 +358,8 @@
       "snippet_zh": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbon...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -376,6 +397,8 @@
       "snippet_zh": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbon...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -419,6 +442,8 @@
       "snippet_zh": "uction of 58%]; domestic and overseas Group companies, 46 [reduction of 54%]) Going forward, we will continue to enhance energy-saving activities utilizing Factory-IoT (F-IoT) a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 70",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -462,6 +487,8 @@
       "snippet_zh": "d with respect to gas) and becoming completely carbon neutral, including gas, by fiscal 2036. To achieve this target, we will continue to promote energy-saving activities, an ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 73",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：73",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -505,6 +532,8 @@
       "snippet_zh": "d with respect to gas) and becoming completely carbon neutral, including gas, by fiscal 2036. To achieve this target, we will continue to promote energy-saving activities, an ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 73",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：73",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -548,6 +577,8 @@
       "snippet_zh": "d with respect to gas) and becoming completely carbon neutral, including gas, by fiscal 2036. To achieve this target, we will continue to promote energy-saving activities, an ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 73",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：73",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -585,6 +616,8 @@
       "snippet_zh": "31 Reduction of 25% (equivalent to well below 2℃*) FY2051 Carbon neutral FY2026 Carbon neutral FY2036 Carbon neutral (without carbon credits) FY2031 Reduction of 25% (equivalent...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -622,6 +655,8 @@
       "snippet_zh": "31 Reduction of 25% (equivalent to well below 2℃*) FY2051 Carbon neutral FY2026 Carbon neutral FY2036 Carbon neutral (without carbon credits) FY2031 Reduction of 25% (equivalent...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -659,6 +694,8 @@
       "snippet_zh": "31 Reduction of 25% (equivalent to well below 2℃*) FY2051 Carbon neutral FY2026 Carbon neutral FY2036 Carbon neutral (without carbon credits) FY2031 Reduction of 25% (equivalent...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -696,6 +733,8 @@
       "snippet_zh": "31 Reduction of 25% (equivalent to well below 2℃*) FY2051 Carbon neutral FY2026 Carbon neutral FY2036 Carbon neutral (without carbon credits) FY2031 Reduction of 25% (equivalent...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -733,6 +772,8 @@
       "snippet_zh": "tion of know-how, etc. • \u0007High-quality, high-performance products • \u0007Establishment of a stable supply chain • \u0007Establishment of an after-sales service network with a high level ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 77",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：77",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -776,6 +817,8 @@
       "snippet_zh": "arbon motors to realize net-zero CO2 emissions throughout product life cycles Results: \u0007Advanced the development of design technology for high torque density to achieve compactn...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 85",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：85",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -813,6 +856,8 @@
       "snippet_zh": "nding the diversifying customer demand in countries and regions and providing timely sup- plies of competitive products through our locally rooted supply chain. Business Strateg...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 88",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：88",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -850,6 +895,8 @@
       "snippet_zh": "nding the diversifying customer demand in countries and regions and providing timely sup- plies of competitive products through our locally rooted supply chain. Business Strateg...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 88",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：88",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -893,6 +940,8 @@
       "snippet_zh": "lity domain As a company reorganized to go beyond technologies and focus more on helping society and our customers, we are collaborating on the sensing and actuation fronts, and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 92",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：92",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -930,6 +979,8 @@
       "snippet_zh": "uctors: Power losses approximately 70% lower than conventional Si devices 0 50 100 150 200 250 (FY) 123.5 147.2 179.0 163.6 193.0 55.0 96.5 44.7 2019 2020 2021 2022 2023 2024 20...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 93",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：93",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -973,6 +1024,8 @@
       "snippet_zh": "f automotive products and tech- nologies, DENSO has accumulated expertise in technologies for efficiently using energy in order to improve fuel economy. This includes thermal ma...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：97",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     }
@@ -1012,54 +1065,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r305_denso",
-      "company_name_en": "DENSO",
-      "company_name_zh": "电装公司",
-      "world500_rank": "305",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "41",
-      "source_file": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "report_title": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "snippet_en": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbonization efforts, DENSO has been boldly tackling environmental i",
-      "snippet_zh": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbonization efforts, DEN...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r305_denso",
-      "company_name_en": "DENSO",
-      "company_name_zh": "电装公司",
-      "world500_rank": "305",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2021",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "41",
-      "source_file": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "report_title": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "snippet_en": "Road Map for Scope 3 Carbon Neutrality Fiscal 2021 100 (1.9 million tons) 65 1. Thoroughly conserve energy and increase renewable energy utilization 3. Promote energy conservation through reforms to production and supply structure Fiscal 20",
-      "snippet_zh": "Road Map for Scope 3 Carbon Neutrality Fiscal 2021 100 (1.9 million tons) 65 1. Thoroughly conserve energy and increase renewable energy utilization 3. Promote energy conservation through reforms t...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -1075,7 +1081,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 4",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：4"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1090,7 +1098,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 18",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：18"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1105,7 +1115,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 38",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：38"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1120,7 +1132,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1135,7 +1149,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1150,7 +1166,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1165,7 +1183,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1180,37 +1200,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "41",
-      "source_file": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "report_title": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "snippet_en": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbonization efforts, DENSO has been boldly tackling environmental i",
-      "snippet_zh": "Scope 3: Upstream (Suppliers) Scope 3: Downstream (Product Use) Scope 1 and 2: DENSO Plants Toward Carbon Neutrality throughout the Value Chain As the world accelerates decarbonization efforts, DEN...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "41",
-      "source_file": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "report_title": "DENSO-annual-report-doc-2024-printing-en.pdf",
-      "snippet_en": "Road Map for Scope 3 Carbon Neutrality Fiscal 2021 100 (1.9 million tons) 65 1. Thoroughly conserve energy and increase renewable energy utilization 3. Promote energy conservation through reforms to production and supply structure Fiscal 20",
-      "snippet_zh": "Road Map for Scope 3 Carbon Neutrality Fiscal 2021 100 (1.9 million tons) 65 1. Thoroughly conserve energy and increase renewable energy utilization 3. Promote energy conservation through reforms t...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 41",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1225,7 +1217,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 70",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1240,7 +1234,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 73",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：73"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1255,7 +1251,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 73",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：73"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1270,7 +1268,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 73",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：73"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1285,7 +1285,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1300,7 +1302,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1315,7 +1319,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1330,7 +1336,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：74"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1345,7 +1353,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 75",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：75"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1360,7 +1370,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 77",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：77"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1375,7 +1387,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 85",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：85"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1390,7 +1404,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 88",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：88"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1405,7 +1421,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 88",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：88"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1420,7 +1438,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 92",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1435,7 +1455,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 93",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：93"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1450,7 +1472,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: DENSO-annual-report-doc-2024-printing-en.pdf | File: DENSO-annual-report-doc-2024-printing-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：DENSO-annual-report-doc-2024-printing-en.pdf | 文件：DENSO-annual-report-doc-2024-printing-en.pdf | 页码：97"
     }
   ]
 }

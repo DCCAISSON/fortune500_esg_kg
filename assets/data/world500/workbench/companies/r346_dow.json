@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet, but source-text candidates are present for review and backfill.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，但已有原文候选值可进入复核与回填。",
   "report_count": 1,
   "report_titles": [
     "DOW-2024-progress-report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 97,
   "keyword_summary_count": 6,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 3,
-  "scope3_candidate_count": 4,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 2,
   "standard_systems_zh": [
     "GHG 体系",
     "ESG 披露框架",
@@ -113,6 +118,8 @@
       "snippet_zh": "ING ACCOUNTABILITY AND BEST-IN-CLASS PERFORMANCE Corporate Governance 28 Accountability in Action Through Corporate Governance Reporting & Disclosures 30 GRI...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -135,6 +142,8 @@
       "snippet_zh": "ING ACCOUNTABILITY AND BEST-IN-CLASS PERFORMANCE Corporate Governance 28 Accountability in Action Through Corporate Governance Reporting & Disclosures 30 GRI...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -157,6 +166,8 @@
       "snippet_zh": "ING ACCOUNTABILITY AND BEST-IN-CLASS PERFORMANCE Corporate Governance 28 Accountability in Action Through Corporate Governance Reporting & Disclosures 30 GRI...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -179,6 +190,8 @@
       "snippet_zh": "ING ACCOUNTABILITY AND BEST-IN-CLASS PERFORMANCE Corporate Governance 28 Accountability in Action Through Corporate Governance Reporting & Disclosures 30 GRI...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     }
@@ -224,6 +237,8 @@
       "snippet_zh": "Overall, Scope 1 emissions remained flat in 2024 relative to 2023. For information on Dow’s emissions and energy reduction projects, see GRI 302-4 Reduction of energy consumptio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -267,6 +282,8 @@
       "snippet_zh": "actor Resources; or AP-42); and German Environmental Authority (12/2016). For tracking against its targets to reduce GHG emissions, Dow utilizes the market-based methodology for...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -310,6 +327,8 @@
       "snippet_zh": "actor Resources; or AP-42); and German Environmental Authority (12/2016). For tracking against its targets to reduce GHG emissions, Dow utilizes the market-based methodology for...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -353,6 +372,8 @@
       "snippet_zh": "d (published 2025) and for non-U.S. locations, Dow used the International Energy Agency (IEA) (published 2024). Scope 3 emissions are calculated using internal and external data...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -396,6 +417,8 @@
       "snippet_zh": "d (published 2025) and for non-U.S. locations, Dow used the International Energy Agency (IEA) (published 2024). Scope 3 emissions are calculated using internal and external data...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -433,6 +456,8 @@
       "snippet_zh": "products, such as fuel markers, during their use phase (Category 11) or at their end of life (Category 12), as well as from Dow’s investments (Category 15). Dow continues to enh...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -470,6 +495,8 @@
       "snippet_zh": "products, such as fuel markers, during their use phase (Category 11) or at their end of life (Category 12), as well as from Dow’s investments (Category 15). Dow continues to enh...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -507,6 +534,8 @@
       "snippet_zh": "products, such as fuel markers, during their use phase (Category 11) or at their end of life (Category 12), as well as from Dow’s investments (Category 15). Dow continues to enh...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -544,6 +573,8 @@
       "snippet_zh": "products, such as fuel markers, during their use phase (Category 11) or at their end of life (Category 12), as well as from Dow’s investments (Category 15). Dow continues to enh...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -581,6 +612,8 @@
       "snippet_zh": "products, such as fuel markers, during their use phase (Category 11) or at their end of life (Category 12), as well as from Dow’s investments (Category 15). Dow continues to enh...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -618,6 +651,8 @@
       "snippet_zh": "products, such as fuel markers, during their use phase (Category 11) or at their end of life (Category 12), as well as from Dow’s investments (Category 15). Dow continues to enh...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -661,6 +696,8 @@
       "snippet_zh": "monitor progress towards Dow’s climate goals, modeled emission factors for several key materials were used to establish a more accurate representation of supplier decarbonizatio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -704,6 +741,8 @@
       "snippet_zh": "and 4 related to value chain interventions, where Dow’s direct suppliers have taken action to decarbonize their activities. These interventions include supplier carbon footprint...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -747,6 +786,8 @@
       "snippet_zh": "and 4 related to value chain interventions, where Dow’s direct suppliers have taken action to decarbonize their activities. These interventions include supplier carbon footprint...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -784,6 +825,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -821,6 +864,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -858,6 +903,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -895,6 +942,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -932,6 +981,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -969,6 +1020,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1006,6 +1059,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1043,6 +1098,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1080,6 +1137,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1117,6 +1176,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1154,6 +1215,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1191,6 +1254,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1228,6 +1293,8 @@
       "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1271,6 +1338,8 @@
       "snippet_zh": "and 4 related to value chain interventions, where Dow’s direct suppliers have taken action to decarbonize their activities. These interventions include supplier carbon footprint...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1314,6 +1383,8 @@
       "snippet_zh": "and 4 related to value chain interventions, where Dow’s direct suppliers have taken action to decarbonize their activities. These interventions include supplier carbon footprint...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1357,6 +1428,8 @@
       "snippet_zh": "ol; purchases accounted for in another category 21.0% Good 3.3 Relevant, calculated Hybrid Dow internal records for fuel and energy purchased for Dow operations in 2024 Ecoinven...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1400,6 +1473,8 @@
       "snippet_zh": "ol; purchases accounted for in another category 21.0% Good 3.3 Relevant, calculated Hybrid Dow internal records for fuel and energy purchased for Dow operations in 2024 Ecoinven...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1443,6 +1518,8 @@
       "snippet_zh": "ooked outside Dow's travel agency 83.0% Good 3.7 Relevant, calculated Average data Dow employee records; AAA Foundation Ecoinvent v3.11 N/A Employee commuting by modes other tha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法"
     },
@@ -1486,6 +1563,8 @@
       "snippet_zh": "ooked outside Dow's travel agency 83.0% Good 3.7 Relevant, calculated Average data Dow employee records; AAA Foundation Ecoinvent v3.11 N/A Employee commuting by modes other tha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法"
     },
@@ -1529,6 +1608,8 @@
       "snippet_zh": "ooked outside Dow's travel agency 83.0% Good 3.7 Relevant, calculated Average data Dow employee records; AAA Foundation Ecoinvent v3.11 N/A Employee commuting by modes other tha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法"
     },
@@ -1572,6 +1653,8 @@
       "snippet_zh": "ooked outside Dow's travel agency 83.0% Good 3.7 Relevant, calculated Average data Dow employee records; AAA Foundation Ecoinvent v3.11 N/A Employee commuting by modes other tha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法"
     },
@@ -1615,6 +1698,8 @@
       "snippet_zh": "ooked outside Dow's travel agency 83.0% Good 3.7 Relevant, calculated Average data Dow employee records; AAA Foundation Ecoinvent v3.11 N/A Employee commuting by modes other tha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法"
     },
@@ -1658,6 +1743,8 @@
       "snippet_zh": "ooked outside Dow's travel agency 83.0% Good 3.7 Relevant, calculated Average data Dow employee records; AAA Foundation Ecoinvent v3.11 N/A Employee commuting by modes other tha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法"
     },
@@ -1695,6 +1782,8 @@
       "snippet_zh": "BUILDING A VALUE-GENERATING SCOPE 3 DECARBONIZATION PATHWAY We are working with our value chain partners to track Scope 3 emissions and identify upstream decarbonization opportu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 12",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：12",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1738,6 +1827,8 @@
       "snippet_zh": "Category Status Method Activity Data Emissions Factor Source(s) for Average Data Emissions Factor Source(s) for Supplier Data Description of Any Excluded Activities % GHGs Cover...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法"
     },
@@ -1775,6 +1866,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1812,6 +1905,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1849,6 +1944,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1886,6 +1983,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1923,6 +2022,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1960,6 +2061,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1997,6 +2100,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2034,6 +2139,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2071,6 +2178,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2108,6 +2217,8 @@
       "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2151,6 +2262,8 @@
       "snippet_zh": "rmation. Measurement of Scope 1, 2 and 3 GHG emissions includes estimates and assumptions that are subject to substantial inherent measurement uncertainty resulting, for example...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 121",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：121",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2188,6 +2301,8 @@
       "snippet_zh": ") of the Company’s capital expenditures were aligned to projects with direct environmental sustainability drivers and approximately $1,418 million (48%) were climate-aligned cap...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：127",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2225,6 +2340,8 @@
       "snippet_zh": ") of the Company’s capital expenditures were aligned to projects with direct environmental sustainability drivers and approximately $1,418 million (48%) were climate-aligned cap...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：127",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2262,6 +2379,8 @@
       "snippet_zh": ") of the Company’s capital expenditures were aligned to projects with direct environmental sustainability drivers and approximately $1,418 million (48%) were climate-aligned cap...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：127",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2305,6 +2424,8 @@
       "snippet_zh": "derivatives facility. • We signed a solar energy purchase agreement for our Bahía Blanca, Argentina, site. The agreement will ensure that 74% of the site’s energy matrix comes f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：13",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2342,6 +2463,8 @@
       "snippet_zh": "INCREASING OUR USE OF CLEAN ENERGY AND STEAM We are committed to integrating clean energy, including both renewables and low-GHG-emissions sources, into our operations. • We con...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2379,6 +2502,8 @@
       "snippet_zh": "es the metric on renewable energy (renewable power and steam it purchases) as a percentage of energy consumed, which includes fuel purchases to run its operations and self-gener...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 132",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：132",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2416,6 +2541,8 @@
       "snippet_zh": "es the metric on renewable energy (renewable power and steam it purchases) as a percentage of energy consumed, which includes fuel purchases to run its operations and self-gener...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 132",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：132",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2459,6 +2586,8 @@
       "snippet_zh": "proach – Safer Materials. Genetically Modified Organisms RT-CH-410c.1. Percentage of products by revenue that contain genetically modified organisms (GMOs) Dow does not manufact...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 134",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：134",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2502,6 +2631,8 @@
       "snippet_zh": "of Tier 1 incidents normalized by 200,000 hours and divided by the total exposure hours of employees and contractors. As an industry leader in sustainability performance, Dow ha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 135",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：135",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2539,6 +2670,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2576,6 +2709,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2613,6 +2748,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2650,6 +2787,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2687,6 +2826,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2724,6 +2865,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2761,6 +2904,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2798,6 +2943,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2835,6 +2982,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2872,6 +3021,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2909,6 +3060,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2946,6 +3099,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2983,6 +3138,8 @@
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3020,6 +3177,8 @@
       "snippet_zh": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Milli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3057,6 +3216,8 @@
       "snippet_zh": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Milli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3094,6 +3255,8 @@
       "snippet_zh": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Milli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3131,6 +3294,8 @@
       "snippet_zh": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Milli...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3174,6 +3339,8 @@
       "snippet_zh": "as been developed using Dow Packaging & Specialty Plastics PE products; or 2) there has been an announcement or launch of a new recyclable packaging design, irrespective of Dow’...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3217,6 +3384,8 @@
       "snippet_zh": "as been developed using Dow Packaging & Specialty Plastics PE products; or 2) there has been an announcement or launch of a new recyclable packaging design, irrespective of Dow’...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3254,6 +3423,8 @@
       "snippet_zh": "ion. • We collaborated with Alex Kunststoffe to develop a more sustainable solution for flex molded foams used in office chairs. This innovative product consists of polyol with...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3297,6 +3468,8 @@
       "snippet_zh": "vernment, the MRF is expected to sort and enhance the quality of recyclable materials, with a goal of diverting more than 1,000 metric tons of plastics and other materials from ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 17",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：17",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3334,6 +3507,8 @@
       "snippet_zh": "year ended December 31, 2024, are presented in accordance with the GHG Protocol Corporate Accounting and Reporting Standard (Revised Edition) published by the World Resources In...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3371,6 +3546,8 @@
       "snippet_zh": "ng Standard (Revised Edition) using the operational control approach. In cases where asset ownership is shared, a company has operational control over the asset if they have the...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3408,6 +3585,8 @@
       "snippet_zh": "Description (Million GJ) 2024 2023 2022 Purchased Fuels1 293.75 309.85 312.59 Off-Gas From Feedstock2 252.43 255.78 257.32 Purchased Electricity – Renewable 20.26 16.80 14.95 Pu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：60",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3445,6 +3624,8 @@
       "snippet_zh": "Description (Million GJ) 2024 2023 2022 Purchased Fuels1 293.75 309.85 312.59 Off-Gas From Feedstock2 252.43 255.78 257.32 Purchased Electricity – Renewable 20.26 16.80 14.95 Pu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：60",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3488,6 +3669,8 @@
       "snippet_zh": "amples of conservation and efficiency initiatives completed in 2024. Energy savings were determined by comparing plant operating conditions before projects were implemented with...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：61",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3531,6 +3714,8 @@
       "snippet_zh": "in restoring watersheds and protecting ecosystems by exploring new opportunities and collaborating across customers, suppliers, communities and other companies. Dow’s actual wat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：63",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3574,6 +3759,8 @@
       "snippet_zh": "ted water inflows/outflows in open conveyance systems. To determine an average water consumption based on Dow’s activities, an annual estimate is conducted representing over 99....",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：66",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3611,6 +3798,8 @@
       "snippet_zh": "nfirmed where its activities pose an actual threat to endangered plant and animal species and will continue to annually assess available reporting mechanisms for future disclosu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3648,6 +3837,8 @@
       "snippet_zh": "not manufacture ozone-depleting substances. Since 2005, Dow has eliminated 99.4% of ozone-depleting emissions because of a purposeful phaseout and replacement of use in line wit...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 75",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：75",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3685,6 +3876,8 @@
       "snippet_zh": "not manufacture ozone-depleting substances. Since 2005, Dow has eliminated 99.4% of ozone-depleting emissions because of a purposeful phaseout and replacement of use in line wit...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 75",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：75",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3728,6 +3921,8 @@
       "snippet_zh": "he INtersections Report as a whole. 3 Data previously reported under the Flare waste composition is now included in the Combustion waste category. Source data is collected withi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 79",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：79",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3765,6 +3960,8 @@
       "snippet_zh": "chieving both key metrics one year ahead of schedule. • Continued to achieve top quartile safety performance in our industry, with over four years fatality free and five years f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 8",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：8",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3808,6 +4005,8 @@
       "snippet_zh": "arability, historical values were updated to reflect identified data error corrections that are immaterial to the INtersections Report as a whole. Source data is collected withi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 80",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：80",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3845,6 +4044,8 @@
       "snippet_zh": "d, and innovative solutions are developed to address complex sustainability challenges. • Dow’s suppliers comply with industry standards to eliminate issues, such as Operation C...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 82",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：82",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -3882,6 +4083,8 @@
       "snippet_zh": "other chemical companies to foster sustainable and resilient chemical supply chains. Dow’s Chief Procurement Officer is an active member of the TfS Steering Team, and Dow team m...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 82",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：82",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3925,6 +4128,8 @@
       "snippet_zh": "ing 27,492 out of 30,202 suppliers in 2024 for related industry and location risks, and risks associated with the environmental, ethics, labor and human rights, and sustainabili...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 83",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：83",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3962,6 +4167,8 @@
       "snippet_zh": "aligned and independently certified to the American Chemistry Council’s Responsible Care® Management System® (RCMS). The management system scope applies to all facilities global...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 91",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：91",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     }
@@ -4077,155 +4284,19 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r346_dow",
-      "company_name_en": "DOW",
-      "company_name_zh": "陶氏公司",
-      "world500_rank": "346",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "121",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "rmation. Measurement of Scope 1, 2 and 3 GHG emissions includes estimates and assumptions that are subject to substantial inherent measurement uncertainty resulting, for example, from the accuracy and precision of greenhouse gas emission co",
-      "snippet_zh": "rmation. Measurement of Scope 1, 2 and 3 GHG emissions includes estimates and assumptions that are subject to substantial inherent measurement uncertainty resulting, for example, from the accuracy ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r346_dow",
-      "company_name_en": "DOW",
-      "company_name_zh": "陶氏公司",
-      "world500_rank": "346",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "137",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Million GJ 293.75 309.85 312.59 Off-Gas From Feedstock3 Million GJ 2",
-      "snippet_zh": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Million GJ 293.75 309.85 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r346_dow",
-      "company_name_en": "DOW",
-      "company_name_zh": "陶氏公司",
-      "world500_rank": "346",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3.14",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "120",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting. 3.14 3.15 Relevant, calculated Investment",
-      "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [
     {
       "company_id": "r346_dow",
       "company_name_en": "DOW",
       "company_name_zh": "陶氏公司",
       "world500_rank": "346",
-      "scope3_category_code": "13",
-      "scope3_category_en": "Category 13 Downstream leased assets",
-      "scope3_category_zh": "类别13 下游租赁资产",
-      "value_text": "3",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "120",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting. 3.14 3.15 Relevant, calculated Investment",
-      "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r346_dow",
-      "company_name_en": "DOW",
-      "company_name_zh": "陶氏公司",
-      "world500_rank": "346",
-      "scope3_category_code": "14",
-      "scope3_category_en": "Category 14 Franchises",
-      "scope3_category_zh": "类别14 特许经营",
-      "value_text": "3",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "120",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting. 3.14 3.15 Relevant, calculated Investment",
-      "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r346_dow",
-      "company_name_en": "DOW",
-      "company_name_zh": "陶氏公司",
-      "world500_rank": "346",
       "scope3_category_code": "2",
       "scope3_category_en": "Category 2 Capital goods",
       "scope3_category_zh": "类别2 资本货物",
-      "value_text": "2",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "118",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category 3: Fuel & Energy Related Activities 4.22 4.49 4.42 4.75 -0.53 -",
-      "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category 3: Fuel & Energy Rel...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r346_dow",
-      "company_name_en": "DOW",
-      "company_name_zh": "陶氏公司",
-      "world500_rank": "346",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "2",
+      "value_text": "0.20",
       "unit_context": "tCO2e",
-      "value_mtco2e": 2e-06,
+      "value_mtco2e": 2e-07,
       "evidence_page": "136",
       "source_file": "DOW-2024-progress-report.pdf",
       "report_title": "DOW-2024-progress-report.pdf",
@@ -4234,8 +4305,54 @@
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
       "candidate_quality": "high",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "C",
+      "industry_section_en": "Manufacturing",
+      "industry_section_zh": "制造业",
+      "industry_comparable_company_count": 2,
+      "acceptance_tier_code": "C1",
+      "acceptance_tier_en": "C1 explicit category value with industry-comparable coverage; high-priority review",
+      "acceptance_tier_zh": "C1 类别值原文显式且具行业可比口径，高优先复核",
+      "priority_level_en": "high",
+      "priority_level_zh": "高",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
+    },
+    {
+      "company_id": "r346_dow",
+      "company_name_en": "DOW",
+      "company_name_zh": "陶氏公司",
+      "world500_rank": "346",
+      "scope3_category_code": "3",
+      "scope3_category_en": "Category 3 Fuel- and energy-related activities",
+      "scope3_category_zh": "类别3 燃料与能源相关活动",
+      "value_text": "4.22",
+      "unit_context": "tCO2e",
+      "value_mtco2e": 4.219999999999999e-06,
+      "evidence_page": "136",
+      "source_file": "DOW-2024-progress-report.pdf",
+      "report_title": "DOW-2024-progress-report.pdf",
+      "snippet_en": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel and Energy Related Activities Millions Metric Tons CO2e 4.22 4.",
+      "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel and Energy Related A...",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_14",
+      "candidate_quality": "high",
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "C",
+      "industry_section_en": "Manufacturing",
+      "industry_section_zh": "制造业",
+      "industry_comparable_company_count": 2,
+      "acceptance_tier_code": "C1",
+      "acceptance_tier_en": "C1 explicit category value with industry-comparable coverage; high-priority review",
+      "acceptance_tier_zh": "C1 类别值原文显式且具行业可比口径，高优先复核",
+      "priority_level_en": "high",
+      "priority_level_zh": "高",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     }
   ],
   "evidence_ledger": [
@@ -4252,7 +4369,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4267,7 +4386,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4282,7 +4403,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4297,7 +4420,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4312,7 +4437,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 8",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：8"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4327,7 +4454,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 12",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4342,7 +4471,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4357,7 +4488,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4372,7 +4505,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4387,7 +4522,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4402,7 +4539,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4417,7 +4556,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 17",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4432,7 +4573,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4447,7 +4590,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4462,7 +4607,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4477,7 +4624,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 60",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4492,7 +4641,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4507,7 +4658,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 63",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：63"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4522,7 +4675,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4537,7 +4692,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 74",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4552,7 +4709,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 75",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：75"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4567,7 +4726,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 75",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：75"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4582,7 +4743,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 79",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：79"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4597,7 +4760,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 80",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：80"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4612,7 +4777,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 82",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4627,7 +4794,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 82",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4642,7 +4811,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 83",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4657,7 +4828,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 91",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：91"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4672,7 +4845,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4687,7 +4862,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4702,7 +4879,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4717,7 +4896,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4732,7 +4913,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 116",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：116"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4747,7 +4930,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4762,7 +4947,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4777,7 +4964,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4792,7 +4981,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4807,7 +4998,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4822,7 +5015,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 117",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4837,7 +5032,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4852,7 +5049,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4867,7 +5066,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4882,7 +5083,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4897,7 +5100,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4912,7 +5117,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4927,7 +5134,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4942,7 +5151,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4957,7 +5168,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4972,7 +5185,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4987,7 +5202,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5002,7 +5219,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5017,7 +5236,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5032,7 +5253,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5047,7 +5270,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5062,7 +5287,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5077,7 +5304,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5092,22 +5321,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "118",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category 3: Fuel & Energy Related Activities 4.22 4.49 4.42 4.75 -0.53 -",
-      "snippet_zh": "24 / 2020 % Change 2024 / 2020 Category 1: Purchased Goods & Services2 40.04 35.65 37.42 39.85 0.19 0.48 % Category 2: Capital Goods2 0.20 0.14 0.12 0.08 0.12 150.00 % Category 3: Fuel & Energy Rel...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 118",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：118"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5122,7 +5338,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5137,7 +5355,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5152,7 +5372,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5167,7 +5389,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5182,7 +5406,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5197,7 +5423,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5212,7 +5440,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5227,7 +5457,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 119",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：119"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5242,7 +5474,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5257,7 +5491,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5272,7 +5508,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5287,7 +5525,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5302,7 +5542,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5317,7 +5559,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5332,7 +5576,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5347,7 +5593,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5362,7 +5610,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5377,7 +5627,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5392,52 +5644,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 13 Downstream leased assets",
-      "label_zh": "类别13 下游租赁资产",
-      "page": "120",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting. 3.14 3.15 Relevant, calculated Investment",
-      "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 14 Franchises",
-      "label_zh": "类别14 特许经营",
-      "page": "120",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting. 3.14 3.15 Relevant, calculated Investment",
-      "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "120",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting. 3.14 3.15 Relevant, calculated Investment",
-      "snippet_zh": "hemicals; Dow subject matter experts N/A N/A N/A Fair 3.13 Dow does not currently have any downstream leased assets or franchises, therefore these categories are not relevant for Scope 3 accounting...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 120",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5452,22 +5661,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "121",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "rmation. Measurement of Scope 1, 2 and 3 GHG emissions includes estimates and assumptions that are subject to substantial inherent measurement uncertainty resulting, for example, from the accuracy and precision of greenhouse gas emission co",
-      "snippet_zh": "rmation. Measurement of Scope 1, 2 and 3 GHG emissions includes estimates and assumptions that are subject to substantial inherent measurement uncertainty resulting, for example, from the accuracy ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 121",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：121"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5482,7 +5678,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：127"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5497,7 +5695,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：127"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5512,7 +5712,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：127"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5527,7 +5729,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 132",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：132"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5542,7 +5746,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 132",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：132"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5557,7 +5763,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 134",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：134"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5572,7 +5780,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 135",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：135"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5587,7 +5797,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5602,7 +5814,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5617,7 +5831,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5632,7 +5848,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5647,7 +5865,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5662,7 +5882,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5677,7 +5899,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5692,7 +5916,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5707,7 +5933,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5722,7 +5950,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5737,7 +5967,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5752,7 +5984,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5767,7 +6001,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136"
     },
     {
       "fact_type_en": "Scope 3 category value candidate",
@@ -5779,10 +6015,33 @@
       "report_title": "DOW-2024-progress-report.pdf",
       "snippet_en": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel and Energy Related Activities Millions Metric Tons CO2e 4.22 4.",
       "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel and Energy Related A...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
       "confidence_level": "high",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
+      "acceptance_tier_en": "C1 explicit category value with industry-comparable coverage; high-priority review",
+      "acceptance_tier_zh": "C1 类别值原文显式且具行业可比口径，高优先复核"
+    },
+    {
+      "fact_type_en": "Scope 3 category value candidate",
+      "fact_type_zh": "Scope 3 类别数值候选",
+      "label_en": "Category 3 Fuel- and energy-related activities",
+      "label_zh": "类别3 燃料与能源相关活动",
+      "page": "136",
+      "source_file": "DOW-2024-progress-report.pdf",
+      "report_title": "DOW-2024-progress-report.pdf",
+      "snippet_en": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel and Energy Related Activities Millions Metric Tons CO2e 4.22 4.",
+      "snippet_zh": ".60 77.03 Category 1: Purchased Goods & Services Millions Metric Tons CO2e 40.04 35.65 37.42 Category 2: Capital Goods Millions Metric Tons CO2e 0.20 0.14 0.12 Category 3: Fuel and Energy Related A...",
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "confidence_level": "high",
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 136",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：136",
+      "acceptance_tier_en": "C1 explicit category value with industry-comparable coverage; high-priority review",
+      "acceptance_tier_zh": "C1 类别值原文显式且具行业可比口径，高优先复核"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5797,7 +6056,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5812,7 +6073,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5827,7 +6090,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5842,22 +6107,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "137",
-      "source_file": "DOW-2024-progress-report.pdf",
-      "report_title": "DOW-2024-progress-report.pdf",
-      "snippet_en": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Million GJ 293.75 309.85 312.59 Off-Gas From Feedstock3 Million GJ 2",
-      "snippet_zh": "2023 2022 Energy Intensity (Scope 1+2) Gigajoules (GJ)/Metric Ton of Production 10.98 11.65 11.43 Total Energy Consumption Million GJ 544.01 558.98 564.49 Purchased Fuels2 Million GJ 293.75 309.85 ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: DOW-2024-progress-report.pdf | File: DOW-2024-progress-report.pdf | Page: 137",
+      "evidence_locator_zh": "报告：DOW-2024-progress-report.pdf | 文件：DOW-2024-progress-report.pdf | 页码：137"
     }
   ]
 }

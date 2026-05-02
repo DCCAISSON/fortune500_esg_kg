@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet, but source-text candidates are present for review and backfill.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，但已有原文候选值可进入复核与回填。",
   "report_count": 1,
   "report_titles": [
     "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 53,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 3,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 2,
   "standard_systems_zh": [
     "ESG 披露框架",
@@ -115,6 +120,8 @@
       "snippet_zh": "dard 68 SASB Asset Management and Custody 70 Activities Standard Memberships 9 Our Governance 10 Decarbonization Solutions 21 Sustainable Solutions 23 Sustai...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -137,6 +144,8 @@
       "snippet_zh": "dard 68 SASB Asset Management and Custody 70 Activities Standard Memberships 9 Our Governance 10 Decarbonization Solutions 21 Sustainable Solutions 23 Sustai...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -159,6 +168,8 @@
       "snippet_zh": "dard 68 SASB Asset Management and Custody 70 Activities Standard Memberships 9 Our Governance 10 Decarbonization Solutions 21 Sustainable Solutions 23 Sustai...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -181,6 +192,8 @@
       "snippet_zh": "ore additional operational emissions 8 AIG's 100% renewable energy commitment applies to scope 2 emissions from electricity usage for facilities controlled o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 32",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：32",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引；原文命中关键词：市场法"
     },
@@ -203,6 +216,8 @@
       "snippet_zh": "024, we saw a reduction in travel of 26% from prior year. Operational GHG emissions We measure our scope 1, scope 2 and eight categories of scope 3 GHG emiss...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -225,6 +240,8 @@
       "snippet_zh": "gical challenges faced by property and casualty insurers. Stewardship Engagement Integration 15 Emissions intensity = Absolute emissions divided by a monetar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 35",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：35",
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准"
     }
@@ -270,6 +287,8 @@
       "snippet_zh": "to control heating, ventilation, air conditioning and other equipment • Transition to more fuel-efficient fleet models • Switch to hybrid and electric vehicles where feasible Pr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -313,6 +332,8 @@
       "snippet_zh": "to control heating, ventilation, air conditioning and other equipment • Transition to more fuel-efficient fleet models • Switch to hybrid and electric vehicles where feasible Pr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -350,6 +371,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -387,6 +410,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -424,6 +449,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -461,6 +488,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -498,6 +527,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -535,6 +566,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -572,6 +605,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -609,6 +644,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -646,6 +683,8 @@
       "snippet_zh": "nting more energy- efficient measures at our sites and across our fleets AIG continuously seeks to optimize our operational asset portfolios in line with our broader strategic i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -683,6 +722,8 @@
       "snippet_zh": "ferred suppliers and booking economy class is highly encouraged, through our designated online booking tool and Corporate Card Program. Due to these changes in 2024, we saw a re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -726,6 +767,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -769,6 +812,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -812,6 +857,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -855,6 +902,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -898,6 +947,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -935,6 +986,8 @@
       "snippet_zh": "ferred suppliers and booking economy class is highly encouraged, through our designated online booking tool and Corporate Card Program. Due to these changes in 2024, we saw a re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -978,6 +1031,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1021,6 +1076,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1064,6 +1121,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1107,6 +1166,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1150,6 +1211,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1187,6 +1250,8 @@
       "snippet_zh": "ferred suppliers and booking economy class is highly encouraged, through our designated online booking tool and Corporate Card Program. Due to these changes in 2024, we saw a re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1230,6 +1295,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1273,6 +1340,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1316,6 +1385,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1359,6 +1430,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1402,6 +1475,8 @@
       "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1445,6 +1520,8 @@
       "snippet_zh": "including from third parties. In certain instances where actual data is not reasonably available, we rely on estimates by considering internationally accepted and recognized met...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1488,6 +1565,8 @@
       "snippet_zh": "and changes in data availability could result in materially different measurements. The precision of different measurement techniques may also vary. GHG emission calculations in...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法"
     },
@@ -1531,6 +1610,8 @@
       "snippet_zh": "and changes in data availability could result in materially different measurements. The precision of different measurement techniques may also vary. GHG emission calculations in...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法"
     },
@@ -1574,6 +1655,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1617,6 +1700,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1660,6 +1745,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1703,6 +1790,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1746,6 +1835,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1789,6 +1880,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1832,6 +1925,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1875,6 +1970,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1918,6 +2015,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1961,6 +2060,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2004,6 +2105,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2047,6 +2150,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2090,6 +2195,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2133,6 +2240,8 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2176,6 +2285,8 @@
       "snippet_zh": "mitting sectors. Financed emissions We follow the prescribed PCAF methodology in estimating financed emissions from our corporate and government bonds portfolios. See Tables 5 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2219,6 +2330,8 @@
       "snippet_zh": "mitting sectors. Financed emissions We follow the prescribed PCAF methodology in estimating financed emissions from our corporate and government bonds portfolios. See Tables 5 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2262,6 +2375,8 @@
       "snippet_zh": "mitting sectors. Financed emissions We follow the prescribed PCAF methodology in estimating financed emissions from our corporate and government bonds portfolios. See Tables 5 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2305,6 +2420,8 @@
       "snippet_zh": "mitting sectors. Financed emissions We follow the prescribed PCAF methodology in estimating financed emissions from our corporate and government bonds portfolios. See Tables 5 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2348,6 +2465,8 @@
       "snippet_zh": "mitting sectors. Financed emissions We follow the prescribed PCAF methodology in estimating financed emissions from our corporate and government bonds portfolios. See Tables 5 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2391,6 +2510,8 @@
       "snippet_zh": "mitting sectors. Financed emissions We follow the prescribed PCAF methodology in estimating financed emissions from our corporate and government bonds portfolios. See Tables 5 a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2434,6 +2555,8 @@
       "snippet_zh": "For example, in 2024 the AIG Japan Global Sourcing & Procurement Services team recommended the Shinkansen bullet trains rather than air travel as the preferred mode of transport...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -2521,77 +2644,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r324_americaninternationalgroup",
-      "company_name_en": "AMERICAN INTERNATIONAL GROUP",
-      "company_name_zh": "美国国际集团",
-      "world500_rank": "324",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Location-based",
-      "basis_zh": "位置法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "33",
-      "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "snippet_en": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the following sources: • Scope 1 emissions: dir",
-      "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r324_americaninternationalgroup",
-      "company_name_en": "AMERICAN INTERNATIONAL GROUP",
-      "company_name_zh": "美国国际集团",
-      "world500_rank": "324",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "Location-based",
-      "basis_zh": "位置法",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "33",
-      "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "snippet_en": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the following sources: • Scope 1 emissions: dir",
-      "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r324_americaninternationalgroup",
-      "company_name_en": "AMERICAN INTERNATIONAL GROUP",
-      "company_name_zh": "美国国际集团",
-      "world500_rank": "324",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "1",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "34",
-      "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "snippet_en": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and energy-related activities (MTCO2e) 9,076 9",
-      "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [
     {
       "company_id": "r324_americaninternationalgroup",
@@ -2601,9 +2654,9 @@
       "scope3_category_code": "1",
       "scope3_category_en": "Category 1 Purchased goods and services",
       "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "2",
-      "unit_context": "",
-      "value_mtco2e": NaN,
+      "value_text": "13 188,795 206,484 151,306",
+      "unit_context": "MtCO2e",
+      "value_mtco2e": 1.3188795206484152e+19,
       "evidence_page": "34",
       "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
       "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
@@ -2611,9 +2664,21 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
+      "candidate_quality": "high",
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "J",
+      "industry_section_en": "Finance",
+      "industry_section_zh": "金融业",
+      "industry_comparable_company_count": 1,
+      "acceptance_tier_code": "C2",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "company_id": "r324_americaninternationalgroup",
@@ -2623,9 +2688,9 @@
       "scope3_category_code": "2",
       "scope3_category_en": "Category 2 Capital goods",
       "scope3_category_zh": "类别2 资本货物",
-      "value_text": "2",
-      "unit_context": "",
-      "value_mtco2e": NaN,
+      "value_text": "13 188,795 206,484 151,306",
+      "unit_context": "MtCO2e",
+      "value_mtco2e": 1.3188795206484152e+19,
       "evidence_page": "34",
       "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
       "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
@@ -2633,9 +2698,21 @@
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
+      "candidate_quality": "high",
+      "extraction_rule_en": "Scope 3 category row anchoring with header-bound unit",
+      "extraction_rule_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "source_layer": "candidate_scope3_numeric",
+      "industry_section_code": "J",
+      "industry_section_en": "Finance",
+      "industry_section_zh": "金融业",
+      "industry_comparable_company_count": 1,
+      "acceptance_tier_code": "C2",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     }
   ],
   "evidence_ledger": [
@@ -2652,7 +2729,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2667,7 +2746,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2682,7 +2763,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2697,7 +2780,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2712,7 +2797,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2727,7 +2814,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2742,7 +2831,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2757,7 +2848,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2772,7 +2865,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2787,7 +2882,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2802,7 +2899,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2817,7 +2916,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2832,7 +2933,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2847,7 +2950,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：31"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2862,7 +2967,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 32",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2877,7 +2984,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2892,7 +3001,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2907,7 +3018,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2922,7 +3035,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2937,7 +3052,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2952,7 +3069,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2967,7 +3086,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2982,7 +3103,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2997,7 +3120,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3012,7 +3137,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3027,7 +3154,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3042,7 +3171,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3057,7 +3188,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3072,7 +3205,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3087,7 +3222,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3102,7 +3239,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3117,7 +3256,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3132,37 +3273,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Location-based",
-      "label_zh": "范围1 位置法",
-      "page": "33",
-      "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "snippet_en": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the following sources: • Scope 1 emissions: dir",
-      "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2 Location-based",
-      "label_zh": "范围2 位置法",
-      "page": "33",
-      "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "snippet_en": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the following sources: • Scope 1 emissions: dir",
-      "snippet_zh": "Business Council for Sustainable Development. We use operational control to define reporting boundaries for owned and leased assets across scope 1, scope 2 and scope 3 emissions, which include the ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3177,7 +3290,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 33",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3192,7 +3307,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3207,7 +3324,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3222,7 +3341,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3237,7 +3358,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3252,7 +3375,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3267,7 +3392,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3282,7 +3409,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3297,7 +3426,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3312,7 +3443,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3327,7 +3460,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3342,7 +3477,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3357,7 +3494,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3372,7 +3511,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3387,7 +3528,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3402,7 +3545,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3417,7 +3562,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3432,7 +3579,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34"
     },
     {
       "fact_type_en": "Scope 3 category value candidate",
@@ -3444,10 +3593,14 @@
       "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
       "snippet_en": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and energy-related activities (MTCO2e) 9,076 9",
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_08"
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "confidence_level": "high",
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核"
     },
     {
       "fact_type_en": "Scope 3 category value candidate",
@@ -3459,25 +3612,14 @@
       "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
       "snippet_en": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and energy-related activities (MTCO2e) 9,076 9",
       "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3 Market-based",
-      "label_zh": "范围3 市场法",
-      "page": "34",
-      "source_file": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "report_title": "AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf",
-      "snippet_en": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and energy-related activities (MTCO2e) 9,076 9",
-      "snippet_zh": "pe 1 and 2 (market-based) (MTCO2e per FTE)12 1.3 1.3 1.5 Scope 3 Emissions Cat. 1 - Purchased goods and services (MTCO2e) Cat. 2 - Capital goods (MTCO2e)13 188,795 206,484 151,306 Cat. 3 - Fuel and...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "recognition_basis_en": "Scope 3 category row anchoring with header-bound unit",
+      "recognition_basis_zh": "Scope 3 类别行锚定，并绑定表头单位",
+      "confidence_level": "high",
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 34",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：34",
+      "acceptance_tier_en": "C2 explicit category value candidate; review required",
+      "acceptance_tier_zh": "C2 类别值原文显式，需复核"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3492,7 +3634,9 @@
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 35",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：35"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3507,7 +3651,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3522,7 +3668,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3537,7 +3685,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3552,7 +3702,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3567,7 +3719,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3582,7 +3736,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 40",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3597,7 +3753,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | File: AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | Page: 60",
+      "evidence_locator_zh": "报告：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 文件：AMERICAN INTERNATIONAL GROUP-aig-sustainability-report-2024.pdf | 页码：60"
     }
   ]
 }

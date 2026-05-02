@@ -8,6 +8,11 @@
   "industry_section_zh": "文化、体育和娱乐业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "2024-Netflix-Environmental-Social-Governance-Report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 51,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -109,6 +114,8 @@
       "snippet_zh": "OUR APPROACH Our Environmental, Social and Governance (ESG) framework is informed by relevant reporting frameworks – including the Sustainability Accounting ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -131,6 +138,8 @@
       "snippet_zh": "OUR APPROACH Our Environmental, Social and Governance (ESG) framework is informed by relevant reporting frameworks – including the Sustainability Accounting ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -153,6 +162,8 @@
       "snippet_zh": "OUR APPROACH Our Environmental, Social and Governance (ESG) framework is informed by relevant reporting frameworks – including the Sustainability Accounting ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -175,6 +186,8 @@
       "snippet_zh": "isplacing emissions from one location to another) These criteria align with the 2024 Core Carbon Principles (CCPs) defined by the Integrity Council for the V...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准"
     },
@@ -197,6 +210,8 @@
       "snippet_zh": "ich are reported in our public financial statements. We achieve these targets through measuring, reducing and matching our emissions: Measuring Our Emissions...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -219,6 +234,8 @@
       "snippet_zh": "tes (SAFc) in our Scopes 1 and 3 emissions. Refer to the appendix for further details. Scope 1 51,487 30,883 62,815 59,388 25,790 49,647 Scope 2 26,317 29,35...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     }
@@ -258,6 +275,8 @@
       "snippet_zh": "Sustainability in our Operations and Value Chain Our Value Chain Tracking progress against our Science-Based Target for Scope 3 emissions Our Scope 3 science-based target is to ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -301,6 +320,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -344,6 +365,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -387,6 +410,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -430,6 +455,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -473,6 +500,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -516,6 +545,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -559,6 +590,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -602,6 +635,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -645,6 +680,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -688,6 +725,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -731,6 +770,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -774,6 +815,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -817,6 +860,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -860,6 +905,8 @@
       "snippet_zh": "tracting “Cost of Revenues” from “Revenues”, both of which are reported in our public financial statements. 16 Scope 3 Categories as defined by the Greenhouse Gas Protocol. 69.8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -897,6 +944,8 @@
       "snippet_zh": "Sustainability in our Operations and Value Chain Our Value Chain Reducing Scope 3 Emissions While addressing Scope 3 emissions requires collaboration and systemic change, our ne...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：14",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -934,6 +983,8 @@
       "snippet_zh": "Matching Remaining Emissions In parallel with our operational decarbonization efforts, each year we match our remaining emissions (across all three Scopes) to help meet our clim...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 15",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：15",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -971,6 +1022,8 @@
       "snippet_zh": "Matching Remaining Emissions In parallel with our operational decarbonization efforts, each year we match our remaining emissions (across all three Scopes) to help meet our clim...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 15",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：15",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1014,6 +1067,8 @@
       "snippet_zh": "MR. PLANKTON SOCIAL Our business is to entertain the world, which includes an estimated audience of over 700 million people across different countries, cultures, languages and t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 19",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：19",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1057,6 +1112,8 @@
       "snippet_zh": "movies, help us on our journey to build the most loved and valued entertainment company for our members, creators and shareholders. About Netflix founded in 1997 public in 2002 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：3",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1100,6 +1157,8 @@
       "snippet_zh": "enues”, both of which are reported in our public financial statements. Environment DATA POINT 2019 2020 2021 2022 2023 2024 Purchased Grid Electricity (MWh) 81,136 94,285 156,55...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1143,6 +1202,8 @@
       "snippet_zh": "enues”, both of which are reported in our public financial statements. Environment DATA POINT 2019 2020 2021 2022 2023 2024 Purchased Grid Electricity (MWh) 81,136 94,285 156,55...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1180,6 +1241,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1217,6 +1280,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1254,6 +1319,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1291,6 +1358,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1328,6 +1397,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1365,6 +1436,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1402,6 +1475,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1439,6 +1514,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1476,6 +1553,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1513,6 +1592,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1550,6 +1631,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1587,6 +1670,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1624,6 +1709,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1661,6 +1748,8 @@
       "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1704,6 +1793,8 @@
       "snippet_zh": "Environment DATA POINT 2019 2020 2021 2022 2023 2024 Scope 3 Emissions, Location-Based (Metrics Tons CO2e) 1,234,936 1,067,778 1,471,243 1,110,989 840,778 1,037,952 Scope 3 emis...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 37",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：37",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
@@ -1747,6 +1838,8 @@
       "snippet_zh": "oach set out by the GHGP. Our reported emissions account for all GHGs covered by the UNFCCC Kyoto Protocol (Annex A) relevant to Netflix activities and are converted into metric...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1790,6 +1883,8 @@
       "snippet_zh": "it does not account for the reductions of emissions stemming from electricity usage that is covered by retail purchases of RECs and their geographical equivalents. Our Footprint...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1833,6 +1928,8 @@
       "snippet_zh": "r direct investments). However, it does not account for the reductions of emissions stemming from electricity usage that is covered by retail purchases of RECs and their geograp...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1876,6 +1973,8 @@
       "snippet_zh": "r direct investments). However, it does not account for the reductions of emissions stemming from electricity usage that is covered by retail purchases of RECs and their geograp...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1919,6 +2018,8 @@
       "snippet_zh": "it does not account for the reductions of emissions stemming from electricity usage that is covered by retail purchases of RECs and their geographical equivalents. Our Footprint...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1962,6 +2063,8 @@
       "snippet_zh": "r direct investments). However, it does not account for the reductions of emissions stemming from electricity usage that is covered by retail purchases of RECs and their geograp...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2005,6 +2108,8 @@
       "snippet_zh": "r direct investments). However, it does not account for the reductions of emissions stemming from electricity usage that is covered by retail purchases of RECs and their geograp...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2048,6 +2153,8 @@
       "snippet_zh": "o a clean economy. These targets are measured in years, not decades. Our Climate Targets We continue to make progress against our targets: 1 Reduce our emissions by roughly half...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5",
       "recognition_basis_en": "Structured assurance tag: Verification; Matched keywords: Measured data",
       "recognition_basis_zh": "结构化核查环节：核查；原文命中关键词：实测数据"
     },
@@ -2091,6 +2198,8 @@
       "snippet_zh": "o a clean economy. These targets are measured in years, not decades. Our Climate Targets We continue to make progress against our targets: 1 Reduce our emissions by roughly half...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5",
       "recognition_basis_en": "Structured assurance tag: Verification; Matched keywords: Measured data",
       "recognition_basis_zh": "结构化核查环节：核查；原文命中关键词：实测数据"
     },
@@ -2128,6 +2237,8 @@
       "snippet_zh": "Target SBTi- Validated 46% Absolute Reduction in Scopes 1 and 2 Emissions (from a 2019 baseline) Terminology Our “Sphere of Control” Absolute Reduction Goal Value Chain Demand S...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5",
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定"
     },
@@ -2171,6 +2282,8 @@
       "snippet_zh": "rbon footprint by collecting, validating, and calculating data from across the business. These annual emissions totals inform our strategy and serve as a measure of progress aga...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -2214,6 +2327,8 @@
       "snippet_zh": "BASED (Metric Tons CO2e) Market-based reporting reflects emissions from the specific electricity Netflix purchases. It takes into account direct energy contracts with suppliers ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2257,6 +2372,8 @@
       "snippet_zh": "BASED (Metric Tons CO2e) Market-based reporting reflects emissions from the specific electricity Netflix purchases. It takes into account direct energy contracts with suppliers ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2300,6 +2417,8 @@
       "snippet_zh": "BASED (Metric Tons CO2e) Market-based reporting reflects emissions from the specific electricity Netflix purchases. It takes into account direct energy contracts with suppliers ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     }
@@ -2383,55 +2502,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r468_netflix公司",
-      "company_name_en": "Netflix公司",
-      "company_name_zh": "Netflix公司",
-      "world500_rank": "468",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "13",
-      "source_file": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "report_title": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "snippet_en": "Sustainability in our Operations and Value Chain Our Value Chain Tracking progress against our Science-Based Target for Scope 3 emissions Our Scope 3 science-based target is to reduce emissions intensity by 55% per USD of value added15 by 2",
-      "snippet_zh": "Sustainability in our Operations and Value Chain Our Value Chain Tracking progress against our Science-Based Target for Scope 3 emissions Our Scope 3 science-based target is to reduce emissions int...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r468_netflix公司",
-      "company_name_en": "Netflix公司",
-      "company_name_zh": "Netflix公司",
-      "world500_rank": "468",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "64,229",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "36",
-      "source_file": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "report_title": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "snippet_en": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64,229 58,048 92,339 Category 3: Upstream Energy Losses — — — — —",
-      "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64,229 58,048 92,339 C...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -2446,7 +2518,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2461,7 +2535,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2476,7 +2552,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2491,7 +2569,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 3",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：3"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2506,7 +2586,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification; Matched keywords: Measured data",
       "recognition_basis_zh": "结构化核查环节：核查；原文命中关键词：实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2521,7 +2603,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification; Matched keywords: Measured data",
       "recognition_basis_zh": "结构化核查环节：核查；原文命中关键词：实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2536,7 +2620,9 @@
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2551,7 +2637,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 5",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2566,7 +2654,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2581,7 +2671,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2596,7 +2688,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2611,7 +2705,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2626,7 +2722,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 6",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2641,7 +2739,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2656,7 +2756,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2671,7 +2773,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2686,7 +2790,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2701,7 +2807,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2716,7 +2824,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2731,7 +2841,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2746,7 +2858,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2761,7 +2875,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2776,7 +2892,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2791,7 +2909,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2806,7 +2926,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2821,7 +2943,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2836,7 +2960,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2851,22 +2977,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "13",
-      "source_file": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "report_title": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "snippet_en": "Sustainability in our Operations and Value Chain Our Value Chain Tracking progress against our Science-Based Target for Scope 3 emissions Our Scope 3 science-based target is to reduce emissions intensity by 55% per USD of value added15 by 2",
-      "snippet_zh": "Sustainability in our Operations and Value Chain Our Value Chain Tracking progress against our Science-Based Target for Scope 3 emissions Our Scope 3 science-based target is to reduce emissions int...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 13",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2881,7 +2994,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 14",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2896,7 +3011,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 15",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：15"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2911,7 +3028,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 15",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：15"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2926,7 +3045,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 19",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：19"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2941,7 +3062,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2956,7 +3079,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2971,7 +3096,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2986,7 +3113,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3001,7 +3130,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3016,7 +3147,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3031,7 +3164,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3046,7 +3181,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3061,7 +3198,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3076,7 +3215,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3091,7 +3232,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3106,7 +3249,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3121,7 +3266,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3136,7 +3283,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3151,7 +3300,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3166,22 +3317,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "36",
-      "source_file": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "report_title": "2024-Netflix-Environmental-Social-Governance-Report.pdf",
-      "snippet_en": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64,229 58,048 92,339 Category 3: Upstream Energy Losses — — — — —",
-      "snippet_zh": "etrics Tons CO2e) 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 Category 1: Purchased Goods & Services — — — 841,060 618,537 689,044 Category 2: Capital Goods — — — 64,229 58,048 92,339 C...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3196,7 +3334,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 37",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3211,7 +3351,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3226,7 +3368,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3241,7 +3385,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3256,7 +3402,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3271,7 +3419,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3286,7 +3436,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3301,7 +3453,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3316,7 +3470,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: 2024-Netflix-Environmental-Social-Governance-Report.pdf | File: 2024-Netflix-Environmental-Social-Governance-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：2024-Netflix-Environmental-Social-Governance-Report.pdf | 文件：2024-Netflix-Environmental-Social-Governance-Report.pdf | 页码：44"
     }
   ]
 }

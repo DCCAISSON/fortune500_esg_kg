@@ -8,6 +8,11 @@
   "industry_section_zh": "批发和零售业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "美团2024 corporate social responsibility report.pdf"
@@ -75,6 +80,8 @@
       "snippet_zh": "This report was prepared with reference to the Chinese national standard Guidelines for Preparing Social Responsibility Reports (GB/T 36001-2015).",
       "confidence_level": "high",
       "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 美团2024 corporate social responsibility report.pdf | File: 美团2024 corporate social responsibility report.pdf | Page: 35",
+      "evidence_locator_zh": "报告：美团2024 corporate social responsibility report.pdf | 文件：美团2024 corporate social responsibility report.pdf | 页码：35",
       "recognition_basis_en": "Structured standard tag: GB/T 36001-2015; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：社会责任报告编写指南(GB/T 36001-2015)；标准角色：披露指引"
     }
@@ -114,6 +121,8 @@
       "snippet_zh": "rates with law enforcement authorities to curb various illegal activities, such as mis- matched licenses. It has implemented five measures to build a food safety defense line: e...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: 美团2024 corporate social responsibility report.pdf | File: 美团2024 corporate social responsibility report.pdf | Page: 21",
+      "evidence_locator_zh": "报告：美团2024 corporate social responsibility report.pdf | 文件：美团2024 corporate social responsibility report.pdf | 页码：21",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -157,6 +166,8 @@
       "snippet_zh": "fline food and tourism promotion events, it creates a “culture + tourism + food” consumption model, continuously stimulating the vitality of rural cultural and tourism developme...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: 美团2024 corporate social responsibility report.pdf | File: 美团2024 corporate social responsibility report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：美团2024 corporate social responsibility report.pdf | 文件：美团2024 corporate social responsibility report.pdf | 页码：30",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     }
@@ -192,7 +203,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: 美团2024 corporate social responsibility report.pdf | File: 美团2024 corporate social responsibility report.pdf | Page: 21",
+      "evidence_locator_zh": "报告：美团2024 corporate social responsibility report.pdf | 文件：美团2024 corporate social responsibility report.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -207,7 +220,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: 美团2024 corporate social responsibility report.pdf | File: 美团2024 corporate social responsibility report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：美团2024 corporate social responsibility report.pdf | 文件：美团2024 corporate social responsibility report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Standard reference",
@@ -222,7 +237,9 @@
       "recognition_basis_en": "Structured standard tag: GB/T 36001-2015; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：社会责任报告编写指南(GB/T 36001-2015)；标准角色：披露指引",
       "confidence_level": "high",
-      "review_status": "manual_axis_backfill"
+      "review_status": "manual_axis_backfill",
+      "evidence_locator_en": "Report: 美团2024 corporate social responsibility report.pdf | File: 美团2024 corporate social responsibility report.pdf | Page: 35",
+      "evidence_locator_zh": "报告：美团2024 corporate social responsibility report.pdf | 文件：美团2024 corporate social responsibility report.pdf | 页码：35"
     }
   ]
 }

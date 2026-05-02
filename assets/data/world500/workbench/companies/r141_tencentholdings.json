@@ -8,6 +8,11 @@
   "industry_section_zh": "批发和零售业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "腾讯年度ESG报告2024.pdf"
@@ -77,6 +82,8 @@
       "snippet_zh": "置量（吨）13 33,097.8 46,536.4 33,062.4 每收入单位的无害废弃物处置量（千克/百万人民币）13 50.1 76.4 59.6 有害废弃物处置量（吨）14 3,105.8 1,321.7 1,051.0 每收入单位的有害废弃物处置量（千克/百万人民币）14 4.7 2.2 1.9 注： ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 100",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：100",
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准"
     },
@@ -99,6 +106,8 @@
       "snippet_zh": "107 1. 保护环境 企业管治 2. 关心员工成长 ESG管治 3. 保障数字权益 6. 商业道德 导言 4. 数字包容 5. 数字技术助力可持续发展目标 附录 温室气体核查声明 声明编码CN25/00001936 温室气体核查声明 以下组织的2024 年01 月01 日至2024 年12 月31 日温室气体盘...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：108",
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准"
     },
@@ -121,6 +130,8 @@
       "snippet_zh": "的关键议题，包括：国际财务报告可持续披露 准则(International Financial Reporting Standards, IFRS)第1号以及第2号、气候相关财务披露建议(Task Force on Climate-Related Financial Disclosures, TCFD)、自然相关...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：14",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -143,6 +154,8 @@
       "snippet_zh": "的关键议题，包括：国际财务报告可持续披露 准则(International Financial Reporting Standards, IFRS)第1号以及第2号、气候相关财务披露建议(Task Force on Climate-Related Financial Disclosures, TCFD)、自然相关...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：14",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -165,6 +178,8 @@
       "snippet_zh": "的关键议题，包括：国际财务报告可持续披露 准则(International Financial Reporting Standards, IFRS)第1号以及第2号、气候相关财务披露建议(Task Force on Climate-Related Financial Disclosures, TCFD)、自然相关...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：14",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -187,6 +202,8 @@
       "snippet_zh": "一致，以促进更加生态友好的环境。 我们建立了明确的环境保护责任和报告机制，制定并实施 了《腾讯环境管理制度》 等政策。ESG 工作组负责统筹 及管理整体环境事务，每年向企业管治委员会汇报两次。 企业管治委员会通过汇报内容了解气候与自然相关趋势和 合规要求变化，支持他们履行气候和自然战略的治理责 任。 我们应用《国...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：16",
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准"
     },
@@ -209,6 +226,8 @@
       "snippet_zh": "进展 • 气候变化与碳中和 • 自然与生物多样性保护 16 1. 保护环境 企业管治 2. 关心员工成长 ESG管治 3. 保障数字权益 6. 商业道德 导言 4. 数字包容 5. 数字技术助力可持续发展目标 附录 气候 自然 \u0007消耗1,416,661.8兆瓦时可再生能 源，相较2023年增长123.9%， 减少...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：17",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     }
@@ -232,7 +251,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：14"
     },
     {
       "fact_type_en": "Standard reference",
@@ -247,7 +268,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：14"
     },
     {
       "fact_type_en": "Standard reference",
@@ -262,7 +285,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：14"
     },
     {
       "fact_type_en": "Standard reference",
@@ -277,7 +302,9 @@
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Standard reference",
@@ -292,7 +319,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Standard reference",
@@ -307,7 +336,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 100",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：100"
     },
     {
       "fact_type_en": "Standard reference",
@@ -322,7 +353,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: 腾讯年度ESG报告2024.pdf | File: 腾讯年度ESG报告2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：腾讯年度ESG报告2024.pdf | 文件：腾讯年度ESG报告2024.pdf | 页码：108"
     }
   ]
 }

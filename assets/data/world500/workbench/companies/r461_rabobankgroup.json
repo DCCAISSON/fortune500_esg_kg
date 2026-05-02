@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "rabobank_impact_report_2024.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 23,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "GHG 体系"
@@ -93,6 +98,8 @@
       "snippet_zh": "ithin our own operations. • Helping customers to reduce their emissions. • Growing our renewable energy portfolio. We set targets for the most material secto...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：11",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -115,6 +122,8 @@
       "snippet_zh": "ur sustainability efforts and achievements over 2024. Annual Report This Impact Report was published together with our Annual Report 2024. In that report, we...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     },
@@ -137,6 +146,8 @@
       "snippet_zh": "At Rabobank, we use the PCAF (Partnership for Carbon Accounting Financials) standard for accounting and disclosing financed emissions. Benchmarks (Sector, na...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -159,6 +170,8 @@
       "snippet_zh": "ects. Concurrently, we will intensify our efforts to reduce our own operational emissions, striving for greater efficiency and lower carbon footprints. We re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：47",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -204,6 +217,8 @@
       "snippet_zh": "or 98% of the relevant (73% of our total assets) on-balance sheet assets. We see that customer-reported data is growing significantly with almost 65% of our wholesale portfolio ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -241,6 +256,8 @@
       "snippet_zh": "addition to disclosing the greenhouse gas (GHG) emissions of our own operational activities, each year (in our Impact Report and since last year in our Annual Report as well) we...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -278,6 +295,8 @@
       "snippet_zh": "addition to disclosing the greenhouse gas (GHG) emissions of our own operational activities, each year (in our Impact Report and since last year in our Annual Report as well) we...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -315,6 +334,8 @@
       "snippet_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -352,6 +373,8 @@
       "snippet_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -389,6 +412,8 @@
       "snippet_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -432,6 +457,8 @@
       "snippet_zh": "About this Report Contents Foreword Rabobank at a Glance Our Bank Better Bank Better World Appendices Disclaimer Impact Report 2024 - Better World 43 Financed Emissions 2023 In ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -475,6 +502,8 @@
       "snippet_zh": "About this Report Contents Foreword Rabobank at a Glance Our Bank Better Bank Better World Appendices Disclaimer Impact Report 2024 - Better World 43 Financed Emissions 2023 In ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -518,6 +547,8 @@
       "snippet_zh": "About this Report Contents Foreword Rabobank at a Glance Our Bank Better Bank Better World Appendices Disclaimer Impact Report 2024 - Better World 43 Financed Emissions 2023 In ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -561,6 +592,8 @@
       "snippet_zh": "About this Report Contents Foreword Rabobank at a Glance Our Bank Better Bank Better World Appendices Disclaimer Impact Report 2024 - Better World 43 Financed Emissions 2023 In ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -607,6 +640,8 @@
       "snippet_zh": "the values in the SBTi FLAG pathways are derived in a methodologically different way (the FLAG sector-region default value comes from a top-down model, our portfolio intensity v...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 44",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：44",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Primary data / Derived data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：初级数据 / 推导数据"
     },
@@ -650,6 +685,8 @@
       "snippet_zh": "ogress indicator. This figure, based on our 2023 portfolio as a reference, represents on a like-for-like basis (i.e. no portfolio growth) our current “best guess” of where we wi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -696,6 +733,8 @@
       "snippet_zh": "Based on the data available to us, our models estimate that the progress indicator of our 2030 financed emissions for our total like-for-like on-balance sheet lending portfolio ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -742,6 +781,8 @@
       "snippet_zh": "Based on the data available to us, our models estimate that the progress indicator of our 2030 financed emissions for our total like-for-like on-balance sheet lending portfolio ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -788,6 +829,8 @@
       "snippet_zh": "Based on the data available to us, our models estimate that the progress indicator of our 2030 financed emissions for our total like-for-like on-balance sheet lending portfolio ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -834,6 +877,8 @@
       "snippet_zh": "Based on the data available to us, our models estimate that the progress indicator of our 2030 financed emissions for our total like-for-like on-balance sheet lending portfolio ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -880,6 +925,8 @@
       "snippet_zh": "Based on the data available to us, our models estimate that the progress indicator of our 2030 financed emissions for our total like-for-like on-balance sheet lending portfolio ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -926,6 +973,8 @@
       "snippet_zh": "Based on the data available to us, our models estimate that the progress indicator of our 2030 financed emissions for our total like-for-like on-balance sheet lending portfolio ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -972,6 +1021,8 @@
       "snippet_zh": "information and data we have at hand. Where possible, we have used client-reported GHG emissions. PCAF's data quality scores (score 1-5) are used to qualify the level of precisi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -1018,6 +1069,8 @@
       "snippet_zh": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • Accord...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法"
     },
@@ -1064,6 +1117,8 @@
       "snippet_zh": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • Accord...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法"
     },
@@ -1110,6 +1165,8 @@
       "snippet_zh": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • Accord...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法"
     },
@@ -1156,6 +1213,8 @@
       "snippet_zh": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • Accord...",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法"
     }
@@ -1245,55 +1304,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r461_rabobankgroup",
-      "company_name_en": "RABOBANK GROUP",
-      "company_name_zh": "荷兰合作银行集团",
-      "world500_rank": "461",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "13",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "42",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
-      "snippet_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions F...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r461_rabobankgroup",
-      "company_name_en": "RABOBANK GROUP",
-      "company_name_zh": "荷兰合作银行集团",
-      "world500_rank": "461",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "3",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "42",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
-      "snippet_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions F...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -1308,7 +1320,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1323,7 +1337,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1338,7 +1354,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1353,7 +1371,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1368,7 +1388,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1383,7 +1405,9 @@
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1398,7 +1422,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1413,7 +1439,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1428,37 +1456,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "42",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
-      "snippet_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions F...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_10"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "42",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
-      "snippet_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions F...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1473,7 +1473,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1488,7 +1490,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1503,7 +1507,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1518,7 +1524,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1533,7 +1541,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Primary data / Derived data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：初级数据 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 44",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1548,7 +1558,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1563,7 +1575,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1578,7 +1592,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1593,7 +1609,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1608,7 +1626,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1623,7 +1643,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1638,7 +1660,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 45",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：45"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1653,7 +1677,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 47",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1668,7 +1694,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1683,7 +1711,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1698,7 +1728,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1713,7 +1745,9 @@
       "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1728,7 +1762,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_10"
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74"
     }
   ]
 }

@@ -8,6 +8,11 @@
   "industry_section_zh": "电力、热力、燃气及水生产和供应业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "chevron-sustainability-highlights-2024.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 30,
   "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
-  "scope3_candidate_count": 2,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "GHG 体系",
     "ESG 披露框架"
@@ -85,6 +90,8 @@
       "snippet_zh": "pe 2 includes indirect emissions from imported electricity and steam. CO2, CH4 and N2O are accounted for in Chevron’s Scope 2 emissions. Scope 2 emissions ar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -107,6 +114,8 @@
       "snippet_zh": "company that uses artificial intelligence to identify, prioritize and monitor ESG issues. data tables* To promote comparability, we map our reporting data to...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 9",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：9",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     }
@@ -146,6 +155,8 @@
       "snippet_zh": "s CO₂e/boe) 26.8 28.6 27.5 26.1 27.1 Methane intensity (kilograms CO₂e/boe) 2.0 2.1 1.9 1.6 1.7 Flaring intensity (kilograms CO₂e/boe) 3.8 4.3 3.5 2.8 3.0 Refining carbon intens...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 10",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -183,6 +194,8 @@
       "snippet_zh": "s CO₂e/boe) 26.8 28.6 27.5 26.1 27.1 Methane intensity (kilograms CO₂e/boe) 2.0 2.1 1.9 1.6 1.7 Flaring intensity (kilograms CO₂e/boe) 3.8 4.3 3.5 2.8 3.0 Refining carbon intens...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 10",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：10",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -220,6 +233,8 @@
       "snippet_zh": "10 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -257,6 +272,8 @@
       "snippet_zh": "10 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -300,6 +317,8 @@
       "snippet_zh": "n tonnes CO₂e) 0 0 0 0 0 Chemicals – all GHGs (million tonnes CO₂e) 11, 12 0 0 0 0 0 Other – all GHGs (million tonnes CO₂e) 13 < 1 1 < 1 < 1 < 1 Direct biogenic CO₂ emissions (m...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -343,6 +362,8 @@
       "snippet_zh": "n tonnes CO₂e) 0 0 0 0 0 Chemicals – all GHGs (million tonnes CO₂e) 11, 12 0 0 0 0 0 Other – all GHGs (million tonnes CO₂e) 13 < 1 1 < 1 < 1 < 1 Direct biogenic CO₂ emissions (m...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -386,6 +407,8 @@
       "snippet_zh": "n tonnes CO₂e) 0 0 0 0 0 Chemicals – all GHGs (million tonnes CO₂e) 11, 12 0 0 0 0 0 Other – all GHGs (million tonnes CO₂e) 13 < 1 1 < 1 < 1 < 1 Direct biogenic CO₂ emissions (m...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -429,6 +452,8 @@
       "snippet_zh": "n tonnes CO₂e) 0 0 0 0 0 Chemicals – all GHGs (million tonnes CO₂e) 11, 12 0 0 0 0 0 Other – all GHGs (million tonnes CO₂e) 13 < 1 1 < 1 < 1 < 1 Direct biogenic CO₂ emissions (m...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -466,6 +491,8 @@
       "snippet_zh": "CO₂e) 583 611 668 690 717 Indirect biogenic CO₂ emissions (million tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 Category 11...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -503,6 +530,8 @@
       "snippet_zh": "CO₂e) 583 611 668 690 717 Indirect biogenic CO₂ emissions (million tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 Category 11...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -540,6 +569,8 @@
       "snippet_zh": "CO₂e) 583 611 668 690 717 Indirect biogenic CO₂ emissions (million tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 Category 11...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -577,6 +608,8 @@
       "snippet_zh": "12 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -614,6 +647,8 @@
       "snippet_zh": "12 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -651,6 +686,8 @@
       "snippet_zh": "12 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -688,6 +725,8 @@
       "snippet_zh": "13 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：14",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -725,6 +764,8 @@
       "snippet_zh": "13 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：14",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -768,6 +809,8 @@
       "snippet_zh": "e Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report operated emissions, continued...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -811,6 +854,8 @@
       "snippet_zh": "e Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report operated emissions, continued...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -854,6 +899,8 @@
       "snippet_zh": "e Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report operated emissions, continued...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -897,6 +944,8 @@
       "snippet_zh": "e Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report operated emissions, continued...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -934,6 +983,8 @@
       "snippet_zh": "illion tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 GHG mitigation Carbon capture, utilization and storage (CCUS) – all GHG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -971,6 +1022,8 @@
       "snippet_zh": "illion tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 GHG mitigation Carbon capture, utilization and storage (CCUS) – all GHG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1008,6 +1061,8 @@
       "snippet_zh": "illion tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 GHG mitigation Carbon capture, utilization and storage (CCUS) – all GHG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1045,6 +1100,8 @@
       "snippet_zh": "16 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1082,6 +1139,8 @@
       "snippet_zh": "16 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1119,6 +1178,8 @@
       "snippet_zh": "16 Chevron 2024 Corporate Sustainability Highlights (May 2025) overview lower carbon environment safety social performance reporting | performance data | about this report 2020 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1162,6 +1223,8 @@
       "snippet_zh": "ated water; or remediated groundwater used for industrial purposes. Produced water is excluded from fresh water withdrawn, fresh water consumed and nonfresh water withdrawn. Wat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1205,6 +1268,8 @@
       "snippet_zh": "afety social performance reporting | performance data | about this report notes to pages 9 through 23 1 See equations methodology. 2 Unless otherwise noted, Scope 1 and Scope 2 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1248,6 +1313,8 @@
       "snippet_zh": "afety social performance reporting | performance data | about this report notes to pages 9 through 23 1 See equations methodology. 2 Unless otherwise noted, Scope 1 and Scope 2 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1291,6 +1358,8 @@
       "snippet_zh": "cost savings and efficiencies associated with enterprise structural cost reduction initiatives; actions of competitors or regulators; timing of exploration expenses; changes in ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：31",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -1336,77 +1405,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r029_chevron",
-      "company_name_en": "CHEVRON",
-      "company_name_zh": "雪佛龙",
-      "world500_rank": "29",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "28",
-      "source_file": "chevron-sustainability-highlights-2024.pdf",
-      "report_title": "chevron-sustainability-highlights-2024.pdf",
-      "snippet_en": "afety social performance reporting | performance data | about this report notes to pages 9 through 23 1 See equations methodology. 2 Unless otherwise noted, Scope 1 and Scope 2 data collected as of February 12, 2025. Data include estimates.",
-      "snippet_zh": "afety social performance reporting | performance data | about this report notes to pages 9 through 23 1 See equations methodology. 2 Unless otherwise noted, Scope 1 and Scope 2 data collected as of...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r029_chevron",
-      "company_name_en": "CHEVRON",
-      "company_name_zh": "雪佛龙",
-      "world500_rank": "29",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "3",
-      "unit_context": "MtCO2e",
-      "value_mtco2e": 3.0,
-      "evidence_page": "13",
-      "source_file": "chevron-sustainability-highlights-2024.pdf",
-      "report_title": "chevron-sustainability-highlights-2024.pdf",
-      "snippet_en": "CO₂e) 583 611 668 690 717 Indirect biogenic CO₂ emissions (million tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 Category 11 use of sold products – sales method (million tonnes CO₂) — — —",
-      "snippet_zh": "CO₂e) 583 611 668 690 717 Indirect biogenic CO₂ emissions (million tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 Category 11 use of sold product...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "high",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r029_chevron",
-      "company_name_en": "CHEVRON",
-      "company_name_zh": "雪佛龙",
-      "world500_rank": "29",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "3",
-      "unit_context": "MtCO2e",
-      "value_mtco2e": 3.0,
-      "evidence_page": "17",
-      "source_file": "chevron-sustainability-highlights-2024.pdf",
-      "report_title": "chevron-sustainability-highlights-2024.pdf",
-      "snippet_en": "illion tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 GHG mitigation Carbon capture, utilization and storage (CCUS) – all GHGs (million tonnes CO₂e) 19 3 1 1 2 2 CCE3: A6 Renewable Energy",
-      "snippet_zh": "illion tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 GHG mitigation Carbon capture, utilization and storage (CCUS) – all GHGs (million tonnes CO...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "high",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -1421,7 +1421,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 9",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：9"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1436,7 +1438,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 10",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1451,7 +1455,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 10",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1466,7 +1472,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1481,7 +1489,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1496,7 +1506,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1511,7 +1523,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1526,7 +1540,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1541,7 +1557,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 12",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1556,7 +1574,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1571,7 +1591,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1586,7 +1608,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1601,7 +1625,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1616,7 +1642,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1631,22 +1659,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "13",
-      "source_file": "chevron-sustainability-highlights-2024.pdf",
-      "report_title": "chevron-sustainability-highlights-2024.pdf",
-      "snippet_en": "CO₂e) 583 611 668 690 717 Indirect biogenic CO₂ emissions (million tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 Category 11 use of sold products – sales method (million tonnes CO₂) — — —",
-      "snippet_zh": "CO₂e) 583 611 668 690 717 Indirect biogenic CO₂ emissions (million tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 Category 11 use of sold product...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "high",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 13",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：13"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1661,7 +1676,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1676,7 +1693,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1691,7 +1710,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1706,7 +1727,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1721,7 +1744,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1736,7 +1761,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1751,7 +1778,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1766,7 +1795,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1781,7 +1812,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1796,7 +1829,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1811,7 +1846,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1826,22 +1863,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "17",
-      "source_file": "chevron-sustainability-highlights-2024.pdf",
-      "report_title": "chevron-sustainability-highlights-2024.pdf",
-      "snippet_en": "illion tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 GHG mitigation Carbon capture, utilization and storage (CCUS) – all GHGs (million tonnes CO₂e) 19 3 1 1 2 2 CCE3: A6 Renewable Energy",
-      "snippet_zh": "illion tonnes CO₂) 15 Category 11 use of sold products – throughput method (million tonnes CO₂) — — — 3 1 GHG mitigation Carbon capture, utilization and storage (CCUS) – all GHGs (million tonnes CO...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "high",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 17",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：17"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1856,7 +1880,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1871,7 +1897,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1886,22 +1914,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "28",
-      "source_file": "chevron-sustainability-highlights-2024.pdf",
-      "report_title": "chevron-sustainability-highlights-2024.pdf",
-      "snippet_en": "afety social performance reporting | performance data | about this report notes to pages 9 through 23 1 See equations methodology. 2 Unless otherwise noted, Scope 1 and Scope 2 data collected as of February 12, 2025. Data include estimates.",
-      "snippet_zh": "afety social performance reporting | performance data | about this report notes to pages 9 through 23 1 See equations methodology. 2 Unless otherwise noted, Scope 1 and Scope 2 data collected as of...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1916,7 +1931,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1931,7 +1948,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: chevron-sustainability-highlights-2024.pdf | File: chevron-sustainability-highlights-2024.pdf | Page: 31",
+      "evidence_locator_zh": "报告：chevron-sustainability-highlights-2024.pdf | 文件：chevron-sustainability-highlights-2024.pdf | 页码：31"
     }
   ]
 }

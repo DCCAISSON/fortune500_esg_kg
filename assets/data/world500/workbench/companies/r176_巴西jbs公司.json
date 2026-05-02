@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "JBS_Sustainability_Report_2023.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 61,
   "keyword_summary_count": 6,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 3,
-  "scope3_candidate_count": 2,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "GHG 体系",
     "气候披露/目标框架",
@@ -113,6 +118,8 @@
       "snippet_zh": "the environmental footprint of operations and implementing actions to reduce these impacts, both in the company’s own operations and those of its suppliers. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 21",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：21",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -135,6 +142,8 @@
       "snippet_zh": "mployee health and safety, in line with our 2019 assessment. Building on this work, we conducted an extensive gap analysis of JBS performance and disclosures...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 28",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：28",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     },
@@ -157,6 +166,8 @@
       "snippet_zh": "SASB FB-MP-110a.2 and others. Our GHG emissions are calculated based on the World Resources Institute’s and the World Business Council for Sustainable Develo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -179,6 +190,8 @@
       "snippet_zh": "mpany, organization or government; we believed this collective movement towards net zero goals was a positive step and an important effort to join. As part o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 33",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：33",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -201,6 +214,8 @@
       "snippet_zh": "Who We Are GRI 2-1; 2-6; 2-7 At JBS, we pursue excellence in all that we do, innovating to place high-quality food on the tables of millions of consumers aro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 7",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：7",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
@@ -246,6 +261,8 @@
       "snippet_zh": "enerative,” “eco,” “humane,” “circular,” “ESG,” or similar terms vary from jurisdiction to jurisdiction and this document does not make any representation or warranty as to the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -289,6 +306,8 @@
       "snippet_zh": "enerative,” “eco,” “humane,” “circular,” “ESG,” or similar terms vary from jurisdiction to jurisdiction and this document does not make any representation or warranty as to the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -332,6 +351,8 @@
       "snippet_zh": "enerative,” “eco,” “humane,” “circular,” “ESG,” or similar terms vary from jurisdiction to jurisdiction and this document does not make any representation or warranty as to the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -375,6 +396,8 @@
       "snippet_zh": "enerative,” “eco,” “humane,” “circular,” “ESG,” or similar terms vary from jurisdiction to jurisdiction and this document does not make any representation or warranty as to the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -412,6 +435,8 @@
       "snippet_zh": "Our Goals and Progress OUR GLOBAL GOALS 2023 PROGRESS Energy & Emissions Achieve net-zero greenhouse gas (GHG) emissions by 2040 • US$ 150MM+ invested across hundreds of project...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 29",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -449,6 +474,8 @@
       "snippet_zh": "Our Goals and Progress OUR GLOBAL GOALS 2023 PROGRESS Energy & Emissions Achieve net-zero greenhouse gas (GHG) emissions by 2040 • US$ 150MM+ invested across hundreds of project...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 29",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -486,6 +513,8 @@
       "snippet_zh": "rty experts, including a leading UK-based and CDP-accredited decarbonization service provider, to carry out the first comprehensive analysis of the company’s global GHG emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -523,6 +552,8 @@
       "snippet_zh": "ble third-party experts, including a leading UK-based and CDP-accredited decarbonization service provider, to carry out the first comprehensive analysis of the company’s global ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -560,6 +591,8 @@
       "snippet_zh": "rty experts, including a leading UK-based and CDP-accredited decarbonization service provider, to carry out the first comprehensive analysis of the company’s global GHG emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -597,6 +630,8 @@
       "snippet_zh": "ble third-party experts, including a leading UK-based and CDP-accredited decarbonization service provider, to carry out the first comprehensive analysis of the company’s global ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -634,6 +669,8 @@
       "snippet_zh": "rty experts, including a leading UK-based and CDP-accredited decarbonization service provider, to carry out the first comprehensive analysis of the company’s global GHG emission...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -671,6 +708,8 @@
       "snippet_zh": "ble third-party experts, including a leading UK-based and CDP-accredited decarbonization service provider, to carry out the first comprehensive analysis of the company’s global ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -708,6 +747,8 @@
       "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -745,6 +786,8 @@
       "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -782,6 +825,8 @@
       "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -819,6 +864,8 @@
       "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -856,6 +903,8 @@
       "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -893,6 +942,8 @@
       "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEG...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -930,6 +981,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -967,6 +1020,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1004,6 +1059,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1041,6 +1098,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1078,6 +1137,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1115,6 +1176,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1152,6 +1215,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1189,6 +1254,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1232,6 +1299,8 @@
       "snippet_zh": "th land use change as those calculations are currently being improved. 6. As of the date of publishing, this report provides the best and latest public disclosure of our GHG emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1275,6 +1344,8 @@
       "snippet_zh": "th land use change as those calculations are currently being improved. 6. As of the date of publishing, this report provides the best and latest public disclosure of our GHG emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1312,6 +1383,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1349,6 +1422,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1386,6 +1461,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1423,6 +1500,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1460,6 +1539,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1497,6 +1578,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1534,6 +1617,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1571,6 +1656,8 @@
       "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1614,6 +1701,8 @@
       "snippet_zh": "th land use change as those calculations are currently being improved. 6. As of the date of publishing, this report provides the best and latest public disclosure of our GHG emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1657,6 +1746,8 @@
       "snippet_zh": "th land use change as those calculations are currently being improved. 6. As of the date of publishing, this report provides the best and latest public disclosure of our GHG emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1700,6 +1791,8 @@
       "snippet_zh": "th land use change as those calculations are currently being improved. 6. As of the date of publishing, this report provides the best and latest public disclosure of our GHG emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1743,6 +1836,8 @@
       "snippet_zh": "th land use change as those calculations are currently being improved. 6. As of the date of publishing, this report provides the best and latest public disclosure of our GHG emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -1780,6 +1875,8 @@
       "snippet_zh": "address our shared GHG emissions and improve the resiliency and productivity of the global food system. Our company culture has always promoted on-the-ground collaboration over ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 33",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：33",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1817,6 +1914,8 @@
       "snippet_zh": "horities. • Supply Chain Monitoring and Enforcement – JBS Brazil’s supply chain monitoring system increases our visibility into complex and obscure cattle supply chains by lever...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 34",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1854,6 +1953,8 @@
       "snippet_zh": "horities. • Supply Chain Monitoring and Enforcement – JBS Brazil’s supply chain monitoring system increases our visibility into complex and obscure cattle supply chains by lever...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 34",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -1891,6 +1992,8 @@
       "snippet_zh": "value-chain solutions. Companies like JBS should work to provide producers with science-based recommendations and manageable ROI strategies for positioning environmental outcome...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 37",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：37",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1928,6 +2031,8 @@
       "snippet_zh": "ategies in action across our global livestock supply chains. At JBS Friboi, we are actively searching for scalable feed additives that improve feed efficiency in animal diets — ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 4",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：4",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1965,6 +2070,8 @@
       "snippet_zh": "ategies in action across our global livestock supply chains. At JBS Friboi, we are actively searching for scalable feed additives that improve feed efficiency in animal diets — ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 4",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：4",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2008,6 +2115,8 @@
       "snippet_zh": "JBS distributed over four years, the project has been designed to cover 2.5 million hectares in the states of Mato Grosso and Mato Grosso do Sul. The system has already provided...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 43",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：43",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2045,6 +2154,8 @@
       "snippet_zh": "The JBS Farm Assurance (FA) program is a third-party audited beef and lamb supply chain approach program that addresses food safety, animal welfare, quality assurance, and trans...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 45",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：45",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2088,6 +2199,8 @@
       "snippet_zh": "farming. The program aims to increase income for small producers, ensure traceability from the beginning of the supply chain, and eliminate deforestation on partner properties. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 54",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2131,6 +2244,8 @@
       "snippet_zh": "farming. The program aims to increase income for small producers, ensure traceability from the beginning of the supply chain, and eliminate deforestation on partner properties. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 54",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：54",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2168,6 +2283,8 @@
       "snippet_zh": "ical, and physical hazards from raw material production. Each of these processes are monitored by JBS team members trained in food safety and quality assurance, as well as gover...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 58",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：58",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -2211,6 +2328,8 @@
       "snippet_zh": "s. While this conservative approach has significantly reduced our historically reported RE purchases, it has not materially affected our reported scope 2 emissions. 1. Includes ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -2254,6 +2373,8 @@
       "snippet_zh": "s. While this conservative approach has significantly reduced our historically reported RE purchases, it has not materially affected our reported scope 2 emissions. 1. Includes ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -2297,6 +2418,8 @@
       "snippet_zh": "s. While this conservative approach has significantly reduced our historically reported RE purchases, it has not materially affected our reported scope 2 emissions. 1. Includes ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -2343,6 +2466,8 @@
       "snippet_zh": "RENEWABLE ENERGY In tandem, we are investing globally to increase our proportion of total energy consumption from clean sources. Globally, 36% of our energy use and 8% of our el...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Derived data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 推导数据"
     },
@@ -2389,6 +2514,8 @@
       "snippet_zh": "challenge that agriculture and food companies face is that our supply chains are complex and fluid, and most emissions are scope 3 in nature, resulting from activities outside a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 78",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：78",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Secondary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 次级数据"
     },
@@ -2435,6 +2562,8 @@
       "snippet_zh": "challenge that agriculture and food companies face is that our supply chains are complex and fluid, and most emissions are scope 3 in nature, resulting from activities outside a...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 78",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：78",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Secondary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 次级数据"
     },
@@ -2472,6 +2601,8 @@
       "snippet_zh": "as developing land for playgrounds, community gardens, and team member housing. To date, Hometown Strong has invested in over 260 projects, with more initiatives to come. Throug...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 79",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：79",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2509,6 +2640,8 @@
       "snippet_zh": "as developing land for playgrounds, community gardens, and team member housing. To date, Hometown Strong has invested in over 260 projects, with more initiatives to come. Throug...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 79",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：79",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -2552,6 +2685,8 @@
       "snippet_zh": "vestments in education and sustainability are once again a priority. The initial investment of R$ 1.6 million made by the JBS Fund for the Amazon enabled the structuring of the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 80",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：80",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2595,6 +2730,8 @@
       "snippet_zh": "vestments in education and sustainability are once again a priority. The initial investment of R$ 1.6 million made by the JBS Fund for the Amazon enabled the structuring of the ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 80",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：80",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -2708,123 +2845,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r176_巴西jbs公司",
-      "company_name_en": "巴西JBS公司",
-      "company_name_zh": "巴西JBS公司",
-      "world500_rank": "176",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "Our Goals and Progress OUR GLOBAL GOALS 2023 PROGRESS Energy & Emissions Achieve net-zero greenhouse gas (GHG) emissions by 2040 • US$ 150MM+ invested across hundreds of projects in JBS facilities to reduce Scope 1 & 2 GHG emissions • US$ 5",
-      "snippet_zh": "Our Goals and Progress OUR GLOBAL GOALS 2023 PROGRESS Energy & Emissions Achieve net-zero greenhouse gas (GHG) emissions by 2040 • US$ 150MM+ invested across hundreds of projects in JBS facilities ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r176_巴西jbs公司",
-      "company_name_en": "巴西JBS公司",
-      "company_name_zh": "巴西JBS公司",
-      "world500_rank": "176",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "1.",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "62",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "s. While this conservative approach has significantly reduced our historically reported RE purchases, it has not materially affected our reported scope 2 emissions. 1. Includes direct [electricity generated on-site, the use of fuel to gener",
-      "snippet_zh": "s. While this conservative approach has significantly reduced our historically reported RE purchases, it has not materially affected our reported scope 2 emissions. 1. Includes direct [electricity ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r176_巴西jbs公司",
-      "company_name_en": "巴西JBS公司",
-      "company_name_zh": "巴西JBS公司",
-      "world500_rank": "176",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3,",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "31",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOP",
-      "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 C...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r176_巴西jbs公司",
-      "company_name_en": "巴西JBS公司",
-      "company_name_zh": "巴西JBS公司",
-      "world500_rank": "176",
-      "scope3_category_code": "14",
-      "scope3_category_en": "Category 14 Franchises",
-      "scope3_category_zh": "类别14 特许经营",
-      "value_text": "0",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "32",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 TOTAL GHG EMISSIONS BY SCOPE 1. Includes di",
-      "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r176_巴西jbs公司",
-      "company_name_en": "巴西JBS公司",
-      "company_name_zh": "巴西JBS公司",
-      "world500_rank": "176",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "28,583",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "32",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 TOTAL GHG EMISSIONS BY SCOPE 1. Includes di",
-      "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -2839,7 +2861,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 4",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：4"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2854,7 +2878,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 4",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：4"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2869,7 +2895,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 7",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：7"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2884,7 +2912,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 21",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：21"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2899,7 +2929,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 28",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2914,7 +2946,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 29",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2929,22 +2963,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "29",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "Our Goals and Progress OUR GLOBAL GOALS 2023 PROGRESS Energy & Emissions Achieve net-zero greenhouse gas (GHG) emissions by 2040 • US$ 150MM+ invested across hundreds of projects in JBS facilities to reduce Scope 1 & 2 GHG emissions • US$ 5",
-      "snippet_zh": "Our Goals and Progress OUR GLOBAL GOALS 2023 PROGRESS Energy & Emissions Achieve net-zero greenhouse gas (GHG) emissions by 2040 • US$ 150MM+ invested across hundreds of projects in JBS facilities ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 29",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2959,7 +2980,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2974,7 +2997,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2989,7 +3014,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3004,7 +3031,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3019,7 +3048,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3034,7 +3065,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3049,7 +3082,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 30",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3064,7 +3099,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3079,7 +3116,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3094,7 +3133,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3109,7 +3150,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3124,7 +3167,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3139,22 +3184,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "31",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOP",
-      "snippet_zh": "sport 3rd Party Shipping Company Fleet Company Fleet Retailers & Foodservice Providers Consumers Company Operations SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 CATEGORY 3, 5-8 SCOPE 3 C...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 31",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3169,7 +3201,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3184,7 +3218,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3199,7 +3235,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3214,7 +3252,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3229,7 +3269,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3244,7 +3286,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3259,7 +3303,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3274,7 +3320,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3289,7 +3337,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3304,7 +3354,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3319,7 +3371,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3334,7 +3388,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3349,7 +3405,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3364,7 +3422,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3379,7 +3439,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3394,7 +3456,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3409,7 +3473,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3424,7 +3490,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3439,7 +3507,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3454,7 +3524,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3469,7 +3541,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3484,37 +3558,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 14 Franchises",
-      "label_zh": "类别14 特许经营",
-      "page": "32",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 TOTAL GHG EMISSIONS BY SCOPE 1. Includes di",
-      "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 ...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "32",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 TOTAL GHG EMISSIONS BY SCOPE 1. Includes di",
-      "snippet_zh": "0 0 0 14: Franchises NC NC 0 0 0 15: Investments NC NC 28,583 28,583 36,756 TOTAL7 5,775,775 5,291,086 169,713,801 187,559,356 156,535,553 Total GHG Emissions GHG 305-1, 305-2, 305-3, 305-4, 305-5 ...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 32",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3529,7 +3575,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 33",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：33"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3544,7 +3592,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 33",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3559,7 +3609,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 34",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3574,7 +3626,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 34",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3589,7 +3643,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 37",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3604,7 +3660,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 43",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3619,7 +3677,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 45",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3634,7 +3694,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 54",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3649,7 +3711,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 54",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3664,7 +3728,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 58",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3679,7 +3745,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Derived data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3694,7 +3762,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3709,7 +3779,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3724,22 +3796,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "62",
-      "source_file": "JBS_Sustainability_Report_2023.pdf",
-      "report_title": "JBS_Sustainability_Report_2023.pdf",
-      "snippet_en": "s. While this conservative approach has significantly reduced our historically reported RE purchases, it has not materially affected our reported scope 2 emissions. 1. Includes direct [electricity generated on-site, the use of fuel to gener",
-      "snippet_zh": "s. While this conservative approach has significantly reduced our historically reported RE purchases, it has not materially affected our reported scope 2 emissions. 1. Includes direct [electricity ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 62",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3754,7 +3813,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Secondary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 78",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：78"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3769,7 +3830,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Secondary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 78",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：78"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3784,7 +3847,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 79",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：79"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3799,7 +3864,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 79",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：79"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3814,7 +3881,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 80",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：80"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3829,7 +3898,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 80",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：80"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3844,7 +3915,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3859,7 +3932,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3874,7 +3949,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3889,7 +3966,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: JBS_Sustainability_Report_2023.pdf | File: JBS_Sustainability_Report_2023.pdf | Page: 102",
+      "evidence_locator_zh": "报告：JBS_Sustainability_Report_2023.pdf | 文件：JBS_Sustainability_Report_2023.pdf | 页码：102"
     }
   ]
 }

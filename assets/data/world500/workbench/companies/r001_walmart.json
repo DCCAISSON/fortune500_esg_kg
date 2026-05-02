@@ -8,6 +8,11 @@
   "industry_section_zh": "租赁和商务服务业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "A",
+  "enterprise_use_tier_en": "A direct-use absolute values",
+  "enterprise_use_tier_zh": "A 可直接用绝对量",
+  "enterprise_use_tier_detail_en": "At least one company-level absolute value has already entered the structured authoritative layer.",
+  "enterprise_use_tier_detail_zh": "至少有一条公司级绝对量已经进入结构化采信层。",
   "report_count": 1,
   "report_titles": [
     "FY2025-Walmart-ESG-Report.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 61,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 3,
-  "scope_candidate_count": 5,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 3,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -115,6 +120,8 @@
       "snippet_zh": "Sustainability Community Ethics & Integrity Opportunity Our People: Associate Experiences and Paths of OpportunityMTT_ATT Overall Workforce Metric FY2025 FY2...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 101",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：101",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -137,6 +144,8 @@
       "snippet_zh": "ustainability Community Ethics & Integrity Opportunity Our People: Associate Experiences and Paths of OpportunityMTT_ATT Workforce69 Metric FY2025 Framework/...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 102",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：102",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -159,6 +168,8 @@
       "snippet_zh": "ponse Ethics & Integrity 76 Corporate Governance 80 Ethics and Compliance 87 Responsible Use of Data and Technology 90 Human Rights 96 Responsible Engagement...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准"
     },
@@ -181,6 +192,8 @@
       "snippet_zh": "issions across Walmart’s global operations by 2040, reducing absolute Scope 1 & 2 GHG emissions 35% by 2025 and 65% by 2030 from our 2015 base year (interim ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -203,6 +216,8 @@
       "snippet_zh": "rting Walmart Inc. calculates its GHG emissions footprint estimates in alignment with the Greenhouse Gas Protocol’s Corporate Accounting and Reporting Standa...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -225,6 +240,8 @@
       "snippet_zh": "rting Walmart Inc. calculates its GHG emissions footprint estimates in alignment with the Greenhouse Gas Protocol’s Corporate Accounting and Reporting Standa...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7",
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准"
     }
@@ -270,6 +287,8 @@
       "snippet_zh": "iscal Year) FY2025 22.98 FY2024 23.87 FY2023 24.89 Percent change in carbon intensity per revenue (vs. previous year) CY2024 -3.7% CY2023 -4.1% CY2022 -6.4%MTT_ATT Reducing Emis...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -313,6 +332,8 @@
       "snippet_zh": "iscal Year) FY2025 22.98 FY2024 23.87 FY2023 24.89 Percent change in carbon intensity per revenue (vs. previous year) CY2024 -3.7% CY2023 -4.1% CY2022 -6.4%MTT_ATT Reducing Emis...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -350,6 +371,8 @@
       "snippet_zh": "d risks and opportunities, including progress towards any climate-related targets it has set, and any targets it is required to meet by law or regulation. Climate Resilience, En...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 107",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -387,6 +410,8 @@
       "snippet_zh": "d risks and opportunities, including progress towards any climate-related targets it has set, and any targets it is required to meet by law or regulation. Climate Resilience, En...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 107",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -430,6 +455,8 @@
       "snippet_zh": ") membership (regular or full category) or implementing the RBA Validated Assessment Program for each disclosed facility. 77 Results are based on supplier survey responses and c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 108",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：108",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据"
     },
@@ -473,6 +500,8 @@
       "snippet_zh": "estion: 156 million lbs. Landfill or incineration: 1.262 billion lbs. CY2022 Animal feed: 524 million lbs. Biochemical processing: 106 million lbs. Composting: 163 million lbs. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 109",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：109",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -516,6 +545,8 @@
       "snippet_zh": "weight of priority chemicals relative to total product weight) 1.69%86 2.03% 1.93% 82 As stated in Walmart’s annual reports on Form 10-K. 83 Total global giving includes cash do...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 111",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：111",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -559,6 +590,8 @@
       "snippet_zh": "Walmart. Since launching the Live Better U program in 2018: • 164,000 associates have enrolled in Live Better U, including 41,000 in FY2025. • Associates have completed 29,000 p...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -602,6 +635,8 @@
       "snippet_zh": "Walmart. Since launching the Live Better U program in 2018: • 164,000 associates have enrolled in Live Better U, including 41,000 in FY2025. • Associates have completed 29,000 p...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -639,6 +674,8 @@
       "snippet_zh": "3 People in Supply Chains 57 Animal Welfare\u0007 59 Product Supply Chain Sustainability 48.5% 48.5% of our global electricity needs are supplied by renewable sources of energy 43.3 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -676,6 +713,8 @@
       "snippet_zh": "3 People in Supply Chains 57 Animal Welfare\u0007 59 Product Supply Chain Sustainability 48.5% 48.5% of our global electricity needs are supplied by renewable sources of energy 43.3 ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：25",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -713,6 +752,8 @@
       "snippet_zh": "omers’ preferences and financial abilities 9. Carbon pricing mechanisms on operations from increased climate-related regulations Increased costs of doing business due to embedde...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 28",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -750,6 +791,8 @@
       "snippet_zh": "omers’ preferences and financial abilities 9. Carbon pricing mechanisms on operations from increased climate-related regulations Increased costs of doing business due to embedde...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 28",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -793,6 +836,8 @@
       "snippet_zh": "ransition-related risks (e.g., efficiency standards, carbon pricing, regulated transitions toward lower-emissions technologies). In retail, operational emissions include emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -836,6 +881,8 @@
       "snippet_zh": "ransition-related risks (e.g., efficiency standards, carbon pricing, regulated transitions toward lower-emissions technologies). In retail, operational emissions include emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -873,6 +920,8 @@
       "snippet_zh": "ITY COMMUNITY ETHICS & INTEGRITY APPENDIX Climate Resilience, Energy, and Emissions Regeneration of Natural Resources Waste: Circular Economy People in Supply Chains Animal Welf...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -919,6 +968,8 @@
       "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据"
     },
@@ -962,6 +1013,8 @@
       "snippet_zh": "ransition-related risks (e.g., efficiency standards, carbon pricing, regulated transitions toward lower-emissions technologies). In retail, operational emissions include emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -1005,6 +1058,8 @@
       "snippet_zh": "ransition-related risks (e.g., efficiency standards, carbon pricing, regulated transitions toward lower-emissions technologies). In retail, operational emissions include emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据"
     },
@@ -1051,6 +1106,8 @@
       "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据"
     },
@@ -1094,6 +1151,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1137,6 +1196,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1180,6 +1241,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1223,6 +1286,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1266,6 +1331,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1309,6 +1376,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1352,6 +1421,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1395,6 +1466,8 @@
       "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Oper...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -1438,6 +1511,8 @@
       "snippet_zh": "in manufacturing facilities, agricultural emissions, and transportation. • Downstream: Customer use of products, such as appliances (e.g., emissions from household electricity) ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1481,6 +1556,8 @@
       "snippet_zh": "in manufacturing facilities, agricultural emissions, and transportation. • Downstream: Customer use of products, such as appliances (e.g., emissions from household electricity) ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1524,6 +1601,8 @@
       "snippet_zh": "in manufacturing facilities, agricultural emissions, and transportation. • Downstream: Customer use of products, such as appliances (e.g., emissions from household electricity) ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1567,6 +1646,8 @@
       "snippet_zh": "in manufacturing facilities, agricultural emissions, and transportation. • Downstream: Customer use of products, such as appliances (e.g., emissions from household electricity) ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1604,6 +1685,8 @@
       "snippet_zh": "TY ETHICS & INTEGRITY APPENDIX Climate Resilience, Energy, and Emissions Regeneration of Natural Resources Waste: Circular Economy People in Supply Chains Animal Welfare Product...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1647,6 +1730,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1690,6 +1775,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1733,6 +1820,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1776,6 +1865,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1819,6 +1910,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1862,6 +1955,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1905,6 +2000,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1948,6 +2045,8 @@
       "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1991,6 +2090,8 @@
       "snippet_zh": "INTRODUCTION OPPORTUNITY SUSTAINABILITY COMMUNITY ETHICS & INTEGRITY APPENDIX Climate Resilience, Energy, and Emissions Regeneration of Natural Resources Waste: Circular Economy...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2028,6 +2129,8 @@
       "snippet_zh": "erative agricultural technologies. A critical mass of potential consumers of new technologies is a necessary precondition to their development, deployment, and scaling. • The ca...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：36",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2071,6 +2174,8 @@
       "snippet_zh": "ments also help us surface business opportunities. In 2020, we collaborated with Conservation International to evaluate our key nature- related dependencies, impacts, risks, and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2114,6 +2219,8 @@
       "snippet_zh": "ains and beyond • Supporting the development of place-based initiatives (also known as jurisdictional or landscape-level initiatives). Setting Product Sourcing Standards Walmart...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 40",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：40",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2157,6 +2264,8 @@
       "snippet_zh": "oods of suppliers and communities that Walmart serves. Water Stewardship in Our Operations: We aim to reduce water usage and improve conservation practices in our operations. • ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：43",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2194,6 +2303,8 @@
       "snippet_zh": "mpliance with expectations. • The success of our product and commodity sustainability programs is dependent on our suppliers’ and manufacturers’ (and their ingredient suppliers’...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：44",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -2237,6 +2348,8 @@
       "snippet_zh": "ckaging, including through supplier engagement, developing and sharing resources, and collaboration.MTT_ATT Packaging Metric CY2024 CY2023 CY2022 Goal: 20% private brand plastic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：49",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2280,6 +2393,8 @@
       "snippet_zh": "e or compostable packaging for some use cases (e.g., multi-layered films, food contact applications) • Even with access to recycling, consumers do not always choose to recycle t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 50",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：50",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2323,6 +2438,8 @@
       "snippet_zh": "tion 43.3 million acres Total square miles of ocean engaged in more sustainable management, protection, and/or restoration 1.93 million square miles Waste Percentage of global W...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：61",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2366,6 +2483,8 @@
       "snippet_zh": "ost of living but by providing access to affordable and accessible financial services. Designed with the underserved consumer in mind, our everyday low price services include: •...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 64",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：64",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2409,6 +2528,8 @@
       "snippet_zh": "nd economic growth in local markets where we operate. Examples include initiatives focused on market access for smallholder farmers and small and medium-sized enterprises (SMEs)...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 65",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：65",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2452,6 +2573,8 @@
       "snippet_zh": "ur Walmart Mexico and Central America business supported 2,330 volunteerism activities, including reforestation and public space cleanups. 53 Total global giving includes cash d...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：66",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2498,6 +2621,8 @@
       "snippet_zh": "lculations aligning with the ISO 14064-3 standard. See, 2024 Limited Assurance Statement. With guidance provided by the GHG Protocol, Walmart uses a hybrid approach for its calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7",
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Hybrid method / Estimated data",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：混合法 / 估算数据"
     },
@@ -2541,6 +2666,8 @@
       "snippet_zh": "Greenhouse Gas Protocol’s Corporate Accounting and Reporting Standard as well as the Corporate Value Chain (Scope 3) Accounting and Reporting Standard, collectively the “GHG Pro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7",
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法"
     },
@@ -2584,6 +2711,8 @@
       "snippet_zh": "Greenhouse Gas Protocol’s Corporate Accounting and Reporting Standard as well as the Corporate Value Chain (Scope 3) Accounting and Reporting Standard, collectively the “GHG Pro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7",
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法"
     },
@@ -2627,6 +2756,8 @@
       "snippet_zh": "Greenhouse Gas Protocol’s Corporate Accounting and Reporting Standard as well as the Corporate Value Chain (Scope 3) Accounting and Reporting Standard, collectively the “GHG Pro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7",
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法"
     },
@@ -2670,6 +2801,8 @@
       "snippet_zh": "Greenhouse Gas Protocol’s Corporate Accounting and Reporting Standard as well as the Corporate Value Chain (Scope 3) Accounting and Reporting Standard, collectively the “GHG Pro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7",
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法"
     },
@@ -2713,6 +2846,8 @@
       "snippet_zh": "maintenance garages). Waste figures are based on review of materials handling and waste diversion processes, as reported by waste vendors, food banks, and facilities. In cases w...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 8",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：8",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2756,6 +2891,8 @@
       "snippet_zh": "maintenance garages). Waste figures are based on review of materials handling and waste diversion processes, as reported by waste vendors, food banks, and facilities. In cases w...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 8",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：8",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2799,6 +2936,8 @@
       "snippet_zh": "eling on medications, nutrition, and wellness. Additionally, we support initiatives that increase access to healthy and nutritious food. Nature, Biodiversity, and Sustainable Pr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 98",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：98",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     }
@@ -2916,7 +3055,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Walmart ESG Report FY2025",
+      "report_title_en": "Walmart ESG Report FY2025",
+      "report_title_zh": "沃尔玛 FY2025 ESG 报告",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "snippet_en": "MMT CO2e; CY2024 values in FY2025 ESG report.",
+      "snippet_zh": "MMT CO2e; CY2024 values in FY2025 ESG report.",
+      "evidence_locator_en": "Report: Walmart ESG Report FY2025 | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：沃尔玛 FY2025 ESG 报告 | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r001_walmart",
@@ -2933,7 +3087,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Walmart ESG Report FY2025",
+      "report_title_en": "Walmart ESG Report FY2025",
+      "report_title_zh": "沃尔玛 FY2025 ESG 报告",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "snippet_en": "MMT CO2e; market-based.",
+      "snippet_zh": "MMT CO2e; market-based.",
+      "evidence_locator_en": "Report: Walmart ESG Report FY2025 | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：沃尔玛 FY2025 ESG 报告 | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     },
     {
       "company_id": "r001_walmart",
@@ -2950,7 +3119,22 @@
       "review_status": "validated_demo",
       "confidence_level": "high",
       "entity_type": "company",
-      "source_layer": "authoritative_structured"
+      "entity_type_en": "Company level",
+      "entity_type_zh": "公司级",
+      "report_title": "Walmart ESG Report FY2025",
+      "report_title_en": "Walmart ESG Report FY2025",
+      "report_title_zh": "沃尔玛 FY2025 ESG 报告",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "snippet_en": "MMT CO2e; estimated Scope 3 footprint.",
+      "snippet_zh": "MMT CO2e; estimated Scope 3 footprint.",
+      "evidence_locator_en": "Report: Walmart ESG Report FY2025 | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：沃尔玛 FY2025 ESG 报告 | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "basis_en": null,
+      "basis_zh": null
     }
   ],
   "scope_candidates": [
@@ -2961,30 +3145,7 @@
       "world500_rank": "1",
       "scope_en": "Scope 1",
       "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "30",
-      "source_file": "FY2025-Walmart-ESG-Report.pdf",
-      "report_title": "FY2025-Walmart-ESG-Report.pdf",
-      "snippet_en": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & 2 market-based emissions (vs. previous year",
-      "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r001_walmart",
-      "company_name_en": "WALMART",
-      "company_name_zh": "沃尔玛",
-      "world500_rank": "1",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
+      "basis_en": "Market-Based",
       "basis_zh": "市场法",
       "value_text": "9.03",
       "unit_raw": "MMT CO2e",
@@ -2993,12 +3154,20 @@
       "source_file": "FY2025-Walmart-ESG-Report.pdf",
       "report_title": "FY2025-Walmart-ESG-Report.pdf",
       "snippet_en": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope 1 & 2 GHG Emissions 0.",
-      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Pe...",
+      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "candidate_quality": "high",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
+      "extraction_rule_en": "Scope sentence/table extraction with explicit unit binding",
+      "extraction_rule_zh": "Scope 句式抽取，要求显式单位绑定",
+      "source_layer": "candidate_scope_numeric",
+      "acceptance_tier_code": "C1",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "company_id": "r001_walmart",
@@ -3009,19 +3178,27 @@
       "scope_zh": "范围2",
       "basis_en": "Market-Based",
       "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
+      "value_text": "6.61",
+      "unit_raw": "MMT CO2e",
+      "value_mtco2e": 6.61,
       "evidence_page": "30",
       "source_file": "FY2025-Walmart-ESG-Report.pdf",
       "report_title": "FY2025-Walmart-ESG-Report.pdf",
       "snippet_en": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & 2 market-based emissions (vs. previous year",
-      "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & ...",
+      "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & 2 market-based emiss...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
+      "candidate_quality": "high",
+      "extraction_rule_en": "Scope sentence/table extraction with explicit unit binding",
+      "extraction_rule_zh": "Scope 句式抽取，要求显式单位绑定",
+      "source_layer": "candidate_scope_numeric",
+      "acceptance_tier_code": "C1",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "company_id": "r001_walmart",
@@ -3039,61 +3216,23 @@
       "source_file": "FY2025-Walmart-ESG-Report.pdf",
       "report_title": "FY2025-Walmart-ESG-Report.pdf",
       "snippet_en": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope 1 & 2 GHG Emissions 0.",
-      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Pe...",
+      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope...",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "candidate_quality": "high",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r001_walmart",
-      "company_name_en": "WALMART",
-      "company_name_zh": "沃尔玛",
-      "world500_rank": "1",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "34",
-      "source_file": "FY2025-Walmart-ESG-Report.pdf",
-      "report_title": "FY2025-Walmart-ESG-Report.pdf",
-      "snippet_en": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scope 3 emissions.MTT_ATT Scope 3 Metrics CY202",
-      "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scop...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
+      "extraction_rule_en": "Scope sentence/table extraction with explicit unit binding",
+      "extraction_rule_zh": "Scope 句式抽取，要求显式单位绑定",
+      "source_layer": "candidate_scope_numeric",
+      "acceptance_tier_code": "C1",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核",
+      "priority_level_en": "medium",
+      "priority_level_zh": "中",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     }
   ],
-  "scope3_candidates": [
-    {
-      "company_id": "r001_walmart",
-      "company_name_en": "WALMART",
-      "company_name_zh": "沃尔玛",
-      "world500_rank": "1",
-      "scope3_category_code": "12",
-      "scope3_category_en": "Category 12 End-of-life treatment of sold products",
-      "scope3_category_zh": "类别12 销售产品的退役处理",
-      "value_text": "95",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "34",
-      "source_file": "FY2025-Walmart-ESG-Report.pdf",
-      "report_title": "FY2025-Walmart-ESG-Report.pdf",
-      "snippet_en": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scope 3 emissions.MTT_ATT Scope 3 Metrics CY202",
-      "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scop...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -3108,7 +3247,9 @@
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 2",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3123,7 +3264,9 @@
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Hybrid method / Estimated data",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：混合法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3138,7 +3281,9 @@
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3153,7 +3298,9 @@
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3168,7 +3315,9 @@
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3183,7 +3332,9 @@
       "recognition_basis_en": "Structured method tag: Hybrid method; Structured assurance tag: Assurance; Matched keywords: Hybrid method",
       "recognition_basis_zh": "结构化方法标注：混合法；结构化核查环节：鉴证；原文命中关键词：混合法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3198,7 +3349,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3213,7 +3366,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 7",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：7"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3228,7 +3383,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 8",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：8"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3243,7 +3400,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 8",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：8"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3258,7 +3417,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3273,7 +3434,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 16",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3288,7 +3451,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3303,7 +3468,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 25",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：25"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3318,7 +3485,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 28",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3333,7 +3502,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 28",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3348,7 +3519,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3363,7 +3536,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3378,7 +3553,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3393,7 +3570,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3408,7 +3587,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3423,7 +3604,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3438,22 +3621,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: On-site data",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：现场/在场数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "30",
-      "source_file": "FY2025-Walmart-ESG-Report.pdf",
-      "report_title": "FY2025-Walmart-ESG-Report.pdf",
-      "snippet_en": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & 2 market-based emissions (vs. previous year",
-      "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Scope value candidate",
@@ -3464,11 +3634,15 @@
       "source_file": "FY2025-Walmart-ESG-Report.pdf",
       "report_title": "FY2025-Walmart-ESG-Report.pdf",
       "snippet_en": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & 2 market-based emissions (vs. previous year",
-      "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "snippet_zh": "3 8.93 8.53 Scope 2 (market-based) MMT CO2e 6.61 6.54 6.69 Percent change in annual Scope 1 & 2 market based emissions (vs. CY2015 baseline) -18.1% -19.0% -20.3% Percent change in annual Scope 1 & 2 market-based emiss...",
+      "recognition_basis_en": "Scope sentence/table extraction with explicit unit binding",
+      "recognition_basis_zh": "Scope 句式抽取，要求显式单位绑定",
+      "confidence_level": "high",
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3483,7 +3657,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 30",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：30"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3498,7 +3674,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3513,7 +3691,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3528,7 +3708,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3543,7 +3725,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3558,7 +3742,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3573,7 +3759,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3588,7 +3776,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3603,22 +3793,28 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31"
     },
     {
       "fact_type_en": "Scope value candidate",
       "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
+      "label_en": "Scope 1 Market-Based",
       "label_zh": "范围1 市场法",
       "page": "31",
       "source_file": "FY2025-Walmart-ESG-Report.pdf",
       "report_title": "FY2025-Walmart-ESG-Report.pdf",
       "snippet_en": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope 1 & 2 GHG Emissions 0.",
-      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Pe...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
+      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope...",
+      "recognition_basis_en": "Scope sentence/table extraction with explicit unit binding",
+      "recognition_basis_zh": "Scope 句式抽取，要求显式单位绑定",
       "confidence_level": "high",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核"
     },
     {
       "fact_type_en": "Scope value candidate",
@@ -3629,11 +3825,15 @@
       "source_file": "FY2025-Walmart-ESG-Report.pdf",
       "report_title": "FY2025-Walmart-ESG-Report.pdf",
       "snippet_en": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope 1 & 2 GHG Emissions 0.",
-      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Pe...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
+      "snippet_zh": "e: Circular Economy People in Supply Chains Animal Welfare Product Supply Chain Sustainability Scope 1: 9.03 MMT CO2e Scope 2 (market-based): 6.61 MMT CO2e Walmart’s CY2024 Operational Emissions Percent of Total Scope...",
+      "recognition_basis_en": "Scope sentence/table extraction with explicit unit binding",
+      "recognition_basis_zh": "Scope 句式抽取，要求显式单位绑定",
       "confidence_level": "high",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 31",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：31",
+      "acceptance_tier_en": "C1 explicit numeric candidate with adjacent unit; high-priority review",
+      "acceptance_tier_zh": "C1 原文显式数值且单位相邻，高优先复核"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3648,7 +3848,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3663,7 +3865,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3678,7 +3882,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3693,7 +3899,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3708,7 +3916,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 32",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3723,7 +3933,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3738,7 +3950,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3753,7 +3967,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3768,7 +3984,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3783,7 +4001,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3798,7 +4018,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3813,7 +4035,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3828,7 +4052,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3843,37 +4069,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 12 End-of-life treatment of sold products",
-      "label_zh": "类别12 销售产品的退役处理",
-      "page": "34",
-      "source_file": "FY2025-Walmart-ESG-Report.pdf",
-      "report_title": "FY2025-Walmart-ESG-Report.pdf",
-      "snippet_en": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scope 3 emissions.MTT_ATT Scope 3 Metrics CY202",
-      "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scop...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_01"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "34",
-      "source_file": "FY2025-Walmart-ESG-Report.pdf",
-      "report_title": "FY2025-Walmart-ESG-Report.pdf",
-      "snippet_en": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scope 3 emissions.MTT_ATT Scope 3 Metrics CY202",
-      "snippet_zh": "2 (capital goods), Category 11 (use of sold products), and Category 12 (end-of-life treatment of sold products). Cumulatively, these four categories represent more than 95% of Walmart’s global Scop...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 34",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3888,7 +4086,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 36",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：36"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3903,7 +4103,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 39",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3918,7 +4120,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 40",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3933,7 +4137,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 43",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3948,7 +4154,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 44",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3963,7 +4171,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 49",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：49"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3978,7 +4188,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 50",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：50"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3993,7 +4205,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 61",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4008,7 +4222,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 64",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4023,7 +4239,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 65",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：65"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4038,7 +4256,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 66",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4053,7 +4273,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 98",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：98"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4068,7 +4290,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 101",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：101"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4083,7 +4307,66 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 102",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：102"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 1",
+      "label_zh": "范围 1",
+      "page": "106",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "report_title": "Walmart ESG Report FY2025",
+      "snippet_en": "MMT CO2e; CY2024 values in FY2025 ESG report.",
+      "snippet_zh": "MMT CO2e; CY2024 values in FY2025 ESG report.",
+      "recognition_basis_en": "MMT CO2e; CY2024 values in FY2025 ESG report.",
+      "recognition_basis_zh": "MMT CO2e; CY2024 values in FY2025 ESG report.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: Walmart ESG Report FY2025 | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：沃尔玛 FY2025 ESG 报告 | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 2",
+      "label_zh": "范围 2",
+      "page": "106",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "report_title": "Walmart ESG Report FY2025",
+      "snippet_en": "MMT CO2e; market-based.",
+      "snippet_zh": "MMT CO2e; market-based.",
+      "recognition_basis_en": "MMT CO2e; market-based.",
+      "recognition_basis_zh": "MMT CO2e; market-based.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: Walmart ESG Report FY2025 | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：沃尔玛 FY2025 ESG 报告 | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
+    },
+    {
+      "fact_type_en": "Authoritative scope value",
+      "fact_type_zh": "结构化 Scope 数值",
+      "label_en": "Scope 3",
+      "label_zh": "范围 3",
+      "page": "106",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "report_title": "Walmart ESG Report FY2025",
+      "snippet_en": "MMT CO2e; estimated Scope 3 footprint.",
+      "snippet_zh": "MMT CO2e; estimated Scope 3 footprint.",
+      "recognition_basis_en": "MMT CO2e; estimated Scope 3 footprint.",
+      "recognition_basis_zh": "MMT CO2e; estimated Scope 3 footprint.",
+      "confidence_level": "high",
+      "review_status": "validated_demo",
+      "evidence_locator_en": "Report: Walmart ESG Report FY2025 | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：沃尔玛 FY2025 ESG 报告 | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4098,7 +4381,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4113,7 +4398,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 106",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4128,7 +4415,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 107",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4143,7 +4432,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 107",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4158,7 +4449,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 108",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4173,7 +4466,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 109",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：109"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4188,7 +4483,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_01"
+      "review_status": "seed_batch_01",
+      "evidence_locator_en": "Report: FY2025-Walmart-ESG-Report.pdf | File: FY2025-Walmart-ESG-Report.pdf | Page: 111",
+      "evidence_locator_zh": "报告：FY2025-Walmart-ESG-Report.pdf | 文件：FY2025-Walmart-ESG-Report.pdf | 页码：111"
     }
   ]
 }

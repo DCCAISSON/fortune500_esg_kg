@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "metlife_sustainability_report_2024.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 105,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 7,
-  "scope3_candidate_count": 2,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -99,6 +104,8 @@
       "snippet_zh": "Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 57 Appendix Glossary...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 61",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：61",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -121,6 +128,8 @@
       "snippet_zh": "Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 57 Appendix Glossary...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 61",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：61",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -143,6 +152,8 @@
       "snippet_zh": "Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 57 Appendix Glossary...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 61",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：61",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -165,6 +176,8 @@
       "snippet_zh": "ated by MII’s ownership percentage to get the financed emissions attributable to MetLife. These financed emissions are lastly aggregated at the portfolio lev...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法"
     }
@@ -213,6 +226,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -259,6 +274,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -305,6 +322,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -351,6 +370,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -397,6 +418,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -434,6 +457,8 @@
       "snippet_zh": "rcentage of Employees Participating in Annual MyVoice Survey 84% 85% 85% 83% Percentage of Employees Indicating a Favorable Response to “How happy are you working at MetLife?” 8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -471,6 +496,8 @@
       "snippet_zh": "rcentage of Employees Participating in Annual MyVoice Survey 84% 85% 85% 83% Percentage of Employees Indicating a Favorable Response to “How happy are you working at MetLife?” 8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -508,6 +535,8 @@
       "snippet_zh": "rcentage of Employees Participating in Annual MyVoice Survey 84% 85% 85% 83% Percentage of Employees Indicating a Favorable Response to “How happy are you working at MetLife?” 8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -545,6 +574,8 @@
       "snippet_zh": "rcentage of Employees Participating in Annual MyVoice Survey 84% 85% 85% 83% Percentage of Employees Indicating a Favorable Response to “How happy are you working at MetLife?” 8...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -591,6 +622,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -637,6 +670,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -683,6 +718,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -729,6 +766,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -775,6 +814,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -821,6 +862,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -867,6 +910,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -913,6 +958,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -959,6 +1006,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -1005,6 +1054,8 @@
       "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -1051,6 +1102,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1097,6 +1150,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1143,6 +1198,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1189,6 +1246,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1235,6 +1294,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1281,6 +1342,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1327,6 +1390,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1373,6 +1438,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1419,6 +1486,8 @@
       "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (loc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法"
     },
@@ -1456,6 +1525,8 @@
       "snippet_zh": "n ambition to work toward Net Zero greenhouse gas (GHG) emissions for its operations and general account (GA) investment portfolio by 2050 or sooner.1 Read more details online. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1493,6 +1564,8 @@
       "snippet_zh": "n ambition to work toward Net Zero greenhouse gas (GHG) emissions for its operations and general account (GA) investment portfolio by 2050 or sooner.1 Read more details online. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1530,6 +1603,8 @@
       "snippet_zh": "n ambition to work toward Net Zero greenhouse gas (GHG) emissions for its operations and general account (GA) investment portfolio by 2050 or sooner.1 Read more details online. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1567,6 +1642,8 @@
       "snippet_zh": "n ambition to work toward Net Zero greenhouse gas (GHG) emissions for its operations and general account (GA) investment portfolio by 2050 or sooner.1 Read more details online. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1604,6 +1681,8 @@
       "snippet_zh": "n ambition to work toward Net Zero greenhouse gas (GHG) emissions for its operations and general account (GA) investment portfolio by 2050 or sooner.1 Read more details online. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1641,6 +1720,8 @@
       "snippet_zh": "n ambition to work toward Net Zero greenhouse gas (GHG) emissions for its operations and general account (GA) investment portfolio by 2050 or sooner.1 Read more details online. ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1684,6 +1765,8 @@
       "snippet_zh": "ct to risks, uncertainties, assumptions or changes in circumstances that are difficult to predict or quantify. Our expectations, beliefs and projections are expressed in good fa...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 115",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：115",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -1727,6 +1810,8 @@
       "snippet_zh": "rical accounting associated with in-force reinsurance, and (iv) non- economic losses incurred at contract inception for certain single premium annuity business. These losses are...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 120",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：120",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1770,6 +1855,8 @@
       "snippet_zh": "es, future policy benefits discount rate remeasurement gains (losses), market risk benefits instrument-specific credit risk remeasurement gains (losses) and defined benefit plan...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 121",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：121",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1813,6 +1900,8 @@
       "snippet_zh": "Assets Under Management (“Total AUM”) is comprised of GA AUM plus Institutional Client AUM (each, as defined below). • General Account AUM (“GA AUM”) is used by MetLife to descr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 123",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：123",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1856,6 +1945,8 @@
       "snippet_zh": "Assets Under Management (“Total AUM”) is comprised of GA AUM plus Institutional Client AUM (each, as defined below). • General Account AUM (“GA AUM”) is used by MetLife to descr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 123",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：123",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1899,6 +1990,8 @@
       "snippet_zh": "Assets Under Management (“Total AUM”) is comprised of GA AUM plus Institutional Client AUM (each, as defined below). • General Account AUM (“GA AUM”) is used by MetLife to descr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 123",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：123",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1942,6 +2035,8 @@
       "snippet_zh": "370 Future policy benefits discount rate remeasurement gain (losses), net of income tax 6,529 Market risk benefits instrument-specific credit risk remeasurement gains (losses), ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 125",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：125",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1985,6 +2080,8 @@
       "snippet_zh": "rest entities (“VIEs”) consolidated under GAAP (“Securitization entities income”) and (v) includes distributions of profits from certain other limited partnership interests that...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：127",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2028,6 +2125,8 @@
       "snippet_zh": "onal investment manager globally for third-party clients and the largest U.S. agricultural mortgage lender7 MetLife invests in infrastructure projects that create jobs, support ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：21",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2071,6 +2170,8 @@
       "snippet_zh": "onal investment manager globally for third-party clients and the largest U.S. agricultural mortgage lender7 MetLife invests in infrastructure projects that create jobs, support ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：21",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2114,6 +2215,8 @@
       "snippet_zh": "onal investment manager globally for third-party clients and the largest U.S. agricultural mortgage lender7 MetLife invests in infrastructure projects that create jobs, support ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：21",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2157,6 +2260,8 @@
       "snippet_zh": "c Transparency Report and Assessment Report for more information. Internal committees, such as the Sustainable Investment Council, provide forums for information sharing and dis...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：22",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2200,6 +2305,8 @@
       "snippet_zh": "nts $2,665 Infrastructure Investments $4,249 Municipal Bond Investments $471 Affordable Housing Investments $594 Impact Investments $19 Total $7,998 1 Please see the Glossary fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：23",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2243,6 +2350,8 @@
       "snippet_zh": "nts $2,665 Infrastructure Investments $4,249 Municipal Bond Investments $471 Affordable Housing Investments $594 Impact Investments $19 Total $7,998 1 Please see the Glossary fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：23",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2286,6 +2395,8 @@
       "snippet_zh": "nts $2,665 Infrastructure Investments $4,249 Municipal Bond Investments $471 Affordable Housing Investments $594 Impact Investments $19 Total $7,998 1 Please see the Glossary fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：23",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2329,6 +2440,8 @@
       "snippet_zh": "more about MIM’s infrastructure investment strategies, see insights on Private Capital and Infrastructure Debt. 1 IPE Real Assets (July/August 2024 issue). Based on MIM’s Total ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：24",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2366,6 +2479,8 @@
       "snippet_zh": "t classes (offices, multi-family, industrial, retail, single family rentals, hotels and other property types). Emissions calculations are informed by the Partnership for Carbon ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2403,6 +2518,8 @@
       "snippet_zh": "t classes (offices, multi-family, industrial, retail, single family rentals, hotels and other property types). Emissions calculations are informed by the Partnership for Carbon ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2440,6 +2557,8 @@
       "snippet_zh": "t classes (offices, multi-family, industrial, retail, single family rentals, hotels and other property types). Emissions calculations are informed by the Partnership for Carbon ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2477,6 +2596,8 @@
       "snippet_zh": "t classes (offices, multi-family, industrial, retail, single family rentals, hotels and other property types). Emissions calculations are informed by the Partnership for Carbon ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2514,6 +2635,8 @@
       "snippet_zh": "the outdoors at a local beach during the EcoChallenge. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Gover...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 39",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：39",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2551,6 +2674,8 @@
       "snippet_zh": "the outdoors at a local beach during the EcoChallenge. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Gover...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 39",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：39",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2588,6 +2713,8 @@
       "snippet_zh": "sed for MetLife. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 37 1 MetLife’s carbon n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2625,6 +2752,8 @@
       "snippet_zh": "sed for MetLife. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 37 1 MetLife’s carbon n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2662,6 +2791,8 @@
       "snippet_zh": "sed for MetLife. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 37 1 MetLife’s carbon n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2699,6 +2830,8 @@
       "snippet_zh": "sed for MetLife. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 37 1 MetLife’s carbon n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2736,6 +2869,8 @@
       "snippet_zh": "sed for MetLife. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 37 1 MetLife’s carbon n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2773,6 +2908,8 @@
       "snippet_zh": "sed for MetLife. Introduction For Our Customers As an Investor For Our Colleagues For the Environment For Our Communities Responsible Governance Appendix 37 1 MetLife’s carbon n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2816,6 +2953,8 @@
       "snippet_zh": "f operations5 ~120M customers 1 Refer to As an Investor and Explanatory Note to learn more about MetLife Investment Management, LLC and certain of its affiliates (MIM), and our ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 6",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：6",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2853,6 +2992,8 @@
       "snippet_zh": "rbon Neutrality: Carbon neutral, or carbon neutrality, means eliminating or offsetting all greenhouse gas (GHG) emissions across a company’s operations. For MetLife, carbon neut...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2890,6 +3031,8 @@
       "snippet_zh": "rbon Neutrality: Carbon neutral, or carbon neutrality, means eliminating or offsetting all greenhouse gas (GHG) emissions across a company’s operations. For MetLife, carbon neut...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2927,6 +3070,8 @@
       "snippet_zh": "rbon Neutrality: Carbon neutral, or carbon neutrality, means eliminating or offsetting all greenhouse gas (GHG) emissions across a company’s operations. For MetLife, carbon neut...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2964,6 +3109,8 @@
       "snippet_zh": "rbon Neutrality: Carbon neutral, or carbon neutrality, means eliminating or offsetting all greenhouse gas (GHG) emissions across a company’s operations. For MetLife, carbon neut...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3001,6 +3148,8 @@
       "snippet_zh": "rbon Neutrality: Carbon neutral, or carbon neutrality, means eliminating or offsetting all greenhouse gas (GHG) emissions across a company’s operations. For MetLife, carbon neut...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3038,6 +3187,8 @@
       "snippet_zh": "rbon Neutrality: Carbon neutral, or carbon neutrality, means eliminating or offsetting all greenhouse gas (GHG) emissions across a company’s operations. For MetLife, carbon neut...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3081,6 +3232,8 @@
       "snippet_zh": "y rentals and other property types. Many, but not all, of these real estate assets have a green building certification such as LEED, BREEAM, ENERGY STAR® or Fitwel. Renewable En...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：64",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3118,6 +3271,8 @@
       "snippet_zh": "s-best-workplaces/. Accessed December 2024. 3, 6, 27, 29, 50, 67 Great Place to Work Great Place to Work. https://www.greatplacetowork.com/best-workplaces/100-best/2024. Accesse...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 65",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：65",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -3155,6 +3310,8 @@
       "snippet_zh": "s-best-workplaces/. Accessed December 2024. 3, 6, 27, 29, 50, 67 Great Place to Work Great Place to Work. https://www.greatplacetowork.com/best-workplaces/100-best/2024. Accesse...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 65",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：65",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -3204,6 +3361,8 @@
       "snippet_zh": "As an Investor >> MIM’s Approach to Sustainable Investing FN-AC-410a.3, Description of proxy voting and investee engagement policies and procedures MIM Stewardship Policy Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -3253,6 +3412,8 @@
       "snippet_zh": "As an Investor >> MIM’s Approach to Sustainable Investing FN-AC-410a.3, Description of proxy voting and investee engagement policies and procedures MIM Stewardship Policy Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -3302,6 +3463,8 @@
       "snippet_zh": "As an Investor >> MIM’s Approach to Sustainable Investing FN-AC-410a.3, Description of proxy voting and investee engagement policies and procedures MIM Stewardship Policy Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -3351,6 +3514,8 @@
       "snippet_zh": "As an Investor >> MIM’s Approach to Sustainable Investing FN-AC-410a.3, Description of proxy voting and investee engagement policies and procedures MIM Stewardship Policy Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -3400,6 +3565,8 @@
       "snippet_zh": "As an Investor >> MIM’s Approach to Sustainable Investing FN-AC-410a.3, Description of proxy voting and investee engagement policies and procedures MIM Stewardship Policy Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -3449,6 +3616,8 @@
       "snippet_zh": "As an Investor >> MIM’s Approach to Sustainable Investing FN-AC-410a.3, Description of proxy voting and investee engagement policies and procedures MIM Stewardship Policy Financ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据"
     },
@@ -3495,6 +3664,8 @@
       "snippet_zh": "etric is beyond what MIM tracks and discloses at this time. We are committed to improving our data collection, calculations and management over time. FN-AC-410b.4, Description o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -3541,6 +3712,8 @@
       "snippet_zh": "etric is beyond what MIM tracks and discloses at this time. We are committed to improving our data collection, calculations and management over time. FN-AC-410b.4, Description o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -3587,6 +3760,8 @@
       "snippet_zh": "etric is beyond what MIM tracks and discloses at this time. We are committed to improving our data collection, calculations and management over time. FN-AC-410b.4, Description o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
@@ -3630,6 +3805,8 @@
       "snippet_zh": "vestment in Transferable Securities Directive or managed under the Commodity Futures Trading Commission’s Commodity Pool Operator regulations. 2 Unregistered AUM are those that ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 71",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：71",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3673,6 +3850,8 @@
       "snippet_zh": "vestment in Transferable Securities Directive or managed under the Commodity Futures Trading Commission’s Commodity Pool Operator regulations. 2 Unregistered AUM are those that ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 71",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：71",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3716,6 +3895,8 @@
       "snippet_zh": "vestment in Transferable Securities Directive or managed under the Commodity Futures Trading Commission’s Commodity Pool Operator regulations. 2 Unregistered AUM are those that ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 71",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：71",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3759,6 +3940,8 @@
       "snippet_zh": "ed at the property level by taking total consumption of natural gas, electricity and steam on each site as entered into the ENERGY STAR® Portfolio Manager and testing for comple...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3802,6 +3985,8 @@
       "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scop...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -3845,6 +4030,8 @@
       "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scop...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -3888,6 +4075,8 @@
       "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scop...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -3931,6 +4120,8 @@
       "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scop...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -3974,6 +4165,8 @@
       "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scop...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -4017,6 +4210,8 @@
       "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scop...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -4060,6 +4255,8 @@
       "snippet_zh": "ies Lending Transactions and Repurchase Agreements Securities, Collateral and Reinvestment Portfolio A summary of these transactions and agreements accounted for as secured borr...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 77",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：77",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4097,6 +4294,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4134,6 +4333,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4171,6 +4372,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4208,6 +4411,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4245,6 +4450,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4282,6 +4489,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4319,6 +4528,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4356,6 +4567,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4393,6 +4606,8 @@
       "snippet_zh": "ability Scorecard for revisions to previously reported performance data. 2024 Sustainability Report >> Appendix >> Sustainability Scorecard >> Financial Data 2024 Sustainability...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4436,6 +4651,8 @@
       "snippet_zh": "ns 5.8 1 % High Yield 4.5 1 % Middle Market Private Capital 1.2 0.2 % Total $ 596.9 100 % Introduction For Our Customers As an Investor For Our Colleagues For the Environment Fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 98",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：98",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4479,6 +4696,8 @@
       "snippet_zh": "ns 5.8 1 % High Yield 4.5 1 % Middle Market Private Capital 1.2 0.2 % Total $ 596.9 100 % Introduction For Our Customers As an Investor For Our Colleagues For the Environment Fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 98",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：98",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4522,6 +4741,8 @@
       "snippet_zh": "ns 5.8 1 % High Yield 4.5 1 % Middle Market Private Capital 1.2 0.2 % Total $ 596.9 100 % Introduction For Our Customers As an Investor For Our Colleagues For the Environment Fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 98",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：98",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4565,6 +4786,8 @@
       "snippet_zh": "Financial Data MetLife’s General Account (GA) Investment Portfolio Responsible Investments1 2024 2023 2022 2021 2020 (Estimated Fair Value—$ in millions) Infrastructure2 $ 23,49...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 99",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：99",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
@@ -4672,215 +4895,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "76",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 2024 Sustainability Report >> Appendix >> S",
-      "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Location-based",
-      "basis_zh": "位置法",
-      "value_text": "2,326",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "108",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (location-based)—Scope 1 2,326 2,327 1,892 23 % Absolute Financed E",
-      "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (location-based)—Scope 1...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "76",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 2024 Sustainability Report >> Appendix >> S",
-      "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2024",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2024",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "76",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 2024 Sustainability Report >> Appendix >> S",
-      "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "4,249",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "23",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "nts $2,665 Infrastructure Investments $4,249 Municipal Bond Investments $471 Affordable Housing Investments $594 Impact Investments $19 Total $7,998 1 Please see the Glossary for additional information on responsible investments. 2 As of De",
-      "snippet_zh": "nts $2,665 Infrastructure Investments $4,249 Municipal Bond Investments $471 Affordable Housing Investments $594 Impact Investments $19 Total $7,998 1 Please see the Glossary for additional informa...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r202_metlife",
-      "company_name_en": "METLIFE",
-      "company_name_zh": "美国大都会集团",
-      "world500_rank": "202",
-      "scope3_category_code": "6",
-      "scope3_category_en": "Category 6 Business travel",
-      "scope3_category_zh": "类别6 商务差旅",
-      "value_text": "2024",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -4895,7 +4911,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 6",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：6"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4910,7 +4928,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4925,7 +4945,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4940,7 +4962,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4955,7 +4979,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4970,7 +4996,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4985,7 +5013,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 11",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5000,7 +5030,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5015,7 +5047,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5030,7 +5064,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 21",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：21"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5045,7 +5081,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5060,7 +5098,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5075,7 +5115,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5090,22 +5132,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "23",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "nts $2,665 Infrastructure Investments $4,249 Municipal Bond Investments $471 Affordable Housing Investments $594 Impact Investments $19 Total $7,998 1 Please see the Glossary for additional information on responsible investments. 2 As of De",
-      "snippet_zh": "nts $2,665 Infrastructure Investments $4,249 Municipal Bond Investments $471 Affordable Housing Investments $594 Impact Investments $19 Total $7,998 1 Please see the Glossary for additional informa...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 23",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：23"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5120,7 +5149,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5135,7 +5166,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5150,7 +5183,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5165,7 +5200,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5180,7 +5217,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 28",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5195,7 +5234,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 39",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5210,7 +5251,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 39",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5225,7 +5268,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5240,7 +5285,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5255,7 +5302,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5270,7 +5319,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5285,7 +5336,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5300,7 +5353,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 41",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5315,7 +5370,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 61",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：61"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5330,7 +5387,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 61",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：61"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5345,7 +5404,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 61",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5360,7 +5421,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5375,7 +5438,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5390,7 +5455,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5405,7 +5472,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5420,7 +5489,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5435,7 +5506,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 62",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5450,7 +5523,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 64",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：64"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5465,7 +5540,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 65",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：65"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5480,7 +5557,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 65",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：65"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5495,7 +5574,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5510,7 +5591,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5525,7 +5608,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5540,7 +5625,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5555,7 +5642,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5570,7 +5659,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data / Proxy data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据 / 代理数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5585,7 +5676,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5600,7 +5693,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5615,7 +5710,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 70",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：70"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5630,7 +5727,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 71",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：71"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5645,7 +5744,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 71",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：71"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5660,7 +5761,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 71",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：71"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5675,7 +5778,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5690,7 +5795,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5705,7 +5812,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5720,7 +5829,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5735,7 +5846,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5750,7 +5863,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5765,52 +5880,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "76",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 2024 Sustainability Report >> Appendix >> S",
-      "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "76",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 2024 Sustainability Report >> Appendix >> S",
-      "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "76",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 2024 Sustainability Report >> Appendix >> S",
-      "snippet_zh": "Insurance Sustainability Accounting Standard Code/Metric 2024 Response Financed Emissions FN-IN-410c.1, Absolute gross financed emissions, disaggregated by (1) Scope 1, (2) Scope 2 and (3) Scope 3 ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5825,7 +5897,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 76",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：76"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5840,7 +5914,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 77",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：77"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5855,7 +5931,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5870,7 +5948,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5885,7 +5965,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5900,7 +5982,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5915,7 +5999,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5930,7 +6016,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5945,7 +6033,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5960,7 +6050,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5975,7 +6067,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5990,7 +6084,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 98",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：98"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6005,7 +6101,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 98",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：98"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6020,7 +6118,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 98",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：98"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6035,7 +6135,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 99",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：99"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6050,7 +6152,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6065,7 +6169,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6080,7 +6186,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6095,7 +6203,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6110,7 +6220,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6125,7 +6237,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6140,7 +6254,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6155,7 +6271,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6170,7 +6288,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6185,7 +6305,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6200,7 +6322,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6215,7 +6339,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6230,7 +6356,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6245,7 +6373,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6260,7 +6390,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6275,7 +6407,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6290,7 +6424,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6305,7 +6441,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6320,67 +6458,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 6 Business travel",
-      "label_zh": "类别6 商务差旅",
-      "page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "105",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Scope 2 and Scope 3 business travel in 2024 f",
-      "snippet_zh": "sions are based on year-end 2023 emissions data. See “MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions” for additional details. 3 The inventory of GHG emissions from Scope 1, Sc...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 105",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6395,7 +6475,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6410,7 +6492,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6425,7 +6509,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6440,7 +6526,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6455,7 +6543,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6470,7 +6560,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6485,7 +6577,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6500,7 +6594,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6515,22 +6611,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based / PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法 / PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Location-based",
-      "label_zh": "范围1 位置法",
-      "page": "108",
-      "source_file": "metlife_sustainability_report_2024.pdf",
-      "report_title": "metlife_sustainability_report_2024.pdf",
-      "snippet_en": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (location-based)—Scope 1 2,326 2,327 1,892 23 % Absolute Financed E",
-      "snippet_zh": "Environmental Data MetLife’s GA Investment Portfolio Real Estate GHG Financed Emissions (metric tons CO2e)1 2023 2022 2019 2023 Change from 2019 Absolute Financed Emissions (location-based)—Scope 1...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 108",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：108"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6545,7 +6628,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 115",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：115"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6560,7 +6645,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 120",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：120"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6575,7 +6662,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 121",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：121"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6590,7 +6679,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 123",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：123"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6605,7 +6696,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 123",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：123"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6620,7 +6713,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 123",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：123"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6635,7 +6730,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 125",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：125"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6650,7 +6747,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: metlife_sustainability_report_2024.pdf | File: metlife_sustainability_report_2024.pdf | Page: 127",
+      "evidence_locator_zh": "报告：metlife_sustainability_report_2024.pdf | 文件：metlife_sustainability_report_2024.pdf | 页码：127"
     }
   ]
 }

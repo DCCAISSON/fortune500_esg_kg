@@ -8,6 +8,11 @@
   "industry_section_zh": "电力、热力、燃气及水生产和供应业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "eneos_en_2023_f.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 69,
   "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -97,6 +102,8 @@
       "snippet_zh": "100 Quality 111 Supply Chain Management 115 Social Contribution 123 Governance 132 Corporate Governance Framework 133 Compliance 149 Data 154 Governance, Env...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 2",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -119,6 +126,8 @@
       "snippet_zh": "Basic approach and initiatives Biodiversity Basic approach and initiatives Our Response to Climate Change Risks and Opportunities (TCFD) 21 ENEOS REPORT ESG ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 22",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：22",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -141,6 +150,8 @@
       "snippet_zh": "e calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing the transportation and distribution calculation c...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -180,6 +191,8 @@
       "snippet_zh": "every three years. 2 1 2 Responsible Minerals Initiative. Part of the Responsible Business Alliance (RBA), RMI promotes due diligence in the supply chains for conflict minerals ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 122",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：122",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -223,6 +236,8 @@
       "snippet_zh": "y durable apparatus and method for producing organic hydride as hydrogen carrier” (Patent No. 6758628). Direct MCH is a technology for producing an organic hydride methylcyclohe...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 149",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：149",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -260,6 +275,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -297,6 +314,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -334,6 +353,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -371,6 +392,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -408,6 +431,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -445,6 +470,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -482,6 +509,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -519,6 +548,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -556,6 +587,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -593,6 +626,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -630,6 +665,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -667,6 +704,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -704,6 +743,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -741,6 +782,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -778,6 +821,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -815,6 +860,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -852,6 +899,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -889,6 +938,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -926,6 +977,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -963,6 +1016,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1000,6 +1055,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1037,6 +1094,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1074,6 +1133,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1111,6 +1172,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1148,6 +1211,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1185,6 +1250,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1222,6 +1289,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1259,6 +1328,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1296,6 +1367,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1333,6 +1406,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1370,6 +1445,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1407,6 +1484,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1444,6 +1523,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1481,6 +1562,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1518,6 +1601,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1555,6 +1640,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1592,6 +1679,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1629,6 +1718,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1666,6 +1757,8 @@
       "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1703,6 +1796,8 @@
       "snippet_zh": "ization and its reporting practices Where to find 2-1 Organizational details - - 2-2 Entities included in the organization’s sustainability reporting P2 - 2-3 Reporting period, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 169",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：169",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1740,6 +1835,8 @@
       "snippet_zh": "opment 89 Health 94 Healthy Work Environment 100 Quality 111 Supply Chain Management 115 Social Contribution 123 Governance 132 Corporate Governance Framework 133 Compliance 149...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 2",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：2",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -1783,6 +1880,8 @@
       "snippet_zh": "of Society’ Sustainable aviation fuel, a low-carbon aviation fuel made from biomass, waste, and waste oil 1 Biofuel + Synthetic fuel 2 Input ratio of green raw materials (waste-...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 26",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：26",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1826,6 +1925,8 @@
       "snippet_zh": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1869,6 +1970,8 @@
       "snippet_zh": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1912,6 +2015,8 @@
       "snippet_zh": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1955,6 +2060,8 @@
       "snippet_zh": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing th...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -1998,6 +2105,8 @@
       "snippet_zh": "on tons (-10.52 million tons) 29.50 million tons or less (-6.43 million tons) 31.00 million tons or less (-4.93 million tons) To reach these targets, we are focusing our efforts...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 32",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：32",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2041,6 +2150,8 @@
       "snippet_zh": "he social implementation of technology should be, we are exploring the seeds that will contribute to the realization of a carbon-neutral society. * Calculated in accordance with...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 33",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：33",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2084,6 +2195,8 @@
       "snippet_zh": "Development of Manufacturing Technologies for Synthetic Fuels Derived from Renewable Energy ENEOS is working on the development of manufacturing technology for synthetic fuels t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 34",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2121,6 +2234,8 @@
       "snippet_zh": "is actively implementing power-saving measures at its service stations nationwide through efforts such as the installation of solar panels and the adoption of LED lighting. Cons...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 35",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：35",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2158,6 +2273,8 @@
       "snippet_zh": "is actively implementing power-saving measures at its service stations nationwide through efforts such as the installation of solar panels and the adoption of LED lighting. Cons...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 35",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：35",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2201,6 +2318,8 @@
       "snippet_zh": "MW Solar (90 sites) 898 MW Hydro (1 site) 5 MW Wind (12 sites) 179 MW Biomass (2 sites) 91 MW Total 2,645 MW Renewable Energy Power Generation (Fiscal 2023) Solar 1,059,534 MWh ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 37",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：37",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2244,6 +2363,8 @@
       "snippet_zh": "so considering the development of hydrogen stations in line with this strategy. In addition, as part of our carbon neutrality efforts, at some hydrogen stations we have introduc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 38",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：38",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2287,6 +2408,8 @@
       "snippet_zh": "thylcyclohexane (MCH) and maritime transport of MCH to Japan as a form of hydrogen storage and transport. For more information, see the following news releases. ・Neoen Australia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 39",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2330,6 +2453,8 @@
       "snippet_zh": "thylcyclohexane (MCH) and maritime transport of MCH to Japan as a form of hydrogen storage and transport. For more information, see the following news releases. ・Neoen Australia...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 39",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：39",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2373,6 +2498,8 @@
       "snippet_zh": "ncial investors. Through collaboration in this all-Japan consortium, ENEOS is working on the strategic development and efficient operation of hydrogen stations. For more informa...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 40",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：40",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2416,6 +2543,8 @@
       "snippet_zh": "lying the mass balance method : PCL100/mb (Partnered Closed Loop 100% mass balance method) and MR100/mb (Mixed Recycle 100% mass balance method) in fiscal 2024. With PCL100/mb, ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 45",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2459,6 +2588,8 @@
       "snippet_zh": "will be used as a raw material at both companies’ petroleum refinery and naphtha cracker to produce recycled petroleum and plastic products. Workflow of Plastic-to-Oil Conversio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 47",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：47",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2502,6 +2633,8 @@
       "snippet_zh": "2. We utilize the Integrated Biodiversity Assessment Tool (IBAT), available to the general public, to understand risks at our manufacturing sites. Thus far, we have investigated...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 59",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：59",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：初级数据"
     },
@@ -2545,6 +2678,8 @@
       "snippet_zh": "y regarding this change toward decarbonization is greater than anticipated. In the base-case scenario, risks include a decline in domestic fuel oil demand by around half in 2040...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 66",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：66",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2588,6 +2723,8 @@
       "snippet_zh": "year decline Amount of decline in operating profit if domestic petroleum demand declined by approx. 20% in 2030 and approx. 50% in 2040 compared to 2019 (Calculated based on the...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 67",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2631,6 +2768,8 @@
       "snippet_zh": "year decline Amount of decline in operating profit if domestic petroleum demand declined by approx. 20% in 2030 and approx. 50% in 2040 compared to 2019 (Calculated based on the...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 67",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2674,6 +2813,8 @@
       "snippet_zh": "isks ¥100 to ¥200 million/year Referenced the IPCC RCP8.5 scenario for estimation of the total amount of damage (decrease in operating profit) using WRI Aqueduct , etc. for 31 o...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 68",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：68",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2717,6 +2858,8 @@
       "snippet_zh": "1,600 tons 2 Sustainable aviation fuel, a low-carbon aviation fuel made from biomass, waste, and waste oil 1 Biofuel + synthetic fuel 2 Input ratio of green raw materials (waste...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 71",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：71",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2754,6 +2897,8 @@
       "snippet_zh": "n Practical Approaches for Business Enterprises to Respect Human Rights in Responsible Supply Chains of the Ministry of Economy, Trade and Industry, and the opinions of NGOs, in...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 85",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：85",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -2791,6 +2936,8 @@
       "snippet_zh": "plan to examine possible countermeasures, including for potential human rights risks, as part of our efforts to prevent human rights violations. Third-Party Opinion The Group ha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 87",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：87",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -2828,6 +2975,8 @@
       "snippet_zh": "2. CSR Procurement Surveys in the Supply Chain We began conducting CSR procurement surveys in cooperation with our suppliers in fiscal 2018. By including the Group’s human right...",
       "confidence_level": "medium",
       "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 88",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：88",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     }
@@ -2901,55 +3050,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r153_eneosholdings",
-      "company_name_en": "ENEOS HOLDINGS",
-      "company_name_zh": "引能仕控股株式会社",
-      "world500_rank": "153",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2022",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "157",
-      "source_file": "eneos_en_2023_f.pdf",
-      "report_title": "eneos_en_2023_f.pdf",
-      "snippet_en": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital goods Million tons 0.67 1.06 3 Fuel- and energy-related activit",
-      "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital goods Million tons 0...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r153_eneosholdings",
-      "company_name_en": "ENEOS HOLDINGS",
-      "company_name_zh": "引能仕控股株式会社",
-      "world500_rank": "153",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "2023,",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "27",
-      "source_file": "eneos_en_2023_f.pdf",
-      "report_title": "eneos_en_2023_f.pdf",
-      "snippet_en": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing the transportation and distribution calculation category. The Gro",
-      "snippet_zh": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing the transportation and...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -2964,7 +3066,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 2",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2979,7 +3083,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 2",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -2994,7 +3100,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 22",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3009,7 +3117,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 26",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：26"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3024,7 +3134,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3039,7 +3151,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3054,7 +3168,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3069,22 +3185,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "27",
-      "source_file": "eneos_en_2023_f.pdf",
-      "report_title": "eneos_en_2023_f.pdf",
-      "snippet_en": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing the transportation and distribution calculation category. The Gro",
-      "snippet_zh": "HG emissions associated with “Category 11: use of sold products” are calculated based on the latest petroleum product sales volumes. Since fiscal 2023, we have been reviewing the transportation and...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3099,7 +3202,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 27",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3114,7 +3219,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 32",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3129,7 +3236,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 33",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3144,7 +3253,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 34",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3159,7 +3270,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 35",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：35"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3174,7 +3287,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 35",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：35"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3189,7 +3304,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 37",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：37"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3204,7 +3321,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 38",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：38"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3219,7 +3338,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 39",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3234,7 +3355,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 39",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：39"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3249,7 +3372,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 40",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：40"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3264,7 +3389,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 45",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3279,7 +3406,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 47",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3294,7 +3423,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 59",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：59"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3309,7 +3440,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 66",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3324,7 +3457,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 67",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3339,7 +3474,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 67",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：67"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3354,7 +3491,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 68",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：68"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3369,7 +3508,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 71",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：71"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3384,7 +3525,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 85",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：85"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3399,7 +3542,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 87",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：87"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3414,7 +3559,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 88",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：88"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3429,7 +3576,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 122",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：122"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3444,7 +3593,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 149",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：149"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3459,7 +3610,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3474,7 +3627,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3489,7 +3644,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3504,7 +3661,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3519,7 +3678,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3534,7 +3695,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3549,7 +3712,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3564,7 +3729,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3579,7 +3746,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3594,7 +3763,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3609,7 +3780,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3624,7 +3797,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3639,7 +3814,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3654,7 +3831,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3669,7 +3848,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3684,7 +3865,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3699,7 +3882,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3714,7 +3899,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3729,7 +3916,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3744,7 +3933,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3759,7 +3950,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3774,7 +3967,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3789,7 +3984,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3804,7 +4001,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3819,7 +4018,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3834,7 +4035,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3849,7 +4052,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3864,7 +4069,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3879,7 +4086,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3894,7 +4103,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3909,7 +4120,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3924,7 +4137,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3939,7 +4154,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3954,7 +4171,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3969,7 +4188,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3984,7 +4205,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3999,7 +4222,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4014,7 +4239,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4029,22 +4256,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "157",
-      "source_file": "eneos_en_2023_f.pdf",
-      "report_title": "eneos_en_2023_f.pdf",
-      "snippet_en": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital goods Million tons 0.67 1.06 3 Fuel- and energy-related activit",
-      "snippet_zh": "issions Million tons 23.47 27.93 25.41 GHG Emissions (Scope 3) Category Unit FY2022 FY2023 Scope of data 1 Purchased goods and services Million tons 22.69 21.25 ENEOS 2 Capital goods Million tons 0...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 157",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4059,7 +4273,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_13"
+      "review_status": "seed_batch_13",
+      "evidence_locator_en": "Report: eneos_en_2023_f.pdf | File: eneos_en_2023_f.pdf | Page: 169",
+      "evidence_locator_zh": "报告：eneos_en_2023_f.pdf | 文件：eneos_en_2023_f.pdf | 页码：169"
     }
   ]
 }

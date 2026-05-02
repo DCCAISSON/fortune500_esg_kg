@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "anz-2024-esg-supplement.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 20,
   "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 2,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
@@ -91,6 +96,8 @@
       "snippet_zh": "esearch and trends • Investor reports and priorities • Peer review • Media review and analysis • The United Nations Principles for Responsible Banking • The ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 12",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：12",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -113,6 +120,8 @@
       "snippet_zh": "ort an economy wide transition Core enablers Governance and Reporting Data and Systems People and Culture Our 2024 Climate-related Financial Disclosures, pre...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 27",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：27",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -135,6 +144,8 @@
       "snippet_zh": "stainability Reporting Standards (ASRS). Currently the two key companion disclosure documents are: • Our 2024 ESG Data and Frameworks Pack which includes our...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 4",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：4",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
@@ -180,6 +191,8 @@
       "snippet_zh": "5 by ANZ in partnership with the Australian Government, it followed research showing financial exclusion was a significant challenge for Aboriginal and Torres Strait Islander pe...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 35",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：35",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -223,6 +236,8 @@
       "snippet_zh": "the ongoing suitability of their loan arrangements. Assistance ranges from proactive, early hardship offerings to simple repayment reminders to help ensure sufficient funds are ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 45",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -266,6 +281,8 @@
       "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法"
     },
@@ -309,6 +326,8 @@
       "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -352,6 +371,8 @@
       "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5",
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法"
     },
@@ -395,6 +416,8 @@
       "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法"
     },
@@ -432,6 +455,8 @@
       "snippet_zh": "nancial crime Anti-bribery and anti-corruption Social and environmental risk management Equator Principles Managing ESG risks and opportunities in our supply chain Thriving comm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 50",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：50",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -469,6 +494,8 @@
       "snippet_zh": "nancial crime Anti-bribery and anti-corruption Social and environmental risk management Equator Principles Managing ESG risks and opportunities in our supply chain Thriving comm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 51",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：51",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -506,6 +533,8 @@
       "snippet_zh": "nancial crime Anti-bribery and anti-corruption Social and environmental risk management Equator Principles Managing ESG risks and opportunities in our supply chain Thriving comm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 52",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -543,6 +572,8 @@
       "snippet_zh": "nancial crime Anti-bribery and anti-corruption Social and environmental risk management Equator Principles Managing ESG risks and opportunities in our supply chain Thriving comm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 53",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：53",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -580,6 +611,8 @@
       "snippet_zh": "nancial crime Anti-bribery and anti-corruption Social and environmental risk management Equator Principles Managing ESG risks and opportunities in our supply chain Thriving comm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 54",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：54",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -617,6 +650,8 @@
       "snippet_zh": "nancial crime Anti-bribery and anti-corruption Social and environmental risk management Equator Principles Managing ESG risks and opportunities in our supply chain Thriving comm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 55",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：55",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -654,6 +689,8 @@
       "snippet_zh": "nancial crime Anti-bribery and anti-corruption Social and environmental risk management Equator Principles Managing ESG risks and opportunities in our supply chain Thriving comm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 56",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：56",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -697,6 +734,8 @@
       "snippet_zh": "tive in character; or may be affected by inaccurate assumptions or unknown risks and uncertainties or may differ materially from results ultimately achieved. As such, these stat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 6",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：6",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -740,6 +779,8 @@
       "snippet_zh": "Modern slavery Modern slavery1 is estimated to affect 50 million people worldwide, with one in four victims being children2. An effective response to modern slavery requires the...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 60",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -783,6 +824,8 @@
       "snippet_zh": "Modern slavery Modern slavery1 is estimated to affect 50 million people worldwide, with one in four victims being children2. An effective response to modern slavery requires the...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 60",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：60",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -826,6 +869,8 @@
       "snippet_zh": "hat only lending products that will help customers ‘fund’ their activities in a material way would be included. Operational emissions Emissions associated with the operating of ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -869,6 +914,8 @@
       "snippet_zh": "hat only lending products that will help customers ‘fund’ their activities in a material way would be included. Operational emissions Emissions associated with the operating of ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -912,6 +959,8 @@
       "snippet_zh": "hat only lending products that will help customers ‘fund’ their activities in a material way would be included. Operational emissions Emissions associated with the operating of ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -955,6 +1004,8 @@
       "snippet_zh": "hat only lending products that will help customers ‘fund’ their activities in a material way would be included. Operational emissions Emissions associated with the operating of ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     }
@@ -1031,54 +1082,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r323_anzgroupholdings",
-      "company_name_en": "ANZ GROUP HOLDINGS",
-      "company_name_zh": "澳新银行集团",
-      "world500_rank": "323",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Location-based",
-      "basis_zh": "位置法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "5",
-      "source_file": "anz-2024-esg-supplement.pdf",
-      "report_title": "anz-2024-esg-supplement.pdf",
-      "snippet_en": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (location- based), global operational Scope",
-      "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r323_anzgroupholdings",
-      "company_name_en": "ANZ GROUP HOLDINGS",
-      "company_name_zh": "澳新银行集团",
-      "world500_rank": "323",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "5",
-      "source_file": "anz-2024-esg-supplement.pdf",
-      "report_title": "anz-2024-esg-supplement.pdf",
-      "snippet_en": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (location- based), global operational Scope",
-      "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -1094,7 +1098,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 4",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：4"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1109,7 +1115,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1124,7 +1132,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Assurance; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：鉴证；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1139,7 +1149,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1154,37 +1166,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Assurance; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：鉴证；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Location-based",
-      "label_zh": "范围1 位置法",
-      "page": "5",
-      "source_file": "anz-2024-esg-supplement.pdf",
-      "report_title": "anz-2024-esg-supplement.pdf",
-      "snippet_en": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (location- based), global operational Scope",
-      "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "5",
-      "source_file": "anz-2024-esg-supplement.pdf",
-      "report_title": "anz-2024-esg-supplement.pdf",
-      "snippet_en": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (location- based), global operational Scope",
-      "snippet_zh": "Further, KPMG performs limited assurance over the disclosures in the ANZ 2024 Climate-related Financial Disclosures, and reasonable assurance over global operational GHG emissions (Scope 1 and 2) (...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 5",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：5"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1199,7 +1183,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 6",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：6"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1214,7 +1200,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 12",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：12"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1229,7 +1217,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 27",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1244,7 +1234,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 35",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：35"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1259,7 +1251,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 45",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1274,7 +1268,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 50",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：50"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1289,7 +1285,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 51",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：51"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1304,7 +1302,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 52",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1319,7 +1319,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 53",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1334,7 +1336,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 54",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：54"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1349,7 +1353,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 55",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：55"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1364,7 +1370,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 56",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：56"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1379,7 +1387,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 60",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1394,7 +1404,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 60",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：60"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1409,7 +1421,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1424,7 +1438,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1439,7 +1455,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1454,7 +1472,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_14"
+      "review_status": "seed_batch_14",
+      "evidence_locator_en": "Report: anz-2024-esg-supplement.pdf | File: anz-2024-esg-supplement.pdf | Page: 74",
+      "evidence_locator_zh": "报告：anz-2024-esg-supplement.pdf | 文件：anz-2024-esg-supplement.pdf | 页码：74"
     }
   ]
 }

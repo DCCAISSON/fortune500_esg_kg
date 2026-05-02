@@ -8,6 +8,11 @@
   "industry_section_zh": "金融业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "MunichRe-Group-Annual-Report-2024-en.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 119,
   "keyword_summary_count": 9,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 3,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "GHG 体系",
     "气候披露/目标框架"
@@ -109,6 +114,8 @@
       "snippet_zh": "CO2e for thermal coal and 1,032,872 t CO2e for oil and gas. The asset classes covered by the Munich Re Group Ambition 2025 targets are currently not reconcil...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 101",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：101",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -131,6 +138,8 @@
       "snippet_zh": "ack of available data at the time of publication. They are based on available CO2e emissions from the previous year and CO2e-emission reductions as a result ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 102",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：102",
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: Measured data",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：实测数据"
     },
@@ -153,6 +162,8 @@
       "snippet_zh": "tary disclosures on scope 3 financed emissions, deriving from the standards published to date by the International Sustainability Standards Board (ISSB): IFR...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -175,6 +186,8 @@
       "snippet_zh": "tary disclosures on scope 3 financed emissions, deriving from the standards published to date by the International Sustainability Standards Board (ISSB): IFR...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61",
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准；原文命中关键词：PCAF 投融资排放方法"
     }
@@ -214,6 +227,8 @@
       "snippet_zh": "r net-zero target by 2050. In that context, we have committed to divesting from thermal coal by 2040. As part of our Munich Re Group Ambition 2025, we have set ourselves the tar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 101",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：101",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -251,6 +266,8 @@
       "snippet_zh": "r net-zero target by 2050. In that context, we have committed to divesting from thermal coal by 2040. As part of our Munich Re Group Ambition 2025, we have set ourselves the tar...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 101",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：101",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -294,6 +311,8 @@
       "snippet_zh": "Combined management report 100 Combined non-financial statement Munich Re Group Annual Report 2024 data, which is subsequently converted using emission factors. The absolute and...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 102",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：102",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -331,6 +350,8 @@
       "snippet_zh": "get by 2050. Green bonds issued 31\u001312\u00132024 Prev. year Change % Nominal volumes of green bonds issued in €m 2 250 2 250 0\u00130 Nominal volumes of green bonds issued in US$ m 1 250 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -368,6 +389,8 @@
       "snippet_zh": "get by 2050. Green bonds issued 31\u001312\u00132024 Prev. year Change % Nominal volumes of green bonds issued in €m 2 250 2 250 0\u00130 Nominal volumes of green bonds issued in US$ m 1 250 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -405,6 +428,8 @@
       "snippet_zh": "get by 2050. Green bonds issued 31\u001312\u00132024 Prev. year Change % Nominal volumes of green bonds issued in €m 2 250 2 250 0\u00130 Nominal volumes of green bonds issued in US$ m 1 250 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -442,6 +467,8 @@
       "snippet_zh": "get by 2050. Green bonds issued 31\u001312\u00132024 Prev. year Change % Nominal volumes of green bonds issued in €m 2 250 2 250 0\u00130 Nominal volumes of green bonds issued in US$ m 1 250 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -479,6 +506,8 @@
       "snippet_zh": "ions without operational control. As a rule, only GHG emissions from investments where we do not exercise any operational control fall within Category 15 “Investments”. If we ha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -516,6 +545,8 @@
       "snippet_zh": "ions without operational control. As a rule, only GHG emissions from investments where we do not exercise any operational control fall within Category 15 “Investments”. If we ha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -553,6 +584,8 @@
       "snippet_zh": "ions without operational control. As a rule, only GHG emissions from investments where we do not exercise any operational control fall within Category 15 “Investments”. If we ha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -590,6 +623,8 @@
       "snippet_zh": "ions without operational control. As a rule, only GHG emissions from investments where we do not exercise any operational control fall within Category 15 “Investments”. If we ha...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -636,6 +671,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -682,6 +719,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -728,6 +767,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -774,6 +815,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -820,6 +863,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -866,6 +911,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -912,6 +959,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -958,6 +1007,8 @@
       "snippet_zh": "stments, we use the notional value in relation to the value of the company plus cash (enterprise value including cash, EVIC), if available. If the EVIC is not available, we calc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据"
     },
@@ -1004,6 +1055,8 @@
       "snippet_zh": "Combined management report 103 Combined non-financial statement Munich Re Group Annual Report 2024 Primary data (reported emissions) is given priority over secondary data (estim...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Secondary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 次级数据"
     },
@@ -1047,6 +1100,8 @@
       "snippet_zh": "d in the IFRS Sustainability Disclosure Standard S2 are not identical to the ESRS requirements, which in turn are based on the GHG Protocol, the following table “Financed emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1090,6 +1145,8 @@
       "snippet_zh": "d in the IFRS Sustainability Disclosure Standard S2 are not identical to the ESRS requirements, which in turn are based on the GHG Protocol, the following table “Financed emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1133,6 +1190,8 @@
       "snippet_zh": "d in the IFRS Sustainability Disclosure Standard S2 are not identical to the ESRS requirements, which in turn are based on the GHG Protocol, the following table “Financed emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1176,6 +1235,8 @@
       "snippet_zh": "d in the IFRS Sustainability Disclosure Standard S2 are not identical to the ESRS requirements, which in turn are based on the GHG Protocol, the following table “Financed emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1219,6 +1280,8 @@
       "snippet_zh": "d in the IFRS Sustainability Disclosure Standard S2 are not identical to the ESRS requirements, which in turn are based on the GHG Protocol, the following table “Financed emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1262,6 +1325,8 @@
       "snippet_zh": "d in the IFRS Sustainability Disclosure Standard S2 are not identical to the ESRS requirements, which in turn are based on the GHG Protocol, the following table “Financed emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1305,6 +1370,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1348,6 +1415,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1391,6 +1460,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1434,6 +1505,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1477,6 +1550,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1520,6 +1595,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1563,6 +1640,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1606,6 +1685,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1649,6 +1730,8 @@
       "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investm...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1692,6 +1775,8 @@
       "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Abso...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1735,6 +1820,8 @@
       "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Abso...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1778,6 +1865,8 @@
       "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Abso...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1821,6 +1910,8 @@
       "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Abso...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1864,6 +1955,8 @@
       "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Abso...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1907,6 +2000,8 @@
       "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Abso...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -1950,6 +2045,8 @@
       "snippet_zh": "as the calculation basis for GHG emissions. Primarily consumption-based data was used for paper and water consumption and waste. For business travel, the Munich Re Group records...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -1993,6 +2090,8 @@
       "snippet_zh": "as the calculation basis for GHG emissions. Primarily consumption-based data was used for paper and water consumption and waste. For business travel, the Munich Re Group records...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2036,6 +2135,8 @@
       "snippet_zh": "as the calculation basis for GHG emissions. Primarily consumption-based data was used for paper and water consumption and waste. For business travel, the Munich Re Group records...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -2079,6 +2180,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2122,6 +2225,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2165,6 +2270,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2208,6 +2315,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2251,6 +2360,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2288,6 +2399,8 @@
       "snippet_zh": "h Re Group set out that GHG emissions from our own operations would be reduced by 12% per employee by 2025 in relation to the 2019 base year (2.5 t CO2e per employee). The reduc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2325,6 +2438,8 @@
       "snippet_zh": "h Re Group set out that GHG emissions from our own operations would be reduced by 12% per employee by 2025 in relation to the 2019 base year (2.5 t CO2e per employee). The reduc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2368,6 +2483,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2411,6 +2528,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2454,6 +2573,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2497,6 +2618,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2540,6 +2663,8 @@
       "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amou...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
@@ -2577,6 +2702,8 @@
       "snippet_zh": "h Re Group set out that GHG emissions from our own operations would be reduced by 12% per employee by 2025 in relation to the 2019 base year (2.5 t CO2e per employee). The reduc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2614,6 +2741,8 @@
       "snippet_zh": "h Re Group set out that GHG emissions from our own operations would be reduced by 12% per employee by 2025 in relation to the 2019 base year (2.5 t CO2e per employee). The reduc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2651,6 +2780,8 @@
       "snippet_zh": "d. The total energy and power consumption in the reporting year, broken down by fossil and renewable energies in megawatt hours (MWh), is shown in the following table. “Total fo...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 111",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：111",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2697,6 +2828,8 @@
       "snippet_zh": "between renewable and non-renewable sources of electricity based on the approach for calculating market- based scope 2 GHG emissions uses a conservative approach. Emissions are ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 111",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：111",
       "recognition_basis_en": "Structured method tag: Supplier-specific and industry-average factors; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Supplier-specific / industry-average factors / Primary data",
       "recognition_basis_zh": "结构化方法标注：供应商特定数据与行业平均因子；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：供应商特定/行业平均因子法 / 初级数据"
     },
@@ -2740,6 +2873,8 @@
       "snippet_zh": "Combined management report 110 Combined non-financial statement Munich Re Group Annual Report 2024 GHG emissions in accordance with ESRS 31\u001312\u00132024 Scope Source of emission t CO...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 112",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：112",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2783,6 +2918,8 @@
       "snippet_zh": "Combined management report 110 Combined non-financial statement Munich Re Group Annual Report 2024 GHG emissions in accordance with ESRS 31\u001312\u00132024 Scope Source of emission t CO...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 112",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：112",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2826,6 +2963,8 @@
       "snippet_zh": "Combined management report 110 Combined non-financial statement Munich Re Group Annual Report 2024 GHG emissions in accordance with ESRS 31\u001312\u00132024 Scope Source of emission t CO...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 112",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：112",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2869,6 +3008,8 @@
       "snippet_zh": "GHG footprint per employee from our business activities by evaluating the annual GHG emissions resulting from our consumption of energy, business travel, paper, water and waste....",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2912,6 +3053,8 @@
       "snippet_zh": "GHG footprint per employee from our business activities by evaluating the annual GHG emissions resulting from our consumption of energy, business travel, paper, water and waste....",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2955,6 +3098,8 @@
       "snippet_zh": "GHG footprint per employee from our business activities by evaluating the annual GHG emissions resulting from our consumption of energy, business travel, paper, water and waste....",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2992,6 +3137,8 @@
       "snippet_zh": "nies is slightly below that of the previous year. A robust and consistent method for the conversion of the intensity target (−12% per employee) to an absolute emissions target i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3029,6 +3176,8 @@
       "snippet_zh": "nies is slightly below that of the previous year. A robust and consistent method for the conversion of the intensity target (−12% per employee) to an absolute emissions target i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3066,6 +3215,8 @@
       "snippet_zh": "nies is slightly below that of the previous year. A robust and consistent method for the conversion of the intensity target (−12% per employee) to an absolute emissions target i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3103,6 +3254,8 @@
       "snippet_zh": "nies is slightly below that of the previous year. A robust and consistent method for the conversion of the intensity target (−12% per employee) to an absolute emissions target i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3140,6 +3293,8 @@
       "snippet_zh": "nies is slightly below that of the previous year. A robust and consistent method for the conversion of the intensity target (−12% per employee) to an absolute emissions target i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3177,6 +3332,8 @@
       "snippet_zh": "nies is slightly below that of the previous year. A robust and consistent method for the conversion of the intensity target (−12% per employee) to an absolute emissions target i...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3220,6 +3377,8 @@
       "snippet_zh": "rights in the Group long term. In this regard, we strive to continuously improve the guideline and the related due diligence processes, and to expand our risk assessment. We hav...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 117",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：117",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3263,6 +3422,8 @@
       "snippet_zh": "rights in the Group long term. In this regard, we strive to continuously improve the guideline and the related due diligence processes, and to expand our risk assessment. We hav...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 117",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：117",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3306,6 +3467,8 @@
       "snippet_zh": "uting service provider. The result shows the percentage of satisfied primary insurance customers in key core markets. Currently, the survey is conducted in Belgium, Germany, Est...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 133",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：133",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3343,6 +3506,8 @@
       "snippet_zh": "and targets SFDR reference: Indicator number 5 Table #1 of Annex 1 ESRS E1-5 Energy intensity associated with activities in high climate impact sectors: paragraphs 40 to 43 not ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 146",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：146",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3380,6 +3545,8 @@
       "snippet_zh": "and targets SFDR reference: Indicator number 5 Table #1 of Annex 1 ESRS E1-5 Energy intensity associated with activities in high climate impact sectors: paragraphs 40 to 43 not ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 146",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：146",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3423,6 +3590,8 @@
       "snippet_zh": "rs of the Supervisory Board to undertake concerning their knowledge of topics that are important for providing advice and supervision to the Munich Re Board of Management. The S...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 174",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：174",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3466,6 +3635,8 @@
       "snippet_zh": "for life and health reinsurance. It consistently combines underwriting business with insurance-related financial instruments. Return on investment (RoI) This is a key indicator ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 18",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：18",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3509,6 +3680,8 @@
       "snippet_zh": "of impairment is performed at the level of the cash-generating unit. This relates in particular to goodwill impairment testing. Value in use, which serves as the basis for calcu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 212",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：212",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3552,6 +3725,8 @@
       "snippet_zh": "ng the factors that market participants would consider in their pricing. Provisions for post-employment benefits The measurement of provisions for post-employment benefits requi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 213",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：213",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3598,6 +3773,8 @@
       "snippet_zh": "ntracts measured as at the transition date by applying the modified retrospective and fair value approaches came to −€566m. At the end of the financial year, these amounts stood...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 224",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：224",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据"
     },
@@ -3644,6 +3821,8 @@
       "snippet_zh": "ntracts measured as at the transition date by applying the modified retrospective and fair value approaches came to −€566m. At the end of the financial year, these amounts stood...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 224",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：224",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据"
     },
@@ -3690,6 +3869,8 @@
       "snippet_zh": "ntracts measured as at the transition date by applying the modified retrospective and fair value approaches came to −€566m. At the end of the financial year, these amounts stood...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 224",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：224",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据"
     },
@@ -3733,6 +3914,8 @@
       "snippet_zh": "consisting of building blocks 1, 2 and 3) and the contractual service margin (building block 4). For detailed explanations of the building blocks and their measurement, please r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 229",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：229",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3776,6 +3959,8 @@
       "snippet_zh": "ones used at initial recognition of the liability for incurred claims are presented in “Other comprehensive income”. When applying the PAA, we do not make use of the option to r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 230",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：230",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3819,6 +4004,8 @@
       "snippet_zh": "be moderate upward movement on the equity markets and a stable interest-rate level. Growth rates after the detailed planning phase 1\u00130% 1\u00130% 1\u00130% Discount rates 10\u00133% 10\u00132% 10\u00139...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 247",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：247",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3865,6 +4052,8 @@
       "snippet_zh": "ially recognised in the financial year and measured using the GMM, broke down as follows: Reinsurance contracts held recognised in the reporting period for the first time 2024 €...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 254",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：254",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据"
     },
@@ -3908,6 +4097,8 @@
       "snippet_zh": "ng amounts: Insurance contracts issued recognised in the reporting period for the first time – Life and health reinsurance segment 2024 Insurance contracts issued (written) Insu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 295",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：295",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3951,6 +4142,8 @@
       "snippet_zh": "Consolidated financial statements 294 Notes to the consolidated financial statements Munich Re Group Annual Report 2024 Prev. year Insurance contracts issued (written) Insurance...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 296",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：296",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -3994,6 +4187,8 @@
       "snippet_zh": "riable fee approach: Insurance contracts issued recognised in the reporting period for the first time – ERGO International segment 2024 Insurance contracts issued (written) Insu...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 297",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：297",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4037,6 +4232,8 @@
       "snippet_zh": "input. For that reason, the effects shown here on the fair values calculated may differ from the actual changes in fair value. It should also be noted that the disclosures are n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 324",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：324",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4080,6 +4277,8 @@
       "snippet_zh": "creditworthiness (such as subordination, guarantees or collateralisation), these are also taken into consideration. We use historical capital market data to determine the associ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 332",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：332",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4123,6 +4322,8 @@
       "snippet_zh": "ject to stringent requirements for the availability of liquidity. The management of liquidity risks is founded on a holistic risk strategy, on the basis of which the Board of Ma...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 338",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：338",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4166,6 +4367,8 @@
       "snippet_zh": "complexity of the losses incurred. On 3 February 2025, Munich Reinsurance Company took over the entire life and health insurance business of the Canadian branch of a US-based in...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 349",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：349",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4209,6 +4412,8 @@
       "snippet_zh": "measuring the liability for remaining coverage. IFRS 17 requires an entity-specific estimate of all future cash flows. Entities shall incorporate all information available witho...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 361",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：361",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4252,6 +4457,8 @@
       "snippet_zh": "flows is subject to considerable judgement. Future cash flows are projected using actuarial models, considering past experience and assumptions about future developments, includ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 362",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：362",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4295,6 +4502,8 @@
       "snippet_zh": "processes in order to check the complete and correct capture and determination of future cash flows as well as the derivation of the discount rates and the risk adjustment for n...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 363",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：363",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -4338,6 +4547,8 @@
       "snippet_zh": "ies 3 143 2 543 23\u00136 Cash flows from investing activities –505 –329 –53\u00133 Cash flows from financing activities –2 228 –2 983 25\u00133 Cash flows for the financial year 410 –770 – In...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 43",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：43",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4381,6 +4592,8 @@
       "snippet_zh": "rends are identified in sufficient time for countermeasures to be taken. The purpose of our external risk reporting is to provide clients, shareholders and the supervisory autho...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 44",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：44",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4424,6 +4637,8 @@
       "snippet_zh": "ent function carries out independent analyses and company- wide cross-comparisons regarding operational risks and controls (monitoring). Significant control deficiencies are add...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 45",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4467,6 +4682,8 @@
       "snippet_zh": "ndependent events. The largest natural catastrophe exposure for Munich Re is in the “Atlantic Hurricane” scenario, for which our estimate of annual loss exposure is €9.2bn (8.5b...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 48",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：48",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据"
     },
@@ -4510,6 +4727,8 @@
       "snippet_zh": "t also on other factors (such as subordination, guarantees or collateralisation), these are also taken into account. We use historical capital market data to determine the assoc...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 51",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：51",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4553,6 +4772,8 @@
       "snippet_zh": "model are regularly checked against the most important input parameters. This primarily concerns the recovery rates from insolvent debtors, the probabilities of debtor migration...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 52",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：52",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Validation; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：审定；原文命中关键词：初级数据"
     },
@@ -4596,6 +4817,8 @@
       "snippet_zh": "ion with disclosures on our insurance and investment activities. Where relevant, we disclose the sources for estimates and outcome uncertainty in the relevant topic-specific sec...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     },
@@ -4633,6 +4856,8 @@
       "snippet_zh": "de a common framework for sustainability reporting in the EU – the structure and scope of our report have changed, particularly with regard to the reporting of metrics. Beyond t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -4670,6 +4895,8 @@
       "snippet_zh": "de a common framework for sustainability reporting in the EU – the structure and scope of our report have changed, particularly with regard to the reporting of metrics. Beyond t...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -4707,6 +4934,8 @@
       "snippet_zh": "Combined management report 60 Combined non-financial statement Munich Re Group Annual Report 2024 information and are not part of the combined non- financial statement; they are...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 62",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：62",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -4750,6 +4979,8 @@
       "snippet_zh": "risks are checked annually by the process owners to ascertain whether they are up to date, and the controls are amended as necessary. Key controls and management measures to mit...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 83",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：83",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4787,6 +5018,8 @@
       "snippet_zh": "of new oil and gas fields, midstream oil infrastructure or oil-fired power plants5 Oil and gas −5% emissions12 Total Net-zero emissions by 205013 Own operations – GHG emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 92",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：92",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -4824,6 +5057,8 @@
       "snippet_zh": "of new oil and gas fields, midstream oil infrastructure or oil-fired power plants5 Oil and gas −5% emissions12 Total Net-zero emissions by 205013 Own operations – GHG emissions ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 92",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：92",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -4861,6 +5096,8 @@
       "snippet_zh": "ss measurement is based on Munich Re’s internal definitions for approximating GHG emissions regarding the activities in question, which definitions do not permit any comparabili...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：97",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -4904,6 +5141,8 @@
       "snippet_zh": "ional) oil and gas production, the target refers directly to our self-calculated GHG emissions from our clients’ insured oil and gas production that are associated with our prop...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：97",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
     },
@@ -4941,6 +5180,8 @@
       "snippet_zh": "ss measurement is based on Munich Re’s internal definitions for approximating GHG emissions regarding the activities in question, which definitions do not permit any comparabili...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：97",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -4984,6 +5225,8 @@
       "snippet_zh": "Combined management report 96 Combined non-financial statement Munich Re Group Annual Report 2024 With regard to thermal coal, the targets are derived from the following key met...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 98",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：98",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -5021,6 +5264,8 @@
       "snippet_zh": "ructure projects in which it invests directly, as well as through investments in companies that generate high levels of GHG emissions in the short, medium and long term. In addi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -5058,6 +5303,8 @@
       "snippet_zh": "ructure projects in which it invests directly, as well as through investments in companies that generate high levels of GHG emissions in the short, medium and long term. In addi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -5095,6 +5342,8 @@
       "snippet_zh": "ructure projects in which it invests directly, as well as through investments in companies that generate high levels of GHG emissions in the short, medium and long term. In addi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -5132,6 +5381,8 @@
       "snippet_zh": "ructure projects in which it invests directly, as well as through investments in companies that generate high levels of GHG emissions in the short, medium and long term. In addi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -5305,101 +5556,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r215_munichregroup",
-      "company_name_en": "MUNICH RE GROUP",
-      "company_name_zh": "慕尼黑再保险集团",
-      "world500_rank": "215",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "64",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "112",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "Combined management report 110 Combined non-financial statement Munich Re Group Annual Report 2024 GHG emissions in accordance with ESRS 31\u001312\u00132024 Scope Source of emission t CO2e Scope 1 GHG emissions 64 353 Thereof from own operations 40",
-      "snippet_zh": "Combined management report 110 Combined non-financial statement Munich Re Group Annual Report 2024 GHG emissions in accordance with ESRS 31\u001312\u00132024 Scope Source of emission t CO2e Scope 1 GHG emiss...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r215_munichregroup",
-      "company_name_en": "MUNICH RE GROUP",
-      "company_name_zh": "慕尼黑再保险集团",
-      "world500_rank": "215",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "107",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Absolute gross financed emissions, scope 2 Gross exposure t CO2e t",
-      "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Absolute gross financed ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r215_munichregroup",
-      "company_name_en": "MUNICH RE GROUP",
-      "company_name_zh": "慕尼黑再保险集团",
-      "world500_rank": "215",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "15",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "110",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amount of our financed emissions for scope 3 in Category 15 “Invest",
-      "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amount of our financed e...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r215_munichregroup",
-      "company_name_en": "MUNICH RE GROUP",
-      "company_name_zh": "慕尼黑再保险集团",
-      "world500_rank": "215",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "106",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investments GICS industry Absolute gross financed emissions, scope 1 A",
-      "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investments GICS industry A...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -5414,7 +5572,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 18",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：18"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5429,7 +5589,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 43",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：43"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5444,7 +5606,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 44",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5459,7 +5623,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 45",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5474,7 +5640,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Validation; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：审定；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 48",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：48"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5489,7 +5657,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 51",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：51"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5504,7 +5674,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Validation; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：审定；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 52",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5519,7 +5691,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5534,7 +5708,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5549,7 +5725,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5564,7 +5742,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5579,7 +5759,9 @@
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 61",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：61"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5594,7 +5776,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 62",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：62"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5609,7 +5793,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 83",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5624,7 +5810,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 92",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5639,7 +5827,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 92",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5654,7 +5844,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：97"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5669,7 +5861,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：97"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5684,7 +5878,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 97",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：97"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5699,7 +5895,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 98",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：98"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5714,7 +5912,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5729,7 +5929,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5744,7 +5946,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5759,7 +5963,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 99",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：99"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5774,7 +5980,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 101",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：101"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5789,7 +5997,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 101",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：101"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5804,7 +6014,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 101",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：101"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5819,7 +6031,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 102",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：102"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5834,7 +6048,9 @@
       "recognition_basis_en": "Structured standard tag: PCAF; Standard role: Accounting standard; Matched keywords: Measured data",
       "recognition_basis_zh": "结构化标准标注：PCAF；标准角色：核算标准；原文命中关键词：实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 102",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：102"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5849,7 +6065,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5864,7 +6082,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5879,7 +6099,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5894,7 +6116,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 103",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：103"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5909,7 +6133,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5924,7 +6150,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5939,7 +6167,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5954,7 +6184,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5969,7 +6201,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5984,7 +6218,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5999,7 +6235,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6014,7 +6252,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6029,7 +6269,9 @@
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology / Secondary data",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6044,7 +6286,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6059,7 +6303,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6074,7 +6320,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 104",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6089,7 +6337,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6104,7 +6354,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6119,7 +6371,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6134,7 +6388,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data / Secondary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6149,7 +6405,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6164,7 +6422,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6179,7 +6439,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 105",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：105"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6194,7 +6456,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6209,7 +6473,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6224,7 +6490,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6239,7 +6507,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6254,7 +6524,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6269,7 +6541,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6284,7 +6558,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6299,7 +6575,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6314,22 +6592,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "106",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investments GICS industry Absolute gross financed emissions, scope 1 A",
-      "snippet_zh": "Combined management report 104 Combined non-financial statement Munich Re Group Annual Report 2024 Financed emissions, disaggregated by GICS industries 31\u001312\u00132024 Equity investments GICS industry A...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 106",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：106"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6344,7 +6609,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6359,7 +6626,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6374,7 +6643,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6389,7 +6660,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6404,7 +6677,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6419,22 +6694,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "107",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Absolute gross financed emissions, scope 2 Gross exposure t CO2e t",
-      "snippet_zh": "Combined management report 105 Combined non-financial statement Munich Re Group Annual Report 2024 31\u001312\u00132024 Bonds GICS industry Absolute gross financed emissions, scope 1 Absolute gross financed ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 107",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：107"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6449,7 +6711,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6464,7 +6728,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6479,7 +6745,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6494,7 +6762,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6509,7 +6779,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6524,7 +6796,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6539,7 +6813,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6554,7 +6830,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6569,7 +6847,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6584,7 +6864,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6599,7 +6881,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6614,7 +6898,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6629,7 +6915,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6644,7 +6932,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6659,7 +6949,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6674,7 +6966,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6689,22 +6983,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "110",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amount of our financed emissions for scope 3 in Category 15 “Invest",
-      "snippet_zh": "ment properties and other assets, such as forestry and investments in renewables, where we exercise financial control and where no Munich Re staff work. We record the total amount of our financed e...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 110",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：110"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6719,7 +7000,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 111",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：111"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6734,7 +7017,9 @@
       "recognition_basis_en": "Structured method tag: Supplier-specific and industry-average factors; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Supplier-specific / industry-average factors / Primary data",
       "recognition_basis_zh": "结构化方法标注：供应商特定数据与行业平均因子；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：供应商特定/行业平均因子法 / 初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 111",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：111"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6749,7 +7034,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 112",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：112"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6764,7 +7051,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 112",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：112"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6779,22 +7068,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "112",
-      "source_file": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "report_title": "MunichRe-Group-Annual-Report-2024-en.pdf",
-      "snippet_en": "Combined management report 110 Combined non-financial statement Munich Re Group Annual Report 2024 GHG emissions in accordance with ESRS 31\u001312\u00132024 Scope Source of emission t CO2e Scope 1 GHG emissions 64 353 Thereof from own operations 40",
-      "snippet_zh": "Combined management report 110 Combined non-financial statement Munich Re Group Annual Report 2024 GHG emissions in accordance with ESRS 31\u001312\u00132024 Scope Source of emission t CO2e Scope 1 GHG emiss...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 112",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：112"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6809,7 +7085,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6824,7 +7102,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6839,7 +7119,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6854,7 +7136,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6869,7 +7153,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6884,7 +7170,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6899,7 +7187,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6914,7 +7204,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6929,7 +7221,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 113",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：113"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6944,7 +7238,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 117",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6959,7 +7255,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 117",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：117"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6974,7 +7272,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 133",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：133"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6989,7 +7289,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 146",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：146"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7004,7 +7306,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 146",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：146"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7019,7 +7323,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 174",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：174"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7034,7 +7340,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 212",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：212"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7049,7 +7357,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 213",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：213"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7064,7 +7374,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 224",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：224"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7079,7 +7391,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 224",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：224"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7094,7 +7408,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 224",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：224"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7109,7 +7425,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 229",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：229"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7124,7 +7442,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 230",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：230"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7139,7 +7459,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 247",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：247"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7154,7 +7476,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Measured data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 实测数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 254",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：254"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7169,7 +7493,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 295",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：295"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7184,7 +7510,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 296",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：296"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7199,7 +7527,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 297",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：297"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7214,7 +7544,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 324",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：324"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7229,7 +7561,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 332",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：332"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7244,7 +7578,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 338",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：338"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7259,7 +7595,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 349",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：349"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7274,7 +7612,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 361",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：361"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7289,7 +7629,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 362",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：362"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -7304,7 +7646,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_05"
+      "review_status": "seed_batch_05",
+      "evidence_locator_en": "Report: MunichRe-Group-Annual-Report-2024-en.pdf | File: MunichRe-Group-Annual-Report-2024-en.pdf | Page: 363",
+      "evidence_locator_zh": "报告：MunichRe-Group-Annual-Report-2024-en.pdf | 文件：MunichRe-Group-Annual-Report-2024-en.pdf | 页码：363"
     }
   ]
 }

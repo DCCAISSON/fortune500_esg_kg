@@ -8,6 +8,11 @@
   "industry_section_zh": "交通运输、仓储和邮政业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "American-Airlines-Sustainability-Report-2024.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 98,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 11,
-  "scope3_candidate_count": 2,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架",
@@ -105,6 +110,8 @@
       "snippet_zh": "latest-generation, more fuel-efficient aircraft in 2025 2024 HIGHLIGHTS Flew 26.3% of ASMs with latest-generation aircraft; approximately $11.4 billion — or ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：14",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -127,6 +134,8 @@
       "snippet_zh": "he 12 months ending December 31, 2024. This report generally aligns with relevant sections of the Task Force on Climate- related Financial Disclosures (TCFD)...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -149,6 +158,8 @@
       "snippet_zh": "he 12 months ending December 31, 2024. This report generally aligns with relevant sections of the Task Force on Climate- related Financial Disclosures (TCFD)...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -171,6 +182,8 @@
       "snippet_zh": "bstances 0.015 0.004 0.426 \u0007Reviewed by independent accountant KPMG LLP, as described in its report starting on page 88. The 2024 Scope 1 emissions, biogenic...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：位置法"
     }
@@ -210,6 +223,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -247,6 +262,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -284,6 +301,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -321,6 +340,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -364,6 +385,8 @@
       "snippet_zh": "99 0.101 1,549 Widebody legacy 0.351 0.101 4,192 Widebody latest generation7 0.318 0.089 4,253 67 Emissions From Renewable Fuels in 2024 (in metric tons)8 EMISSIONS CATEGORY SAF...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -407,6 +430,8 @@
       "snippet_zh": "99 0.101 1,549 Widebody legacy 0.351 0.101 4,192 Widebody latest generation7 0.318 0.089 4,253 67 Emissions From Renewable Fuels in 2024 (in metric tons)8 EMISSIONS CATEGORY SAF...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -444,6 +469,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -481,6 +508,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -518,6 +547,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -555,6 +586,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -592,6 +625,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -629,6 +664,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -666,6 +703,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -703,6 +742,8 @@
       "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upst...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -746,6 +787,8 @@
       "snippet_zh": "99 0.101 1,549 Widebody legacy 0.351 0.101 4,192 Widebody latest generation7 0.318 0.089 4,253 67 Emissions From Renewable Fuels in 2024 (in metric tons)8 EMISSIONS CATEGORY SAF...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -789,6 +832,8 @@
       "snippet_zh": "99 0.101 1,549 Widebody legacy 0.351 0.101 4,192 Widebody latest generation7 0.318 0.089 4,253 67 Emissions From Renewable Fuels in 2024 (in metric tons)8 EMISSIONS CATEGORY SAF...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -832,6 +877,8 @@
       "snippet_zh": "an insignificant volume in the context American’s SAF Sourcing Principles In determining what SAF to source for our operations, we currently apply the following standards for su...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：22",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -869,6 +916,8 @@
       "snippet_zh": "n as early as 2027. American also has an agreement with Citi, a partner of Breakthrough Energy Catalyst, through which American will transfer the associated emissions reduction ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：24",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -906,6 +955,8 @@
       "snippet_zh": "ticularly in low-visibility conditions, which enhances safety and reduces fuel use. In 2024, American expanded on a set of multi-year ADS-B In trials in conjunction with the FAA...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 27",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：27",
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定"
     },
@@ -943,6 +994,8 @@
       "snippet_zh": "8 126 126 Scope 3 Emissions (thousands of metric tons of CO2e) Scope 3 emissions — all categories 15,125 14,289 13,767 – \u0007Combined Categories (1, 2, 5-9, 15) 3,936 3,647 2,939 –...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -980,6 +1033,8 @@
       "snippet_zh": "8 126 126 Scope 3 Emissions (thousands of metric tons of CO2e) Scope 3 emissions — all categories 15,125 14,289 13,767 – \u0007Combined Categories (1, 2, 5-9, 15) 3,936 3,647 2,939 –...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1017,6 +1072,8 @@
       "snippet_zh": "8 126 126 Scope 3 Emissions (thousands of metric tons of CO2e) Scope 3 emissions — all categories 15,125 14,289 13,767 – \u0007Combined Categories (1, 2, 5-9, 15) 3,936 3,647 2,939 –...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1054,6 +1111,8 @@
       "snippet_zh": "8 126 126 Scope 3 Emissions (thousands of metric tons of CO2e) Scope 3 emissions — all categories 15,125 14,289 13,767 – \u0007Combined Categories (1, 2, 5-9, 15) 3,936 3,647 2,939 –...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1097,6 +1156,8 @@
       "snippet_zh": "an Airlines Sustainability Report 2024 82 Explaining Our Calculations of Jet Fuel GHG Emissions American’s use of conventional jet fuel constitutes the vast majority of our GHG ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 82",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：82",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1140,6 +1201,8 @@
       "snippet_zh": "an Airlines Sustainability Report 2024 82 Explaining Our Calculations of Jet Fuel GHG Emissions American’s use of conventional jet fuel constitutes the vast majority of our GHG ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 82",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：82",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1183,6 +1246,8 @@
       "snippet_zh": "ory, offers an alternate approach to calculating jet fuel emissions.3 Argonne publishes updates to its model regularly, based on the latest available inputs and estimates. Note ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：83",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1226,6 +1291,8 @@
       "snippet_zh": "ory, offers an alternate approach to calculating jet fuel emissions.3 Argonne publishes updates to its model regularly, based on the latest available inputs and estimates. Note ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：83",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1269,6 +1336,8 @@
       "snippet_zh": "t our engagement, the procedures we performed primarily consisted of: • inquiring of management to obtain an understanding of the methodologies and inputs used to measure and ev...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 89",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：89",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -1315,6 +1384,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1361,6 +1432,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1407,6 +1480,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1453,6 +1528,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1499,6 +1576,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1545,6 +1624,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1591,6 +1672,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1637,6 +1720,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1683,6 +1768,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1729,6 +1816,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1775,6 +1864,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1821,6 +1912,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1867,6 +1960,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1913,6 +2008,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -1959,6 +2056,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -2005,6 +2104,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -2051,6 +2152,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -2097,6 +2200,8 @@
       "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
@@ -2140,6 +2245,8 @@
       "snippet_zh": "ons. III. Organizational boundary American presents its emissions under the operational control approach, accounting for emissions from operations over which it has the full aut...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2177,6 +2284,8 @@
       "snippet_zh": "ons Scope 1 emissions are direct emissions from the combustion of fuel inside the organizational boundary and include the following: Source Boundary description Mobile combustio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2214,6 +2323,8 @@
       "snippet_zh": "ons Scope 1 emissions are direct emissions from the combustion of fuel inside the organizational boundary and include the following: Source Boundary description Mobile combustio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2251,6 +2362,8 @@
       "snippet_zh": "ons Scope 1 emissions are direct emissions from the combustion of fuel inside the organizational boundary and include the following: Source Boundary description Mobile combustio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2288,6 +2401,8 @@
       "snippet_zh": "ons Scope 1 emissions are direct emissions from the combustion of fuel inside the organizational boundary and include the following: Source Boundary description Mobile combustio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2325,6 +2440,8 @@
       "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2368,6 +2485,8 @@
       "snippet_zh": "of the following that are significant either individually or in aggregate: • Structural changes in the organizational boundary, including acquisitions and divestments. • Changes...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2411,6 +2530,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2448,6 +2569,8 @@
       "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2491,6 +2614,8 @@
       "snippet_zh": "of the following that are significant either individually or in aggregate: • Structural changes in the organizational boundary, including acquisitions and divestments. • Changes...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2534,6 +2659,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2571,6 +2698,8 @@
       "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2614,6 +2743,8 @@
       "snippet_zh": "of the following that are significant either individually or in aggregate: • Structural changes in the organizational boundary, including acquisitions and divestments. • Changes...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2657,6 +2788,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2703,6 +2836,8 @@
       "snippet_zh": "Report 2024 93 Emissions from stationary combustion are calculated by multiplying volumes consumed by emission factors. In the event that source documents for volumes are not av...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据"
     },
@@ -2749,6 +2884,8 @@
       "snippet_zh": "Report 2024 93 Emissions from stationary combustion are calculated by multiplying volumes consumed by emission factors. In the event that source documents for volumes are not av...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据"
     },
@@ -2795,6 +2932,8 @@
       "snippet_zh": "Report 2024 93 Emissions from stationary combustion are calculated by multiplying volumes consumed by emission factors. In the event that source documents for volumes are not av...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据"
     },
@@ -2841,6 +2980,8 @@
       "snippet_zh": "n the U.S. contains 10% ethanol. U.S. gasoline volume is based on primary use data. In locations where blended gasoline volumes are not available, the volumes are estimated base...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据"
     },
@@ -2887,6 +3028,8 @@
       "snippet_zh": "n the U.S. contains 10% ethanol. U.S. gasoline volume is based on primary use data. In locations where blended gasoline volumes are not available, the volumes are estimated base...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据"
     },
@@ -2930,6 +3073,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -2973,6 +3118,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3016,6 +3163,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3059,6 +3208,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3105,6 +3256,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3151,6 +3304,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3197,6 +3352,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3243,6 +3400,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3289,6 +3448,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3332,6 +3493,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3375,6 +3538,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3418,6 +3583,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3461,6 +3628,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3507,6 +3676,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3553,6 +3724,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3599,6 +3772,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3645,6 +3820,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3691,6 +3868,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -3737,6 +3916,8 @@
       "snippet_zh": "purchased electricity by the appropriate emissions factors. Electricity consumption is based on billed consumption from utility bills. At some locations, electricity is not bill...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据"
     },
@@ -3783,6 +3964,8 @@
       "snippet_zh": "purchased electricity by the appropriate emissions factors. Electricity consumption is based on billed consumption from utility bills. At some locations, electricity is not bill...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据"
     },
@@ -3826,6 +4009,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3869,6 +4054,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3912,6 +4099,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -3955,6 +4144,8 @@
       "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -4001,6 +4192,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -4047,6 +4240,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -4093,6 +4288,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -4139,6 +4336,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -4185,6 +4384,8 @@
       "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94",
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据"
     },
@@ -4228,6 +4429,8 @@
       "snippet_zh": "plying lifecycle emissions factors, as described in the table immediately above, to the applicable renewable fuel consumption. Upstream emissions from electricity (T&D loss) are...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -4271,6 +4474,8 @@
       "snippet_zh": "plying lifecycle emissions factors, as described in the table immediately above, to the applicable renewable fuel consumption. Upstream emissions from electricity (T&D loss) are...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -4314,6 +4519,8 @@
       "snippet_zh": "plying lifecycle emissions factors, as described in the table immediately above, to the applicable renewable fuel consumption. Upstream emissions from electricity (T&D loss) are...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -4357,6 +4564,8 @@
       "snippet_zh": "imate electricity loss. eGRID emission factors are then applied to electricity loss to estimate emissions. Upstream emissions from electricity generation are calculated by apply...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     }
@@ -4474,307 +4683,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "74",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "82",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "an Airlines Sustainability Report 2024 82 Explaining Our Calculations of Jet Fuel GHG Emissions American’s use of conventional jet fuel constitutes the vast majority of our GHG emissions — 99% of our Scope 1 emissions and 74% of our Scope 3",
-      "snippet_zh": "an Airlines Sustainability Report 2024 82 Explaining Our Calculations of Jet Fuel GHG Emissions American’s use of conventional jet fuel constitutes the vast majority of our GHG emissions — 99% of o...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fuel in operations. d. Scope 3 emissions Scop",
-      "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fu...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "94",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope 1 or Scope 2) Volume based • Upstream jet fuel factor is derive",
-      "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope 1 or Scope 2) Volume...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Location-based",
-      "basis_zh": "位置法",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "94",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoices c. Scope 2 emissions Source Method Emiss",
-      "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoic...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "90",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Category 3, fuel- and energy-related activities 8,",
-      "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Categor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions is 2019. American selected 2019 as the Sco",
-      "snippet_zh": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fuel in operations. d. Scope 3 emissions Scop",
-      "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fu...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "74",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "16",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upstream fuel emissions); 14% is from purchased goods and services",
-      "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upstream fuel emissions)...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "3",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fuel in operations. d. Scope 3 emissions Scop",
-      "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fu...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "3,",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "90",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Category 3, fuel- and energy-related activities 8,",
-      "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Categor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2019.",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions is 2019. American selected 2019 as the Sco",
-      "snippet_zh": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope3_category_code": "3",
-      "scope3_category_en": "Category 3 Fuel- and energy-related activities",
-      "scope3_category_zh": "类别3 燃料与能源相关活动",
-      "value_text": "8,",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "90",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Category 3, fuel- and energy-related activities 8,",
-      "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Categor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r278_americanairlinesgroup",
-      "company_name_en": "AMERICAN AIRLINES GROUP",
-      "company_name_zh": "美国航空集团",
-      "world500_rank": "278",
-      "scope3_category_code": "4",
-      "scope3_category_en": "Category 4 Upstream transportation and distribution",
-      "scope3_category_zh": "类别4 上游运输与配送",
-      "value_text": "1",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "94",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoices c. Scope 2 emissions Source Method Emiss",
-      "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoic...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -4789,7 +4699,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4804,7 +4716,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 2",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4819,7 +4733,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 14",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4834,7 +4750,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4849,7 +4767,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4864,7 +4784,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4879,7 +4801,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4894,7 +4818,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4909,7 +4835,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4924,7 +4852,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4939,7 +4869,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4954,7 +4886,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4969,7 +4903,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4984,7 +4920,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4999,7 +4937,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5014,7 +4954,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5029,7 +4971,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5044,7 +4988,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5059,22 +5005,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "16",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upstream fuel emissions); 14% is from purchased goods and services",
-      "snippet_zh": "ing 787-9. Legacy aircraft encompasses all other mainline aircraft. 8 Emissions figures may reflect rounding. Scope 3 74% is from jet fuel (contracted regional carriers and upstream fuel emissions)...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 16",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：16"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5089,7 +5022,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 22",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5104,7 +5039,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 24",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5119,7 +5056,9 @@
       "recognition_basis_en": "Structured assurance tag: Validation",
       "recognition_basis_zh": "结构化核查环节：审定",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 27",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5134,7 +5073,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5149,7 +5090,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5164,7 +5107,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5179,7 +5124,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81"
     },
     {
       "fact_type_en": "Standard reference",
@@ -5194,7 +5141,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard; Matched keywords: Location-based",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准；原文命中关键词：位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 81",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：81"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5209,7 +5158,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 82",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5224,22 +5175,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "82",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "an Airlines Sustainability Report 2024 82 Explaining Our Calculations of Jet Fuel GHG Emissions American’s use of conventional jet fuel constitutes the vast majority of our GHG emissions — 99% of our Scope 1 emissions and 74% of our Scope 3",
-      "snippet_zh": "an Airlines Sustainability Report 2024 82 Explaining Our Calculations of Jet Fuel GHG Emissions American’s use of conventional jet fuel constitutes the vast majority of our GHG emissions — 99% of o...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 82",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：82"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5254,7 +5192,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5269,7 +5209,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 83",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：83"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5284,7 +5226,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 89",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：89"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5299,7 +5243,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5314,7 +5260,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5329,7 +5277,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5344,7 +5294,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5359,7 +5311,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5374,7 +5328,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5389,7 +5345,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5404,7 +5362,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5419,7 +5379,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5434,7 +5396,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5449,7 +5413,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5464,7 +5430,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5479,7 +5447,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5494,7 +5464,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5509,7 +5481,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5524,7 +5498,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5539,7 +5515,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5554,52 +5532,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 3 Fuel- and energy-related activities",
-      "label_zh": "类别3 燃料与能源相关活动",
-      "page": "90",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Category 3, fuel- and energy-related activities 8,",
-      "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Categor...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "90",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Category 3, fuel- and energy-related activities 8,",
-      "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Categor...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3 Market-based",
-      "label_zh": "范围3 市场法",
-      "page": "90",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Category 3, fuel- and energy-related activities 8,",
-      "snippet_zh": "enic emissions 30,908 Scope 2 emissions: Location-based method 177,858 Market-based method 128,153 Total Scope 1 and 2 emissions (market-based method) 40,074,834 Selected Scope 3 emissions: Categor...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 90",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：90"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5614,7 +5549,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5629,7 +5566,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5644,7 +5583,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5659,7 +5600,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5674,7 +5617,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 91",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：91"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5689,7 +5634,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5704,7 +5651,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5719,7 +5668,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5734,7 +5685,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5749,7 +5702,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5764,7 +5719,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5779,7 +5736,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5794,7 +5753,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5809,82 +5770,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fuel in operations. d. Scope 3 emissions Scop",
-      "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fu...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions is 2019. American selected 2019 as the Sco",
-      "snippet_zh": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fuel in operations. d. Scope 3 emissions Scop",
-      "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fu...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fuel in operations. d. Scope 3 emissions Scop",
-      "snippet_zh": "ethodology changes that warrant recalculating its Scope 1, Scope 2 or Scope 3 categories 3 and 4 base year emissions. American’s GHG emissions fluctuate over time primarily due to the use of jet fu...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3 Market-based",
-      "label_zh": "范围3 市场法",
-      "page": "92",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions is 2019. American selected 2019 as the Sco",
-      "snippet_zh": "American Airlines Sustainability Report 2024 92 VII. Base year American’s base year for Scope 1 and Scope 2 (location and market-based) emissions is 2016. American’s base year for Scope 3 emissions...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 92",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：92"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5899,7 +5787,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5914,7 +5804,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5929,7 +5821,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5944,7 +5838,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5959,7 +5855,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Estimated data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 93",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：93"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5974,7 +5872,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5989,7 +5889,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6004,7 +5906,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6019,7 +5923,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6034,7 +5940,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6049,7 +5957,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6064,7 +5974,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6079,7 +5991,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6094,7 +6008,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6109,7 +6025,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6124,7 +6042,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6139,7 +6059,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6154,7 +6076,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6169,7 +6093,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6184,7 +6110,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6199,7 +6127,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6214,7 +6144,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6229,7 +6161,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6244,7 +6178,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6259,7 +6195,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6274,7 +6212,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6289,7 +6229,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6304,7 +6246,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6319,7 +6263,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6334,7 +6280,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6349,7 +6297,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6364,7 +6314,9 @@
       "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6379,7 +6331,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6394,52 +6348,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 4 Upstream transportation and distribution",
-      "label_zh": "类别4 上游运输与配送",
-      "page": "94",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoices c. Scope 2 emissions Source Method Emiss",
-      "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoic...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "94",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope 1 or Scope 2) Volume based • Upstream jet fuel factor is derive",
-      "snippet_zh": "American Airlines Sustainability Report 2024 94 d. Scope 3 emissions Source Method Emissions factor Inputs Category 3, fuel and energy related activities (not included in Scope 1 or Scope 2) Volume...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Location-based",
-      "label_zh": "范围1 位置法",
-      "page": "94",
-      "source_file": "American-Airlines-Sustainability-Report-2024.pdf",
-      "report_title": "American-Airlines-Sustainability-Report-2024.pdf",
-      "snippet_en": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoices c. Scope 2 emissions Source Method Emiss",
-      "snippet_zh": "bills • Square footage of buildings Category 4, upstream transportation and distribution Volume based • Emission factors used to calculate Scope 1 and Scope 3 emissions for jet fuel Supplier invoic...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 94",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：94"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6454,7 +6365,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6469,7 +6382,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6484,7 +6399,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -6499,7 +6416,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: American-Airlines-Sustainability-Report-2024.pdf | File: American-Airlines-Sustainability-Report-2024.pdf | Page: 95",
+      "evidence_locator_zh": "报告：American-Airlines-Sustainability-Report-2024.pdf | 文件：American-Airlines-Sustainability-Report-2024.pdf | 页码：95"
     }
   ]
 }

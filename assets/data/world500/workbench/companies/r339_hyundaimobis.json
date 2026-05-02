@@ -8,6 +8,11 @@
   "industry_section_zh": "制造业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "HYUNDAI MOBIS sustainability report 2025.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 79,
   "keyword_summary_count": 6,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 8,
-  "scope3_candidate_count": 6,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "ESG 披露框架",
     "ISO 体系",
@@ -117,6 +122,8 @@
       "snippet_zh": "142 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Appendix Material Impacts, Risks, and Opportunities 143 Sustainability I...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 142",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：142",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -139,6 +146,8 @@
       "snippet_zh": "td. during 2024. Verification Criteria The verification process was based on [Rule for emission reporting and certification of greenhouse gas emission tradin...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 157",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：157",
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准"
     },
@@ -161,6 +170,8 @@
       "snippet_zh": "rational control and organizational boundary of company during 2024. 2) Unitus Co., Ltd., Motras Co., Ltd., Hyundai IHL Co., Ltd., H Green Power Co., Ltd., G...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 158",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：158",
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准"
     },
@@ -183,6 +194,8 @@
       "snippet_zh": "lity Assessment Materiality Assessment Process To determine material environmental and social topics that may bring a significant impact during the course of...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 31",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：31",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     },
@@ -205,6 +218,8 @@
       "snippet_zh": "internal capability enhancement present opportunities to improve organizational productivity and reduce costs. Response Strategy • \u0007Declare the ‘2045 net zer...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 33",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：33",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     },
@@ -227,6 +242,8 @@
       "snippet_zh": "internal capability enhancement present opportunities to improve organizational productivity and reduce costs. Response Strategy • \u0007Declare the ‘2045 net zer...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 33",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：33",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -249,6 +266,8 @@
       "snippet_zh": "s GHG emissions by Scope 3 category to ensure systemic GHG emissions management across the entire value chain. We quantify and disclose category-specific emi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：46",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     }
@@ -288,6 +307,8 @@
       "snippet_zh": "ude business partners of its suppliers to prevent use of conflict minerals and fulfill social responsibility throughout the supply chain. 1) CAHRAs: Conflict Affected and High-R...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 109",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：109",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -325,6 +346,8 @@
       "snippet_zh": "ement at the product level for qualitative growth centered on high value- added products Green Value • \u0007Green Plant: Achieve net zero emissions for operation sites by 2040 and f...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -368,6 +391,8 @@
       "snippet_zh": "ion trading scheme”. 3) \u0007Thus, KFQ concludes that the Greenhouse Gas Emissions of Company in 2024 is correctly calculated and stated in accordance with “Rule for emission report...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 157",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：157",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -411,6 +436,8 @@
       "snippet_zh": "ion trading scheme”. 3) \u0007Thus, KFQ concludes that the Greenhouse Gas Emissions of Company in 2024 is correctly calculated and stated in accordance with “Rule for emission report...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 157",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：157",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -454,6 +481,8 @@
       "snippet_zh": "undai IHL Co., Ltd., H Green Power Co., Ltd., GIT Co., Ltd. Emission calculation period The emission calculation period is from January 1 st to December 31 st, 2024. GHG Emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 159",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：159",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -497,6 +526,8 @@
       "snippet_zh": "undai IHL Co., Ltd., H Green Power Co., Ltd., GIT Co., Ltd. Emission calculation period The emission calculation period is from January 1 st to December 31 st, 2024. GHG Emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 159",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：159",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -543,6 +574,8 @@
       "snippet_zh": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,4...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 160",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：160",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法 / 位置法"
     },
@@ -589,6 +622,8 @@
       "snippet_zh": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,4...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 160",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：160",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法 / 位置法"
     },
@@ -626,6 +661,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -663,6 +700,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -700,6 +739,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -737,6 +778,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -774,6 +817,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -811,6 +856,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -848,6 +895,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -885,6 +934,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -922,6 +973,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -959,6 +1012,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -996,6 +1051,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1033,6 +1090,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1070,6 +1129,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1107,6 +1168,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1144,6 +1207,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1181,6 +1246,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1218,6 +1285,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1255,6 +1324,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1292,6 +1363,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1329,6 +1402,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1366,6 +1441,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1403,6 +1480,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1440,6 +1519,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1477,6 +1558,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1514,6 +1597,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1551,6 +1636,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1588,6 +1675,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1625,6 +1714,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1662,6 +1753,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1699,6 +1792,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1736,6 +1831,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1773,6 +1870,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1810,6 +1909,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1847,6 +1948,8 @@
       "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital good...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -1890,6 +1993,8 @@
       "snippet_zh": "rent entities may make different but acceptable interpretations, determinations, and estimates. The sustainability information includes information regarding the Company's envir...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 163",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：163",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -1933,6 +2038,8 @@
       "snippet_zh": "y Assessment Sustainability Management Lead the Shift in Mobility, Move the World beyond Possibilities Guided by its management vision, Hyundai Mobis pursues the following three...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 28",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：28",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
     },
@@ -1976,6 +2083,8 @@
       "snippet_zh": "tion Results of Impact Valuation • \u0007Total avoided CO2 emissions (average reduction effect × distances traveled) amounted to 1,161,214 tCO₂eq, reflecting reductions in CO2 emissi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 34",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2013,6 +2122,8 @@
       "snippet_zh": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 41",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2050,6 +2161,8 @@
       "snippet_zh": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 41",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2087,6 +2200,8 @@
       "snippet_zh": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 41",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：41",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2130,6 +2245,8 @@
       "snippet_zh": "o the government for any GHG emissions that exceed the allocated quota. The government’s free allocation ratio is on the decline while allowance prices are expected to rise unde...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 45",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：45",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2173,6 +2290,8 @@
       "snippet_zh": "Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Activity and Resource GHG Emissions Management Scope 1 & 2 Emissions Management We have establis...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：46",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -2210,6 +2329,8 @@
       "snippet_zh": "Transition Options (Unit: %) Energy Consumption 9,075TJ Renewable Energy Consumption and Transition 1,005TJ Certificate purchase 74.5 Renewable energy consumption 1.1 Virtual po...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 47",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：47",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2253,6 +2374,8 @@
       "snippet_zh": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 50",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：50",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2296,6 +2419,8 @@
       "snippet_zh": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 50",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：50",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
@@ -2339,6 +2464,8 @@
       "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 24...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2382,6 +2509,8 @@
       "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 24...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2425,6 +2554,8 @@
       "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 24...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2468,6 +2599,8 @@
       "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 24...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2511,6 +2644,8 @@
       "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 24...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2554,6 +2689,8 @@
       "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 24...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2597,6 +2734,8 @@
       "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 24...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
@@ -2634,6 +2773,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2671,6 +2812,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2708,6 +2851,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2745,6 +2890,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2782,6 +2929,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2819,6 +2968,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2856,6 +3007,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2893,6 +3046,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2930,6 +3085,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -2967,6 +3124,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3004,6 +3163,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3041,6 +3202,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3078,6 +3241,8 @@
       "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,7...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3121,6 +3286,8 @@
       "snippet_zh": "Standard, and accounted for items for which category-specific calculation methods or coverage were changed by retrospectively including emissions from previous years (not includ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52",
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
@@ -3158,6 +3325,8 @@
       "snippet_zh": "rgy consumption % ~ ~ ~ ~ 0 0 0 0 0 0 0 0 Consumption of energy from unknown sources TJ 1,807 1,924 3,222 6,953 1,943 1,898 3,095 6,936 2,015 1,925 3,131 7,071 MWh 188,217 200,3...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 53",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：53",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3195,6 +3364,8 @@
       "snippet_zh": "gement section of this report. ‘Enhancing Our Global Environmental Management Framework’ – Environmental Management Workplace Pollutant Management Air Pollutant Management To mi...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 57",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：57",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -3238,6 +3409,8 @@
       "snippet_zh": "3.86 10.92 99.86 114.64 8.78 8.33 63.28 80.39 Volatile organic compound (VOC) 2) ton ~ ~ ~ ~ ~ ~ ~ ~ 0.22 ~ 68.12 68.34 Air pollutant emissions intensity 3) ton / KRW billion 0....",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 58",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：58",
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
@@ -3284,6 +3457,8 @@
       "snippet_zh": "Product Life Cycle Assessment Raw material extraction and production • \u0007Expand the sourcing of low- carbon raw materials • \u0007Develop eco-friendly materials 6) \u0007Change the number ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 65",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：65",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Primary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 初级数据"
     },
@@ -3330,6 +3505,8 @@
       "snippet_zh": "er lamps as a key pilot product and conducted LCA accordingly. Global warming was selected as the scope of environmental impact, and emissions were calculated for three types of...",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 66",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：66",
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Secondary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 次级数据"
     }
@@ -3450,326 +3627,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "41",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase 1 Phase 2 30% reduction 80% reduction 100%",
-      "snippet_zh": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "46",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Activity and Resource GHG Emissions Management Scope 1 & 2 Emissions Management We have established our GHG inventory covering CO2, CH4, N2O, HFCs, PFCs, and S",
-      "snippet_zh": "Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Activity and Resource GHG Emissions Management Scope 1 & 2 Emissions Management We have established our GHG inventor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "50",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Reporting year % 114.3 107.3 62.4 Achieve 15.5%",
-      "snippet_zh": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Repor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "160",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 189,420 Verification Target Korean Foundation",
-      "snippet_zh": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 18...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "Market-based",
-      "basis_zh": "市场法",
-      "value_text": "1",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "160",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 189,420 Verification Target Korean Foundation",
-      "snippet_zh": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 18...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2030",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "41",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase 1 Phase 2 30% reduction 80% reduction 100%",
-      "snippet_zh": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2022",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "50",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Reporting year % 114.3 107.3 62.4 Achieve 15.5%",
-      "snippet_zh": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Repor...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-and energy-related activities 4) tCO2eq 65,82",
-      "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-an...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope3_category_code": "1",
-      "scope3_category_en": "Category 1 Purchased goods and services",
-      "scope3_category_zh": "类别1 购买的商品和服务",
-      "value_text": "3",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-and energy-related activities 4) tCO2eq 65,82",
-      "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-an...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "9",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. Investments 4) tCO2eq 82,720 84,525 85,206 To",
-      "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. In...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope3_category_code": "12",
-      "scope3_category_en": "Category 12 End-of-life treatment of sold products",
-      "scope3_category_zh": "类别12 销售产品的退役处理",
-      "value_text": "9",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. Investments 4) tCO2eq 82,720 84,525 85,206 To",
-      "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. In...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "value_text": "4",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. Investments 4) tCO2eq 82,720 84,525 85,206 To",
-      "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. In...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "18,405",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "162",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital goods 18,405 3 Fuel and Energy-related activities not included in S",
-      "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital goods 18,405 3 Fuel and ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    },
-    {
-      "company_id": "r339_hyundaimobis",
-      "company_name_en": "HYUNDAI MOBIS",
-      "company_name_zh": "现代摩比斯公司",
-      "world500_rank": "339",
-      "scope3_category_code": "2",
-      "scope3_category_en": "Category 2 Capital goods",
-      "scope3_category_zh": "类别2 资本货物",
-      "value_text": "4",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-and energy-related activities 4) tCO2eq 65,82",
-      "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-an...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Methodology fact",
@@ -3784,7 +3643,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 11",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：11"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3799,7 +3660,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 28",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：28"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3814,7 +3677,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 31",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：31"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3829,7 +3694,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 33",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：33"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3844,7 +3711,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 33",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3859,7 +3728,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 34",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：34"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3874,7 +3745,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 41",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3889,7 +3762,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 41",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3904,37 +3779,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "41",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase 1 Phase 2 30% reduction 80% reduction 100%",
-      "snippet_zh": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "41",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase 1 Phase 2 30% reduction 80% reduction 100%",
-      "snippet_zh": "tic / overseas operations (Scope 1 & 2) Manage supply chain reductions and expand low-carbon products to accelerate reductions in Scope 3 emissions 2030 (interim year) 2040 2045 (target year) Phase...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 41",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3949,7 +3796,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 45",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：45"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -3964,22 +3813,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "46",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Activity and Resource GHG Emissions Management Scope 1 & 2 Emissions Management We have established our GHG inventory covering CO2, CH4, N2O, HFCs, PFCs, and S",
-      "snippet_zh": "Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Activity and Resource GHG Emissions Management Scope 1 & 2 Emissions Management We have established our GHG inventor...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：46"
     },
     {
       "fact_type_en": "Standard reference",
@@ -3994,7 +3830,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 46",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：46"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4009,7 +3847,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 47",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：47"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4024,7 +3864,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 50",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：50"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4039,37 +3881,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "50",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Reporting year % 114.3 107.3 62.4 Achieve 15.5%",
-      "snippet_zh": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Repor...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "50",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Reporting year % 114.3 107.3 62.4 Achieve 15.5%",
-      "snippet_zh": "on target (Scope 1 + 2) tCO2eq 114,884 382,946 382,946 1) Overall target including Scope 3 emissions Base Year Unit 2022 2023 2024 ~2031 Target Parent Parent Parent Consolidated Progress rate Repor...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 50",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：50"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4084,7 +3898,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4099,7 +3915,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4114,7 +3932,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4129,7 +3949,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4144,7 +3966,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4159,7 +3983,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4174,7 +4000,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4189,7 +4017,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4204,7 +4034,9 @@
       "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
       "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4219,7 +4051,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4234,7 +4068,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4249,7 +4085,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4264,7 +4102,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4279,7 +4119,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4294,7 +4136,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4309,7 +4153,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4324,7 +4170,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4339,7 +4187,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4354,7 +4204,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4369,7 +4221,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4384,97 +4238,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 1 Purchased goods and services",
-      "label_zh": "类别1 购买的商品和服务",
-      "page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-and energy-related activities 4) tCO2eq 65,82",
-      "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-an...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. Investments 4) tCO2eq 82,720 84,525 85,206 To",
-      "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. In...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 12 End-of-life treatment of sold products",
-      "label_zh": "类别12 销售产品的退役处理",
-      "page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. Investments 4) tCO2eq 82,720 84,525 85,206 To",
-      "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. In...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 15 Investments",
-      "label_zh": "类别15 投资",
-      "page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. Investments 4) tCO2eq 82,720 84,525 85,206 To",
-      "snippet_zh": "of sold products 4) tCO2eq 58,075 56,748 54,274 11. Use of sold products 9) tCO2eq 1,423,679 1,676,190 1,480,277 12. \u0007End-of-life treatment of sold products 9) tCO2eq 221,823 245,123 232,659 15. In...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-and energy-related activities 4) tCO2eq 65,82",
-      "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-an...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "52",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-and energy-related activities 4) tCO2eq 65,82",
-      "snippet_zh": ") Scope 3 GHG emissions 2) tCO2eq 3,077,693 3,344,082 3,136,024 Upstream 1. Purchased goods and services 3) tCO2eq 714,647 820,377 794,951 2. Capital goods 4) tCO2eq 18,413 22,712 18,405 3. Fuel-an...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 52",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：52"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4489,7 +4255,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 53",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：53"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4504,7 +4272,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 57",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4519,7 +4289,9 @@
       "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
       "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 58",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：58"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4534,7 +4306,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Primary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 初级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 65",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：65"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4549,7 +4323,9 @@
       "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment / Secondary data",
       "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：生命周期评价 / 次级数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 66",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：66"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4564,7 +4340,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 109",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：109"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4579,7 +4357,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 142",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：142"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4594,7 +4374,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 157",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：157"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4609,7 +4391,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 157",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：157"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4624,7 +4408,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064-3; Standard role: Verification and assurance standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064-3；标准角色：核查与鉴证标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 157",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：157"
     },
     {
       "fact_type_en": "Standard reference",
@@ -4639,7 +4425,9 @@
       "recognition_basis_en": "Structured standard tag: ISO 14064; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 158",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：158"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4654,7 +4442,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 159",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：159"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4669,7 +4459,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 159",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：159"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4684,7 +4476,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 160",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：160"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4699,37 +4493,9 @@
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based / Location-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1 Market-based",
-      "label_zh": "范围1 市场法",
-      "page": "160",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 189,420 Verification Target Korean Foundation",
-      "snippet_zh": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 18...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2 Market-based",
-      "label_zh": "范围2 市场法",
-      "page": "160",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 189,420 Verification Target Korean Foundation",
-      "snippet_zh": "160 Corporate Overview Environment Social Governance Appendix Letter to Stakeholders Location-based Market-based Scope 1 Scope 2 Total Scope 1 Scope 2 Total 30,487 176,002 206,489 30,487 158,933 18...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 160",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：160"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4744,7 +4510,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4759,7 +4527,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4774,7 +4544,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4789,7 +4561,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4804,7 +4578,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4819,7 +4595,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4834,7 +4612,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4849,7 +4629,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4864,7 +4646,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4879,7 +4663,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4894,7 +4680,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4909,7 +4697,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4924,7 +4714,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4939,7 +4731,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4954,7 +4748,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4969,7 +4765,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4984,7 +4782,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -4999,7 +4799,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5014,7 +4816,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5029,7 +4833,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5044,7 +4850,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5059,7 +4867,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5074,7 +4884,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5089,7 +4901,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5104,7 +4918,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5119,7 +4935,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5134,7 +4952,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5149,7 +4969,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5164,7 +4986,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5179,7 +5003,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5194,7 +5020,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5209,7 +5037,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5224,7 +5054,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5239,22 +5071,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 2 Capital goods",
-      "label_zh": "类别2 资本货物",
-      "page": "162",
-      "source_file": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "report_title": "HYUNDAI MOBIS sustainability report 2025.pdf",
-      "snippet_en": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital goods 18,405 3 Fuel and Energy-related activities not included in S",
-      "snippet_zh": "rounded, the company’s total emissions may differ from the actual values by ±1tCO2eq. (Unit: tCO2eq) Category Total emissions 1 Purchased goods & services 794,951 2 Capital goods 18,405 3 Fuel and ...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 162",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：162"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -5269,7 +5088,9 @@
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_08"
+      "review_status": "seed_batch_08",
+      "evidence_locator_en": "Report: HYUNDAI MOBIS sustainability report 2025.pdf | File: HYUNDAI MOBIS sustainability report 2025.pdf | Page: 163",
+      "evidence_locator_zh": "报告：HYUNDAI MOBIS sustainability report 2025.pdf | 文件：HYUNDAI MOBIS sustainability report 2025.pdf | 页码：163"
     }
   ]
 }

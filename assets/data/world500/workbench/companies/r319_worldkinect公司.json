@@ -8,6 +8,11 @@
   "industry_section_zh": "电力、热力、燃气及水生产和供应业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "WORLD KINECT——Sustainability_Report_Published_2022.pdf"
@@ -19,8 +24,8 @@
   "method_rows_count": 14,
   "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 2,
-  "scope3_candidate_count": 1,
+  "scope_candidate_count": 0,
+  "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "GHG 体系"
@@ -85,6 +90,8 @@
       "snippet_zh": "r Operations 25 Our Value Chain 14 Our Carbon Footprint 27 Health, Safety, and Environmental Performance 33 Solutions 19 Capital and Resources 23 Education 1...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 2",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议"
     },
@@ -107,6 +114,8 @@
       "snippet_zh": "sed on our total scope 1 and scope 2 GHG emissions across all of our businesses worldwide and calculated our carbon emissions in accordance with the World Re...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 27",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：27",
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准"
     },
@@ -129,6 +138,8 @@
       "snippet_zh": "erm sustainability goals. We understand the importance of setting near-term, achievable, sustainability targets as well as long-term, comprehensive, sustaina...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 32",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：32",
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引"
     }
@@ -174,6 +185,8 @@
       "snippet_zh": "els, the process effectively “recycles” carbon dioxide already existing in our atmosphere in the combustion phase, returning the CO2 to our atmosphere. Renewable Fuels: Their Ro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 10",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：10",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -217,6 +230,8 @@
       "snippet_zh": "ach this benefit to a conventional jet fuel purchase in another location. While this does not entirely reduce the lifecycle of carbon emissions of the conventional jet fuel cons...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 12",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：12",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -254,6 +269,8 @@
       "snippet_zh": "on Fuels division leverages its fuel supply experts, national depot network and wide range of supply partners to source and deliver renewable diesel to businesses and farms acro...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 14",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：14",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -291,6 +308,8 @@
       "snippet_zh": "ope 2 Emissions Scope 2 Emissions Scope 2 emissions are greenhouse gas emissions from the generation of electricity, heat or steam purchased by an organization but when the gene...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 22",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：22",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -328,6 +347,8 @@
       "snippet_zh": "ope 2 Emissions Scope 2 Emissions Scope 2 emissions are greenhouse gas emissions from the generation of electricity, heat or steam purchased by an organization but when the gene...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 22",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：22",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -365,6 +386,8 @@
       "snippet_zh": "ope 2 Emissions Scope 2 Emissions Scope 2 emissions are greenhouse gas emissions from the generation of electricity, heat or steam purchased by an organization but when the gene...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 22",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：22",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -402,6 +425,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -439,6 +464,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -476,6 +503,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -513,6 +542,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -550,6 +581,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -587,6 +620,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -624,6 +659,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -661,6 +698,8 @@
       "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products...",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
@@ -681,78 +720,8 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r319_worldkinect公司",
-      "company_name_en": "World Kinect公司",
-      "company_name_zh": "World Kinect公司",
-      "world500_rank": "319",
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "22",
-      "source_file": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "report_title": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "snippet_en": "ope 2 Emissions Scope 2 Emissions Scope 2 emissions are greenhouse gas emissions from the generation of electricity, heat or steam purchased by an organization but when the generating equipment is not owned by the organization. Sources of S",
-      "snippet_zh": "ope 2 Emissions Scope 2 Emissions Scope 2 emissions are greenhouse gas emissions from the generation of electricity, heat or steam purchased by an organization but when the generating equipment is ...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    },
-    {
-      "company_id": "r319_worldkinect公司",
-      "company_name_en": "World Kinect公司",
-      "company_name_zh": "World Kinect公司",
-      "world500_rank": "319",
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "11",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "report_title": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "snippet_en": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “Use of Sold Products” (scope 3, category 11",
-      "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
-  "scope3_candidates": [
-    {
-      "company_id": "r319_worldkinect公司",
-      "company_name_en": "World Kinect公司",
-      "company_name_zh": "World Kinect公司",
-      "world500_rank": "319",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "value_text": "3,",
-      "unit_context": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "29",
-      "source_file": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "report_title": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "snippet_en": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “Use of Sold Products” (scope 3, category 11",
-      "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "candidate_quality": "low",
-      "extraction_rule_en": "Category label + nearest numeric token before the next category label",
-      "extraction_rule_zh": "类别标签 + 下一个类别标签前的最近数值"
-    }
-  ],
+  "scope_candidates": [],
+  "scope3_candidates": [],
   "evidence_ledger": [
     {
       "fact_type_en": "Standard reference",
@@ -767,7 +736,9 @@
       "recognition_basis_en": "Structured standard tag: TCFD; Standard role: Disclosure recommendation",
       "recognition_basis_zh": "结构化标准标注：TCFD；标准角色：披露建议",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 2",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：2"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -782,7 +753,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 10",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：10"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -797,7 +770,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 12",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：12"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -812,7 +787,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 14",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：14"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -827,7 +804,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 22",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -842,7 +821,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 22",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -857,22 +838,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 2",
-      "label_zh": "范围2",
-      "page": "22",
-      "source_file": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "report_title": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "snippet_en": "ope 2 Emissions Scope 2 Emissions Scope 2 emissions are greenhouse gas emissions from the generation of electricity, heat or steam purchased by an organization but when the generating equipment is not owned by the organization. Sources of S",
-      "snippet_zh": "ope 2 Emissions Scope 2 Emissions Scope 2 emissions are greenhouse gas emissions from the generation of electricity, heat or steam purchased by an organization but when the generating equipment is ...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 22",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：22"
     },
     {
       "fact_type_en": "Standard reference",
@@ -887,7 +855,9 @@
       "recognition_basis_en": "Structured standard tag: GHG Protocol; Standard role: Accounting standard",
       "recognition_basis_zh": "结构化标准标注：温室气体核算体系（GHG Protocol）；标准角色：核算标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 27",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：27"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -902,7 +872,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -917,7 +889,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -932,7 +906,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -947,7 +923,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -962,7 +940,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -977,7 +957,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -992,7 +974,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1007,37 +991,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope 3 category value candidate",
-      "fact_type_zh": "Scope 3 类别数值候选",
-      "label_en": "Category 11 Use of sold products",
-      "label_zh": "类别11 销售产品的使用",
-      "page": "29",
-      "source_file": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "report_title": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "snippet_en": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “Use of Sold Products” (scope 3, category 11",
-      "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “...",
-      "recognition_basis_en": "Category label + nearest numeric token before the next category label",
-      "recognition_basis_zh": "类别标签 + 下一个类别标签前的最近数值",
-      "confidence_level": "low",
-      "review_status": "seed_batch_07"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "29",
-      "source_file": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "report_title": "WORLD KINECT——Sustainability_Report_Published_2022.pdf",
-      "snippet_en": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “Use of Sold Products” (scope 3, category 11",
-      "snippet_zh": "f the carbon emissions generated by the consumption of the fuel products we sell, as well as the emissions generated by the third parties we engage with to deliver fuel products on our behalf. As “...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 29",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：29"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1052,7 +1008,9 @@
       "recognition_basis_en": "Structured standard tag: SBTi; Standard role: Target validation guideline",
       "recognition_basis_zh": "结构化标准标注：SBTi；标准角色：目标审定指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_07"
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: WORLD KINECT——Sustainability_Report_Published_2022.pdf | File: WORLD KINECT——Sustainability_Report_Published_2022.pdf | Page: 32",
+      "evidence_locator_zh": "报告：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 文件：WORLD KINECT——Sustainability_Report_Published_2022.pdf | 页码：32"
     }
   ]
 }

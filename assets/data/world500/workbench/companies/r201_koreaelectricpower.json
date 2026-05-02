@@ -8,6 +8,11 @@
   "industry_section_zh": "电力、热力、燃气及水生产和供应业",
   "industry_mapping_basis_en": "Mapped directly from the world500 registry entry.",
   "industry_mapping_basis_zh": "Directly mapped from the world500 registry GB/T 4754-2017 section field.",
+  "enterprise_use_tier_code": "C",
+  "enterprise_use_tier_en": "C candidate values pending review",
+  "enterprise_use_tier_zh": "C 候选值待复核",
+  "enterprise_use_tier_detail_en": "No authoritative absolute value is available yet and no stable numeric candidate has been confirmed.",
+  "enterprise_use_tier_detail_zh": "当前尚无采信绝对量，也尚未确认稳定数值候选。",
   "report_count": 1,
   "report_titles": [
     "(KEPCO)2024SustainabilityReport_Eng.pdf"
@@ -19,7 +24,7 @@
   "method_rows_count": 10,
   "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
-  "scope_candidate_count": 1,
+  "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
   "standard_systems_zh": [
     "气候披露/目标框架",
@@ -87,6 +92,8 @@
       "snippet_zh": "etrics and targets (1) The metrics required by an applicable IFRS Sustainability Disclosure Standard 18-19, 181 (2) ‌\u0007The metrics used by companies to measur...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 180",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：180",
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准"
     },
@@ -109,6 +116,8 @@
       "snippet_zh": "ith The Korean International Financial Reporting Standards (“K-IFRS”), any information that does not meet the above standards is stated with separate annotat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 2",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     },
@@ -131,6 +140,8 @@
       "snippet_zh": "ith The Korean International Financial Reporting Standards (“K-IFRS”), any information that does not meet the above standards is stated with separate annotat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 2",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：2",
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引"
     },
@@ -153,6 +164,8 @@
       "snippet_zh": "ability disclosure standards, and the U.S. SEC has released a draft proposal mandating climate-related disclosures. Meanwhile, the EU is reinforcing corporat...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 28",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：28",
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准"
     }
@@ -192,6 +205,8 @@
       "snippet_zh": "Collaborative research projects in progress (25 projects), including localization of electronic circuits for power plant control systems KOWEPO KOWEPO – Large Enterprises - SMEs...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 115",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：115",
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查"
     },
@@ -235,6 +250,8 @@
       "snippet_zh": "es (SOx) ton 6,164 4,539 3,798 Dust ton 369 342 188 *Revision of previous year data errors (based on disclosed figures in Environmental Information Disclosure System) GHG ESG Da...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 150",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：150",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -278,6 +295,8 @@
       "snippet_zh": "es (SOx) ton 6,164 4,539 3,798 Dust ton 369 342 188 *Revision of previous year data errors (based on disclosed figures in Environmental Information Disclosure System) GHG ESG Da...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 150",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：150",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -321,6 +340,8 @@
       "snippet_zh": "es (SOx) ton 6,164 4,539 3,798 Dust ton 369 342 188 *Revision of previous year data errors (based on disclosed figures in Environmental Information Disclosure System) GHG ESG Da...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 150",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：150",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -358,6 +379,8 @@
       "snippet_zh": "te General Disclosures GRI 2: General Disclosures 2021 2-1 Organizational details 1-9 2-2 Entities included in the organization’s sustainability reporting 6, 12 2-3 Reporting pe...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 178",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：178",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证"
     },
@@ -401,6 +424,8 @@
       "snippet_zh": "Topic SASB Code Accounting Metric Page Greenhouse Gas Emissions & Energy Resource Planning IF-EU-110a.1 (1) Gross global Scope 1 emissions (2) ‌\u0007Percentage covered under emissio...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 181",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：181",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
@@ -438,6 +463,8 @@
       "snippet_zh": "and maintenance while striving to minimize environmental impact throughout its business operations and pursue economically sustainable development. While its performance managem...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 183",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：183",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -481,6 +508,8 @@
       "snippet_zh": "urance scope. Assurance Standards The assurer conducted the assurance in accordance with AA1000AS v3 Type 2 at a Moderate level and reviewed compliance with the four principles ...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 186",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：186",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据"
     },
@@ -524,6 +553,8 @@
       "snippet_zh": "rting Assurance All information in this report is based on data collected from relevant departments and has been included after verification of its accuracy. To ensure the accur...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 2",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：2",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Verification; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：核查；原文命中关键词：推导数据"
     },
@@ -567,6 +598,8 @@
       "snippet_zh": "OMIPO aims to achieve a 70% reuse rate for waste batteries and a 93% metal extraction rate through the completion of solar-linked R-ESS projects. In addition, as part of waste r...",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 74",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：74",
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     }
@@ -598,31 +631,7 @@
     }
   ],
   "authoritative_scope_rows": [],
-  "scope_candidates": [
-    {
-      "company_id": "r201_koreaelectricpower",
-      "company_name_en": "KOREA ELECTRIC POWER",
-      "company_name_zh": "韩国电力公司",
-      "world500_rank": "201",
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "basis_en": "",
-      "basis_zh": "",
-      "value_text": "2",
-      "unit_raw": "",
-      "value_mtco2e": NaN,
-      "evidence_page": "181",
-      "source_file": "(KEPCO)2024SustainabilityReport_Eng.pdf",
-      "report_title": "(KEPCO)2024SustainabilityReport_Eng.pdf",
-      "snippet_en": "Topic SASB Code Accounting Metric Page Greenhouse Gas Emissions & Energy Resource Planning IF-EU-110a.1 (1) Gross global Scope 1 emissions (2) ‌\u0007Percentage covered under emissions-limiting regulations (3) ‌\u0007Percentage covered under emission",
-      "snippet_zh": "Topic SASB Code Accounting Metric Page Greenhouse Gas Emissions & Energy Resource Planning IF-EU-110a.1 (1) Gross global Scope 1 emissions (2) ‌\u0007Percentage covered under emissions-limiting regulati...",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "candidate_quality": "medium",
-      "extraction_rule_en": "Scope label + explicit numeric pattern",
-      "extraction_rule_zh": "Scope 标签 + 数值正则命中"
-    }
-  ],
+  "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
     {
@@ -638,7 +647,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Verification; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：核查；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 2",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -653,7 +664,9 @@
       "recognition_basis_en": "Structured standard tag: GRI; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 2",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -668,7 +681,9 @@
       "recognition_basis_en": "Structured standard tag: SASB; Standard role: Disclosure guideline",
       "recognition_basis_zh": "结构化标准标注：SASB；标准角色：披露指引",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 2",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：2"
     },
     {
       "fact_type_en": "Standard reference",
@@ -683,7 +698,9 @@
       "recognition_basis_en": "Structured standard tag: ESRS/CSRD; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：ESRS/CSRD；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 28",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：28"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -698,7 +715,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 74",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：74"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -713,7 +732,9 @@
       "recognition_basis_en": "Structured assurance tag: Verification",
       "recognition_basis_zh": "结构化核查环节：核查",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 115",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：115"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -728,7 +749,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 150",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -743,7 +766,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 150",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -758,7 +783,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 150",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：150"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -773,7 +800,9 @@
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 178",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：178"
     },
     {
       "fact_type_en": "Standard reference",
@@ -788,7 +817,9 @@
       "recognition_basis_en": "Structured standard tag: IFRS S2; Standard role: Disclosure standard",
       "recognition_basis_zh": "结构化标准标注：IFRS S2；标准角色：披露标准",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 180",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：180"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -803,22 +834,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
-    },
-    {
-      "fact_type_en": "Scope value candidate",
-      "fact_type_zh": "Scope 数值候选",
-      "label_en": "Scope 1",
-      "label_zh": "范围1",
-      "page": "181",
-      "source_file": "(KEPCO)2024SustainabilityReport_Eng.pdf",
-      "report_title": "(KEPCO)2024SustainabilityReport_Eng.pdf",
-      "snippet_en": "Topic SASB Code Accounting Metric Page Greenhouse Gas Emissions & Energy Resource Planning IF-EU-110a.1 (1) Gross global Scope 1 emissions (2) ‌\u0007Percentage covered under emissions-limiting regulations (3) ‌\u0007Percentage covered under emission",
-      "snippet_zh": "Topic SASB Code Accounting Metric Page Greenhouse Gas Emissions & Energy Resource Planning IF-EU-110a.1 (1) Gross global Scope 1 emissions (2) ‌\u0007Percentage covered under emissions-limiting regulati...",
-      "recognition_basis_en": "Scope label + explicit numeric pattern",
-      "recognition_basis_zh": "Scope 标签 + 数值正则命中",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 181",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：181"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -833,7 +851,9 @@
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 183",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：183"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -848,7 +868,9 @@
       "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: Derived data",
       "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：推导数据",
       "confidence_level": "medium",
-      "review_status": "seed_batch_12"
+      "review_status": "seed_batch_12",
+      "evidence_locator_en": "Report: (KEPCO)2024SustainabilityReport_Eng.pdf | File: (KEPCO)2024SustainabilityReport_Eng.pdf | Page: 186",
+      "evidence_locator_zh": "报告：(KEPCO)2024SustainabilityReport_Eng.pdf | 文件：(KEPCO)2024SustainabilityReport_Eng.pdf | 页码：186"
     }
   ]
 }

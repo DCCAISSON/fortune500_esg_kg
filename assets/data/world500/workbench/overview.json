@@ -3,9 +3,21 @@
     "company_count": 351,
     "companies_with_methods": 313,
     "companies_with_standards": 341,
-    "companies_with_scope_candidates": 220,
-    "companies_with_scope3_candidates": 136,
-    "companies_with_authoritative_scope_rows": 7
+    "companies_with_scope_candidates": 21,
+    "companies_with_scope3_candidates": 12,
+    "companies_with_authoritative_scope_rows": 12,
+    "tier_a_company_count": 10,
+    "tier_b_company_count": 1,
+    "tier_c_company_count": 339,
+    "tier_d_company_count": 1,
+    "tier_c_with_candidate_company_count": 24,
+    "tier_c_without_candidate_company_count": 315,
+    "enterprise_use_tier_distribution": {
+      "A": 10,
+      "B": 1,
+      "C": 339,
+      "D": 1
+    }
   },
   "keyword_summary": {
     "keyword_count": 16,
@@ -15,10 +27,24 @@
   },
   "emission_summary": {
     "company_count": 351,
-    "authoritative_scope_company_count": 7,
-    "scope_candidate_company_count": 220,
-    "scope3_candidate_company_count": 136,
-    "scope_candidate_rows": 506,
-    "scope3_candidate_rows": 279
+    "authoritative_scope_company_count": 12,
+    "scope_candidate_company_count": 21,
+    "scope3_candidate_company_count": 12,
+    "scope_candidate_rows": 31,
+    "scope3_candidate_rows": 22,
+    "tier_a_company_count": 10,
+    "tier_b_company_count": 1,
+    "tier_c_company_count": 339,
+    "tier_d_company_count": 1,
+    "tier_c_with_candidate_company_count": 24,
+    "tier_c_without_candidate_company_count": 315,
+    "enterprise_use_tier_distribution": {
+      "A": 10,
+      "B": 1,
+      "C": 339,
+      "D": 1
+    },
+    "scope_candidate_high_priority_company_count": 17,
+    "scope3_candidate_high_priority_company_count": 6
   }
 }
