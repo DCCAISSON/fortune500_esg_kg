@@ -22,7 +22,7 @@
   ],
   "standards_count": 1,
   "method_rows_count": 1,
-  "keyword_summary_count": 1,
+  "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
@@ -41,12 +41,8 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [
-    "推导数据"
-  ],
-  "data_source_types_en": [
-    "Derived data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
     "报告披露"
   ],
@@ -98,8 +94,8 @@
       "activity_standard_category_zh": "过程排放",
       "activity_evidence_mapping_en": "Process emissions",
       "activity_evidence_mapping_zh": "过程排放",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
@@ -110,42 +106,23 @@
       "classification_stage_zh": "原文明确提及",
       "estimate_basis_en": "lts Transforming our business 97% renewable energy for our operated sites. (E xcluding safety and security installations.) 53% of the water used in our industrial processes came...",
       "estimate_basis_zh": "lts Transforming our business 97% renewable energy for our operated sites. (E xcluding safety and security installations.) 53% of the wat...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
       "evidence_page": "9",
       "source_file": "LOREAL2024AnnualReport.pdf",
       "report_title": "LOREAL2024AnnualReport.pdf",
-      "snippet_en": "lts Transforming our business 97% renewable energy for our operated sites. (E xcluding safety and security installations.) 53% of the water used in our industrial processes came from recycled and reused water. 66% of our ingredients in form",
+      "snippet_en": "lts Transforming our business 97% renewable energy for our operated sites. (E xcluding safety and security installations.) 53% of the water used in our industrial processes came from recycled and reused water.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: LOREAL2024AnnualReport.pdf | File: LOREAL2024AnnualReport.pdf | Page: 9",
       "evidence_locator_zh": "报告：LOREAL2024AnnualReport.pdf | 文件：LOREAL2024AnnualReport.pdf | 页码：9",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露"
     }
   ],
-  "keyword_summary": [
-    {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 1,
-      "pages": [
-        "9"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    }
-  ],
+  "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
@@ -153,15 +130,15 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
+      "label_en": "Process emissions",
+      "label_zh": "过程排放",
       "page": "9",
       "source_file": "LOREAL2024AnnualReport.pdf",
       "report_title": "LOREAL2024AnnualReport.pdf",
-      "snippet_en": "lts Transforming our business 97% renewable energy for our operated sites. (E xcluding safety and security installations.) 53% of the water used in our industrial processes came from recycled and reused water. 66% of our ingredients in form",
+      "snippet_en": "lts Transforming our business 97% renewable energy for our operated sites. (E xcluding safety and security installations.) 53% of the water used in our industrial processes came from recycled and reused water.",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: LOREAL2024AnnualReport.pdf | File: LOREAL2024AnnualReport.pdf | Page: 9",

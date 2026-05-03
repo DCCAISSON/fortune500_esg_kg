@@ -21,12 +21,12 @@
     "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf"
   ],
   "standards_count": 5,
-  "method_rows_count": 38,
-  "keyword_summary_count": 4,
+  "method_rows_count": 32,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 43,
+  "evidence_ledger_count": 37,
   "standard_systems_zh": [
     "GHG 体系",
     "ISO 体系",
@@ -54,42 +54,30 @@
     "TCFD"
   ],
   "calculation_methods_zh": [
-    "生命周期评价",
     "市场法"
   ],
   "calculation_methods_en": [
-    "Life-cycle assessment",
     "Market-based"
   ],
-  "data_source_types_zh": [
-    "初级数据",
-    "估算数据"
-  ],
-  "data_source_types_en": [
-    "Primary data",
-    "Estimated data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
     "报告披露",
-    "鉴证",
-    "核查",
-    "审定"
+    "鉴证"
   ],
   "assurance_stages_en": [
     "Report disclosure",
-    "Assurance",
-    "Verification",
-    "Validation"
+    "Assurance"
   ],
   "activity_categories_zh": [
-    "价值链活动",
     "上游价值链活动",
-    "废弃物活动"
+    "废弃物活动",
+    "价值链活动"
   ],
   "activity_categories_en": [
-    "Generic value-chain activity",
     "Upstream value-chain activity",
-    "Waste management activity"
+    "Waste management activity",
+    "Generic value-chain activity"
   ],
   "standards": [
     {
@@ -236,15 +224,15 @@
       "boundary_type_zh": "运营控制边界",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "missions We assess our carbon footprint across our product lifecycle and climate risks, including current and emerging regulations and market impacts. Achieving our Climate Targ...",
-      "estimate_basis_zh": "missions We assess our carbon footprint across our product lifecycle and climate risks, including current and emerging regulations and ma...",
+      "estimate_basis_en": "Achieving our Climate Targets We’ve made important progress towards our existing energy and emissions goals: Scope 1 and 2: In FY23, we set a goal to purchase or generate enough...",
+      "estimate_basis_zh": "Achieving our Climate Targets We’ve made important progress towards our existing energy and emissions goals: Scope 1 and 2: In FY23, we s...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "11",
       "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
       "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "missions We assess our carbon footprint across our product lifecycle and climate risks, including current and emerging regulations and market impacts. Achieving our Climate Targets We’ve made important progress towards our existing energy a",
+      "snippet_en": "Achieving our Climate Targets We’ve made important progress towards our existing energy and emissions goals: Scope 1 and 2: In FY23, we set a goal to purchase or generate enough renewable electricity to match 100% of our global electricity",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
@@ -252,90 +240,6 @@
       "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：11",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "d in our products, aiming to ensure that they come from socially responsible sources and don’t contribute to human conflict. Our goal is to use only conflict-free gold, tantalum...",
-      "estimate_basis_zh": "d in our products, aiming to ensure that they come from socially responsible sources and don’t contribute to human conflict. Our goal is ...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "18",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "d in our products, aiming to ensure that they come from socially responsible sources and don’t contribute to human conflict. Our goal is to use only conflict-free gold, tantalum, tungsten, and tin (3TG) in our products and to achieve 100% R",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 18",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：18",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "Life-cycle assessment",
-      "calculation_method_zh": "生命周期评价",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "egic suppliers on their corrective action plans and continue monitoring suppliers to ensure compliance. Product Environmental Impact To understand the greenhouse gas emissions g...",
-      "estimate_basis_zh": "egic suppliers on their corrective action plans and continue monitoring suppliers to ensure compliance. Product Environmental Impact To u...",
-      "keyword_keys": [
-        "life_cycle_assessment"
-      ],
-      "keyword_labels_en": [
-        "Life-cycle assessment"
-      ],
-      "keyword_labels_zh": [
-        "生命周期评价"
-      ],
-      "evidence_page": "20",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "egic suppliers on their corrective action plans and continue monitoring suppliers to ensure compliance. Product Environmental Impact To understand the greenhouse gas emissions generated across our product lifecycle and in manufacturing, we",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20",
-      "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
-      "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价"
     },
     {
       "scope_en": "Scope 3",
@@ -359,15 +263,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "understand our product manufacturing impact and allocate carbon emissions to our customers. We accomplished our goal to engage manufacturing suppliers to effect supplier adoptio...",
-      "estimate_basis_zh": "understand our product manufacturing impact and allocate carbon emissions to our customers. We accomplished our goal to engage manufactur...",
+      "estimate_basis_en": "In FY25, we engaged suppliers totaling over 80% of our scope 3 category 1 emissions.",
+      "estimate_basis_zh": "In FY25, we engaged suppliers totaling over 80% of our scope 3 category 1 emissions.",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "20",
       "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
       "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "understand our product manufacturing impact and allocate carbon emissions to our customers. We accomplished our goal to engage manufacturing suppliers to effect supplier adoption of science-based targets. In FY25, we engaged suppliers total",
+      "snippet_en": "In FY25, we engaged suppliers totaling over 80% of our scope 3 category 1 emissions.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
@@ -375,45 +279,6 @@
       "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Validation",
-      "assurance_stage_zh": "审定",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ergy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Our model risk management guidance is integrate...",
-      "estimate_basis_zh": "ergy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Our mod...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "24",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "ergy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Our model risk management guidance is integrated into our AI product lifecycle process, and outlines the eleme",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 24",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：24",
-      "recognition_basis_en": "Structured assurance tag: Validation",
-      "recognition_basis_zh": "结构化核查环节：审定"
     },
     {
       "scope_en": "Scope 2",
@@ -1486,8 +1351,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Market-based",
@@ -1496,166 +1361,28 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "emissions footprint of our data centers, labs, and offices, we focus on siting expansions strategically, managing our operations efficiently, and sourcing renewable energy. We a...",
-      "estimate_basis_zh": "emissions footprint of our data centers, labs, and offices, we focus on siting expansions strategically, managing our operations efficien...",
+      "estimate_basis_en": "We achieved our goal of 100% renewable electricity, reducing our GHG footprint to zero Scope 2 market-based emissions.",
+      "estimate_basis_zh": "We achieved our goal of 100% renewable electricity, reducing our GHG footprint to zero Scope 2 market-based emissions.",
       "keyword_keys": [
-        "market_based",
-        "primary_data"
+        "market_based"
       ],
       "keyword_labels_en": [
-        "Market-based",
-        "Primary data"
+        "Market-based"
       ],
       "keyword_labels_zh": [
-        "市场法",
-        "初级数据"
+        "市场法"
       ],
       "evidence_page": "39",
       "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
       "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "emissions footprint of our data centers, labs, and offices, we focus on siting expansions strategically, managing our operations efficiently, and sourcing renewable energy. We achieved our goal of 100% renewable electricity, reducing our GH",
+      "snippet_en": "We achieved our goal of 100% renewable electricity, reducing our GHG footprint to zero Scope 2 market-based emissions.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
       "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 39",
       "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：39",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Primary data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 初级数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "to emissions factors, that is obtained from published sources or third parties. The accuracy and completeness of such information are not guaranteed. Such information is subject...",
-      "estimate_basis_zh": "to emissions factors, that is obtained from published sources or third parties. The accuracy and completeness of such information are not...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "40",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "to emissions factors, that is obtained from published sources or third parties. The accuracy and completeness of such information are not guaranteed. Such information is subject to assumptions, estimates, and other uncertainties, and we hav",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 40",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：40",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We f...",
-      "estimate_basis_zh": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint su...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "5",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We found that manufacturing-related emissions are significantly low",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We f...",
-      "estimate_basis_zh": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint su...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "5",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We found that manufacturing-related emissions are significantly low",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
     {
       "scope_en": "Scope 3",
@@ -1738,19 +1465,6 @@
   ],
   "keyword_summary": [
     {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 3,
-      "pages": [
-        "40",
-        "5"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    },
-    {
       "key": "market_based",
       "family": "method",
       "label_zh": "市场法",
@@ -1766,74 +1480,12 @@
       "sample_scope_en": [
         "Scope 2"
       ]
-    },
-    {
-      "key": "life_cycle_assessment",
-      "family": "method",
-      "label_zh": "生命周期评价",
-      "label_en": "Life-cycle assessment",
-      "hit_count": 1,
-      "pages": [
-        "20"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    },
-    {
-      "key": "primary_data",
-      "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
-      "hit_count": 1,
-      "pages": [
-        "39"
-      ],
-      "sample_scope_zh": [
-        "范围2"
-      ],
-      "sample_scope_en": [
-        "Scope 2"
-      ]
     }
   ],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "5",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We found that manufacturing-related emissions are significantly low",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "5",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "with renewable energy. We are working to reduce emissions wherever we can. For the first time, we published a product carbon footprint summary for a GPU-accelerated server. We found that manufacturing-related emissions are significantly low",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 5",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：5"
-    },
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
@@ -1927,7 +1579,7 @@
       "page": "11",
       "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
       "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "missions We assess our carbon footprint across our product lifecycle and climate risks, including current and emerging regulations and market impacts. Achieving our Climate Targets We’ve made important progress towards our existing energy a",
+      "snippet_en": "Achieving our Climate Targets We’ve made important progress towards our existing energy and emissions goals: Scope 1 and 2: In FY23, we set a goal to purchase or generate enough renewable electricity to match 100% of our global electricity",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -1956,46 +1608,12 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "18",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "d in our products, aiming to ensure that they come from socially responsible sources and don’t contribute to human conflict. Our goal is to use only conflict-free gold, tantalum, tungsten, and tin (3TG) in our products and to achieve 100% R",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 18",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：18"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Life-cycle assessment",
-      "label_zh": "生命周期评价",
-      "page": "20",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "egic suppliers on their corrective action plans and continue monitoring suppliers to ensure compliance. Product Environmental Impact To understand the greenhouse gas emissions generated across our product lifecycle and in manufacturing, we",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Verification; Matched keywords: Life-cycle assessment",
-      "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：核查；原文命中关键词：生命周期评价",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
       "label_en": "Scope 3",
       "label_zh": "范围3",
       "page": "20",
       "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
       "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "understand our product manufacturing impact and allocate carbon emissions to our customers. We accomplished our goal to engage manufacturing suppliers to effect supplier adoption of science-based targets. In FY25, we engaged suppliers total",
+      "snippet_en": "In FY25, we engaged suppliers totaling over 80% of our scope 3 category 1 emissions.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -2020,23 +1638,6 @@
       "review_status": "seed_batch_06",
       "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 20",
       "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：20"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "24",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "ergy, Efficiency, and Climate People, Diversity, and Inclusion Product Value Chain Responsible Business Sustainability Indicators Our model risk management guidance is integrated into our AI product lifecycle process, and outlines the eleme",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Validation",
-      "recognition_basis_zh": "结构化核查环节：审定",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 24",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：24"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2505,31 +2106,14 @@
       "page": "39",
       "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
       "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "emissions footprint of our data centers, labs, and offices, we focus on siting expansions strategically, managing our operations efficiently, and sourcing renewable energy. We achieved our goal of 100% renewable electricity, reducing our GH",
+      "snippet_en": "We achieved our goal of 100% renewable electricity, reducing our GHG footprint to zero Scope 2 market-based emissions.",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Primary data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 初级数据",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
       "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 39",
       "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：39"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "40",
-      "source_file": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "report_title": "NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf",
-      "snippet_en": "to emissions factors, that is obtained from published sources or third parties. The accuracy and completeness of such information are not guaranteed. Such information is subject to assumptions, estimates, and other uncertainties, and we hav",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_06",
-      "evidence_locator_en": "Report: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | File: NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | Page: 40",
-      "evidence_locator_zh": "报告：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 文件：NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf | 页码：40"
     }
   ]
 }

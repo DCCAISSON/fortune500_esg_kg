@@ -22,7 +22,7 @@
   ],
   "standards_count": 1,
   "method_rows_count": 1,
-  "keyword_summary_count": 1,
+  "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
@@ -104,31 +104,50 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Produc...",
-      "estimate_basis_zh": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relev...",
+      "estimate_basis_en": "2024 2024 2023 2022 Entire Group Total Scope 1 and Scope 2 emissions1 (1,000 t CO₂e) 630 568 659 696 Scope 1 GHG2 gross emissions (1,000 t CO₂e) 389 349 369 366 Scope 2 GHG2 emi...",
+      "estimate_basis_zh": "2024 2024 2023 2022 Entire Group Total Scope 1 and Scope 2 emissions1 (1,000 t CO₂e) 630 568 659 696 Scope 1 GHG2 gross emissions (1,000 ...",
       "keyword_keys": [
-        "market_based"
+        "market_based",
+        "location_based"
       ],
       "keyword_labels_en": [
-        "Market-based"
+        "Market-based",
+        "Location-based"
       ],
       "keyword_labels_zh": [
-        "市场法"
+        "市场法",
+        "位置法"
       ],
       "evidence_page": "3",
       "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
       "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
-      "snippet_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Production, development and test track locations. 2024 2024 2023 2022",
+      "snippet_en": "2024 2024 2023 2022 Entire Group Total Scope 1 and Scope 2 emissions1 (1,000 t CO₂e) 630 568 659 696 Scope 1 GHG2 gross emissions (1,000 t CO₂e) 389 349 369 366 Scope 2 GHG2 emissions (1,000 t CO₂e) Scope 2, location-based 536 514 583 598 S",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
       "evidence_locator_en": "Report: daimler-truck-esg-factbook-fy-2024.pdf | File: daimler-truck-esg-factbook-fy-2024.pdf | Page: 3",
       "evidence_locator_zh": "报告：daimler-truck-esg-factbook-fy-2024.pdf | 文件：daimler-truck-esg-factbook-fy-2024.pdf | 页码：3",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     }
   ],
   "keyword_summary": [
+    {
+      "key": "location_based",
+      "family": "method",
+      "label_zh": "位置法",
+      "label_en": "Location-based",
+      "hit_count": 1,
+      "pages": [
+        "3"
+      ],
+      "sample_scope_zh": [
+        "范围2"
+      ],
+      "sample_scope_en": [
+        "Scope 2"
+      ]
+    },
     {
       "key": "market_based",
       "family": "method",
@@ -158,10 +177,10 @@
       "page": "3",
       "source_file": "daimler-truck-esg-factbook-fy-2024.pdf",
       "report_title": "daimler-truck-esg-factbook-fy-2024.pdf",
-      "snippet_en": "ction sites1 (%) 50 36 ISO14001 coverage of employees at relevant production sites1 (%) 99 99 99 ISO 50001 coverage of employees at relevant production sites1 (%) 87 62 1 Production, development and test track locations. 2024 2024 2023 2022",
+      "snippet_en": "2024 2024 2023 2022 Entire Group Total Scope 1 and Scope 2 emissions1 (1,000 t CO₂e) 630 568 659 696 Scope 1 GHG2 gross emissions (1,000 t CO₂e) 389 349 369 366 Scope 2 GHG2 emissions (1,000 t CO₂e) Scope 2, location-based 536 514 583 598 S",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
       "review_status": "seed_batch_06",
       "evidence_locator_en": "Report: daimler-truck-esg-factbook-fy-2024.pdf | File: daimler-truck-esg-factbook-fy-2024.pdf | Page: 3",

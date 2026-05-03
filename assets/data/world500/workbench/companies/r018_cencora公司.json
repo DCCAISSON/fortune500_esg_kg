@@ -22,7 +22,7 @@
   ],
   "standards_count": 0,
   "method_rows_count": 2,
-  "keyword_summary_count": 4,
+  "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
@@ -32,17 +32,15 @@
   "standard_names_zh": [],
   "standard_names_en": [],
   "calculation_methods_zh": [
+    "位置法",
     "市场法"
   ],
   "calculation_methods_en": [
+    "Location-based",
     "Market-based"
   ],
-  "data_source_types_zh": [
-    "估算数据"
-  ],
-  "data_source_types_en": [
-    "Estimated data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
     "报告披露"
   ],
@@ -65,47 +63,38 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Market-based",
-      "calculation_method_zh": "市场法",
+      "calculation_method_en": "Location-based",
+      "calculation_method_zh": "位置法",
       "boundary_type_en": "",
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "location-based emissions 2. Scope 2 market-based emissions 3. S cope 3 emissions calculations include actual emissions calculations using spend-based, hybrid, and activity -base...",
-      "estimate_basis_zh": "location-based emissions 2. Scope 2 market-based emissions 3. S cope 3 emissions calculations include actual emissions calculations using...",
+      "estimate_basis_en": "Scope 2 location-based emissions 2.",
+      "estimate_basis_zh": "Scope 2 location-based emissions 2.",
       "keyword_keys": [
-        "market_based",
-        "location_based",
-        "spend_based",
-        "estimated_data"
+        "location_based"
       ],
       "keyword_labels_en": [
-        "Market-based",
-        "Location-based",
-        "Spend-based",
-        "Estimated data"
+        "Location-based"
       ],
       "keyword_labels_zh": [
-        "市场法",
-        "位置法",
-        "支出法",
-        "估算数据"
+        "位置法"
       ],
       "evidence_page": "13",
       "source_file": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
       "report_title": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
-      "snippet_en": "location-based emissions 2. Scope 2 market-based emissions 3. S cope 3 emissions calculations include actual emissions calculations using spend-based, hybrid, and activity -based methodologies based on the category and available data. Categ",
+      "snippet_en": "Scope 2 location-based emissions 2.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf | File: Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf | Page: 13",
       "evidence_locator_zh": "报告：Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf | 文件：Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf | 页码：13",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based / Spend-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法 / 支出法 / 估算数据"
+      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
+      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
     {
       "scope_en": "Scope 2",
@@ -129,8 +118,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "13 03 Resilient and sustainable operations Our total greenhouse gas emissions FY19 Emissions (MT CO e)4 2 FY24 Emissions (MT CO e) 2 Scope 1 98,742 135,087 Scope 21 110,191 88,6...",
-      "estimate_basis_zh": "13 03 Resilient and sustainable operations Our total greenhouse gas emissions FY19 Emissions (MT CO e)4 2 FY24 Emissions (MT CO e) 2 Scop...",
+      "estimate_basis_en": "Scope 2 market-based emissions 3.",
+      "estimate_basis_zh": "Scope 2 market-based emissions 3.",
       "keyword_keys": [
         "market_based"
       ],
@@ -143,7 +132,7 @@
       "evidence_page": "13",
       "source_file": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
       "report_title": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
-      "snippet_en": "13 03 Resilient and sustainable operations Our total greenhouse gas emissions FY19 Emissions (MT CO e)4 2 FY24 Emissions (MT CO e) 2 Scope 1 98,742 135,087 Scope 21 110,191 88,699 Scope 22 100,593 79,063 Scope 33 19,881,916 40,504,084 1. Sc",
+      "snippet_en": "Scope 2 market-based emissions 3.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
@@ -154,38 +143,6 @@
     }
   ],
   "keyword_summary": [
-    {
-      "key": "market_based",
-      "family": "method",
-      "label_zh": "市场法",
-      "label_en": "Market-based",
-      "hit_count": 2,
-      "pages": [
-        "13"
-      ],
-      "sample_scope_zh": [
-        "范围2"
-      ],
-      "sample_scope_en": [
-        "Scope 2"
-      ]
-    },
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 1,
-      "pages": [
-        "13"
-      ],
-      "sample_scope_zh": [
-        "范围2"
-      ],
-      "sample_scope_en": [
-        "Scope 2"
-      ]
-    },
     {
       "key": "location_based",
       "family": "method",
@@ -203,10 +160,10 @@
       ]
     },
     {
-      "key": "spend_based",
+      "key": "market_based",
       "family": "method",
-      "label_zh": "支出法",
-      "label_en": "Spend-based",
+      "label_zh": "市场法",
+      "label_en": "Market-based",
       "hit_count": 1,
       "pages": [
         "13"
@@ -226,15 +183,15 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Market-based",
-      "label_zh": "市场法",
+      "label_en": "Location-based",
+      "label_zh": "位置法",
       "page": "13",
       "source_file": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
       "report_title": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
-      "snippet_en": "location-based emissions 2. Scope 2 market-based emissions 3. S cope 3 emissions calculations include actual emissions calculations using spend-based, hybrid, and activity -based methodologies based on the category and available data. Categ",
+      "snippet_en": "Scope 2 location-based emissions 2.",
       "snippet_zh": "",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based / Spend-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法 / 支出法 / 估算数据",
+      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
+      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf | File: Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf | Page: 13",
@@ -248,7 +205,7 @@
       "page": "13",
       "source_file": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
       "report_title": "Cencora-2024-ent-00435-crsummaryreport-fnl2.pdf",
-      "snippet_en": "13 03 Resilient and sustainable operations Our total greenhouse gas emissions FY19 Emissions (MT CO e)4 2 FY24 Emissions (MT CO e) 2 Scope 1 98,742 135,087 Scope 21 110,191 88,699 Scope 22 100,593 79,063 Scope 33 19,881,916 40,504,084 1. Sc",
+      "snippet_en": "Scope 2 market-based emissions 3.",
       "snippet_zh": "",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",

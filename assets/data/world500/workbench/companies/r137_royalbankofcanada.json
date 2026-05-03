@@ -21,12 +21,12 @@
     "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf"
   ],
   "standards_count": 5,
-  "method_rows_count": 35,
-  "keyword_summary_count": 9,
+  "method_rows_count": 23,
+  "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 40,
+  "evidence_ledger_count": 28,
   "standard_systems_zh": [
     "ESG 披露框架",
     "GHG 体系",
@@ -53,45 +53,33 @@
   ],
   "calculation_methods_zh": [
     "市场法",
-    "生命周期评价",
     "位置法",
     "PCAF投融资排放方法"
   ],
   "calculation_methods_en": [
     "Market-based",
-    "Life-cycle assessment",
     "Location-based",
     "PCAF financed emissions methodology"
   ],
   "data_source_types_zh": [
-    "次级数据",
-    "估算数据",
-    "推导数据",
-    "初级数据"
+    "估算数据"
   ],
   "data_source_types_en": [
-    "Secondary data",
-    "Estimated data",
-    "Derived data",
-    "Primary data"
+    "Estimated data"
   ],
   "assurance_stages_zh": [
-    "鉴证",
     "报告披露"
   ],
   "assurance_stages_en": [
-    "Assurance",
     "Report disclosure"
   ],
   "activity_categories_zh": [
-    "投融资活动",
     "价值链活动",
-    "散逸性排放"
+    "投融资活动"
   ],
   "activity_categories_en": [
-    "Financed emissions activity",
     "Generic value-chain activity",
-    "Fugitive emissions"
+    "Financed emissions activity"
   ],
   "standards": [
     {
@@ -217,96 +205,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "activity_standard_category_en": "Financed emissions activity",
-      "activity_standard_category_zh": "投融资活动",
-      "activity_evidence_mapping_en": "Financed emissions",
-      "activity_evidence_mapping_zh": "投融资排放",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
-      "estimate_basis_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predi...",
-      "keyword_keys": [
-        "pcaf"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法"
-      ],
-      "evidence_page": "104",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
-      "estimate_basis_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predi...",
-      "keyword_keys": [
-        "pcaf"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法"
-      ],
-      "evidence_page": "104",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
-    },
-    {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
       "emission_type_en": "Indirect energy emissions",
@@ -328,8 +226,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products ar...",
-      "estimate_basis_zh": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Cl...",
+      "estimate_basis_en": "Inclusive of our global operations, Scope 1, Scope 2 (market-based) and Scope 3 (business travel) reported GHG emissions, against our 2018 baseline.",
+      "estimate_basis_zh": "Inclusive of our global operations, Scope 1, Scope 2 (market-based) and Scope 3 (business travel) reported GHG emissions, against our 201...",
       "keyword_keys": [
         "market_based"
       ],
@@ -342,7 +240,7 @@
       "evidence_page": "105",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products are excluded from the due diligence process. 30. Inclusive of our",
+      "snippet_en": "Inclusive of our global operations, Scope 1, Scope 2 (market-based) and Scope 3 (business travel) reported GHG emissions, against our 2018 baseline.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -373,15 +271,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ions. To guide companies in the task of identifying and calculating the emissions they create and contribute to across the value chain, the GHG Protocol Corporate Accounting and...",
-      "estimate_basis_zh": "ions. To guide companies in the task of identifying and calculating the emissions they create and contribute to across the value chain, t...",
+      "estimate_basis_en": "Scope 3 emissions are all indirect emissions not included in Scope 2 that occur in the value chain of the reporting company, in",
+      "estimate_basis_zh": "Scope 3 emissions are all indirect emissions not included in Scope 2 that occur in the value chain of the reporting company, in",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "105",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ions. To guide companies in the task of identifying and calculating the emissions they create and contribute to across the value chain, the GHG Protocol Corporate Accounting and Reporting Standard categorizes emissions into three scopes. Sc",
+      "snippet_en": "Scope 3 emissions are all indirect emissions not included in Scope 2 that occur in the value chain of the reporting company, in",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -391,96 +289,6 @@
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "53. Emission factors are a way to estimate the emissions of our clients. We use both internally-developed and external emission factors that are generally developed using a vari...",
-      "estimate_basis_zh": "53. Emission factors are a way to estimate the emissions of our clients. We use both internally-developed and external emission factors t...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "107",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "53. Emission factors are a way to estimate the emissions of our clients. We use both internally-developed and external emission factors that are generally developed using a variety of third-party data sources and provide sector averages to",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 107",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：107",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Life-cycle assessment",
-      "calculation_method_zh": "生命周期评价",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "rces such as hydroelectricity, wind and solar. Renewable energy Renewable energy is defined as the construction, development, operation, acquisition, maintenance and connection ...",
-      "estimate_basis_zh": "rces such as hydroelectricity, wind and solar. Renewable energy Renewable energy is defined as the construction, development, operation, ...",
-      "keyword_keys": [
-        "life_cycle_assessment"
-      ],
-      "keyword_labels_en": [
-        "Life-cycle assessment"
-      ],
-      "keyword_labels_zh": [
-        "生命周期评价"
-      ],
-      "evidence_page": "112",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "rces such as hydroelectricity, wind and solar. Renewable energy Renewable energy is defined as the construction, development, operation, acquisition, maintenance and connection of the following renewable energy generation sources: wind, sol",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 112",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：112",
-      "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
-      "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
-    },
-    {
       "scope_en": "Scope 1",
       "scope_zh": "范围1",
       "emission_type_en": "Direct emissions",
@@ -826,6 +634,51 @@
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
     {
+      "scope_en": "Scope 1",
+      "scope_zh": "范围1",
+      "emission_type_en": "Direct emissions",
+      "emission_type_zh": "直接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underlying reasons for these decisions.",
+      "estimate_basis_zh": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underl...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "127",
+      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
+      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
+      "snippet_en": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underlying reasons for these decisions.",
+      "snippet_zh": "nan",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    },
+    {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
       "emission_type_en": "Indirect energy emissions",
@@ -839,6 +692,51 @@
       "activity_evidence_mapping_zh": "",
       "data_source_type_en": "Estimated data",
       "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underlying reasons for these decisions.",
+      "estimate_basis_zh": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underl...",
+      "keyword_keys": [
+        "estimated_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据"
+      ],
+      "evidence_page": "127",
+      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
+      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
+      "snippet_en": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underlying reasons for these decisions.",
+      "snippet_zh": "nan",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_04",
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+    },
+    {
+      "scope_en": "Scope 2",
+      "scope_zh": "范围2",
+      "emission_type_en": "Indirect energy emissions",
+      "emission_type_zh": "能源间接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Location-based",
@@ -847,346 +745,28 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "e metrics used by the FRFI to assess climate-related risks and opportunities in line with its strategy and risk management process. Climate: Climate-related risk management Clim...",
-      "estimate_basis_zh": "e metrics used by the FRFI to assess climate-related risks and opportunities in line with its strategy and risk management process. Clima...",
+      "estimate_basis_en": "Climate: Climate-related risk management Climate: Strategy overview Climate: Climate metrics b)i Disclose separately the FRFI's Scope 1 and location-based Scope 2 absolute gross...",
+      "estimate_basis_zh": "Climate: Climate-related risk management Climate: Strategy overview Climate: Climate metrics b)i Disclose separately the FRFI's Scope 1 a...",
       "keyword_keys": [
-        "location_based",
-        "estimated_data"
+        "location_based"
       ],
       "keyword_labels_en": [
-        "Location-based",
-        "Estimated data"
+        "Location-based"
       ],
       "keyword_labels_zh": [
-        "位置法",
-        "估算数据"
+        "位置法"
       ],
       "evidence_page": "127",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "e metrics used by the FRFI to assess climate-related risks and opportunities in line with its strategy and risk management process. Climate: Climate-related risk management Climate: Strategy overview Climate: Climate metrics b)i Disclose se",
+      "snippet_en": "Climate: Climate-related risk management Climate: Strategy overview Climate: Climate metrics b)i Disclose separately the FRFI's Scope 1 and location-based Scope 2 absolute gross GHG emissions for the period.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
       "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
       "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127",
-      "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 估算数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Life-cycle assessment",
-      "calculation_method_zh": "生命周期评价",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "Report for more details). Eligible activities under low-carbon energy are: ■renewable energy: construction, development, operation, acquisition, maintenance and connection of th...",
-      "estimate_basis_zh": "Report for more details). Eligible activities under low-carbon energy are: ■renewable energy: construction, development, operation, acqui...",
-      "keyword_keys": [
-        "life_cycle_assessment"
-      ],
-      "keyword_labels_en": [
-        "Life-cycle assessment"
-      ],
-      "keyword_labels_zh": [
-        "生命周期评价"
-      ],
-      "evidence_page": "128",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Report for more details). Eligible activities under low-carbon energy are: ■renewable energy: construction, development, operation, acquisition, maintenance and connection of the following renewable energy generation sources: – Wind – Solar",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 128",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：128",
-      "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
-      "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synt...",
-      "estimate_basis_zh": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of b...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
-      "evidence_page": "130",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synthetic fuel and renewable natural gas (either synthetic natural",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Fugitive emissions",
-      "activity_standard_category_zh": "散逸性排放",
-      "activity_evidence_mapping_en": "Fugitive emissions",
-      "activity_evidence_mapping_zh": "散逸性排放",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synt...",
-      "estimate_basis_zh": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of b...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
-      "evidence_page": "130",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synthetic fuel and renewable natural gas (either synthetic natural",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ted emissions: When a client directly reports their emissions data, via a company’s sustainability report or other publicly available disclosures, we source this data directly f...",
-      "estimate_basis_zh": "ted emissions: When a client directly reports their emissions data, via a company’s sustainability report or other publicly available dis...",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "135",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ted emissions: When a client directly reports their emissions data, via a company’s sustainability report or other publicly available disclosures, we source this data directly from our clients or from a third- party provider. We have used a",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 135",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：135",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "nd availability We collect client emissions data from publicly available sources of information, through engagement with our clients, and through third-party data vendors. Where...",
-      "estimate_basis_zh": "nd availability We collect client emissions data from publicly available sources of information, through engagement with our clients, and...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "138",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "nd availability We collect client emissions data from publicly available sources of information, through engagement with our clients, and through third-party data vendors. Where client-reported emissions data is unavailable from these data",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For...",
-      "estimate_basis_zh": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "138",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For example, while many of our clients in the oil and gas sector a",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For...",
-      "estimate_basis_zh": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "138",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For example, while many of our clients in the oil and gas sector a",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
+      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
     },
     {
       "scope_en": "Scope 2",
@@ -1247,96 +827,6 @@
       "activity_evidence_mapping_zh": "投融资排放",
       "data_source_type_en": "",
       "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
-      "estimate_basis_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predi...",
-      "keyword_keys": [
-        "pcaf"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法"
-      ],
-      "evidence_page": "16",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absol...",
-      "estimate_basis_zh": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predi...",
-      "keyword_keys": [
-        "pcaf"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法"
-      ],
-      "evidence_page": "16",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "activity_standard_category_en": "Financed emissions activity",
-      "activity_standard_category_zh": "投融资活动",
-      "activity_evidence_mapping_en": "Financed emissions",
-      "activity_evidence_mapping_zh": "投融资排放",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
@@ -1435,8 +925,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Cl...",
-      "estimate_basis_zh": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time throug...",
+      "estimate_basis_en": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt of CO 2 e from 68.6 Mt of CO 2 e in 202...",
+      "estimate_basis_zh": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt...",
       "keyword_keys": [
         "pcaf"
       ],
@@ -1449,7 +939,7 @@
       "evidence_page": "49",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Climate - Energy Sector and portfolio actions. For the year ended",
+      "snippet_en": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt of CO 2 e from 68.6 Mt of CO 2 e in 2023 (restated from 71.4 Mt of CO 2 e to incorporate more up-to-da",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -1480,8 +970,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Cl...",
-      "estimate_basis_zh": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time throug...",
+      "estimate_basis_en": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt of CO 2 e from 68.6 Mt of CO 2 e in 202...",
+      "estimate_basis_zh": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt...",
       "keyword_keys": [
         "pcaf"
       ],
@@ -1494,7 +984,7 @@
       "evidence_page": "49",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Climate - Energy Sector and portfolio actions. For the year ended",
+      "snippet_en": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt of CO 2 e from 68.6 Mt of CO 2 e in 2023 (restated from 71.4 Mt of CO 2 e to incorporate more up-to-da",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -1515,8 +1005,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Market-based",
@@ -1528,28 +1018,25 @@
       "estimate_basis_en": "l Scope 2 Guidance defines the market-based method as a method for Scope 2 emissions accounting that reflects emissions from electricity that a reporting company has purposely c...",
       "estimate_basis_zh": "l Scope 2 Guidance defines the market-based method as a method for Scope 2 emissions accounting that reflects emissions from electricity ...",
       "keyword_keys": [
-        "market_based",
-        "derived_data"
+        "market_based"
       ],
       "keyword_labels_en": [
-        "Market-based",
-        "Derived data"
+        "Market-based"
       ],
       "keyword_labels_zh": [
-        "市场法",
-        "推导数据"
+        "市场法"
       ],
       "evidence_page": "59",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "l Scope 2 Guidance defines the market-based method as a method for Scope 2 emissions accounting that reflects emissions from electricity that a reporting company has purposely chosen (or their lack of choice). In the market-based method, em",
+      "snippet_en": "l Scope 2 Guidance defines the market-based method as a method for Scope 2 emissions accounting that reflects emissions from electricity that a reporting company has purposely chosen (or their lack of choice).",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
       "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
       "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Derived data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 推导数据"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
     {
       "scope_en": "Scope 2",
@@ -1573,56 +1060,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,...",
-      "estimate_basis_zh": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseli...",
-      "keyword_keys": [
-        "market_based",
-        "location_based"
-      ],
-      "keyword_labels_en": [
-        "Market-based",
-        "Location-based"
-      ],
-      "keyword_labels_zh": [
-        "市场法",
-        "位置法"
-      ],
-      "evidence_page": "59",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 location-based (1) 68,051 63,713 65,577 102,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
-    },
-    {
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "emission_type_en": "Indirect energy emissions",
-      "emission_type_zh": "能源间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Market-based",
-      "calculation_method_zh": "市场法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions ...",
-      "estimate_basis_zh": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline...",
+      "estimate_basis_en": "This is driven by a 7% decrease in Scope 1 emissions, a 93% decrease in Scope 2, (market-based) emissions, and a 33% decrease in our Scope 3 (business travel) emissions.",
+      "estimate_basis_zh": "This is driven by a 7% decrease in Scope 1 emissions, a 93% decrease in Scope 2, (market-based) emissions, and a 33% decrease in our Scop...",
       "keyword_keys": [
         "market_based"
       ],
@@ -1635,7 +1074,7 @@
       "evidence_page": "60",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions decreased by 63% relative to our 2018 baseline. This is driven",
+      "snippet_en": "This is driven by a 7% decrease in Scope 1 emissions, a 93% decrease in Scope 2, (market-based) emissions, and a 33% decrease in our Scope 3 (business travel) emissions.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -1666,8 +1105,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emission...",
-      "estimate_basis_zh": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our oper...",
+      "estimate_basis_en": "Refer to Restatement of emissions from our operations for further details. (8) Inclusive of our global operations, Scope 1, Scope 2 (market-based) and Scope 3 (business travel) ...",
+      "estimate_basis_zh": "Refer to Restatement of emissions from our operations for further details. (8) Inclusive of our global operations, Scope 1, Scope 2 (mark...",
       "keyword_keys": [
         "market_based"
       ],
@@ -1680,7 +1119,7 @@
       "evidence_page": "69",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emissions from our operations for further details. (8) Inclusive of our",
+      "snippet_en": "Refer to Restatement of emissions from our operations for further details. (8) Inclusive of our global operations, Scope 1, Scope 2 (market-based) and Scope 3 (business travel) reported GHG emissions, against our 2018 baseline.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -1711,8 +1150,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
-      "estimate_basis_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (...",
+      "estimate_basis_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & ...",
+      "estimate_basis_zh": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score ...",
       "keyword_keys": [
         "pcaf"
       ],
@@ -1725,7 +1164,7 @@
       "evidence_page": "70",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024)",
+      "snippet_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & 2 (3) 2.1 2.6 3.0 2.8 Scope 3 (4) 38.8 42.9 45.5 4.4 Power gene",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -1756,8 +1195,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
-      "estimate_basis_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (...",
+      "estimate_basis_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & ...",
+      "estimate_basis_zh": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score ...",
       "keyword_keys": [
         "pcaf"
       ],
@@ -1770,7 +1209,7 @@
       "evidence_page": "70",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024)",
+      "snippet_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & 2 (3) 2.1 2.6 3.0 2.8 Scope 3 (4) 38.8 42.9 45.5 4.4 Power gene",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -1801,8 +1240,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millio...",
-      "estimate_basis_zh": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (...",
+      "estimate_basis_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & ...",
+      "estimate_basis_zh": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score ...",
       "keyword_keys": [
         "pcaf"
       ],
@@ -1815,7 +1254,7 @@
       "evidence_page": "70",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024)",
+      "snippet_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & 2 (3) 2.1 2.6 3.0 2.8 Scope 3 (4) 38.8 42.9 45.5 4.4 Power gene",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
@@ -1831,36 +1270,13 @@
       "family": "method",
       "label_zh": "PCAF 投融资排放方法",
       "label_en": "PCAF financed emissions methodology",
-      "hit_count": 18,
+      "hit_count": 14,
       "pages": [
-        "104",
         "118",
         "120",
         "16",
         "49",
         "70"
-      ],
-      "sample_scope_zh": [
-        "范围3",
-        "范围1",
-        "范围2"
-      ],
-      "sample_scope_en": [
-        "Scope 3",
-        "Scope 1",
-        "Scope 2"
-      ]
-    },
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 8,
-      "pages": [
-        "118",
-        "127",
-        "138"
       ],
       "sample_scope_zh": [
         "范围1",
@@ -1874,22 +1290,24 @@
       ]
     },
     {
-      "key": "market_based",
-      "family": "method",
-      "label_zh": "市场法",
-      "label_en": "Market-based",
-      "hit_count": 5,
+      "key": "estimated_data",
+      "family": "data_source",
+      "label_zh": "估算数据",
+      "label_en": "Estimated data",
+      "hit_count": 7,
       "pages": [
-        "105",
-        "59",
-        "60",
-        "69"
+        "118",
+        "127"
       ],
       "sample_scope_zh": [
-        "范围2"
+        "范围1",
+        "范围2",
+        "范围3"
       ],
       "sample_scope_en": [
-        "Scope 2"
+        "Scope 1",
+        "Scope 2",
+        "Scope 3"
       ]
     },
     {
@@ -1913,14 +1331,16 @@
       ]
     },
     {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 3,
+      "key": "market_based",
+      "family": "method",
+      "label_zh": "市场法",
+      "label_en": "Market-based",
+      "hit_count": 4,
       "pages": [
-        "130",
-        "59"
+        "105",
+        "59",
+        "60",
+        "69"
       ],
       "sample_scope_zh": [
         "范围2"
@@ -1934,11 +1354,10 @@
       "family": "method",
       "label_zh": "位置法",
       "label_en": "Location-based",
-      "hit_count": 3,
+      "hit_count": 2,
       "pages": [
         "127",
-        "147",
-        "59"
+        "147"
       ],
       "sample_scope_zh": [
         "范围2"
@@ -1946,48 +1365,6 @@
       "sample_scope_en": [
         "Scope 2"
       ]
-    },
-    {
-      "key": "life_cycle_assessment",
-      "family": "method",
-      "label_zh": "生命周期评价",
-      "label_en": "Life-cycle assessment",
-      "hit_count": 2,
-      "pages": [
-        "112",
-        "128"
-      ],
-      "sample_scope_zh": [
-        "范围1"
-      ],
-      "sample_scope_en": [
-        "Scope 1"
-      ]
-    },
-    {
-      "key": "secondary_data",
-      "family": "data_source",
-      "label_zh": "次级数据",
-      "label_en": "Secondary data",
-      "hit_count": 2,
-      "pages": [
-        "107",
-        "138"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    },
-    {
-      "key": "primary_data",
-      "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
-      "hit_count": 1,
-      "pages": [
-        "135"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     }
   ],
   "authoritative_scope_rows": [],
@@ -2053,44 +1430,10 @@
       "page": "16",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Financed emissions activity",
-      "label_zh": "投融资活动",
-      "page": "16",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "snippet_en": "Capital Markets segments. (9) For information about our authorized lending to pure play low-carbon energy entities, refer to Advise and finance client actions that support the transition in Climate. (10) Absolute financed emissions for the",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：16"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "16",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
       "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 16",
@@ -2138,7 +1481,7 @@
       "page": "49",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Climate - Energy Sector and portfolio actions. For the year ended",
+      "snippet_en": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt of CO 2 e from 68.6 Mt of CO 2 e in 2023 (restated from 71.4 Mt of CO 2 e to incorporate more up-to-da",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
@@ -2155,7 +1498,7 @@
       "page": "49",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "time. It also measures the impact of actions we are taking to bring down our absolute financed emissions from the sector over time through RBC’s Client Engagement Approach on Climate - Energy Sector and portfolio actions. For the year ended",
+      "snippet_en": "For the year ended October 31, 2024, Scope 1, 2, and 3 absolute financed emissions 15, on an authorized basis, decreased by 1% to 68.2 Mt of CO 2 e from 68.6 Mt of CO 2 e in 2023 (restated from 71.4 Mt of CO 2 e to incorporate more up-to-da",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
@@ -2189,27 +1532,10 @@
       "page": "59",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "l Scope 2 Guidance defines the market-based method as a method for Scope 2 emissions accounting that reflects emissions from electricity that a reporting company has purposely chosen (or their lack of choice). In the market-based method, em",
+      "snippet_en": "l Scope 2 Guidance defines the market-based method as a method for Scope 2 emissions accounting that reflects emissions from electricity that a reporting company has purposely chosen (or their lack of choice).",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Derived data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：59"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Market-based",
-      "label_zh": "市场法",
-      "page": "59",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Table 16: Global emissions from our operations, for the year ended October 31 Tonnes of CO2e unless otherwise noted 2024 2023 2022 Baseline year (2018) Scope 1 23,090 23,873 22,840 24,821 Scope 2 location-based (1) 68,051 63,713 65,577 102,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
       "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 59",
@@ -2223,7 +1549,7 @@
       "page": "60",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "re 4: Total global emissions from our operations in tonnes of CO 2 e, for the year ended October 31 Performance relative to 2018 baseline Our total global operational emissions decreased by 63% relative to our 2018 baseline. This is driven",
+      "snippet_en": "This is driven by a 7% decrease in Scope 1 emissions, a 93% decrease in Scope 2, (market-based) emissions, and a 33% decrease in our Scope 3 (business travel) emissions.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
@@ -2240,7 +1566,7 @@
       "page": "69",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "2022 onward are included. (7) We have restated comparative figures for certain metrics associated with our global emissions from our operations. Refer to Restatement of emissions from our operations for further details. (8) Inclusive of our",
+      "snippet_en": "Refer to Restatement of emissions from our operations for further details. (8) Inclusive of our global operations, Scope 1, Scope 2 (market-based) and Scope 3 (business travel) reported GHG emissions, against our 2018 baseline.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
@@ -2257,7 +1583,7 @@
       "page": "70",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024)",
+      "snippet_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & 2 (3) 2.1 2.6 3.0 2.8 Scope 3 (4) 38.8 42.9 45.5 4.4 Power gene",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
@@ -2274,7 +1600,7 @@
       "page": "70",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024)",
+      "snippet_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & 2 (3) 2.1 2.6 3.0 2.8 Scope 3 (4) 38.8 42.9 45.5 4.4 Power gene",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
@@ -2291,7 +1617,7 @@
       "page": "70",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "our methodology, refer to Appendix 5: Methodology and data challenges for relevant metrics. Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024)",
+      "snippet_en": "Table 19: PCAF financed emissions by sector (1), for the year ended October 31 Millions of tonnes of CO2e 2024 2023 2022 PCAF data score (2) (2024) Energy Oil and gas Scope 1 & 2 (3) 2.1 2.6 3.0 2.8 Scope 3 (4) 38.8 42.9 45.5 4.4 Power gene",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
@@ -2299,40 +1625,6 @@
       "review_status": "seed_batch_04",
       "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 70",
       "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：70"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Financed emissions activity",
-      "label_zh": "投融资活动",
-      "page": "104",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Scope 3",
-      "label_zh": "范围3",
-      "page": "104",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ned to have been inaccurate. A number of factors, many of which are beyond our control and the effects of which can be difficult to predict, could affect the amount of our absolute financed emissions for the oil and gas sector in a period,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 104",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：104"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2342,7 +1634,7 @@
       "page": "105",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ions. To guide companies in the task of identifying and calculating the emissions they create and contribute to across the value chain, the GHG Protocol Corporate Accounting and Reporting Standard categorizes emissions into three scopes. Sc",
+      "snippet_en": "Scope 3 emissions are all indirect emissions not included in Scope 2 that occur in the value chain of the reporting company, in",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -2359,7 +1651,7 @@
       "page": "105",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "e solutions section in Climate. 28. RBC exited the Net-Zero Banking Alliance in January 2025. 29. Select Capital Markets and Corporate Client Group funds clients and products are excluded from the due diligence process. 30. Inclusive of our",
+      "snippet_en": "Inclusive of our global operations, Scope 1, Scope 2 (market-based) and Scope 3 (business travel) reported GHG emissions, against our 2018 baseline.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
@@ -2367,40 +1659,6 @@
       "review_status": "seed_batch_04",
       "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 105",
       "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：105"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "107",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "53. Emission factors are a way to estimate the emissions of our clients. We use both internally-developed and external emission factors that are generally developed using a variety of third-party data sources and provide sector averages to",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 107",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：107"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Life-cycle assessment",
-      "label_zh": "生命周期评价",
-      "page": "112",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "rces such as hydroelectricity, wind and solar. Renewable energy Renewable energy is defined as the construction, development, operation, acquisition, maintenance and connection of the following renewable energy generation sources: wind, sol",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
-      "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 112",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：112"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -2524,15 +1782,15 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Location-based",
-      "label_zh": "位置法",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
       "page": "127",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "e metrics used by the FRFI to assess climate-related risks and opportunities in line with its strategy and risk management process. Climate: Climate-related risk management Climate: Strategy overview Climate: Climate metrics b)i Disclose se",
+      "snippet_en": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underlying reasons for these decisions.",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Location-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Location-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：位置法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：位置法 / 估算数据",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
       "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
@@ -2541,121 +1799,36 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Life-cycle assessment",
-      "label_zh": "生命周期评价",
-      "page": "128",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "Report for more details). Eligible activities under low-carbon energy are: ■renewable energy: construction, development, operation, acquisition, maintenance and connection of the following renewable energy generation sources: – Wind – Solar",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Life-cycle assessment; Structured assurance tag: Report disclosure; Matched keywords: Life-cycle assessment",
-      "recognition_basis_zh": "结构化方法标注：生命周期评价；结构化核查环节：报告披露；原文命中关键词：生命周期评价",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 128",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：128"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
-      "page": "130",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synthetic fuel and renewable natural gas (either synthetic natural",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
-      "page": "130",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "with a carbon intensity ≤ 36 g CO2 e/MJ. Examples of eligible fuel types include: hydrogen, ethanol, renewable diesel, co-processing of biocrude, sustainable aviation fuel, synthetic fuel and renewable natural gas (either synthetic natural",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 130",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：130"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "135",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ted emissions: When a client directly reports their emissions data, via a company’s sustainability report or other publicly available disclosures, we source this data directly from our clients or from a third- party provider. We have used a",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 135",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：135"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
       "label_en": "Estimated data",
       "label_zh": "估算数据",
-      "page": "138",
+      "page": "127",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For example, while many of our clients in the oil and gas sector a",
+      "snippet_en": "Disclose the measurement approach, inputs, and assumptions the FRFI uses to measure its Scope 1 and Scope 2 GHG emissions, and the underlying reasons for these decisions.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138"
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127"
     },
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "138",
+      "label_en": "Location-based",
+      "label_zh": "位置法",
+      "page": "127",
       "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
       "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "ission factors53 as proxies to estimate client emissions. The availability, quality and reliability of data differ considerably by sector, sub-sector and scope of emissions. For example, while many of our clients in the oil and gas sector a",
+      "snippet_en": "Climate: Climate-related risk management Climate: Strategy overview Climate: Climate metrics b)i Disclose separately the FRFI's Scope 1 and location-based Scope 2 absolute gross GHG emissions for the period.",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
+      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
+      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
       "confidence_level": "medium",
       "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "138",
-      "source_file": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "report_title": "ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf",
-      "snippet_en": "nd availability We collect client emissions data from publicly available sources of information, through engagement with our clients, and through third-party data vendors. Where client-reported emissions data is unavailable from these data",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_04",
-      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 138",
-      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：138"
+      "evidence_locator_en": "Report: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | File: ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | Page: 127",
+      "evidence_locator_zh": "报告：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 文件：ROYAL BANK OF CANADA-RBC-2024-sustainability-report.pdf | 页码：127"
     },
     {
       "fact_type_en": "Methodology fact",

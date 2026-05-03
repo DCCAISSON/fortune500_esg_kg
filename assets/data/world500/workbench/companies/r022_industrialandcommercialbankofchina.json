@@ -21,12 +21,12 @@
     "ICBC_2024_Sustainability_Report.pdf"
   ],
   "standards_count": 2,
-  "method_rows_count": 5,
-  "keyword_summary_count": 1,
+  "method_rows_count": 0,
+  "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 7,
+  "evidence_ledger_count": 2,
   "standard_systems_zh": [
     "ISO 体系",
     "ESG 披露框架"
@@ -45,30 +45,12 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [
-    "次级数据"
-  ],
-  "data_source_types_en": [
-    "Secondary data"
-  ],
-  "assurance_stages_zh": [
-    "报告披露",
-    "鉴证"
-  ],
-  "assurance_stages_en": [
-    "Report disclosure",
-    "Assurance"
-  ],
-  "activity_categories_zh": [
-    "固定排放源",
-    "过程排放",
-    "价值链活动"
-  ],
-  "activity_categories_en": [
-    "Stationary emission source",
-    "Process emissions",
-    "Generic value-chain activity"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
+  "assurance_stages_zh": [],
+  "assurance_stages_en": [],
+  "activity_categories_zh": [],
+  "activity_categories_en": [],
   "standards": [
     {
       "system_key": "iso",
@@ -119,313 +101,12 @@
       "recognition_basis_zh": "结构化标准标注：GRI；标准角色：披露标准"
     }
   ],
-  "method_rows": [
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Stationary emission source",
-      "activity_standard_category_zh": "固定排放源",
-      "activity_evidence_mapping_en": "Stationary emission source",
-      "activity_evidence_mapping_zh": "固定排放源",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "ral gas and diesel. 2. The calculation scope of gasoline consumption is limited to gasoline consumption due to the use of automobiles, while that of diesel consump- tion incorpo...",
-      "estimate_basis_zh": "ral gas and diesel. 2. The calculation scope of gasoline consumption is limited to gasoline consumption due to the use of automobiles, wh...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "ral gas and diesel. 2. The calculation scope of gasoline consumption is limited to gasoline consumption due to the use of automobiles, while that of diesel consump- tion incorporates diesel consumption due to the use of automobiles and dies",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Buildi...",
-      "estimate_basis_zh": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for G...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Building Operating Enterprises (Provisional) and Announcement on the",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Process emissions",
-      "activity_standard_category_zh": "过程排放",
-      "activity_evidence_mapping_en": "Process emissions",
-      "activity_evidence_mapping_zh": "过程排放",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Buildi...",
-      "estimate_basis_zh": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for G...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Building Operating Enterprises (Provisional) and Announcement on the",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "emission_type_en": "Indirect energy emissions",
-      "emission_type_zh": "能源间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Buildi...",
-      "estimate_basis_zh": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for G...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Building Operating Enterprises (Provisional) and Announcement on the",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ed Page GRI 2: General Disclosures GRI 2-1 Organizational details 4 GRI 2-2 Entities included in the organization's sustainability reporting 149 GRI 2-3 Reporting period, freque...",
-      "estimate_basis_zh": "ed Page GRI 2: General Disclosures GRI 2-1 Organizational details 4 GRI 2-2 Entities included in the organization's sustainability report...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "80",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "ed Page GRI 2: General Disclosures GRI 2-1 Organizational details 4 GRI 2-2 Entities included in the organization's sustainability reporting 149 GRI 2-3 Reporting period, frequency and contact point 149 GRI 2-4 Restatements of information 1",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 80",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：80",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
-    }
-  ],
-  "keyword_summary": [
-    {
-      "key": "secondary_data",
-      "family": "data_source",
-      "label_zh": "次级数据",
-      "label_en": "Secondary data",
-      "hit_count": 3,
-      "pages": [
-        "73"
-      ],
-      "sample_scope_zh": [
-        "范围1",
-        "范围2"
-      ],
-      "sample_scope_en": [
-        "Scope 1",
-        "Scope 2"
-      ]
-    }
-  ],
+  "method_rows": [],
+  "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
   "evidence_ledger": [
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Building Operating Enterprises (Provisional) and Announcement on the",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Building Operating Enterprises (Provisional) and Announcement on the",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "se Gas Emissions and Removals and the energy-related emissions factors specified in Quantification Methods and Reporting Guidelines for Greenhouse Gas Emissions by Public Building Operating Enterprises (Provisional) and Announcement on the",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Stationary emission source",
-      "label_zh": "固定排放源",
-      "page": "73",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "ral gas and diesel. 2. The calculation scope of gasoline consumption is limited to gasoline consumption due to the use of automobiles, while that of diesel consump- tion incorporates diesel consumption due to the use of automobiles and dies",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 73",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：73"
-    },
     {
       "fact_type_en": "Standard reference",
       "fact_type_zh": "标准引用事实",
@@ -459,23 +140,6 @@
       "review_status": "seed_batch_11",
       "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 76",
       "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：76"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "80",
-      "source_file": "ICBC_2024_Sustainability_Report.pdf",
-      "report_title": "ICBC_2024_Sustainability_Report.pdf",
-      "snippet_en": "ed Page GRI 2: General Disclosures GRI 2-1 Organizational details 4 GRI 2-2 Entities included in the organization's sustainability reporting 149 GRI 2-3 Reporting period, frequency and contact point 149 GRI 2-4 Restatements of information 1",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: ICBC_2024_Sustainability_Report.pdf | File: ICBC_2024_Sustainability_Report.pdf | Page: 80",
-      "evidence_locator_zh": "报告：ICBC_2024_Sustainability_Report.pdf | 文件：ICBC_2024_Sustainability_Report.pdf | 页码：80"
     }
   ]
 }

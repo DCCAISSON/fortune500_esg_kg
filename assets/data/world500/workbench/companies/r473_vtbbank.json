@@ -21,12 +21,12 @@
     "vtb_sustainability_report_2024_eng.pdf"
   ],
   "standards_count": 3,
-  "method_rows_count": 5,
-  "keyword_summary_count": 1,
+  "method_rows_count": 2,
+  "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 8,
+  "evidence_ledger_count": 5,
   "standard_systems_zh": [
     "ESG 披露框架",
     "GHG 体系"
@@ -47,12 +47,8 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [
-    "次级数据"
-  ],
-  "data_source_types_en": [
-    "Secondary data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
     "报告披露"
   ],
@@ -60,11 +56,9 @@
     "Report disclosure"
   ],
   "activity_categories_zh": [
-    "固定排放源",
     "投融资活动"
   ],
   "activity_categories_en": [
-    "Stationary emission source",
     "Financed emissions activity"
   ],
   "standards": [
@@ -142,135 +136,6 @@
     }
   ],
   "method_rows": [
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "s) using emission factors in accordance with Order No. 371 of the Ministry of Natural Resources and Environment of the Russian Federation dated 27 May 2022, “On the approval of ...",
-      "estimate_basis_zh": "s) using emission factors in accordance with Order No. 371 of the Ministry of Natural Resources and Environment of the Russian Federation...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "107",
-      "source_file": "vtb_sustainability_report_2024_eng.pdf",
-      "report_title": "vtb_sustainability_report_2024_eng.pdf",
-      "snippet_en": "s) using emission factors in accordance with Order No. 371 of the Ministry of Natural Resources and Environment of the Russian Federation dated 27 May 2022, “On the approval of methodologies for the quantitative determination of GHG emissio",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: vtb_sustainability_report_2024_eng.pdf | File: vtb_sustainability_report_2024_eng.pdf | Page: 107",
-      "evidence_locator_zh": "报告：vtb_sustainability_report_2024_eng.pdf | 文件：vtb_sustainability_report_2024_eng.pdf | 页码：107",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "emission_type_en": "Indirect energy emissions",
-      "emission_type_zh": "能源间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "metric tons of CO equivalent ₂ Direct (Scope 1) and indirect energy-related (Scope 2) greenhouse gas emissions by VTB Bank (PJSC) during the reporting period. Direct GHG emissio...",
-      "estimate_basis_zh": "metric tons of CO equivalent ₂ Direct (Scope 1) and indirect energy-related (Scope 2) greenhouse gas emissions by VTB Bank (PJSC) during ...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "107",
-      "source_file": "vtb_sustainability_report_2024_eng.pdf",
-      "report_title": "vtb_sustainability_report_2024_eng.pdf",
-      "snippet_en": "metric tons of CO equivalent ₂ Direct (Scope 1) and indirect energy-related (Scope 2) greenhouse gas emissions by VTB Bank (PJSC) during the reporting period. Direct GHG emissions are calculated based on fuel consumption (gasoline, diesel,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: vtb_sustainability_report_2024_eng.pdf | File: vtb_sustainability_report_2024_eng.pdf | Page: 107",
-      "evidence_locator_zh": "报告：vtb_sustainability_report_2024_eng.pdf | 文件：vtb_sustainability_report_2024_eng.pdf | 页码：107",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Stationary emission source",
-      "activity_standard_category_zh": "固定排放源",
-      "activity_evidence_mapping_en": "Stationary emission source",
-      "activity_evidence_mapping_zh": "固定排放源",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "ement (hazard classes I–V), including by category: waste recycled; waste neutralized; waste landﬁlled; waste reused; waste processed; waste generation reduced. Reducing overall ...",
-      "estimate_basis_zh": "ement (hazard classes I–V), including by category: waste recycled; waste neutralized; waste landﬁlled; waste reused; waste processed; was...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "122",
-      "source_file": "vtb_sustainability_report_2024_eng.pdf",
-      "report_title": "vtb_sustainability_report_2024_eng.pdf",
-      "snippet_en": "ement (hazard classes I–V), including by category: waste recycled; waste neutralized; waste landﬁlled; waste reused; waste processed; waste generation reduced. Reducing overall environmental impact 86 MED-19 Mass of pollutants emitted into",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: vtb_sustainability_report_2024_eng.pdf | File: vtb_sustainability_report_2024_eng.pdf | Page: 122",
-      "evidence_locator_zh": "报告：vtb_sustainability_report_2024_eng.pdf | 文件：vtb_sustainability_report_2024_eng.pdf | 页码：122",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
     {
       "scope_en": "Scope 3",
       "scope_zh": "范围3",
@@ -350,26 +215,7 @@
       "recognition_basis_zh": "结构化核查环节：报告披露"
     }
   ],
-  "keyword_summary": [
-    {
-      "key": "secondary_data",
-      "family": "data_source",
-      "label_zh": "次级数据",
-      "label_en": "Secondary data",
-      "hit_count": 2,
-      "pages": [
-        "107"
-      ],
-      "sample_scope_zh": [
-        "范围1",
-        "范围2"
-      ],
-      "sample_scope_en": [
-        "Scope 1",
-        "Scope 2"
-      ]
-    }
-  ],
+  "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
@@ -458,57 +304,6 @@
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: vtb_sustainability_report_2024_eng.pdf | File: vtb_sustainability_report_2024_eng.pdf | Page: 84",
       "evidence_locator_zh": "报告：vtb_sustainability_report_2024_eng.pdf | 文件：vtb_sustainability_report_2024_eng.pdf | 页码：84"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "107",
-      "source_file": "vtb_sustainability_report_2024_eng.pdf",
-      "report_title": "vtb_sustainability_report_2024_eng.pdf",
-      "snippet_en": "s) using emission factors in accordance with Order No. 371 of the Ministry of Natural Resources and Environment of the Russian Federation dated 27 May 2022, “On the approval of methodologies for the quantitative determination of GHG emissio",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: vtb_sustainability_report_2024_eng.pdf | File: vtb_sustainability_report_2024_eng.pdf | Page: 107",
-      "evidence_locator_zh": "报告：vtb_sustainability_report_2024_eng.pdf | 文件：vtb_sustainability_report_2024_eng.pdf | 页码：107"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "107",
-      "source_file": "vtb_sustainability_report_2024_eng.pdf",
-      "report_title": "vtb_sustainability_report_2024_eng.pdf",
-      "snippet_en": "metric tons of CO equivalent ₂ Direct (Scope 1) and indirect energy-related (Scope 2) greenhouse gas emissions by VTB Bank (PJSC) during the reporting period. Direct GHG emissions are calculated based on fuel consumption (gasoline, diesel,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: vtb_sustainability_report_2024_eng.pdf | File: vtb_sustainability_report_2024_eng.pdf | Page: 107",
-      "evidence_locator_zh": "报告：vtb_sustainability_report_2024_eng.pdf | 文件：vtb_sustainability_report_2024_eng.pdf | 页码：107"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Stationary emission source",
-      "label_zh": "固定排放源",
-      "page": "122",
-      "source_file": "vtb_sustainability_report_2024_eng.pdf",
-      "report_title": "vtb_sustainability_report_2024_eng.pdf",
-      "snippet_en": "ement (hazard classes I–V), including by category: waste recycled; waste neutralized; waste landﬁlled; waste reused; waste processed; waste generation reduced. Reducing overall environmental impact 86 MED-19 Mass of pollutants emitted into",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: vtb_sustainability_report_2024_eng.pdf | File: vtb_sustainability_report_2024_eng.pdf | Page: 122",
-      "evidence_locator_zh": "报告：vtb_sustainability_report_2024_eng.pdf | 文件：vtb_sustainability_report_2024_eng.pdf | 页码：122"
     }
   ]
 }

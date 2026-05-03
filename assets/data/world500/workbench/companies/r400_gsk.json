@@ -21,12 +21,12 @@
     "GSK-responsible-business-performance-report-2024.pdf"
   ],
   "standards_count": 4,
-  "method_rows_count": 11,
-  "keyword_summary_count": 2,
+  "method_rows_count": 9,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 15,
+  "evidence_ledger_count": 13,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架"
@@ -49,12 +49,8 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [
-    "推导数据"
-  ],
-  "data_source_types_en": [
-    "Derived data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
     "报告披露",
     "鉴证"
@@ -64,18 +60,18 @@
     "Assurance"
   ],
   "activity_categories_zh": [
-    "价值链活动",
     "外购能源活动",
     "下游价值链活动",
     "投融资活动",
+    "价值链活动",
     "移动排放源",
     "散逸性排放"
   ],
   "activity_categories_en": [
-    "Generic value-chain activity",
     "Purchased energy",
     "Downstream value-chain activity",
     "Financed emissions activity",
+    "Generic value-chain activity",
     "Mobile emission source",
     "Fugitive emissions"
   ],
@@ -178,51 +174,6 @@
     }
   ],
   "method_rows": [
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "Progress to date: 58% of our total spend on the 12 highest priority materials is covered by an action plan to achieve sustainable sourcing by 2030. We’re committed to 100% paper...",
-      "estimate_basis_zh": "Progress to date: 58% of our total spend on the 12 highest priority materials is covered by an action plan to achieve sustainable sourcin...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
-      "evidence_page": "22",
-      "source_file": "GSK-responsible-business-performance-report-2024.pdf",
-      "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "Progress to date: 58% of our total spend on the 12 highest priority materials is covered by an action plan to achieve sustainable sourcing by 2030. We’re committed to 100% paper packaging and palm oil certified by 2025. In 2024, 93% of our",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 22",
-      "evidence_locator_zh": "报告：GSK-responsible-business-performance-report-2024.pdf | 文件：GSK-responsible-business-performance-report-2024.pdf | 页码：22",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
-    },
     {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
@@ -464,45 +415,6 @@
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
     {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "Demerger: 2019-21 comparative results restated to reflect the demerger of our Consumer Healthcare business, unless otherwise specified. Other restatements of information are det...",
-      "estimate_basis_zh": "Demerger: 2019-21 comparative results restated to reflect the demerger of our Consumer Healthcare business, unless otherwise specified. O...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "39",
-      "source_file": "GSK-responsible-business-performance-report-2024.pdf",
-      "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "Demerger: 2019-21 comparative results restated to reflect the demerger of our Consumer Healthcare business, unless otherwise specified. Other restatements of information are detailed where relevant for specific data points throughout the re",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 39",
-      "evidence_locator_zh": "报告：GSK-responsible-business-performance-report-2024.pdf | 文件：GSK-responsible-business-performance-report-2024.pdf | 页码：39",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
-    },
-    {
       "scope_en": "Scope 1",
       "scope_zh": "范围1",
       "emission_type_en": "Direct emissions",
@@ -524,15 +436,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Explicit mention",
       "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priority Pathogens List (as at 31 January 2024...",
-      "estimate_basis_zh": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priori...",
+      "estimate_basis_en": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from our sales fleet vehicles, fugitive losses ...",
+      "estimate_basis_zh": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from ou...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "6",
       "source_file": "GSK-responsible-business-performance-report-2024.pdf",
       "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priority Pathogens List (as at 31 January 2024), and the CDC Antibiotic Resistance Threats in the United Stat",
+      "snippet_en": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses f",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
@@ -563,15 +475,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Explicit mention",
       "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priority Pathogens List (as at 31 January 2024...",
-      "estimate_basis_zh": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priori...",
+      "estimate_basis_en": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from our sales fleet vehicles, fugitive losses ...",
+      "estimate_basis_zh": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from ou...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "6",
       "source_file": "GSK-responsible-business-performance-report-2024.pdf",
       "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priority Pathogens List (as at 31 January 2024), and the CDC Antibiotic Resistance Threats in the United Stat",
+      "snippet_en": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses f",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
@@ -602,28 +514,22 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "lectricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses from refrigerants used in GSK-owned ancillary ...",
-      "estimate_basis_zh": "lectricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses from r...",
-      "keyword_keys": [
-        "on_site"
-      ],
-      "keyword_labels_en": [
-        "On-site data"
-      ],
-      "keyword_labels_zh": [
-        "现场/在场数据"
-      ],
+      "estimate_basis_en": "Scope 2 emissions include any purchased electricity, steam, compressed air and chilled water.",
+      "estimate_basis_zh": "Scope 2 emissions include any purchased electricity, steam, compressed air and chilled water.",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
       "evidence_page": "6",
       "source_file": "GSK-responsible-business-performance-report-2024.pdf",
       "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "lectricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses from refrigerants used in GSK-owned ancillary equipment and emissions from onsite waste treatment. Scope 2 em",
+      "snippet_en": "Scope 2 emissions include any purchased electricity, steam, compressed air and chilled water.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 6",
       "evidence_locator_zh": "报告：GSK-responsible-business-performance-report-2024.pdf | 文件：GSK-responsible-business-performance-report-2024.pdf | 页码：6",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: On-site data",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：现场/在场数据"
+      "recognition_basis_en": "Structured assurance tag: Assurance",
+      "recognition_basis_zh": "结构化核查环节：鉴证"
     }
   ],
   "keyword_summary": [
@@ -632,10 +538,9 @@
       "family": "data_source",
       "label_zh": "现场/在场数据",
       "label_en": "On-site data",
-      "hit_count": 2,
+      "hit_count": 1,
       "pages": [
-        "24",
-        "6"
+        "24"
       ],
       "sample_scope_zh": [
         "范围2"
@@ -643,18 +548,6 @@
       "sample_scope_en": [
         "Scope 2"
       ]
-    },
-    {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 1,
-      "pages": [
-        "22"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     }
   ],
   "authoritative_scope_rows": [],
@@ -703,7 +596,7 @@
       "page": "6",
       "source_file": "GSK-responsible-business-performance-report-2024.pdf",
       "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priority Pathogens List (as at 31 January 2024), and the CDC Antibiotic Resistance Threats in the United Stat",
+      "snippet_en": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses f",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
@@ -720,7 +613,7 @@
       "page": "6",
       "source_file": "GSK-responsible-business-performance-report-2024.pdf",
       "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "f Deloitte’s assurance please see their limited assurance report. (See page 47.) 2 \u0007This target was set based on the WHO Bacterial Priority Pathogens List (as at 31 January 2024), and the CDC Antibiotic Resistance Threats in the United Stat",
+      "snippet_en": "3 \u0007Scope 1 emissions cover emissions from the direct combustion of fuels on our sites to generate heat and electricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses f",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Assurance",
       "recognition_basis_zh": "结构化核查环节：鉴证",
@@ -737,10 +630,10 @@
       "page": "6",
       "source_file": "GSK-responsible-business-performance-report-2024.pdf",
       "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "lectricity, emissions from our sales fleet vehicles, fugitive losses of propellant during the manufacturing of inhalers and losses from refrigerants used in GSK-owned ancillary equipment and emissions from onsite waste treatment. Scope 2 em",
+      "snippet_en": "Scope 2 emissions include any purchased electricity, steam, compressed air and chilled water.",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance; Matched keywords: On-site data",
-      "recognition_basis_zh": "结构化核查环节：鉴证；原文命中关键词：现场/在场数据",
+      "recognition_basis_en": "Structured assurance tag: Assurance",
+      "recognition_basis_zh": "结构化核查环节：鉴证",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 6",
@@ -779,23 +672,6 @@
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 19",
       "evidence_locator_zh": "报告：GSK-responsible-business-performance-report-2024.pdf | 文件：GSK-responsible-business-performance-report-2024.pdf | 页码：19"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
-      "page": "22",
-      "source_file": "GSK-responsible-business-performance-report-2024.pdf",
-      "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "Progress to date: 58% of our total spend on the 12 highest priority materials is covered by an action plan to achieve sustainable sourcing by 2030. We’re committed to 100% paper packaging and palm oil certified by 2025. In 2024, 93% of our",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 22",
-      "evidence_locator_zh": "报告：GSK-responsible-business-performance-report-2024.pdf | 文件：GSK-responsible-business-performance-report-2024.pdf | 页码：22"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -898,23 +774,6 @@
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 25",
       "evidence_locator_zh": "报告：GSK-responsible-business-performance-report-2024.pdf | 文件：GSK-responsible-business-performance-report-2024.pdf | 页码：25"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "39",
-      "source_file": "GSK-responsible-business-performance-report-2024.pdf",
-      "report_title": "GSK-responsible-business-performance-report-2024.pdf",
-      "snippet_en": "Demerger: 2019-21 comparative results restated to reflect the demerger of our Consumer Healthcare business, unless otherwise specified. Other restatements of information are detailed where relevant for specific data points throughout the re",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: GSK-responsible-business-performance-report-2024.pdf | File: GSK-responsible-business-performance-report-2024.pdf | Page: 39",
-      "evidence_locator_zh": "报告：GSK-responsible-business-performance-report-2024.pdf | 文件：GSK-responsible-business-performance-report-2024.pdf | 页码：39"
     }
   ]
 }

@@ -21,12 +21,12 @@
     "Talanx_Nachhaltigkeitsbericht_2023_en.pdf"
   ],
   "standards_count": 6,
-  "method_rows_count": 4,
-  "keyword_summary_count": 2,
+  "method_rows_count": 1,
+  "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 10,
+  "evidence_ledger_count": 7,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -57,29 +57,19 @@
   ],
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
-  "data_source_types_zh": [
-    "推导数据",
-    "估算数据"
-  ],
-  "data_source_types_en": [
-    "Derived data",
-    "Estimated data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
-    "报告披露",
-    "鉴证"
+    "报告披露"
   ],
   "assurance_stages_en": [
-    "Report disclosure",
-    "Assurance"
+    "Report disclosure"
   ],
   "activity_categories_zh": [
-    "散逸性排放",
-    "价值链活动"
+    "散逸性排放"
   ],
   "activity_categories_en": [
-    "Fugitive emissions",
-    "Generic value-chain activity"
+    "Fugitive emissions"
   ],
   "standards": [
     {
@@ -229,51 +219,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "­Energy, water and waste data are evaluated annually to determine carbon emissions for the portfolio of directly held properties, with the stranding point for each property then...",
-      "estimate_basis_zh": "­Energy, water and waste data are evaluated annually to determine carbon emissions for the portfolio of directly held properties, with th...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
-      "evidence_page": "22",
-      "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "­Energy, water and waste data are evaluated annually to determine carbon emissions for the portfolio of directly held properties, with the stranding point for each property then being calculated using the CRREM tool and measures to cut carb",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | File: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | Page: 22",
-      "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：22",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
-    },
-    {
       "scope_en": "Scope 1",
       "scope_zh": "范围1",
       "emission_type_en": "Direct emissions",
@@ -295,15 +240,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Explicit mention",
       "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "international units in the 2023 reporting period. In addition, the 2023 emissions figures in- clude emissions data for the activities in Brazil and Türkiye that were acquired in...",
-      "estimate_basis_zh": "international units in the 2023 reporting period. In addition, the 2023 emissions figures in- clude emissions data for the activities in ...",
+      "estimate_basis_en": "The reporting categories are defined as follows: ■ Scope 1: Direct emissions from sources owned or controlled by the organisation (liquid or gas fossil fuels, owned and leased v...",
+      "estimate_basis_zh": "The reporting categories are defined as follows: ■ Scope 1: Direct emissions from sources owned or controlled by the organisation (liquid...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "32",
       "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
       "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "international units in the 2023 reporting period. In addition, the 2023 emissions figures in- clude emissions data for the activities in Brazil and Türkiye that were acquired in the reporting period. The reporting categories are defined as",
+      "snippet_en": "The reporting categories are defined as follows: ■ Scope 1: Direct emissions from sources owned or controlled by the organisation (liquid or gas fossil fuels, owned and leased vehicles, and refrigerants emitted by cooling systems) ■ Scope 2",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_08",
@@ -311,118 +256,9 @@
       "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "itres –11.1% 125.90 141.54 146.28 1 \u0007Data do not include the Hannover Re Group. 2 \u0007Information per employee based on active core employees, not including the Hannover Re Group (...",
-      "estimate_basis_zh": "itres –11.1% 125.90 141.54 146.28 1 \u0007Data do not include the Hannover Re Group. 2 \u0007Information per employee based on active core employee...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "33",
-      "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "itres –11.1% 125.90 141.54 146.28 1 \u0007Data do not include the Hannover Re Group. 2 \u0007Information per employee based on active core employees, not including the Hannover Re Group (2023: 24.357, 2022: 20,346, 2019: 19,741). 3 \u0007Total emissions a",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | File: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | Page: 33",
-      "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：33",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "s 6, 8, 59 2-2 Entities included in the organization’s sustainability reporting 74 2-3 Reporting period, frequency and contact point 73, 86 2-4 Restatements of information All i...",
-      "estimate_basis_zh": "s 6, 8, 59 2-2 Entities included in the organization’s sustainability reporting 74 2-3 Reporting period, frequency and contact point 73, ...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "82",
-      "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "s 6, 8, 59 2-2 Entities included in the organization’s sustainability reporting 74 2-3 Reporting period, frequency and contact point 73, 86 2-4 Restatements of information All information was checked and no significant deviations were deter",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | File: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | Page: 82",
-      "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：82",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
     }
   ],
-  "keyword_summary": [
-    {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 1,
-      "pages": [
-        "22"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    },
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 1,
-      "pages": [
-        "33"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    }
-  ],
+  "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
   "scope3_candidates": [],
@@ -498,29 +334,12 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
-      "page": "22",
-      "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "­Energy, water and waste data are evaluated annually to determine carbon emissions for the portfolio of directly held properties, with the stranding point for each property then being calculated using the CRREM tool and measures to cut carb",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | File: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | Page: 22",
-      "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：22"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
       "label_en": "Fugitive emissions",
       "label_zh": "散逸性排放",
       "page": "32",
       "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
       "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "international units in the 2023 reporting period. In addition, the 2023 emissions figures in- clude emissions data for the activities in Brazil and Türkiye that were acquired in the reporting period. The reporting categories are defined as",
+      "snippet_en": "The reporting categories are defined as follows: ■ Scope 1: Direct emissions from sources owned or controlled by the organisation (liquid or gas fossil fuels, owned and leased vehicles, and refrigerants emitted by cooling systems) ■ Scope 2",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -547,23 +366,6 @@
       "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：32"
     },
     {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "33",
-      "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "itres –11.1% 125.90 141.54 146.28 1 \u0007Data do not include the Hannover Re Group. 2 \u0007Information per employee based on active core employees, not including the Hannover Re Group (2023: 24.357, 2022: 20,346, 2019: 19,741). 3 \u0007Total emissions a",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | File: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | Page: 33",
-      "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：33"
-    },
-    {
       "fact_type_en": "Standard reference",
       "fact_type_zh": "标准引用事实",
       "label_en": "ISO 14064",
@@ -579,23 +381,6 @@
       "review_status": "seed_batch_08",
       "evidence_locator_en": "Report: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | File: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | Page: 33",
       "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：33"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "82",
-      "source_file": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "report_title": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
-      "snippet_en": "s 6, 8, 59 2-2 Entities included in the organization’s sustainability reporting 74 2-3 Reporting period, frequency and contact point 73, 86 2-4 Restatements of information All information was checked and no significant deviations were deter",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | File: Talanx_Nachhaltigkeitsbericht_2023_en.pdf | Page: 82",
-      "evidence_locator_zh": "报告：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 文件：Talanx_Nachhaltigkeitsbericht_2023_en.pdf | 页码：82"
     }
   ]
 }

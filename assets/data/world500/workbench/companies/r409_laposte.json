@@ -21,12 +21,12 @@
     "2024 LA POSTE ESG.pdf"
   ],
   "standards_count": 2,
-  "method_rows_count": 1,
-  "keyword_summary_count": 1,
+  "method_rows_count": 2,
+  "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 3,
+  "evidence_ledger_count": 4,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架"
@@ -44,9 +44,11 @@
     "GRI"
   ],
   "calculation_methods_zh": [
+    "位置法",
     "市场法"
   ],
   "calculation_methods_en": [
+    "Location-based",
     "Market-based"
   ],
   "data_source_types_zh": [],
@@ -126,14 +128,59 @@
       "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "Location-based",
+      "calculation_method_zh": "位置法",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "CO2 49 908 37 681 43 919 + 16,6 % Scope 2 location-based Groupe Tonnes éq.",
+      "estimate_basis_zh": "CO2 49 908 37 681 43 919 + 16,6 % Scope 2 location-based Groupe Tonnes éq.",
+      "keyword_keys": [
+        "location_based"
+      ],
+      "keyword_labels_en": [
+        "Location-based"
+      ],
+      "keyword_labels_zh": [
+        "位置法"
+      ],
+      "evidence_page": "45",
+      "source_file": "2024 LA POSTE ESG.pdf",
+      "report_title": "2024 LA POSTE ESG.pdf",
+      "snippet_en": "CO2 49 908 37 681 43 919 + 16,6 % Scope 2 location-based Groupe Tonnes éq.",
+      "snippet_zh": "nan",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09",
+      "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 45",
+      "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：45",
+      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
+      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法"
+    },
+    {
+      "scope_en": "Scope 2",
+      "scope_zh": "范围2",
+      "emission_type_en": "Indirect energy emissions",
+      "emission_type_zh": "能源间接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Market-based",
       "calculation_method_zh": "市场法",
       "boundary_type_en": "",
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Grou...",
-      "estimate_basis_zh": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2...",
+      "estimate_basis_en": "CO2 432 360 387 205 331 578 - 14,4 % ■dont émissions indirectes liées à l’énergie (Scope 2 market-based) Groupe Tonnes éq.",
+      "estimate_basis_zh": "CO2 432 360 387 205 331 578 - 14,4 % ■dont émissions indirectes liées à l’énergie (Scope 2 market-based) Groupe Tonnes éq.",
       "keyword_keys": [
         "market_based"
       ],
@@ -146,7 +193,7 @@
       "evidence_page": "45",
       "source_file": "2024 LA POSTE ESG.pdf",
       "report_title": "2024 LA POSTE ESG.pdf",
-      "snippet_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Groupe Tonnes éq. CO2 2 392 988 5 708 785 5 480 257 - 4,0 % ■dont é",
+      "snippet_en": "CO2 432 360 387 205 331 578 - 14,4 % ■dont émissions indirectes liées à l’énergie (Scope 2 market-based) Groupe Tonnes éq.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_09",
@@ -157,6 +204,22 @@
     }
   ],
   "keyword_summary": [
+    {
+      "key": "location_based",
+      "family": "method",
+      "label_zh": "位置法",
+      "label_en": "Location-based",
+      "hit_count": 1,
+      "pages": [
+        "45"
+      ],
+      "sample_scope_zh": [
+        "范围2"
+      ],
+      "sample_scope_en": [
+        "Scope 2"
+      ]
+    },
     {
       "key": "market_based",
       "family": "method",
@@ -215,12 +278,29 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
+      "label_en": "Location-based",
+      "label_zh": "位置法",
+      "page": "45",
+      "source_file": "2024 LA POSTE ESG.pdf",
+      "report_title": "2024 LA POSTE ESG.pdf",
+      "snippet_en": "CO2 49 908 37 681 43 919 + 16,6 % Scope 2 location-based Groupe Tonnes éq.",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured method tag: Location-based; Structured assurance tag: Report disclosure; Matched keywords: Location-based",
+      "recognition_basis_zh": "结构化方法标注：位置法；结构化核查环节：报告披露；原文命中关键词：位置法",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_09",
+      "evidence_locator_en": "Report: 2024 LA POSTE ESG.pdf | File: 2024 LA POSTE ESG.pdf | Page: 45",
+      "evidence_locator_zh": "报告：2024 LA POSTE ESG.pdf | 文件：2024 LA POSTE ESG.pdf | 页码：45"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
       "label_en": "Market-based",
       "label_zh": "市场法",
       "page": "45",
       "source_file": "2024 LA POSTE ESG.pdf",
       "report_title": "2024 LA POSTE ESG.pdf",
-      "snippet_en": "sur les émissions de gaz à effet de serre (GES) [305] Synthèse des émissions de GES Indicateur Périmètre Unité 2022 2023 2024 Variation 2024/2023 Total des émissions de GES Groupe Tonnes éq. CO2 2 392 988 5 708 785 5 480 257 - 4,0 % ■dont é",
+      "snippet_en": "CO2 432 360 387 205 331 578 - 14,4 % ■dont émissions indirectes liées à l’énergie (Scope 2 market-based) Groupe Tonnes éq.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",

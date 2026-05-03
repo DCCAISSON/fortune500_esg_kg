@@ -21,12 +21,12 @@
     "novartis-integrated-report-2024.pdf"
   ],
   "standards_count": 4,
-  "method_rows_count": 33,
-  "keyword_summary_count": 5,
+  "method_rows_count": 29,
+  "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 37,
+  "evidence_ledger_count": 33,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -56,36 +56,32 @@
     "Market-based"
   ],
   "data_source_types_zh": [
-    "初级数据",
-    "次级数据",
-    "估算数据"
+    "估算数据",
+    "次级数据"
   ],
   "data_source_types_en": [
-    "Primary data",
-    "Secondary data",
-    "Estimated data"
+    "Estimated data",
+    "Secondary data"
   ],
   "assurance_stages_zh": [
-    "报告披露",
-    "鉴证"
+    "报告披露"
   ],
   "assurance_stages_en": [
-    "Report disclosure",
-    "Assurance"
+    "Report disclosure"
   ],
   "activity_categories_zh": [
     "外购能源活动",
-    "价值链活动",
     "上游价值链活动",
     "废弃物活动",
-    "下游价值链活动"
+    "下游价值链活动",
+    "价值链活动"
   ],
   "activity_categories_en": [
     "Purchased energy",
-    "Generic value-chain activity",
     "Upstream value-chain activity",
     "Waste management activity",
-    "Downstream value-chain activity"
+    "Downstream value-chain activity",
+    "Generic value-chain activity"
   ],
   "standards": [
     {
@@ -208,54 +204,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "purchased energy (Scope 1 and 2) by 20% from the prior year and 71% from a 2016 base year. In line with our SBTi-approved target boundary, we have reduced our Scope 1 emissions ...",
-      "estimate_basis_zh": "purchased energy (Scope 1 and 2) by 20% from the prior year and 71% from a 2016 base year. In line with our SBTi-approved target boundary...",
+      "estimate_basis_en": "In 2024, 96% of our purchased electricity consumption was renewable, compared with 92% a year earlier, after sourcing renewable electricity for sites in several countries in Asi...",
+      "estimate_basis_zh": "In 2024, 96% of our purchased electricity consumption was renewable, compared with 92% a year earlier, after sourcing renewable electrici...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "27",
       "source_file": "novartis-integrated-report-2024.pdf",
       "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "purchased energy (Scope 1 and 2) by 20% from the prior year and 71% from a 2016 base year. In line with our SBTi-approved target boundary, we have reduced our Scope 1 emissions by 22% and our Scope 2 emissions by 72% from a 2022 base year.",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 27",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：27",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "tion plan based on three time horizons: medium term (up to 2030), aligned with our near-term target; long term (up to 2040), transitioning to net zero across our value chain; an...",
-      "estimate_basis_zh": "tion plan based on three time horizons: medium term (up to 2030), aligned with our near-term target; long term (up to 2040), transitionin...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "27",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "tion plan based on three time horizons: medium term (up to 2030), aligned with our near-term target; long term (up to 2040), transitioning to net zero across our value chain; and maintaining net zero up to 2050, in line with the Paris Agree",
+      "snippet_en": "In 2024, 96% of our purchased electricity consumption was renewable, compared with 92% a year earlier, after sourcing renewable electricity for sites in several countries in Asia and South America, which are not included in the scope of our",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
@@ -321,98 +278,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition, we are participating in the development...",
-      "estimate_basis_zh": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition,...",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "28",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition, we are participating in the development of the WBCSD’s Partnership for Carbon Transparency Pathfinder",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 28",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：28",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition, we are participating in the development...",
-      "estimate_basis_zh": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition,...",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "28",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition, we are participating in the development of the WBCSD’s Partnership for Carbon Transparency Pathfinder",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 28",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：28",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
@@ -424,15 +291,15 @@
       "estimate_basis_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistic...",
       "estimate_basis_zh": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely b...",
       "keyword_keys": [
-        "secondary_data",
+        "estimated_data",
         "proxy_data"
       ],
       "keyword_labels_en": [
-        "Secondary data",
+        "Estimated data",
         "Proxy data"
       ],
       "keyword_labels_zh": [
-        "次级数据",
+        "估算数据",
         "代理数据"
       ],
       "evidence_page": "29",
@@ -444,8 +311,8 @@
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据"
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据"
     },
     {
       "scope_en": "Scope 3",
@@ -459,8 +326,8 @@
       "activity_standard_category_zh": "上游价值链活动",
       "activity_evidence_mapping_en": "Purchased goods and services",
       "activity_evidence_mapping_zh": "购买的商品和服务",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
@@ -472,15 +339,15 @@
       "estimate_basis_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistic...",
       "estimate_basis_zh": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely b...",
       "keyword_keys": [
-        "secondary_data",
+        "estimated_data",
         "proxy_data"
       ],
       "keyword_labels_en": [
-        "Secondary data",
+        "Estimated data",
         "Proxy data"
       ],
       "keyword_labels_zh": [
-        "次级数据",
+        "估算数据",
         "代理数据"
       ],
       "evidence_page": "29",
@@ -492,8 +359,8 @@
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据"
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据"
     },
     {
       "scope_en": "Scope 3",
@@ -507,8 +374,8 @@
       "activity_standard_category_zh": "上游价值链活动",
       "activity_evidence_mapping_en": "Capital goods",
       "activity_evidence_mapping_zh": "资本货物",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
@@ -520,15 +387,15 @@
       "estimate_basis_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistic...",
       "estimate_basis_zh": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely b...",
       "keyword_keys": [
-        "secondary_data",
+        "estimated_data",
         "proxy_data"
       ],
       "keyword_labels_en": [
-        "Secondary data",
+        "Estimated data",
         "Proxy data"
       ],
       "keyword_labels_zh": [
-        "次级数据",
+        "估算数据",
         "代理数据"
       ],
       "evidence_page": "29",
@@ -540,8 +407,8 @@
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据"
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据"
     },
     {
       "scope_en": "Scope 3",
@@ -555,8 +422,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
@@ -568,15 +435,15 @@
       "estimate_basis_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistic...",
       "estimate_basis_zh": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely b...",
       "keyword_keys": [
-        "secondary_data",
+        "estimated_data",
         "proxy_data"
       ],
       "keyword_labels_en": [
-        "Secondary data",
+        "Estimated data",
         "Proxy data"
       ],
       "keyword_labels_zh": [
-        "次级数据",
+        "估算数据",
         "代理数据"
       ],
       "evidence_page": "29",
@@ -588,8 +455,8 @@
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据"
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据"
     },
     {
       "scope_en": "Scope 3",
@@ -599,6 +466,54 @@
       "scope3_category_code": "2",
       "scope3_category_en": "Category 2 Capital goods",
       "scope3_category_zh": "类别2 资本货物",
+      "activity_standard_category_en": "",
+      "activity_standard_category_zh": "",
+      "activity_evidence_mapping_en": "",
+      "activity_evidence_mapping_zh": "",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "",
+      "classification_stage_zh": "",
+      "estimate_basis_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistic...",
+      "estimate_basis_zh": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely b...",
+      "keyword_keys": [
+        "estimated_data",
+        "proxy_data"
+      ],
+      "keyword_labels_en": [
+        "Estimated data",
+        "Proxy data"
+      ],
+      "keyword_labels_zh": [
+        "估算数据",
+        "代理数据"
+      ],
+      "evidence_page": "29",
+      "source_file": "novartis-integrated-report-2024.pdf",
+      "report_title": "novartis-integrated-report-2024.pdf",
+      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
+      "snippet_zh": "nan",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
+      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据"
+    },
+    {
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
+      "scope3_category_code": "",
+      "scope3_category_en": "",
+      "scope3_category_zh": "",
       "activity_standard_category_en": "",
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
@@ -613,70 +528,28 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistic...",
-      "estimate_basis_zh": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely b...",
+      "estimate_basis_en": "The share of emission factors sourced from suppliers has increased to 33%.",
+      "estimate_basis_zh": "The share of emission factors sourced from suppliers has increased to 33%.",
       "keyword_keys": [
-        "secondary_data",
-        "proxy_data"
+        "secondary_data"
       ],
       "keyword_labels_en": [
-        "Secondary data",
-        "Proxy data"
+        "Secondary data"
       ],
       "keyword_labels_zh": [
-        "次级数据",
-        "代理数据"
+        "次级数据"
       ],
       "evidence_page": "29",
       "source_file": "novartis-integrated-report-2024.pdf",
       "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
+      "snippet_en": "The share of emission factors sourced from suppliers has increased to 33%.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": ". The playbook has been shared with more than 1 000 suppliers and integrated into the Pharmaceutical Supply Chain Initiative’s (PSCI) standard supplier learning plans. We engage...",
-      "estimate_basis_zh": ". The playbook has been shared with more than 1 000 suppliers and integrated into the Pharmaceutical Supply Chain Initiative’s (PSCI) sta...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "29",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": ". The playbook has been shared with more than 1 000 suppliers and integrated into the Pharmaceutical Supply Chain Initiative’s (PSCI) standard supplier learning plans. We engage with key suppliers on their carbon footprint that contribute s",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露"
+      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
+      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
     },
     {
       "scope_en": "Scope 2",
@@ -1486,8 +1359,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "sions by the corresponding country-level carbon price forecast; 5) we multiplied the resulting carbon costs by our Scope 3 SBTi emissions reduction targets for 2030 (42%) and 20...",
-      "estimate_basis_zh": "sions by the corresponding country-level carbon price forecast; 5) we multiplied the resulting carbon costs by our Scope 3 SBTi emissions...",
+      "estimate_basis_en": "and 6) we estimated the percentage of our Scope 3 emissions imported to the EU in our baseline year, and using a sector-based approach, we assumed which percentage of these may ...",
+      "estimate_basis_zh": "and 6) we estimated the percentage of our Scope 3 emissions imported to the EU in our baseline year, and using a sector-based approach, w...",
       "keyword_keys": [
         "estimated_data"
       ],
@@ -1500,7 +1373,7 @@
       "evidence_page": "67",
       "source_file": "novartis-integrated-report-2024.pdf",
       "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "sions by the corresponding country-level carbon price forecast; 5) we multiplied the resulting carbon costs by our Scope 3 SBTi emissions reduction targets for 2030 (42%) and 2040 (90%), assuming we maintain emissions at the 2040 level also",
+      "snippet_en": "and 6) we estimated the percentage of our Scope 3 emissions imported to the EU in our baseline year, and using a sector-based approach, we assumed which percentage of these may gradually become subject to the CBAM across the time horizon, u",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
@@ -1508,56 +1381,18 @@
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：67",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "s reporting practices 2-1 Organization details p. 7, p. 10 2-2 Entities included in the organization‘s sustainability reporting p. 3 Reporting Criteria 2-3 Reporting period, fre...",
-      "estimate_basis_zh": "s reporting practices 2-1 Organization details p. 7, p. 10 2-2 Entities included in the organization‘s sustainability reporting p. 3 Repo...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "69",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "s reporting practices 2-1 Organization details p. 7, p. 10 2-2 Entities included in the organization‘s sustainability reporting p. 3 Reporting Criteria 2-3 Reporting period, frequency and contact point p.3 2-4 Restatements of information p.",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 69",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：69",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
     }
   ],
   "keyword_summary": [
     {
-      "key": "proxy_data",
+      "key": "estimated_data",
       "family": "data_source",
-      "label_zh": "代理数据",
-      "label_en": "Proxy data",
-      "hit_count": 5,
+      "label_zh": "估算数据",
+      "label_en": "Estimated data",
+      "hit_count": 6,
       "pages": [
-        "29"
+        "29",
+        "67"
       ],
       "sample_scope_zh": [
         "范围3"
@@ -1567,10 +1402,10 @@
       ]
     },
     {
-      "key": "secondary_data",
+      "key": "proxy_data",
       "family": "data_source",
-      "label_zh": "次级数据",
-      "label_en": "Secondary data",
+      "label_zh": "代理数据",
+      "label_en": "Proxy data",
       "hit_count": 5,
       "pages": [
         "29"
@@ -1600,29 +1435,13 @@
       ]
     },
     {
-      "key": "primary_data",
+      "key": "secondary_data",
       "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
-      "hit_count": 2,
-      "pages": [
-        "28"
-      ],
-      "sample_scope_zh": [
-        "范围3"
-      ],
-      "sample_scope_en": [
-        "Scope 3"
-      ]
-    },
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
+      "label_zh": "次级数据",
+      "label_en": "Secondary data",
       "hit_count": 1,
       "pages": [
-        "67"
+        "29"
       ],
       "sample_scope_zh": [
         "范围3"
@@ -1673,29 +1492,12 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "27",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "tion plan based on three time horizons: medium term (up to 2030), aligned with our near-term target; long term (up to 2040), transitioning to net zero across our value chain; and maintaining net zero up to 2050, in line with the Paris Agree",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 27",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：27"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
       "label_en": "Purchased energy",
       "label_zh": "外购能源活动",
       "page": "27",
       "source_file": "novartis-integrated-report-2024.pdf",
       "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "purchased energy (Scope 1 and 2) by 20% from the prior year and 71% from a 2016 base year. In line with our SBTi-approved target boundary, we have reduced our Scope 1 emissions by 22% and our Scope 2 emissions by 72% from a 2022 base year.",
+      "snippet_en": "In 2024, 96% of our purchased electricity consumption was renewable, compared with 92% a year earlier, after sourcing renewable electricity for sites in several countries in Asia and South America, which are not included in the scope of our",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -1739,40 +1541,6 @@
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：28"
     },
     {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "28",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition, we are participating in the development of the WBCSD’s Partnership for Carbon Transparency Pathfinder",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 28",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：28"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "28",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "armaceutical companies, aimed at enhancing capability and facilitating market access for renewable electricity procurement.1 In addition, we are participating in the development of the WBCSD’s Partnership for Carbon Transparency Pathfinder",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 28",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：28"
-    },
-    {
       "fact_type_en": "Standard reference",
       "fact_type_zh": "标准引用事实",
       "label_en": "GHG Protocol",
@@ -1792,15 +1560,83 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
       "page": "29",
       "source_file": "novartis-integrated-report-2024.pdf",
       "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": ". The playbook has been shared with more than 1 000 suppliers and integrated into the Pharmaceutical Supply Chain Initiative’s (PSCI) standard supplier learning plans. We engage with key suppliers on their carbon footprint that contribute s",
+      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
+      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "29",
+      "source_file": "novartis-integrated-report-2024.pdf",
+      "report_title": "novartis-integrated-report-2024.pdf",
+      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
+      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "29",
+      "source_file": "novartis-integrated-report-2024.pdf",
+      "report_title": "novartis-integrated-report-2024.pdf",
+      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
+      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "29",
+      "source_file": "novartis-integrated-report-2024.pdf",
+      "report_title": "novartis-integrated-report-2024.pdf",
+      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_07",
+      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
+      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
+    },
+    {
+      "fact_type_en": "Methodology fact",
+      "fact_type_zh": "方法学事实",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
+      "page": "29",
+      "source_file": "novartis-integrated-report-2024.pdf",
+      "report_title": "novartis-integrated-report-2024.pdf",
+      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
+      "snippet_zh": "nan",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / Proxy data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 代理数据",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
@@ -1814,78 +1650,10 @@
       "page": "29",
       "source_file": "novartis-integrated-report-2024.pdf",
       "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
+      "snippet_en": "The share of emission factors sourced from suppliers has increased to 33%.",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "29",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "29",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "29",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：29"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "29",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "on of the purchased goods and services and capital goods categories, which account for 85% of total Scope 3 emissions, is still largely based on proxy data (spend) and statistical modelling through the Environmentally Extended Input Output",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data / Proxy data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据 / 代理数据",
+      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
+      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 29",
@@ -2239,7 +2007,7 @@
       "page": "67",
       "source_file": "novartis-integrated-report-2024.pdf",
       "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "sions by the corresponding country-level carbon price forecast; 5) we multiplied the resulting carbon costs by our Scope 3 SBTi emissions reduction targets for 2030 (42%) and 2040 (90%), assuming we maintain emissions at the 2040 level also",
+      "snippet_en": "and 6) we estimated the percentage of our Scope 3 emissions imported to the EU in our baseline year, and using a sector-based approach, we assumed which percentage of these may gradually become subject to the CBAM across the time horizon, u",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
@@ -2247,23 +2015,6 @@
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 67",
       "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：67"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "69",
-      "source_file": "novartis-integrated-report-2024.pdf",
-      "report_title": "novartis-integrated-report-2024.pdf",
-      "snippet_en": "s reporting practices 2-1 Organization details p. 7, p. 10 2-2 Entities included in the organization‘s sustainability reporting p. 3 Reporting Criteria 2-3 Reporting period, frequency and contact point p.3 2-4 Restatements of information p.",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: novartis-integrated-report-2024.pdf | File: novartis-integrated-report-2024.pdf | Page: 69",
-      "evidence_locator_zh": "报告：novartis-integrated-report-2024.pdf | 文件：novartis-integrated-report-2024.pdf | 页码：69"
     }
   ]
 }

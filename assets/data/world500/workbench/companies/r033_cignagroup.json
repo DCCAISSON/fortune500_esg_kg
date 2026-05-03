@@ -21,12 +21,12 @@
     "2024-corporate-impact-report-CIGNA GROUP.pdf"
   ],
   "standards_count": 7,
-  "method_rows_count": 20,
-  "keyword_summary_count": 3,
+  "method_rows_count": 15,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 27,
+  "evidence_ledger_count": 22,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架",
@@ -61,32 +61,22 @@
   "calculation_methods_en": [
     "Market-based"
   ],
-  "data_source_types_zh": [
-    "次级数据",
-    "初级数据"
-  ],
-  "data_source_types_en": [
-    "Secondary data",
-    "Primary data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
-    "报告披露",
-    "鉴证"
+    "报告披露"
   ],
   "assurance_stages_en": [
-    "Report disclosure",
-    "Assurance"
+    "Report disclosure"
   ],
   "activity_categories_zh": [
     "外购能源活动",
-    "移动排放源",
     "上游价值链活动",
     "投融资活动",
     "价值链活动"
   ],
   "activity_categories_en": [
     "Purchased energy",
-    "Mobile emission source",
     "Upstream value-chain activity",
     "Financed emissions activity",
     "Generic value-chain activity"
@@ -270,87 +260,36 @@
       "scope3_category_code": "",
       "scope3_category_en": "",
       "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
+      "activity_standard_category_en": "Purchased energy",
+      "activity_standard_category_zh": "外购能源活动",
+      "activity_evidence_mapping_en": "Purchased electricity",
+      "activity_evidence_mapping_zh": "外购电力",
       "data_source_type_en": "",
       "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Market-based",
-      "calculation_method_zh": "市场法",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
       "boundary_type_en": "",
       "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "d 2 operational GHG footprint is made up of two primary activities: operating our buildings, which comprises electricity, heating and cooling; and operating company-owned aircra...",
-      "estimate_basis_zh": "d 2 operational GHG footprint is made up of two primary activities: operating our buildings, which comprises electricity, heating and coo...",
-      "keyword_keys": [
-        "market_based"
-      ],
-      "keyword_labels_en": [
-        "Market-based"
-      ],
-      "keyword_labels_zh": [
-        "市场法"
-      ],
+      "classification_stage_en": "Evidence-based mapping",
+      "classification_stage_zh": "基于证据规则映射",
+      "estimate_basis_en": "Scope 2 emissions from purchased electricity are the largest drivers of our building-related emissions and overall operational GHG footprint.",
+      "estimate_basis_zh": "Scope 2 emissions from purchased electricity are the largest drivers of our building-related emissions and overall operational GHG footpr...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
       "evidence_page": "49",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "d 2 operational GHG footprint is made up of two primary activities: operating our buildings, which comprises electricity, heating and cooling; and operating company-owned aircraft and vehicles for a small portion of our business travel. Sco",
+      "snippet_en": "Scope 2 emissions from purchased electricity are the largest drivers of our building-related emissions and overall operational GHG footprint.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 49",
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：49",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
-    },
-    {
-      "scope_en": "Scope 2",
-      "scope_zh": "范围2",
-      "emission_type_en": "Indirect energy emissions",
-      "emission_type_zh": "能源间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Market-based",
-      "calculation_method_zh": "市场法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emissions from building operations and comp...",
-      "estimate_basis_zh": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emi...",
-      "keyword_keys": [
-        "market_based"
-      ],
-      "keyword_labels_en": [
-        "Market-based"
-      ],
-      "keyword_labels_zh": [
-        "市场法"
-      ],
-      "evidence_page": "50",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope 2 (indirect)",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 50",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：50",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露"
     },
     {
       "scope_en": "Scope 2",
@@ -368,34 +307,28 @@
       "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Market-based",
-      "calculation_method_zh": "市场法",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
       "boundary_type_en": "",
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emissions from building operations and comp...",
-      "estimate_basis_zh": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emi...",
-      "keyword_keys": [
-        "market_based"
-      ],
-      "keyword_labels_en": [
-        "Market-based"
-      ],
-      "keyword_labels_zh": [
-        "市场法"
-      ],
+      "estimate_basis_en": "Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope 2 (indirect) GHG emissions from purchas...",
+      "estimate_basis_zh": "Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
       "evidence_page": "50",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope 2 (indirect)",
+      "snippet_en": "Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope 2 (indirect) GHG emissions from purchased electricity.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 50",
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：50",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露"
     },
     {
       "scope_en": "Scope 2",
@@ -409,8 +342,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Market-based",
@@ -419,70 +352,28 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "he purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summing Scope 1 and Scope 2 (market-based) emissio...",
-      "estimate_basis_zh": "he purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summing Sc...",
+      "estimate_basis_en": "For the purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summing Scope 1 and Scope 2 (market-based) em...",
+      "estimate_basis_zh": "For the purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summi...",
       "keyword_keys": [
-        "market_based",
-        "secondary_data"
+        "market_based"
       ],
       "keyword_labels_en": [
-        "Market-based",
-        "Secondary data"
+        "Market-based"
       ],
       "keyword_labels_zh": [
-        "市场法",
-        "次级数据"
+        "市场法"
       ],
       "evidence_page": "50",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "he purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summing Scope 1 and Scope 2 (market-based) emissions. This market-based subtotal has been reduced by procuring EA",
+      "snippet_en": "For the purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summing Scope 1 and Scope 2 (market-based) emissions.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 50",
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：50",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "Business-unit boundary",
-      "boundary_type_zh": "业务单元边界",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "tion, they may review or monitor Line 1 controls. ERM reviews our company’s risk exposure quarterly at a minimum, and more often for risks that are rated as inherently high. Lin...",
-      "estimate_basis_zh": "tion, they may review or monitor Line 1 controls. ERM reviews our company’s risk exposure quarterly at a minimum, and more often for risk...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "57",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "tion, they may review or monitor Line 1 controls. ERM reviews our company’s risk exposure quarterly at a minimum, and more often for risks that are rated as inherently high. Line 3 – Internal Audit The third line is Internal Audit, which se",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 57",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：57",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
     {
       "scope_en": "Scope 3",
@@ -506,15 +397,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "inability-focused training for our internal procurement team members in 2025. Our indirect supplier contracts and requests for proposals include specific language that set expec...",
-      "estimate_basis_zh": "inability-focused training for our internal procurement team members in 2025. Our indirect supplier contracts and requests for proposals ...",
+      "estimate_basis_en": "As part of our near-term Scope 3 emissions reduction goal-setting process (see page 49), we intend to explore how we can reduce Category 1 emissions through supplier engagement.",
+      "estimate_basis_zh": "As part of our near-term Scope 3 emissions reduction goal-setting process (see page 49), we intend to explore how we can reduce Category ...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "68",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "inability-focused training for our internal procurement team members in 2025. Our indirect supplier contracts and requests for proposals include specific language that set expectations to complete EcoVadis or an equivalent assessment. As pa",
+      "snippet_en": "As part of our near-term Scope 3 emissions reduction goal-setting process (see page 49), we intend to explore how we can reduce Category 1 emissions through supplier engagement.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
@@ -524,10 +415,10 @@
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
+      "scope_en": "Scope 1",
+      "scope_zh": "范围1",
+      "emission_type_en": "Direct emissions",
+      "emission_type_zh": "直接排放",
       "scope3_category_code": "",
       "scope3_category_en": "",
       "scope3_category_zh": "",
@@ -535,83 +426,32 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
       "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
+      "boundary_type_en": "Operational control",
+      "boundary_type_zh": "运营控制边界",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA). Where pri...",
-      "estimate_basis_zh": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the Inte...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
+      "estimate_basis_en": "Scope 1 and 2 emissions are calculated using an operational control consolidation approach.",
+      "estimate_basis_zh": "Scope 1 and 2 emissions are calculated using an operational control consolidation approach.",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
       "evidence_page": "73",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA). Where primary activity data was not available, we used an extrapolation",
+      "snippet_en": "Scope 1 and 2 emissions are calculated using an operational control consolidation approach.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 73",
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：73",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Mobile emission source",
-      "activity_standard_category_zh": "移动排放源",
-      "activity_evidence_mapping_en": "Mobile emission source",
-      "activity_evidence_mapping_zh": "移动排放源",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA). Where pri...",
-      "estimate_basis_zh": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the Inte...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "73",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA). Where primary activity data was not available, we used an extrapolation",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 73",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：73",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露"
     },
     {
       "scope_en": "Scope 2",
@@ -657,51 +497,6 @@
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：73",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "This resulted in the fuel value being unnecessarily converted. As a result, we underreported several of our 2023 energy and emissions values, and values have been corrected in t...",
-      "estimate_basis_zh": "This resulted in the fuel value being unnecessarily converted. As a result, we underreported several of our 2023 energy and emissions val...",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "74",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "This resulted in the fuel value being unnecessarily converted. As a result, we underreported several of our 2023 energy and emissions values, and values have been corrected in this report. 143 Water withdrawal data includes only internation",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 74",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：74",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
     {
       "scope_en": "Scope 3",
@@ -1053,45 +848,6 @@
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：74",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "eport, page 3 2-4 Restatements of information Restatements due to methodology changes are stated as footnotes throughout our Corporate Impact Report. 2-5 External assurance 2024...",
-      "estimate_basis_zh": "eport, page 3 2-4 Restatements of information Restatements due to methodology changes are stated as footnotes throughout our Corporate Im...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "78",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "eport, page 3 2-4 Restatements of information Restatements due to methodology changes are stated as footnotes throughout our Corporate Impact Report. 2-5 External assurance 2024 Corporate Impact Report, page 99. We received external, limite",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 78",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：78",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
     }
   ],
   "keyword_summary": [
@@ -1100,25 +856,7 @@
       "family": "method",
       "label_zh": "市场法",
       "label_en": "Market-based",
-      "hit_count": 5,
-      "pages": [
-        "49",
-        "50",
-        "73"
-      ],
-      "sample_scope_zh": [
-        "范围2"
-      ],
-      "sample_scope_en": [
-        "Scope 2"
-      ]
-    },
-    {
-      "key": "secondary_data",
-      "family": "data_source",
-      "label_zh": "次级数据",
-      "label_en": "Secondary data",
-      "hit_count": 3,
+      "hit_count": 2,
       "pages": [
         "50",
         "73"
@@ -1129,18 +867,6 @@
       "sample_scope_en": [
         "Scope 2"
       ]
-    },
-    {
-      "key": "primary_data",
-      "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
-      "hit_count": 1,
-      "pages": [
-        "74"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     }
   ],
   "authoritative_scope_rows": [],
@@ -1218,15 +944,15 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Market-based",
-      "label_zh": "市场法",
+      "label_en": "Purchased energy",
+      "label_zh": "外购能源活动",
       "page": "49",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "d 2 operational GHG footprint is made up of two primary activities: operating our buildings, which comprises electricity, heating and cooling; and operating company-owned aircraft and vehicles for a small portion of our business travel. Sco",
+      "snippet_en": "Scope 2 emissions from purchased electricity are the largest drivers of our building-related emissions and overall operational GHG footprint.",
       "snippet_zh": "",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 49",
@@ -1257,7 +983,7 @@
       "page": "50",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope 2 (indirect)",
+      "snippet_en": "For the purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summing Scope 1 and Scope 2 (market-based) emissions.",
       "snippet_zh": "",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
@@ -1269,53 +995,19 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Market-based",
-      "label_zh": "市场法",
+      "label_en": "Purchased energy",
+      "label_zh": "外购能源活动",
       "page": "50",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "to maintaining carbon-neutral operations after we achieve our initial goal set for 2040. Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope 2 (indirect)",
+      "snippet_en": "Our commitment includes Scope 1 (direct) GHG emissions from building operations and company-owned aircraft and vehicles, as well as Scope 2 (indirect) GHG emissions from purchased electricity.",
       "snippet_zh": "",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 50",
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：50"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Market-based",
-      "label_zh": "市场法",
-      "page": "50",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "he purposes of communicating progress towards our 2040 carbon neutrality goal, we calculate our total operational emissions by summing Scope 1 and Scope 2 (market-based) emissions. This market-based subtotal has been reduced by procuring EA",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Secondary data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 50",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：50"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "",
-      "label_zh": "",
-      "page": "57",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "tion, they may review or monitor Line 1 controls. ERM reviews our company’s risk exposure quarterly at a minimum, and more often for risks that are rated as inherently high. Line 3 – Internal Audit The third line is Internal Audit, which se",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 57",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：57"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1325,7 +1017,7 @@
       "page": "68",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "inability-focused training for our internal procurement team members in 2025. Our indirect supplier contracts and requests for proposals include specific language that set expectations to complete EcoVadis or an equivalent assessment. As pa",
+      "snippet_en": "As part of our near-term Scope 3 emissions reduction goal-setting process (see page 49), we intend to explore how we can reduce Category 1 emissions through supplier engagement.",
       "snippet_zh": "",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -1371,32 +1063,15 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
+      "label_en": "Scope 1",
+      "label_zh": "范围1",
       "page": "73",
       "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
       "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA). Where primary activity data was not available, we used an extrapolation",
+      "snippet_en": "Scope 1 and 2 emissions are calculated using an operational control consolidation approach.",
       "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 73",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：73"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "73",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "the GHG Protocol. The sources of our emission factors include the U.S. EPA, Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA). Where primary activity data was not available, we used an extrapolation",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 73",
@@ -1456,23 +1131,6 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "74",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "This resulted in the fuel value being unnecessarily converted. As a result, we underreported several of our 2023 energy and emissions values, and values have been corrected in this report. 143 Water withdrawal data includes only internation",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 74",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：74"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
       "label_en": "Scope 3",
       "label_zh": "范围3",
       "page": "74",
@@ -1588,23 +1246,6 @@
       "review_status": "seed_batch_01",
       "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 74",
       "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：74"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "78",
-      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "report_title": "2024-corporate-impact-report-CIGNA GROUP.pdf",
-      "snippet_en": "eport, page 3 2-4 Restatements of information Restatements due to methodology changes are stated as footnotes throughout our Corporate Impact Report. 2-5 External assurance 2024 Corporate Impact Report, page 99. We received external, limite",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_01",
-      "evidence_locator_en": "Report: 2024-corporate-impact-report-CIGNA GROUP.pdf | File: 2024-corporate-impact-report-CIGNA GROUP.pdf | Page: 78",
-      "evidence_locator_zh": "报告：2024-corporate-impact-report-CIGNA GROUP.pdf | 文件：2024-corporate-impact-report-CIGNA GROUP.pdf | 页码：78"
     }
   ]
 }

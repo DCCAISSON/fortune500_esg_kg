@@ -21,12 +21,12 @@
     "2025 Samsung C&T Sustainability Report.pdf"
   ],
   "standards_count": 7,
-  "method_rows_count": 10,
+  "method_rows_count": 7,
   "keyword_summary_count": 4,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 17,
+  "evidence_ledger_count": 14,
   "standard_systems_zh": [
     "GHG 体系",
     "ISO 体系",
@@ -65,12 +65,10 @@
   ],
   "data_source_types_zh": [
     "推导数据",
-    "估算数据",
     "次级数据"
   ],
   "data_source_types_en": [
     "Derived data",
-    "Estimated data",
     "Secondary data"
   ],
   "assurance_stages_zh": [
@@ -82,14 +80,10 @@
     "Report disclosure"
   ],
   "activity_categories_zh": [
-    "过程排放",
-    "散逸性排放",
-    "价值链活动"
+    "散逸性排放"
   ],
   "activity_categories_en": [
-    "Process emissions",
-    "Fugitive emissions",
-    "Generic value-chain activity"
+    "Fugitive emissions"
   ],
   "standards": [
     {
@@ -419,73 +413,31 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "‧ \u0007The data quality was considered corresponding to the international key principles for GHG emissions verification. ‧ \u0007Therefore, the BSI Group Korea Verification Team provides...",
-      "estimate_basis_zh": "‧ \u0007The data quality was considered corresponding to the international key principles for GHG emissions verification. ‧ \u0007Therefore, the BS...",
+      "estimate_basis_en": "Issue: 29/05/2025 Emission Category Direct Emissions (Scope 1) Indirect Emissions (Scope 2) Total Emissions Domestic Location-based emissions 18,846 74,244 93,090 Market-based e...",
+      "estimate_basis_zh": "Issue: 29/05/2025 Emission Category Direct Emissions (Scope 1) Indirect Emissions (Scope 2) Total Emissions Domestic Location-based emiss...",
       "keyword_keys": [
-        "market_based"
+        "market_based",
+        "location_based"
       ],
       "keyword_labels_en": [
-        "Market-based"
+        "Market-based",
+        "Location-based"
       ],
       "keyword_labels_zh": [
-        "市场法"
+        "市场法",
+        "位置法"
       ],
       "evidence_page": "119",
       "source_file": "2025 Samsung C&T Sustainability Report.pdf",
       "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "‧ \u0007The data quality was considered corresponding to the international key principles for GHG emissions verification. ‧ \u0007Therefore, the BSI Group Korea Verification Team provides a verification opinion that is “appropriate”. Issue: 29/05/202",
+      "snippet_en": "Issue: 29/05/2025 Emission Category Direct Emissions (Scope 1) Indirect Emissions (Scope 2) Total Emissions Domestic Location-based emissions 18,846 74,244 93,090 Market-based emissions 18,846 62,055 80,901 Overseas Location-based emissions",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 119",
       "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：119",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "emand for emission allowances due to expanded allowance allocations and rising prices, resulting in higher purchase costs Short- to medium-term · \u0007Implementation of tasks for re...",
-      "estimate_basis_zh": "emand for emission allowances due to expanded allowance allocations and rising prices, resulting in higher purchase costs Short- to mediu...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "30",
-      "source_file": "2025 Samsung C&T Sustainability Report.pdf",
-      "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "emand for emission allowances due to expanded allowance allocations and rising prices, resulting in higher purchase costs Short- to medium-term · \u0007Implementation of tasks for reducing greenhouse gas emissions · \u0007Securing of business-relevan",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 30",
-      "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：30",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based / Location-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法 / 位置法"
     },
     {
       "scope_en": "Scope 1",
@@ -585,45 +537,6 @@
       "scope3_category_code": "",
       "scope3_category_en": "",
       "scope3_category_zh": "",
-      "activity_standard_category_en": "Process emissions",
-      "activity_standard_category_zh": "过程排放",
-      "activity_evidence_mapping_en": "Process emissions",
-      "activity_evidence_mapping_zh": "过程排放",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "ly, and the full down drop system, which prevents free fall during form removal. In addition, during aluminum formwork dismantling, we installed a masker noise generator in the ...",
-      "estimate_basis_zh": "ly, and the full down drop system, which prevents free fall during form removal. In addition, during aluminum formwork dismantling, we in...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "42",
-      "source_file": "2025 Samsung C&T Sustainability Report.pdf",
-      "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "ly, and the full down drop system, which prevents free fall during form removal. In addition, during aluminum formwork dismantling, we installed a masker noise generator in the work area to shift high-frequency noise to low-frequency sound.",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 42",
-      "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：42",
-      "recognition_basis_en": "Structured assurance tag: Verification",
-      "recognition_basis_zh": "结构化核查环节：核查"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
       "activity_standard_category_en": "Fugitive emissions",
       "activity_standard_category_zh": "散逸性排放",
       "activity_evidence_mapping_en": "Fugitive emissions",
@@ -638,15 +551,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Explicit mention",
       "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "for contracts. In addition, we are continuously researching immersion cooling technology to improve data center energy efficiency and pursue carbon neutrality. Immersion cooling...",
-      "estimate_basis_zh": "for contracts. In addition, we are continuously researching immersion cooling technology to improve data center energy efficiency and pur...",
+      "estimate_basis_en": "Immersion cooling technology is a method of cooling servers by directly immersing them in a special refrigerant, which can reduce power consumption by 80% compared to the existi...",
+      "estimate_basis_zh": "Immersion cooling technology is a method of cooling servers by directly immersing them in a special refrigerant, which can reduce power c...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "49",
       "source_file": "2025 Samsung C&T Sustainability Report.pdf",
       "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "for contracts. In addition, we are continuously researching immersion cooling technology to improve data center energy efficiency and pursue carbon neutrality. Immersion cooling technology is a method of cooling servers by directly immersin",
+      "snippet_en": "Immersion cooling technology is a method of cooling servers by directly immersing them in a special refrigerant, which can reduce power consumption by 80% compared to the existing air-cooling method.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
@@ -654,45 +567,6 @@
       "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：49",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": ", human rights, supply chain management) Appointment Process of Directors · \u0007CEO candidates are selected from the executive talent pool nurtured through the Company's leadership...",
-      "estimate_basis_zh": ", human rights, supply chain management) Appointment Process of Directors · \u0007CEO candidates are selected from the executive talent pool n...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "87",
-      "source_file": "2025 Samsung C&T Sustainability Report.pdf",
-      "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": ", human rights, supply chain management) Appointment Process of Directors · \u0007CEO candidates are selected from the executive talent pool nurtured through the Company's leadership development program. · \u0007Independent director candidates are no",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 87",
-      "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：87",
-      "recognition_basis_en": "Structured assurance tag: Verification",
-      "recognition_basis_zh": "结构化核查环节：核查"
     }
   ],
   "keyword_summary": [
@@ -735,16 +609,20 @@
       ]
     },
     {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
+      "key": "location_based",
+      "family": "method",
+      "label_zh": "位置法",
+      "label_en": "Location-based",
       "hit_count": 1,
       "pages": [
-        "30"
+        "119"
       ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
+      "sample_scope_zh": [
+        "范围2"
+      ],
+      "sample_scope_en": [
+        "Scope 2"
+      ]
     },
     {
       "key": "market_based",
@@ -838,23 +716,6 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "30",
-      "source_file": "2025 Samsung C&T Sustainability Report.pdf",
-      "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "emand for emission allowances due to expanded allowance allocations and rising prices, resulting in higher purchase costs Short- to medium-term · \u0007Implementation of tasks for reducing greenhouse gas emissions · \u0007Securing of business-relevan",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 30",
-      "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：30"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
       "label_en": "Secondary data",
       "label_zh": "次级数据",
       "page": "33",
@@ -906,29 +767,12 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Process emissions",
-      "label_zh": "过程排放",
-      "page": "42",
-      "source_file": "2025 Samsung C&T Sustainability Report.pdf",
-      "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "ly, and the full down drop system, which prevents free fall during form removal. In addition, during aluminum formwork dismantling, we installed a masker noise generator in the work area to shift high-frequency noise to low-frequency sound.",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Verification",
-      "recognition_basis_zh": "结构化核查环节：核查",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 42",
-      "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：42"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
       "label_en": "Fugitive emissions",
       "label_zh": "散逸性排放",
       "page": "49",
       "source_file": "2025 Samsung C&T Sustainability Report.pdf",
       "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "for contracts. In addition, we are continuously researching immersion cooling technology to improve data center energy efficiency and pursue carbon neutrality. Immersion cooling technology is a method of cooling servers by directly immersin",
+      "snippet_en": "Immersion cooling technology is a method of cooling servers by directly immersing them in a special refrigerant, which can reduce power consumption by 80% compared to the existing air-cooling method.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -936,23 +780,6 @@
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 49",
       "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：49"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "87",
-      "source_file": "2025 Samsung C&T Sustainability Report.pdf",
-      "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": ", human rights, supply chain management) Appointment Process of Directors · \u0007CEO candidates are selected from the executive talent pool nurtured through the Company's leadership development program. · \u0007Independent director candidates are no",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Verification",
-      "recognition_basis_zh": "结构化核查环节：核查",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 87",
-      "evidence_locator_zh": "报告：2025 Samsung C&T Sustainability Report.pdf | 文件：2025 Samsung C&T Sustainability Report.pdf | 页码：87"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1030,10 +857,10 @@
       "page": "119",
       "source_file": "2025 Samsung C&T Sustainability Report.pdf",
       "report_title": "2025 Samsung C&T Sustainability Report.pdf",
-      "snippet_en": "‧ \u0007The data quality was considered corresponding to the international key principles for GHG emissions verification. ‧ \u0007Therefore, the BSI Group Korea Verification Team provides a verification opinion that is “appropriate”. Issue: 29/05/202",
+      "snippet_en": "Issue: 29/05/2025 Emission Category Direct Emissions (Scope 1) Indirect Emissions (Scope 2) Total Emissions Domestic Location-based emissions 18,846 74,244 93,090 Market-based emissions 18,846 62,055 80,901 Overseas Location-based emissions",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Verification; Matched keywords: Market-based / Location-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：核查；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: 2025 Samsung C&T Sustainability Report.pdf | File: 2025 Samsung C&T Sustainability Report.pdf | Page: 119",

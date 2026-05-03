@@ -21,12 +21,12 @@
     "kddi_sir2024_e.pdf"
   ],
   "standards_count": 3,
-  "method_rows_count": 9,
-  "keyword_summary_count": 3,
+  "method_rows_count": 7,
+  "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 12,
+  "evidence_ledger_count": 10,
   "standard_systems_zh": [
     "ESG 披露框架",
     "气候披露/目标框架"
@@ -52,11 +52,9 @@
     "Market-based"
   ],
   "data_source_types_zh": [
-    "估算数据",
     "推导数据"
   ],
   "data_source_types_en": [
-    "Estimated data",
     "Derived data"
   ],
   "assurance_stages_zh": [
@@ -69,13 +67,11 @@
   ],
   "activity_categories_zh": [
     "价值链活动",
-    "过程排放",
     "外购能源活动",
     "上游价值链活动"
   ],
   "activity_categories_en": [
     "Generic value-chain activity",
-    "Process emissions",
     "Purchased energy",
     "Upstream value-chain activity"
   ],
@@ -176,15 +172,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "age* in the mobile phone industry. In the production of this SIM card, our suppliers have also supported and collaborated with us in our environmental initiatives. Moving forwar...",
-      "estimate_basis_zh": "age* in the mobile phone industry. In the production of this SIM card, our suppliers have also supported and collaborated with us in our ...",
+      "estimate_basis_en": "Moving forward, we will continue to work together across the entire supply chain to achieve our Scope 3 reduction targets. * \u0007In terms of plastic usage per SIM card for consumer...",
+      "estimate_basis_zh": "Moving forward, we will continue to work together across the entire supply chain to achieve our Scope 3 reduction targets. * \u0007In terms of...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "32",
       "source_file": "kddi_sir2024_e.pdf",
       "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "age* in the mobile phone industry. In the production of this SIM card, our suppliers have also supported and collaborated with us in our environmental initiatives. Moving forward, we will continue to work together across the entire supply c",
+      "snippet_en": "Moving forward, we will continue to work together across the entire supply chain to achieve our Scope 3 reduction targets. * \u0007In terms of plastic usage per SIM card for consumer smartphones, based on KDDI research as of the end of May 2024",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
@@ -192,51 +188,6 @@
       "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：32",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "in which the goal to hold the increase in the global average temperature to 1.5°C above pre-industrial levels is achieved) Reference: IEA (International Energy Agency) \"World En...",
-      "estimate_basis_zh": "in which the goal to hold the increase in the global average temperature to 1.5°C above pre-industrial levels is achieved) Reference: IEA...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "33",
-      "source_file": "kddi_sir2024_e.pdf",
-      "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "in which the goal to hold the increase in the global average temperature to 1.5°C above pre-industrial levels is achieved) Reference: IEA (International Energy Agency) \"World Energy Outlook 2021\" Net Zero Emissions by 2050 Scenario（NZE Scen",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: kddi_sir2024_e.pdf | File: kddi_sir2024_e.pdf | Page: 33",
-      "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：33",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     },
     {
       "scope_en": "Scope 2",
@@ -305,15 +256,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "or the KDDI Group*1 to achieve net zero emissions by the end of fiscal 2040. Environmental target*2 Target year Details 1 Achievement of net zero emissions in the KDDI Group Fis...",
-      "estimate_basis_zh": "or the KDDI Group*1 to achieve net zero emissions by the end of fiscal 2040. Environmental target*2 Target year Details 1 Achievement of ...",
+      "estimate_basis_en": "Environmental target*2 Target year Details 1 Achievement of net zero emissions in the KDDI Group Fiscal 2040 In addition to emissions related to the KDDI Group’s business activi...",
+      "estimate_basis_zh": "Environmental target*2 Target year Details 1 Achievement of net zero emissions in the KDDI Group Fiscal 2040 In addition to emissions rel...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "34",
       "source_file": "kddi_sir2024_e.pdf",
       "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "or the KDDI Group*1 to achieve net zero emissions by the end of fiscal 2040. Environmental target*2 Target year Details 1 Achievement of net zero emissions in the KDDI Group Fiscal 2040 In addition to emissions related to the KDDI Group’s b",
+      "snippet_en": "Environmental target*2 Target year Details 1 Achievement of net zero emissions in the KDDI Group Fiscal 2040 In addition to emissions related to the KDDI Group’s business activities (Scope 1*3 and Scope 2*4), achieve net zero CO2 emissions",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_12",
@@ -321,51 +272,6 @@
       "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：34",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Process emissions",
-      "activity_standard_category_zh": "过程排放",
-      "activity_evidence_mapping_en": "Process emissions",
-      "activity_evidence_mapping_zh": "过程排放",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "—such as understanding, “This is when my engagement increases”—employees can analyze their own responses and find motivation to take a more proactive approach to their work. Meg...",
-      "estimate_basis_zh": "—such as understanding, “This is when my engagement increases”—employees can analyze their own responses and find motivation to take a mo...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
-      "evidence_page": "45",
-      "source_file": "kddi_sir2024_e.pdf",
-      "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "—such as understanding, “This is when my engagement increases”—employees can analyze their own responses and find motivation to take a more proactive approach to their work. Megumi Kikawada: Moving forward, we aim to create an environment w",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: kddi_sir2024_e.pdf | File: kddi_sir2024_e.pdf | Page: 45",
-      "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：45",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据"
     },
     {
       "scope_en": "Scope 2",
@@ -536,10 +442,9 @@
       "family": "data_source",
       "label_zh": "推导数据",
       "label_en": "Derived data",
-      "hit_count": 2,
+      "hit_count": 1,
       "pages": [
-        "34",
-        "45"
+        "34"
       ],
       "sample_scope_zh": [
         "范围2"
@@ -547,18 +452,6 @@
       "sample_scope_en": [
         "Scope 2"
       ]
-    },
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 1,
-      "pages": [
-        "33"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     },
     {
       "key": "market_based",
@@ -606,7 +499,7 @@
       "page": "32",
       "source_file": "kddi_sir2024_e.pdf",
       "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "age* in the mobile phone industry. In the production of this SIM card, our suppliers have also supported and collaborated with us in our environmental initiatives. Moving forward, we will continue to work together across the entire supply c",
+      "snippet_en": "Moving forward, we will continue to work together across the entire supply chain to achieve our Scope 3 reduction targets. * \u0007In terms of plastic usage per SIM card for consumer smartphones, based on KDDI research as of the end of May 2024",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -614,23 +507,6 @@
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: kddi_sir2024_e.pdf | File: kddi_sir2024_e.pdf | Page: 32",
       "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：32"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "33",
-      "source_file": "kddi_sir2024_e.pdf",
-      "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "in which the goal to hold the increase in the global average temperature to 1.5°C above pre-industrial levels is achieved) Reference: IEA (International Energy Agency) \"World Energy Outlook 2021\" Net Zero Emissions by 2050 Scenario（NZE Scen",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: kddi_sir2024_e.pdf | File: kddi_sir2024_e.pdf | Page: 33",
-      "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：33"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -657,7 +533,7 @@
       "page": "34",
       "source_file": "kddi_sir2024_e.pdf",
       "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "or the KDDI Group*1 to achieve net zero emissions by the end of fiscal 2040. Environmental target*2 Target year Details 1 Achievement of net zero emissions in the KDDI Group Fiscal 2040 In addition to emissions related to the KDDI Group’s b",
+      "snippet_en": "Environmental target*2 Target year Details 1 Achievement of net zero emissions in the KDDI Group Fiscal 2040 In addition to emissions related to the KDDI Group’s business activities (Scope 1*3 and Scope 2*4), achieve net zero CO2 emissions",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -682,23 +558,6 @@
       "review_status": "seed_batch_12",
       "evidence_locator_en": "Report: kddi_sir2024_e.pdf | File: kddi_sir2024_e.pdf | Page: 36",
       "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：36"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
-      "page": "45",
-      "source_file": "kddi_sir2024_e.pdf",
-      "report_title": "kddi_sir2024_e.pdf",
-      "snippet_en": "—such as understanding, “This is when my engagement increases”—employees can analyze their own responses and find motivation to take a more proactive approach to their work. Megumi Kikawada: Moving forward, we aim to create an environment w",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Report disclosure; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：报告披露；原文命中关键词：推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_12",
-      "evidence_locator_en": "Report: kddi_sir2024_e.pdf | File: kddi_sir2024_e.pdf | Page: 45",
-      "evidence_locator_zh": "报告：kddi_sir2024_e.pdf | 文件：kddi_sir2024_e.pdf | 页码：45"
     },
     {
       "fact_type_en": "Standard reference",

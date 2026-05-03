@@ -21,12 +21,12 @@
     "AIRBUS-pm_38_711_711991-us758j55ai.pdf"
   ],
   "standards_count": 3,
-  "method_rows_count": 12,
+  "method_rows_count": 8,
   "keyword_summary_count": 5,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 15,
+  "evidence_ledger_count": 11,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架",
@@ -57,13 +57,11 @@
   ],
   "data_source_types_zh": [
     "推导数据",
-    "估算数据",
-    "初级数据"
+    "估算数据"
   ],
   "data_source_types_en": [
     "Derived data",
-    "Estimated data",
-    "Primary data"
+    "Estimated data"
   ],
   "assurance_stages_zh": [
     "核查",
@@ -75,15 +73,13 @@
   ],
   "activity_categories_zh": [
     "移动排放源",
-    "价值链活动",
     "下游价值链活动",
-    "过程排放"
+    "价值链活动"
   ],
   "activity_categories_en": [
     "Mobile emission source",
-    "Generic value-chain activity",
     "Downstream value-chain activity",
-    "Process emissions"
+    "Generic value-chain activity"
   ],
   "standards": [
     {
@@ -160,51 +156,6 @@
     }
   ],
   "method_rows": [
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Mobile emission source",
-      "activity_standard_category_zh": "移动排放源",
-      "activity_evidence_mapping_en": "Mobile emission source",
-      "activity_evidence_mapping_zh": "移动排放源",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "All the Company’s fly-by-wire family aircraft (including A320, A330/A340, A380, A350, A220 fleets) correspond to the latest fourth-generation aircraft. This data is based on pub...",
-      "estimate_basis_zh": "All the Company’s fly-by-wire family aircraft (including A320, A330/A340, A380, A350, A220 fleets) correspond to the latest fourth-genera...",
-      "keyword_keys": [
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "推导数据"
-      ],
-      "evidence_page": "10",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All the Company’s fly-by-wire family aircraft (including A320, A330/A340, A380, A350, A220 fleets) correspond to the latest fourth-generation aircraft. This data is based on publicly available data from ICAO and Cirium. Tick-marked 2024 dat",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 10",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：10",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Verification; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：核查；原文命中关键词：推导数据"
-    },
     {
       "scope_en": "",
       "scope_zh": "",
@@ -358,8 +309,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Market-based",
@@ -368,37 +319,37 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "luding them using estimates. This resulted in changes in most previous year data (see table below). Impact of restatements on topic totals Unit 2023 2023 before restatement Vari...",
-      "estimate_basis_zh": "luding them using estimates. This resulted in changes in most previous year data (see table below). Impact of restatements on topic total...",
+      "estimate_basis_en": "Impact of restatements on topic totals Unit 2023 2023 before restatement Variation Key explanatory factors Total energy consumption GWh 3,728 3,646 2.25% Gross Scope 1 GHG emiss...",
+      "estimate_basis_zh": "Impact of restatements on topic totals Unit 2023 2023 before restatement Variation Key explanatory factors Total energy consumption GWh 3...",
       "keyword_keys": [
         "market_based",
-        "estimated_data"
+        "location_based"
       ],
       "keyword_labels_en": [
         "Market-based",
-        "Estimated data"
+        "Location-based"
       ],
       "keyword_labels_zh": [
         "市场法",
-        "估算数据"
+        "位置法"
       ],
       "evidence_page": "4",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "luding them using estimates. This resulted in changes in most previous year data (see table below). Impact of restatements on topic totals Unit 2023 2023 before restatement Variation Key explanatory factors Total energy consumption GWh 3,72",
+      "snippet_en": "Impact of restatements on topic totals Unit 2023 2023 before restatement Variation Key explanatory factors Total energy consumption GWh 3,728 3,646 2.25% Gross Scope 1 GHG emissions ktCO2eq 468 486 -3.70% Gross location-based Scope 2 GHG em",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
       "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 4",
       "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：4",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法"
     },
     {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
       "scope3_category_code": "",
       "scope3_category_en": "",
       "scope3_category_zh": "",
@@ -416,8 +367,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "cts IEA-SDS SAF uptake scenario for commercial aircraft. For other products: ●​ Helicopters: assumptions include activity data from Company’s customer services of helicopter ope...",
-      "estimate_basis_zh": "cts IEA-SDS SAF uptake scenario for commercial aircraft. For other products: ●​ Helicopters: assumptions include activity data from Compa...",
+      "estimate_basis_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific meth...",
+      "estimate_basis_zh": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are c...",
       "keyword_keys": [
         "estimated_data"
       ],
@@ -430,7 +381,7 @@
       "evidence_page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "cts IEA-SDS SAF uptake scenario for commercial aircraft. For other products: ●​ Helicopters: assumptions include activity data from Company’s customer services of helicopter operations such as flight hours per year and region where the heli",
+      "snippet_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific methodologies.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
@@ -438,96 +389,6 @@
       "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific meth...",
-      "estimate_basis_zh": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are c...",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "5",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific methodologies. As a result no part of the resulting emissions are c",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific meth...",
-      "estimate_basis_zh": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are c...",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "5",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific methodologies. As a result no part of the resulting emissions are c",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
     },
     {
       "scope_en": "Scope 3",
@@ -551,54 +412,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Compan...",
-      "estimate_basis_zh": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold produ...",
+      "estimate_basis_en": "Scope 3 - Use of sold products.",
+      "estimate_basis_zh": "Scope 3 - Use of sold products.",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Company’s value chain on climate change comes from the use of sold pr",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "11",
-      "scope3_category_en": "Category 11 Use of sold products",
-      "scope3_category_zh": "类别11 销售产品的使用",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Compan...",
-      "estimate_basis_zh": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold produ...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "5",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Company’s value chain on climate change comes from the use of sold pr",
+      "snippet_en": "Scope 3 - Use of sold products.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
@@ -629,15 +451,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Compan...",
-      "estimate_basis_zh": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold produ...",
+      "estimate_basis_en": "Scope 3 - Use of sold products.",
+      "estimate_basis_zh": "Scope 3 - Use of sold products.",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Company’s value chain on climate change comes from the use of sold pr",
+      "snippet_en": "Scope 3 - Use of sold products.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
@@ -647,49 +469,43 @@
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Process emissions",
-      "activity_standard_category_zh": "过程排放",
-      "activity_evidence_mapping_en": "Process emissions",
-      "activity_evidence_mapping_zh": "过程排放",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
+      "scope3_category_code": "11",
+      "scope3_category_en": "Category 11 Use of sold products",
+      "scope3_category_zh": "类别11 销售产品的使用",
+      "activity_standard_category_en": "Generic value-chain activity",
+      "activity_standard_category_zh": "价值链活动",
+      "activity_evidence_mapping_en": "Value-chain activities",
+      "activity_evidence_mapping_zh": "价值链活动",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
       "calculation_method_zh": "",
       "boundary_type_en": "",
       "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "between water withdrawal volumes and water discharge volumes. All volumes of water withdrawal per source and volumes of water discharges by destination are reported by each enti...",
-      "estimate_basis_zh": "between water withdrawal volumes and water discharge volumes. All volumes of water withdrawal per source and volumes of water discharges ...",
-      "keyword_keys": [
-        "primary_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据"
-      ],
-      "evidence_page": "6",
+      "classification_stage_en": "Evidence-based mapping",
+      "classification_stage_zh": "基于证据规则映射",
+      "estimate_basis_en": "The main contribution of the Company’s value chain on climate change comes from the use of sold products and the Company reports in-use emissions of the products it delivers (Sc...",
+      "estimate_basis_zh": "The main contribution of the Company’s value chain on climate change comes from the use of sold products and the Company reports in-use e...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
+      "evidence_page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "between water withdrawal volumes and water discharge volumes. All volumes of water withdrawal per source and volumes of water discharges by destination are reported by each entity. They can be either obtained from direct measurements (meter",
+      "snippet_en": "The main contribution of the Company’s value chain on climate change comes from the use of sold products and the Company reports in-use emissions of the products it delivers (Scope 3 – Use of sold products).",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 6",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：6",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
+      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
+      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露"
     }
   ],
   "keyword_summary": [
@@ -698,30 +514,10 @@
       "family": "data_source",
       "label_zh": "估算数据",
       "label_en": "Estimated data",
-      "hit_count": 4,
-      "pages": [
-        "3",
-        "4",
-        "5"
-      ],
-      "sample_scope_zh": [
-        "范围2",
-        "范围1"
-      ],
-      "sample_scope_en": [
-        "Scope 2",
-        "Scope 1"
-      ]
-    },
-    {
-      "key": "primary_data",
-      "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
       "hit_count": 3,
       "pages": [
-        "5",
-        "6"
+        "3",
+        "5"
       ],
       "sample_scope_zh": [
         "范围3"
@@ -729,19 +525,6 @@
       "sample_scope_en": [
         "Scope 3"
       ]
-    },
-    {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 2,
-      "pages": [
-        "10",
-        "2"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     },
     {
       "key": "life_cycle_assessment",
@@ -754,6 +537,34 @@
       ],
       "sample_scope_zh": [],
       "sample_scope_en": []
+    },
+    {
+      "key": "derived_data",
+      "family": "data_source",
+      "label_zh": "推导数据",
+      "label_en": "Derived data",
+      "hit_count": 1,
+      "pages": [
+        "2"
+      ],
+      "sample_scope_zh": [],
+      "sample_scope_en": []
+    },
+    {
+      "key": "location_based",
+      "family": "method",
+      "label_zh": "位置法",
+      "label_en": "Location-based",
+      "hit_count": 1,
+      "pages": [
+        "4"
+      ],
+      "sample_scope_zh": [
+        "范围2"
+      ],
+      "sample_scope_en": [
+        "Scope 2"
+      ]
     },
     {
       "key": "market_based",
@@ -869,10 +680,10 @@
       "page": "4",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "luding them using estimates. This resulted in changes in most previous year data (see table below). Impact of restatements on topic totals Unit 2023 2023 before restatement Variation Key explanatory factors Total energy consumption GWh 3,72",
+      "snippet_en": "Impact of restatements on topic totals Unit 2023 2023 before restatement Variation Key explanatory factors Total energy consumption GWh 3,728 3,646 2.25% Gross Scope 1 GHG emissions ktCO2eq 468 486 -3.70% Gross location-based Scope 2 GHG em",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Location-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法 / 位置法",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
       "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 4",
@@ -903,7 +714,7 @@
       "page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Company’s value chain on climate change comes from the use of sold pr",
+      "snippet_en": "Scope 3 - Use of sold products.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -920,7 +731,7 @@
       "page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "cts IEA-SDS SAF uptake scenario for commercial aircraft. For other products: ●​ Helicopters: assumptions include activity data from Company’s customer services of helicopter operations such as flight hours per year and region where the heli",
+      "snippet_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific methodologies.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
@@ -937,44 +748,10 @@
       "page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Company’s value chain on climate change comes from the use of sold pr",
+      "snippet_en": "The main contribution of the Company’s value chain on climate change comes from the use of sold products and the Company reports in-use emissions of the products it delivers (Scope 3 – Use of sold products).",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "5",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific methodologies. As a result no part of the resulting emissions are c",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "5",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "assumptions based on internal and external information including assumptions based on publicly-available data. ●​ Scope 3 emissions are calculated based on product specific methodologies. As a result no part of the resulting emissions are c",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
       "confidence_level": "medium",
       "review_status": "seed_batch_05",
       "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
@@ -988,7 +765,7 @@
       "page": "5",
       "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
       "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All other categories have been deemed non significant and are as such excluded from the Company’s disclosure. Scope 3 - Use of sold products. The main contribution of the Company’s value chain on climate change comes from the use of sold pr",
+      "snippet_en": "Scope 3 - Use of sold products.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -996,40 +773,6 @@
       "review_status": "seed_batch_05",
       "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 5",
       "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：5"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "6",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "between water withdrawal volumes and water discharge volumes. All volumes of water withdrawal per source and volumes of water discharges by destination are reported by each entity. They can be either obtained from direct measurements (meter",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 6",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：6"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Derived data",
-      "label_zh": "推导数据",
-      "page": "10",
-      "source_file": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "report_title": "AIRBUS-pm_38_711_711991-us758j55ai.pdf",
-      "snippet_en": "All the Company’s fly-by-wire family aircraft (including A320, A330/A340, A380, A350, A220 fleets) correspond to the latest fourth-generation aircraft. This data is based on publicly available data from ICAO and Cirium. Tick-marked 2024 dat",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Derived data; Structured assurance tag: Verification; Matched keywords: Derived data",
-      "recognition_basis_zh": "结构化数据类型：推导数据；结构化核查环节：核查；原文命中关键词：推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_05",
-      "evidence_locator_en": "Report: AIRBUS-pm_38_711_711991-us758j55ai.pdf | File: AIRBUS-pm_38_711_711991-us758j55ai.pdf | Page: 10",
-      "evidence_locator_zh": "报告：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 文件：AIRBUS-pm_38_711_711991-us758j55ai.pdf | 页码：10"
     }
   ]
 }

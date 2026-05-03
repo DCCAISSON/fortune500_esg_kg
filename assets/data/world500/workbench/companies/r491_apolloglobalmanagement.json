@@ -21,12 +21,12 @@
     "apollo-2024-sustainability-report-june-2025.pdf"
   ],
   "standards_count": 6,
-  "method_rows_count": 13,
-  "keyword_summary_count": 6,
+  "method_rows_count": 5,
+  "keyword_summary_count": 3,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 19,
+  "evidence_ledger_count": 11,
   "standard_systems_zh": [
     "ISO 体系",
     "GHG 体系",
@@ -56,39 +56,27 @@
     "SASB"
   ],
   "calculation_methods_zh": [
-    "市场法",
-    "PCAF投融资排放方法"
+    "市场法"
   ],
   "calculation_methods_en": [
-    "Market-based",
-    "PCAF financed emissions methodology"
+    "Market-based"
   ],
   "data_source_types_zh": [
-    "估算数据",
-    "推导数据"
+    "估算数据"
   ],
   "data_source_types_en": [
-    "Estimated data",
-    "Derived data"
+    "Estimated data"
   ],
   "assurance_stages_zh": [
-    "报告披露",
-    "鉴证",
-    "核查"
+    "报告披露"
   ],
   "assurance_stages_en": [
-    "Report disclosure",
-    "Assurance",
-    "Verification"
+    "Report disclosure"
   ],
   "activity_categories_zh": [
-    "移动排放源",
-    "投融资活动",
     "价值链活动"
   ],
   "activity_categories_en": [
-    "Mobile emission source",
-    "Financed emissions activity",
     "Generic value-chain activity"
   ],
   "standards": [
@@ -239,198 +227,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-si...",
-      "estimate_basis_zh": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology...",
-      "keyword_keys": [
-        "estimated_data",
-        "on_site"
-      ],
-      "keyword_labels_en": [
-        "Estimated data",
-        "On-site data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据",
-        "现场/在场数据"
-      ],
-      "evidence_page": "31",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 31",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：31",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Mobile emission source",
-      "activity_standard_category_zh": "移动排放源",
-      "activity_evidence_mapping_en": "Mobile emission source",
-      "activity_evidence_mapping_zh": "移动排放源",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-si...",
-      "estimate_basis_zh": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology...",
-      "keyword_keys": [
-        "estimated_data",
-        "on_site"
-      ],
-      "keyword_labels_en": [
-        "Estimated data",
-        "On-site data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据",
-        "现场/在场数据"
-      ],
-      "evidence_page": "31",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 31",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：31",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-si...",
-      "estimate_basis_zh": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology...",
-      "keyword_keys": [
-        "estimated_data",
-        "on_site"
-      ],
-      "keyword_labels_en": [
-        "Estimated data",
-        "On-site data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据",
-        "现场/在场数据"
-      ],
-      "evidence_page": "32",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 32",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：32",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据"
-    },
-    {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Mobile emission source",
-      "activity_standard_category_zh": "移动排放源",
-      "activity_evidence_mapping_en": "Mobile emission source",
-      "activity_evidence_mapping_zh": "移动排放源",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-si...",
-      "estimate_basis_zh": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology...",
-      "keyword_keys": [
-        "estimated_data",
-        "on_site"
-      ],
-      "keyword_labels_en": [
-        "Estimated data",
-        "On-site data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据",
-        "现场/在场数据"
-      ],
-      "evidence_page": "32",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 32",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：32",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据"
-    },
-    {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
       "emission_type_en": "Indirect energy emissions",
@@ -500,8 +296,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "projects. Since its inception, Chestnut Carbon has enrolled more than 160K acres across 36 states in its restoration and improved forest management projects in the US. The offse...",
-      "estimate_basis_zh": "projects. Since its inception, Chestnut Carbon has enrolled more than 160K acres across 36 states in its restoration and improved forest ...",
+      "estimate_basis_en": "The offsets from these projects broadly reflect the regions where the Scope 1 emissions are estimated to have originated based on the accounting data available.",
+      "estimate_basis_zh": "The offsets from these projects broadly reflect the regions where the Scope 1 emissions are estimated to have originated based on the acc...",
       "keyword_keys": [
         "estimated_data"
       ],
@@ -514,7 +310,7 @@
       "evidence_page": "34",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "projects. Since its inception, Chestnut Carbon has enrolled more than 160K acres across 36 states in its restoration and improved forest management projects in the US. The offsets from these projects broadly reflect the regions where the Sc",
+      "snippet_en": "The offsets from these projects broadly reflect the regions where the Scope 1 emissions are estimated to have originated based on the accounting data available.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
@@ -522,150 +318,6 @@
       "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：34",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "PCAF financed emissions methodology",
-      "calculation_method_zh": "PCAF投融资排放方法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions...",
-      "estimate_basis_zh": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF ac...",
-      "keyword_keys": [
-        "pcaf",
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology",
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法",
-        "推导数据"
-      ],
-      "evidence_page": "35",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions and contracted with Sproule ERCE — an independent verifier — f",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 35",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：35",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology / Derived data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法 / 推导数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "activity_standard_category_en": "Financed emissions activity",
-      "activity_standard_category_zh": "投融资活动",
-      "activity_evidence_mapping_en": "Financed emissions",
-      "activity_evidence_mapping_zh": "投融资排放",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "PCAF financed emissions methodology",
-      "calculation_method_zh": "PCAF投融资排放方法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions...",
-      "estimate_basis_zh": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF ac...",
-      "keyword_keys": [
-        "pcaf",
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology",
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法",
-        "推导数据"
-      ],
-      "evidence_page": "35",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions and contracted with Sproule ERCE — an independent verifier — f",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 35",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：35",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology / Derived data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法 / 推导数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Derived data",
-      "data_source_type_zh": "推导数据",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "PCAF financed emissions methodology",
-      "calculation_method_zh": "PCAF投融资排放方法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions...",
-      "estimate_basis_zh": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF ac...",
-      "keyword_keys": [
-        "pcaf",
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology",
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法",
-        "推导数据"
-      ],
-      "evidence_page": "35",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions and contracted with Sproule ERCE — an independent verifier — f",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 35",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：35",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology / Derived data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法 / 推导数据"
     },
     {
       "scope_en": "Scope 1",
@@ -689,15 +341,15 @@
       "boundary_type_zh": "业务单元边界",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "ves, market conditions, and investments’ financial performance. Actual performance of any investment may differ materially from those reflected or contemplated. Note: Portfolio ...",
-      "estimate_basis_zh": "ves, market conditions, and investments’ financial performance. Actual performance of any investment may differ materially from those ref...",
+      "estimate_basis_en": "Note: Portfolio Company J operates a unique business model in which business units contributing to Scope 1 emissions are projected to grow materially faster than the rest of the...",
+      "estimate_basis_zh": "Note: Portfolio Company J operates a unique business model in which business units contributing to Scope 1 emissions are projected to gro...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "65",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ves, market conditions, and investments’ financial performance. Actual performance of any investment may differ materially from those reflected or contemplated. Note: Portfolio Company J operates a unique business model in which business un",
+      "snippet_en": "Note: Portfolio Company J operates a unique business model in which business units contributing to Scope 1 emissions are projected to grow materially faster than the rest of the company.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
@@ -728,8 +380,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk Assessment methodology to several new inve...",
-      "estimate_basis_zh": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk As...",
+      "estimate_basis_en": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope 3 Launched Apollo Empower, an initiative...",
+      "estimate_basis_zh": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope ...",
       "keyword_keys": [
         "estimated_data"
       ],
@@ -742,7 +394,7 @@
       "evidence_page": "8",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk Assessment methodology to several new investment strategies, including certain structured real estate tra",
+      "snippet_en": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope 3 Launched Apollo Empower, an initiative that enhances economic mobility, strengthens job quality and a",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
@@ -773,8 +425,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk Assessment methodology to several new inve...",
-      "estimate_basis_zh": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk As...",
+      "estimate_basis_en": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope 3 Launched Apollo Empower, an initiative...",
+      "estimate_basis_zh": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope ...",
       "keyword_keys": [
         "estimated_data"
       ],
@@ -787,7 +439,7 @@
       "evidence_page": "8",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk Assessment methodology to several new investment strategies, including certain structured real estate tra",
+      "snippet_en": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope 3 Launched Apollo Empower, an initiative that enhances economic mobility, strengthens job quality and a",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_14",
@@ -795,45 +447,6 @@
       "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：8",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "rt. GRI 2-4 Restatements of information • Information on restatements of sustainability data is included in the footnotes to the tables in the Operations section of this report....",
-      "estimate_basis_zh": "rt. GRI 2-4 Restatements of information • Information on restatements of sustainability data is included in the footnotes to the tables i...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "95",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "rt. GRI 2-4 Restatements of information • Information on restatements of sustainability data is included in the footnotes to the tables in the Operations section of this report. GRI 2-5 External Assurance • GHG emissions data for the report",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 95",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：95",
-      "recognition_basis_en": "Structured assurance tag: Verification",
-      "recognition_basis_zh": "结构化核查环节：核查"
     }
   ],
   "keyword_summary": [
@@ -842,10 +455,8 @@
       "family": "data_source",
       "label_zh": "估算数据",
       "label_en": "Estimated data",
-      "hit_count": 7,
+      "hit_count": 3,
       "pages": [
-        "31",
-        "32",
         "34",
         "8"
       ],
@@ -855,55 +466,6 @@
       ],
       "sample_scope_en": [
         "Scope 1",
-        "Scope 3"
-      ]
-    },
-    {
-      "key": "on_site",
-      "family": "data_source",
-      "label_zh": "现场/在场数据",
-      "label_en": "On-site data",
-      "hit_count": 4,
-      "pages": [
-        "31",
-        "32"
-      ],
-      "sample_scope_zh": [
-        "范围1"
-      ],
-      "sample_scope_en": [
-        "Scope 1"
-      ]
-    },
-    {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 3,
-      "pages": [
-        "35"
-      ],
-      "sample_scope_zh": [
-        "范围3"
-      ],
-      "sample_scope_en": [
-        "Scope 3"
-      ]
-    },
-    {
-      "key": "pcaf",
-      "family": "method",
-      "label_zh": "PCAF 投融资排放方法",
-      "label_en": "PCAF financed emissions methodology",
-      "hit_count": 3,
-      "pages": [
-        "35"
-      ],
-      "sample_scope_zh": [
-        "范围3"
-      ],
-      "sample_scope_en": [
         "Scope 3"
       ]
     },
@@ -986,7 +548,7 @@
       "page": "8",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk Assessment methodology to several new investment strategies, including certain structured real estate tra",
+      "snippet_en": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope 3 Launched Apollo Empower, an initiative that enhances economic mobility, strengthens job quality and a",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
@@ -1003,7 +565,7 @@
       "page": "8",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ign. In its 2024 campaign, 92% of Athene employees gave a total of over $3M.6 $3M Broadened the application of our Sustainability Risk Assessment methodology to several new investment strategies, including certain structured real estate tra",
+      "snippet_en": "Expanded Scope 3 GHG emissions reporting, enhancing our ability to estimate and track emissions across our value chain.3 Broadened Scope 3 Launched Apollo Empower, an initiative that enhances economic mobility, strengthens job quality and a",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
@@ -1011,40 +573,6 @@
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 8",
       "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：8"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "31",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 31",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：31"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "31",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "mprovements. 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 31",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：31"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1062,40 +590,6 @@
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 31",
       "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：31"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "32",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 32",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：32"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "32",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "80 2.25 2.30 17 2022 and 2023 Scope 1 GHG emissions data is calculated in accordance with the GHG Protocol corporate standard methodology. Data includes emissions from the on-site combustion of natural gas for heating, on-site combustion of",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data / On-site data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据 / 现场/在场数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 32",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：32"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1122,7 +616,7 @@
       "page": "34",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "projects. Since its inception, Chestnut Carbon has enrolled more than 160K acres across 36 states in its restoration and improved forest management projects in the US. The offsets from these projects broadly reflect the regions where the Sc",
+      "snippet_en": "The offsets from these projects broadly reflect the regions where the Scope 1 emissions are estimated to have originated based on the accounting data available.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
@@ -1130,57 +624,6 @@
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 34",
       "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：34"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "PCAF financed emissions methodology",
-      "label_zh": "PCAF投融资排放方法",
-      "page": "35",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions and contracted with Sproule ERCE — an independent verifier — f",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology / Derived data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法 / 推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 35",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：35"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "PCAF financed emissions methodology",
-      "label_zh": "PCAF投融资排放方法",
-      "page": "35",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions and contracted with Sproule ERCE — an independent verifier — f",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology / Derived data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法 / 推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 35",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：35"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "PCAF financed emissions methodology",
-      "label_zh": "PCAF投融资排放方法",
-      "page": "35",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ber 31, 2024. Apollo teams engaged with Persefoni — a climate management and carbon accounting software vendor — to implement the PCAF accounting standard for financed emissions and contracted with Sproule ERCE — an independent verifier — f",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Derived data; Structured assurance tag: Assurance; Matched keywords: PCAF financed emissions methodology / Derived data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：推导数据；结构化核查环节：鉴证；原文命中关键词：PCAF 投融资排放方法 / 推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 35",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：35"
     },
     {
       "fact_type_en": "Standard reference",
@@ -1207,7 +650,7 @@
       "page": "65",
       "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
       "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "ves, market conditions, and investments’ financial performance. Actual performance of any investment may differ materially from those reflected or contemplated. Note: Portfolio Company J operates a unique business model in which business un",
+      "snippet_en": "Note: Portfolio Company J operates a unique business model in which business units contributing to Scope 1 emissions are projected to grow materially faster than the rest of the company.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -1232,23 +675,6 @@
       "review_status": "seed_batch_14",
       "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 78",
       "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：78"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "95",
-      "source_file": "apollo-2024-sustainability-report-june-2025.pdf",
-      "report_title": "apollo-2024-sustainability-report-june-2025.pdf",
-      "snippet_en": "rt. GRI 2-4 Restatements of information • Information on restatements of sustainability data is included in the footnotes to the tables in the Operations section of this report. GRI 2-5 External Assurance • GHG emissions data for the report",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Verification",
-      "recognition_basis_zh": "结构化核查环节：核查",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_14",
-      "evidence_locator_en": "Report: apollo-2024-sustainability-report-june-2025.pdf | File: apollo-2024-sustainability-report-june-2025.pdf | Page: 95",
-      "evidence_locator_zh": "报告：apollo-2024-sustainability-report-june-2025.pdf | 文件：apollo-2024-sustainability-report-june-2025.pdf | 页码：95"
     },
     {
       "fact_type_en": "Standard reference",

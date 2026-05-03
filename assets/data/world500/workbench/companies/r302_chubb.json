@@ -21,12 +21,12 @@
     "Chubb-2024-Sustainability-Report.pdf"
   ],
   "standards_count": 3,
-  "method_rows_count": 8,
+  "method_rows_count": 6,
   "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 11,
+  "evidence_ledger_count": 9,
   "standard_systems_zh": [
     "GHG 体系",
     "气候披露/目标框架"
@@ -65,13 +65,11 @@
   ],
   "activity_categories_zh": [
     "外购能源活动",
-    "上游价值链活动",
-    "价值链活动"
+    "上游价值链活动"
   ],
   "activity_categories_en": [
     "Purchased energy",
-    "Upstream value-chain activity",
-    "Generic value-chain activity"
+    "Upstream value-chain activity"
   ],
   "standards": [
     {
@@ -149,51 +147,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "Scope 1",
-      "scope_zh": "范围1",
-      "emission_type_en": "Direct emissions",
-      "emission_type_zh": "直接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Ch...",
-      "estimate_basis_zh": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning t...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "13",
-      "source_file": "Chubb-2024-Sustainability-Report.pdf",
-      "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emissions disclosures, which rel",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
-      "evidence_locator_zh": "报告：Chubb-2024-Sustainability-Report.pdf | 文件：Chubb-2024-Sustainability-Report.pdf | 页码：13",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
       "emission_type_en": "Indirect energy emissions",
@@ -205,8 +158,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Market-based",
@@ -215,31 +168,28 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to investors. GHG Emissions Metric Definition...",
-      "estimate_basis_zh": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to in...",
+      "estimate_basis_en": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fuels, and refrigerants 28,246 mtCO2e Scope...",
+      "estimate_basis_zh": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fue...",
       "keyword_keys": [
-        "market_based",
-        "estimated_data"
+        "market_based"
       ],
       "keyword_labels_en": [
-        "Market-based",
-        "Estimated data"
+        "Market-based"
       ],
       "keyword_labels_zh": [
-        "市场法",
-        "估算数据"
+        "市场法"
       ],
       "evidence_page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to investors. GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions f",
+      "snippet_en": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fuels, and refrigerants 28,246 mtCO2e Scope 2 Emissions (market-based) Indirect emissions from purchased e",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
       "evidence_locator_zh": "报告：Chubb-2024-Sustainability-Report.pdf | 文件：Chubb-2024-Sustainability-Report.pdf | 页码：13",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
     {
       "scope_en": "Scope 2",
@@ -253,8 +203,8 @@
       "activity_standard_category_zh": "外购能源活动",
       "activity_evidence_mapping_en": "Purchased electricity",
       "activity_evidence_mapping_zh": "外购电力",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "Market-based",
@@ -263,31 +213,28 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to investors. GHG Emissions Metric Definition...",
-      "estimate_basis_zh": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to in...",
+      "estimate_basis_en": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fuels, and refrigerants 28,246 mtCO2e Scope...",
+      "estimate_basis_zh": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fue...",
       "keyword_keys": [
-        "market_based",
-        "estimated_data"
+        "market_based"
       ],
       "keyword_labels_en": [
-        "Market-based",
-        "Estimated data"
+        "Market-based"
       ],
       "keyword_labels_zh": [
-        "市场法",
-        "估算数据"
+        "市场法"
       ],
       "evidence_page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to investors. GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions f",
+      "snippet_en": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fuels, and refrigerants 28,246 mtCO2e Scope 2 Emissions (market-based) Indirect emissions from purchased e",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
       "evidence_locator_zh": "报告：Chubb-2024-Sustainability-Report.pdf | 文件：Chubb-2024-Sustainability-Report.pdf | 页码：13",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据"
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
     },
     {
       "scope_en": "Scope 3",
@@ -311,8 +258,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Ch...",
-      "estimate_basis_zh": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning t...",
+      "estimate_basis_en": "Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emissions disclosures, which rely on aggreg...",
+      "estimate_basis_zh": "Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emi...",
       "keyword_keys": [
         "estimated_data"
       ],
@@ -325,7 +272,7 @@
       "evidence_page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emissions disclosures, which rel",
+      "snippet_en": "Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emissions disclosures, which rely on aggregation of estimated data across our diverse lines of business, d",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
@@ -356,7 +303,7 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While ...",
+      "estimate_basis_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions.",
       "estimate_basis_zh": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Sco...",
       "keyword_keys": [],
       "keyword_labels_en": [],
@@ -364,46 +311,7 @@
       "evidence_page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While we are actively working to identify ways to reduce emissions di",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
-      "evidence_locator_zh": "报告：Chubb-2024-Sustainability-Report.pdf | 文件：Chubb-2024-Sustainability-Report.pdf | 页码：13",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "6",
-      "scope3_category_en": "Category 6 Business travel",
-      "scope3_category_zh": "类别6 商务差旅",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While ...",
-      "estimate_basis_zh": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Sco...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "13",
-      "source_file": "Chubb-2024-Sustainability-Report.pdf",
-      "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While we are actively working to identify ways to reduce emissions di",
+      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
@@ -434,7 +342,7 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While ...",
+      "estimate_basis_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions.",
       "estimate_basis_zh": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Sco...",
       "keyword_keys": [],
       "keyword_labels_en": [],
@@ -442,7 +350,7 @@
       "evidence_page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While we are actively working to identify ways to reduce emissions di",
+      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions.",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
@@ -473,8 +381,8 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "ent to which each of our clients is mitigating the transition risks to which they are exposed and relates to the quality of the underlying risk that we underwrite. In contrast, ...",
-      "estimate_basis_zh": "ent to which each of our clients is mitigating the transition risks to which they are exposed and relates to the quality of the underlyin...",
+      "estimate_basis_en": "In contrast, Scope 3 emissions data that is aggregated across a client’s activities (and likely estimated) does not give us a view into any risk mitigation actions a client may ...",
+      "estimate_basis_zh": "In contrast, Scope 3 emissions data that is aggregated across a client’s activities (and likely estimated) does not give us a view into a...",
       "keyword_keys": [
         "estimated_data"
       ],
@@ -487,7 +395,7 @@
       "evidence_page": "9",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "ent to which each of our clients is mitigating the transition risks to which they are exposed and relates to the quality of the underlying risk that we underwrite. In contrast, Scope 3 emissions data that is aggregated across a client’s act",
+      "snippet_en": "In contrast, Scope 3 emissions data that is aggregated across a client’s activities (and likely estimated) does not give us a view into any risk mitigation actions a client may be taking and therefore does not bear a rational relationship t",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
@@ -503,19 +411,15 @@
       "family": "data_source",
       "label_zh": "估算数据",
       "label_en": "Estimated data",
-      "hit_count": 5,
+      "hit_count": 2,
       "pages": [
         "13",
         "9"
       ],
       "sample_scope_zh": [
-        "范围1",
-        "范围2",
         "范围3"
       ],
       "sample_scope_en": [
-        "Scope 1",
-        "Scope 2",
         "Scope 3"
       ]
     },
@@ -565,7 +469,7 @@
       "page": "9",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "ent to which each of our clients is mitigating the transition risks to which they are exposed and relates to the quality of the underlying risk that we underwrite. In contrast, Scope 3 emissions data that is aggregated across a client’s act",
+      "snippet_en": "In contrast, Scope 3 emissions data that is aggregated across a client’s activities (and likely estimated) does not give us a view into any risk mitigation actions a client may be taking and therefore does not bear a rational relationship t",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
@@ -582,44 +486,10 @@
       "page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emissions disclosures, which rel",
+      "snippet_en": "Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emissions disclosures, which rely on aggregation of estimated data across our diverse lines of business, d",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
-      "evidence_locator_zh": "报告：Chubb-2024-Sustainability-Report.pdf | 文件：Chubb-2024-Sustainability-Report.pdf | 页码：13"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "13",
-      "source_file": "Chubb-2024-Sustainability-Report.pdf",
-      "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "potential to be financially material, and we have concluded they are not. Because Scope 3 emissions lack utility as a business planning tool and are not financially material, Chubb has concluded that Scope 3 emissions disclosures, which rel",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_07",
-      "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
-      "evidence_locator_zh": "报告：Chubb-2024-Sustainability-Report.pdf | 文件：Chubb-2024-Sustainability-Report.pdf | 页码：13"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Generic value-chain activity",
-      "label_zh": "价值链活动",
-      "page": "13",
-      "source_file": "Chubb-2024-Sustainability-Report.pdf",
-      "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While we are actively working to identify ways to reduce emissions di",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
@@ -633,10 +503,10 @@
       "page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to investors. GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions f",
+      "snippet_en": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fuels, and refrigerants 28,246 mtCO2e Scope 2 Emissions (market-based) Indirect emissions from purchased e",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
@@ -650,10 +520,10 @@
       "page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "estimated data across our diverse lines of business, do not provide material, reasonable and supportable information that is useful to investors. GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions f",
+      "snippet_en": "GHG Emissions Metric Definition of Metric Metric Quantity Scope 1 Emissions Direct emissions from stationary and mobile combustion of fuels, and refrigerants 28,246 mtCO2e Scope 2 Emissions (market-based) Indirect emissions from purchased e",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured method tag: Market-based; Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Market-based / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：市场法；结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：市场法 / 估算数据",
+      "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
+      "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法",
       "confidence_level": "medium",
       "review_status": "seed_batch_07",
       "evidence_locator_en": "Report: Chubb-2024-Sustainability-Report.pdf | File: Chubb-2024-Sustainability-Report.pdf | Page: 13",
@@ -667,7 +537,7 @@
       "page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While we are actively working to identify ways to reduce emissions di",
+      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -684,7 +554,7 @@
       "page": "13",
       "source_file": "Chubb-2024-Sustainability-Report.pdf",
       "report_title": "Chubb-2024-Sustainability-Report.pdf",
-      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions. While we are actively working to identify ways to reduce emissions di",
+      "snippet_en": "11 11 Metrics and Targets GHG Emissions from Chubb’s Operations Chubb’s annual GHG inventory covers our Scope 1, Scope 2, and certain Scope 3 (business travel) emissions.",
       "snippet_zh": "nan",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",

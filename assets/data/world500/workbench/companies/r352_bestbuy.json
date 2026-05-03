@@ -21,12 +21,12 @@
     "BestBuy-CRS-Report-2025.pdf"
   ],
   "standards_count": 5,
-  "method_rows_count": 5,
-  "keyword_summary_count": 3,
+  "method_rows_count": 1,
+  "keyword_summary_count": 1,
   "authoritative_scope_count": 1,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 11,
+  "evidence_ledger_count": 7,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ESG 披露框架",
@@ -57,30 +57,16 @@
   "calculation_methods_en": [
     "Market-based"
   ],
-  "data_source_types_zh": [
-    "估算数据",
-    "次级数据"
-  ],
-  "data_source_types_en": [
-    "Estimated data",
-    "Secondary data"
-  ],
+  "data_source_types_zh": [],
+  "data_source_types_en": [],
   "assurance_stages_zh": [
-    "报告披露",
-    "鉴证"
+    "报告披露"
   ],
   "assurance_stages_en": [
-    "Report disclosure",
-    "Assurance"
+    "Report disclosure"
   ],
-  "activity_categories_zh": [
-    "废弃物活动",
-    "价值链活动"
-  ],
-  "activity_categories_en": [
-    "Waste management activity",
-    "Generic value-chain activity"
-  ],
+  "activity_categories_zh": [],
+  "activity_categories_en": [],
   "standards": [
     {
       "system_key": "climate",
@@ -205,96 +191,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "5",
-      "scope3_category_en": "Category 5 Waste generated in operations",
-      "scope3_category_zh": "类别5 运营产生的废弃物",
-      "activity_standard_category_en": "Waste management activity",
-      "activity_standard_category_zh": "废弃物活动",
-      "activity_evidence_mapping_en": "Waste in operations",
-      "activity_evidence_mapping_zh": "运营产生的废弃物",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "methodology to calculate our waste diversion rate that aligns with the Environmental Protection Agency’s (EPA) waste diversion methodology. Waste data includes information that ...",
-      "estimate_basis_zh": "methodology to calculate our waste diversion rate that aligns with the Environmental Protection Agency’s (EPA) waste diversion methodolog...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "16",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "methodology to calculate our waste diversion rate that aligns with the Environmental Protection Agency’s (EPA) waste diversion methodology. Waste data includes information that was reported by our vendors. When exact data was not available,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 16",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：16",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Secondary data",
-      "data_source_type_zh": "次级数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "iers and auditing their performance are key steps to addressing this. In FY25, 98% of our in-scope suppliers received conflict minerals training materials. GHG reduction opportu...",
-      "estimate_basis_zh": "iers and auditing their performance are key steps to addressing this. In FY25, 98% of our in-scope suppliers received conflict minerals t...",
-      "keyword_keys": [
-        "secondary_data"
-      ],
-      "keyword_labels_en": [
-        "Secondary data"
-      ],
-      "keyword_labels_zh": [
-        "次级数据"
-      ],
-      "evidence_page": "55",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "iers and auditing their performance are key steps to addressing this. In FY25, 98% of our in-scope suppliers received conflict minerals training materials. GHG reduction opportunities through energy efficiency or renewable energy adoption.",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 55",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：55",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据"
-    },
-    {
       "scope_en": "Scope 2",
       "scope_zh": "范围2",
       "emission_type_en": "Indirect energy emissions",
@@ -338,116 +234,9 @@
       "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：59",
       "recognition_basis_en": "Structured method tag: Market-based; Structured assurance tag: Report disclosure; Matched keywords: Market-based",
       "recognition_basis_zh": "结构化方法标注：市场法；结构化核查环节：报告披露；原文命中关键词：市场法"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability reporting 5 2-3 Reporting period, frequen...",
-      "estimate_basis_zh": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability r...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "64",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability reporting 5 2-3 Reporting period, frequency and contact point 5 2-4 Restatements of information 10, 14,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 64",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：64",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Generic value-chain activity",
-      "activity_standard_category_zh": "价值链活动",
-      "activity_evidence_mapping_en": "Value-chain activities",
-      "activity_evidence_mapping_zh": "价值链活动",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability reporting 5 2-3 Reporting period, frequen...",
-      "estimate_basis_zh": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability r...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "64",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability reporting 5 2-3 Reporting period, frequency and contact point 5 2-4 Restatements of information 10, 14,",
-      "snippet_zh": "nan",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 64",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：64",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据"
     }
   ],
   "keyword_summary": [
-    {
-      "key": "estimated_data",
-      "family": "data_source",
-      "label_zh": "估算数据",
-      "label_en": "Estimated data",
-      "hit_count": 3,
-      "pages": [
-        "16",
-        "64"
-      ],
-      "sample_scope_zh": [
-        "范围3"
-      ],
-      "sample_scope_en": [
-        "Scope 3"
-      ]
-    },
     {
       "key": "market_based",
       "family": "method",
@@ -463,18 +252,6 @@
       "sample_scope_en": [
         "Scope 2"
       ]
-    },
-    {
-      "key": "secondary_data",
-      "family": "data_source",
-      "label_zh": "次级数据",
-      "label_en": "Secondary data",
-      "hit_count": 1,
-      "pages": [
-        "55"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     }
   ],
   "authoritative_scope_rows": [
@@ -583,40 +360,6 @@
       "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：10"
     },
     {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "16",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "methodology to calculate our waste diversion rate that aligns with the Environmental Protection Agency’s (EPA) waste diversion methodology. Waste data includes information that was reported by our vendors. When exact data was not available,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 16",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：16"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Secondary data",
-      "label_zh": "次级数据",
-      "page": "55",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "iers and auditing their performance are key steps to addressing this. In FY25, 98% of our in-scope suppliers received conflict minerals training materials. GHG reduction opportunities through energy efficiency or renewable energy adoption.",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Secondary data; Structured assurance tag: Report disclosure; Matched keywords: Secondary data",
-      "recognition_basis_zh": "结构化数据类型：次级数据；结构化核查环节：报告披露；原文命中关键词：次级数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 55",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：55"
-    },
-    {
       "fact_type_en": "Standard reference",
       "fact_type_zh": "标准引用事实",
       "label_en": "GHG Protocol",
@@ -668,40 +411,6 @@
       "review_status": "seed_batch_08",
       "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 59",
       "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：59"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "64",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability reporting 5 2-3 Reporting period, frequency and contact point 5 2-4 Restatements of information 10, 14,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 64",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：64"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "64",
-      "source_file": "BestBuy-CRS-Report-2025.pdf",
-      "report_title": "BestBuy-CRS-Report-2025.pdf",
-      "snippet_en": "ds. GRI 2: General Disclosures 2021 2-1 Organizational details 4-5, 10K p4-5 2-2 Entities included in the organization’s sustainability reporting 5 2-3 Reporting period, frequency and contact point 5 2-4 Restatements of information 10, 14,",
-      "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Assurance; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：鉴证；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_08",
-      "evidence_locator_en": "Report: BestBuy-CRS-Report-2025.pdf | File: BestBuy-CRS-Report-2025.pdf | Page: 64",
-      "evidence_locator_zh": "报告：BestBuy-CRS-Report-2025.pdf | 文件：BestBuy-CRS-Report-2025.pdf | 页码：64"
     }
   ]
 }

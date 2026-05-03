@@ -21,12 +21,12 @@
     "Huawei_2024_Annual_Report.pdf"
   ],
   "standards_count": 2,
-  "method_rows_count": 1,
+  "method_rows_count": 0,
   "keyword_summary_count": 0,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 3,
+  "evidence_ledger_count": 2,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "ISO 体系"
@@ -47,18 +47,10 @@
   "calculation_methods_en": [],
   "data_source_types_zh": [],
   "data_source_types_en": [],
-  "assurance_stages_zh": [
-    "鉴证"
-  ],
-  "assurance_stages_en": [
-    "Assurance"
-  ],
-  "activity_categories_zh": [
-    "过程排放"
-  ],
-  "activity_categories_en": [
-    "Process emissions"
-  ],
+  "assurance_stages_zh": [],
+  "assurance_stages_en": [],
+  "activity_categories_zh": [],
+  "activity_categories_en": [],
   "standards": [
     {
       "system_key": "climate",
@@ -109,47 +101,7 @@
       "recognition_basis_zh": "结构化标准标注：ISO 14064；标准角色：核算标准"
     }
   ],
-  "method_rows": [
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "Process emissions",
-      "activity_standard_category_zh": "过程排放",
-      "activity_evidence_mapping_en": "Process emissions",
-      "activity_evidence_mapping_zh": "过程排放",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Assurance",
-      "assurance_stage_zh": "鉴证",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Explicit mention",
-      "classification_stage_zh": "原文明确提及",
-      "estimate_basis_en": "fferent regions. In collaboration with carriers, other equipment vendors, and industry partners, we actively contributed to the development of a number of key standards, includi...",
-      "estimate_basis_zh": "fferent regions. In collaboration with carriers, other equipment vendors, and industry partners, we actively contributed to the developme...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "87",
-      "source_file": "Huawei_2024_Annual_Report.pdf",
-      "report_title": "Huawei_2024_Annual_Report.pdf",
-      "snippet_en": "fferent regions. In collaboration with carriers, other equipment vendors, and industry partners, we actively contributed to the development of a number of key standards, including the GSMA Mobile Cybersecurity Knowledge Base and the Network",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: Huawei_2024_Annual_Report.pdf | File: Huawei_2024_Annual_Report.pdf | Page: 87",
-      "evidence_locator_zh": "报告：Huawei_2024_Annual_Report.pdf | 文件：Huawei_2024_Annual_Report.pdf | 页码：87",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证"
-    }
-  ],
+  "method_rows": [],
   "keyword_summary": [],
   "authoritative_scope_rows": [],
   "scope_candidates": [],
@@ -171,23 +123,6 @@
       "review_status": "seed_batch_11",
       "evidence_locator_en": "Report: Huawei_2024_Annual_Report.pdf | File: Huawei_2024_Annual_Report.pdf | Page: 75",
       "evidence_locator_zh": "报告：Huawei_2024_Annual_Report.pdf | 文件：Huawei_2024_Annual_Report.pdf | 页码：75"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Process emissions",
-      "label_zh": "过程排放",
-      "page": "87",
-      "source_file": "Huawei_2024_Annual_Report.pdf",
-      "report_title": "Huawei_2024_Annual_Report.pdf",
-      "snippet_en": "fferent regions. In collaboration with carriers, other equipment vendors, and industry partners, we actively contributed to the development of a number of key standards, including the GSMA Mobile Cybersecurity Knowledge Base and the Network",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured assurance tag: Assurance",
-      "recognition_basis_zh": "结构化核查环节：鉴证",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_11",
-      "evidence_locator_en": "Report: Huawei_2024_Annual_Report.pdf | File: Huawei_2024_Annual_Report.pdf | Page: 87",
-      "evidence_locator_zh": "报告：Huawei_2024_Annual_Report.pdf | 文件：Huawei_2024_Annual_Report.pdf | 页码：87"
     },
     {
       "fact_type_en": "Standard reference",

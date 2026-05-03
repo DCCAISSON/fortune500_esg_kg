@@ -46,10 +46,10 @@
   "calculation_methods_zh": [],
   "calculation_methods_en": [],
   "data_source_types_zh": [
-    "初级数据"
+    "估算数据"
   ],
   "data_source_types_en": [
-    "Primary data"
+    "Estimated data"
   ],
   "assurance_stages_zh": [
     "报告披露"
@@ -122,8 +122,8 @@
       "activity_standard_category_zh": "",
       "activity_evidence_mapping_en": "",
       "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
+      "data_source_type_en": "Estimated data",
+      "data_source_type_zh": "估算数据",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
       "calculation_method_en": "",
@@ -132,36 +132,36 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "rplus power to the grid\" model, we added cadmium telluride photovoltaic glass to the 288 square meters glass curtain wall of the building, achieving a clean energy goal by reduc...",
-      "estimate_basis_zh": "rplus power to the grid\" model, we added cadmium telluride photovoltaic glass to the 288 square meters glass curtain wall of the building...",
+      "estimate_basis_en": "It is estimated that this system will deliver 22,000 kWh of green electric power annually ~ Western Inner Mongolia New Energy Division Experience CDT's \"garden-like\" power plant...",
+      "estimate_basis_zh": "It is estimated that this system will deliver 22,000 kWh of green electric power annually ~ Western Inner Mongolia New Energy Division Ex...",
       "keyword_keys": [
-        "primary_data"
+        "estimated_data"
       ],
       "keyword_labels_en": [
-        "Primary data"
+        "Estimated data"
       ],
       "keyword_labels_zh": [
-        "初级数据"
+        "估算数据"
       ],
       "evidence_page": "25",
       "source_file": "2023_中国大唐集团有限公司_Sustainability_Report.pdf",
       "report_title": "2023_中国大唐集团有限公司_Sustainability_Report.pdf",
-      "snippet_en": "rplus power to the grid\" model, we added cadmium telluride photovoltaic glass to the 288 square meters glass curtain wall of the building, achieving a clean energy goal by reducing energy consumption and carbon emissions through photovoltai",
+      "snippet_en": "It is estimated that this system will deliver 22,000 kWh of green electric power annually ~ Western Inner Mongolia New Energy Division Experience CDT's \"garden-like\" power plants and embark on a carbon journey through the landscapes of CDT",
       "snippet_zh": "nan",
       "confidence_level": "medium",
       "review_status": "seed_batch_09",
       "evidence_locator_en": "Report: 2023_中国大唐集团有限公司_Sustainability_Report.pdf | File: 2023_中国大唐集团有限公司_Sustainability_Report.pdf | Page: 25",
       "evidence_locator_zh": "报告：2023_中国大唐集团有限公司_Sustainability_Report.pdf | 文件：2023_中国大唐集团有限公司_Sustainability_Report.pdf | 页码：25",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据"
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
     }
   ],
   "keyword_summary": [
     {
-      "key": "primary_data",
+      "key": "estimated_data",
       "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
+      "label_zh": "估算数据",
+      "label_en": "Estimated data",
       "hit_count": 1,
       "pages": [
         "25"
@@ -211,15 +211,15 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
+      "label_en": "Estimated data",
+      "label_zh": "估算数据",
       "page": "25",
       "source_file": "2023_中国大唐集团有限公司_Sustainability_Report.pdf",
       "report_title": "2023_中国大唐集团有限公司_Sustainability_Report.pdf",
-      "snippet_en": "rplus power to the grid\" model, we added cadmium telluride photovoltaic glass to the 288 square meters glass curtain wall of the building, achieving a clean energy goal by reducing energy consumption and carbon emissions through photovoltai",
+      "snippet_en": "It is estimated that this system will deliver 22,000 kWh of green electric power annually ~ Western Inner Mongolia New Energy Division Experience CDT's \"garden-like\" power plants and embark on a carbon journey through the landscapes of CDT",
       "snippet_zh": "nan",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Report disclosure; Matched keywords: Primary data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：报告披露；原文命中关键词：初级数据",
+      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
+      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
       "confidence_level": "medium",
       "review_status": "seed_batch_09",
       "evidence_locator_en": "Report: 2023_中国大唐集团有限公司_Sustainability_Report.pdf | File: 2023_中国大唐集团有限公司_Sustainability_Report.pdf | Page: 25",

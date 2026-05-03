@@ -21,12 +21,12 @@
     "rabobank_impact_report_2024.pdf"
   ],
   "standards_count": 4,
-  "method_rows_count": 16,
-  "keyword_summary_count": 5,
+  "method_rows_count": 12,
+  "keyword_summary_count": 2,
   "authoritative_scope_count": 0,
   "scope_candidate_count": 0,
   "scope3_candidate_count": 0,
-  "evidence_ledger_count": 20,
+  "evidence_ledger_count": 16,
   "standard_systems_zh": [
     "气候披露/目标框架",
     "GHG 体系"
@@ -47,29 +47,19 @@
     "PCAF",
     "GHG Protocol"
   ],
-  "calculation_methods_zh": [
-    "PCAF投融资排放方法",
-    "平均数据法"
-  ],
-  "calculation_methods_en": [
-    "PCAF financed emissions methodology",
-    "Average-data method"
-  ],
+  "calculation_methods_zh": [],
+  "calculation_methods_en": [],
   "data_source_types_zh": [
-    "估算数据",
-    "初级数据"
+    "估算数据"
   ],
   "data_source_types_en": [
-    "Estimated data",
-    "Primary data"
+    "Estimated data"
   ],
   "assurance_stages_zh": [
-    "报告披露",
-    "核查"
+    "报告披露"
   ],
   "assurance_stages_en": [
-    "Report disclosure",
-    "Verification"
+    "Report disclosure"
   ],
   "activity_categories_zh": [
     "投融资活动",
@@ -179,51 +169,6 @@
   ],
   "method_rows": [
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "or 98% of the relevant (73% of our total assets) on-balance sheet assets. We see that customer-reported data is growing significantly with almost 65% of our wholesale portfolio ...",
-      "estimate_basis_zh": "or 98% of the relevant (73% of our total assets) on-balance sheet assets. We see that customer-reported data is growing significantly wit...",
-      "keyword_keys": [
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "估算数据"
-      ],
-      "evidence_page": "41",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "or 98% of the relevant (73% of our total assets) on-balance sheet assets. We see that customer-reported data is growing significantly with almost 65% of our wholesale portfolio now calculated using reported emissions. We also see important",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据"
-    },
-    {
       "scope_en": "Scope 3",
       "scope_zh": "范围3",
       "emission_type_en": "Other indirect emissions",
@@ -298,45 +243,6 @@
       "review_status": "seed_batch_10",
       "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
       "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "15",
-      "scope3_category_en": "Category 15 Investments",
-      "scope3_category_zh": "类别15 投资",
-      "activity_standard_category_en": "Financed emissions activity",
-      "activity_standard_category_zh": "投融资活动",
-      "activity_evidence_mapping_en": "Financed emissions",
-      "activity_evidence_mapping_zh": "投融资排放",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "Evidence-based mapping",
-      "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments ...",
-      "estimate_basis_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total...",
-      "keyword_keys": [],
-      "keyword_labels_en": [],
-      "keyword_labels_zh": [],
-      "evidence_page": "42",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
     },
@@ -362,15 +268,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments ...",
-      "estimate_basis_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total...",
+      "estimate_basis_en": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat.",
+      "estimate_basis_zh": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Inves...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "42",
       "source_file": "rabobank_impact_report_2024.pdf",
       "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
+      "snippet_en": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
@@ -401,15 +307,15 @@
       "boundary_type_zh": "",
       "classification_stage_en": "",
       "classification_stage_zh": "",
-      "estimate_basis_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments ...",
-      "estimate_basis_zh": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total...",
+      "estimate_basis_en": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat.",
+      "estimate_basis_zh": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Inves...",
       "keyword_keys": [],
       "keyword_labels_en": [],
       "keyword_labels_zh": [],
       "evidence_page": "42",
       "source_file": "rabobank_impact_report_2024.pdf",
       "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
+      "snippet_en": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat.",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
@@ -417,6 +323,51 @@
       "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露"
+    },
+    {
+      "scope_en": "Scope 3",
+      "scope_zh": "范围3",
+      "emission_type_en": "Other indirect emissions",
+      "emission_type_zh": "其他间接排放",
+      "scope3_category_code": "15",
+      "scope3_category_en": "Category 15 Investments",
+      "scope3_category_zh": "类别15 投资",
+      "activity_standard_category_en": "Financed emissions activity",
+      "activity_standard_category_zh": "投融资活动",
+      "activity_evidence_mapping_en": "Financed emissions",
+      "activity_evidence_mapping_zh": "投融资排放",
+      "data_source_type_en": "",
+      "data_source_type_zh": "",
+      "assurance_stage_en": "Report disclosure",
+      "assurance_stage_zh": "报告披露",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
+      "boundary_type_en": "",
+      "boundary_type_zh": "",
+      "classification_stage_en": "Evidence-based mapping",
+      "classification_stage_zh": "基于证据规则映射",
+      "estimate_basis_en": "13 & 15) Financed Emissions (in Mt CO2e) 48.8 46.9 financed emissions 2022 financed emissions 2023 6.0 Mt CO2e avoided emissions via renewable energy portfolio 2022: 5.3 Mt CO2e...",
+      "estimate_basis_zh": "13 & 15) Financed Emissions (in Mt CO2e) 48.8 46.9 financed emissions 2022 financed emissions 2023 6.0 Mt CO2e avoided emissions via rene...",
+      "keyword_keys": [
+        "pcaf"
+      ],
+      "keyword_labels_en": [
+        "PCAF financed emissions methodology"
+      ],
+      "keyword_labels_zh": [
+        "PCAF 投融资排放方法"
+      ],
+      "evidence_page": "42",
+      "source_file": "rabobank_impact_report_2024.pdf",
+      "report_title": "rabobank_impact_report_2024.pdf",
+      "snippet_en": "13 & 15) Financed Emissions (in Mt CO2e) 48.8 46.9 financed emissions 2022 financed emissions 2023 6.0 Mt CO2e avoided emissions via renewable energy portfolio 2022: 5.3 Mt CO2e 2023 2022 48.8 -12% Leasing Wholesale & Rural Other assets Dut",
+      "snippet_zh": "",
+      "confidence_level": "medium",
+      "review_status": "seed_batch_10",
+      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
+      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：42",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
+      "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
     },
     {
       "scope_en": "Scope 3",
@@ -507,54 +458,6 @@
       "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43",
       "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
       "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法"
-    },
-    {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Primary data",
-      "data_source_type_zh": "初级数据",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "",
-      "calculation_method_zh": "",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "the values in the SBTi FLAG pathways are derived in a methodologically different way (the FLAG sector-region default value comes from a top-down model, our portfolio intensity v...",
-      "estimate_basis_zh": "the values in the SBTi FLAG pathways are derived in a methodologically different way (the FLAG sector-region default value comes from a t...",
-      "keyword_keys": [
-        "primary_data",
-        "derived_data"
-      ],
-      "keyword_labels_en": [
-        "Primary data",
-        "Derived data"
-      ],
-      "keyword_labels_zh": [
-        "初级数据",
-        "推导数据"
-      ],
-      "evidence_page": "44",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "the values in the SBTi FLAG pathways are derived in a methodologically different way (the FLAG sector-region default value comes from a top-down model, our portfolio intensity value comes from a bottom-up calculator, with carbon footprints",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 44",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：44",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Primary data / Derived data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：初级数据 / 推导数据"
     },
     {
       "scope_en": "Scope 1",
@@ -749,102 +652,6 @@
       "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
     },
     {
-      "scope_en": "",
-      "scope_zh": "",
-      "emission_type_en": "",
-      "emission_type_zh": "",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "Estimated data",
-      "data_source_type_zh": "估算数据",
-      "assurance_stage_en": "Verification",
-      "assurance_stage_zh": "核查",
-      "calculation_method_en": "PCAF financed emissions methodology",
-      "calculation_method_zh": "PCAF投融资排放方法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "information and data we have at hand. Where possible, we have used client-reported GHG emissions. PCAF's data quality scores (score 1-5) are used to qualify the level of precisi...",
-      "estimate_basis_zh": "information and data we have at hand. Where possible, we have used client-reported GHG emissions. PCAF's data quality scores (score 1-5) ...",
-      "keyword_keys": [
-        "pcaf",
-        "estimated_data"
-      ],
-      "keyword_labels_en": [
-        "PCAF financed emissions methodology",
-        "Estimated data"
-      ],
-      "keyword_labels_zh": [
-        "PCAF 投融资排放方法",
-        "估算数据"
-      ],
-      "evidence_page": "74",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "information and data we have at hand. Where possible, we have used client-reported GHG emissions. PCAF's data quality scores (score 1-5) are used to qualify the level of precision of the estimates we disclose per PCAF asset class. Data with",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据"
-    },
-    {
-      "scope_en": "Scope 3",
-      "scope_zh": "范围3",
-      "emission_type_en": "Other indirect emissions",
-      "emission_type_zh": "其他间接排放",
-      "scope3_category_code": "",
-      "scope3_category_en": "",
-      "scope3_category_zh": "",
-      "activity_standard_category_en": "",
-      "activity_standard_category_zh": "",
-      "activity_evidence_mapping_en": "",
-      "activity_evidence_mapping_zh": "",
-      "data_source_type_en": "",
-      "data_source_type_zh": "",
-      "assurance_stage_en": "Report disclosure",
-      "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Average-data method",
-      "calculation_method_zh": "平均数据法",
-      "boundary_type_en": "",
-      "boundary_type_zh": "",
-      "classification_stage_en": "",
-      "classification_stage_zh": "",
-      "estimate_basis_en": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • Accord...",
-      "estimate_basis_zh": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of...",
-      "keyword_keys": [
-        "average_data",
-        "pcaf"
-      ],
-      "keyword_labels_en": [
-        "Average-data method",
-        "PCAF financed emissions methodology"
-      ],
-      "keyword_labels_zh": [
-        "平均数据法",
-        "PCAF 投融资排放方法"
-      ],
-      "evidence_page": "74",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • According to the NZBA guidelines, banks’ GHG reduction targets should",
-      "snippet_zh": "",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
-      "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法"
-    },
-    {
       "scope_en": "Scope 3",
       "scope_zh": "范围3",
       "emission_type_en": "Other indirect emissions",
@@ -860,37 +667,28 @@
       "data_source_type_zh": "",
       "assurance_stage_en": "Report disclosure",
       "assurance_stage_zh": "报告披露",
-      "calculation_method_en": "Average-data method",
-      "calculation_method_zh": "平均数据法",
+      "calculation_method_en": "",
+      "calculation_method_zh": "",
       "boundary_type_en": "",
       "boundary_type_zh": "",
       "classification_stage_en": "Evidence-based mapping",
       "classification_stage_zh": "基于证据规则映射",
-      "estimate_basis_en": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • Accord...",
-      "estimate_basis_zh": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of...",
-      "keyword_keys": [
-        "average_data",
-        "pcaf"
-      ],
-      "keyword_labels_en": [
-        "Average-data method",
-        "PCAF financed emissions methodology"
-      ],
-      "keyword_labels_zh": [
-        "平均数据法",
-        "PCAF 投融资排放方法"
-      ],
+      "estimate_basis_en": "There is considerable discussion surrounding the viability of banks disclosing and setting targets for customer scope 3 emissions, due to the enormous variety and complexity of ...",
+      "estimate_basis_zh": "There is considerable discussion surrounding the viability of banks disclosing and setting targets for customer scope 3 emissions, due to...",
+      "keyword_keys": [],
+      "keyword_labels_en": [],
+      "keyword_labels_zh": [],
       "evidence_page": "74",
       "source_file": "rabobank_impact_report_2024.pdf",
       "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • According to the NZBA guidelines, banks’ GHG reduction targets should",
+      "snippet_en": "There is considerable discussion surrounding the viability of banks disclosing and setting targets for customer scope 3 emissions, due to the enormous variety and complexity of supply chains invo",
       "snippet_zh": "",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
       "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
       "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74",
-      "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法"
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露"
     }
   ],
   "keyword_summary": [
@@ -899,11 +697,11 @@
       "family": "method",
       "label_zh": "PCAF 投融资排放方法",
       "label_en": "PCAF financed emissions methodology",
-      "hit_count": 9,
+      "hit_count": 7,
       "pages": [
+        "42",
         "43",
-        "45",
-        "74"
+        "45"
       ],
       "sample_scope_zh": [
         "范围3",
@@ -919,11 +717,9 @@
       "family": "data_source",
       "label_zh": "估算数据",
       "label_en": "Estimated data",
-      "hit_count": 6,
+      "hit_count": 4,
       "pages": [
-        "41",
-        "45",
-        "74"
+        "45"
       ],
       "sample_scope_zh": [
         "范围1",
@@ -933,46 +729,6 @@
         "Scope 1",
         "Scope 3"
       ]
-    },
-    {
-      "key": "average_data",
-      "family": "method",
-      "label_zh": "平均数据法",
-      "label_en": "Average-data method",
-      "hit_count": 2,
-      "pages": [
-        "74"
-      ],
-      "sample_scope_zh": [
-        "范围3"
-      ],
-      "sample_scope_en": [
-        "Scope 3"
-      ]
-    },
-    {
-      "key": "derived_data",
-      "family": "data_source",
-      "label_zh": "推导数据",
-      "label_en": "Derived data",
-      "hit_count": 1,
-      "pages": [
-        "44"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
-    },
-    {
-      "key": "primary_data",
-      "family": "data_source",
-      "label_zh": "初级数据",
-      "label_en": "Primary data",
-      "hit_count": 1,
-      "pages": [
-        "44"
-      ],
-      "sample_scope_zh": [],
-      "sample_scope_en": []
     }
   ],
   "authoritative_scope_rows": [],
@@ -1012,23 +768,6 @@
       "review_status": "seed_batch_10",
       "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 11",
       "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：11"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Estimated data",
-      "label_zh": "估算数据",
-      "page": "41",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "or 98% of the relevant (73% of our total assets) on-balance sheet assets. We see that customer-reported data is growing significantly with almost 65% of our wholesale portfolio now calculated using reported emissions. We also see important",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Estimated data; Structured assurance tag: Report disclosure; Matched keywords: Estimated data",
-      "recognition_basis_zh": "结构化数据类型：估算数据；结构化核查环节：报告披露；原文命中关键词：估算数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 41",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：41"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1089,7 +828,7 @@
       "page": "42",
       "source_file": "rabobank_impact_report_2024.pdf",
       "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
+      "snippet_en": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat.",
       "snippet_zh": "",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -1106,10 +845,10 @@
       "page": "42",
       "source_file": "rabobank_impact_report_2024.pdf",
       "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
+      "snippet_en": "13 & 15) Financed Emissions (in Mt CO2e) 48.8 46.9 financed emissions 2022 financed emissions 2023 6.0 Mt CO2e avoided emissions via renewable energy portfolio 2022: 5.3 Mt CO2e 2023 2022 48.8 -12% Leasing Wholesale & Rural Other assets Dut",
       "snippet_zh": "",
-      "recognition_basis_en": "Structured assurance tag: Report disclosure",
-      "recognition_basis_zh": "结构化核查环节：报告披露",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure; Matched keywords: PCAF financed emissions methodology",
+      "recognition_basis_zh": "结构化核查环节：报告披露；原文命中关键词：PCAF 投融资排放方法",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
       "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 42",
@@ -1123,7 +862,7 @@
       "page": "42",
       "source_file": "rabobank_impact_report_2024.pdf",
       "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "202 32% RRE 12% Dutch business clients 20% Wholesale & Rural 7% Leasing int. 2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat. 13 &",
+      "snippet_en": "2% Other assets 27% Non-elegibile for FE € 614 billion total assets Assets From Loans & Investments in Scope Emissions From Loans & Investments (Scope 3 cat.",
       "snippet_zh": "",
       "recognition_basis_en": "Structured assurance tag: Report disclosure",
       "recognition_basis_zh": "结构化核查环节：报告披露",
@@ -1165,23 +904,6 @@
       "review_status": "seed_batch_10",
       "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 43",
       "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：43"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Primary data",
-      "label_zh": "初级数据",
-      "page": "44",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "the values in the SBTi FLAG pathways are derived in a methodologically different way (the FLAG sector-region default value comes from a top-down model, our portfolio intensity value comes from a bottom-up calculator, with carbon footprints",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured data-source tag: Primary data; Structured assurance tag: Verification; Matched keywords: Primary data / Derived data",
-      "recognition_basis_zh": "结构化数据类型：初级数据；结构化核查环节：核查；原文命中关键词：初级数据 / 推导数据",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 44",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：44"
     },
     {
       "fact_type_en": "Methodology fact",
@@ -1271,49 +993,15 @@
     {
       "fact_type_en": "Methodology fact",
       "fact_type_zh": "方法学事实",
-      "label_en": "Average-data method",
-      "label_zh": "平均数据法",
+      "label_en": "Generic value-chain activity",
+      "label_zh": "价值链活动",
       "page": "74",
       "source_file": "rabobank_impact_report_2024.pdf",
       "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • According to the NZBA guidelines, banks’ GHG reduction targets should",
+      "snippet_en": "There is considerable discussion surrounding the viability of banks disclosing and setting targets for customer scope 3 emissions, due to the enormous variety and complexity of supply chains invo",
       "snippet_zh": "",
-      "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "Average-data method",
-      "label_zh": "平均数据法",
-      "page": "74",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "emissions (PCAF score 3), and PCAF scores 4/5, given for an economic activity-based emissions approach. The average data quality score of our in scope portfolio is 3.6. • According to the NZBA guidelines, banks’ GHG reduction targets should",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured method tag: Average-data method; Structured assurance tag: Report disclosure; Matched keywords: Average-data method / PCAF financed emissions methodology",
-      "recognition_basis_zh": "结构化方法标注：平均数据法；结构化核查环节：报告披露；原文命中关键词：平均数据法 / PCAF 投融资排放方法",
-      "confidence_level": "medium",
-      "review_status": "seed_batch_10",
-      "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
-      "evidence_locator_zh": "报告：rabobank_impact_report_2024.pdf | 文件：rabobank_impact_report_2024.pdf | 页码：74"
-    },
-    {
-      "fact_type_en": "Methodology fact",
-      "fact_type_zh": "方法学事实",
-      "label_en": "PCAF financed emissions methodology",
-      "label_zh": "PCAF投融资排放方法",
-      "page": "74",
-      "source_file": "rabobank_impact_report_2024.pdf",
-      "report_title": "rabobank_impact_report_2024.pdf",
-      "snippet_en": "information and data we have at hand. Where possible, we have used client-reported GHG emissions. PCAF's data quality scores (score 1-5) are used to qualify the level of precision of the estimates we disclose per PCAF asset class. Data with",
-      "snippet_zh": "",
-      "recognition_basis_en": "Structured method tag: PCAF financed emissions methodology; Structured data-source tag: Estimated data; Structured assurance tag: Verification; Matched keywords: PCAF financed emissions methodology / Estimated data",
-      "recognition_basis_zh": "结构化方法标注：PCAF投融资排放方法；结构化数据类型：估算数据；结构化核查环节：核查；原文命中关键词：PCAF 投融资排放方法 / 估算数据",
+      "recognition_basis_en": "Structured assurance tag: Report disclosure",
+      "recognition_basis_zh": "结构化核查环节：报告披露",
       "confidence_level": "medium",
       "review_status": "seed_batch_10",
       "evidence_locator_en": "Report: rabobank_impact_report_2024.pdf | File: rabobank_impact_report_2024.pdf | Page: 74",
