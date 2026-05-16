@@ -259,3 +259,6 @@ radial-gradient(circle at 80% 20%,rgba(199,107,45,.05),transparent 18%),
 @media (max-width:1020px){.entity-workbench{grid-template-columns:1fr}.entity-graph-stage{grid-template-columns:1fr;min-height:unset}.entity-stage-lines{display:none}.entity-node-stat{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:760px){.entity-nav-actions,.graph-toolbar{flex-direction:column;align-items:stretch}.entity-search,.graph-search{min-width:100%}.entity-node-stat,.entity-overview-metrics{grid-template-columns:1fr}.entity-system-tab{width:100%;justify-content:flex-start}.graph-page-shell{padding-inline:18px}.graph-canvas-wrap,.ghg-full-graph-svg{height:60vh}}
 @media (max-width:760px){.hero,.card{padding:18px}.section-head h2{font-size:24px}.report-figure-title h3{font-size:20px}}
+:focus-visible{outline:3px solid var(--accent2);outline-offset:2px;border-radius:4px}
+button:focus-visible,.pill:focus-visible,.btn:focus-visible,a:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
+input:focus-visible{outline:3px solid var(--accent2);outline-offset:0;border-color:var(--accent2)}
