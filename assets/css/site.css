@@ -159,6 +159,7 @@ th{background:#f6efe4;font-weight:800}
 .entity-inspector-card{padding:18px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:var(--shadow)}
 .entity-inspector-card h3{margin:0 0 10px;font-size:20px}
 .entity-inspector-card p{margin:0;color:var(--muted);line-height:1.7}
+.entity-inspector-card .entity-evidence-block{max-height:400px;overflow-y:auto;scrollbar-width:thin}
 .entity-inspector-grid{display:grid;gap:10px}
 .entity-inspector-item{padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:rgba(255,253,248,.96)}
 .entity-inspector-item strong{display:block;margin-bottom:6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent2)}

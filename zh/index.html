@@ -1096,7 +1096,7 @@
     function renderSelection(system, standard, selectedCompany) {
       const roleText = standard && standard.roles && standard.roles.length ? standard.roles.join(' | ') : labels.no_roles;
       const principleText = standard && standard.principles && standard.principles.length ? standard.principles.join(' | ') : labels.no_principles;
-      const evidenceHtml = renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
+      const evidenceHtml = selectedCompany ? "" : renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
       elements.selection.innerHTML = `
         <h3>${escapeHtml(labels.selection_title)}</h3>
         <div class="entity-inspector-grid">
@@ -1586,7 +1586,7 @@
     function renderSelection(system, standard, selectedCompany) {
       const roleText = standard && standard.roles && standard.roles.length ? standard.roles.join(' | ') : labels.no_roles;
       const principleText = standard && standard.principles && standard.principles.length ? standard.principles.join(' | ') : labels.no_principles;
-      const evidenceHtml = renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
+      const evidenceHtml = selectedCompany ? "" : renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
       elements.selection.innerHTML = `
         <h3>${escapeHtml(labels.selection_title)}</h3>
         <div class="entity-inspector-grid">
