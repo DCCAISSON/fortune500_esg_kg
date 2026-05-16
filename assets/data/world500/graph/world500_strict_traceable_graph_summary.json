@@ -1,0 +1,24 @@
+{
+  "description": "Strict source-traceable KG layer generated from accounting workbench company JSON.",
+  "strict_company_count": 350,
+  "node_count": 11702,
+  "edge_count": 37999,
+  "node_type_count": 17,
+  "relation_type_count": 22,
+  "fact_counts": {
+    "authoritative_scope_value": 303,
+    "economic_instrument_fact": 1,
+    "gwp_version_fact": 1,
+    "methodology_fact": 5806,
+    "scope3_category_value_candidate": 128,
+    "scope_value_candidate": 85,
+    "standard_reference": 1351
+  },
+  "ingestion_audit": {
+    "source_fact_rows_checked": 7675,
+    "included_fact_rows": 7675,
+    "excluded_fact_rows": 0,
+    "audit_csv": "site/assets/data/world500/workbench/world500_strict_traceable_ingestion_audit.csv"
+  },
+  "source_policy": "Only facts with accepted parent-company source file, evidence page, and snippet or recognition basis are included. Review candidates remain candidate nodes."
+}

@@ -20,8 +20,8 @@
     <section class="hero">
       <div class="eyebrow">Carbon Accounting Workbench</div>
       <h1>企业碳核算工作台</h1>
-      <p>按企业查看已识别的标准、核算方法、数据类型、核查环节、活动类别、Scope 数值候选与 Scope 3 类别数值候选，并保留报告文件名、页码、原文片段、识别依据、置信度和校核状态。</p>
-      <p>输入企业名称或世界500强企业编号后，可直接下钻到该企业的碳排放计算依据页面。结构化绝对量与原文数值候选分开呈现，便于后续人工复核与计算入库。</p>
+      <p>按企业查看标准、核算方法、数据来源类型、数据质量标记、边界与分类阶段、Scope 数值、Scope 3 类别值、方法关键词命中、行业数值层与源文件回链信息。</p>
+      <p>输入企业名称或世界500强企业编号后，可直接进入该企业的“核算指导页”。页面会先判断母公司报告是否成功匹配，再把方法、标准、判定依据、原文定位和行业/类别数值层放到同一工作台里。</p>
       <div class="actions workbench-toolbar">
         <label class="entity-search workbench-search">
           <span>企业检索</span>
@@ -38,11 +38,18 @@
     </section>
 
     <section class="section" id="company-workbench-status"></section>
+    <section class="section" id="company-workbench-report-match"></section>
     <section class="section" id="company-workbench-profile"></section>
+    <section class="section" id="company-workbench-guidance"></section>
+    <section class="section" id="company-workbench-readiness"></section>
     <section class="section" id="company-workbench-standards"></section>
     <section class="section" id="company-workbench-methods"></section>
     <section class="section" id="company-workbench-scope"></section>
     <section class="section" id="company-workbench-scope3"></section>
+    <section class="section" id="company-workbench-accounting-inputs"></section>
+    <section class="section" id="company-workbench-carbon-evidence"></section>
+    <section class="section" id="company-workbench-playbook"></section>
+    <section class="section" id="company-workbench-industry"></section>
     <section class="section" id="company-workbench-keywords"></section>
     <section class="section" id="company-workbench-evidence"></section>
   </div>
@@ -68,6 +75,7 @@
         metric_keywords: "关键词簇",
         metric_scope_values: "Scope 待复核候选",
         metric_scope3_values: "Scope 3 待复核候选",
+        metric_carbon_evidence: "严格碳证据",
         profile_kicker: "企业画像",
         profile_lead: "本页把该企业后续碳排放计算直接需要的结构化要素和源文件追溯信息集中到同一工作台中。",
         profile_rank: "世界500强排名",

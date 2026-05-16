@@ -1,0 +1,1001 @@
+﻿queue_id,company_id,report_id,inventory_year,record_type,instrument_type_en,metric_name_en,value_text,value_numeric,unit,currency,price_year,scenario_en,target_name_en,baseline_year,baseline_emission_value,target_year,target_emission_value,actual_progress_year,actual_progress_value,target_scope_boundary,evidence_page,source_file,chain_completeness_status,review_decision,reviewer_note,company_name_en,company_name_zh,world500_rank
+econ_target_00001,r001_walmart,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WALMART,沃尔玛,1
+econ_target_00002,r001_walmart,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WALMART,沃尔玛,1
+econ_target_00003,r002_amazoncom,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AMAZON.COM,亚马逊,2
+econ_target_00004,r002_amazoncom,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AMAZON.COM,亚马逊,2
+econ_target_00005,r003_stategrid,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,STATE GRID,国家电网有限公司,3
+econ_target_00006,r003_stategrid,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,STATE GRID,国家电网有限公司,3
+econ_target_00007,r004_saudiaramco,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SAUDI ARAMCO,沙特阿美公司,4
+econ_target_00008,r004_saudiaramco,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SAUDI ARAMCO,沙特阿美公司,4
+econ_target_00009,r005_sinopecgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SINOPEC GROUP,中国石油化工集团有限公司,5
+econ_target_00010,r005_sinopecgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SINOPEC GROUP,中国石油化工集团有限公司,5
+econ_target_00011,r006_chinanationalpetroleum,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL PETROLEUM,中国石油天然气集团有限公司,6
+econ_target_00012,r006_chinanationalpetroleum,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL PETROLEUM,中国石油天然气集团有限公司,6
+econ_target_00013,r007_apple,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,APPLE,苹果公司,7
+econ_target_00014,r007_apple,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,APPLE,苹果公司,7
+econ_target_00015,r008_unitedhealthgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,UNITEDHEALTH GROUP,联合健康集团,8
+econ_target_00016,r008_unitedhealthgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,UNITEDHEALTH GROUP,联合健康集团,8
+econ_target_00017,r009_berkshirehathaway,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BERKSHIRE HATHAWAY,伯克希尔－哈撒韦公司,9
+econ_target_00018,r009_berkshirehathaway,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BERKSHIRE HATHAWAY,伯克希尔－哈撒韦公司,9
+econ_target_00019,r010_cvshealth公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CVS Health,CVS Health,10
+econ_target_00020,r010_cvshealth公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CVS Health,CVS Health,10
+econ_target_00021,r011_volkswagen,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VOLKSWAGEN,大众公司,11
+econ_target_00022,r011_volkswagen,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VOLKSWAGEN,大众公司,11
+econ_target_00023,r012_exxonmobil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,EXXON MOBIL,埃克森美孚,12
+econ_target_00024,r012_exxonmobil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,EXXON MOBIL,埃克森美孚,12
+econ_target_00025,r013_shell,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHELL,壳牌公司,13
+econ_target_00026,r013_shell,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHELL,壳牌公司,13
+econ_target_00027,r014_chinastateconstructionengineering,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA STATE CONSTRUCTION ENGINEERING,中国建筑集团有限公司,14
+econ_target_00028,r014_chinastateconstructionengineering,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA STATE CONSTRUCTION ENGINEERING,中国建筑集团有限公司,14
+econ_target_00029,r015_toyotamotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TOYOTA MOTOR,丰田汽车公司,15
+econ_target_00030,r015_toyotamotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TOYOTA MOTOR,丰田汽车公司,15
+econ_target_00031,r016_mckesson,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MCKESSON,麦克森公司,16
+econ_target_00032,r016_mckesson,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MCKESSON,麦克森公司,16
+econ_target_00033,r017_alphabet公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Alphabet,Alphabet,17
+econ_target_00034,r017_alphabet公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Alphabet,Alphabet,17
+econ_target_00035,r018_cencora公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Cencora,Cencora,18
+econ_target_00036,r018_cencora公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Cencora,Cencora,18
+econ_target_00037,r019_trafiguragroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TRAFIGURA GROUP,托克集团,19
+econ_target_00038,r019_trafiguragroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TRAFIGURA GROUP,托克集团,19
+econ_target_00039,r020_costcowholesale,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,COSTCO WHOLESALE,开市客,20
+econ_target_00040,r020_costcowholesale,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,COSTCO WHOLESALE,开市客,20
+econ_target_00041,r021_jpmorganchase,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JPMORGAN CHASE,摩根大通公司,21
+econ_target_00042,r021_jpmorganchase,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JPMORGAN CHASE,摩根大通公司,21
+econ_target_00043,r022_industrialandcommercialbankofchina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,INDUSTRIAL & COMMERCIAL BANK OF CHINA,中国工商银行股份有限公司,22
+econ_target_00044,r022_industrialandcommercialbankofchina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,INDUSTRIAL & COMMERCIAL BANK OF CHINA,中国工商银行股份有限公司,22
+econ_target_00045,r023_totalenergies,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TOTALENERGIES,道达尔能源公司,23
+econ_target_00046,r023_totalenergies,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TOTALENERGIES,道达尔能源公司,23
+econ_target_00047,r024_glencore,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GLENCORE,嘉能可,24
+econ_target_00048,r024_glencore,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GLENCORE,嘉能可,24
+econ_target_00049,r025_bp,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BP,英国石油公司,25
+econ_target_00050,r025_bp,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BP,英国石油公司,25
+econ_target_00051,r026_microsoft,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MICROSOFT,微软,26
+econ_target_00052,r026_microsoft,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MICROSOFT,微软,26
+econ_target_00053,r027_cardinalhealth,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CARDINAL HEALTH,嘉德诺健康集团,27
+econ_target_00054,r027_cardinalhealth,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CARDINAL HEALTH,嘉德诺健康集团,27
+econ_target_00055,r028_stellantis集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Stellantis,Stellantis,28
+econ_target_00056,r028_stellantis集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Stellantis,Stellantis,28
+econ_target_00057,r029_chevron,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHEVRON,雪佛龙,29
+econ_target_00058,r029_chevron,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHEVRON,雪佛龙,29
+econ_target_00059,r030_chinaconstructionbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA CONSTRUCTION BANK,中国建设银行股份有限公司,30
+econ_target_00060,r030_chinaconstructionbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA CONSTRUCTION BANK,中国建设银行股份有限公司,30
+econ_target_00061,r031_samsungelectronics,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SAMSUNG ELECTRONICS,三星电子,31
+econ_target_00062,r031_samsungelectronics,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SAMSUNG ELECTRONICS,三星电子,31
+econ_target_00063,r032_honhaiprecisionindustry,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HON HAI PRECISION INDUSTRY,鸿海精密工业股份有限公司,32
+econ_target_00064,r032_honhaiprecisionindustry,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HON HAI PRECISION INDUSTRY,鸿海精密工业股份有限公司,32
+econ_target_00065,r033_cignagroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CIGNA GROUP,信诺集团,33
+econ_target_00066,r033_cignagroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CIGNA GROUP,信诺集团,33
+econ_target_00067,r034_agriculturalbankofchina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AGRICULTURAL BANK OF CHINA,中国农业银行股份有限公司,34
+econ_target_00068,r034_agriculturalbankofchina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AGRICULTURAL BANK OF CHINA,中国农业银行股份有限公司,34
+econ_target_00069,r035_chinarailwayengineeringgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA RAILWAY ENGINEERING GROUP,中国铁路工程集团有限公司,35
+econ_target_00070,r035_chinarailwayengineeringgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA RAILWAY ENGINEERING GROUP,中国铁路工程集团有限公司,35
+econ_target_00071,r036_fordmotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,FORD MOTOR,福特汽车公司,36
+econ_target_00072,r036_fordmotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,FORD MOTOR,福特汽车公司,36
+econ_target_00073,r037_bankofchina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANK OF CHINA,中国银行股份有限公司,37
+econ_target_00074,r037_bankofchina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANK OF CHINA,中国银行股份有限公司,37
+econ_target_00075,r038_bankofamerica,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANK OF AMERICA,美国银行,38
+econ_target_00076,r038_bankofamerica,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANK OF AMERICA,美国银行,38
+econ_target_00077,r039_generalmotors,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GENERAL MOTORS,通用汽车公司,39
+econ_target_00078,r039_generalmotors,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GENERAL MOTORS,通用汽车公司,39
+econ_target_00079,r040_elevancehealth公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Elevance Health公司,Elevance Health公司,40
+econ_target_00080,r040_elevancehealth公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Elevance Health公司,Elevance Health公司,40
+econ_target_00081,r041_bmwgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BMW GROUP,宝马集团,41
+econ_target_00082,r041_bmwgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BMW GROUP,宝马集团,41
+econ_target_00083,r042_mercedesbenzgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MERCEDES-BENZ GROUP,梅赛德斯-奔驰集团,42
+econ_target_00084,r042_mercedesbenzgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MERCEDES-BENZ GROUP,梅赛德斯-奔驰集团,42
+econ_target_00085,r043_chinarailwayconstruction,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA RAILWAY CONSTRUCTION,中国铁道建筑集团有限公司,43
+econ_target_00086,r043_chinarailwayconstruction,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA RAILWAY CONSTRUCTION,中国铁道建筑集团有限公司,43
+econ_target_00087,r044_chinabaowusteelgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA BAOWU STEEL GROUP,中国宝武钢铁集团有限公司,44
+econ_target_00088,r044_chinabaowusteelgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA BAOWU STEEL GROUP,中国宝武钢铁集团有限公司,44
+econ_target_00089,r045_citigroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CITIGROUP,花旗集团,45
+econ_target_00090,r045_citigroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CITIGROUP,花旗集团,45
+econ_target_00091,r046_centene公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Centene,Centene,46
+econ_target_00092,r046_centene公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Centene,Centene,46
+econ_target_00093,r047_jdcom,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JD.COM,京东集团股份有限公司,47
+econ_target_00094,r047_jdcom,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JD.COM,京东集团股份有限公司,47
+econ_target_00095,r048_homedepot,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HOME DEPOT,家得宝,48
+econ_target_00096,r048_homedepot,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HOME DEPOT,家得宝,48
+econ_target_00097,r049_electricitédefrance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ELECTRICITÉ DE FRANCE,法国电力公司,49
+econ_target_00098,r049_electricitédefrance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ELECTRICITÉ DE FRANCE,法国电力公司,49
+econ_target_00099,r050_marathonpetroleum,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MARATHON PETROLEUM,马拉松原油公司,50
+econ_target_00100,r050_marathonpetroleum,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MARATHON PETROLEUM,马拉松原油公司,50
+econ_target_00101,r051_kroger,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,KROGER,克罗格,51
+econ_target_00102,r051_kroger,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,KROGER,克罗格,51
+econ_target_00103,r052_phillips66公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Phillips 66,Phillips 66,52
+econ_target_00104,r052_phillips66公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Phillips 66,Phillips 66,52
+econ_target_00105,r053_pinganinsurance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PING AN INSURANCE,中国平安保险（集团）股份有限公司,53
+econ_target_00106,r053_pinganinsurance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PING AN INSURANCE,中国平安保险（集团）股份有限公司,53
+econ_target_00107,r054_sinochemholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SINOCHEM HOLDINGS,中国中化控股有限责任公司,54
+econ_target_00108,r054_sinochemholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SINOCHEM HOLDINGS,中国中化控股有限责任公司,54
+econ_target_00109,r055_chinamobilecommunications,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA MOBILE COMMUNICATIONS,中国移动通信集团有限公司,55
+econ_target_00110,r055_chinamobilecommunications,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA MOBILE COMMUNICATIONS,中国移动通信集团有限公司,55
+econ_target_00111,r056_chinanationaloffshoreoil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL OFFSHORE OIL,中国海洋石油集团有限公司,56
+econ_target_00112,r056_chinanationaloffshoreoil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL OFFSHORE OIL,中国海洋石油集团有限公司,56
+econ_target_00113,r057_hondamotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HONDA MOTOR,本田汽车,57
+econ_target_00114,r057_hondamotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HONDA MOTOR,本田汽车,57
+econ_target_00115,r058_fanniemae,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,FANNIE MAE,房利美,58
+econ_target_00116,r058_fanniemae,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,FANNIE MAE,房利美,58
+econ_target_00117,r059_chinalifeinsurance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA LIFE INSURANCE,中国人寿保险（集团）公司,59
+econ_target_00118,r059_chinalifeinsurance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA LIFE INSURANCE,中国人寿保险（集团）公司,59
+econ_target_00119,r060_walgreensbootsalliance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WALGREENS BOOTS ALLIANCE,沃博联,60
+econ_target_00120,r060_walgreensbootsalliance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WALGREENS BOOTS ALLIANCE,沃博联,60
+econ_target_00121,r061_valeroenergy,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VALERO ENERGY,瓦莱罗能源公司,61
+econ_target_00122,r061_valeroenergy,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VALERO ENERGY,瓦莱罗能源公司,61
+econ_target_00123,r062_bancosantander,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANCO SANTANDER,西班牙国家银行,62
+econ_target_00124,r062_bancosantander,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANCO SANTANDER,西班牙国家银行,62
+econ_target_00125,r063_chinacommunicationsconstruction,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA COMMUNICATIONS CONSTRUCTION,中国交通建设集团有限公司,63
+econ_target_00126,r063_chinacommunicationsconstruction,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA COMMUNICATIONS CONSTRUCTION,中国交通建设集团有限公司,63
+econ_target_00127,r064_bnpparibas,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BNP PARIBAS,法国巴黎银行,64
+econ_target_00128,r064_bnpparibas,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BNP PARIBAS,法国巴黎银行,64
+econ_target_00129,r065_mitsubishi,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MITSUBISHI,三菱商事株式会社,65
+econ_target_00130,r065_mitsubishi,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MITSUBISHI,三菱商事株式会社,65
+econ_target_00131,r066_metaplatforms公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Meta Platforms,Meta Platforms,66
+econ_target_00132,r066_metaplatforms公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Meta Platforms,Meta Platforms,66
+econ_target_00133,r067_hsbcholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HSBC HOLDINGS,汇丰银行控股公司,67
+econ_target_00134,r067_hsbcholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HSBC HOLDINGS,汇丰银行控股公司,67
+econ_target_00135,r068_verizoncommunications,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VERIZON COMMUNICATIONS,威瑞森电信,68
+econ_target_00136,r068_verizoncommunications,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VERIZON COMMUNICATIONS,威瑞森电信,68
+econ_target_00137,r069_chinaminmetals,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA MINMETALS,中国五矿集团有限公司,69
+econ_target_00138,r069_chinaminmetals,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA MINMETALS,中国五矿集团有限公司,69
+econ_target_00139,r070_alibabagroupholding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ALIBABA GROUP HOLDING,阿里巴巴集团控股有限公司,70
+econ_target_00140,r070_alibabagroupholding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ALIBABA GROUP HOLDING,阿里巴巴集团控股有限公司,70
+econ_target_00141,r071_citicgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CITIC GROUP,中国中信集团有限公司,71
+econ_target_00142,r071_citicgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CITIC GROUP,中国中信集团有限公司,71
+econ_target_00143,r072_chinaresources,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA RESOURCES,中国华润有限公司,72
+econ_target_00144,r072_chinaresources,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA RESOURCES,中国华润有限公司,72
+econ_target_00145,r073_hyundaimotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HYUNDAI MOTOR,现代汽车,73
+econ_target_00146,r073_hyundaimotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HYUNDAI MOTOR,现代汽车,73
+econ_target_00147,r074_atandt,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AT&T,美国电话电报公司,74
+econ_target_00148,r074_atandt,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AT&T,美国电话电报公司,74
+econ_target_00149,r075_shandongenergygroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANDONG ENERGY GROUP,山东能源集团有限公司,75
+econ_target_00150,r075_shandongenergygroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANDONG ENERGY GROUP,山东能源集团有限公司,75
+econ_target_00151,r076_comcast,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,COMCAST,美国康卡斯特电信公司,76
+econ_target_00152,r076_comcast,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,COMCAST,美国康卡斯特电信公司,76
+econ_target_00153,r077_deutschetelekom,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DEUTSCHE TELEKOM,德国电信,77
+econ_target_00154,r077_deutschetelekom,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DEUTSCHE TELEKOM,德国电信,77
+econ_target_00155,r078_chinasouthernpowergrid,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA SOUTHERN POWER GRID,中国南方电网有限责任公司,78
+econ_target_00156,r078_chinasouthernpowergrid,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA SOUTHERN POWER GRID,中国南方电网有限责任公司,78
+econ_target_00157,r079_uniper公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Uniper,Uniper,79
+econ_target_00158,r079_uniper公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Uniper,Uniper,79
+econ_target_00159,r080_wellsfargo,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WELLS FARGO,美国富国银行,80
+econ_target_00160,r080_wellsfargo,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WELLS FARGO,美国富国银行,80
+econ_target_00161,r081_hengligroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HENGLI GROUP,恒力集团有限公司,81
+econ_target_00162,r081_hengligroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HENGLI GROUP,恒力集团有限公司,81
+econ_target_00163,r082_allianz,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ALLIANZ,安联保险集团,82
+econ_target_00164,r082_allianz,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ALLIANZ,安联保险集团,82
+econ_target_00165,r083_chinapostgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA POST GROUP,中国邮政集团有限公司,83
+econ_target_00166,r083_chinapostgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA POST GROUP,中国邮政集团有限公司,83
+econ_target_00167,r084_chinaenergyinvestment,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA ENERGY INVESTMENT,国家能源投资集团有限责任公司,84
+econ_target_00168,r084_chinaenergyinvestment,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA ENERGY INVESTMENT,国家能源投资集团有限责任公司,84
+econ_target_00169,r085_xiamencandd,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,XIAMEN C&D,厦门建发集团有限公司,85
+econ_target_00170,r085_xiamencandd,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,XIAMEN C&D,厦门建发集团有限公司,85
+econ_target_00171,r086_relianceindustries,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,RELIANCE INDUSTRIES,信实工业公司,86
+econ_target_00172,r086_relianceindustries,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,RELIANCE INDUSTRIES,信实工业公司,86
+econ_target_00173,r087_goldmansachsgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GOLDMAN SACHS GROUP,高盛集团,87
+econ_target_00174,r087_goldmansachsgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GOLDMAN SACHS GROUP,高盛集团,87
+econ_target_00175,r088_freddiemac,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,FREDDIE MAC,房地美,88
+econ_target_00176,r088_freddiemac,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,FREDDIE MAC,房地美,88
+econ_target_00177,r089_rosneftoil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ROSNEFT OIL,俄罗斯石油公司,89
+econ_target_00178,r089_rosneftoil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ROSNEFT OIL,俄罗斯石油公司,89
+econ_target_00179,r090_target,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TARGET,塔吉特公司,90
+econ_target_00180,r090_target,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TARGET,塔吉特公司,90
+econ_target_00181,r091_equinor公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Equinor,Equinor,91
+econ_target_00182,r091_equinor公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Equinor,Equinor,91
+econ_target_00183,r092_humana,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HUMANA,哈门那公司,92
+econ_target_00184,r092_humana,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HUMANA,哈门那公司,92
+econ_target_00185,r093_saicmotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SAIC MOTOR,上海汽车集团股份有限公司,93
+econ_target_00186,r093_saicmotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SAIC MOTOR,上海汽车集团股份有限公司,93
+econ_target_00187,r094_statefarminsurance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,STATE FARM INSURANCE,州立农业保险公司,94
+econ_target_00188,r094_statefarminsurance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,STATE FARM INSURANCE,州立农业保险公司,94
+econ_target_00189,r095_lifeinsurancecorpofindia,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LIFE INSURANCE CORP. OF INDIA,印度人寿保险公司,95
+econ_target_00190,r095_lifeinsurancecorpofindia,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LIFE INSURANCE CORP. OF INDIA,印度人寿保险公司,95
+econ_target_00191,r096_nestlé,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NESTLÉ,雀巢公司,96
+econ_target_00192,r096_nestlé,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NESTLÉ,雀巢公司,96
+econ_target_00193,r097_enel,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ENEL,意大利国家电力公司,97
+econ_target_00194,r097_enel,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ENEL,意大利国家电力公司,97
+econ_target_00195,r098_eni,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ENI,埃尼石油公司,98
+econ_target_00196,r098_eni,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ENI,埃尼石油公司,98
+econ_target_00197,r099_petrobras,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PETROBRAS,巴西国家石油公司,99
+econ_target_00198,r099_petrobras,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PETROBRAS,巴西国家石油公司,99
+econ_target_00199,r100_sk集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SK,SK,100
+econ_target_00200,r100_sk集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SK,SK,100
+econ_target_00201,r101_eon,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,E.ON,意昂集团,101
+econ_target_00202,r101_eon,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,E.ON,意昂集团,101
+econ_target_00203,r102_gazprom,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GAZPROM,俄罗斯天然气工业股份公司,102
+econ_target_00204,r102_gazprom,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GAZPROM,俄罗斯天然气工业股份公司,102
+econ_target_00205,r103_huaweiinvestmentandholding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HUAWEI INVESTMENT & HOLDING,华为投资控股有限公司,103
+econ_target_00206,r103_huaweiinvestmentandholding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HUAWEI INVESTMENT & HOLDING,华为投资控股有限公司,103
+econ_target_00207,r104_sociétégénérale,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SOCIÉTÉ GÉNÉRALE,法国兴业银行,104
+econ_target_00208,r104_sociétégénérale,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SOCIÉTÉ GÉNÉRALE,法国兴业银行,104
+econ_target_00209,r105_boschgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BOSCH GROUP,博世集团,105
+econ_target_00210,r105_boschgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BOSCH GROUP,博世集团,105
+econ_target_00211,r106_cofco,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,COFCO,中粮集团有限公司,106
+econ_target_00212,r106_cofco,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,COFCO,中粮集团有限公司,106
+econ_target_00213,r107_itochu,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ITOCHU,日本伊藤忠商事株式会社,107
+econ_target_00214,r107_itochu,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ITOCHU,日本伊藤忠商事株式会社,107
+econ_target_00215,r108_powerchina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,POWERCHINA,中国电力建设集团有限公司,108
+econ_target_00216,r108_powerchina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,POWERCHINA,中国电力建设集团有限公司,108
+econ_target_00217,r109_pemex,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PEMEX,墨西哥石油公司,109
+econ_target_00218,r109_pemex,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PEMEX,墨西哥石油公司,109
+econ_target_00219,r110_tesla,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TESLA,特斯拉,110
+econ_target_00220,r110_tesla,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TESLA,特斯拉,110
+econ_target_00221,r111_morganstanley,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MORGAN STANLEY,摩根士丹利,111
+econ_target_00222,r111_morganstanley,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MORGAN STANLEY,摩根士丹利,111
+econ_target_00223,r112_sinopharm,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SINOPHARM,中国医药集团有限公司,112
+econ_target_00224,r112_sinopharm,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SINOPHARM,中国医药集团有限公司,112
+econ_target_00225,r113_brookfield,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BROOKFIELD,博枫公司,113
+econ_target_00226,r113_brookfield,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BROOKFIELD,博枫公司,113
+econ_target_00227,r114_royalaholddelhaize,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ROYAL AHOLD DELHAIZE,皇家阿霍德德尔海兹集团,114
+econ_target_00228,r114_royalaholddelhaize,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ROYAL AHOLD DELHAIZE,皇家阿霍德德尔海兹集团,114
+econ_target_00229,r115_johnsonandjohnson,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JOHNSON & JOHNSON,强生,115
+econ_target_00230,r115_johnsonandjohnson,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JOHNSON & JOHNSON,强生,115
+econ_target_00231,r116_indianoil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,INDIAN OIL,印度石油公司,116
+econ_target_00232,r116_indianoil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,INDIAN OIL,印度石油公司,116
+econ_target_00233,r117_adm公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ADM,ADM,117
+econ_target_00234,r117_adm公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ADM,ADM,117
+econ_target_00235,r118_créditagricole,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CRÉDIT AGRICOLE,法国农业信贷银行,118
+econ_target_00236,r118_créditagricole,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CRÉDIT AGRICOLE,法国农业信贷银行,118
+econ_target_00237,r119_christiandior,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHRISTIAN DIOR,迪奥公司,119
+econ_target_00238,r119_christiandior,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHRISTIAN DIOR,迪奥公司,119
+econ_target_00239,r120_nippontelegraphandtelephone,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NIPPON TELEGRAPH AND TELEPHONE,日本电报电话公司,120
+econ_target_00240,r120_nippontelegraphandtelephone,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NIPPON TELEGRAPH AND TELEPHONE,日本电报电话公司,120
+econ_target_00241,r121_mitsui,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MITSUI,三井物产株式会社,121
+econ_target_00242,r121_mitsui,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MITSUI,三井物产株式会社,121
+econ_target_00243,r122_carrefour,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CARREFOUR,家乐福,122
+econ_target_00244,r122_carrefour,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CARREFOUR,家乐福,122
+econ_target_00245,r123_pepsico,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PEPSICO,百事公司,123
+econ_target_00246,r123_pepsico,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PEPSICO,百事公司,123
+econ_target_00247,r124_unitedparcelservice,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,UNITED PARCEL SERVICE,联合包裹速递服务公司,124
+econ_target_00248,r124_unitedparcelservice,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,UNITED PARCEL SERVICE,联合包裹速递服务公司,124
+econ_target_00249,r125_ptt,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PTT,泰国国家石油有限公司,125
+econ_target_00250,r125_ptt,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PTT,泰国国家石油有限公司,125
+econ_target_00251,r126_axa,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AXA,安盛,126
+econ_target_00252,r126_axa,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AXA,安盛,126
+econ_target_00253,r127_fedex,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,FEDEX,联邦快递,127
+econ_target_00254,r127_fedex,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,FEDEX,联邦快递,127
+econ_target_00255,r128_sony,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SONY,索尼,128
+econ_target_00256,r128_sony,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SONY,索尼,128
+econ_target_00257,r129_chinafawgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA FAW GROUP,中国第一汽车集团有限公司,129
+econ_target_00258,r129_chinafawgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA FAW GROUP,中国第一汽车集团有限公司,129
+econ_target_00259,r130_engie集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Engie,Engie,130
+econ_target_00260,r130_engie集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Engie,Engie,130
+econ_target_00261,r131_waltdisney,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WALT DISNEY,华特迪士尼公司,131
+econ_target_00262,r131_waltdisney,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WALT DISNEY,华特迪士尼公司,131
+econ_target_00263,r132_orlen,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ORLEN,波兰国营石油公司,132
+econ_target_00264,r132_orlen,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ORLEN,波兰国营石油公司,132
+econ_target_00265,r133_delltechnologies,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DELL TECHNOLOGIES,戴尔科技公司,133
+econ_target_00266,r133_delltechnologies,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DELL TECHNOLOGIES,戴尔科技公司,133
+econ_target_00267,r134_dhlgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DHL GROUP,敦豪集团,134
+econ_target_00268,r134_dhlgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DHL GROUP,敦豪集团,134
+econ_target_00269,r135_chinatelecommunications,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA TELECOMMUNICATIONS,中国电信集团有限公司,135
+econ_target_00270,r135_chinatelecommunications,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA TELECOMMUNICATIONS,中国电信集团有限公司,135
+econ_target_00271,r136_nissanmotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NISSAN MOTOR,日产汽车,136
+econ_target_00272,r136_nissanmotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NISSAN MOTOR,日产汽车,136
+econ_target_00273,r137_royalbankofcanada,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ROYAL BANK OF CANADA,加拿大皇家银行,137
+econ_target_00274,r137_royalbankofcanada,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ROYAL BANK OF CANADA,加拿大皇家银行,137
+econ_target_00275,r138_zhejiangrongshengholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG RONGSHENG HOLDING GROUP,浙江荣盛控股集团有限公司,138
+econ_target_00276,r138_zhejiangrongshengholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG RONGSHENG HOLDING GROUP,浙江荣盛控股集团有限公司,138
+econ_target_00277,r139_lowes,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LOWE'S,美国劳氏公司,139
+econ_target_00278,r139_lowes,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LOWE'S,美国劳氏公司,139
+econ_target_00279,r140_tesco,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TESCO,乐购,140
+econ_target_00280,r140_tesco,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TESCO,乐购,140
+econ_target_00281,r141_tencentholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TENCENT HOLDINGS,腾讯控股有限公司,141
+econ_target_00282,r141_tencentholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TENCENT HOLDINGS,腾讯控股有限公司,141
+econ_target_00283,r142_xiamenitgholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,XIAMEN ITG HOLDING GROUP,厦门国贸控股集团有限公司,142
+econ_target_00284,r142_xiamenitgholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,XIAMEN ITG HOLDING GROUP,厦门国贸控股集团有限公司,142
+econ_target_00285,r143_byd,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BYD,比亚迪股份有限公司,143
+econ_target_00286,r143_byd,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BYD,比亚迪股份有限公司,143
+econ_target_00287,r144_nipponlifeinsurance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NIPPON LIFE INSURANCE,日本生命保险公司,144
+econ_target_00288,r144_nipponlifeinsurance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NIPPON LIFE INSURANCE,日本生命保险公司,144
+econ_target_00289,r145_siemens,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SIEMENS,西门子,145
+econ_target_00290,r145_siemens,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SIEMENS,西门子,145
+econ_target_00291,r146_japanpostholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JAPAN POST HOLDINGS,日本邮政控股公司,146
+econ_target_00292,r146_japanpostholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JAPAN POST HOLDINGS,日本邮政控股公司,146
+econ_target_00293,r147_aviationindustrycorpofchina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AVIATION INDUSTRY CORP. OF CHINA,中国航空工业集团有限公司,147
+econ_target_00294,r147_aviationindustrycorpofchina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AVIATION INDUSTRY CORP. OF CHINA,中国航空工业集团有限公司,147
+econ_target_00295,r148_mitsubishiufjfinancialgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MITSUBISHI UFJ FINANCIAL GROUP,三菱日联金融集团,148
+econ_target_00296,r148_mitsubishiufjfinancialgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MITSUBISHI UFJ FINANCIAL GROUP,三菱日联金融集团,148
+econ_target_00297,r149_procterandgamble,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PROCTER & GAMBLE,宝洁公司,149
+econ_target_00298,r149_procterandgamble,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PROCTER & GAMBLE,宝洁公司,149
+econ_target_00299,r150_wuchanzhongdagroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WUCHAN ZHONGDA GROUP,物产中大集团股份有限公司,150
+econ_target_00300,r150_wuchanzhongdagroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WUCHAN ZHONGDA GROUP,物产中大集团股份有限公司,150
+econ_target_00301,r151_sevenandi控股公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Seven & I Holdings,Seven & I 控股,151
+econ_target_00302,r151_sevenandi控股公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Seven & I Holdings,Seven & I 控股,151
+econ_target_00303,r152_albertsons,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ALBERTSONS,艾伯森公司,152
+econ_target_00304,r152_albertsons,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ALBERTSONS,艾伯森公司,152
+econ_target_00305,r153_eneosholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ENEOS HOLDINGS,引能仕控股株式会社,153
+econ_target_00306,r153_eneosholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ENEOS HOLDINGS,引能仕控股株式会社,153
+econ_target_00307,r154_bankofcommunications,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANK OF COMMUNICATIONS,交通银行股份有限公司,154
+econ_target_00308,r154_bankofcommunications,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANK OF COMMUNICATIONS,交通银行股份有限公司,154
+econ_target_00309,r155_energytransfer公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Energy Transfer公司,Energy Transfer公司,155
+econ_target_00310,r155_energytransfer公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Energy Transfer公司,Energy Transfer公司,155
+econ_target_00311,r156_uspostalservice,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,U.S. POSTAL SERVICE,美国邮政,156
+econ_target_00312,r156_uspostalservice,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,U.S. POSTAL SERVICE,美国邮政,156
+econ_target_00313,r157_jiangxicopper,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JIANGXI COPPER,江西铜业集团有限公司,157
+econ_target_00314,r157_jiangxicopper,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JIANGXI COPPER,江西铜业集团有限公司,157
+econ_target_00315,r158_peoplesinsurancecoofchina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PEOPLE'S INSURANCE CO. OF CHINA,中国人民保险集团股份有限公司,158
+econ_target_00316,r158_peoplesinsurancecoofchina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PEOPLE'S INSURANCE CO. OF CHINA,中国人民保险集团股份有限公司,158
+econ_target_00317,r159_boeing,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BOEING,波音,159
+econ_target_00318,r159_boeing,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BOEING,波音,159
+econ_target_00319,r160_chinanorthindustriesgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA NORTH INDUSTRIES GROUP,中国兵器工业集团有限公司,160
+econ_target_00320,r160_chinanorthindustriesgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA NORTH INDUSTRIES GROUP,中国兵器工业集团有限公司,160
+econ_target_00321,r161_pacificconstructiongroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PACIFIC CONSTRUCTION GROUP,太平洋建设集团有限公司,161
+econ_target_00322,r161_pacificconstructiongroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PACIFIC CONSTRUCTION GROUP,太平洋建设集团有限公司,161
+econ_target_00323,r162_kia,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,KIA,起亚公司,162
+econ_target_00324,r162_kia,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,KIA,起亚公司,162
+econ_target_00325,r163_sysco,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SYSCO,西斯科公司,163
+econ_target_00326,r163_sysco,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SYSCO,西斯科公司,163
+econ_target_00327,r164_daiichilifeholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DAI-ICHI LIFE HOLDINGS,第一生命控股有限公司,164
+econ_target_00328,r164_daiichilifeholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DAI-ICHI LIFE HOLDINGS,第一生命控股有限公司,164
+econ_target_00329,r165_pertamina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PERTAMINA,印尼国家石油公司,165
+econ_target_00330,r165_pertamina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PERTAMINA,印尼国家石油公司,165
+econ_target_00331,r166_vinci,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VINCI,万喜集团,166
+econ_target_00332,r166_vinci,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VINCI,万喜集团,166
+econ_target_00333,r167_petronas,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PETRONAS,马来西亚国家石油公司,167
+econ_target_00334,r167_petronas,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PETRONAS,马来西亚国家石油公司,167
+econ_target_00335,r168_torontodominionbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TORONTO-DOMINION BANK,多伦多道明银行,168
+econ_target_00336,r168_torontodominionbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TORONTO-DOMINION BANK,多伦多道明银行,168
+econ_target_00337,r169_lukoil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LUKOIL,卢克石油公司,169
+econ_target_00338,r169_lukoil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LUKOIL,卢克石油公司,169
+econ_target_00339,r170_shaanxicoalandchemicalindustry,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHAANXI COAL & CHEMICAL INDUSTRY,陕西煤业化工集团有限责任公司,170
+econ_target_00340,r170_shaanxicoalandchemicalindustry,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHAANXI COAL & CHEMICAL INDUSTRY,陕西煤业化工集团有限责任公司,170
+econ_target_00341,r171_shenghongholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHENGHONG HOLDING GROUP,盛虹控股集团有限公司,171
+econ_target_00342,r171_shenghongholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHENGHONG HOLDING GROUP,盛虹控股集团有限公司,171
+econ_target_00343,r172_basf,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BASF,巴斯夫公司,172
+econ_target_00344,r172_basf,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BASF,巴斯夫公司,172
+econ_target_00345,r173_chinapolygroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA POLY GROUP,中国保利集团有限公司,173
+econ_target_00346,r173_chinapolygroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA POLY GROUP,中国保利集团有限公司,173
+econ_target_00347,r174_法国bpce银行集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BPCE Group,法国BPCE银行,174
+econ_target_00348,r174_法国bpce银行集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BPCE Group,法国BPCE银行,174
+econ_target_00349,r175_shandongweiqiaopioneeringgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANDONG WEIQIAO PIONEERING GROUP,山东魏桥创业集团有限公司,175
+econ_target_00350,r175_shandongweiqiaopioneeringgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANDONG WEIQIAO PIONEERING GROUP,山东魏桥创业集团有限公司,175
+econ_target_00351,r176_巴西jbs公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JBS,巴西JBS,176
+econ_target_00352,r176_巴西jbs公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JBS,巴西JBS,176
+econ_target_00353,r177_alimentationcouchetard公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Alimentation Couche-Tard,Alimentation Couche-Tard,177
+econ_target_00354,r177_alimentationcouchetard公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Alimentation Couche-Tard,Alimentation Couche-Tard,177
+econ_target_00355,r178_statebankofindia,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,STATE BANK OF INDIA,印度国家银行,178
+econ_target_00356,r178_statebankofindia,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,STATE BANK OF INDIA,印度国家银行,178
+econ_target_00357,r179_chinamerchantsbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA MERCHANTS BANK,招商银行股份有限公司,179
+econ_target_00358,r179_chinamerchantsbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA MERCHANTS BANK,招商银行股份有限公司,179
+econ_target_00359,r180_oilandnaturalgas,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,OIL & NATURAL GAS,印度石油天然气公司,180
+econ_target_00360,r180_oilandnaturalgas,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,OIL & NATURAL GAS,印度石油天然气公司,180
+econ_target_00361,r181_guangzhouautomobileindustrygroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU AUTOMOBILE INDUSTRY GROUP,广州汽车工业集团有限公司,181
+econ_target_00362,r181_guangzhouautomobileindustrygroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU AUTOMOBILE INDUSTRY GROUP,广州汽车工业集团有限公司,181
+econ_target_00363,r182_ubsgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,UBS GROUP,瑞银集团,182
+econ_target_00364,r182_ubsgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,UBS GROUP,瑞银集团,182
+econ_target_00365,r183_airbus,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AIRBUS,空中客车公司,183
+econ_target_00366,r183_airbus,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AIRBUS,空中客车公司,183
+econ_target_00367,r184_toyotatsusho,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TOYOTA TSUSHO,丰田通商公司,184
+econ_target_00368,r184_toyotatsusho,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TOYOTA TSUSHO,丰田通商公司,184
+econ_target_00369,r185_zhejianggeelyholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG GEELY HOLDING GROUP,浙江吉利控股集团有限公司,185
+econ_target_00370,r185_zhejianggeelyholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG GEELY HOLDING GROUP,浙江吉利控股集团有限公司,185
+econ_target_00371,r186_taiwansemiconductormanufacturing,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TAIWAN SEMICONDUCTOR MANUFACTURING,台积公司,186
+econ_target_00372,r186_taiwansemiconductormanufacturing,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TAIWAN SEMICONDUCTOR MANUFACTURING,台积公司,186
+econ_target_00373,r187_xmxyg,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,XMXYG,厦门象屿集团有限公司,187
+econ_target_00374,r187_xmxyg,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,XMXYG,厦门象屿集团有限公司,187
+econ_target_00375,r188_rtx,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,RTX,雷神技术公司,188
+econ_target_00376,r188_rtx,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,RTX,雷神技术公司,188
+econ_target_00377,r189_itaúunibancoholding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ITAÚ UNIBANCO HOLDING,伊塔乌联合银行控股公司,189
+econ_target_00378,r189_itaúunibancoholding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ITAÚ UNIBANCO HOLDING,伊塔乌联合银行控股公司,189
+econ_target_00379,r190_arcelormittal,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ARCELORMITTAL,安赛乐米塔尔,190
+econ_target_00380,r190_arcelormittal,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ARCELORMITTAL,安赛乐米塔尔,190
+econ_target_00381,r191_generalelectric,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GENERAL ELECTRIC,通用电气公司,191
+econ_target_00382,r191_generalelectric,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GENERAL ELECTRIC,通用电气公司,191
+econ_target_00383,r192_beijingautomotivegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BEIJING AUTOMOTIVE GROUP,北京汽车集团有限公司,192
+econ_target_00384,r192_beijingautomotivegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BEIJING AUTOMOTIVE GROUP,北京汽车集团有限公司,192
+econ_target_00385,r193_lockheedmartin,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LOCKHEED MARTIN,洛克希德－马丁,193
+econ_target_00386,r193_lockheedmartin,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LOCKHEED MARTIN,洛克希德－马丁,193
+econ_target_00387,r194_koc集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,KOC集团,KOC集团,194
+econ_target_00388,r194_koc集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,KOC集团,KOC集团,194
+econ_target_00389,r195_americanexpress,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AMERICAN EXPRESS,美国运通公司,195
+econ_target_00390,r195_americanexpress,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AMERICAN EXPRESS,美国运通公司,195
+econ_target_00391,r196_hitachi,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HITACHI,日立,196
+econ_target_00392,r196_hitachi,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HITACHI,日立,196
+econ_target_00393,r197_rochegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ROCHE GROUP,瑞士罗氏公司,197
+econ_target_00394,r197_rochegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ROCHE GROUP,瑞士罗氏公司,197
+econ_target_00395,r198_wilmarinternational,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WILMAR INTERNATIONAL,丰益国际,198
+econ_target_00396,r198_wilmarinternational,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WILMAR INTERNATIONAL,丰益国际,198
+econ_target_00397,r199_caterpillar,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CATERPILLAR,卡特彼勒,199
+econ_target_00398,r199_caterpillar,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CATERPILLAR,卡特彼勒,199
+econ_target_00399,r200_bancobilbaovizcayaargentaria,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANCO BILBAO VIZCAYA ARGENTARIA,西班牙对外银行,200
+econ_target_00400,r200_bancobilbaovizcayaargentaria,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANCO BILBAO VIZCAYA ARGENTARIA,西班牙对外银行,200
+econ_target_00401,r201_koreaelectricpower,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,KOREA ELECTRIC POWER,韩国电力公司,201
+econ_target_00402,r201_koreaelectricpower,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,KOREA ELECTRIC POWER,韩国电力公司,201
+econ_target_00403,r202_metlife,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,METLIFE,美国大都会集团,202
+econ_target_00404,r202_metlife,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,METLIFE,美国大都会集团,202
+econ_target_00405,r203_aeon,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AEON,日本永旺集团,203
+econ_target_00406,r203_aeon,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AEON,日本永旺集团,203
+econ_target_00407,r204_lloydsbankinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LLOYDS BANKING GROUP,英国劳埃德银行集团,204
+econ_target_00408,r204_lloydsbankinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LLOYDS BANKING GROUP,英国劳埃德银行集团,204
+econ_target_00409,r205_deutschebank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DEUTSCHE BANK,德意志银行,205
+econ_target_00410,r205_deutschebank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DEUTSCHE BANK,德意志银行,205
+econ_target_00411,r206_chinavanke,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA VANKE,万科企业股份有限公司,206
+econ_target_00412,r206_chinavanke,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA VANKE,万科企业股份有限公司,206
+econ_target_00413,r207_hca医疗保健公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HCA Healthcare,HCA 医疗保健,207
+econ_target_00414,r207_hca医疗保健公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HCA Healthcare,HCA 医疗保健,207
+econ_target_00415,r208_sumitomomitsuifinancialgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SUMITOMO MITSUI FINANCIAL GROUP,日本三井住友金融集团,208
+econ_target_00416,r208_sumitomomitsuifinancialgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SUMITOMO MITSUI FINANCIAL GROUP,日本三井住友金融集团,208
+econ_target_00417,r209_lg电子,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LG Electronics,LG电子,209
+econ_target_00418,r209_lg电子,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LG Electronics,LG电子,209
+econ_target_00419,r210_unilever,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,UNILEVER,联合利华,210
+econ_target_00420,r210_unilever,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,UNILEVER,联合利华,210
+econ_target_00421,r211_accenture,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ACCENTURE,埃森哲,211
+econ_target_00422,r211_accenture,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ACCENTURE,埃森哲,211
+econ_target_00423,r212_barclays,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BARCLAYS,巴克莱,212
+econ_target_00424,r212_barclays,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BARCLAYS,巴克莱,212
+econ_target_00425,r213_jinnengholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JINNENG HOLDING GROUP,晋能控股集团有限公司,213
+econ_target_00426,r213_jinnengholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JINNENG HOLDING GROUP,晋能控股集团有限公司,213
+econ_target_00427,r214_aluminumcorpofchina,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ALUMINUM CORP. OF CHINA,中国铝业集团有限公司,214
+econ_target_00428,r214_aluminumcorpofchina,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ALUMINUM CORP. OF CHINA,中国铝业集团有限公司,214
+econ_target_00429,r215_munichregroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MUNICH RE GROUP,慕尼黑再保险集团,215
+econ_target_00430,r215_munichregroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MUNICH RE GROUP,慕尼黑再保险集团,215
+econ_target_00431,r216_sberbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SBERBANK,俄罗斯联邦储蓄银行,216
+econ_target_00432,r216_sberbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SBERBANK,俄罗斯联邦储蓄银行,216
+econ_target_00433,r217_bancodobrasil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANCO DO BRASIL,巴西银行,217
+econ_target_00434,r217_bancodobrasil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANCO DO BRASIL,巴西银行,217
+econ_target_00435,r218_progressive,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PROGRESSIVE,前进保险公司,218
+econ_target_00436,r218_progressive,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PROGRESSIVE,前进保险公司,218
+econ_target_00437,r219_internationalbusinessmachines,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,INTERNATIONAL BUSINESS MACHINES,国际商业机器公司,219
+econ_target_00438,r219_internationalbusinessmachines,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,INTERNATIONAL BUSINESS MACHINES,国际商业机器公司,219
+econ_target_00439,r220_nipponsteelcorporation,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NIPPON STEEL CORPORATION,日本制铁集团公司,220
+econ_target_00440,r220_nipponsteelcorporation,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NIPPON STEEL CORPORATION,日本制铁集团公司,220
+econ_target_00441,r221_deere,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DEERE,迪尔公司,221
+econ_target_00442,r221_deere,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DEERE,迪尔公司,221
+econ_target_00443,r222_nvidia,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NVIDIA,英伟达公司,222
+econ_target_00444,r222_nvidia,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NVIDIA,英伟达公司,222
+econ_target_00445,r223_stonex集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,StoneX,StoneX,223
+econ_target_00446,r223_stonex集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,StoneX,StoneX,223
+econ_target_00447,r224_zurichinsurancegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ZURICH INSURANCE GROUP,苏黎世保险集团,224
+econ_target_00448,r224_zurichinsurancegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ZURICH INSURANCE GROUP,苏黎世保险集团,224
+econ_target_00449,r225_bouygues,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BOUYGUES,法国布伊格集团,225
+econ_target_00450,r225_bouygues,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BOUYGUES,法国布伊格集团,225
+econ_target_00451,r226_mizuhofinancialgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MIZUHO FINANCIAL GROUP,日本瑞穗金融集团,226
+econ_target_00452,r226_mizuhofinancialgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MIZUHO FINANCIAL GROUP,日本瑞穗金融集团,226
+econ_target_00453,r227_daimlertruckholding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DAIMLER TRUCK HOLDING,戴姆勒卡车控股股份公司,227
+econ_target_00454,r227_daimlertruckholding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DAIMLER TRUCK HOLDING,戴姆勒卡车控股股份公司,227
+econ_target_00455,r228_inggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ING GROUP,荷兰国际集团,228
+econ_target_00456,r228_inggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ING GROUP,荷兰国际集团,228
+econ_target_00457,r229_merck,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MERCK,默沙东,229
+econ_target_00458,r229_merck,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MERCK,默沙东,229
+econ_target_00459,r230_bungeglobal,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BUNGE GLOBAL,邦吉公司,230
+econ_target_00460,r230_bungeglobal,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BUNGE GLOBAL,邦吉公司,230
+econ_target_00461,r231_anheuserbuschinbev,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ANHEUSER-BUSCH INBEV,百威英博,231
+econ_target_00462,r231_anheuserbuschinbev,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ANHEUSER-BUSCH INBEV,百威英博,231
+econ_target_00463,r232_industrialbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,INDUSTRIAL BANK,兴业银行股份有限公司,232
+econ_target_00464,r232_industrialbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,INDUSTRIAL BANK,兴业银行股份有限公司,232
+econ_target_00465,r233_poscoholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,POSCO HOLDINGS,浦项制铁控股公司,233
+econ_target_00466,r233_poscoholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,POSCO HOLDINGS,浦项制铁控股公司,233
+econ_target_00467,r234_panasonicholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PANASONIC HOLDINGS,松下控股公司,234
+econ_target_00468,r234_panasonicholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PANASONIC HOLDINGS,松下控股公司,234
+econ_target_00469,r235_conocophillips,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CONOCOPHILLIPS,康菲石油公司,235
+econ_target_00470,r235_conocophillips,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CONOCOPHILLIPS,康菲石油公司,235
+econ_target_00471,r236_pfizer,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PFIZER,辉瑞制药有限公司,236
+econ_target_00472,r236_pfizer,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PFIZER,辉瑞制药有限公司,236
+econ_target_00473,r237_deltaairlines,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DELTA AIR LINES,达美航空,237
+econ_target_00474,r237_deltaairlines,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DELTA AIR LINES,达美航空,237
+econ_target_00475,r238_chinahuanenggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA HUANENG GROUP,中国华能集团有限公司,238
+econ_target_00476,r238_chinahuanenggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA HUANENG GROUP,中国华能集团有限公司,238
+econ_target_00477,r239_chinaenergyengineeringgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA ENERGY ENGINEERING GROUP,中国能源建设集团有限公司,239
+econ_target_00478,r239_chinaenergyengineeringgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA ENERGY ENGINEERING GROUP,中国能源建设集团有限公司,239
+econ_target_00479,r240_dongfengmotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DONGFENG MOTOR,东风汽车集团有限公司,240
+econ_target_00480,r240_dongfengmotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DONGFENG MOTOR,东风汽车集团有限公司,240
+econ_target_00481,r241_tdsynnex公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TD Synnex,TD Synnex,241
+econ_target_00482,r241_tdsynnex公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TD Synnex,TD Synnex,241
+econ_target_00483,r242_publixsupermarkets,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PUBLIX SUPER MARKETS,大众超级市场公司,242
+econ_target_00484,r242_publixsupermarkets,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PUBLIX SUPER MARKETS,大众超级市场公司,242
+econ_target_00485,r243_zhejianghengyigroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG HENGYI GROUP,浙江恒逸集团有限公司,243
+econ_target_00486,r243_zhejianghengyigroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG HENGYI GROUP,浙江恒逸集团有限公司,243
+econ_target_00487,r244_allstate,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ALLSTATE,好事达,244
+econ_target_00488,r244_allstate,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ALLSTATE,好事达,244
+econ_target_00489,r245_assicurazionigenerali,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ASSICURAZIONI GENERALI,意大利忠利保险公司,245
+econ_target_00490,r245_assicurazionigenerali,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ASSICURAZIONI GENERALI,意大利忠利保险公司,245
+econ_target_00491,r246_ciscosystems,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CISCO SYSTEMS,思科公司,246
+econ_target_00492,r246_ciscosystems,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CISCO SYSTEMS,思科公司,246
+econ_target_00493,r247_repsol,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,REPSOL,雷普索尔公司,247
+econ_target_00494,r247_repsol,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,REPSOL,雷普索尔公司,247
+econ_target_00495,r248_lenovogroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LENOVO GROUP,联想集团有限公司,248
+econ_target_00496,r248_lenovogroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LENOVO GROUP,联想集团有限公司,248
+econ_target_00497,r249_hbisgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HBIS GROUP,河钢集团有限公司,249
+econ_target_00498,r249_hbisgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HBIS GROUP,河钢集团有限公司,249
+econ_target_00499,r250_contemporaryamperextechnology,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CONTEMPORARY AMPEREX TECHNOLOGY,宁德时代新能源科技股份有限公司,250
+econ_target_00500,r250_contemporaryamperextechnology,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CONTEMPORARY AMPEREX TECHNOLOGY,宁德时代新能源科技股份有限公司,250
+econ_target_00501,r251_renault,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,RENAULT,雷诺,251
+econ_target_00502,r251_renault,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,RENAULT,雷诺,251
+econ_target_00503,r252_bancobradesco,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANCO BRADESCO,巴西布拉德斯科银行,252
+econ_target_00504,r252_bancobradesco,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANCO BRADESCO,巴西布拉德斯科银行,252
+econ_target_00505,r253_chinaelectronicstechnologygroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA ELECTRONICS TECHNOLOGY GROUP,中国电子科技集团有限公司,253
+econ_target_00506,r253_chinaelectronicstechnologygroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA ELECTRONICS TECHNOLOGY GROUP,中国电子科技集团有限公司,253
+econ_target_00507,r254_nationwide,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NATIONWIDE,美国全国保险公司,254
+econ_target_00508,r254_nationwide,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NATIONWIDE,美国全国保险公司,254
+econ_target_00509,r255_chartercommunications,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHARTER COMMUNICATIONS,特许通讯公司,255
+econ_target_00510,r255_chartercommunications,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHARTER COMMUNICATIONS,特许通讯公司,255
+econ_target_00511,r256_statepowerinvestment,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,STATE POWER INVESTMENT,国家电力投资集团有限公司,256
+econ_target_00512,r256_statepowerinvestment,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,STATE POWER INVESTMENT,国家电力投资集团有限公司,256
+econ_target_00513,r257_edekazentrale,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,EDEKA ZENTRALE,德国艾德卡公司,257
+econ_target_00514,r257_edekazentrale,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,EDEKA ZENTRALE,德国艾德卡公司,257
+econ_target_00515,r258_bharatpetroleum,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BHARAT PETROLEUM,巴拉特石油公司,258
+econ_target_00516,r258_bharatpetroleum,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BHARAT PETROLEUM,巴拉特石油公司,258
+econ_target_00517,r259_abbvie,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ABBVIE,艾伯维,259
+econ_target_00518,r259_abbvie,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ABBVIE,艾伯维,259
+econ_target_00519,r260_newyorklifeinsurance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NEW YORK LIFE INSURANCE,美国纽约人寿保险公司,260
+econ_target_00520,r260_newyorklifeinsurance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NEW YORK LIFE INSURANCE,美国纽约人寿保险公司,260
+econ_target_00521,r261_intel,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,INTEL,英特尔公司,261
+econ_target_00522,r261_intel,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,INTEL,英特尔公司,261
+econ_target_00523,r262_tjx公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TJX,TJX,262
+econ_target_00524,r262_tjx公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TJX,TJX,262
+econ_target_00525,r263_novartis,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NOVARTIS,诺华公司,263
+econ_target_00526,r263_novartis,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NOVARTIS,诺华公司,263
+econ_target_00527,r264_riotintogroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,RIO TINTO GROUP,力拓集团,264
+econ_target_00528,r264_riotintogroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,RIO TINTO GROUP,力拓集团,264
+econ_target_00529,r265_tsingshanholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TSINGSHAN HOLDING GROUP,青山控股集团有限公司,265
+econ_target_00530,r265_tsingshanholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TSINGSHAN HOLDING GROUP,青山控股集团有限公司,265
+econ_target_00531,r266_prudentialfinancial,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PRUDENTIAL FINANCIAL,保德信金融集团,266
+econ_target_00532,r266_prudentialfinancial,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PRUDENTIAL FINANCIAL,保德信金融集团,266
+econ_target_00533,r267_coscoshipping,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,COSCO SHIPPING,中国远洋海运集团有限公司,267
+econ_target_00534,r267_coscoshipping,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,COSCO SHIPPING,中国远洋海运集团有限公司,267
+econ_target_00535,r268_bhpgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BHP GROUP,必和必拓集团,268
+econ_target_00536,r268_bhpgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BHP GROUP,必和必拓集团,268
+econ_target_00537,r269_hp,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HP,惠普公司,269
+econ_target_00538,r269_hp,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HP,惠普公司,269
+econ_target_00539,r270_unitedairlinesholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,UNITED AIRLINES HOLDINGS,联合航空控股公司,270
+econ_target_00540,r270_unitedairlinesholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,UNITED AIRLINES HOLDINGS,联合航空控股公司,270
+econ_target_00541,r271_tatamotors,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TATA MOTORS,印度塔塔汽车公司,271
+econ_target_00542,r271_tatamotors,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TATA MOTORS,印度塔塔汽车公司,271
+econ_target_00543,r272_performancefoodgroup公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Performance Food Group,Performance Food Group,272
+econ_target_00544,r272_performancefoodgroup公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Performance Food Group,Performance Food Group,272
+econ_target_00545,r273_iberdrola公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Iberdrola,Iberdrola,273
+econ_target_00546,r273_iberdrola公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Iberdrola,Iberdrola,273
+econ_target_00547,r274_deutschebahn,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DEUTSCHE BAHN,德国联邦铁路公司,274
+econ_target_00548,r274_deutschebahn,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DEUTSCHE BAHN,德国联邦铁路公司,274
+econ_target_00549,r275_idemitsukosan,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,IDEMITSU KOSAN,日本出光兴产株式会社,275
+econ_target_00550,r275_idemitsukosan,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,IDEMITSU KOSAN,日本出光兴产株式会社,275
+econ_target_00551,r276_tysonfoods,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TYSON FOODS,泰森食品,276
+econ_target_00552,r276_tysonfoods,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TYSON FOODS,泰森食品,276
+econ_target_00553,r277_mideagroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MIDEA GROUP,美的集团股份有限公司,277
+econ_target_00554,r277_mideagroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MIDEA GROUP,美的集团股份有限公司,277
+econ_target_00555,r278_americanairlinesgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AMERICAN AIRLINES GROUP,美国航空集团,278
+econ_target_00556,r278_americanairlinesgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AMERICAN AIRLINES GROUP,美国航空集团,278
+econ_target_00557,r279_chinaunitednetworkcommunications,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA UNITED NETWORK COMMUNICATIONS,中国联合网络通信股份有限公司,279
+econ_target_00558,r279_chinaunitednetworkcommunications,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA UNITED NETWORK COMMUNICATIONS,中国联合网络通信股份有限公司,279
+econ_target_00559,r280_libertymutualinsurancegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LIBERTY MUTUAL INSURANCE GROUP,美国利宝互助保险集团,280
+econ_target_00560,r280_libertymutualinsurancegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LIBERTY MUTUAL INSURANCE GROUP,美国利宝互助保险集团,280
+econ_target_00561,r281_bankofnovascotia,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANK OF NOVA SCOTIA,加拿大丰业银行,281
+econ_target_00562,r281_bankofnovascotia,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANK OF NOVA SCOTIA,加拿大丰业银行,281
+econ_target_00563,r282_volvo,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VOLVO,沃尔沃集团,282
+econ_target_00564,r282_volvo,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VOLVO,沃尔沃集团,282
+econ_target_00565,r283_intesasanpaolo,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,INTESA SANPAOLO,意大利联合圣保罗银行,283
+econ_target_00566,r283_intesasanpaolo,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,INTESA SANPAOLO,意大利联合圣保罗银行,283
+econ_target_00567,r284_saintgobain,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SAINT-GOBAIN,圣戈班集团,284
+econ_target_00568,r284_saintgobain,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SAINT-GOBAIN,圣戈班集团,284
+econ_target_00569,r285_shaanxiyanchangpetroleumgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHAANXI YANCHANG PETROLEUM (GROUP),陕西延长石油（集团）有限责任公司,285
+econ_target_00570,r285_shaanxiyanchangpetroleumgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHAANXI YANCHANG PETROLEUM (GROUP),陕西延长石油（集团）有限责任公司,285
+econ_target_00571,r286_bayer,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BAYER,拜耳集团,286
+econ_target_00572,r286_bayer,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BAYER,拜耳集团,286
+econ_target_00573,r287_tokiomarineholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TOKIO MARINE HOLDINGS,东京海上日动火灾保险公司,287
+econ_target_00574,r287_tokiomarineholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TOKIO MARINE HOLDINGS,东京海上日动火灾保险公司,287
+econ_target_00575,r288_nike,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NIKE,耐克公司,288
+econ_target_00576,r288_nike,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NIKE,耐克公司,288
+econ_target_00577,r289_maerskgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MAERSK GROUP,马士基集团,289
+econ_target_00578,r289_maerskgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MAERSK GROUP,马士基集团,289
+econ_target_00579,r290_phoenixpharma,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PHOENIX PHARMA,菲尼克斯医药公司,290
+econ_target_00580,r290_phoenixpharma,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PHOENIX PHARMA,菲尼克斯医药公司,290
+econ_target_00581,r291_greenlandholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GREENLAND HOLDING GROUP,绿地控股集团股份有限公司,291
+econ_target_00582,r291_greenlandholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GREENLAND HOLDING GROUP,绿地控股集团股份有限公司,291
+econ_target_00583,r292_shanghaipudongdevelopmentbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI PUDONG DEVELOPMENT BANK,上海浦东发展银行股份有限公司,292
+econ_target_00584,r292_shanghaipudongdevelopmentbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI PUDONG DEVELOPMENT BANK,上海浦东发展银行股份有限公司,292
+econ_target_00585,r293_louisdreyfus,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LOUIS DREYFUS,路易达孚集团,293
+econ_target_00586,r293_louisdreyfus,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LOUIS DREYFUS,路易达孚集团,293
+econ_target_00587,r294_bankofmontreal,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANK OF MONTREAL,蒙特利尔银行,294
+econ_target_00588,r294_bankofmontreal,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANK OF MONTREAL,蒙特利尔银行,294
+econ_target_00589,r295_zffriedrichshafen,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ZF FRIEDRICHSHAFEN,采埃孚,295
+econ_target_00590,r295_zffriedrichshafen,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ZF FRIEDRICHSHAFEN,采埃孚,295
+econ_target_00591,r296_kb金融集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,KB金融集团,KB金融集团,296
+econ_target_00592,r296_kb金融集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,KB金融集团,KB金融集团,296
+econ_target_00593,r297_sanofi,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SANOFI,赛诺菲,297
+econ_target_00594,r297_sanofi,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SANOFI,赛诺菲,297
+econ_target_00595,r298_marubeni,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MARUBENI,丸红株式会社,298
+econ_target_00596,r298_marubeni,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MARUBENI,丸红株式会社,298
+econ_target_00597,r299_oracle,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ORACLE,甲骨文公司,299
+econ_target_00598,r299_oracle,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ORACLE,甲骨文公司,299
+econ_target_00599,r300_jinchuangroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JINCHUAN GROUP,金川集团股份有限公司,300
+econ_target_00600,r300_jinchuangroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JINCHUAN GROUP,金川集团股份有限公司,300
+econ_target_00601,r301_swissre,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SWISS RE,瑞士再保险股份有限公司,301
+econ_target_00602,r301_swissre,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SWISS RE,瑞士再保险股份有限公司,301
+econ_target_00603,r302_chubb,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHUBB,安达保险公司,302
+econ_target_00604,r302_chubb,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHUBB,安达保险公司,302
+econ_target_00605,r303_enterpriseproductspartners公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Enterprise Products Partners公司,Enterprise Products Partners公司,303
+econ_target_00606,r303_enterpriseproductspartners公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Enterprise Products Partners公司,Enterprise Products Partners公司,303
+econ_target_00607,r304_capitalonefinancial,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CAPITAL ONE FINANCIAL,第一资本金融公司,304
+econ_target_00608,r304_capitalonefinancial,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CAPITAL ONE FINANCIAL,第一资本金融公司,304
+econ_target_00609,r305_denso,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DENSO,电装公司,305
+econ_target_00610,r305_denso,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DENSO,电装公司,305
+econ_target_00611,r306_hdfc银行,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HDFC银行,HDFC银行,306
+econ_target_00612,r306_hdfc银行,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HDFC银行,HDFC银行,306
+econ_target_00613,r307_chinanationalbuildingmaterialgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL BUILDING MATERIAL GROUP,中国建材集团有限公司,307
+econ_target_00614,r307_chinanationalbuildingmaterialgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL BUILDING MATERIAL GROUP,中国建材集团有限公司,307
+econ_target_00615,r308_veoliaenvironnement,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VEOLIA ENVIRONNEMENT,法国威立雅环境集团,308
+econ_target_00616,r308_veoliaenvironnement,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VEOLIA ENVIRONNEMENT,法国威立雅环境集团,308
+econ_target_00617,r309_chinastateshipbuilding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA STATE SHIPBUILDING,中国船舶集团有限公司,309
+econ_target_00618,r309_chinastateshipbuilding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA STATE SHIPBUILDING,中国船舶集团有限公司,309
+econ_target_00619,r310_vodafonegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VODAFONE GROUP,沃达丰集团,310
+econ_target_00620,r310_vodafonegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VODAFONE GROUP,沃达丰集团,310
+econ_target_00621,r311_plainsgpholdings公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Plains GP Holdings,Plains GP Holdings,311
+econ_target_00622,r311_plainsgpholdings公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Plains GP Holdings,Plains GP Holdings,311
+econ_target_00623,r312_landesbankbadenwürttemberg,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LANDESBANK BADEN-WÜRTTEMBERG,德国巴登-符腾堡州银行,312
+econ_target_00624,r312_landesbankbadenwürttemberg,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LANDESBANK BADEN-WÜRTTEMBERG,德国巴登-符腾堡州银行,312
+econ_target_00625,r313_exor集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,EXOR,EXOR,313
+econ_target_00626,r313_exor集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,EXOR,EXOR,313
+econ_target_00627,r314_jingyegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JINGYE GROUP,敬业集团有限公司,314
+econ_target_00628,r314_jingyegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JINGYE GROUP,敬业集团有限公司,314
+econ_target_00629,r315_unicreditgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,UNICREDIT GROUP,联合信贷集团,315
+econ_target_00630,r315_unicreditgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,UNICREDIT GROUP,联合信贷集团,315
+econ_target_00631,r316_energiebadenwürttemberg,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ENERGIE BADEN-WÜRTTEMBERG,巴登-符腾堡州能源公司,316
+econ_target_00632,r316_energiebadenwürttemberg,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ENERGIE BADEN-WÜRTTEMBERG,巴登-符腾堡州能源公司,316
+econ_target_00633,r317_tokyoelectricpower,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TOKYO ELECTRIC POWER,东京电力公司,317
+econ_target_00634,r317_tokyoelectricpower,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TOKYO ELECTRIC POWER,东京电力公司,317
+econ_target_00635,r318_sumitomo,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SUMITOMO,住友商事,318
+econ_target_00636,r318_sumitomo,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SUMITOMO,住友商事,318
+econ_target_00637,r319_worldkinect公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,World Kinect,World Kinect,319
+econ_target_00638,r319_worldkinect公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,World Kinect,World Kinect,319
+econ_target_00639,r320_orange公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Orange,Orange,320
+econ_target_00640,r320_orange公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Orange,Orange,320
+econ_target_00641,r321_hd现代公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HD现代公司,HD现代公司,321
+econ_target_00642,r321_hd现代公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HD现代公司,HD现代公司,321
+econ_target_00643,r322_ingkagroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,INGKA GROUP,英格卡集团,322
+econ_target_00644,r322_ingkagroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,INGKA GROUP,英格卡集团,322
+econ_target_00645,r323_anzgroupholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ANZ GROUP HOLDINGS,澳新银行集团,323
+econ_target_00646,r323_anzgroupholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ANZ GROUP HOLDINGS,澳新银行集团,323
+econ_target_00647,r324_americaninternationalgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AMERICAN INTERNATIONAL GROUP,美国国际集团,324
+econ_target_00648,r324_americaninternationalgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AMERICAN INTERNATIONAL GROUP,美国国际集团,324
+econ_target_00649,r325_softbankgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SOFTBANK GROUP,软银集团,325
+econ_target_00650,r325_softbankgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SOFTBANK GROUP,软银集团,325
+econ_target_00651,r326_sinomach,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SINOMACH,中国机械工业集团有限公司,326
+econ_target_00652,r326_sinomach,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SINOMACH,中国机械工业集团有限公司,326
+econ_target_00653,r327_talanx公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Talanx,Talanx,327
+econ_target_00654,r327_talanx公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Talanx,Talanx,327
+econ_target_00655,r328_américamóvil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AMÉRICA MÓVIL,美洲电信,328
+econ_target_00656,r328_américamóvil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AMÉRICA MÓVIL,美洲电信,328
+econ_target_00657,r329_astrazeneca,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ASTRAZENECA,阿斯利康,329
+econ_target_00658,r329_astrazeneca,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ASTRAZENECA,阿斯利康,329
+econ_target_00659,r330_zhejiangcommunicationsinvestmentgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG COMMUNICATIONS INVESTMENT GROUP,浙江省交通投资集团有限公司,330
+econ_target_00660,r330_zhejiangcommunicationsinvestmentgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ZHEJIANG COMMUNICATIONS INVESTMENT GROUP,浙江省交通投资集团有限公司,330
+econ_target_00661,r331_chinapacificinsurancegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA PACIFIC INSURANCE (GROUP),中国太平洋保险(集团)股份有限公司,331
+econ_target_00662,r331_chinapacificinsurancegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA PACIFIC INSURANCE (GROUP),中国太平洋保险(集团)股份有限公司,331
+econ_target_00663,r332_cocacola,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,COCA-COLA,可口可乐公司,332
+econ_target_00664,r332_cocacola,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,COCA-COLA,可口可乐公司,332
+econ_target_00665,r333_tiaa,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TIAA,美国教师退休基金会,333
+econ_target_00666,r333_tiaa,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TIAA,美国教师退休基金会,333
+econ_target_00667,r334_caixaeconômicafederal,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CAIXA ECONÔMICA FEDERAL,巴西联邦储蓄银行,334
+econ_target_00668,r334_caixaeconômicafederal,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CAIXA ECONÔMICA FEDERAL,巴西联邦储蓄银行,334
+econ_target_00669,r335_chs公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHS,CHS,335
+econ_target_00670,r335_chs公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHS,CHS,335
+econ_target_00671,r336_chinahuadian,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA HUADIAN,中国华电集团有限公司,336
+econ_target_00672,r336_chinahuadian,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA HUADIAN,中国华电集团有限公司,336
+econ_target_00673,r337_créditmutuelgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CRÉDIT MUTUEL GROUP,法国国民互助信贷银行集团,337
+econ_target_00674,r337_créditmutuelgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CRÉDIT MUTUEL GROUP,法国国民互助信贷银行集团,337
+econ_target_00675,r338_msandad保险集团控股有限公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MS&AD保险集团控股有限公司,MS&AD保险集团控股有限公司,338
+econ_target_00676,r338_msandad保险集团控股有限公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MS&AD保险集团控股有限公司,MS&AD保险集团控股有限公司,338
+econ_target_00677,r339_hyundaimobis,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HYUNDAI MOBIS,现代摩比斯公司,339
+econ_target_00678,r339_hyundaimobis,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HYUNDAI MOBIS,现代摩比斯公司,339
+econ_target_00679,r340_susunconstructiongroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SUSUN CONSTRUCTION GROUP,苏商建设集团有限公司,340
+econ_target_00680,r340_susunconstructiongroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SUSUN CONSTRUCTION GROUP,苏商建设集团有限公司,340
+econ_target_00681,r341_sncfgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SNCF GROUP,法国国营铁路集团,341
+econ_target_00682,r341_sncfgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SNCF GROUP,法国国营铁路集团,341
+econ_target_00683,r342_bristolmyerssquibb,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BRISTOL-MYERS SQUIBB,百时美施贵宝公司,342
+econ_target_00684,r342_bristolmyerssquibb,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BRISTOL-MYERS SQUIBB,百时美施贵宝公司,342
+econ_target_00685,r343_chinasouthindustriesgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA SOUTH INDUSTRIES GROUP,中国兵器装备集团公司,343
+econ_target_00686,r343_chinasouthindustriesgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA SOUTH INDUSTRIES GROUP,中国兵器装备集团公司,343
+econ_target_00687,r344_continental,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CONTINENTAL,德国大陆集团,344
+econ_target_00688,r344_continental,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CONTINENTAL,德国大陆集团,344
+econ_target_00689,r345_raízen公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Raízen,Raízen,345
+econ_target_00690,r345_raízen公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Raízen,Raízen,345
+econ_target_00691,r346_dow,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DOW,陶氏公司,346
+econ_target_00692,r346_dow,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DOW,陶氏公司,346
+econ_target_00693,r347_georgeweston,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GEORGE WESTON,乔治威斯顿公司,347
+econ_target_00694,r347_georgeweston,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GEORGE WESTON,乔治威斯顿公司,347
+econ_target_00695,r348_loréal,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,L'ORÉAL,欧莱雅,348
+econ_target_00696,r348_loréal,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,L'ORÉAL,欧莱雅,348
+econ_target_00697,r349_fomentoeconómicomexicano公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Fomento Económico Mexicano,Fomento Económico Mexicano,349
+econ_target_00698,r349_fomentoeconómicomexicano公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Fomento Económico Mexicano,Fomento Económico Mexicano,349
+econ_target_00699,r350_telefónica,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TELEFÓNICA,西班牙电话公司,350
+econ_target_00700,r350_telefónica,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TELEFÓNICA,西班牙电话公司,350
+econ_target_00701,r351_chinaminshengbanking,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA MINSHENG BANKING,中国民生银行股份有限公司,351
+econ_target_00702,r351_chinaminshengbanking,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA MINSHENG BANKING,中国民生银行股份有限公司,351
+econ_target_00703,r352_bestbuy,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BEST BUY,百思买,352
+econ_target_00704,r352_bestbuy,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BEST BUY,百思买,352
+econ_target_00705,r353_woolworthsgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WOOLWORTHS GROUP,伍尔沃斯集团,353
+econ_target_00706,r353_woolworthsgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WOOLWORTHS GROUP,伍尔沃斯集团,353
+econ_target_00707,r354_shanghaiconstructiongroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI CONSTRUCTION GROUP,上海建工集团股份有限公司,354
+econ_target_00708,r354_shanghaiconstructiongroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI CONSTRUCTION GROUP,上海建工集团股份有限公司,354
+econ_target_00709,r355_lg化学公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LG化学公司,LG化学公司,355
+econ_target_00710,r355_lg化学公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LG化学公司,LG化学公司,355
+econ_target_00711,r356_thermofisherscientific,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,THERMO FISHER SCIENTIFIC,赛默飞世尔科技公司,356
+econ_target_00712,r356_thermofisherscientific,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,THERMO FISHER SCIENTIFIC,赛默飞世尔科技公司,356
+econ_target_00713,r357_magnainternational,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MAGNA INTERNATIONAL,麦格纳国际,357
+econ_target_00714,r357_magnainternational,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MAGNA INTERNATIONAL,麦格纳国际,357
+econ_target_00715,r358_omvgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,OMV GROUP,奥地利石油天然气集团,358
+econ_target_00716,r358_omvgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,OMV GROUP,奥地利石油天然气集团,358
+econ_target_00717,r359_massachusettsmutuallifeinsurance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MASSACHUSETTS MUTUAL LIFE INSURANCE,万通互惠理财公司,359
+econ_target_00718,r359_massachusettsmutuallifeinsurance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MASSACHUSETTS MUTUAL LIFE INSURANCE,万通互惠理财公司,359
+econ_target_00719,r360_unitedservicesautomobileassn,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,UNITED SERVICES AUTOMOBILE ASSN.,联合服务汽车协会,360
+econ_target_00720,r360_unitedservicesautomobileassn,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,UNITED SERVICES AUTOMOBILE ASSN.,联合服务汽车协会,360
+econ_target_00721,r361_guangzhoumunicipalconstructiongroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU MUNICIPAL CONSTRUCTION GROUP,广州市建筑集团有限公司,361
+econ_target_00722,r361_guangzhoumunicipalconstructiongroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU MUNICIPAL CONSTRUCTION GROUP,广州市建筑集团有限公司,361
+econ_target_00723,r362_generaldynamics,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GENERAL DYNAMICS,通用动力,362
+econ_target_00724,r362_generaldynamics,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GENERAL DYNAMICS,通用动力,362
+econ_target_00725,r363_vale,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VALE,巴西淡水河谷公司,363
+econ_target_00726,r363_vale,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VALE,巴西淡水河谷公司,363
+econ_target_00727,r364_zijinmininggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ZIJIN MINING GROUP,紫金矿业集团股份有限公司,364
+econ_target_00728,r364_zijinmininggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ZIJIN MINING GROUP,紫金矿业集团股份有限公司,364
+econ_target_00729,r365_travelers公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Travelers,Travelers,365
+econ_target_00730,r365_travelers公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Travelers,Travelers,365
+econ_target_00731,r366_warnerbrosdiscovery,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,WARNER BROS. DISCOVERY,华纳兄弟探索公司,366
+econ_target_00732,r366_warnerbrosdiscovery,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,WARNER BROS. DISCOVERY,华纳兄弟探索公司,366
+econ_target_00733,r367_canadianimperialbankofcommerce,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CANADIAN IMPERIAL BANK OF COMMERCE,加拿大帝国商业银行,367
+econ_target_00734,r367_canadianimperialbankofcommerce,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CANADIAN IMPERIAL BANK OF COMMERCE,加拿大帝国商业银行,367
+econ_target_00735,r368_lyondellbasellindustries,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LYONDELLBASELL INDUSTRIES,利安德巴塞尔工业公司,368
+econ_target_00736,r368_lyondellbasellindustries,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LYONDELLBASELL INDUSTRIES,利安德巴塞尔工业公司,368
+econ_target_00737,r369_jsainsbury,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,J. SAINSBURY,森宝利公司,369
+econ_target_00738,r369_jsainsbury,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,J. SAINSBURY,森宝利公司,369
+econ_target_00739,r370_shenzheninvestmentholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHENZHEN INVESTMENT HOLDINGS,深圳市投资控股有限公司,370
+econ_target_00740,r370_shenzheninvestmentholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHENZHEN INVESTMENT HOLDINGS,深圳市投资控股有限公司,370
+econ_target_00741,r371_ansteelgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ANSTEEL GROUP,鞍钢集团有限公司,371
+econ_target_00742,r371_ansteelgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ANSTEEL GROUP,鞍钢集团有限公司,371
+econ_target_00743,r372_hanwha,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HANWHA,韩华集团,372
+econ_target_00744,r372_hanwha,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HANWHA,韩华集团,372
+econ_target_00745,r373_usbancorp,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,U.S. BANCORP,美国合众银行,373
+econ_target_00746,r373_usbancorp,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,U.S. BANCORP,美国合众银行,373
+econ_target_00747,r374_lufthansagroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LUFTHANSA GROUP,汉莎集团,374
+econ_target_00748,r374_lufthansagroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LUFTHANSA GROUP,汉莎集团,374
+econ_target_00749,r375_pegatron,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PEGATRON,和硕,375
+econ_target_00750,r375_pegatron,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PEGATRON,和硕,375
+econ_target_00751,r376_abbottlaboratories,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ABBOTT LABORATORIES,雅培公司,376
+econ_target_00752,r376_abbottlaboratories,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ABBOTT LABORATORIES,雅培公司,376
+econ_target_00753,r377_thyssenkrupp,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,THYSSENKRUPP,蒂森克虏伯,377
+econ_target_00754,r377_thyssenkrupp,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,THYSSENKRUPP,蒂森克虏伯,377
+econ_target_00755,r378_newhopeholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NEW HOPE HOLDING GROUP,新希望控股集团有限公司,378
+econ_target_00756,r378_newhopeholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NEW HOPE HOLDING GROUP,新希望控股集团有限公司,378
+econ_target_00757,r379_日本kddi电信公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,KDDI,日本KDDI电信,379
+econ_target_00758,r379_日本kddi电信公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,KDDI,日本KDDI电信,379
+econ_target_00759,r380_chinanationalnuclear,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL NUCLEAR,中国核工业集团有限公司,380
+econ_target_00760,r380_chinanationalnuclear,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL NUCLEAR,中国核工业集团有限公司,380
+econ_target_00761,r381_taikanginsurancegroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TAIKANG INSURANCE GROUP,泰康保险集团股份有限公司,381
+econ_target_00762,r381_taikanginsurancegroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TAIKANG INSURANCE GROUP,泰康保险集团股份有限公司,381
+econ_target_00763,r382_northropgrumman,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NORTHROP GRUMMAN,美国诺斯洛普格拉曼公司,382
+econ_target_00764,r382_northropgrumman,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NORTHROP GRUMMAN,美国诺斯洛普格拉曼公司,382
+econ_target_00765,r383_jiangsushaganggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JIANGSU SHAGANG GROUP,江苏沙钢集团有限公司,383
+econ_target_00766,r383_jiangsushaganggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JIANGSU SHAGANG GROUP,江苏沙钢集团有限公司,383
+econ_target_00767,r384_meituan,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MEITUAN,美团,384
+econ_target_00768,r384_meituan,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MEITUAN,美团,384
+econ_target_00769,r385_cheryholdinggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHERY HOLDING GROUP,奇瑞控股集团有限公司,385
+econ_target_00770,r385_cheryholdinggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHERY HOLDING GROUP,奇瑞控股集团有限公司,385
+econ_target_00771,r386_inditex公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Inditex,Inditex,386
+econ_target_00772,r386_inditex公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Inditex,Inditex,386
+econ_target_00773,r387_schneiderelectric,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SCHNEIDER ELECTRIC,施耐德电气,387
+econ_target_00774,r387_schneiderelectric,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SCHNEIDER ELECTRIC,施耐德电气,387
+econ_target_00775,r388_northwesternmutual,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NORTHWESTERN MUTUAL,西北互助人寿保险公司,388
+econ_target_00776,r388_northwesternmutual,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NORTHWESTERN MUTUAL,西北互助人寿保险公司,388
+econ_target_00777,r389_dollargeneral公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Dollar General公司,Dollar General公司,389
+econ_target_00778,r389_dollargeneral公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Dollar General公司,Dollar General公司,389
+econ_target_00779,r390_cenovusenergy公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Cenovus Energy公司,Cenovus Energy公司,390
+econ_target_00780,r390_cenovusenergy公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Cenovus Energy公司,Cenovus Energy公司,390
+econ_target_00781,r391_西班牙acs集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ACS Group,西班牙ACS,391
+econ_target_00782,r391_西班牙acs集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ACS Group,西班牙ACS,391
+econ_target_00783,r392_coop集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Coop,Coop,392
+econ_target_00784,r392_coop集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Coop,Coop,392
+econ_target_00785,r393_fairfaxfinancialholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,FAIRFAX FINANCIAL HOLDINGS,加拿大枫信金融控股公司,393
+econ_target_00786,r393_fairfaxfinancialholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,FAIRFAX FINANCIAL HOLDINGS,加拿大枫信金融控股公司,393
+econ_target_00787,r394_guangzhouindustrialinvestmentholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU INDUSTRIAL INVESTMENT HOLDINGS,广州工业投资控股集团有限公司,394
+econ_target_00788,r394_guangzhouindustrialinvestmentholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU INDUSTRIAL INVESTMENT HOLDINGS,广州工业投资控股集团有限公司,394
+econ_target_00789,r395_pbfenergy公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PBF Energy,PBF Energy,395
+econ_target_00790,r395_pbfenergy公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PBF Energy,PBF Energy,395
+econ_target_00791,r396_standardchartered,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,STANDARD CHARTERED,渣打银行,396
+econ_target_00792,r396_standardchartered,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,STANDARD CHARTERED,渣打银行,396
+econ_target_00793,r397_xiaomi,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,XIAOMI,小米集团,397
+econ_target_00794,r397_xiaomi,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,XIAOMI,小米集团,397
+econ_target_00795,r398_compassgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,COMPASS GROUP,康帕斯集团,398
+econ_target_00796,r398_compassgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,COMPASS GROUP,康帕斯集团,398
+econ_target_00797,r399_meijiyasudalifeinsurance,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MEIJI YASUDA LIFE INSURANCE,日本明治安田生命保险公司,399
+econ_target_00798,r399_meijiyasudalifeinsurance,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MEIJI YASUDA LIFE INSURANCE,日本明治安田生命保险公司,399
+econ_target_00799,r400_gsk,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GSK,葛兰素史克集团,400
+econ_target_00800,r400_gsk,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GSK,葛兰素史克集团,400
+econ_target_00801,r401_suncorenergy,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SUNCOR ENERGY,森科能源公司,401
+econ_target_00802,r401_suncorenergy,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SUNCOR ENERGY,森科能源公司,401
+econ_target_00803,r402_hangzhouindustrialinvestmentgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HANGZHOU INDUSTRIAL INVESTMENT GROUP,杭州市实业投资集团有限公司,402
+econ_target_00804,r402_hangzhouindustrialinvestmentgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HANGZHOU INDUSTRIAL INVESTMENT GROUP,杭州市实业投资集团有限公司,402
+econ_target_00805,r403_ubertechnologies公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Uber Technologies,Uber Technologies,403
+econ_target_00806,r403_ubertechnologies公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Uber Technologies,Uber Technologies,403
+econ_target_00807,r404_dzbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DZ BANK,德国中央合作银行,404
+econ_target_00808,r404_dzbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DZ BANK,德国中央合作银行,404
+econ_target_00809,r405_gs加德士,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GS加德士,GS加德士,405
+econ_target_00810,r405_gs加德士,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GS加德士,GS加德士,405
+econ_target_00811,r406_suzukimotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SUZUKI MOTOR,铃木汽车,406
+econ_target_00812,r406_suzukimotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SUZUKI MOTOR,铃木汽车,406
+econ_target_00813,r407_haiersmarthome,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HAIER SMART HOME,海尔智家股份有限公司,407
+econ_target_00814,r407_haiersmarthome,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HAIER SMART HOME,海尔智家股份有限公司,407
+econ_target_00815,r408_x5零售集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,X5零售集团,X5零售集团,408
+econ_target_00816,r408_x5零售集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,X5零售集团,X5零售集团,408
+econ_target_00817,r409_laposte,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LA POSTE,法国邮政,409
+econ_target_00818,r409_laposte,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LA POSTE,法国邮政,409
+econ_target_00819,r410_hangzhouironandsteelgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HANGZHOU IRON AND STEEL GROUP,杭州钢铁集团有限公司,410
+econ_target_00820,r410_hangzhouironandsteelgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HANGZHOU IRON AND STEEL GROUP,杭州钢铁集团有限公司,410
+econ_target_00821,r411_shanghaipharmaceuticalsholding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI PHARMACEUTICALS HOLDING,上海医药集团股份有限公司,411
+econ_target_00822,r411_shanghaipharmaceuticalsholding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI PHARMACEUTICALS HOLDING,上海医药集团股份有限公司,411
+econ_target_00823,r412_shandonghispeedgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANDONG HI-SPEED GROUP,山东高速集团有限公司,412
+econ_target_00824,r412_shandonghispeedgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANDONG HI-SPEED GROUP,山东高速集团有限公司,412
+econ_target_00825,r413_honeywellinternational,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HONEYWELL INTERNATIONAL,霍尼韦尔国际公司,413
+econ_target_00826,r413_honeywellinternational,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HONEYWELL INTERNATIONAL,霍尼韦尔国际公司,413
+econ_target_00827,r414_guangdongguangxinholdingsgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GUANGDONG GUANGXIN HOLDINGS GROUP,广东省广新控股集团有限公司,414
+econ_target_00828,r414_guangdongguangxinholdingsgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GUANGDONG GUANGXIN HOLDINGS GROUP,广东省广新控股集团有限公司,414
+econ_target_00829,r415_sfholding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,S.F. HOLDING,顺丰控股股份有限公司,415
+econ_target_00830,r415_sfholding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,S.F. HOLDING,顺丰控股股份有限公司,415
+econ_target_00831,r416_mitsubishielectric,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MITSUBISHI ELECTRIC,三菱电机股份有限公司,416
+econ_target_00832,r416_mitsubishielectric,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MITSUBISHI ELECTRIC,三菱电机股份有限公司,416
+econ_target_00833,r417_guangzhoupharmaceuticalholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU PHARMACEUTICAL HOLDINGS,广州医药集团有限公司,417
+econ_target_00834,r417_guangzhoupharmaceuticalholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GUANGZHOU PHARMACEUTICAL HOLDINGS,广州医药集团有限公司,417
+econ_target_00835,r418_chinadatang,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA DATANG,中国大唐集团有限公司,418
+econ_target_00836,r418_chinadatang,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA DATANG,中国大唐集团有限公司,418
+econ_target_00837,r419_mapfregroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MAPFRE GROUP,曼福集团,419
+econ_target_00838,r419_mapfregroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MAPFRE GROUP,曼福集团,419
+econ_target_00839,r420_cfe公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CFE公司,CFE公司,420
+econ_target_00840,r420_cfe公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CFE公司,CFE公司,420
+econ_target_00841,r421_jardinematheson,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JARDINE MATHESON,怡和集团,421
+econ_target_00842,r421_jardinematheson,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JARDINE MATHESON,怡和集团,421
+econ_target_00843,r422_mondelezinternational,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MONDELEZ INTERNATIONAL,亿滋国际,422
+econ_target_00844,r422_mondelezinternational,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MONDELEZ INTERNATIONAL,亿滋国际,422
+econ_target_00845,r423_daiwahouseindustry,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,DAIWA HOUSE INDUSTRY,大和房建,423
+econ_target_00846,r423_daiwahouseindustry,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,DAIWA HOUSE INDUSTRY,大和房建,423
+econ_target_00847,r424_starbucks,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,STARBUCKS,星巴克公司,424
+econ_target_00848,r424_starbucks,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,STARBUCKS,星巴克公司,424
+econ_target_00849,r425_olamgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,OLAM GROUP,新加坡奥兰集团,425
+econ_target_00850,r425_olamgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,OLAM GROUP,新加坡奥兰集团,425
+econ_target_00851,r426_qualcomm,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,QUALCOMM,高通,426
+econ_target_00852,r426_qualcomm,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,QUALCOMM,高通,426
+econ_target_00853,r427_broadcom,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BROADCOM,博通公司,427
+econ_target_00854,r427_broadcom,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BROADCOM,博通公司,427
+econ_target_00855,r428_jfeholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JFE HOLDINGS,日本钢铁工程控股公司,428
+econ_target_00856,r428_jfeholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JFE HOLDINGS,日本钢铁工程控股公司,428
+econ_target_00857,r429_hailianggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HAILIANG GROUP,海亮集团有限公司,429
+econ_target_00858,r429_hailianggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HAILIANG GROUP,海亮集团有限公司,429
+econ_target_00859,r430_usfoodsholding公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,US Foods Holding公司,US Foods Holding公司,430
+econ_target_00860,r430_usfoodsholding公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,US Foods Holding公司,US Foods Holding公司,430
+econ_target_00861,r431_elo集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ELO,ELO,431
+econ_target_00862,r431_elo集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ELO,ELO,431
+econ_target_00863,r432_migros集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Migros集团,Migros集团,432
+econ_target_00864,r432_migros集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Migros集团,Migros集团,432
+econ_target_00865,r433_mercadona公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Mercadona,Mercadona,433
+econ_target_00866,r433_mercadona公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Mercadona,Mercadona,433
+econ_target_00867,r434_drhorton公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,D.R. Horton,D.R. Horton,434
+econ_target_00868,r434_drhorton公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,D.R. Horton,D.R. Horton,434
+econ_target_00869,r435_chinaelectronics,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA ELECTRONICS,中国电子信息产业集团有限公司,435
+econ_target_00870,r435_chinaelectronics,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA ELECTRONICS,中国电子信息产业集团有限公司,435
+econ_target_00871,r436_shudaoinvestmentgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHUDAO INVESTMENT GROUP,蜀道投资集团有限责任公司,436
+econ_target_00872,r436_shudaoinvestmentgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHUDAO INVESTMENT GROUP,蜀道投资集团有限责任公司,436
+econ_target_00873,r437_chinanationalcoalgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL COAL GROUP,中国中煤能源集团有限公司,437
+econ_target_00874,r437_chinanationalcoalgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL COAL GROUP,中国中煤能源集团有限公司,437
+econ_target_00875,r438_tonglingnonferrousmetalsgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TONGLING NONFERROUS METALS GROUP,铜陵有色金属集团控股有限公司,438
+econ_target_00876,r438_tonglingnonferrousmetalsgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TONGLING NONFERROUS METALS GROUP,铜陵有色金属集团控股有限公司,438
+econ_target_00877,r439_ckhutchisonholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CK HUTCHISON HOLDINGS,长江和记实业有限公司,439
+econ_target_00878,r439_ckhutchisonholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CK HUTCHISON HOLDINGS,长江和记实业有限公司,439
+econ_target_00879,r440_philipmorrisinternational,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PHILIP MORRIS INTERNATIONAL,菲利普－莫里斯国际公司,440
+econ_target_00880,r440_philipmorrisinternational,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PHILIP MORRIS INTERNATIONAL,菲利普－莫里斯国际公司,440
+econ_target_00881,r441_paccar,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PACCAR,帕卡公司,441
+econ_target_00882,r441_paccar,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PACCAR,帕卡公司,441
+econ_target_00883,r442_pddholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,PDD HOLDINGS,拼多多控股公司,442
+econ_target_00884,r442_pddholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,PDD HOLDINGS,拼多多控股公司,442
+econ_target_00885,r443_crh公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CRH,CRH,443
+econ_target_00886,r443_crh公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CRH,CRH,443
+econ_target_00887,r444_quantacomputer,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,QUANTA COMPUTER,广达电脑公司,444
+econ_target_00888,r444_quantacomputer,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,QUANTA COMPUTER,广达电脑公司,444
+econ_target_00889,r445_salesforce,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SALESFORCE,赛富时,445
+econ_target_00890,r445_salesforce,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SALESFORCE,赛富时,445
+econ_target_00891,r446_aiagroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AIA GROUP,友邦保险控股有限公司,446
+econ_target_00892,r446_aiagroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AIA GROUP,友邦保险控股有限公司,446
+econ_target_00893,r447_nucor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NUCOR,纽柯,447
+econ_target_00894,r447_nucor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NUCOR,纽柯,447
+econ_target_00895,r448_jabil,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,JABIL,捷普公司,448
+econ_target_00896,r448_jabil,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,JABIL,捷普公司,448
+econ_target_00897,r449_nationalaustraliabank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NATIONAL AUSTRALIA BANK,澳大利亚国民银行,449
+econ_target_00898,r449_nationalaustraliabank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NATIONAL AUSTRALIA BANK,澳大利亚国民银行,449
+econ_target_00899,r450_sap公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SAP,SAP,450
+econ_target_00900,r450_sap公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SAP,SAP,450
+econ_target_00901,r451_crrcgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CRRC GROUP,中国中车集团有限公司,451
+econ_target_00902,r451_crrcgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CRRC GROUP,中国中车集团有限公司,451
+econ_target_00903,r452_shanghaidelongsteelgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI DELONG STEEL GROUP,上海德龙钢铁集团有限公司,452
+econ_target_00904,r452_shanghaidelongsteelgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANGHAI DELONG STEEL GROUP,上海德龙钢铁集团有限公司,452
+econ_target_00905,r453_lennar,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LENNAR,莱纳公司,453
+econ_target_00906,r453_lennar,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LENNAR,莱纳公司,453
+econ_target_00907,r454_sompoholdings,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SOMPO HOLDINGS,损保控股有限公司,454
+econ_target_00908,r454_sompoholdings,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SOMPO HOLDINGS,损保控股有限公司,454
+econ_target_00909,r455_elililly,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ELI LILLY,美国礼来公司,455
+econ_target_00910,r455_elililly,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ELI LILLY,美国礼来公司,455
+econ_target_00911,r456_koreagas,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,KOREA GAS,韩国天然气公司,456
+econ_target_00912,r456_koreagas,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,KOREA GAS,韩国天然气公司,456
+econ_target_00913,r457_molinahealthcare公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Molina Healthcare,Molina Healthcare,457
+econ_target_00914,r457_molinahealthcare公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Molina Healthcare,Molina Healthcare,457
+econ_target_00915,r458_beijingjianlongheavyindustrygroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BEIJING JIANLONG HEAVY INDUSTRY GROUP,北京建龙重工集团有限公司,458
+econ_target_00916,r458_beijingjianlongheavyindustrygroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BEIJING JIANLONG HEAVY INDUSTRY GROUP,北京建龙重工集团有限公司,458
+econ_target_00917,r459_cummins,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CUMMINS,康明斯公司,459
+econ_target_00918,r459_cummins,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CUMMINS,康明斯公司,459
+econ_target_00919,r460_shaanxiconstructionengineeringholding,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHAANXI CONSTRUCTION ENGINEERING HOLDING,陕西建工控股集团有限公司,460
+econ_target_00920,r460_shaanxiconstructionengineeringholding,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHAANXI CONSTRUCTION ENGINEERING HOLDING,陕西建工控股集团有限公司,460
+econ_target_00921,r461_rabobankgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,RABOBANK GROUP,荷兰合作银行集团,461
+econ_target_00922,r461_rabobankgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,RABOBANK GROUP,荷兰合作银行集团,461
+econ_target_00923,r462_aisin,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AISIN,爱信,462
+econ_target_00924,r462_aisin,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AISIN,爱信,462
+econ_target_00925,r463_rajeshexports公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Rajesh Exports,Rajesh Exports,463
+econ_target_00926,r463_rajeshexports公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Rajesh Exports,Rajesh Exports,463
+econ_target_00927,r464_britishamericantobacco,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BRITISH AMERICAN TOBACCO,英美烟草集团,464
+econ_target_00928,r464_britishamericantobacco,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BRITISH AMERICAN TOBACCO,英美烟草集团,464
+econ_target_00929,r465_cpc,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CPC,台湾中油股份有限公司,465
+econ_target_00930,r465_cpc,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CPC,台湾中油股份有限公司,465
+econ_target_00931,r466_bankofnewyorkmellon,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,BANK OF NEW YORK MELLON,纽约梅隆银行,466
+econ_target_00932,r466_bankofnewyorkmellon,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,BANK OF NEW YORK MELLON,纽约梅隆银行,466
+econ_target_00933,r467_tongweigroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,TONGWEI GROUP,通威集团有限公司,467
+econ_target_00934,r467_tongweigroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,TONGWEI GROUP,通威集团有限公司,467
+econ_target_00935,r468_netflix公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Netflix,Netflix,468
+econ_target_00936,r468_netflix公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Netflix,Netflix,468
+econ_target_00937,r469_novonordisk,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,NOVO NORDISK,诺和诺德公司,469
+econ_target_00938,r469_novonordisk,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,NOVO NORDISK,诺和诺德公司,469
+econ_target_00939,r470_shouganggroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHOUGANG GROUP,首钢集团有限公司,470
+econ_target_00940,r470_shouganggroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHOUGANG GROUP,首钢集团有限公司,470
+econ_target_00941,r471_shanxicokingcoalgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SHANXI COKING COAL GROUP,山西焦煤集团有限责任公司,471
+econ_target_00942,r471_shanxicokingcoalgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SHANXI COKING COAL GROUP,山西焦煤集团有限责任公司,471
+econ_target_00943,r472_guangxiinvestmentgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,GUANGXI INVESTMENT GROUP,广西投资集团有限公司,472
+econ_target_00944,r472_guangxiinvestmentgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,GUANGXI INVESTMENT GROUP,广西投资集团有限公司,472
+econ_target_00945,r473_vtbbank,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,VTB BANK,俄罗斯外贸银行,473
+econ_target_00946,r473_vtbbank,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,VTB BANK,俄罗斯外贸银行,473
+econ_target_00947,r474_mazdamotor,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,MAZDA MOTOR,马自达汽车株式会社,474
+econ_target_00948,r474_mazdamotor,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,MAZDA MOTOR,马自达汽车株式会社,474
+econ_target_00949,r475_hunanironandsteelgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HUNAN IRON & STEEL GROUP,湖南钢铁集团有限公司,475
+econ_target_00950,r475_hunanironandsteelgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HUNAN IRON & STEEL GROUP,湖南钢铁集团有限公司,475
+econ_target_00951,r476_powercorpofcanada,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,POWER CORP. OF CANADA,加拿大鲍尔集团,476
+econ_target_00952,r476_powercorpofcanada,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,POWER CORP. OF CANADA,加拿大鲍尔集团,476
+econ_target_00953,r477_truistfinancial公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Truist Financial,Truist Financial,477
+econ_target_00954,r477_truistfinancial公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Truist Financial,Truist Financial,477
+econ_target_00955,r478_siemensenergy,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SIEMENS ENERGY,西门子能源,478
+econ_target_00956,r478_siemensenergy,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SIEMENS ENERGY,西门子能源,478
+econ_target_00957,r479_schlumberger,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SCHLUMBERGER,斯伦贝谢公司,479
+econ_target_00958,r479_schlumberger,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SCHLUMBERGER,斯伦贝谢公司,479
+econ_target_00959,r480_ecopetrol,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ECOPETROL,哥伦比亚国家石油公司,480
+econ_target_00960,r480_ecopetrol,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ECOPETROL,哥伦比亚国家石油公司,480
+econ_target_00961,r481_arrowelectronics,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ARROW ELECTRONICS,艾睿电子,481
+econ_target_00962,r481_arrowelectronics,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ARROW ELECTRONICS,艾睿电子,481
+econ_target_00963,r482_jerónimomartins公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Jerónimo Martins,Jerónimo Martins,482
+econ_target_00964,r482_jerónimomartins公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Jerónimo Martins,Jerónimo Martins,482
+econ_target_00965,r483_chinanationalaviationfuelgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL AVIATION FUEL GROUP,中国航空油料集团有限公司,483
+econ_target_00966,r483_chinanationalaviationfuelgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CHINA NATIONAL AVIATION FUEL GROUP,中国航空油料集团有限公司,483
+econ_target_00967,r484_commonwealthbankofaustralia,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,COMMONWEALTH BANK OF AUSTRALIA,澳洲联邦银行,484
+econ_target_00968,r484_commonwealthbankofaustralia,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,COMMONWEALTH BANK OF AUSTRALIA,澳洲联邦银行,484
+econ_target_00969,r485_centrica,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,CENTRICA,英国森特理克集团,485
+econ_target_00970,r485_centrica,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,CENTRICA,英国森特理克集团,485
+econ_target_00971,r486_linde,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LINDE,林德集团,486
+econ_target_00972,r486_linde,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LINDE,林德集团,486
+econ_target_00973,r487_heineken,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,HEINEKEN,喜力公司,487
+econ_target_00974,r487_heineken,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,HEINEKEN,喜力公司,487
+econ_target_00975,r488_luxshareprecisionindustry,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,LUXSHARE PRECISION INDUSTRY,立讯精密工业股份有限公司,488
+econ_target_00976,r488_luxshareprecisionindustry,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,LUXSHARE PRECISION INDUSTRY,立讯精密工业股份有限公司,488
+econ_target_00977,r489_3m公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,3M,3M,489
+econ_target_00978,r489_3m公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,3M,3M,489
+econ_target_00979,r490_visa公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Visa公司,Visa公司,490
+econ_target_00980,r490_visa公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Visa公司,Visa公司,490
+econ_target_00981,r491_apolloglobalmanagement,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,APOLLO GLOBAL MANAGEMENT,阿波罗全球管理公司,491
+econ_target_00982,r491_apolloglobalmanagement,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,APOLLO GLOBAL MANAGEMENT,阿波罗全球管理公司,491
+econ_target_00983,r492_emiratesgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,EMIRATES GROUP,阿联酋航空集团,492
+econ_target_00984,r492_emiratesgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,EMIRATES GROUP,阿联酋航空集团,492
+econ_target_00985,r493_vibraenergia公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Vibra Energia,Vibra Energia,493
+econ_target_00986,r493_vibraenergia公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Vibra Energia,Vibra Energia,493
+econ_target_00987,r494_metro,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,METRO,麦德龙,494
+econ_target_00988,r494_metro,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,METRO,麦德龙,494
+econ_target_00989,r495_subaru,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,SUBARU,斯巴鲁公司,495
+econ_target_00990,r495_subaru,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,SUBARU,斯巴鲁公司,495
+econ_target_00991,r496_airfranceklmgroup,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,AIR FRANCE-KLM GROUP,法国航空－荷兰皇家航空集团,496
+econ_target_00992,r496_airfranceklmgroup,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,AIR FRANCE-KLM GROUP,法国航空－荷兰皇家航空集团,496
+econ_target_00993,r497_enbridge公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Enbridge公司,Enbridge公司,497
+econ_target_00994,r497_enbridge公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Enbridge公司,Enbridge公司,497
+econ_target_00995,r498_瑞士abb集团,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,ABB,瑞士ABB,498
+econ_target_00996,r498_瑞士abb集团,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,ABB,瑞士ABB,498
+econ_target_00997,r499_enbridge公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Enbridge公司,Enbridge公司,499
+econ_target_00998,r499_enbridge公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Enbridge公司,Enbridge公司,499
+econ_target_00999,r500_三星candt公司,,,economic_instrument,,,,,,,,,,,,,,,,,,,missing,,,Samsung C&T,三星C&T,500
+econ_target_01000,r500_三星candt公司,,,target_progress_chain,,,,,,,,,,,,,,,,,,,missing,,,Samsung C&T,三星C&T,500

@@ -20,8 +20,8 @@
     <section class="hero">
       <div class="eyebrow">Carbon Accounting Workbench</div>
       <h1>Company Carbon Accounting Workbench</h1>
-      <p>Inspect a company’s identified standards, calculation methods, data types, assurance stages, activity classes, scope-value candidates, and Scope 3 category candidates together with source filename, page number, evidence snippet, recognition basis, confidence, and review status.</p>
-      <p>Search by company name or Fortune 500 company identifier to open the detailed accounting view. Structured authoritative values and raw text-derived candidates are shown separately so downstream calculation and human review remain transparent.</p>
+      <p>Inspect a company’s standards, calculation methods, data-source types, data-quality flags, boundary and classification stages, scope values, Scope 3 category values, method-keyword hits, industry numeric layers, and source-trace metadata in one place.</p>
+      <p>Search by company name or Fortune 500 company identifier to open the company accounting-guidance page. The page first checks whether a parent-company report has been safely matched, then combines methods, standards, recognition basis, source locations, and industry/category numeric layers into one workbench.</p>
       <div class="actions workbench-toolbar">
         <label class="entity-search workbench-search">
           <span>Company Search</span>
@@ -38,11 +38,18 @@
     </section>
 
     <section class="section" id="company-workbench-status"></section>
+    <section class="section" id="company-workbench-report-match"></section>
     <section class="section" id="company-workbench-profile"></section>
+    <section class="section" id="company-workbench-guidance"></section>
+    <section class="section" id="company-workbench-readiness"></section>
     <section class="section" id="company-workbench-standards"></section>
     <section class="section" id="company-workbench-methods"></section>
     <section class="section" id="company-workbench-scope"></section>
     <section class="section" id="company-workbench-scope3"></section>
+    <section class="section" id="company-workbench-accounting-inputs"></section>
+    <section class="section" id="company-workbench-carbon-evidence"></section>
+    <section class="section" id="company-workbench-playbook"></section>
+    <section class="section" id="company-workbench-industry"></section>
     <section class="section" id="company-workbench-keywords"></section>
     <section class="section" id="company-workbench-evidence"></section>
   </div>
@@ -68,6 +75,7 @@
         metric_keywords: "Keyword clusters",
         metric_scope_values: "Scope review candidates",
         metric_scope3_values: "Scope 3 review candidates",
+        metric_carbon_evidence: "Strict carbon evidence",
         profile_kicker: "Company profile",
         profile_lead: "This page brings together the structured fields and source-trace details needed for downstream carbon-accounting work.",
         profile_rank: "Fortune 500 rank",
