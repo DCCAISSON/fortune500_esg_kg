@@ -20,8 +20,8 @@
             <section class="hero">
               <div class="eyebrow">ESG Knowledge Graph</div>
               <h1>世界500强 ESG 知识图谱</h1>
-              <p>本项目基于世界500强企业公开年报、可持续发展报告与碳相关披露文件，构建了面向碳排放核算指导的知识图谱与工作台。当前公开页以 351 家已发布企业为正式成果口径，另有 149 家因缺母公司主报告暂未进入正式版主图谱。</p>
-              <p>首页按需求方逻辑展示标准体系、Scope 1/2/3、数据来源/质量、活动类别、行业分类和技术路径，当前页面仅保留正式成果内容。</p>
+              <p>我基于世界500强企业公开年报、可持续发展报告与碳相关披露文件，构建了这套 ESG 知识图谱展示站点。当前公开页以 351 家已发布企业为正式成果口径，另有 147 家因缺母公司主报告或仍待复核，暂未进入正式版主图谱。</p>
+              <p>首页主图区已按需求方原始表述重排为标准分层链条、Scope 与直接/间接排放、排放方法与数据质量、活动类别、行业归类和技术聚类展示，当前页面仅保留正式成果内容。</p>
               <div class="downloads">
                 <a class="btn alt" href="../assets/data/world500/graph/world500_published_kg.graphml">下载正式版 GraphML</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_nodes.csv">下载正式版 nodes.csv</a><a class="btn alt" href="../assets/data/world500/graph/world500_published_edges.csv">下载正式版 edges.csv</a>
               </div>
@@ -390,7 +390,7 @@
         <section class="section">
           <div class="section-head">
             <h2>专题全屏实体图谱</h2>
-            <p>需求方重点关注的主轴已整理为独立全屏专题页，首页可以直接进入 Scope、Scope 3、活动类别、标准角色族、技术类型和行业门类等实体级知识图谱。</p>
+            <p>我把需求方重点关注的主轴做成了独立全屏专题页，首页可以直接进入 Scope、Scope 3、活动类别、证据映射、标准角色族、技术类型和行业门类等实体级知识图谱。</p>
           </div>
           <div class="entity-overview-grid">
 
@@ -453,7 +453,7 @@
     </div>
     <a class="pill entity-overview-cta" href="./method-activity-standard-category-full-graph.html">打开全屏图谱</a>
   </div>
-  <p style="margin:0;color:var(--muted);line-height:1.7;">这一页把固定排放源、移动排放源、散逸性排放、过程排放以及价值链活动等标准活动类别直接连到企业，适合回答企业在标准活动层面对应到哪些排放活动。同时包含基于原文证据映射得到的活动标签。</p>
+  <p style="margin:0;color:var(--muted);line-height:1.7;">这一页把固定排放源、移动排放源、散逸性排放、过程排放以及价值链活动等标准活动类别直接连到企业，适合回答企业在标准活动层面对应到哪些排放活动。</p>
   <img class="entity-overview-image visual-figure" src="../assets/figures/zh/world500_activity_industry_overview.png" alt="标准活动类别 -&gt; 企业" data-lightbox-src="../assets/figures/zh/world500_activity_industry_overview.png" data-lightbox-title="标准活动类别 -&gt; 企业" tabindex="0">
   <div class="entity-overview-metrics">
     <span><strong>159</strong>涉及企业</span>
@@ -462,7 +462,22 @@
   </div>
 </article>
 
-<!-- 证据映射活动与标准活动类别数据相同，已合并展示 -->
+<article class="entity-overview-card">
+  <div class="entity-overview-head">
+    <div>
+      <div class="entity-overview-kicker">Evidence</div>
+      <h3>证据映射活动 -&gt; 企业</h3>
+    </div>
+    <a class="pill entity-overview-cta" href="./method-activity-evidence-mapping-full-graph.html">打开全屏图谱</a>
+  </div>
+  <p style="margin:0;color:var(--muted);line-height:1.7;">这一页把基于原文证据映射得到的活动节点单独拉出，适合查看企业被映射到了哪些活动证据标签，以及证据回链落在哪些页。</p>
+  <img class="entity-overview-image visual-figure" src="../assets/figures/zh/world500_activity_industry_overview.png" alt="证据映射活动 -&gt; 企业" data-lightbox-src="../assets/figures/zh/world500_activity_industry_overview.png" data-lightbox-title="证据映射活动 -&gt; 企业" tabindex="0">
+  <div class="entity-overview-metrics">
+    <span><strong>159</strong>涉及企业</span>
+    <span><strong>4</strong>中层节点</span>
+    <span><strong>362</strong>事实条数</span>
+  </div>
+</article>
 
 <article class="entity-overview-card">
   <div class="entity-overview-head">
@@ -515,7 +530,22 @@
   </div>
 </article>
 
-<!-- 原则（Principle）角色族暂无数据，已隐藏 -->
+<article class="entity-overview-card">
+  <div class="entity-overview-head">
+    <div>
+      <div class="entity-overview-kicker">原则</div>
+      <h3>原则（Principle）角色族</h3>
+    </div>
+    <a class="pill entity-overview-cta" href="./role-family-principle-full-graph.html">打开全屏图谱</a>
+  </div>
+  <p style="margin:0;color:var(--muted);line-height:1.7;">这三页把标准引用按 Standard、Guideline、Principle 三类角色拆开，便于单独查看不同角色下具体标准与企业之间的实体链条。</p>
+  <img class="entity-overview-image visual-figure" src="../assets/figures/zh/world500_standard_chain_overview.png" alt="原则（Principle）角色族" data-lightbox-src="../assets/figures/zh/world500_standard_chain_overview.png" data-lightbox-title="原则（Principle）角色族" tabindex="0">
+  <div class="entity-overview-metrics">
+    <span><strong>0</strong>涉及企业</span>
+    <span><strong>0</strong>中层节点</span>
+    <span><strong>0</strong>事实条数</span>
+  </div>
+</article>
 
           </div>
         </section>
@@ -525,7 +555,7 @@
         <section class="section">
           <div class="section-head">
             <h2>技术族全屏图谱导航</h2>
-            <p>技术类型总览已拆分为各技术族独立专题页，可单独查看某一类技术路径对应的企业、证据与筛选结果。</p>
+            <p>我把“技术类型 -&gt; 企业”总览页继续拆成各技术族独立专题页，便于单独查看某一类技术路径对应的企业、证据与筛选结果。</p>
           </div>
           <div class="entity-overview-grid">
 
@@ -1096,7 +1126,7 @@
     function renderSelection(system, standard, selectedCompany) {
       const roleText = standard && standard.roles && standard.roles.length ? standard.roles.join(' | ') : labels.no_roles;
       const principleText = standard && standard.principles && standard.principles.length ? standard.principles.join(' | ') : labels.no_principles;
-      const evidenceHtml = selectedCompany ? "" : renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
+      const evidenceHtml = renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
       elements.selection.innerHTML = `
         <h3>${escapeHtml(labels.selection_title)}</h3>
         <div class="entity-inspector-grid">
@@ -1586,7 +1616,7 @@
     function renderSelection(system, standard, selectedCompany) {
       const roleText = standard && standard.roles && standard.roles.length ? standard.roles.join(' | ') : labels.no_roles;
       const principleText = standard && standard.principles && standard.principles.length ? standard.principles.join(' | ') : labels.no_principles;
-      const evidenceHtml = selectedCompany ? "" : renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
+      const evidenceHtml = renderEvidenceList(standard && standard.evidence ? standard.evidence : []);
       elements.selection.innerHTML = `
         <h3>${escapeHtml(labels.selection_title)}</h3>
         <div class="entity-inspector-grid">
