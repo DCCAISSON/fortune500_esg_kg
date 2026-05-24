@@ -21,7 +21,7 @@
       <div class="eyebrow">Carbon Accounting Workbench</div>
       <h1>企业碳核算工作台</h1>
       <p>按企业查看标准、核算方法、数据来源类型、数据质量标记、边界与分类阶段、Scope 数值、Scope 3 类别值、方法关键词命中、行业数值层与源文件回链信息。</p>
-      <p>输入企业名称或世界500强企业编号后，可直接进入该企业的“核算指导页”。页面会先判断母公司报告是否成功匹配，再把方法、标准、判定依据、原文定位和行业/类别数值层放到同一工作台里。</p>
+      <p>输入企业名称或世界500强企业编号后，可进入该企业的核算工作台。页面会先判断母公司报告是否成功匹配，再区分直接采信值、候选待验、方法依据、输入缺口和审计回链。</p>
       <div class="actions workbench-toolbar">
         <label class="entity-search workbench-search">
           <span>企业检索</span>
@@ -37,19 +37,51 @@
       <div class="metric-grid" id="company-workbench-metrics"></div>
     </section>
 
+    <section class="section workbench-flow">
+      <div class="workbench-flow-card is-primary">
+        <span>1</span>
+        <strong>先判定是否可用</strong>
+        <p>母公司报告、页码、原文片段和核算就绪缺口。</p>
+      </div>
+      <div class="workbench-flow-card is-primary">
+        <span>2</span>
+        <strong>再看可直接采信数值</strong>
+        <p>Scope 1/2/3、Scope 2 口径和 Scope 3 十五类状态。</p>
+      </div>
+      <div class="workbench-flow-card">
+        <span>3</span>
+        <strong>然后看方法依据</strong>
+        <p>标准、核算方法、数据来源、质量标记和原文命中。</p>
+      </div>
+      <div class="workbench-flow-card">
+        <span>4</span>
+        <strong>最后进入审计附录</strong>
+        <p>候选值、关键词、严格证据和完整证据账本默认折叠。</p>
+      </div>
+    </section>
+
     <section class="section" id="company-workbench-status"></section>
+    <section class="section" id="company-workbench-decision"></section>
+
+    <div class="workbench-section-label">一、核算可用性判定</div>
     <section class="section" id="company-workbench-report-match"></section>
-    <section class="section" id="company-workbench-profile"></section>
-    <section class="section" id="company-workbench-guidance"></section>
     <section class="section" id="company-workbench-readiness"></section>
-    <section class="section" id="company-workbench-standards"></section>
-    <section class="section" id="company-workbench-methods"></section>
+
+    <div class="workbench-section-label">二、企业碳排放数值主表</div>
     <section class="section" id="company-workbench-scope"></section>
     <section class="section" id="company-workbench-scope3"></section>
     <section class="section" id="company-workbench-accounting-inputs"></section>
-    <section class="section" id="company-workbench-carbon-evidence"></section>
+
+    <div class="workbench-section-label">三、核算方法与标准依据</div>
+    <section class="section" id="company-workbench-guidance"></section>
+    <section class="section" id="company-workbench-profile"></section>
+    <section class="section" id="company-workbench-standards"></section>
+    <section class="section" id="company-workbench-methods"></section>
     <section class="section" id="company-workbench-playbook"></section>
+
+    <div class="workbench-section-label">四、行业参考与审计附录</div>
     <section class="section" id="company-workbench-industry"></section>
+    <section class="section" id="company-workbench-carbon-evidence"></section>
     <section class="section" id="company-workbench-keywords"></section>
     <section class="section" id="company-workbench-evidence"></section>
   </div>
@@ -75,9 +107,9 @@
         metric_keywords: "关键词簇",
         metric_scope_values: "Scope 待复核候选",
         metric_scope3_values: "Scope 3 待复核候选",
-        metric_carbon_evidence: "严格碳证据",
-        profile_kicker: "企业画像",
-        profile_lead: "本页把该企业后续碳排放计算直接需要的结构化要素和源文件追溯信息集中到同一工作台中。",
+        metric_carbon_evidence: "碳证据审计层",
+        profile_kicker: "审计元数据",
+        profile_lead: "这一块保留企业画像、源文件路径和分类标签，用于审计追溯；核算主结论以上方第一屏和 Scope 主表为准。",
         profile_rank: "世界500强排名",
         profile_industry: "行业门类",
         profile_use_tier: "企业可用层级",

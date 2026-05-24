@@ -61,6 +61,7 @@
     datalist: document.getElementById("company-workbench-options"),
     button: document.getElementById("company-workbench-open"),
     metrics: document.getElementById("company-workbench-metrics"),
+    decision: document.getElementById("company-workbench-decision"),
     reportMatch: document.getElementById("company-workbench-report-match"),
     profile: document.getElementById("company-workbench-profile"),
     guidance: document.getElementById("company-workbench-guidance"),
@@ -211,10 +212,120 @@
     `;
   }
 
+  function renderAuditDetails(summary, body, options = {}) {
+    const note = options.note ? `<p class="entity-note">${escapeHtml(options.note)}</p>` : "";
+    const openAttr = options.open ? " open" : "";
+    return `
+      <details class="workbench-audit-detail"${openAttr}>
+        <summary>
+          <span>${escapeHtml(summary)}</span>
+          <small>${escapeHtml(text("audit_fold_hint", "点击展开审计明细", "Click to expand audit details"))}</small>
+        </summary>
+        ${note}
+        ${body}
+      </details>
+    `;
+  }
+
   function buildChipList(values) {
     const items = uniqueValues(values || [], 12);
     if (!items.length) return `<span class="entity-chip">${escapeHtml(t.no_data)}</span>`;
     return items.map((value) => `<span class="entity-chip">${escapeHtml(value)}</span>`).join("");
+  }
+
+  function findDirectScopeRow(detail, scopeName) {
+    const normalized = String(scopeName || "").toLowerCase().replace(/\s+/g, "");
+    return (detail.authoritative_scope_rows || []).find((row) => String(row.scope_en || "").toLowerCase().replace(/\s+/g, "") === normalized);
+  }
+
+  function countScopeCandidates(detail, scopeName) {
+    const normalized = String(scopeName || "").toLowerCase().replace(/\s+/g, "");
+    return (detail.scope_candidates || []).filter((row) => String(row.scope_en || "").toLowerCase().replace(/\s+/g, "") === normalized).length;
+  }
+
+  function renderDecisionPanel(detail) {
+    if (!elements.decision) return;
+    const scopeNames = ["Scope 1", "Scope 2", "Scope 3"];
+    const directRows = detail.authoritative_scope_rows || [];
+    const directCount = directRows.length;
+    const candidateCount = detail.scope_candidate_count || (detail.scope_candidates || []).length;
+    const missingDirect = scopeNames.filter((scopeName) => !findDirectScopeRow(detail, scopeName));
+    const hasReport = Boolean(detail.has_matched_report);
+    const hasCompleteDirectScopes = missingDirect.length === 0;
+    const statusClass = !hasReport ? "is-gap" : hasCompleteDirectScopes ? "is-direct" : directCount || candidateCount ? "is-candidate" : "is-gap";
+    const reportStatus = pickText(detail, lang, "report_match_label_zh", "report_match_label_en") || "-";
+    const useTier = pickText(detail, lang, "enterprise_use_tier_zh", "enterprise_use_tier_en") || "-";
+    const useTierDetail = pickText(detail, lang, "enterprise_use_tier_detail_zh", "enterprise_use_tier_detail_en") || t.no_data;
+    const blocker = !hasReport
+      ? text("decision_blocker_report", "母公司报告尚未匹配，不能进入源文件闭环。", "Parent-company report is not matched, so source traceability is not closed.")
+      : missingDirect.length
+        ? formatTemplate(
+            text("decision_blocker_scope", "缺少直接采信值：{scopes}。", "Missing direct-use values: {scopes}."),
+            { scopes: missingDirect.join(" / ") },
+          )
+        : text("decision_blocker_ready", "Scope 1/2/3 已有直接采信值；仍需查看 Scope 3 类别、因子、GWP 和能耗输入。", "Scope 1/2/3 have direct-use values; still check Scope 3 categories, factors, GWP, and energy inputs.");
+    const methodChips = uniqueValues(lang === "zh" ? detail.calculation_methods_zh || [] : detail.calculation_methods_en || [], 8);
+    const scopeCards = scopeNames
+      .map((scopeName) => {
+        const row = findDirectScopeRow(detail, scopeName);
+        const scopeCandidateCount = countScopeCandidates(detail, scopeName);
+        const cardClass = row ? "is-direct" : scopeCandidateCount ? "is-candidate" : "is-gap";
+        const value = row
+          ? `${formatMaybeNumber(row.value_mtco2e, 6)} MtCO2e`
+          : scopeCandidateCount
+            ? formatTemplate(text("decision_candidate_count", "{count} 条候选待验真", "{count} candidate rows pending review"), { count: scopeCandidateCount })
+            : text("decision_no_direct_value", "无直接采信值", "No direct-use value");
+        const meta = row
+          ? [
+              row.inventory_year ? `${text("inventory_year_label", "清单年份", "Inventory year")} ${row.inventory_year}` : "",
+              pickText(row, lang, "scope2_reporting_method_zh", "scope2_reporting_method", "") || pickText(row, lang, "basis_zh", "basis_en", ""),
+              row.evidence_page ? `${text("trace_page", "页码", "Page")} ${row.evidence_page}` : "",
+            ]
+              .filter(Boolean)
+              .join(" | ")
+          : text("decision_candidate_or_gap_note", "请查看下方候选值或缺口说明。", "Check candidate rows or gap notes below.");
+        return `
+          <div class="workbench-scope-card ${cardClass}">
+            <span>${escapeHtml(scopeName)}</span>
+            <strong>${escapeHtml(value)}</strong>
+            <small>${escapeHtml(meta)}</small>
+          </div>
+        `;
+      })
+      .join("");
+
+    elements.decision.innerHTML = `
+      <div class="table-card report-table-card workbench-decision ${statusClass}">
+        <div class="table-kicker">${escapeHtml(text("decision_kicker", "第一屏核算结论", "First-screen accounting decision"))}</div>
+        <h3>${escapeHtml(text("decision_title", "这家公司当前能直接用于什么核算？", "What can this company be used for now?"))}</h3>
+        <p class="table-lead">${escapeHtml(text("decision_lead", "这里把可直接采信值、候选值和缺口分开，不把证据命中误写成完整核算。", "This panel separates direct-use values, candidates, and gaps so evidence hits are not mistaken for complete accounting."))}</p>
+        <div class="workbench-decision-grid">
+          <div class="workbench-decision-main">
+            <div class="decision-status-row">
+              <span>${escapeHtml(text("decision_report_status", "报告状态", "Report status"))}</span>
+              <strong>${escapeHtml(reportStatus)}</strong>
+            </div>
+            <div class="decision-status-row">
+              <span>${escapeHtml(text("decision_use_tier", "企业可用层级", "Company usability tier"))}</span>
+              <strong>${escapeHtml(useTier)}</strong>
+            </div>
+            <div class="decision-status-row">
+              <span>${escapeHtml(text("decision_direct_count", "直接采信 Scope 行", "Direct-use Scope rows"))}</span>
+              <strong>${escapeHtml(formatInt(directCount))}</strong>
+            </div>
+            <div class="decision-status-row">
+              <span>${escapeHtml(text("decision_candidate_count_label", "待验真候选", "Candidates pending review"))}</span>
+              <strong>${escapeHtml(formatInt(candidateCount))}</strong>
+            </div>
+            <p class="entity-note">${escapeHtml(useTierDetail)}</p>
+            <p class="entity-note">${escapeHtml(blocker)}</p>
+          </div>
+          <div class="decision-scope-grid">${scopeCards}</div>
+        </div>
+        <h4 class="subtable-title">${escapeHtml(text("decision_method_summary", "报告中已识别的核算方法关键词", "Calculation methods identified in the report"))}</h4>
+        <div class="chip-list">${buildChipList(methodChips)}</div>
+      </div>
+    `;
   }
 
   function splitListText(value) {
@@ -329,54 +440,64 @@
       { title: text("group_classification", "分类阶段", "Classification stages"), values: lang === "zh" ? detail.classification_stages_zh : detail.classification_stages_en },
       { title: t.group_activity, values: lang === "zh" ? detail.activity_categories_zh : detail.activity_categories_en },
     ];
-    elements.profile.innerHTML = `
-      <div class="table-card report-table-card">
-        <div class="table-kicker">${escapeHtml(t.profile_kicker)}</div>
-        <h3>${escapeHtml(displayCompany(detail))}</h3>
-        <p class="table-lead">${escapeHtml(t.profile_lead)}</p>
-        <div class="metric-grid">${metricCards(items)}</div>
-        <div class="panel-grid workbench-panel-grid" style="margin-top:16px;">
-          <div class="panel">
-            <h4>${escapeHtml(t.profile_use_tier)}</h4>
-            <p>${escapeHtml(useTier)}</p>
-            <p class="entity-note">${escapeHtml(useTierDetail)}</p>
+    elements.profile.innerHTML = renderAuditDetails(
+      text("profile_appendix_summary", "审计附录：企业画像与源文件元数据", "Audit appendix: company profile and source metadata"),
+      `
+        <div class="table-card report-table-card">
+          <div class="table-kicker">${escapeHtml(t.profile_kicker)}</div>
+          <h3>${escapeHtml(displayCompany(detail))}</h3>
+          <p class="table-lead">${escapeHtml(t.profile_lead)}</p>
+          <div class="metric-grid">${metricCards(items)}</div>
+          <div class="panel-grid workbench-panel-grid" style="margin-top:16px;">
+            <div class="panel">
+              <h4>${escapeHtml(t.profile_use_tier)}</h4>
+              <p>${escapeHtml(useTier)}</p>
+              <p class="entity-note">${escapeHtml(useTierDetail)}</p>
+            </div>
+            <div class="panel">
+              <h4>${escapeHtml(t.profile_report_titles)}</h4>
+              <p>${escapeHtml(joinList(detail.report_titles || []))}</p>
+            </div>
+            <div class="panel">
+              <h4>${escapeHtml(t.profile_source_files)}</h4>
+              <p>${escapeHtml(joinList(detail.source_files || []))}</p>
+            </div>
+            <div class="panel">
+              <h4>${escapeHtml(text("profile_source_paths", "源文件路径", "Source paths"))}</h4>
+              <p>${escapeHtml(joinList(detail.source_paths || []))}</p>
+            </div>
+            <div class="panel">
+              <h4>${escapeHtml(t.profile_mapping_basis)}</h4>
+              <p>${escapeHtml(pickText(detail, lang, "industry_mapping_basis_zh", "industry_mapping_basis_en"))}</p>
+            </div>
+            <div class="panel">
+              <h4>${escapeHtml(text("profile_registry_status", "注册表状态", "Registry status"))}</h4>
+              <p>${escapeHtml(detail.registry_report_download_status || "-")}</p>
+              <p class="entity-note">${escapeHtml(text("profile_registry_note", "P 表示报告待补或待确认，不等于已成功匹配到母公司主报告。", "P means the report workflow is pending and does not imply a validated parent-company report match."))}</p>
+            </div>
           </div>
-          <div class="panel">
-            <h4>${escapeHtml(t.profile_report_titles)}</h4>
-            <p>${escapeHtml(joinList(detail.report_titles || []))}</p>
-          </div>
-          <div class="panel">
-            <h4>${escapeHtml(t.profile_source_files)}</h4>
-            <p>${escapeHtml(joinList(detail.source_files || []))}</p>
-          </div>
-          <div class="panel">
-            <h4>${escapeHtml(text("profile_source_paths", "源文件路径", "Source paths"))}</h4>
-            <p>${escapeHtml(joinList(detail.source_paths || []))}</p>
-          </div>
-          <div class="panel">
-            <h4>${escapeHtml(t.profile_mapping_basis)}</h4>
-            <p>${escapeHtml(pickText(detail, lang, "industry_mapping_basis_zh", "industry_mapping_basis_en"))}</p>
-          </div>
-          <div class="panel">
-            <h4>${escapeHtml(text("profile_registry_status", "注册表状态", "Registry status"))}</h4>
-            <p>${escapeHtml(detail.registry_report_download_status || "-")}</p>
-            <p class="entity-note">${escapeHtml(text("profile_registry_note", "P 表示报告待补或待确认，不等于已成功匹配到母公司主报告。", "P means the report workflow is pending and does not imply a validated parent-company report match."))}</p>
+          <div class="panel-grid workbench-panel-grid" style="margin-top:16px;">
+            ${chipGroups
+              .map(
+                (group) => `
+                <div class="panel">
+                  <h4>${escapeHtml(group.title)}</h4>
+                  <div class="chip-list">${buildChipList(group.values || [])}</div>
+                </div>
+              `,
+              )
+              .join("")}
           </div>
         </div>
-        <div class="panel-grid workbench-panel-grid" style="margin-top:16px;">
-          ${chipGroups
-            .map(
-              (group) => `
-              <div class="panel">
-                <h4>${escapeHtml(group.title)}</h4>
-                <div class="chip-list">${buildChipList(group.values || [])}</div>
-              </div>
-            `,
-            )
-            .join("")}
-        </div>
-      </div>
-    `;
+      `,
+      {
+        note: text(
+          "profile_appendix_note",
+          "企业画像用于解释数据来源和分类背景，不替代第一屏核算结论。",
+          "The profile explains source and classification context; it does not replace the first-screen accounting decision.",
+        ),
+      },
+    );
   }
 
   function renderReportMatch(detail) {
@@ -718,6 +839,21 @@
       ),
     ]);
 
+    const candidateBlock = renderAuditDetails(
+      t.scope_candidate_title,
+      `
+        ${renderSectionToolbar("scope_candidates", candidateView.total, candidateView.visible, candidateView.pageSize)}
+        ${createTable(candidateHeaders, candidateRows, t.empty_table)}
+      `,
+      {
+        note: text(
+          "scope_candidate_fold_note",
+          "这些是可追溯的原文数值候选，不等同于可直接采信的核算值；通过页码、年份、单位和边界复核后才可升级。",
+          "These are traceable source-value candidates, not direct-use accounting values. They require review of page, year, unit, and boundary before promotion.",
+        ),
+      },
+    );
+
     elements.scope.innerHTML = `
       <div class="table-card report-table-card">
         <div class="table-kicker">${escapeHtml(t.scope_kicker)}</div>
@@ -726,9 +862,7 @@
         <h4 class="subtable-title">${escapeHtml(t.scope_authoritative_title)}</h4>
         ${renderSectionToolbar("scope_authoritative", authoritativeView.total, authoritativeView.visible, authoritativeView.pageSize)}
         ${createTable(authoritativeHeaders, authoritativeRows, t.empty_table)}
-        <h4 class="subtable-title">${escapeHtml(t.scope_candidate_title)}</h4>
-        ${renderSectionToolbar("scope_candidates", candidateView.total, candidateView.visible, candidateView.pageSize)}
-        ${createTable(candidateHeaders, candidateRows, t.empty_table)}
+        ${candidateBlock}
       </div>
     `;
   }
@@ -855,6 +989,21 @@
         { showEstimateBasis: false },
       ),
     ]);
+    const candidateBlock = renderAuditDetails(
+      text("scope3_candidate_title", "Scope 3 类别值候选明细", "Scope 3 category value candidate details"),
+      `
+        ${renderSectionToolbar("scope3", view.total, view.visible, view.pageSize)}
+        ${createTable(headers, rows, t.empty_table)}
+      `,
+      {
+        note: text(
+          "scope3_candidate_fold_note",
+          "矩阵用于判断十五类状态；候选明细只作为审校入口，不能直接等同于已完成十五类核算。",
+          "The matrix indicates fifteen-category status. Candidate details are review inputs and should not be read as completed fifteen-category accounting.",
+        ),
+      },
+    );
+
     elements.scope3.innerHTML = `
       <div class="table-card report-table-card">
         <div class="table-kicker">${escapeHtml(t.scope3_kicker)}</div>
@@ -878,9 +1027,7 @@
         <p class="entity-note">${escapeHtml(text("scope3_matrix_note", "矩阵中的“未评估/未披露”表示当前图谱尚无可溯源事实，不能反向断定企业报告一定没有披露。", "A not-assessed/not-disclosed status means the current graph has no traceable fact for that category; it is not proof that the report contains no disclosure."))}</p>
         ${renderSectionToolbar("scope3_matrix", matrixView.total, matrixView.visible, matrixView.pageSize)}
         ${createTable(matrixHeaders, matrixRows, t.empty_table)}
-        <h4 class="subtable-title">${escapeHtml(text("scope3_candidate_title", "Scope 3 类别值候选明细", "Scope 3 category value candidate details"))}</h4>
-        ${renderSectionToolbar("scope3", view.total, view.visible, view.pageSize)}
-        ${createTable(headers, rows, t.empty_table)}
+        ${candidateBlock}
       </div>
     `;
   }
@@ -912,11 +1059,18 @@
       buildTraceCell(item),
       buildRecognitionCell(item, { showEstimateBasis: false }),
     ]);
+    const inputCards = metricCards([
+      { label: text("input_metric_gwp", "GWP 版本", "GWP version"), value: formatInt(detail.gwp_version_fact_count || 0) },
+      { label: text("input_metric_energy", "能耗活动数据", "Energy activity data"), value: formatInt(detail.energy_consumption_fact_count || 0) },
+      { label: text("input_metric_economic", "经济工具", "Economic instruments"), value: formatInt(detail.economic_instrument_fact_count || 0) },
+      { label: text("input_metric_target", "目标进度链", "Target progress chain"), value: formatInt(detail.target_fact_count || 0) },
+    ]);
     elements.accountingInputs.innerHTML = `
       <div class="table-card report-table-card">
-        <div class="table-kicker">${escapeHtml(text("inputs_kicker", "核算输入层", "Accounting input layer"))}</div>
-        <h3>${escapeHtml(text("inputs_title", "GWP、能耗、经济工具与目标事实", "GWP, energy, economic instrument, and target facts"))}</h3>
-        <p class="table-lead">${escapeHtml(text("inputs_lead", "这一层只展示已通过人工或严格规则采信、且带源文件、页码和依据说明的核算输入事实；空白表示当前还不能从报告中严格采信。", "This layer only shows accepted accounting input facts with source file, page, and basis. Blank coverage means the item has not yet been strictly accepted from the report."))}</p>
+        <div class="table-kicker">${escapeHtml(text("inputs_kicker", "核算输入补齐状态", "Accounting input gap status"))}</div>
+        <h3>${escapeHtml(text("inputs_title", "GWP、能耗、经济工具与目标进度链", "GWP, energy, economic instruments, and target progress chain"))}</h3>
+        <p class="table-lead">${escapeHtml(text("inputs_lead", "这一层只展示已通过人工或严格规则采信、且带源文件、页码和依据说明的核算输入事实；为 0 表示当前报告未披露或尚未严格采信，不能自行推断。", "This layer only shows accepted accounting input facts with source file, page, and basis. A zero means the report has not disclosed it or it has not yet been strictly accepted; it must not be inferred."))}</p>
+        <div class="metric-grid">${inputCards}</div>
         ${renderSectionToolbar("accounting_inputs", view.total, view.visible, view.pageSize)}
         ${createTable(headers, rows, t.empty_table)}
       </div>
@@ -960,16 +1114,26 @@
       { label: text("carbon_evidence_metric_rejected", "不可采信", "Not accepted"), value: formatInt(summary.not_accepted_evidence_count || 0) },
       { label: text("carbon_evidence_metric_direct", "可直接核算", "Direct-use"), value: formatInt(summary.direct_accounting_use_count || 0) },
     ]);
-    elements.carbonEvidence.innerHTML = `
-      <div class="table-card report-table-card">
-        <div class="table-kicker">${escapeHtml(text("carbon_evidence_kicker", "严格碳证据分层", "Strict carbon evidence taxonomy"))}</div>
-        <h3>${escapeHtml(text("carbon_evidence_title", "先分清：碳相关、方法学、Scope 数值、不可采信", "Separate carbon context, methodology, Scope values, and rejected evidence first"))}</h3>
-        <p class="table-lead">${escapeHtml(text("carbon_evidence_lead", "这一层不把所有命中混在一起：Scope 数值、方法/标准、普通碳相关背景和不可采信证据分开显示；只有直接采信 Scope 值才能作为核算数值输入。", "This layer prevents mixed evidence: Scope values, method/standard evidence, contextual carbon evidence, and rejected evidence are separated. Only accepted Scope values are direct numeric accounting inputs."))}</p>
-        <div class="metric-grid">${cards}</div>
-        ${renderSectionToolbar("carbon_evidence", view.total, view.visible, view.pageSize)}
-        ${createTable(headers, rows, t.empty_table)}
-      </div>
-    `;
+    elements.carbonEvidence.innerHTML = renderAuditDetails(
+      text("carbon_evidence_appendix_summary", "审计附录：碳证据审计层", "Audit appendix: carbon evidence audit layer"),
+      `
+        <div class="table-card report-table-card">
+          <div class="table-kicker">${escapeHtml(text("carbon_evidence_kicker", "碳证据审计层", "Carbon evidence audit layer"))}</div>
+          <h3>${escapeHtml(text("carbon_evidence_title", "先分清：碳相关、方法学、Scope 数值、不可采信", "Separate carbon context, methodology, Scope values, and rejected evidence first"))}</h3>
+          <p class="table-lead">${escapeHtml(text("carbon_evidence_lead", "这一层不把所有命中混在一起：Scope 数值、方法/标准、普通碳相关背景和不可采信证据分开显示；只有直接采信 Scope 值才能作为核算数值输入。", "This layer prevents mixed evidence: Scope values, method/standard evidence, contextual carbon evidence, and rejected evidence are separated. Only accepted Scope values are direct numeric accounting inputs."))}</p>
+          <div class="metric-grid">${cards}</div>
+          ${renderSectionToolbar("carbon_evidence", view.total, view.visible, view.pageSize)}
+          ${createTable(headers, rows, t.empty_table)}
+        </div>
+      `,
+      {
+        note: text(
+          "carbon_evidence_appendix_note",
+          "这一块用于审计和追溯，不替代上方的 Scope 直接采信数值表。",
+          "This appendix is for audit and traceability; it does not replace the direct-use Scope value table above.",
+        ),
+      },
+    );
   }
 
   function buildPlaybookRows(detail) {
@@ -1168,15 +1332,18 @@
       </div>
     `,
     );
-    elements.keywords.innerHTML = `
-      <div class="table-card report-table-card">
-        <div class="table-kicker">${escapeHtml(t.keywords_kicker)}</div>
-        <h3>${escapeHtml(t.keywords_title)}</h3>
-        <p class="table-lead">${escapeHtml(t.keywords_lead)}</p>
-        ${renderSectionToolbar("keywords", view.total, view.visible, view.pageSize)}
-        <div class="panel-grid workbench-panel-grid">${cards.length ? cards.join("") : `<div class="entity-empty">${escapeHtml(t.empty_table)}</div>`}</div>
-      </div>
-    `;
+    elements.keywords.innerHTML = renderAuditDetails(
+      text("keywords_appendix_summary", "审计附录：方法关键词命中", "Audit appendix: method keyword hits"),
+      `
+        <div class="table-card report-table-card">
+          <div class="table-kicker">${escapeHtml(t.keywords_kicker)}</div>
+          <h3>${escapeHtml(t.keywords_title)}</h3>
+          <p class="table-lead">${escapeHtml(t.keywords_lead)}</p>
+          ${renderSectionToolbar("keywords", view.total, view.visible, view.pageSize)}
+          <div class="panel-grid workbench-panel-grid">${cards.length ? cards.join("") : `<div class="entity-empty">${escapeHtml(t.empty_table)}</div>`}</div>
+        </div>
+      `,
+    );
   }
 
   function renderEvidence(detail) {
@@ -1208,15 +1375,18 @@
           )
           .join("")
       : `<div class="entity-empty">${escapeHtml(t.empty_table)}</div>`;
-    elements.evidence.innerHTML = `
-      <div class="table-card report-table-card">
-        <div class="table-kicker">${escapeHtml(t.evidence_kicker)}</div>
-        <h3>${escapeHtml(t.evidence_title)}</h3>
-        <p class="table-lead">${escapeHtml(text("evidence_lead_upgraded", "证据总账现在保留文件路径，便于从企业页直接回到本地源文件。", "The evidence ledger now keeps source paths so the page can trace back to the local report files directly."))}</p>
-        ${renderSectionToolbar("evidence", view.total, view.visible, view.pageSize)}
-        <div class="graph-summary-list">${html}</div>
-      </div>
-    `;
+    elements.evidence.innerHTML = renderAuditDetails(
+      text("evidence_appendix_summary", "审计附录：完整证据回链总账", "Audit appendix: full evidence ledger"),
+      `
+        <div class="table-card report-table-card">
+          <div class="table-kicker">${escapeHtml(t.evidence_kicker)}</div>
+          <h3>${escapeHtml(t.evidence_title)}</h3>
+          <p class="table-lead">${escapeHtml(text("evidence_lead_upgraded", "证据总账现在保留文件路径，便于从企业页直接回到本地源文件。", "The evidence ledger now keeps source paths so the page can trace back to the local report files directly."))}</p>
+          ${renderSectionToolbar("evidence", view.total, view.visible, view.pageSize)}
+          <div class="graph-summary-list">${html}</div>
+        </div>
+      `,
+    );
   }
 
   function renderDetail(detail, options = {}) {
@@ -1235,8 +1405,9 @@
       { label: t.metric_scope_values, value: formatInt(detail.scope_candidate_count || 0) },
       { label: t.metric_scope3_values, value: formatInt(detail.scope3_candidate_count || 0) },
       { label: text("metric_accounting_inputs", "核算输入事实", "Accounting inputs"), value: formatInt(detail.accounting_input_fact_count || 0) },
-      { label: text("metric_carbon_evidence", "严格碳证据", "Strict carbon evidence"), value: formatInt(detail.carbon_evidence_count || 0) },
+      { label: text("metric_carbon_evidence", "碳证据审计层", "Carbon evidence audit layer"), value: formatInt(detail.carbon_evidence_count || 0) },
     ]);
+    renderDecisionPanel(detail);
     renderReportMatch(detail);
     buildProfileCards(detail);
     renderGuidance(detail);

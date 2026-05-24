@@ -21,7 +21,7 @@
       <div class="eyebrow">Carbon Accounting Workbench</div>
       <h1>Company Carbon Accounting Workbench</h1>
       <p>Inspect a company’s standards, calculation methods, data-source types, data-quality flags, boundary and classification stages, scope values, Scope 3 category values, method-keyword hits, industry numeric layers, and source-trace metadata in one place.</p>
-      <p>Search by company name or Fortune 500 company identifier to open the company accounting-guidance page. The page first checks whether a parent-company report has been safely matched, then combines methods, standards, recognition basis, source locations, and industry/category numeric layers into one workbench.</p>
+      <p>Search by company name or Fortune 500 company identifier to open the company workbench. The page first checks whether a parent-company report has been safely matched, then separates direct-use values, review candidates, method basis, input gaps, and audit tracebacks.</p>
       <div class="actions workbench-toolbar">
         <label class="entity-search workbench-search">
           <span>Company Search</span>
@@ -37,19 +37,51 @@
       <div class="metric-grid" id="company-workbench-metrics"></div>
     </section>
 
+    <section class="section workbench-flow">
+      <div class="workbench-flow-card is-primary">
+        <span>1</span>
+        <strong>First check usability</strong>
+        <p>Parent-company report, page trace, source snippet, and readiness gaps.</p>
+      </div>
+      <div class="workbench-flow-card is-primary">
+        <span>2</span>
+        <strong>Then read direct-use values</strong>
+        <p>Scope 1/2/3, Scope 2 method, and Scope 3 fifteen-category status.</p>
+      </div>
+      <div class="workbench-flow-card">
+        <span>3</span>
+        <strong>Then inspect methods</strong>
+        <p>Standards, calculation methods, data sources, quality flags, and source hits.</p>
+      </div>
+      <div class="workbench-flow-card">
+        <span>4</span>
+        <strong>Finally use the audit appendix</strong>
+        <p>Candidates, keywords, strict evidence, and full evidence ledgers are folded by default.</p>
+      </div>
+    </section>
+
     <section class="section" id="company-workbench-status"></section>
+    <section class="section" id="company-workbench-decision"></section>
+
+    <div class="workbench-section-label">I. Accounting Usability</div>
     <section class="section" id="company-workbench-report-match"></section>
-    <section class="section" id="company-workbench-profile"></section>
-    <section class="section" id="company-workbench-guidance"></section>
     <section class="section" id="company-workbench-readiness"></section>
-    <section class="section" id="company-workbench-standards"></section>
-    <section class="section" id="company-workbench-methods"></section>
+
+    <div class="workbench-section-label">II. Company Emissions Tables</div>
     <section class="section" id="company-workbench-scope"></section>
     <section class="section" id="company-workbench-scope3"></section>
     <section class="section" id="company-workbench-accounting-inputs"></section>
-    <section class="section" id="company-workbench-carbon-evidence"></section>
+
+    <div class="workbench-section-label">III. Methods And Standards</div>
+    <section class="section" id="company-workbench-guidance"></section>
+    <section class="section" id="company-workbench-profile"></section>
+    <section class="section" id="company-workbench-standards"></section>
+    <section class="section" id="company-workbench-methods"></section>
     <section class="section" id="company-workbench-playbook"></section>
+
+    <div class="workbench-section-label">IV. Industry Reference And Audit Appendix</div>
     <section class="section" id="company-workbench-industry"></section>
+    <section class="section" id="company-workbench-carbon-evidence"></section>
     <section class="section" id="company-workbench-keywords"></section>
     <section class="section" id="company-workbench-evidence"></section>
   </div>
@@ -75,9 +107,9 @@
         metric_keywords: "Keyword clusters",
         metric_scope_values: "Scope review candidates",
         metric_scope3_values: "Scope 3 review candidates",
-        metric_carbon_evidence: "Strict carbon evidence",
-        profile_kicker: "Company profile",
-        profile_lead: "This page brings together the structured fields and source-trace details needed for downstream carbon-accounting work.",
+        metric_carbon_evidence: "Carbon evidence audit layer",
+        profile_kicker: "Audit metadata",
+        profile_lead: "This block keeps company profile, source paths, and classification tags for audit traceability. The accounting decision and Scope tables above are the primary accounting view.",
         profile_rank: "Fortune 500 rank",
         profile_industry: "Industry section",
         profile_use_tier: "Company usability tier",
