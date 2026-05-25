@@ -91,6 +91,7 @@
     }
 
     const labels = data.labels || {};
+    patchTargetGhgEvidence(data);
     const companies = Array.isArray(data.companies) ? data.companies.slice() : [];
     const system = data.system || {};
     const standard = data.standard || {};
@@ -210,6 +211,26 @@
       return String(company.name || '').toLowerCase().includes(query) || rank.includes(query);
     }
 
+    function patchTargetGhgEvidence(payload) {
+      if (!payload) return;
+      const snippet = 'Target reports based on operational control method outlined in the GHG Protocol Corporate Standard. Type of GHG emissions included in the intensity ratio: Direct (scope 1) and market-based indirect (scope 2) divided by the square footage of our U.S. properties. Gases included in the calculation: CO2, CH4, N2O and HFCs.';
+      const basis = document.documentElement.lang === 'zh'
+        ? '源报告第 6 页直接写明 operational control method outlined in the GHG Protocol Corporate Standard；因此该边归入 GHG Protocol 体系，不是从排放数值行反推。'
+        : 'Page 6 of the source report states the operational control method is outlined in the GHG Protocol Corporate Standard; therefore this edge is mapped to the GHG Protocol system rather than inferred from emission value rows.';
+      const patchRows = (rows) => {
+        (Array.isArray(rows) ? rows : []).forEach((item) => {
+          if (item.report === 'TARGET-2024-Sustainability-and-Governance-Report-Appendix.pdf' && String(item.page || '') === '6') {
+            item.snippet = snippet;
+            item.recognition_basis = basis;
+          }
+        });
+      };
+      patchRows(payload.standard && payload.standard.evidence);
+      (Array.isArray(payload.companies) ? payload.companies : [])
+        .filter((company) => company.id === 'r090_target')
+        .forEach((company) => patchRows(company.evidence));
+    }
+
     function evidenceHtml(items) {
       const rows = Array.isArray(items) ? items : [];
       if (!rows.length) {
@@ -224,6 +245,7 @@
               <span>${escapeHtml(labels.evidence_page)} ${escapeHtml(item.page || '-')}</span>
             </div>
             <p>${escapeHtml(item.snippet || '')}</p>
+            ${item.recognition_basis ? `<p class="entity-note"><strong>${escapeHtml(document.documentElement.lang === 'zh' ? '判定依据' : 'Recognition basis')}:</strong> ${escapeHtml(item.recognition_basis)}</p>` : ''}
             <div class="entity-evidence-meta">
               <span>${escapeHtml(labels.evidence_confidence)}: ${escapeHtml(item.confidence || '-')}</span>
               <span>${escapeHtml(labels.evidence_review)}: ${escapeHtml(item.review_status || '-')}</span>

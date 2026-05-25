@@ -20,8 +20,8 @@
     <section class="hero">
       <div class="eyebrow">Carbon Accounting Workbench</div>
       <h1>Company Carbon Accounting Workbench</h1>
-      <p>Inspect a company’s standards, calculation methods, data-source types, data-quality flags, boundary and classification stages, scope values, Scope 3 category values, method-keyword hits, industry numeric layers, and source-trace metadata in one place.</p>
-      <p>Search by company name or Fortune 500 company identifier to open the company workbench. The page first checks whether a parent-company report has been safely matched, then separates direct-use values, review candidates, method basis, input gaps, and audit tracebacks.</p>
+      <p>Show only the accounting-critical view: usability, direct-use Scope values, Scope 3 disclosure status, and the standards/method evidence behind them.</p>
+      <p>Keyword hits, industry summaries, and full evidence ledgers stay out of the main page; reviewers can open source traces from each value or standard when needed.</p>
       <div class="actions workbench-toolbar">
         <label class="entity-search workbench-search">
           <span>Company Search</span>
@@ -48,15 +48,10 @@
         <strong>Then read direct-use values</strong>
         <p>Scope 1/2/3, Scope 2 method, and Scope 3 fifteen-category status.</p>
       </div>
-      <div class="workbench-flow-card">
+      <div class="workbench-flow-card is-primary">
         <span>3</span>
-        <strong>Then inspect methods</strong>
-        <p>Standards, calculation methods, data sources, quality flags, and source hits.</p>
-      </div>
-      <div class="workbench-flow-card">
-        <span>4</span>
-        <strong>Finally use the audit appendix</strong>
-        <p>Candidates, keywords, strict evidence, and full evidence ledgers are folded by default.</p>
+        <strong>Then inspect evidence</strong>
+        <p>Frameworks, accounting methods, recognition basis, and source traces.</p>
       </div>
     </section>
 
@@ -67,23 +62,13 @@
     <section class="section" id="company-workbench-report-match"></section>
     <section class="section" id="company-workbench-readiness"></section>
 
-    <div class="workbench-section-label">II. Company Emissions Tables</div>
+    <div class="workbench-section-label">II. Company Emissions Results</div>
     <section class="section" id="company-workbench-scope"></section>
     <section class="section" id="company-workbench-scope3"></section>
-    <section class="section" id="company-workbench-accounting-inputs"></section>
 
-    <div class="workbench-section-label">III. Methods And Standards</div>
-    <section class="section" id="company-workbench-guidance"></section>
-    <section class="section" id="company-workbench-profile"></section>
+    <div class="workbench-section-label">III. Standards, Methods, And Key Evidence</div>
     <section class="section" id="company-workbench-standards"></section>
     <section class="section" id="company-workbench-methods"></section>
-    <section class="section" id="company-workbench-playbook"></section>
-
-    <div class="workbench-section-label">IV. Industry Reference And Audit Appendix</div>
-    <section class="section" id="company-workbench-industry"></section>
-    <section class="section" id="company-workbench-carbon-evidence"></section>
-    <section class="section" id="company-workbench-keywords"></section>
-    <section class="section" id="company-workbench-evidence"></section>
   </div>
 
   <script>
@@ -93,7 +78,7 @@
       text: {
         loading: "Loading company workbench data...",
         load_error: "Failed to load company workbench data.",
-        loaded_ok: "Company profile loaded",
+        loaded_ok: "Company accounting view loaded",
         invalid_company: "Company not found. Please select a value from the candidate list.",
         no_data: "No data",
         empty_table: "No records to display",
@@ -104,12 +89,6 @@
         metric_authoritative_scope: "Structured scope values",
         metric_standards: "Standard references",
         metric_methods: "Method facts",
-        metric_keywords: "Keyword clusters",
-        metric_scope_values: "Scope review candidates",
-        metric_scope3_values: "Scope 3 review candidates",
-        metric_carbon_evidence: "Carbon evidence audit layer",
-        profile_kicker: "Audit metadata",
-        profile_lead: "This block keeps company profile, source paths, and classification tags for audit traceability. The accounting decision and Scope tables above are the primary accounting view.",
         profile_rank: "Fortune 500 rank",
         profile_industry: "Industry section",
         profile_use_tier: "Company usability tier",
@@ -135,20 +114,13 @@
         methods_headers: ["Scope", "Method", "Data type", "Assurance stage", "Standard activity class", "Evidence-mapped activity", "Source locator", "Recognition basis and source text"],
         scope_kicker: "Emission ledger",
         scope_title: "Scope 1 / 2 / 3 values",
-        scope_lead: "Structured values and raw text-derived candidates are separated, and each row carries an acceptance tier and source locator so directly usable values can be distinguished from review-needed values.",
+        scope_lead: "Only direct-use structured Scope values are shown, and each row carries acceptance and source-trace context.",
         scope_authoritative_title: "Structured scope values",
         scope_authoritative_headers: ["Scope", "Absolute value MtCO2e", "Share %", "Entity level", "Acceptance tier", "Source locator", "Basis note"],
-        scope_candidate_title: "Raw value candidates",
-        scope_candidate_headers: ["Scope", "Basis / method", "Raw value", "Raw unit", "Converted MtCO2e", "Acceptance tier", "Source locator", "Extraction rule and source text"],
         scope3_kicker: "Scope 3 category ledger",
-        scope3_title: "Fifteen Scope 3 category candidates",
-        scope3_lead: "This table keeps category-level raw candidates together with unit context, acceptance tier, priority, and source locator so industry-comparable category values can be reviewed first.",
+        scope3_title: "Fifteen Scope 3 category status matrix",
+        scope3_lead: "Only the fifteen-category disclosure status, visible category value, and source trace are shown; candidate detail rows are not main content.",
         scope3_headers: ["Scope 3 category", "Raw value", "Unit context", "Converted MtCO2e", "Acceptance tier", "Priority", "Source locator", "Extraction rule and source text"],
-        keywords_kicker: "Keyword hits",
-        keywords_title: "Method and data-quality keyword clusters",
-        keywords_lead: "Keyword clusters summarize method names, data-source labels, and assurance cues found in the report text.",
-        keyword_hit_count: "Hits",
-        keyword_page: "Page",
         evidence_kicker: "Source traceability",
         evidence_title: "Evidence back-link ledger",
         evidence_lead: "The ledger places standard references, methodology facts, scope candidates, and Scope 3 category candidates into one traceable evidence list.",

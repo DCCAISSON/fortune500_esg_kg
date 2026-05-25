@@ -63,19 +63,11 @@
     metrics: document.getElementById("company-workbench-metrics"),
     decision: document.getElementById("company-workbench-decision"),
     reportMatch: document.getElementById("company-workbench-report-match"),
-    profile: document.getElementById("company-workbench-profile"),
-    guidance: document.getElementById("company-workbench-guidance"),
     readiness: document.getElementById("company-workbench-readiness"),
     standards: document.getElementById("company-workbench-standards"),
     methods: document.getElementById("company-workbench-methods"),
     scope: document.getElementById("company-workbench-scope"),
     scope3: document.getElementById("company-workbench-scope3"),
-    accountingInputs: document.getElementById("company-workbench-accounting-inputs"),
-    carbonEvidence: document.getElementById("company-workbench-carbon-evidence"),
-    playbook: document.getElementById("company-workbench-playbook"),
-    industry: document.getElementById("company-workbench-industry"),
-    keywords: document.getElementById("company-workbench-keywords"),
-    evidence: document.getElementById("company-workbench-evidence"),
     status: document.getElementById("company-workbench-status"),
   };
 
@@ -86,9 +78,8 @@
     selectedCompanyId: "",
     currentDetail: null,
     sectionDisplay: {},
-    keywordCatalog: [],
-    keywordMap: new Map(),
-    emissionLedger: {},
+    evidenceDrawerItems: new Map(),
+    evidenceDrawerSeq: 0,
   };
 
   const SECTION_SOURCES = {
@@ -98,14 +89,6 @@
     scope_candidates: (detail) => detail.scope_candidates || [],
     scope3_matrix: (detail) => buildScope3MatrixRows(detail),
     scope3: (detail) => detail.scope3_candidates || [],
-    accounting_inputs: (detail) => detail.accounting_input_fact_rows || [],
-    carbon_evidence: (detail) => detail.carbon_evidence_rows || [],
-    method_query: (detail) => buildPlaybookRows(detail),
-    playbook: (detail) => buildPlaybookRows(detail),
-    industry_scope: (detail) => buildIndustryScopeRows(detail),
-    industry_scope3: (detail) => buildIndustryScope3Rows(detail),
-    keywords: (detail) => detail.keyword_summary || [],
-    evidence: (detail) => detail.evidence_ledger || [],
   };
 
   function displayCompany(item) {
@@ -243,6 +226,64 @@
     return (detail.scope_candidates || []).filter((row) => String(row.scope_en || "").toLowerCase().replace(/\s+/g, "") === normalized).length;
   }
 
+  function buildWorkbenchStatusMatrix(detail) {
+    const directRows = detail.authoritative_scope_rows || [];
+    const scope3Rows = buildScope3MatrixRows(detail);
+    const hasReport = Boolean(detail.has_matched_report);
+    const directScopes = ["Scope 1", "Scope 2", "Scope 3"].filter((scopeName) => findDirectScopeRow(detail, scopeName)).length;
+    const candidateRows = detail.scope_candidate_count || (detail.scope_candidates || []).length;
+    const scope3CandidateCategories = scope3Rows.filter((row) => row.statusKey === "reported_value_candidate").length;
+    const scope3MethodOnlyCategories = scope3Rows.filter((row) => row.statusKey === "method_evidence_only").length;
+    const evidenceRows = detail.carbon_evidence_count || (detail.carbon_evidence_rows || []).length;
+    const directEvidenceRows = detail.direct_accounting_use_evidence_count || 0;
+    const items = [
+      {
+        key: "report",
+        status: hasReport ? "ready" : "gap",
+        label: text("matrix_report_label", "报告闭环", "Report closure"),
+        value: hasReport ? text("matrix_report_ready", "已匹配源报告", "Source report matched") : text("matrix_report_gap", "未匹配母公司报告", "Parent report missing"),
+      },
+      {
+        key: "direct",
+        status: directScopes === 3 ? "ready" : directScopes ? "partial" : "gap",
+        label: text("matrix_direct_label", "结果层", "Result layer"),
+        value: formatTemplate(text("matrix_direct_value", "{count}/3 个 Scope 可直接采信", "{count}/3 Scopes direct-use"), { count: directScopes }),
+      },
+      {
+        key: "candidate",
+        status: candidateRows ? "review" : "gap",
+        label: text("matrix_candidate_label", "候选层", "Candidate layer"),
+        value: candidateRows ? formatTemplate(text("matrix_candidate_value", "{count} 条 Scope 候选待验", "{count} Scope candidates pending review"), { count: candidateRows }) : text("matrix_candidate_empty", "无 Scope 候选", "No Scope candidates"),
+      },
+      {
+        key: "scope3",
+        status: scope3CandidateCategories ? "review" : scope3MethodOnlyCategories ? "partial" : "gap",
+        label: text("matrix_scope3_label", "Scope 3 十五类", "Scope 3 categories"),
+        value: formatTemplate(text("matrix_scope3_value", "{value} 类有数值候选，{method} 类仅方法证据", "{value} value-candidate categories, {method} method-only categories"), { value: scope3CandidateCategories, method: scope3MethodOnlyCategories }),
+      },
+      {
+        key: "audit",
+        status: evidenceRows ? "partial" : "gap",
+        label: text("matrix_audit_label", "审计层", "Audit layer"),
+        value: formatTemplate(text("matrix_audit_value", "{count} 条碳证据，{direct} 条可直接核算", "{count} carbon evidence rows, {direct} direct-use"), { count: evidenceRows, direct: directEvidenceRows }),
+      },
+    ];
+    return `
+      <div class="workbench-status-matrix" aria-label="${escapeHtml(text("matrix_title", "企业核算状态矩阵", "Company accounting status matrix"))}">
+        ${items
+          .map(
+            (item) => `
+            <div class="workbench-status-cell is-${escapeHtml(item.status)}">
+              <strong>${escapeHtml(item.label)}</strong>
+              <span>${escapeHtml(item.value)}</span>
+            </div>
+          `,
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
   function renderDecisionPanel(detail) {
     if (!elements.decision) return;
     const scopeNames = ["Scope 1", "Scope 2", "Scope 3"];
@@ -317,12 +358,13 @@
               <span>${escapeHtml(text("decision_candidate_count_label", "待验真候选", "Candidates pending review"))}</span>
               <strong>${escapeHtml(formatInt(candidateCount))}</strong>
             </div>
-            <p class="entity-note">${escapeHtml(useTierDetail)}</p>
-            <p class="entity-note">${escapeHtml(blocker)}</p>
-          </div>
-          <div class="decision-scope-grid">${scopeCards}</div>
-        </div>
-        <h4 class="subtable-title">${escapeHtml(text("decision_method_summary", "报告中已识别的核算方法关键词", "Calculation methods identified in the report"))}</h4>
+        <p class="entity-note">${escapeHtml(useTierDetail)}</p>
+        <p class="entity-note">${escapeHtml(blocker)}</p>
+      </div>
+      <div class="decision-scope-grid">${scopeCards}</div>
+    </div>
+    ${buildWorkbenchStatusMatrix(detail)}
+    <h4 class="subtable-title">${escapeHtml(text("decision_method_summary", "报告中已识别的核算方法", "Calculation methods identified in the report"))}</h4>
         <div class="chip-list">${buildChipList(methodChips)}</div>
       </div>
     `;
@@ -351,7 +393,143 @@
     if (item.source_path) {
       lines.push(`<div class="cell-path"><strong>${escapeHtml(text("trace_path", "路径", "Path"))}</strong> ${escapeHtml(item.source_path)}</div>`);
     }
+    if (hasEvidenceTrace(item)) {
+      lines.push(`<div class="cell-action">${renderEvidenceDrawerButton(item)}</div>`);
+    }
     return `<div class="cell-block">${lines.length ? lines.join("") : `<div>${escapeHtml(text("trace_missing", "暂无源文件定位", "No source trace"))}</div>`}</div>`;
+  }
+
+  function hasEvidenceTrace(item) {
+    if (!item) return false;
+    return Boolean(
+      item.source_file ||
+      item.source_path ||
+      item.evidence_page ||
+      item.page ||
+      pickText(item, lang, "snippet_zh", "snippet_en", "") ||
+      pickText(item, lang, "recognition_basis_zh", "recognition_basis_en", ""),
+    );
+  }
+
+  function renderEvidenceDrawerButton(item, label) {
+    if (!hasEvidenceTrace(item)) return "";
+    const id = registerEvidenceDrawerItem(item);
+    return `<button class="evidence-drawer-btn" type="button" data-evidence-drawer-id="${escapeHtml(id)}">${escapeHtml(label || text("evidence_drawer_open", "查看证据", "View evidence"))}</button>`;
+  }
+
+  function registerEvidenceDrawerItem(item) {
+    const id = `ev-${state.evidenceDrawerSeq += 1}`;
+    state.evidenceDrawerItems.set(id, item);
+    return id;
+  }
+
+  function evidenceValue(item, zhKey, enKey, fallback = "") {
+    return pickText(item || {}, lang, zhKey, enKey, fallback);
+  }
+
+  function renderEvidenceDrawerField(label, value) {
+    const cleanValue = String(value || "").trim();
+    if (!cleanValue) return "";
+    return `
+      <div class="evidence-drawer-field">
+        <strong>${escapeHtml(label)}</strong>
+        <span>${escapeHtml(cleanValue)}</span>
+      </div>
+    `;
+  }
+
+  function normalizeEvidenceText(value) {
+    return String(value || "")
+      .toLowerCase()
+      .replace(/[\s\-_\/:：()（）\[\]【】.,，。;；'’"“”]+/g, "");
+  }
+
+  function standardAliases(item) {
+    const standardName = pickText(item, lang, "standard_name_zh", "standard_name_en", "");
+    const systemLabel = pickText(item, lang, "system_label_zh", "system_label_en", "");
+    const basis = pickText(item, lang, "recognition_basis_zh", "recognition_basis_en", "");
+    const combined = `${standardName} ${systemLabel} ${basis}`;
+    const aliases = [standardName];
+    if (/ghg|温室气体核算体系|greenhouse gas protocol/i.test(combined)) {
+      aliases.push("GHG Protocol", "Greenhouse Gas Protocol", "WBCSD/WRI", "温室气体核算体系");
+    }
+    if (/iso\s*14064/i.test(combined)) {
+      aliases.push("ISO 14064", "ISO14064", "ISO 14064-1", "ISO14064-1", "ISO 14064-3", "ISO14064-3");
+    }
+    if (/gb\/?t|gb\s*t|国标|国家标准/i.test(combined)) {
+      const gbMatches = combined.match(/GB\s*\/?\s*T\s*\d+(?:-\d+)?/gi) || [];
+      aliases.push("GB/T", "GBT", "国家标准", ...gbMatches);
+    }
+    return uniqueValues(aliases.filter(Boolean), 12);
+  }
+
+  function hasDirectStandardMention(item) {
+    const snippet = pickText(item, lang, "snippet_zh", "snippet_en", "");
+    const normalizedSnippet = normalizeEvidenceText(snippet);
+    if (!normalizedSnippet) return false;
+    return standardAliases(item).some((alias) => {
+      const normalizedAlias = normalizeEvidenceText(alias);
+      return normalizedAlias && normalizedSnippet.includes(normalizedAlias);
+    });
+  }
+
+  function standardEvidenceBadge(item) {
+    const direct = hasDirectStandardMention(item);
+    const label = direct
+      ? text("standard_evidence_direct", "原文直接命中标准名", "Standard name appears in source text")
+      : text("standard_evidence_structured", "结构化标签命中，片段未直接出现标准名，需回源复核", "Structured tag only; standard name is not visible in this snippet");
+    return `<span class="standard-evidence-badge ${direct ? "is-direct" : "is-review"}">${escapeHtml(label)}</span>`;
+  }
+
+  function ensureEvidenceDrawer() {
+    let shell = document.getElementById("workbench-evidence-drawer");
+    if (shell) return shell;
+    shell = document.createElement("div");
+    shell.id = "workbench-evidence-drawer";
+    shell.className = "evidence-drawer-shell";
+    shell.innerHTML = `
+      <div class="evidence-drawer-backdrop" data-evidence-drawer-close="1"></div>
+      <aside class="evidence-drawer-panel" role="dialog" aria-modal="true" aria-labelledby="evidence-drawer-title">
+        <button class="evidence-drawer-close" type="button" data-evidence-drawer-close="1">×</button>
+        <div class="evidence-drawer-content"></div>
+      </aside>
+    `;
+    document.body.appendChild(shell);
+    return shell;
+  }
+
+  function openEvidenceDrawer(id) {
+    const item = state.evidenceDrawerItems.get(id);
+    if (!item) return;
+    const shell = ensureEvidenceDrawer();
+    const content = shell.querySelector(".evidence-drawer-content");
+    const title = evidenceValue(item, "label_zh", "label_en", "") ||
+      evidenceValue(item, "standard_name_zh", "standard_name_en", "") ||
+      evidenceValue(item, "scope_zh", "scope_en", "") ||
+      evidenceValue(item, "fact_type_zh", "fact_type_en", text("evidence_drawer_title_fallback", "证据回链", "Evidence trace"));
+    const snippet = evidenceValue(item, "snippet_zh", "snippet_en", "");
+    content.innerHTML = `
+      <div class="table-kicker">${escapeHtml(text("evidence_drawer_kicker", "穿透溯源层", "Traceability layer"))}</div>
+      <h3 id="evidence-drawer-title">${escapeHtml(title)}</h3>
+      <p class="table-lead">${escapeHtml(text("evidence_drawer_lead", "这里展示该事实的源报告、页码、判定依据和原文片段。它用于审计与复核，不会自动把候选值升级为核算结果。", "This drawer shows the source report, page, recognition basis, and source text for the fact. It is for audit and review; it does not automatically promote candidates into accounting results."))}</p>
+      <div class="evidence-drawer-grid">
+        ${renderEvidenceDrawerField(text("trace_report", "报告", "Report"), evidenceValue(item, "report_title_zh", "report_title_en", item.report_title || ""))}
+        ${renderEvidenceDrawerField(text("trace_file", "文件", "File"), item.source_file || "")}
+        ${renderEvidenceDrawerField(text("trace_page", "页码", "Page"), item.evidence_page || item.page || "")}
+        ${renderEvidenceDrawerField(text("recognition_label", "判定依据", "Recognition basis"), evidenceValue(item, "recognition_basis_zh", "recognition_basis_en", "") || evidenceValue(item, "extraction_rule_zh", "extraction_rule_en", ""))}
+        ${renderEvidenceDrawerField(text("evidence_acceptance", "采信", "Acceptance"), evidenceValue(item, "acceptance_tier_zh", "acceptance_tier_en", "") || evidenceValue(item, "acceptance_status_zh", "acceptance_status_en", ""))}
+        ${renderEvidenceDrawerField(text("evidence_confidence", "置信度", "Confidence"), item.confidence_level || "")}
+        ${renderEvidenceDrawerField(text("evidence_review", "校核状态", "Review"), item.review_status || item.verification_status || "")}
+        ${renderEvidenceDrawerField(text("trace_path", "路径", "Path"), item.source_path || "")}
+      </div>
+      ${snippet ? `<div class="evidence-drawer-snippet"><strong>${escapeHtml(text("source_text_label", "原文片段", "Source text"))}</strong><p>${escapeHtml(snippet)}</p></div>` : ""}
+    `;
+    shell.classList.add("is-open");
+  }
+
+  function closeEvidenceDrawer() {
+    const shell = document.getElementById("workbench-evidence-drawer");
+    if (shell) shell.classList.remove("is-open");
   }
 
   function buildKeyValueCell(entries) {
@@ -745,6 +923,7 @@
               return `
                 <article class="panel standard-trace-card">
                   <h4>${escapeHtml(standardName)}</h4>
+                  ${standardEvidenceBadge(item)}
                   <p><strong>${escapeHtml(text("standards_trace_system", "挂接体系", "Linked system"))}</strong> ${escapeHtml(systemLabel)}</p>
                   <p><strong>${escapeHtml(text("standards_trace_role", "标准角色", "Standard role"))}</strong> ${escapeHtml(role)}</p>
                   <p><strong>${escapeHtml(text("standards_trace_source", "证据回链", "Evidence trace"))}</strong> ${escapeHtml([source, page ? `${text("trace_page", "页码", "Page")} ${page}` : ""].filter(Boolean).join(" | ") || t.no_data)}</p>
@@ -757,34 +936,16 @@
         </div>
       `
       : `<div class="entity-empty">${escapeHtml(text("standards_trace_empty", "暂无可展示的标准证据回链。", "No standard evidence trace is available."))}</div>`;
-    const headers = [
-      text("standards_h_system", "体系", "System"),
-      text("standards_h_standard", "具体标准", "Specific standard"),
-      text("standards_h_role", "角色", "Role"),
-      text("standards_h_principle", "原则/准则", "Principle"),
-      text("standards_h_trace", "原文定位", "Trace"),
-      text("standards_h_basis", "判定依据与原文", "Recognition basis and source text"),
-    ];
-    const rows = view.items.map((item) => [
-      escapeHtml(pickText(item, lang, "system_label_zh", "system_label_en")),
-      escapeHtml(pickText(item, lang, "standard_name_zh", "standard_name_en")),
-      escapeHtml(pickText(item, lang, "standard_role_zh", "standard_role_en")),
-      escapeHtml(pickText(item, lang, "accounting_principle_zh", "accounting_principle_en")),
-      buildTraceCell(item),
-      buildRecognitionCell(item),
-    ]);
     elements.standards.innerHTML = `
       <div class="table-card report-table-card">
         <div class="table-kicker">${escapeHtml(t.standards_kicker)}</div>
         <h3>${escapeHtml(t.standards_title)}</h3>
-        <p class="table-lead">${escapeHtml(text("standards_lead_upgraded", "标准表就是企业与 GHG Protocol、ISO、披露准则等体系的连接层：只有当详情 JSON 中存在标准事实，并带有文件、页码、判定依据或原文片段时，页面才显示该标准挂接。证据总账只是同一事实的审计附录，不替代这里的标准判定。", "The standards table is the linkage layer between the company and frameworks such as GHG Protocol, ISO, and disclosure rules. A framework is shown only when the company detail JSON contains a standard fact with file, page, recognition basis, or source text. The evidence ledger is an audit appendix for the same facts, not a replacement for this standard judgment."))}</p>
+        <p class="table-lead">${escapeHtml(text("standards_lead_upgraded", "这里只保留能说明企业如何挂接到 GHG Protocol、ISO、披露准则等体系的关键证据。完整标准清单不再平铺展示，避免重复。", "This section keeps only the key evidence that explains how the company is linked to frameworks such as GHG Protocol, ISO, and disclosure rules. The full standards list is not repeated here."))}</p>
         <div class="standard-linkage-note">
           <strong>${escapeHtml(text("standards_trace_title", "标准挂接如何被证明", "How framework linkage is proven"))}</strong>
           <span>${escapeHtml(standardTraceNote)}</span>
         </div>
         ${standardEvidenceCards}
-        ${renderSectionToolbar("standards", view.total, view.visible, view.pageSize)}
-        ${createTable(headers, rows, t.empty_table)}
       </div>
     `;
   }
@@ -795,8 +956,6 @@
       text("methods_h_scope", "Scope / 类别", "Scope / category"),
       text("methods_h_method", "方法", "Method"),
       text("methods_h_data", "数据来源与质量", "Data source and quality"),
-      text("methods_h_boundary", "边界与分类", "Boundary and classification"),
-      text("methods_h_assurance", "核查与活动", "Assurance and activity"),
       text("methods_h_trace", "原文定位", "Trace"),
       text("methods_h_basis", "判定依据与原文", "Recognition basis and source text"),
     ];
@@ -814,21 +973,12 @@
         buildKeyValueCell([
           { label: text("method_label", "方法", "Method"), value: pickText(item, lang, "calculation_method_zh", "calculation_method_en", "") },
           { label: text("emission_type_label", "排放类型", "Emission type"), value: pickText(item, lang, "emission_type_zh", "emission_type_en", "") },
-          { label: text("keyword_label", "关键词", "Keywords"), value: uniqueValues(lang === "zh" ? item.keyword_labels_zh || [] : item.keyword_labels_en || []).join(" / ") },
         ]),
         buildKeyValueCell([
           { label: text("data_source_class_label", "来源分类", "Source class"), value: pickText(item, lang, "data_source_class_zh", "data_source_class_en", "") || text("data_source_unclassified", "未明确披露/待人工确认", "Unclassified / review required") },
-          { label: text("data_source_label", "原始来源标签", "Original source tag"), value: pickText(item, lang, "data_source_type_zh", "data_source_type_en", "") },
           { label: text("data_quality_label", "数据质量", "Data quality"), value: pickText(item, lang, "data_quality_flag_zh", "data_quality_flag_en", "") },
-          { label: text("data_source_basis_label", "来源判定依据", "Source-class basis"), value: pickText(item, lang, "data_source_class_basis_zh", "data_source_class_basis_en", "") },
-        ]),
-        buildKeyValueCell([
           { label: text("boundary_label", "边界", "Boundary"), value: pickText(item, lang, "boundary_type_zh", "boundary_type_en", "") },
-          { label: text("classification_label", "分类阶段", "Classification"), value: pickText(item, lang, "classification_stage_zh", "classification_stage_en", "") },
-        ]),
-        buildKeyValueCell([
           { label: text("assurance_label", "核查环节", "Assurance"), value: pickText(item, lang, "assurance_stage_zh", "assurance_stage_en", "") },
-          { label: text("activity_label", "活动类别", "Activity"), value: [pickText(item, lang, "activity_standard_category_zh", "activity_standard_category_en", ""), pickText(item, lang, "activity_evidence_mapping_zh", "activity_evidence_mapping_en", "")].filter(Boolean).join(" / ") },
         ]),
         buildTraceCell(item),
         buildRecognitionCell(item, { showEstimateBasis: true }),
@@ -838,7 +988,7 @@
       <div class="table-card report-table-card">
         <div class="table-kicker">${escapeHtml(t.methods_kicker)}</div>
         <h3>${escapeHtml(t.methods_title)}</h3>
-        <p class="table-lead">${escapeHtml(text("methods_lead_upgraded", "方法表现在把方法、数据来源、质量标记、边界、分类阶段、核查环节和原文回链放在一张表里，便于直接指导后续核算。", "The methods table now keeps method, data-source type, quality flag, boundary, classification stage, assurance, and source trace in one place for downstream accounting work."))}</p>
+        <p class="table-lead">${escapeHtml(text("methods_lead_upgraded", "这里只保留核算判断必须看的方法、来源质量、边界、核查和原文回链；活动标签和关键词不再作为主内容展示。", "This table keeps only the method, source quality, boundary, assurance, and source trace needed for accounting judgment; activity tags and keyword cues are not shown as main content."))}</p>
         ${renderSectionToolbar("methods", view.total, view.visible, view.pageSize)}
         ${createTable(headers, rows, t.empty_table)}
       </div>
@@ -847,6 +997,25 @@
 
   function renderScope(detail) {
     const authoritativeView = sliceSection("scope_authoritative", detail.authoritative_scope_rows || []);
+    const directRowsAll = detail.authoritative_scope_rows || [];
+    const directScopeLabels = uniqueValues(directRowsAll.map((row) => pickText(row, lang, "scope_zh", "scope_en", "")));
+    const resultCards = directRowsAll.length
+      ? directRowsAll
+          .map((row) => {
+            const share = row.share_percent === null || row.share_percent === undefined ? "" : `${formatMaybeNumber(row.share_percent, 2)}%`;
+            return `
+              <article class="scope-result-card">
+                <div>
+                  <span>${escapeHtml(pickText(row, lang, "scope_zh", "scope_en", ""))}</span>
+                  <strong>${escapeHtml(formatMaybeNumber(row.value_mtco2e, 6))} MtCO2e</strong>
+                </div>
+                <p>${escapeHtml([share, row.inventory_year, pickText(row, lang, "scope2_reporting_method_zh", "scope2_reporting_method", "")].filter(Boolean).join(" | ") || t.no_data)}</p>
+                ${renderEvidenceDrawerButton(row)}
+              </article>
+            `;
+          })
+          .join("")
+      : `<div class="entity-empty">${escapeHtml(text("scope_result_empty", "当前企业暂无直接采信 Scope 结果。", "This company has no direct-use Scope result yet."))}</div>`;
     const authoritativeHeaders = [
       text("scope_auth_h_scope", "Scope", "Scope"),
       text("scope_auth_h_value", "绝对量 MtCO2e", "Absolute MtCO2e"),
@@ -910,26 +1079,23 @@
       ),
     ]);
 
-    const candidateBlock = renderAuditDetails(
-      t.scope_candidate_title,
-      `
-        ${renderSectionToolbar("scope_candidates", candidateView.total, candidateView.visible, candidateView.pageSize)}
-        ${createTable(candidateHeaders, candidateRows, t.empty_table)}
-      `,
-      {
-        note: text(
-          "scope_candidate_fold_note",
-          "这些是可追溯的原文数值候选，不等同于可直接采信的核算值；通过页码、年份、单位和边界复核后才可升级。",
-          "These are traceable source-value candidates, not direct-use accounting values. They require review of page, year, unit, and boundary before promotion.",
-        ),
-      },
-    );
+    const candidateBlock = candidateView.total
+      ? `<p class="entity-note">${escapeHtml(formatTemplate(text("scope_candidate_hidden_note", "另有 {count} 条 Scope 候选值已从主页面隐藏；它们不是直接采信结果，需要在后台审计队列复核。", "{count} Scope candidate rows are hidden from the main page; they are not direct-use results and require backend review."), { count: candidateView.total }))}</p>`
+      : "";
 
     elements.scope.innerHTML = `
       <div class="table-card report-table-card">
         <div class="table-kicker">${escapeHtml(t.scope_kicker)}</div>
         <h3>${escapeHtml(t.scope_title)}</h3>
-        <p class="table-lead">${escapeHtml(t.scope_lead)}</p>
+        <p class="table-lead">${escapeHtml(text("scope_layered_lead", "结果层只展示已进入 authoritative_scope_rows 的直接采信值；候选值不进入主表，避免把待验线索误当成核算结论。", "The result layer only shows direct-use values from authoritative_scope_rows. Candidate values stay out of the main table so review leads are not mistaken for accounting conclusions."))}</p>
+        <div class="scope-layer-strip">
+          <div class="scope-layer-summary">
+            <strong>${escapeHtml(text("scope_result_total_label", "直接采信覆盖", "Direct-use coverage"))}</strong>
+            <span>${escapeHtml(directRowsAll.length ? formatTemplate(text("scope_result_rows_value", "{count} 行", "{count} rows"), { count: directRowsAll.length }) : t.no_data)}</span>
+            <small>${escapeHtml(directScopeLabels.length ? directScopeLabels.join(" / ") : text("scope_result_total_note", "仅展示已采信 Scope 结果，不含候选值。", "Only accepted Scope results are shown; candidates are excluded."))}</small>
+          </div>
+          <div class="scope-result-grid">${resultCards}</div>
+        </div>
         <h4 class="subtable-title">${escapeHtml(t.scope_authoritative_title)}</h4>
         ${renderSectionToolbar("scope_authoritative", authoritativeView.total, authoritativeView.visible, authoritativeView.pageSize)}
         ${createTable(authoritativeHeaders, authoritativeRows, t.empty_table)}
@@ -984,9 +1150,42 @@
     });
   }
 
+  function renderScope3Heatmap(rows) {
+    const legend = [
+      ["reported_value_candidate", text("scope3_heat_value", "数值候选", "Value candidate")],
+      ["method_evidence_only", text("scope3_heat_method", "方法证据", "Method evidence")],
+      ["not_assessed", text("scope3_heat_gap", "未评估/未披露", "Not assessed/disclosed")],
+    ];
+    return `
+      <div class="scope3-heatmap-shell">
+        <div class="scope3-heatmap-legend">
+          ${legend.map(([key, label]) => `<span><i class="scope3-heat-dot is-${escapeHtml(key)}"></i>${escapeHtml(label)}</span>`).join("")}
+        </div>
+        <div class="scope3-heatmap-grid">
+          ${(rows || [])
+            .map((item) => {
+              const value = item.bestValue || {};
+              const converted = value.value_mtco2e === null || value.value_mtco2e === undefined || value.value_mtco2e === "" ? "" : `${formatMaybeNumber(value.value_mtco2e, 6)} MtCO2e`;
+              const title = `${item.categoryCode} ${pickText(item, lang, "label_zh", "label_en")}`;
+              return `
+                <button class="scope3-heat-cell is-${escapeHtml(item.statusKey)}" type="button" ${hasEvidenceTrace(value) ? `data-evidence-drawer-id="${escapeHtml(registerEvidenceDrawerItem(value))}"` : ""}>
+                  <strong>${escapeHtml(item.categoryCode)}</strong>
+                  <span>${escapeHtml(pickText(item, lang, "label_zh", "label_en"))}</span>
+                  <small>${escapeHtml(converted || pickText(item, lang, "status_zh", "status_en"))}</small>
+                  <em>${escapeHtml(title)}</em>
+                </button>
+              `;
+            })
+            .join("")}
+        </div>
+      </div>
+    `;
+  }
+
   function renderScope3(detail) {
     const matrixRowsAll = buildScope3MatrixRows(detail);
     const matrixView = sliceSection("scope3_matrix", matrixRowsAll);
+    const heatmap = renderScope3Heatmap(matrixRowsAll);
     const statusCounts = matrixRowsAll.reduce((acc, row) => {
       acc[row.statusKey] = (acc[row.statusKey] || 0) + 1;
       return acc;
@@ -1060,20 +1259,9 @@
         { showEstimateBasis: false },
       ),
     ]);
-    const candidateBlock = renderAuditDetails(
-      text("scope3_candidate_title", "Scope 3 类别值候选明细", "Scope 3 category value candidate details"),
-      `
-        ${renderSectionToolbar("scope3", view.total, view.visible, view.pageSize)}
-        ${createTable(headers, rows, t.empty_table)}
-      `,
-      {
-        note: text(
-          "scope3_candidate_fold_note",
-          "矩阵用于判断十五类状态；候选明细只作为审校入口，不能直接等同于已完成十五类核算。",
-          "The matrix indicates fifteen-category status. Candidate details are review inputs and should not be read as completed fifteen-category accounting.",
-        ),
-      },
-    );
+    const candidateBlock = view.total
+      ? `<p class="entity-note">${escapeHtml(formatTemplate(text("scope3_candidate_hidden_note", "另有 {count} 条 Scope 3 类别候选值已从主页面隐藏；主页面只保留十五类状态矩阵和可点击证据。", "{count} Scope 3 category candidate rows are hidden from the main page; this page keeps only the fifteen-category status matrix and clickable evidence."), { count: view.total }))}</p>`
+      : "";
 
     elements.scope3.innerHTML = `
       <div class="table-card report-table-card">
@@ -1096,6 +1284,7 @@
         </div>
         <h4 class="subtable-title">${escapeHtml(text("scope3_matrix_title", "Scope 3 十五类状态矩阵", "Scope 3 fifteen-category status matrix"))}</h4>
         <p class="entity-note">${escapeHtml(text("scope3_matrix_note", "矩阵中的“未评估/未披露”表示当前图谱尚无可溯源事实，不能反向断定企业报告一定没有披露。", "A not-assessed/not-disclosed status means the current graph has no traceable fact for that category; it is not proof that the report contains no disclosure."))}</p>
+        ${heatmap}
         ${renderSectionToolbar("scope3_matrix", matrixView.total, matrixView.visible, matrixView.pageSize)}
         ${createTable(matrixHeaders, matrixRows, t.empty_table)}
         ${candidateBlock}
@@ -1466,33 +1655,22 @@
       resetSectionDisplay();
     }
     state.currentDetail = detail;
+    state.evidenceDrawerItems.clear();
+    state.evidenceDrawerSeq = 0;
     elements.input.value = displayCompany(detail);
     elements.metrics.innerHTML = metricCards([
       { label: t.metric_company_tier, value: pickText(detail, lang, "enterprise_use_tier_zh", "enterprise_use_tier_en") || "-" },
       { label: t.metric_authoritative_scope, value: formatInt(detail.authoritative_scope_count || 0) },
       { label: t.metric_standards, value: formatInt(detail.standards_count || 0) },
       { label: t.metric_methods, value: formatInt(detail.method_rows_count || 0) },
-      { label: t.metric_keywords, value: formatInt(detail.keyword_summary_count || 0) },
-      { label: t.metric_scope_values, value: formatInt(detail.scope_candidate_count || 0) },
-      { label: t.metric_scope3_values, value: formatInt(detail.scope3_candidate_count || 0) },
-      { label: text("metric_accounting_inputs", "核算输入事实", "Accounting inputs"), value: formatInt(detail.accounting_input_fact_count || 0) },
-      { label: text("metric_carbon_evidence", "碳证据审计层", "Carbon evidence audit layer"), value: formatInt(detail.carbon_evidence_count || 0) },
     ]);
     renderDecisionPanel(detail);
     renderReportMatch(detail);
-    buildProfileCards(detail);
-    renderGuidance(detail);
     renderReadiness(detail);
     renderStandards(detail);
     renderMethods(detail);
     renderScope(detail);
     renderScope3(detail);
-    renderAccountingInputs(detail);
-    renderCarbonEvidence(detail);
-    renderMethodPlaybook(detail);
-    renderIndustryLayer(detail);
-    renderKeywords(detail);
-    renderEvidence(detail);
     renderStatus(`${displayCompany(detail)} | ${t.loaded_ok}`);
   }
 
@@ -1513,15 +1691,8 @@
 
   async function init() {
     renderStatus(t.loading);
-    const [index, keywordPayload, emissionPayload] = await Promise.all([
-      fetchJson(`${assetBase}/company_workbench.json`),
-      fetchJson(`${assetBase}/method_keyword_trace.json`),
-      fetchJson(`${assetBase}/emission_ledger.json`),
-    ]);
+    const index = await fetchJson(`${assetBase}/company_workbench.json`);
     state.index = index.companies || [];
-    state.keywordCatalog = keywordPayload.keywords || [];
-    state.keywordMap = new Map(state.keywordCatalog.map((item) => [item.key, item]));
-    state.emissionLedger = emissionPayload || {};
     buildOptions(state.index);
     const fromQuery = parseQueryParam("company");
     const initialCompany = state.index.find((item) => item.company_id === fromQuery) || state.index[0];
@@ -1553,6 +1724,16 @@
   });
 
   document.addEventListener("click", (event) => {
+    const closeTrigger = event.target.closest("[data-evidence-drawer-close]");
+    if (closeTrigger) {
+      closeEvidenceDrawer();
+      return;
+    }
+    const evidenceTrigger = event.target.closest("[data-evidence-drawer-id]");
+    if (evidenceTrigger) {
+      openEvidenceDrawer(String(evidenceTrigger.getAttribute("data-evidence-drawer-id") || ""));
+      return;
+    }
     const button = event.target.closest("[data-section-action][data-section-key]");
     if (!button || !state.currentDetail) return;
     const sectionKey = String(button.getAttribute("data-section-key") || "");

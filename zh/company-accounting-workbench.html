@@ -20,8 +20,8 @@
     <section class="hero">
       <div class="eyebrow">Carbon Accounting Workbench</div>
       <h1>企业碳核算工作台</h1>
-      <p>按企业查看标准、核算方法、数据来源类型、数据质量标记、边界与分类阶段、Scope 数值、Scope 3 类别值、方法关键词命中、行业数值层与源文件回链信息。</p>
-      <p>输入企业名称或世界500强企业编号后，可进入该企业的核算工作台。页面会先判断母公司报告是否成功匹配，再区分直接采信值、候选待验、方法依据、输入缺口和审计回链。</p>
+      <p>只展示企业碳核算最关键的结论：是否可用、Scope 直接采信值、Scope 3 披露状态、标准与方法依据。</p>
+      <p>关键词、行业汇总、完整证据总账等辅助内容不进入主页面；需要复核时通过具体数值或标准旁的“查看证据”打开原文回链。</p>
       <div class="actions workbench-toolbar">
         <label class="entity-search workbench-search">
           <span>企业检索</span>
@@ -48,15 +48,10 @@
         <strong>再看可直接采信数值</strong>
         <p>Scope 1/2/3、Scope 2 口径和 Scope 3 十五类状态。</p>
       </div>
-      <div class="workbench-flow-card">
+      <div class="workbench-flow-card is-primary">
         <span>3</span>
-        <strong>然后看方法依据</strong>
-        <p>标准、核算方法、数据来源、质量标记和原文命中。</p>
-      </div>
-      <div class="workbench-flow-card">
-        <span>4</span>
-        <strong>最后进入审计附录</strong>
-        <p>候选值、关键词、严格证据和完整证据账本默认折叠。</p>
+        <strong>最后看方法证据</strong>
+        <p>标准体系、核算方法、判定依据和原文回链。</p>
       </div>
     </section>
 
@@ -67,23 +62,13 @@
     <section class="section" id="company-workbench-report-match"></section>
     <section class="section" id="company-workbench-readiness"></section>
 
-    <div class="workbench-section-label">二、企业碳排放数值主表</div>
+    <div class="workbench-section-label">二、企业碳排放结果</div>
     <section class="section" id="company-workbench-scope"></section>
     <section class="section" id="company-workbench-scope3"></section>
-    <section class="section" id="company-workbench-accounting-inputs"></section>
 
-    <div class="workbench-section-label">三、核算方法与标准依据</div>
-    <section class="section" id="company-workbench-guidance"></section>
-    <section class="section" id="company-workbench-profile"></section>
+    <div class="workbench-section-label">三、标准、方法与关键证据</div>
     <section class="section" id="company-workbench-standards"></section>
     <section class="section" id="company-workbench-methods"></section>
-    <section class="section" id="company-workbench-playbook"></section>
-
-    <div class="workbench-section-label">四、行业参考与审计附录</div>
-    <section class="section" id="company-workbench-industry"></section>
-    <section class="section" id="company-workbench-carbon-evidence"></section>
-    <section class="section" id="company-workbench-keywords"></section>
-    <section class="section" id="company-workbench-evidence"></section>
   </div>
 
   <script>
@@ -93,7 +78,7 @@
       text: {
         loading: "正在加载企业工作台数据…",
         load_error: "工作台数据加载失败，请稍后重试。",
-        loaded_ok: "企业画像已加载",
+        loaded_ok: "企业核算视图已加载",
         invalid_company: "未找到该企业，请从下拉候选中选择。",
         no_data: "暂无数据",
         empty_table: "暂无可显示记录",
@@ -104,12 +89,6 @@
         metric_authoritative_scope: "结构化 Scope 值",
         metric_standards: "标准引用",
         metric_methods: "方法事实",
-        metric_keywords: "关键词簇",
-        metric_scope_values: "Scope 待复核候选",
-        metric_scope3_values: "Scope 3 待复核候选",
-        metric_carbon_evidence: "碳证据审计层",
-        profile_kicker: "审计元数据",
-        profile_lead: "这一块保留企业画像、源文件路径和分类标签，用于审计追溯；核算主结论以上方第一屏和 Scope 主表为准。",
         profile_rank: "世界500强排名",
         profile_industry: "行业门类",
         profile_use_tier: "企业可用层级",
@@ -135,20 +114,13 @@
         methods_headers: ["Scope", "方法", "数据类型", "核查环节", "标准活动类别", "证据映射活动", "原文定位", "识别依据与原文"],
         scope_kicker: "排放量账本",
         scope_title: "Scope 1 / 2 / 3 数值",
-        scope_lead: "结构化绝对量与原文数值候选分层展示，并为每条数值标注采信层级与原文定位，便于区分可直接使用值与待复核值。",
+        scope_lead: "只展示可直接采信的结构化 Scope 值，并为每条数值标注采信层级与原文定位。",
         scope_authoritative_title: "结构化 Scope 值",
         scope_authoritative_headers: ["Scope", "绝对量 MtCO2e", "占比 %", "实体层级", "采信层级", "原文定位", "依据说明"],
-        scope_candidate_title: "原文数值候选",
-        scope_candidate_headers: ["Scope", "口径/方法", "原文数值", "原文单位", "折算 MtCO2e", "采信层级", "原文定位", "提取规则与原文"],
         scope3_kicker: "Scope 3 类别账本",
-        scope3_title: "15 类 Scope 3 数值候选",
-        scope3_lead: "该表保留类别级原文数值候选、单位上下文、采信层级、优先级与原文定位，用于优先压实可形成行业可比口径的类别值。",
+        scope3_title: "15 类 Scope 3 状态矩阵",
+        scope3_lead: "只展示 Scope 3 十五类披露状态、可见类别值和原文定位；候选明细不作为主内容展示。",
         scope3_headers: ["Scope 3 类别", "原文数值", "单位上下文", "折算 MtCO2e", "采信层级", "优先级", "原文定位", "提取规则与原文"],
-        keywords_kicker: "关键词命中",
-        keywords_title: "方法与数据质量关键词簇",
-        keywords_lead: "关键词簇汇总当前企业在原文中出现的方法名、数据类型名和核查环节名，可作为后续抽取规则与人工复核入口。",
-        keyword_hit_count: "命中次数",
-        keyword_page: "页",
         evidence_kicker: "源文件追溯",
         evidence_title: "证据回链总账",
         evidence_lead: "总账把标准引用、方法事实、Scope 数值候选和 Scope 3 类别候选放到同一追溯清单里，阅读时可直接按页码回看原文。",

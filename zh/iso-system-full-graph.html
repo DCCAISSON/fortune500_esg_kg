@@ -91,6 +91,7 @@
     }
 
     const labels = data.labels || {};
+    patchTargetIsoEvidence(data);
     const middleNodes = Array.isArray(data.middleNodes) ? data.middleNodes.slice() : [];
     const companies = Array.isArray(data.companies) ? data.companies.slice() : [];
     const system = data.system || {};
@@ -215,6 +216,28 @@
       return String(company.name || '').toLowerCase().includes(query) || rank.includes(query);
     }
 
+    function patchTargetIsoEvidence(payload) {
+      if (!payload) return;
+      const snippet = 'Consumption data is based on last complete Fiscal Year (FY2023) compared to the baseline year for our science-based target (FY2017). We have converted MWh to a standard metric for comparison: either metric tons of carbon dioxide equivalent (mtCO2e) or Giga Joules (GJ). Gases included in the calculation: CO2, CH4, N2O and HFCs. Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification, with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals, and The Climate Registry General Reporting Protocol.';
+      const basis = document.documentElement.lang === 'zh'
+        ? '源报告第 7 页直接写明 Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification；因此该边归入 ISO 体系 / ISO 14064 节点，不是从 Scope 数值表推断。'
+        : 'Page 7 of the source report states that Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification; therefore this edge is mapped to the ISO system / ISO 14064 node rather than inferred from Scope value rows.';
+      const patchRows = (rows) => {
+        (Array.isArray(rows) ? rows : []).forEach((item) => {
+          if (item.report === 'TARGET-2024-Sustainability-and-Governance-Report-Appendix.pdf' && String(item.page || '') === '7') {
+            item.snippet = snippet;
+            item.recognition_basis = basis;
+          }
+        });
+      };
+      (Array.isArray(payload.middleNodes) ? payload.middleNodes : [])
+        .filter((item) => item.id === 'ISO 14064')
+        .forEach((item) => patchRows(item.evidence));
+      (Array.isArray(payload.companies) ? payload.companies : [])
+        .filter((company) => company.id === 'r090_target')
+        .forEach((company) => patchRows(company.evidenceByItem && company.evidenceByItem['ISO 14064']));
+    }
+
     function evidenceHtml(items) {
       const rows = Array.isArray(items) ? items : [];
       if (!rows.length) {
@@ -229,6 +252,7 @@
               <span>${escapeHtml(labels.evidence_page)} ${escapeHtml(item.page || '-')}</span>
             </div>
             <p>${escapeHtml(item.snippet || '')}</p>
+            ${item.recognition_basis ? `<p class="entity-note"><strong>${escapeHtml(document.documentElement.lang === 'zh' ? '判定依据' : 'Recognition basis')}:</strong> ${escapeHtml(item.recognition_basis)}</p>` : ''}
             <div class="entity-evidence-meta">
               <span>${escapeHtml(labels.evidence_confidence)}: ${escapeHtml(item.confidence || '-')}</span>
               <span>${escapeHtml(labels.evidence_review)}: ${escapeHtml(item.review_status || '-')}</span>
