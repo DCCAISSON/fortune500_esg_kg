@@ -691,6 +691,72 @@
 
   function renderStandards(detail) {
     const view = sliceSection("standards", detail.standards || []);
+    const companyName = displayCompany(detail);
+    const standardEvidenceItems = (detail.standards || [])
+      .filter((item) => {
+        return (
+          pickText(item, lang, "standard_name_zh", "standard_name_en", "") ||
+          pickText(item, lang, "system_label_zh", "system_label_en", "") ||
+          item.source_file ||
+          item.evidence_page ||
+          pickText(item, lang, "recognition_basis_zh", "recognition_basis_en", "")
+        );
+      })
+      .slice(0, 4);
+    const ghgTrace = (detail.standards || []).find((item) => {
+      const standardName = pickText(item, lang, "standard_name_zh", "standard_name_en", "");
+      const systemLabel = pickText(item, lang, "system_label_zh", "system_label_en", "");
+      return /ghg/i.test(`${standardName} ${systemLabel}`);
+    });
+    const ghgTraceSource = ghgTrace
+      ? [ghgTrace.source_file || ghgTrace.source_path || "", ghgTrace.evidence_page || ghgTrace.page ? `${text("trace_page", "页码", "Page")} ${ghgTrace.evidence_page || ghgTrace.page}` : ""]
+          .filter(Boolean)
+          .join(" | ")
+      : "";
+    const standardTraceNote = ghgTrace
+      ? formatTemplate(
+          text(
+            "standards_trace_note_with_ghg",
+            "{company} 当前存在 GHG 标准事实：它不是从数值表推断出来的，而是来自 standards 标准事实行，并回链到 {trace}。下方卡片展示该事实的体系、角色、判定依据和原文片段。",
+            "{company} currently has a GHG standard fact. It is not inferred from numeric Scope rows; it comes from the standards fact row and traces back to {trace}. The cards below show the system, role, recognition basis, and source text for that fact.",
+          ),
+          { company: companyName, trace: ghgTraceSource || t.no_data },
+        )
+      : formatTemplate(
+          text(
+            "standards_trace_note_generic",
+            "{company} 的标准挂接遵循同一规则：企业 -> 标准事实 -> 源报告页码/片段。若本企业没有 GHG 行，页面不会把它强行挂到 GHG 体系。",
+            "{company}'s framework linkage follows the same rule: company -> standard fact -> source report page/snippet. If this company has no GHG row, the page does not force-link it to the GHG system.",
+          ),
+          { company: companyName },
+        );
+    const standardEvidenceCards = standardEvidenceItems.length
+      ? `
+        <div class="panel-grid workbench-panel-grid standards-trace-grid">
+          ${standardEvidenceItems
+            .map((item) => {
+              const standardName = pickText(item, lang, "standard_name_zh", "standard_name_en", t.no_data);
+              const systemLabel = pickText(item, lang, "system_label_zh", "system_label_en", t.no_data);
+              const role = pickText(item, lang, "standard_role_zh", "standard_role_en", t.no_data);
+              const page = item.evidence_page || item.page || "";
+              const source = item.source_file || item.source_path || "";
+              const recognition = pickText(item, lang, "recognition_basis_zh", "recognition_basis_en", "");
+              const snippet = pickText(item, lang, "snippet_zh", "snippet_en", "");
+              return `
+                <article class="panel standard-trace-card">
+                  <h4>${escapeHtml(standardName)}</h4>
+                  <p><strong>${escapeHtml(text("standards_trace_system", "挂接体系", "Linked system"))}</strong> ${escapeHtml(systemLabel)}</p>
+                  <p><strong>${escapeHtml(text("standards_trace_role", "标准角色", "Standard role"))}</strong> ${escapeHtml(role)}</p>
+                  <p><strong>${escapeHtml(text("standards_trace_source", "证据回链", "Evidence trace"))}</strong> ${escapeHtml([source, page ? `${text("trace_page", "页码", "Page")} ${page}` : ""].filter(Boolean).join(" | ") || t.no_data)}</p>
+                  ${recognition ? `<p><strong>${escapeHtml(text("recognition_label", "判定依据", "Recognition basis"))}</strong> ${escapeHtml(recognition)}</p>` : ""}
+                  ${snippet ? `<p class="cell-snippet">${escapeHtml(snippet)}</p>` : ""}
+                </article>
+              `;
+            })
+            .join("")}
+        </div>
+      `
+      : `<div class="entity-empty">${escapeHtml(text("standards_trace_empty", "暂无可展示的标准证据回链。", "No standard evidence trace is available."))}</div>`;
     const headers = [
       text("standards_h_system", "体系", "System"),
       text("standards_h_standard", "具体标准", "Specific standard"),
@@ -711,7 +777,12 @@
       <div class="table-card report-table-card">
         <div class="table-kicker">${escapeHtml(t.standards_kicker)}</div>
         <h3>${escapeHtml(t.standards_title)}</h3>
-        <p class="table-lead">${escapeHtml(text("standards_lead_upgraded", "标准表现在保留体系、角色、页码、文件路径和原文片段，便于后续确认企业到底按什么标准核算。", "The standards table now keeps system, role, page, file path, and source text so the accounting basis can be checked directly."))}</p>
+        <p class="table-lead">${escapeHtml(text("standards_lead_upgraded", "标准表就是企业与 GHG Protocol、ISO、披露准则等体系的连接层：只有当详情 JSON 中存在标准事实，并带有文件、页码、判定依据或原文片段时，页面才显示该标准挂接。证据总账只是同一事实的审计附录，不替代这里的标准判定。", "The standards table is the linkage layer between the company and frameworks such as GHG Protocol, ISO, and disclosure rules. A framework is shown only when the company detail JSON contains a standard fact with file, page, recognition basis, or source text. The evidence ledger is an audit appendix for the same facts, not a replacement for this standard judgment."))}</p>
+        <div class="standard-linkage-note">
+          <strong>${escapeHtml(text("standards_trace_title", "标准挂接如何被证明", "How framework linkage is proven"))}</strong>
+          <span>${escapeHtml(standardTraceNote)}</span>
+        </div>
+        ${standardEvidenceCards}
         ${renderSectionToolbar("standards", view.total, view.visible, view.pageSize)}
         ${createTable(headers, rows, t.empty_table)}
       </div>
@@ -1355,7 +1426,7 @@
             <article class="entity-evidence-item">
               <div class="entity-evidence-head">
                 <strong>${escapeHtml(pickText(item, lang, "label_zh", "label_en"))}</strong>
-                <span>${escapeHtml(text("trace_page", "页码", "Page"))} ${escapeHtml(item.page || "-")}</span>
+                <span>${escapeHtml(text("trace_page", "页码", "Page"))} ${escapeHtml(item.page || item.evidence_page || "-")}</span>
               </div>
               <div class="entity-evidence-meta">
                 <span>${escapeHtml(pickText(item, lang, "fact_type_zh", "fact_type_en"))}</span>
