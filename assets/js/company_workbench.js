@@ -43,6 +43,7 @@
     standards: 12,
     methods: 12,
     scope_authoritative: 10,
+    scope_review: 10,
     scope_candidates: 12,
     scope3_matrix: 15,
     scope3: 12,
@@ -77,6 +78,7 @@
     overview: null,
     readinessSummary: null,
     upgradePlan: null,
+    expandedScopeEvidenceCache: new Map(),
     detailCache: new Map(),
     optionMap: new Map(),
     selectedCompanyId: "",
@@ -89,7 +91,8 @@
   const SECTION_SOURCES = {
     standards: (detail) => detail.standards || [],
     methods: (detail) => detail.method_rows || [],
-    scope_authoritative: (detail) => detail.authoritative_scope_rows || [],
+    scope_authoritative: (detail) => strongDirectScopeRows(detail),
+    scope_review: (detail) => reviewDirectScopeRows(detail),
     scope_candidates: (detail) => detail.scope_candidates || [],
     scope3_matrix: (detail) => buildScope3MatrixRows(detail),
     scope3: (detail) => detail.scope3_candidates || [],
@@ -616,6 +619,77 @@
     return pickText(item || {}, lang, zhKey, enKey, fallback);
   }
 
+  function scopeEvidenceNumber(value) {
+    const numeric = Number(String(value ?? "").replace(/,/g, ""));
+    if (!Number.isFinite(numeric)) return String(value ?? "").trim();
+    return String(Math.round(numeric * 1e9) / 1e9);
+  }
+
+  function scopeEvidenceKeyPart(value) {
+    return normalizeEvidenceText(value) || "_";
+  }
+
+  function scopeEvidenceKey(item) {
+    return [
+      item?.company_id,
+      item?.scope_en,
+      item?.scope2_reporting_method || item?.basis_en || "",
+      item?.inventory_year || "",
+      item?.evidence_page || item?.page || "",
+      scopeEvidenceNumber(item?.value_mtco2e),
+      item?.source_file || "",
+    ]
+      .map(scopeEvidenceKeyPart)
+      .join("__");
+  }
+
+  function numbersEquivalent(left, right) {
+    const leftNumber = Number(String(left ?? "").replace(/,/g, ""));
+    const rightNumber = Number(String(right ?? "").replace(/,/g, ""));
+    if (!Number.isFinite(leftNumber) || !Number.isFinite(rightNumber)) return String(left ?? "") === String(right ?? "");
+    return Math.abs(leftNumber - rightNumber) <= Math.max(Math.abs(leftNumber) * 0.000001, 0.000001);
+  }
+
+  function expandedScopeEvidenceMatches(item, expanded) {
+    if (!item || !expanded) return false;
+    const sameCompany = String(item.company_id || "") === String(expanded.company_id || "");
+    const sameScope = normalizeEvidenceText(item.scope_en || item.scope_zh) === normalizeEvidenceText(expanded.scope_en || expanded.scope_zh);
+    const samePage = String(item.evidence_page || item.page || "") === String(expanded.evidence_page || expanded.page || "");
+    const sameValue = numbersEquivalent(item.value_mtco2e, expanded.value_mtco2e);
+    const itemMethod = normalizeEvidenceText(item.scope2_reporting_method || item.basis_en || "");
+    const expandedMethod = normalizeEvidenceText(expanded.scope2_reporting_method || expanded.basis_en || "");
+    const sameMethod = !itemMethod || !expandedMethod || itemMethod === expandedMethod;
+    const itemSource = String(item.source_file || "").trim();
+    const expandedSource = String(expanded.source_file || "").trim();
+    const sameSource = !itemSource || !expandedSource || itemSource === expandedSource;
+    return sameCompany && sameScope && samePage && sameValue && sameMethod && sameSource;
+  }
+
+  function findExpandedScopeEvidence(item) {
+    if (item?.expanded_evidence) return item.expanded_evidence;
+    const evidence = state.expandedScopeEvidenceCache.get(item?.company_id) || {};
+    const byKey = evidence.by_key || {};
+    const keyed = byKey[scopeEvidenceKey(item)];
+    if (keyed && expandedScopeEvidenceMatches(item, keyed)) return keyed;
+    const companyRows = evidence.records || (evidence.by_company || {})[item?.company_id] || [];
+    return companyRows.find((candidate) => expandedScopeEvidenceMatches(item, candidate)) || null;
+  }
+
+  function hydrateExpandedScopeEvidence(detail) {
+    if (!detail) return detail;
+    (detail.authoritative_scope_rows || []).forEach((row) => {
+      const expanded = findExpandedScopeEvidence(row);
+      if (expanded) row.expanded_evidence = expanded;
+    });
+    return detail;
+  }
+
+  function evidenceDisplaySnippet(item) {
+    const expanded = findExpandedScopeEvidence(item);
+    return evidenceValue(expanded || {}, "snippet_zh", "snippet_en", "") ||
+      evidenceValue(item, "snippet_zh", "snippet_en", "");
+  }
+
   function renderEvidenceDrawerField(label, value) {
     const cleanValue = String(value || "").trim();
     if (!cleanValue) return "";
@@ -634,11 +708,22 @@
   }
 
   function evidenceSnippetText(item) {
-    return [item?.snippet_en, item?.snippet_zh].filter(Boolean).join(" ");
+    const expanded = findExpandedScopeEvidence(item);
+    return [
+      expanded?.snippet_en,
+      expanded?.snippet_zh,
+      item?.snippet_en,
+      item?.snippet_zh,
+    ].filter(Boolean).join(" ");
   }
 
   function evidenceContextText(item) {
+    const expanded = findExpandedScopeEvidence(item);
     return [
+      expanded?.snippet_en,
+      expanded?.snippet_zh,
+      expanded?.recognition_basis_en,
+      expanded?.recognition_basis_zh,
       item?.snippet_en,
       item?.snippet_zh,
       item?.recognition_basis_en,
@@ -688,6 +773,7 @@
   }
 
   function unitEvidenceTokens(item) {
+    const expanded = findExpandedScopeEvidence(item);
     const rawTokens = [
       item?.unit_raw,
       item?.unit_context,
@@ -695,8 +781,11 @@
       item?.basis_note_en,
       item?.basis_note_zh,
     ].filter(Boolean);
-    const combined = rawTokens.join(" ");
+    const combined = [...rawTokens, expanded?.snippet_en, expanded?.snippet_zh].filter(Boolean).join(" ");
     const tokens = [...rawTokens];
+    if (item?.value_mtco2e !== undefined) {
+      tokens.push("CO2e", "CO₂e", "tCO2e", "tCO₂e", "metric tons CO2e", "tonnes CO2e", "MtCO2e", "MMT CO2e", "MMT CO₂e", "million metric tons CO2e");
+    }
     if (/co2|co₂|carbon|emission|排放|二氧化碳/i.test(combined)) {
       tokens.push("CO2e", "CO₂e", "tCO2e", "metric tons CO2e", "tonnes CO2e", "MtCO2e", "MMT CO2e", "million metric tons CO2e", "二氧化碳当量");
     }
@@ -783,6 +872,58 @@
     return `<span class="standard-evidence-badge ${direct ? "is-direct" : "is-review"}">${escapeHtml(label)}</span>`;
   }
 
+  function evidencePartLabel(part) {
+    const labels = {
+      page_text: text("evidence_part_page_text", "页级原文", "page text"),
+      scope: text("evidence_part_scope", "Scope / 口径", "scope / boundary label"),
+      value: text("evidence_part_value", "数值", "value"),
+      unit: text("evidence_part_unit", "单位", "unit"),
+      year: text("evidence_part_year", "年份", "year"),
+      scope2_method: text("evidence_part_scope2", "Scope 2 方法", "Scope 2 method"),
+    };
+    return labels[part] || String(part || "").replace(/_/g, " ");
+  }
+
+  function evidencePartList(parts) {
+    return (parts || []).map(evidencePartLabel).filter(Boolean).join(" / ");
+  }
+
+  function expandedScopeEvidenceStatus(item) {
+    const expanded = findExpandedScopeEvidence(item);
+    if (!expanded) return null;
+    const missingParts = (expanded.missing_parts || []).filter(Boolean);
+    const conflictParts = (expanded.conflict_parts || []).filter(Boolean);
+    const strong = expanded.is_complete === true && missingParts.length === 0 && conflictParts.length === 0;
+    if (strong) {
+      return {
+        strong: true,
+        className: "is-direct",
+        label: text("evidence_gate_expanded_direct", "强证据：扩展片段命中 Scope、数值、年份和单位", "Strong evidence: expanded snippet contains scope, value, year, and unit"),
+        reason: text("evidence_gate_expanded_direct_reason", "扩展片段来自页级原文，并已命中直接采信数值的关键证据要素。", "The expanded snippet comes from page-level source text and matches the key evidence parts for this direct-use value."),
+      };
+    }
+    if (conflictParts.length) {
+      return {
+        strong: false,
+        className: "is-review",
+        label: text("evidence_gate_expanded_conflict", "需复核：证据口径存在冲突", "Review required: evidence boundary/method conflict"),
+        reason: formatTemplate(
+          text("evidence_gate_expanded_conflict_reason", "发现冲突要素：{parts}。该行保留原账本状态，但不能在前端作为强证据展示。", "Conflicting parts detected: {parts}. The row keeps its ledger status, but the frontend cannot show it as strong evidence."),
+          { parts: evidencePartList(conflictParts) || text("evidence_gate_part_unknown", "待确认", "to be checked") },
+        ),
+      };
+    }
+    return {
+      strong: false,
+      className: "is-review",
+      label: text("evidence_gate_expanded_review", "需复核：扩展片段缺少关键要素", "Review required: expanded snippet is missing key parts"),
+      reason: formatTemplate(
+        text("evidence_gate_expanded_review_reason", "缺少可见要素：{parts}。该行保留原账本状态，但证据片段需回源核对。", "Missing visible parts: {parts}. The row keeps its ledger status, but the evidence snippet needs source review."),
+        { parts: evidencePartList(missingParts) || text("evidence_gate_part_unknown", "待确认", "to be checked") },
+      ),
+    };
+  }
+
   function evidenceRelevanceStatus(item) {
     const snippet = evidenceSnippetText(item);
     const normalizedSnippet = normalizeEvidenceText(snippet);
@@ -808,6 +949,8 @@
       };
     }
     if (hasNumericEvidenceShape(item)) {
+      const expandedStatus = expandedScopeEvidenceStatus(item);
+      if (expandedStatus) return expandedStatus;
       const valueTokens = valueEvidenceTokens(item);
       const unitTokens = unitEvidenceTokens(item);
       const scopeTokens = scopeEvidenceTokens(item);
@@ -845,6 +988,18 @@
     };
   }
 
+  function isStrongDirectScopeRow(row) {
+    return evidenceRelevanceStatus(row).strong === true;
+  }
+
+  function strongDirectScopeRows(detail) {
+    return (detail?.authoritative_scope_rows || []).filter((row) => isStrongDirectScopeRow(row));
+  }
+
+  function reviewDirectScopeRows(detail) {
+    return (detail?.authoritative_scope_rows || []).filter((row) => !isStrongDirectScopeRow(row));
+  }
+
   function evidenceRelevanceBadge(item) {
     const status = evidenceRelevanceStatus(item);
     return `<span class="standard-evidence-badge ${escapeHtml(status.className)}">${escapeHtml(status.label)}</span>`;
@@ -854,6 +1009,42 @@
     const status = evidenceRelevanceStatus(item);
     if (status.strong) return "";
     return `<p class="evidence-review-note">${escapeHtml(status.reason)}</p>`;
+  }
+
+  function renderExpandedEvidenceParts(item) {
+    const expanded = findExpandedScopeEvidence(item);
+    const parts = expanded?.matched_parts || null;
+    if (!parts) return "";
+    const conflictParts = new Set(expanded?.conflict_parts || []);
+    const labels = {
+      scope: evidencePartLabel("scope"),
+      value: evidencePartLabel("value"),
+      unit: evidencePartLabel("unit"),
+      year: evidencePartLabel("year"),
+      scope2_method: evidencePartLabel("scope2_method"),
+    };
+    if (!/scope\s*2|范围\s*2/i.test(`${item?.scope_en || ""} ${item?.scope_zh || ""}`)) {
+      delete labels.scope2_method;
+    }
+    const chips = Object.entries(labels)
+      .map(([key, label]) => {
+        const matched = Boolean(parts[key]);
+        const conflict = conflictParts.has(key);
+        const stateLabel = conflict
+          ? text("evidence_part_conflict", "冲突", "conflict")
+          : matched
+            ? text("evidence_part_hit", "已命中", "hit")
+            : text("evidence_part_miss", "缺失", "missing");
+        const className = conflict ? "is-conflict" : matched ? "is-hit" : "is-miss";
+        return `<span class="evidence-match-chip ${className}">${escapeHtml(label)} · ${escapeHtml(stateLabel)}</span>`;
+      })
+      .join("");
+    return `
+      <div class="evidence-match-panel">
+        <strong>${escapeHtml(text("evidence_parts_title", "证据要素命中", "Evidence element checks"))}</strong>
+        <div class="evidence-match-list">${chips}</div>
+      </div>
+    `;
   }
 
   function ensureEvidenceDrawer() {
@@ -882,7 +1073,8 @@
       evidenceValue(item, "standard_name_zh", "standard_name_en", "") ||
       evidenceValue(item, "scope_zh", "scope_en", "") ||
       evidenceValue(item, "fact_type_zh", "fact_type_en", text("evidence_drawer_title_fallback", "证据回链", "Evidence trace"));
-    const snippet = evidenceValue(item, "snippet_zh", "snippet_en", "");
+    const snippet = evidenceDisplaySnippet(item);
+    const expanded = findExpandedScopeEvidence(item);
     const relevance = evidenceRelevanceStatus(item);
     content.innerHTML = `
       <div class="table-kicker">${escapeHtml(text("evidence_drawer_kicker", "穿透溯源层", "Traceability layer"))}</div>
@@ -898,8 +1090,12 @@
         ${renderEvidenceDrawerField(text("evidence_acceptance", "采信", "Acceptance"), evidenceValue(item, "acceptance_tier_zh", "acceptance_tier_en", "") || evidenceValue(item, "acceptance_status_zh", "acceptance_status_en", ""))}
         ${renderEvidenceDrawerField(text("evidence_confidence", "置信度", "Confidence"), item.confidence_level || "")}
         ${renderEvidenceDrawerField(text("evidence_review", "校核状态", "Review"), item.review_status || item.verification_status || "")}
+        ${renderEvidenceDrawerField(text("evidence_page_text_source", "页级文本", "Page-text source"), expanded?.page_text_file || "")}
+        ${renderEvidenceDrawerField(text("evidence_extract_quality", "抽取质量", "Extraction quality"), [expanded?.extraction_method, expanded?.quality_flag, expanded?.ocr_used ? "OCR" : ""].filter(Boolean).join(" / "))}
+        ${renderEvidenceDrawerField(text("evidence_conflict_context", "冲突窗口", "Conflict window"), expanded?.conflict_context || "")}
         ${renderEvidenceDrawerField(text("trace_path", "路径", "Path"), item.source_path || "")}
       </div>
+      ${renderExpandedEvidenceParts(item)}
       ${snippet ? `<div class="evidence-drawer-snippet"><strong>${escapeHtml(text("source_text_label", "原文片段", "Source text"))}</strong><p>${escapeHtml(snippet)}</p></div>` : ""}
     `;
     shell.classList.add("is-open");
@@ -934,7 +1130,7 @@
         blocks.push(`<div><strong>${escapeHtml(text("estimate_basis_label", "估算说明", "Estimate basis"))}</strong> ${escapeHtml(estimateBasis)}</div>`);
       }
     }
-    const snippet = pickText(item, lang, "snippet_zh", "snippet_en", "");
+    const snippet = evidenceDisplaySnippet(item);
     const relevance = evidenceRelevanceStatus(item);
     if (snippet) {
       blocks.push(evidenceRelevanceBadge(item));
@@ -1383,11 +1579,13 @@
   }
 
   function renderScope(detail) {
-    const authoritativeView = sliceSection("scope_authoritative", detail.authoritative_scope_rows || []);
-    const directRowsAll = detail.authoritative_scope_rows || [];
-    const directScopeLabels = uniqueValues(directRowsAll.map((row) => pickText(row, lang, "scope_zh", "scope_en", "")));
-    const resultCards = directRowsAll.length
-      ? directRowsAll
+    const strongRows = strongDirectScopeRows(detail);
+    const reviewRows = reviewDirectScopeRows(detail);
+    const authoritativeView = sliceSection("scope_authoritative", strongRows);
+    const reviewView = sliceSection("scope_review", reviewRows);
+    const directScopeLabels = uniqueValues(strongRows.map((row) => pickText(row, lang, "scope_zh", "scope_en", "")));
+    const resultCards = strongRows.length
+      ? strongRows
           .map((row) => {
             const share = row.share_percent === null || row.share_percent === undefined ? "" : `${formatMaybeNumber(row.share_percent, 2)}%`;
             return `
@@ -1403,7 +1601,7 @@
             `;
           })
           .join("")
-      : `<div class="entity-empty">${escapeHtml(text("scope_result_empty", "当前企业暂无直接采信 Scope 结果。", "This company has no direct-use Scope result yet."))}</div>`;
+      : `<div class="entity-empty">${escapeHtml(text("scope_result_empty_strong", "当前企业暂无通过页级证据闸门的直接采信 Scope 结果。", "This company has no direct-use Scope result that passes the page-text evidence gate yet."))}</div>`;
     const authoritativeHeaders = [
       text("scope_auth_h_scope", "Scope", "Scope"),
       text("scope_auth_h_value", "绝对量 MtCO2e", "Absolute MtCO2e"),
@@ -1413,7 +1611,7 @@
       text("scope_auth_h_trace", "原文定位", "Trace"),
       text("scope_auth_h_basis", "依据说明", "Basis note"),
     ];
-    const authoritativeRows = authoritativeView.items.map((item) => [
+    const scopeEvidenceTableRow = (item) => [
       escapeHtml(pickText(item, lang, "scope_zh", "scope_en")),
       escapeHtml(formatMaybeNumber(item.value_mtco2e, 6)),
       escapeHtml(item.share_percent === null || item.share_percent === undefined ? "-" : formatMaybeNumber(item.share_percent, 2)),
@@ -1425,13 +1623,16 @@
       ]),
       buildKeyValueCell([
         { label: text("acceptance_label", "采信", "Acceptance"), value: pickText(item, lang, "acceptance_tier_zh", "acceptance_tier_en", "") },
+        { label: text("evidence_gate_label", "证据闸门", "Evidence gate"), value: evidenceRelevanceStatus(item).label },
         { label: text("verification_label", "验真", "Verification"), value: pickText(item, lang, "verification_reason_zh", "verification_reason_en", item.verification_status || "") },
       ]),
       buildTraceCell(item),
       buildKeyValueCell([
         { label: text("basis_note_label", "依据", "Basis"), value: pickText(item, lang, "basis_note_zh", "basis_note_en", "") },
       ]),
-    ]);
+    ];
+    const authoritativeRows = authoritativeView.items.map(scopeEvidenceTableRow);
+    const reviewTableRows = reviewView.items.map(scopeEvidenceTableRow);
 
     const candidateView = sliceSection("scope_candidates", detail.scope_candidates || []);
     const candidateHeaders = [
@@ -1478,15 +1679,22 @@
         <p class="table-lead">${escapeHtml(text("scope_layered_lead", "结果层只展示已进入 authoritative_scope_rows 的直接采信值；候选值不进入主表，避免把待验线索误当成核算结论。", "The result layer only shows direct-use values from authoritative_scope_rows. Candidate values stay out of the main table so review leads are not mistaken for accounting conclusions."))}</p>
         <div class="scope-layer-strip">
           <div class="scope-layer-summary">
-            <strong>${escapeHtml(text("scope_result_total_label", "直接采信覆盖", "Direct-use coverage"))}</strong>
-            <span>${escapeHtml(directRowsAll.length ? formatTemplate(text("scope_result_rows_value", "{count} 行", "{count} rows"), { count: directRowsAll.length }) : t.no_data)}</span>
-            <small>${escapeHtml(directScopeLabels.length ? directScopeLabels.join(" / ") : text("scope_result_total_note", "仅展示已采信 Scope 结果，不含候选值。", "Only accepted Scope results are shown; candidates are excluded."))}</small>
+            <strong>${escapeHtml(text("scope_result_total_label_strong", "强证据直接采信覆盖", "Strong-evidence direct-use coverage"))}</strong>
+            <span>${escapeHtml(strongRows.length ? formatTemplate(text("scope_result_rows_value", "{count} 行", "{count} rows"), { count: strongRows.length }) : t.no_data)}</span>
+            <small>${escapeHtml(directScopeLabels.length ? directScopeLabels.join(" / ") : text("scope_result_total_note_strong", "仅展示通过页码、年份、单位、数值和口径闸门的结果。", "Only rows that pass page, year, unit, value, and boundary gates are shown here."))}</small>
+            ${reviewRows.length ? `<small>${escapeHtml(formatTemplate(text("scope_result_review_count", "另有 {count} 条原账本采信行因证据不完整或口径冲突转入复核区。", "{count} original ledger accepted rows are moved to review because the evidence is incomplete or conflicting."), { count: reviewRows.length }))}</small>` : ""}
           </div>
           <div class="scope-result-grid">${resultCards}</div>
         </div>
-        <h4 class="subtable-title">${escapeHtml(t.scope_authoritative_title)}</h4>
+        <h4 class="subtable-title">${escapeHtml(text("scope_authoritative_strong_title", "通过证据闸门的直接采信值", "Direct-use values that pass the evidence gate"))}</h4>
         ${renderSectionToolbar("scope_authoritative", authoritativeView.total, authoritativeView.visible, authoritativeView.pageSize)}
         ${createTable(authoritativeHeaders, authoritativeRows, t.empty_table)}
+        ${reviewView.total ? `
+          <h4 class="subtable-title">${escapeHtml(text("scope_review_title", "原账本采信但需复核", "Ledger accepted but evidence review required"))}</h4>
+          <p class="entity-note">${escapeHtml(text("scope_review_note", "这些行不进入上方强证据结果层；需要回源确认年份、单位、数值或 Scope 2 口径后，才能作为汇报值使用。", "These rows are excluded from the strong-evidence result layer. They need source review for year, unit, value, or Scope 2 method before being used in reporting."))}</p>
+          ${renderSectionToolbar("scope_review", reviewView.total, reviewView.visible, reviewView.pageSize)}
+          ${createTable(authoritativeHeaders, reviewTableRows, t.empty_table)}
+        ` : ""}
         ${candidateBlock}
       </div>
     `;
@@ -2038,6 +2246,7 @@
   }
 
   function renderDetail(detail, options = {}) {
+    hydrateExpandedScopeEvidence(detail);
     const preserveSectionState = Boolean(options.preserveSectionState) && state.currentDetail && state.currentDetail.company_id === detail.company_id;
     if (!preserveSectionState) {
       resetSectionDisplay();
@@ -2048,7 +2257,7 @@
     elements.input.value = displayCompany(detail);
     elements.metrics.innerHTML = metricCards([
       { label: t.metric_company_tier, value: pickText(detail, lang, "enterprise_use_tier_zh", "enterprise_use_tier_en") || "-" },
-      { label: t.metric_authoritative_scope, value: formatInt(detail.authoritative_scope_count || 0) },
+      { label: t.metric_authoritative_scope, value: formatCountPair(strongDirectScopeRows(detail).length, detail.authoritative_scope_count || (detail.authoritative_scope_rows || []).length) },
       { label: t.metric_standards, value: formatInt(detail.standards_count || 0) },
       { label: t.metric_methods, value: formatInt(detail.method_rows_count || 0) },
     ]);
@@ -2062,17 +2271,28 @@
     renderStatus(`${displayCompany(detail)} | ${t.loaded_ok}`);
   }
 
+  async function ensureExpandedScopeEvidence(companyId) {
+    const targetId = String(companyId || "").trim();
+    if (!targetId || state.expandedScopeEvidenceCache.has(targetId)) return;
+    state.expandedScopeEvidenceCache.set(
+      targetId,
+      await fetchOptionalJson(`${assetBase}/expanded_evidence/${encodeURIComponent(targetId)}.json`),
+    );
+  }
+
   async function loadCompany(companyId) {
     const targetId = String(companyId || "").trim();
     if (!targetId) return;
     state.selectedCompanyId = targetId;
     updateQueryParam("company", targetId);
     if (state.detailCache.has(targetId)) {
+      await ensureExpandedScopeEvidence(targetId);
       renderDetail(state.detailCache.get(targetId));
       return;
     }
     renderStatus(t.loading);
     const detail = await fetchJson(`${assetBase}/companies/${encodeURIComponent(targetId)}.json`);
+    await ensureExpandedScopeEvidence(targetId);
     state.detailCache.set(targetId, detail);
     renderDetail(detail);
   }

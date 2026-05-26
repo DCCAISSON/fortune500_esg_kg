@@ -1,0 +1,967 @@
+{
+  "schema_version": "scope-evidence-summary-v1",
+  "generated_at": "2026-05-26T10:18:40.225Z",
+  "policy": "Expanded snippets do not promote candidates. They only strengthen display and audit of rows already in authoritative_scope_rows.",
+  "summary": {
+    "authoritative_scope_rows": 291,
+    "expanded_rows": 291,
+    "complete_rows": 186,
+    "missing_page_text_rows": 0,
+    "conflict_rows": 2,
+    "duplicate_key_rows": 2
+  },
+  "companies": [
+    {
+      "company_id": "r001_walmart",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r002_amazoncom",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r007_apple",
+      "expanded_rows": 6,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 1
+    },
+    {
+      "company_id": "r008_unitedhealthgroup",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r011_volkswagen",
+      "expanded_rows": 3,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r013_shell",
+      "expanded_rows": 3,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r017_alphabet公司",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r022_industrialandcommercialbankofchina",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r023_totalenergies",
+      "expanded_rows": 3,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r024_glencore",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r025_bp",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r026_microsoft",
+      "expanded_rows": 4,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r027_cardinalhealth",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r029_chevron",
+      "expanded_rows": 6,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r036_fordmotor",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r038_bankofamerica",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r042_mercedesbenzgroup",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r046_centene公司",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r048_homedepot",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r049_electricitédefrance",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r052_phillips66公司",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r053_pinganinsurance",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r061_valeroenergy",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r066_metaplatforms公司",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r070_alibabagroupholding",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r073_hyundaimotor",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r079_uniper公司",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r089_rosneftoil",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r091_equinor公司",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r093_saicmotor",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r095_lifeinsurancecorpofindia",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r096_nestlé",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r101_eon",
+      "expanded_rows": 4,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r114_royalaholddelhaize",
+      "expanded_rows": 4,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r116_indianoil",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r117_adm公司",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r119_christiandior",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r125_ptt",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r126_axa",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r127_fedex",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r130_engie集团",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r132_orlen",
+      "expanded_rows": 3,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r133_delltechnologies",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r143_byd",
+      "expanded_rows": 5,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r159_boeing",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r162_kia",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r163_sysco",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r165_pertamina",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r166_vinci",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r168_torontodominionbank",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r176_巴西jbs公司",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r181_guangzhouautomobileindustrygroup",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r183_airbus",
+      "expanded_rows": 3,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r185_zhejianggeelyholdinggroup",
+      "expanded_rows": 4,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r189_itaúunibancoholding",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r191_generalelectric",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r193_lockheedmartin",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r195_americanexpress",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r198_wilmarinternational",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r199_caterpillar",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r201_koreaelectricpower",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r202_metlife",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r206_chinavanke",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r209_lg电子",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r224_zurichinsurancegroup",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r230_bungeglobal",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r234_panasonicholdings",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r235_conocophillips",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r237_deltaairlines",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r252_bancobradesco",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r255_chartercommunications",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r260_newyorklifeinsurance",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r261_intel",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r262_tjx公司",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r263_novartis",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r264_riotintogroup",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r266_prudentialfinancial",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r268_bhpgroup",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r269_hp",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r270_unitedairlinesholdings",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r271_tatamotors",
+      "expanded_rows": 3,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r278_americanairlinesgroup",
+      "expanded_rows": 3,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r283_intesasanpaolo",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r287_tokiomarineholdings",
+      "expanded_rows": 3,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r289_maerskgroup",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r292_shanghaipudongdevelopmentbank",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r294_bankofmontreal",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r297_sanofi",
+      "expanded_rows": 4,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r301_swissre",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r304_capitalonefinancial",
+      "expanded_rows": 3,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r310_vodafonegroup",
+      "expanded_rows": 4,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r315_unicreditgroup",
+      "expanded_rows": 4,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r317_tokyoelectricpower",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r320_orange公司",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r322_ingkagroup",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r327_talanx公司",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r329_astrazeneca",
+      "expanded_rows": 3,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r344_continental",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 1
+    },
+    {
+      "company_id": "r345_raízen公司",
+      "expanded_rows": 3,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r349_fomentoeconómicomexicano公司",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r350_telefónica",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r352_bestbuy",
+      "expanded_rows": 4,
+      "complete_rows": 4,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r356_thermofisherscientific",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r357_magnainternational",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r365_travelers公司",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r366_warnerbrosdiscovery",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r369_jsainsbury",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r374_lufthansagroup",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r376_abbottlaboratories",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r387_schneiderelectric",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r392_coop集团",
+      "expanded_rows": 3,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r395_pbfenergy公司",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r398_compassgroup",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r400_gsk",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r401_suncorenergy",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r403_ubertechnologies公司",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r413_honeywellinternational",
+      "expanded_rows": 2,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r415_sfholding",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r421_jardinematheson",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r424_starbucks",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r427_broadcom",
+      "expanded_rows": 3,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r431_elo集团",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r434_drhorton公司",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r443_crh公司",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r445_salesforce",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r449_nationalaustraliabank",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r450_sap公司",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r455_elililly",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r464_britishamericantobacco",
+      "expanded_rows": 1,
+      "complete_rows": 1,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r466_bankofnewyorkmellon",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r469_novonordisk",
+      "expanded_rows": 1,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r480_ecopetrol",
+      "expanded_rows": 4,
+      "complete_rows": 3,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r481_arrowelectronics",
+      "expanded_rows": 2,
+      "complete_rows": 0,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r482_jerónimomartins公司",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r486_linde",
+      "expanded_rows": 3,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    },
+    {
+      "company_id": "r487_heineken",
+      "expanded_rows": 2,
+      "complete_rows": 2,
+      "missing_page_text_rows": 0,
+      "conflict_rows": 0
+    }
+  ]
+}

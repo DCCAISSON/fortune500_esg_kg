@@ -1,0 +1,121 @@
+{
+  "schema_version": "scope-evidence-v1",
+  "generated_at": "2026-05-26T10:18:40.225Z",
+  "policy": "Expanded snippets do not promote candidates. They only strengthen display and audit of rows already in authoritative_scope_rows.",
+  "company_id": "r344_continental",
+  "summary": {
+    "expanded_rows": 1,
+    "complete_rows": 0,
+    "missing_page_text_rows": 0,
+    "conflict_rows": 1,
+    "duplicate_key_rows": 0
+  },
+  "records": [
+    {
+      "evidence_key": "r344continental__scope2__marketbased_____142__1424774__continentalannualreport2024pdf",
+      "company_id": "r344_continental",
+      "company_name_en": "CONTINENTAL",
+      "company_name_zh": "德国大陆集团",
+      "world500_rank": "344",
+      "scope_en": "Scope 2",
+      "scope_zh": "范围 2",
+      "value_mtco2e": 1.424774,
+      "inventory_year": "",
+      "scope2_reporting_method": "Market-Based",
+      "basis_en": "Market-Based",
+      "basis_zh": "市场法",
+      "evidence_page": "142",
+      "source_file": "CONTINENTAL annual-report-2024.pdf",
+      "report_title_en": "CONTINENTAL annual-report-2024.pdf",
+      "report_title_zh": "CONTINENTAL annual-report-2024.pdf",
+      "review_status": "auto_verified",
+      "confidence_level": "medium",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "recognition_basis_en": "Expanded from source page text for direct-use Scope evidence.",
+      "recognition_basis_zh": "Expanded from source page text for direct-use Scope evidence.",
+      "page_text_found": true,
+      "page_text_file": "data/interim/world500_page_text/r344_continental__20240__annualreport.jsonl",
+      "extraction_method": "native",
+      "quality_flag": "ok",
+      "ocr_used": false,
+      "anchor_token": "1,424,774",
+      "snippet_en": "Continental AG 2024 Annual Report Management Report Sustainability Report – Environmental Information 139 Scope 1 and Scope 2 GHG emissions Retrospective Milestones and target years Base year 2023 2024 ∆ PY in % 2025 2030 2035 Reduction rate (Annual % target / Base year) Scope 1 GHG emissions Gross Scope 1 GHG emissions, in tCO2e — — 671,731 — — — — — Consolidated accounting group, in tCO2e — — 671,731 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of Scope 1 GHG emissions from regulated emissions trading systems, in % — — 19.4 — — — — — Scope 2 GHG emissions Gross location-based Scope 2 GHG emissions, in tCO2e — — 1,424,774 — — — — — Consolidated accounting group, in tCO2e — — 1,424,774 — — — — — Investees, in tCO2e — — 0 — — — — — Gross market-based Scope 2 GHG emissions, in tCO2e — — 161,504 — — — — — Consolidated accounting group, in tCO2e — — 161,504 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of energy purchased with contractual instruments, in % — — 84.7 — — — — — Definitions, assumptions, and calculation methods: Gross Scope 1 GHG emissions - Definitions and calculations according to GHG Protocol Corporate Standard (version 2004). - Emissions factors for refrigerants in accordance with Regulation (EU) 2024/573 of the European Parliament and of the Council from February 7, 2024 on fluorinated greenhouse gases are considered. These are based on the IPCC 4 and not on the more recent IPCC 6, which does not result in any significant effects. - Scope 1 comprises emissions from the combustion of energy sources in own processes. Emission factors of IEA Static, GHG Protocol and DEFRA are applied. - The data is collected by the individual locations. For certain locations, modeled calculations are used considering the number of employees and the type of operation. Gross Scope 1 GHG emissions – consolidated accounting group - Continental considers Scope 1 emissions of the relevant fully consolidated companies. Gross Scope 1 GHG emissions – investees - Continental has no operational control of investees; therefore, they are not relevant for Scope 1 emissions. Relevant emissions from investees are included in Scope 3. Percentage of Scope 1 GHG emissions from regulated emissions trading systems - The EU Emissions Trading System (EU ETS) and the Shanghai Pilot ETS are considered. - Scope 1 GHG emissions from the entire location that fall under these emissions trading systems are considered. Gross Scope 2 location-based GHG emissions - Definitio",
+      "snippet_zh": "Continental AG 2024 Annual Report Management Report Sustainability Report – Environmental Information 139 Scope 1 and Scope 2 GHG emissions Retrospective Milestones and target years Base year 2023 2024 ∆ PY in % 2025 2030 2035 Reduction rate (Annual % target / Base year) Scope 1 GHG emissions Gross Scope 1 GHG emissions, in tCO2e — — 671,731 — — — — — Consolidated accounting group, in tCO2e — — 671,731 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of Scope 1 GHG emissions from regulated emissions trading systems, in % — — 19.4 — — — — — Scope 2 GHG emissions Gross location-based Scope 2 GHG emissions, in tCO2e — — 1,424,774 — — — — — Consolidated accounting group, in tCO2e — — 1,424,774 — — — — — Investees, in tCO2e — — 0 — — — — — Gross market-based Scope 2 GHG emissions, in tCO2e — — 161,504 — — — — — Consolidated accounting group, in tCO2e — — 161,504 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of energy purchased with contractual instruments, in % — — 84.7 — — — — — Definitions, assumptions, and calculation methods: Gross Scope 1 GHG emissions - Definitions and calculations according to GHG Protocol Corporate Standard (version 2004). - Emissions factors for refrigerants in accordance with Regulation (EU) 2024/573 of the European Parliament and of the Council from February 7, 2024 on fluorinated greenhouse gases are considered. These are based on the IPCC 4 and not on the more recent IPCC 6, which does not result in any significant effects. - Scope 1 comprises emissions from the combustion of energy sources in own processes. Emission factors of IEA Static, GHG Protocol and DEFRA are applied. - The data is collected by the individual locations. For certain locations, modeled calculations are used considering the number of employees and the type of operation. Gross Scope 1 GHG emissions – consolidated accounting group - Continental considers Scope 1 emissions of the relevant fully consolidated companies. Gross Scope 1 GHG emissions – investees - Continental has no operational control of investees; therefore, they are not relevant for Scope 1 emissions. Relevant emissions from investees are included in Scope 3. Percentage of Scope 1 GHG emissions from regulated emissions trading systems - The EU Emissions Trading System (EU ETS) and the Shanghai Pilot ETS are considered. - Scope 1 GHG emissions from the entire location that fall under these emissions trading systems are considered. Gross Scope 2 location-based GHG emissions - Definitio",
+      "original_snippet_en": "market-based Auto-verified from page 142; value 1,424,774 tCO2e.",
+      "original_snippet_zh": "市场法 从第 142 页自动验真；原始值 1,424,774 tCO2e。",
+      "matched_parts": {
+        "scope": true,
+        "value": true,
+        "unit": true,
+        "year": false,
+        "scope2_method": false
+      },
+      "missing_parts": [
+        "year",
+        "scope2_method"
+      ],
+      "conflict_parts": [
+        "scope2_method"
+      ],
+      "conflict_context": "ercentage of Scope 1 GHG emissions from regulated emissions trading systems, in % — — 19.4 — — — — — Scope 2 GHG emissions Gross location-based Scope 2 GHG emissions, in tCO2e — — 1,424,774 — — — — — Consolidated accounting group, in tCO2e — — 1,424,774 — — — — — Invest",
+      "is_complete": false
+    }
+  ],
+  "by_key": {
+    "r344continental__scope2__marketbased_____142__1424774__continentalannualreport2024pdf": {
+      "evidence_key": "r344continental__scope2__marketbased_____142__1424774__continentalannualreport2024pdf",
+      "company_id": "r344_continental",
+      "company_name_en": "CONTINENTAL",
+      "company_name_zh": "德国大陆集团",
+      "world500_rank": "344",
+      "scope_en": "Scope 2",
+      "scope_zh": "范围 2",
+      "value_mtco2e": 1.424774,
+      "inventory_year": "",
+      "scope2_reporting_method": "Market-Based",
+      "basis_en": "Market-Based",
+      "basis_zh": "市场法",
+      "evidence_page": "142",
+      "source_file": "CONTINENTAL annual-report-2024.pdf",
+      "report_title_en": "CONTINENTAL annual-report-2024.pdf",
+      "report_title_zh": "CONTINENTAL annual-report-2024.pdf",
+      "review_status": "auto_verified",
+      "confidence_level": "medium",
+      "acceptance_tier_code": "A1",
+      "acceptance_tier_en": "A1 structured company-level absolute value; directly usable",
+      "acceptance_tier_zh": "A1 公司级结构化绝对量，可直接使用",
+      "source_layer": "authoritative_structured",
+      "recognition_basis_en": "Expanded from source page text for direct-use Scope evidence.",
+      "recognition_basis_zh": "Expanded from source page text for direct-use Scope evidence.",
+      "page_text_found": true,
+      "page_text_file": "data/interim/world500_page_text/r344_continental__20240__annualreport.jsonl",
+      "extraction_method": "native",
+      "quality_flag": "ok",
+      "ocr_used": false,
+      "anchor_token": "1,424,774",
+      "snippet_en": "Continental AG 2024 Annual Report Management Report Sustainability Report – Environmental Information 139 Scope 1 and Scope 2 GHG emissions Retrospective Milestones and target years Base year 2023 2024 ∆ PY in % 2025 2030 2035 Reduction rate (Annual % target / Base year) Scope 1 GHG emissions Gross Scope 1 GHG emissions, in tCO2e — — 671,731 — — — — — Consolidated accounting group, in tCO2e — — 671,731 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of Scope 1 GHG emissions from regulated emissions trading systems, in % — — 19.4 — — — — — Scope 2 GHG emissions Gross location-based Scope 2 GHG emissions, in tCO2e — — 1,424,774 — — — — — Consolidated accounting group, in tCO2e — — 1,424,774 — — — — — Investees, in tCO2e — — 0 — — — — — Gross market-based Scope 2 GHG emissions, in tCO2e — — 161,504 — — — — — Consolidated accounting group, in tCO2e — — 161,504 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of energy purchased with contractual instruments, in % — — 84.7 — — — — — Definitions, assumptions, and calculation methods: Gross Scope 1 GHG emissions - Definitions and calculations according to GHG Protocol Corporate Standard (version 2004). - Emissions factors for refrigerants in accordance with Regulation (EU) 2024/573 of the European Parliament and of the Council from February 7, 2024 on fluorinated greenhouse gases are considered. These are based on the IPCC 4 and not on the more recent IPCC 6, which does not result in any significant effects. - Scope 1 comprises emissions from the combustion of energy sources in own processes. Emission factors of IEA Static, GHG Protocol and DEFRA are applied. - The data is collected by the individual locations. For certain locations, modeled calculations are used considering the number of employees and the type of operation. Gross Scope 1 GHG emissions – consolidated accounting group - Continental considers Scope 1 emissions of the relevant fully consolidated companies. Gross Scope 1 GHG emissions – investees - Continental has no operational control of investees; therefore, they are not relevant for Scope 1 emissions. Relevant emissions from investees are included in Scope 3. Percentage of Scope 1 GHG emissions from regulated emissions trading systems - The EU Emissions Trading System (EU ETS) and the Shanghai Pilot ETS are considered. - Scope 1 GHG emissions from the entire location that fall under these emissions trading systems are considered. Gross Scope 2 location-based GHG emissions - Definitio",
+      "snippet_zh": "Continental AG 2024 Annual Report Management Report Sustainability Report – Environmental Information 139 Scope 1 and Scope 2 GHG emissions Retrospective Milestones and target years Base year 2023 2024 ∆ PY in % 2025 2030 2035 Reduction rate (Annual % target / Base year) Scope 1 GHG emissions Gross Scope 1 GHG emissions, in tCO2e — — 671,731 — — — — — Consolidated accounting group, in tCO2e — — 671,731 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of Scope 1 GHG emissions from regulated emissions trading systems, in % — — 19.4 — — — — — Scope 2 GHG emissions Gross location-based Scope 2 GHG emissions, in tCO2e — — 1,424,774 — — — — — Consolidated accounting group, in tCO2e — — 1,424,774 — — — — — Investees, in tCO2e — — 0 — — — — — Gross market-based Scope 2 GHG emissions, in tCO2e — — 161,504 — — — — — Consolidated accounting group, in tCO2e — — 161,504 — — — — — Investees, in tCO2e — — 0 — — — — — Percentage of energy purchased with contractual instruments, in % — — 84.7 — — — — — Definitions, assumptions, and calculation methods: Gross Scope 1 GHG emissions - Definitions and calculations according to GHG Protocol Corporate Standard (version 2004). - Emissions factors for refrigerants in accordance with Regulation (EU) 2024/573 of the European Parliament and of the Council from February 7, 2024 on fluorinated greenhouse gases are considered. These are based on the IPCC 4 and not on the more recent IPCC 6, which does not result in any significant effects. - Scope 1 comprises emissions from the combustion of energy sources in own processes. Emission factors of IEA Static, GHG Protocol and DEFRA are applied. - The data is collected by the individual locations. For certain locations, modeled calculations are used considering the number of employees and the type of operation. Gross Scope 1 GHG emissions – consolidated accounting group - Continental considers Scope 1 emissions of the relevant fully consolidated companies. Gross Scope 1 GHG emissions – investees - Continental has no operational control of investees; therefore, they are not relevant for Scope 1 emissions. Relevant emissions from investees are included in Scope 3. Percentage of Scope 1 GHG emissions from regulated emissions trading systems - The EU Emissions Trading System (EU ETS) and the Shanghai Pilot ETS are considered. - Scope 1 GHG emissions from the entire location that fall under these emissions trading systems are considered. Gross Scope 2 location-based GHG emissions - Definitio",
+      "original_snippet_en": "market-based Auto-verified from page 142; value 1,424,774 tCO2e.",
+      "original_snippet_zh": "市场法 从第 142 页自动验真；原始值 1,424,774 tCO2e。",
+      "matched_parts": {
+        "scope": true,
+        "value": true,
+        "unit": true,
+        "year": false,
+        "scope2_method": false
+      },
+      "missing_parts": [
+        "year",
+        "scope2_method"
+      ],
+      "conflict_parts": [
+        "scope2_method"
+      ],
+      "conflict_context": "ercentage of Scope 1 GHG emissions from regulated emissions trading systems, in % — — 19.4 — — — — — Scope 2 GHG emissions Gross location-based Scope 2 GHG emissions, in tCO2e — — 1,424,774 — — — — — Consolidated accounting group, in tCO2e — — 1,424,774 — — — — — Invest",
+      "is_complete": false
+    }
+  }
+}
