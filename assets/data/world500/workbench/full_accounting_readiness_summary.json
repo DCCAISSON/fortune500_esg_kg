@@ -1,0 +1,86 @@
+{
+  "company_count": 500,
+  "full_accounting_ready_company_count": 0,
+  "candidate_or_partial_company_count": 155,
+  "evidence_graph_only_company_count": 196,
+  "source_gap_company_count": 149,
+  "status_counts": {
+    "evidence_graph_only": 196,
+    "candidate_or_partial": 155,
+    "source_gap": 149
+  },
+  "missing_requirement_counts": {
+    "has_matched_report": 149,
+    "has_standard_evidence": 163,
+    "has_method_evidence": 194,
+    "has_data_source_or_quality": 341,
+    "has_industry_mapping": 0,
+    "has_source_traceability": 150,
+    "has_direct_scope_1_2_3": 464,
+    "has_scope2_dual_method": 474,
+    "has_scope3_15_category_layer": 499,
+    "has_emission_factor_application": 500,
+    "has_gwp_version_fact": 375,
+    "has_energy_consumption_fact": 325,
+    "has_economic_instrument_fact": 348,
+    "has_target_progress_chain": 500
+  },
+  "top_missing_requirements": [
+    [
+      "has_emission_factor_application",
+      500
+    ],
+    [
+      "has_target_progress_chain",
+      500
+    ],
+    [
+      "has_scope3_15_category_layer",
+      499
+    ],
+    [
+      "has_scope2_dual_method",
+      474
+    ],
+    [
+      "has_direct_scope_1_2_3",
+      464
+    ],
+    [
+      "has_gwp_version_fact",
+      375
+    ],
+    [
+      "has_economic_instrument_fact",
+      348
+    ],
+    [
+      "has_data_source_or_quality",
+      341
+    ],
+    [
+      "has_energy_consumption_fact",
+      325
+    ],
+    [
+      "has_method_evidence",
+      194
+    ],
+    [
+      "has_standard_evidence",
+      163
+    ],
+    [
+      "has_source_traceability",
+      150
+    ],
+    [
+      "has_matched_report",
+      149
+    ],
+    [
+      "has_industry_mapping",
+      0
+    ]
+  ]
+}

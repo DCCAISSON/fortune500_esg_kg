@@ -60,6 +60,7 @@
     input: document.getElementById("company-workbench-search"),
     datalist: document.getElementById("company-workbench-options"),
     button: document.getElementById("company-workbench-open"),
+    globalAudit: document.getElementById("company-workbench-global-audit"),
     metrics: document.getElementById("company-workbench-metrics"),
     decision: document.getElementById("company-workbench-decision"),
     reportMatch: document.getElementById("company-workbench-report-match"),
@@ -73,6 +74,9 @@
 
   const state = {
     index: [],
+    overview: null,
+    readinessSummary: null,
+    upgradePlan: null,
     detailCache: new Map(),
     optionMap: new Map(),
     selectedCompanyId: "",
@@ -116,6 +120,15 @@
 
   function renderStatus(message) {
     elements.status.innerHTML = `<div class="entity-empty">${escapeHtml(String(message || ""))}</div>`;
+  }
+
+  async function fetchOptionalJson(path) {
+    try {
+      return await fetchJson(path);
+    } catch (error) {
+      console.warn(error);
+      return null;
+    }
   }
 
   function buildOptions(companies) {
@@ -216,6 +229,130 @@
     return items.map((value) => `<span class="entity-chip">${escapeHtml(value)}</span>`).join("");
   }
 
+  function formatCountPair(value, total) {
+    const safeValue = value === null || value === undefined || value === "" ? "-" : formatInt(value);
+    const safeTotal = total === null || total === undefined || total === "" ? "-" : formatInt(total);
+    return `${safeValue}/${safeTotal}`;
+  }
+
+  function renderGlobalAudit() {
+    if (!elements.globalAudit) return;
+    const overview = state.overview || {};
+    const readiness = state.readinessSummary || {};
+    const upgrade = state.upgradePlan || {};
+    const companySummary = overview.company_summary || {};
+    const evidenceSummary = overview.carbon_evidence_summary || {};
+    const upgradeCounts = upgrade.counts || {};
+    const totalCompanies = readiness.company_count || companySummary.company_count || evidenceSummary.company_count || state.index.length || 500;
+    const fullReady = readiness.full_accounting_ready_company_count ?? 0;
+    const partialReady = readiness.candidate_or_partial_company_count ?? companySummary.companies_with_authoritative_scope_rows ?? 0;
+    const evidenceOnly = readiness.evidence_graph_only_company_count ?? 0;
+    const sourceGaps = readiness.source_gap_company_count ?? companySummary.unmatched_report_company_count ?? upgradeCounts.P0_report_source_closure ?? 0;
+    const authoritativeScopeRows = evidenceSummary.direct_accounting_use_rows ?? 0;
+    const matchedReports = companySummary.matched_report_company_count ?? companySummary.published_company_count ?? 0;
+    const directScopeGap = readiness.missing_requirement_counts?.has_direct_scope_1_2_3;
+    const scope2DualGap = readiness.missing_requirement_counts?.has_scope2_dual_method;
+    const scope3Gap = readiness.missing_requirement_counts?.has_scope3_15_category_layer;
+    const factorGap = readiness.missing_requirement_counts?.has_emission_factor_application;
+    const targetGap = readiness.missing_requirement_counts?.has_target_progress_chain;
+    const cards = [
+      {
+        tone: "risk",
+        label: text("global_metric_full_ready", "Full accounting ready", "Full accounting ready"),
+        value: formatCountPair(fullReady, totalCompanies),
+        note: text("global_metric_full_ready_note", "Strict full-guidance status; do not present as 500 complete.", "Strict full-guidance status; do not present as 500 complete."),
+      },
+      {
+        tone: "ok",
+        label: text("global_metric_traceable", "Matched source reports", "Matched source reports"),
+        value: formatCountPair(matchedReports, totalCompanies),
+        note: text("global_metric_traceable_note", "Companies with parent-report source closure for traceable evidence.", "Companies with parent-report source closure for traceable evidence."),
+      },
+      {
+        tone: "ok",
+        label: text("global_metric_direct_rows", "Direct-use Scope values", "Direct-use Scope values"),
+        value: formatInt(authoritativeScopeRows),
+        note: text("global_metric_direct_rows_note", "Rows accepted as structured accounting values, not all companies.", "Rows accepted as structured accounting values, not all companies."),
+      },
+      {
+        tone: "warn",
+        label: text("global_metric_partial", "Partial / candidate", "Partial / candidate"),
+        value: formatInt(partialReady),
+        note: text("global_metric_partial_note", "Useful for review, but not full accounting guidance.", "Useful for review, but not full accounting guidance."),
+      },
+      {
+        tone: "warn",
+        label: text("global_metric_evidence_only", "Evidence-only layer", "Evidence-only layer"),
+        value: formatInt(evidenceOnly),
+        note: text("global_metric_evidence_only_note", "Traceable facts exist, but direct accounting values are incomplete.", "Traceable facts exist, but direct accounting values are incomplete."),
+      },
+      {
+        tone: "risk",
+        label: text("global_metric_source_gap", "Source gaps", "Source gaps"),
+        value: formatInt(sourceGaps),
+        note: text("global_metric_source_gap_note", "Parent-company reports still need source closure before safe extraction.", "Parent-company reports still need source closure before safe extraction."),
+      },
+    ];
+    const blockers = [
+      directScopeGap !== undefined ? formatTemplate(text("global_blocker_direct_scope", "{count} companies still miss complete direct Scope 1/2/3 values.", "{count} companies still miss complete direct Scope 1/2/3 values."), { count: formatInt(directScopeGap) }) : "",
+      scope2DualGap !== undefined ? formatTemplate(text("global_blocker_scope2", "{count} companies still miss Scope 2 market/location dual method.", "{count} companies still miss Scope 2 market/location dual method."), { count: formatInt(scope2DualGap) }) : "",
+      scope3Gap !== undefined ? formatTemplate(text("global_blocker_scope3", "{count} companies still miss complete Scope 3 fifteen-category status.", "{count} companies still miss complete Scope 3 fifteen-category status."), { count: formatInt(scope3Gap) }) : "",
+      factorGap !== undefined ? formatTemplate(text("global_blocker_factor", "{count} companies still miss emission-factor application.", "{count} companies still miss emission-factor application."), { count: formatInt(factorGap) }) : "",
+      targetGap !== undefined ? formatTemplate(text("global_blocker_target", "{count} companies still miss target-progress chains.", "{count} companies still miss target-progress chains."), { count: formatInt(targetGap) }) : "",
+    ].filter(Boolean);
+    const queueItems = [
+      ["P0", upgradeCounts.P0_report_source_closure, text("global_queue_p0", "Report source closure", "Report source closure")],
+      ["P0", upgradeCounts.P0_standard_evidence_backfill, text("global_queue_p0_standard", "Weak standard evidence backfill", "Weak standard evidence backfill")],
+      ["P1", upgradeCounts.P1_direct_scope_manual_validation, text("global_queue_p1", "Direct Scope PDF validation", "Direct Scope PDF validation")],
+      ["P1", upgradeCounts.P1_scope2_dual_method_completion, text("global_queue_p1_scope2", "Scope 2 dual-method completion", "Scope 2 dual-method completion")],
+      ["P2", upgradeCounts.P2_scope3_focus_category_reconciliation, text("global_queue_p2", "Scope 3 focus-category reconciliation", "Scope 3 focus-category reconciliation")],
+      ["P3", upgradeCounts.P3_recalculable_accounting_chain, text("global_queue_p3", "Recalculable accounting chain", "Recalculable accounting chain")],
+    ].filter((item) => item[1] !== undefined && item[1] !== null);
+    elements.globalAudit.innerHTML = `
+      <div class="workbench-global-audit">
+        <div class="workbench-global-head">
+          <div>
+            <div class="table-kicker">${escapeHtml(text("global_audit_kicker", "Demand-side acceptance status", "Demand-side acceptance status"))}</div>
+            <h2>${escapeHtml(text("global_audit_title", "Auditable workbench, not full 500-company accounting completion", "Auditable workbench, not full 500-company accounting completion"))}</h2>
+            <p>${escapeHtml(text("global_audit_lead", "This page separates direct-use results, review candidates, evidence-only facts, and source gaps so the demo does not overstate accounting readiness.", "This page separates direct-use results, review candidates, evidence-only facts, and source gaps so the demo does not overstate accounting readiness."))}</p>
+          </div>
+          <div class="workbench-global-badge">${escapeHtml(text("global_audit_badge", "Strict disclosure mode", "Strict disclosure mode"))}</div>
+        </div>
+        <div class="workbench-global-grid">
+          ${cards
+            .map(
+              (card) => `
+              <article class="workbench-global-card is-${escapeHtml(card.tone)}">
+                <span>${escapeHtml(card.label)}</span>
+                <strong>${escapeHtml(card.value)}</strong>
+                <p>${escapeHtml(card.note)}</p>
+              </article>
+            `,
+            )
+            .join("")}
+        </div>
+        <div class="workbench-claim-grid">
+          <div class="workbench-claim-card is-ok">
+            <strong>${escapeHtml(text("global_can_say_title", "Safe to say", "Safe to say"))}</strong>
+            <p>${escapeHtml(text("global_can_say_text", "The project has a strict ESG/carbon disclosure KG, source traceability, company workbench, direct-use value layer, and executable P0-P3 audit queues.", "The project has a strict ESG/carbon disclosure KG, source traceability, company workbench, direct-use value layer, and executable P0-P3 audit queues."))}</p>
+          </div>
+          <div class="workbench-claim-card is-risk">
+            <strong>${escapeHtml(text("global_do_not_say_title", "Do not claim", "Do not claim"))}</strong>
+            <p>${escapeHtml(text("global_do_not_say_text", "Do not claim all 500 companies have complete Scope 1/2/3, Scope 2 dual methods, complete Scope 3 fifteen-category coverage, or a fully recalculable factor-GWP-energy-target chain.", "Do not claim all 500 companies have complete Scope 1/2/3, Scope 2 dual methods, complete Scope 3 fifteen-category coverage, or a fully recalculable factor-GWP-energy-target chain."))}</p>
+          </div>
+        </div>
+        ${blockers.length ? `<div class="workbench-blocker-list">${blockers.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}</div>` : ""}
+        ${
+          queueItems.length
+            ? `<div class="workbench-queue-strip">${queueItems
+                .map((item) => `<span><strong>${escapeHtml(item[0])}</strong> ${escapeHtml(formatInt(item[1]))} ${escapeHtml(item[2])}</span>`)
+                .join("")}</div>`
+            : ""
+        }
+      </div>
+    `;
+  }
+
   function findDirectScopeRow(detail, scopeName) {
     const normalized = String(scopeName || "").toLowerCase().replace(/\s+/g, "");
     return (detail.authoritative_scope_rows || []).find((row) => String(row.scope_en || "").toLowerCase().replace(/\s+/g, "") === normalized);
@@ -280,6 +417,57 @@
           `,
           )
           .join("")}
+      </div>
+    `;
+  }
+
+  function buildAccountingConclusionCard(detail) {
+    const directRows = detail.authoritative_scope_rows || [];
+    const scopeNames = ["Scope 1", "Scope 2", "Scope 3"];
+    const missingDirect = scopeNames.filter((scopeName) => !findDirectScopeRow(detail, scopeName));
+    const scope3Rows = buildScope3MatrixRows(detail);
+    const scope3ValueCandidateCount = scope3Rows.filter((row) => row.statusKey === "reported_value_candidate").length;
+    const candidateCount = detail.scope_candidate_count || (detail.scope_candidates || []).length;
+    const hasInputChain = Boolean(
+      (detail.gwp_version_fact_count || 0) &&
+      (detail.energy_consumption_fact_count || 0) &&
+      (detail.accounting_input_fact_count || 0),
+    );
+    const directItems = directRows.length
+      ? directRows.map((row) => {
+          const method = pickText(row, lang, "scope2_reporting_method_zh", "scope2_reporting_method", "") || pickText(row, lang, "basis_zh", "basis_en", "");
+          const meta = [row.inventory_year, method, row.evidence_page ? `${text("trace_page", "页码", "Page")} ${row.evidence_page}` : ""].filter(Boolean).join(" | ");
+          return `${pickText(row, lang, "scope_zh", "scope_en", "")}: ${formatMaybeNumber(row.value_mtco2e, 6)} MtCO2e${meta ? ` (${meta})` : ""}`;
+        })
+      : [text("conclusion_direct_empty", "暂无可直接采信的 Scope 结果。", "No direct-use Scope result is available.")];
+    const missingItems = [
+      !detail.has_matched_report ? text("conclusion_missing_report", "母公司主报告未闭环匹配。", "Parent-company source report is not closed.") : "",
+      missingDirect.length ? formatTemplate(text("conclusion_missing_scope", "缺少直接采信值：{scopes}。", "Missing direct-use values: {scopes}."), { scopes: missingDirect.join(" / ") }) : "",
+      findDirectScopeRow(detail, "Scope 2") ? text("conclusion_missing_scope2_dual", "Scope 2 仍需确认市场法/位置法双口径是否齐全。", "Scope 2 still needs market-based/location-based dual-method completeness check.") : "",
+      scope3ValueCandidateCount < 15 ? formatTemplate(text("conclusion_missing_scope3", "Scope 3 十五类尚未形成完整直接采信矩阵：当前 {count}/15 类有数值候选。", "Scope 3 does not yet have a complete direct-use 15-category matrix: {count}/15 categories have value candidates."), { count: scope3ValueCandidateCount }) : "",
+      !hasInputChain ? text("conclusion_missing_input_chain", "排放因子、GWP、能耗输入链尚未闭环。", "Emission-factor, GWP, and energy-input chains are not closed.") : "",
+    ].filter(Boolean);
+    const cannotItems = [
+      text("conclusion_cannot_full_ready", "不能声称该企业已完成完整碳核算指导。", "Do not claim this company has complete carbon-accounting guidance."),
+      candidateCount ? formatTemplate(text("conclusion_cannot_candidates", "不能把 {count} 条 Scope 候选值当作采信结果。", "Do not treat {count} Scope candidates as accepted results."), { count: candidateCount }) : "",
+      scope3ValueCandidateCount ? text("conclusion_cannot_scope3", "不能把 Scope 3 类别候选或方法证据直接写成十五类完整披露。", "Do not present Scope 3 category candidates or method evidence as complete fifteen-category disclosure.") : "",
+      !hasInputChain ? text("conclusion_cannot_recalculate", "不能声称已具备可复算的因子-GWP-活动数据链条。", "Do not claim a reproducible factor-GWP-activity-data chain.") : "",
+    ].filter(Boolean);
+    const renderList = (items) => items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+    return `
+      <div class="accounting-conclusion-card">
+        <div>
+          <strong>${escapeHtml(text("conclusion_direct_title", "可直接使用", "Directly usable"))}</strong>
+          <ul>${renderList(directItems)}</ul>
+        </div>
+        <div>
+          <strong>${escapeHtml(text("conclusion_missing_title", "仍缺什么", "Still missing"))}</strong>
+          <ul>${renderList(missingItems.length ? missingItems : [text("conclusion_missing_none", "当前未发现主要结果层缺口，但仍需审计层复核。", "No major result-layer gap is visible, but audit-layer review is still required.")])}</ul>
+        </div>
+        <div>
+          <strong>${escapeHtml(text("conclusion_cannot_title", "不能声称", "Do not claim"))}</strong>
+          <ul>${renderList(cannotItems)}</ul>
+        </div>
       </div>
     `;
   }
@@ -364,6 +552,7 @@
       <div class="decision-scope-grid">${scopeCards}</div>
     </div>
     ${buildWorkbenchStatusMatrix(detail)}
+    ${buildAccountingConclusionCard(detail)}
     <h4 class="subtable-title">${escapeHtml(text("decision_method_summary", "报告中已识别的核算方法", "Calculation methods identified in the report"))}</h4>
         <div class="chip-list">${buildChipList(methodChips)}</div>
       </div>
@@ -444,6 +633,99 @@
       .replace(/[\s\-_\/:：()（）\[\]【】.,，。;；'’"“”]+/g, "");
   }
 
+  function evidenceSnippetText(item) {
+    return [item?.snippet_en, item?.snippet_zh].filter(Boolean).join(" ");
+  }
+
+  function evidenceContextText(item) {
+    return [
+      item?.snippet_en,
+      item?.snippet_zh,
+      item?.recognition_basis_en,
+      item?.recognition_basis_zh,
+      item?.extraction_rule_en,
+      item?.extraction_rule_zh,
+      item?.basis_note_en,
+      item?.basis_note_zh,
+    ]
+      .filter(Boolean)
+      .join(" ");
+  }
+
+  function containsEvidenceToken(haystack, token) {
+    const normalizedHaystack = normalizeEvidenceText(haystack);
+    const normalizedToken = normalizeEvidenceText(token);
+    return Boolean(normalizedHaystack && normalizedToken && normalizedHaystack.includes(normalizedToken));
+  }
+
+  function numericTokenVariants(value) {
+    const raw = String(value ?? "").trim();
+    if (!raw || raw.toLowerCase() === "nan") return [];
+    const variants = new Set([raw, raw.replace(/,/g, "")]);
+    const numeric = Number(raw.replace(/,/g, ""));
+    if (Number.isFinite(numeric)) {
+      variants.add(String(numeric));
+      variants.add(numeric.toLocaleString("en-US"));
+      if (Math.abs(numeric) >= 0.000001) {
+        variants.add(numeric.toFixed(6).replace(/0+$/, "").replace(/\.$/, ""));
+        variants.add(numeric.toFixed(3).replace(/0+$/, "").replace(/\.$/, ""));
+        variants.add(numeric.toFixed(2).replace(/0+$/, "").replace(/\.$/, ""));
+      }
+    }
+    return [...variants].filter(Boolean);
+  }
+
+  function valueEvidenceTokens(item) {
+    return uniqueValues(
+      [
+        ...numericTokenVariants(item?.value_text),
+        ...numericTokenVariants(item?.value_mtco2e),
+        ...numericTokenVariants(item?.value_numeric),
+        ...numericTokenVariants(item?.reported_value_mtco2e),
+      ],
+      12,
+    );
+  }
+
+  function unitEvidenceTokens(item) {
+    const rawTokens = [
+      item?.unit_raw,
+      item?.unit_context,
+      item?.unit,
+      item?.basis_note_en,
+      item?.basis_note_zh,
+    ].filter(Boolean);
+    const combined = rawTokens.join(" ");
+    const tokens = [...rawTokens];
+    if (/co2|co₂|carbon|emission|排放|二氧化碳/i.test(combined)) {
+      tokens.push("CO2e", "CO₂e", "tCO2e", "metric tons CO2e", "tonnes CO2e", "MtCO2e", "MMT CO2e", "million metric tons CO2e", "二氧化碳当量");
+    }
+    if (/gj|giga joules|gigajoules|吉焦/i.test(combined)) {
+      tokens.push("GJ", "Giga Joules", "Gigajoules", "吉焦");
+    }
+    return uniqueValues(tokens, 12);
+  }
+
+  function scopeEvidenceTokens(item) {
+    const scope = pickText(item || {}, lang, "scope_zh", "scope_en", "") || item?.scope_en || item?.scope_zh || "";
+    const tokens = [scope];
+    if (/scope\s*1|范围\s*1|範圍\s*1/i.test(scope)) tokens.push("Scope 1", "scope1", "范围 1", "范围1", "direct emissions");
+    if (/scope\s*2|范围\s*2|範圍\s*2/i.test(scope)) tokens.push("Scope 2", "scope2", "范围 2", "范围2", "indirect emissions");
+    if (/scope\s*3|范围\s*3|範圍\s*3/i.test(scope)) tokens.push("Scope 3", "scope3", "范围 3", "范围3");
+    return uniqueValues(tokens, 10);
+  }
+
+  function hasNumericEvidenceShape(item) {
+    return Boolean(
+      item?.value_text ||
+      item?.value_mtco2e !== undefined ||
+      item?.value_numeric !== undefined ||
+      item?.reported_value_mtco2e !== undefined ||
+      item?.scope_en ||
+      item?.scope_zh,
+    );
+  }
+
   function standardAliases(item) {
     const standardName = pickText(item, lang, "standard_name_zh", "standard_name_en", "");
     const systemLabel = pickText(item, lang, "system_label_zh", "system_label_en", "");
@@ -463,11 +745,31 @@
     return uniqueValues(aliases.filter(Boolean), 12);
   }
 
+  function directStandardAliases(item) {
+    const standardNames = [item?.standard_name_en, item?.standard_name_zh].filter(Boolean);
+    const systemLabels = [item?.system_label_en, item?.system_label_zh].filter(Boolean);
+    const basisValues = [item?.recognition_basis_en, item?.recognition_basis_zh].filter(Boolean);
+    const combined = [...standardNames, ...systemLabels, ...basisValues].join(" ");
+    const aliases = [...standardNames];
+    if (/ghg|greenhouse gas protocol|温室气体核算体系/i.test(combined)) {
+      aliases.push("GHG Protocol", "Greenhouse Gas Protocol", "Corporate Standard", "Corporate Accounting and Reporting Standard", "WBCSD/WRI", "温室气体核算体系");
+    }
+    if (/iso\s*14064/i.test(combined)) {
+      aliases.push("ISO 14064", "ISO14064", "ISO 14064-1", "ISO14064-1", "ISO 14064-2", "ISO14064-2", "ISO 14064-3", "ISO14064-3");
+    }
+    if (/iso\s*14067/i.test(combined)) {
+      aliases.push("ISO 14067", "ISO14067");
+    }
+    const gbMatches = combined.match(/GB\s*\/?\s*T\s*\d+(?:-\d+)?/gi) || [];
+    aliases.push(...gbMatches);
+    return uniqueValues(aliases.filter(Boolean), 14);
+  }
+
   function hasDirectStandardMention(item) {
-    const snippet = pickText(item, lang, "snippet_zh", "snippet_en", "");
+    const snippet = evidenceSnippetText(item);
     const normalizedSnippet = normalizeEvidenceText(snippet);
     if (!normalizedSnippet) return false;
-    return standardAliases(item).some((alias) => {
+    return directStandardAliases(item).some((alias) => {
       const normalizedAlias = normalizeEvidenceText(alias);
       return normalizedAlias && normalizedSnippet.includes(normalizedAlias);
     });
@@ -479,6 +781,79 @@
       ? text("standard_evidence_direct", "原文直接命中标准名", "Standard name appears in source text")
       : text("standard_evidence_structured", "结构化标签命中，片段未直接出现标准名，需回源复核", "Structured tag only; standard name is not visible in this snippet");
     return `<span class="standard-evidence-badge ${direct ? "is-direct" : "is-review"}">${escapeHtml(label)}</span>`;
+  }
+
+  function evidenceRelevanceStatus(item) {
+    const snippet = evidenceSnippetText(item);
+    const normalizedSnippet = normalizeEvidenceText(snippet);
+    if (!normalizedSnippet || normalizedSnippet === "nan") {
+      return {
+        strong: false,
+        className: "is-review",
+        label: text("evidence_gate_missing", "需复核：缺少可读原文片段", "Review required: source snippet is missing"),
+        reason: text("evidence_gate_missing_reason", "当前证据只有结构化字段或片段为空，不能默认作为强证据展示。", "This evidence only has structured fields or an empty snippet, so it is not shown as strong evidence by default."),
+      };
+    }
+    if (item?.standard_name_en || item?.standard_name_zh || item?.system_key) {
+      const direct = hasDirectStandardMention(item);
+      return {
+        strong: direct,
+        className: direct ? "is-direct" : "is-review",
+        label: direct
+          ? text("evidence_gate_standard_direct", "强证据：原文直接命中标准名", "Strong evidence: standard name appears in source text")
+          : text("evidence_gate_standard_review", "需复核：原文片段未直接命中标准名", "Review required: standard name is not visible in source text"),
+        reason: direct
+          ? text("evidence_gate_standard_direct_reason", "该标准事实可在原文片段中直接看到标准名或明确别名。", "The standard fact has a visible standard name or explicit alias in the source snippet.")
+          : text("evidence_gate_standard_review_reason", "该行只能说明结构化标签命中，暂不能证明报告原文直接声明该标准。", "This row only proves a structured tag hit and does not yet prove that the report text directly states the standard."),
+      };
+    }
+    if (hasNumericEvidenceShape(item)) {
+      const valueTokens = valueEvidenceTokens(item);
+      const unitTokens = unitEvidenceTokens(item);
+      const scopeTokens = scopeEvidenceTokens(item);
+      const year = item?.inventory_year || item?.report_year || item?.target_year || "";
+      const valueMatched = !valueTokens.length || valueTokens.some((token) => containsEvidenceToken(snippet, token));
+      const unitMatched = !unitTokens.length || unitTokens.some((token) => containsEvidenceToken(snippet, token));
+      const scopeMatched = !scopeTokens.length || scopeTokens.some((token) => containsEvidenceToken(snippet, token));
+      const yearMatched = !year || containsEvidenceToken(snippet, year);
+      const strong = valueMatched && unitMatched && scopeMatched && yearMatched;
+      const missing = [
+        !valueMatched ? text("evidence_gate_part_value", "数值", "value") : "",
+        !unitMatched ? text("evidence_gate_part_unit", "单位", "unit") : "",
+        !scopeMatched ? "Scope" : "",
+        !yearMatched ? text("evidence_gate_part_year", "年份", "year") : "",
+      ].filter(Boolean);
+      return {
+        strong,
+        className: strong ? "is-direct" : "is-review",
+        label: strong
+          ? text("evidence_gate_numeric_direct", "强证据：片段命中 Scope、数值、年份和单位", "Strong evidence: snippet contains scope, value, year, and unit")
+          : text("evidence_gate_numeric_review", "需复核：片段未完整命中数值证据要素", "Review required: snippet does not contain all numeric evidence parts"),
+        reason: strong
+          ? text("evidence_gate_numeric_direct_reason", "该片段可直接支撑数值证据，不依赖后台字段推断。", "The snippet directly supports the numeric evidence without relying only on backend fields.")
+          : formatTemplate(
+              text("evidence_gate_numeric_review_reason", "缺少可见要素：{parts}。该值保留采信/候选状态，但证据片段需回源核对。", "Missing visible parts: {parts}. The value keeps its acceptance/candidate status, but the evidence snippet needs source review."),
+              { parts: missing.join(" / ") || text("evidence_gate_part_unknown", "待确认", "to be checked") },
+            ),
+      };
+    }
+    return {
+      strong: true,
+      className: "is-direct",
+      label: text("evidence_gate_context", "证据片段可读", "Readable evidence snippet"),
+      reason: text("evidence_gate_context_reason", "该证据不是标准名或数值事实，默认保留原文片段供审计查看。", "This evidence is not a standard-name or numeric fact, so its snippet remains available for audit review."),
+    };
+  }
+
+  function evidenceRelevanceBadge(item) {
+    const status = evidenceRelevanceStatus(item);
+    return `<span class="standard-evidence-badge ${escapeHtml(status.className)}">${escapeHtml(status.label)}</span>`;
+  }
+
+  function renderEvidenceReviewNotice(item) {
+    const status = evidenceRelevanceStatus(item);
+    if (status.strong) return "";
+    return `<p class="evidence-review-note">${escapeHtml(status.reason)}</p>`;
   }
 
   function ensureEvidenceDrawer() {
@@ -508,9 +883,12 @@
       evidenceValue(item, "scope_zh", "scope_en", "") ||
       evidenceValue(item, "fact_type_zh", "fact_type_en", text("evidence_drawer_title_fallback", "证据回链", "Evidence trace"));
     const snippet = evidenceValue(item, "snippet_zh", "snippet_en", "");
+    const relevance = evidenceRelevanceStatus(item);
     content.innerHTML = `
       <div class="table-kicker">${escapeHtml(text("evidence_drawer_kicker", "穿透溯源层", "Traceability layer"))}</div>
       <h3 id="evidence-drawer-title">${escapeHtml(title)}</h3>
+      ${evidenceRelevanceBadge(item)}
+      <p class="evidence-review-note ${relevance.strong ? "is-direct" : "is-review"}">${escapeHtml(relevance.reason)}</p>
       <p class="table-lead">${escapeHtml(text("evidence_drawer_lead", "这里展示该事实的源报告、页码、判定依据和原文片段。它用于审计与复核，不会自动把候选值升级为核算结果。", "This drawer shows the source report, page, recognition basis, and source text for the fact. It is for audit and review; it does not automatically promote candidates into accounting results."))}</p>
       <div class="evidence-drawer-grid">
         ${renderEvidenceDrawerField(text("trace_report", "报告", "Report"), evidenceValue(item, "report_title_zh", "report_title_en", item.report_title || ""))}
@@ -557,8 +935,14 @@
       }
     }
     const snippet = pickText(item, lang, "snippet_zh", "snippet_en", "");
+    const relevance = evidenceRelevanceStatus(item);
     if (snippet) {
+      blocks.push(evidenceRelevanceBadge(item));
+    }
+    if (snippet && relevance.strong) {
       blocks.push(`<div class="cell-snippet"><strong>${escapeHtml(text("source_text_label", "原文片段", "Source text"))}</strong> ${escapeHtml(snippet)}</div>`);
+    } else if (snippet) {
+      blocks.push(renderEvidenceReviewNotice(item));
     }
     return `<div class="cell-block">${blocks.length ? blocks.join("") : `<div>${escapeHtml(t.no_data)}</div>`}</div>`;
   }
@@ -880,6 +1264,7 @@
           pickText(item, lang, "recognition_basis_zh", "recognition_basis_en", "")
         );
       })
+      .sort((a, b) => Number(!evidenceRelevanceStatus(a).strong) - Number(!evidenceRelevanceStatus(b).strong))
       .slice(0, 4);
     const ghgTrace = (detail.standards || []).find((item) => {
       const standardName = pickText(item, lang, "standard_name_zh", "standard_name_en", "");
@@ -920,15 +1305,17 @@
               const source = item.source_file || item.source_path || "";
               const recognition = pickText(item, lang, "recognition_basis_zh", "recognition_basis_en", "");
               const snippet = pickText(item, lang, "snippet_zh", "snippet_en", "");
+              const relevance = evidenceRelevanceStatus(item);
               return `
                 <article class="panel standard-trace-card">
                   <h4>${escapeHtml(standardName)}</h4>
-                  ${standardEvidenceBadge(item)}
+                  ${evidenceRelevanceBadge(item)}
                   <p><strong>${escapeHtml(text("standards_trace_system", "挂接体系", "Linked system"))}</strong> ${escapeHtml(systemLabel)}</p>
                   <p><strong>${escapeHtml(text("standards_trace_role", "标准角色", "Standard role"))}</strong> ${escapeHtml(role)}</p>
                   <p><strong>${escapeHtml(text("standards_trace_source", "证据回链", "Evidence trace"))}</strong> ${escapeHtml([source, page ? `${text("trace_page", "页码", "Page")} ${page}` : ""].filter(Boolean).join(" | ") || t.no_data)}</p>
                   ${recognition ? `<p><strong>${escapeHtml(text("recognition_label", "判定依据", "Recognition basis"))}</strong> ${escapeHtml(recognition)}</p>` : ""}
-                  ${snippet ? `<p class="cell-snippet">${escapeHtml(snippet)}</p>` : ""}
+                  ${relevance.strong && snippet ? `<p class="cell-snippet">${escapeHtml(snippet)}</p>` : renderEvidenceReviewNotice(item)}
+                  ${renderEvidenceDrawerButton(item)}
                 </article>
               `;
             })
@@ -1010,6 +1397,7 @@
                   <strong>${escapeHtml(formatMaybeNumber(row.value_mtco2e, 6))} MtCO2e</strong>
                 </div>
                 <p>${escapeHtml([share, row.inventory_year, pickText(row, lang, "scope2_reporting_method_zh", "scope2_reporting_method", "")].filter(Boolean).join(" | ") || t.no_data)}</p>
+                ${evidenceRelevanceBadge(row)}
                 ${renderEvidenceDrawerButton(row)}
               </article>
             `;
@@ -1691,8 +2079,17 @@
 
   async function init() {
     renderStatus(t.loading);
-    const index = await fetchJson(`${assetBase}/company_workbench.json`);
+    const [index, overview, readinessSummary, upgradePlan] = await Promise.all([
+      fetchJson(`${assetBase}/company_workbench.json`),
+      fetchOptionalJson(`${assetBase}/overview.json`),
+      fetchOptionalJson(`${assetBase}/full_accounting_readiness_summary.json`),
+      fetchOptionalJson(`${assetBase}/world500_accounting_upgrade_workplan_summary.json`),
+    ]);
     state.index = index.companies || [];
+    state.overview = overview;
+    state.readinessSummary = readinessSummary;
+    state.upgradePlan = upgradePlan;
+    renderGlobalAudit();
     buildOptions(state.index);
     const fromQuery = parseQueryParam("company");
     const initialCompany = state.index.find((item) => item.company_id === fromQuery) || state.index[0];
