@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>标准、排放排行与技术路径审计视图</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">世界500强 ESG 知识图谱</div>
+      <div class="nav">
+        <a class="pill" href="../index.html">Home</a>
+        <a class="pill" href="./index.html">中文</a>
+        <a class="pill" href="../en/reporting-views.html">English</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Audit Reporting Views</div>
+      <h1>标准、排放排行与技术路径审计视图</h1>
+      <p>本页承接 P1/P2 后续任务：GHG Protocol 系列映射、企业总排放强证据排行、标准角色族实体图谱、技术路径聚类，以及初级/次级数据来源气泡图。</p>
+      <p>所有图表都使用保守口径：排行只用 P0 扩展证据门禁通过的直接采信行；标准系列只按原文显式命中归类；技术成本和时间趋势只作为披露证据信号，不作为核算结论。</p>
+      <div class="downloads">
+        <a class="btn" href="./company-accounting-workbench.html">打开企业碳核算工作台</a>
+        <a class="btn alt" href="./emission-ledger.html">打开排放量账本</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="metric-grid" id="reporting-views-metrics"></div>
+    </section>
+
+    <section class="section" id="reporting-views-status"></section>
+    <section class="section" id="reporting-views-policy"></section>
+    <section class="section" id="reporting-views-ghg"></section>
+    <section class="section" id="reporting-views-ranking"></section>
+    <section class="section" id="reporting-views-standard-graph"></section>
+    <section class="section" id="reporting-views-technology"></section>
+    <section class="section" id="reporting-views-source-mix"></section>
+  </div>
+
+  <script>
+    window.REPORTING_VIEWS_CONFIG = {
+      lang: "zh",
+      assetBase: "../assets/data/world500/workbench"
+    };
+  </script>
+  <script src="../assets/js/workbench_shared.js"></script>
+  <script src="../assets/js/reporting_views.js"></script>
+</body>
+</html>
