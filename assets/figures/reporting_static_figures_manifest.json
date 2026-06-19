@@ -1,0 +1,292 @@
+{
+  "schema_version": "reporting-static-figures-manifest-v1",
+  "generated_at": "2026-06-13T08:00:17+00:00",
+  "source": "assets/data/world500/workbench/reporting_views.json",
+  "source_sha256": "10dbf7608dcb2ea88408186a4ec2afa74c3d0eb85c3f6f9a887a8f7dd3f397df",
+  "generator": "tools/sync_reporting_static_figures.py",
+  "sync_policy": "Figure 2, Figure 6, and the primary/secondary bubble PNGs are regenerated from the same reporting_views.json snapshot referenced by the GitHub pages.",
+  "required_synced_report_figures": {
+    "world500_emissions_ranking_graph.png": {
+      "figure_no": "emissions_ranking",
+      "title_en": "Comparable total-emissions ranking graph",
+      "title_zh": "企业总排放可比排行图",
+      "data_keys": [
+        "emissions_ranking"
+      ],
+      "page_sections": [
+        "reporting_views.emissions"
+      ]
+    },
+    "world500_standard_chain_overview.png": {
+      "figure_no": "figure_2",
+      "title_en": "Standards-chain briefing graphic",
+      "title_zh": "标准链静态汇报图",
+      "data_keys": [
+        "ghg_standard_series",
+        "accepted_standard_role_graph"
+      ],
+      "page_sections": [
+        "reporting_views.ghg",
+        "index.figure_2"
+      ]
+    },
+    "world500_standard_role_entity_graph.png": {
+      "figure_no": "figure_2_entity_graph",
+      "title_en": "Accepted standard-company entity graph",
+      "title_zh": "Standard-company accepted entity graph",
+      "data_keys": [
+        "accepted_standard_role_graph"
+      ],
+      "page_sections": [
+        "role-family-standard-full-graph",
+        "index.figure_2"
+      ]
+    },
+    "world500_technology_cluster_overview.png": {
+      "figure_no": "figure_6",
+      "title_en": "Technology-path briefing graphic",
+      "title_zh": "技术路径静态汇报图",
+      "data_keys": [
+        "technology_paths"
+      ],
+      "page_sections": [
+        "reporting_views.technology",
+        "index.figure_6"
+      ]
+    },
+    "world500_primary_secondary_source_mix.png": {
+      "figure_no": "primary_secondary_bubble",
+      "title_en": "Primary/secondary source-mix bubble chart",
+      "title_zh": "初级/次级数据气泡图",
+      "data_keys": [
+        "primary_secondary_data"
+      ],
+      "page_sections": [
+        "reporting_views.source_mix",
+        "index.primary_secondary_bubble"
+      ]
+    }
+  },
+  "figures": [
+    {
+      "file": "assets/figures/zh/world500_emissions_ranking_graph.png",
+      "lang": "zh",
+      "figure_no": "emissions_ranking",
+      "title_en": "Comparable total-emissions ranking graph",
+      "title_zh": "企业总排放可比排行图",
+      "data_keys": [
+        "emissions_ranking"
+      ],
+      "page_sections": [
+        "reporting_views.emissions"
+      ],
+      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
+      "claim_status": "partial_complete_comparable_only",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
+      "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
+      "bytes": 250959,
+      "sha256": "8718ccafe0ea00060b80d78764e0a2f45f5336cf403145043853b022470e6ad6"
+    },
+    {
+      "file": "assets/figures/zh/world500_standard_chain_overview.png",
+      "lang": "zh",
+      "figure_no": "figure_2",
+      "title_en": "Standards-chain briefing graphic",
+      "title_zh": "标准链静态汇报图",
+      "data_keys": [
+        "ghg_standard_series",
+        "accepted_standard_role_graph"
+      ],
+      "page_sections": [
+        "reporting_views.ghg",
+        "index.figure_2"
+      ],
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "claim_status": "partial_review_edges_remain",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
+      "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
+      "bytes": 253464,
+      "sha256": "c7c049f5da88869f27c372d23727b79a86e566df4fff0093b26109d2d02b3849"
+    },
+    {
+      "file": "assets/figures/zh/world500_standard_role_entity_graph.png",
+      "lang": "zh",
+      "figure_no": "figure_2_entity_graph",
+      "title_en": "Accepted standard-company entity graph",
+      "title_zh": "Standard-company accepted entity graph",
+      "data_keys": [
+        "accepted_standard_role_graph"
+      ],
+      "page_sections": [
+        "role-family-standard-full-graph",
+        "index.figure_2"
+      ],
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "claim_status": "partial_review_edges_remain",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
+      "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
+      "bytes": 459030,
+      "sha256": "5cfd169b1174eee93c6417a02327cc3068ac03c390219d86eb26fc45e1f0c9a8"
+    },
+    {
+      "file": "assets/figures/zh/world500_technology_cluster_overview.png",
+      "lang": "zh",
+      "figure_no": "figure_6",
+      "title_en": "Technology-path briefing graphic",
+      "title_zh": "技术路径静态汇报图",
+      "data_keys": [
+        "technology_paths"
+      ],
+      "page_sections": [
+        "reporting_views.technology",
+        "index.figure_6"
+      ],
+      "requirement_id": "R4_TECHNOLOGY_PATH_AXIS",
+      "claim_status": "partial_disclosure_signal_only",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
+      "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
+      "bytes": 338340,
+      "sha256": "51d6955179908b455a05774e0098fa6234690f01e93c9c7dea6c922a66f5f680"
+    },
+    {
+      "file": "assets/figures/zh/world500_primary_secondary_source_mix.png",
+      "lang": "zh",
+      "figure_no": "primary_secondary_bubble",
+      "title_en": "Primary/secondary source-mix bubble chart",
+      "title_zh": "初级/次级数据气泡图",
+      "data_keys": [
+        "primary_secondary_data"
+      ],
+      "page_sections": [
+        "reporting_views.source_mix",
+        "index.primary_secondary_bubble"
+      ],
+      "requirement_id": "R5_PRIMARY_SECONDARY_BUBBLE",
+      "claim_status": "partial_source_mix_inference",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Except for explicitly reported primary-data percentages, plotted ratios are source-mix inference and not audited calculation weights.",
+      "audit_boundary_zh": "除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。",
+      "bytes": 164954,
+      "sha256": "c15afa3af57560a875b0294c9bd81cb3da9a21a665c753a64fce7b6c24aed37c"
+    },
+    {
+      "file": "assets/figures/en/world500_emissions_ranking_graph.png",
+      "lang": "en",
+      "figure_no": "emissions_ranking",
+      "title_en": "Comparable total-emissions ranking graph",
+      "title_zh": "企业总排放可比排行图",
+      "data_keys": [
+        "emissions_ranking"
+      ],
+      "page_sections": [
+        "reporting_views.emissions"
+      ],
+      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
+      "claim_status": "partial_complete_comparable_only",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
+      "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
+      "bytes": 215783,
+      "sha256": "bbd4e6caa03c965abc6432c4607f21c81d42fd2921078417fe69b83401d76dbd"
+    },
+    {
+      "file": "assets/figures/en/world500_standard_chain_overview.png",
+      "lang": "en",
+      "figure_no": "figure_2",
+      "title_en": "Standards-chain briefing graphic",
+      "title_zh": "标准链静态汇报图",
+      "data_keys": [
+        "ghg_standard_series",
+        "accepted_standard_role_graph"
+      ],
+      "page_sections": [
+        "reporting_views.ghg",
+        "index.figure_2"
+      ],
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "claim_status": "partial_review_edges_remain",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
+      "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
+      "bytes": 201665,
+      "sha256": "a40503ff97527dd9f31d8b2f46a05be28e16fd8978cc270f7d3d1427abe4d434"
+    },
+    {
+      "file": "assets/figures/en/world500_standard_role_entity_graph.png",
+      "lang": "en",
+      "figure_no": "figure_2_entity_graph",
+      "title_en": "Accepted standard-company entity graph",
+      "title_zh": "Standard-company accepted entity graph",
+      "data_keys": [
+        "accepted_standard_role_graph"
+      ],
+      "page_sections": [
+        "role-family-standard-full-graph",
+        "index.figure_2"
+      ],
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "claim_status": "partial_review_edges_remain",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
+      "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
+      "bytes": 394226,
+      "sha256": "b880304ec7c0f097a35cfd930a95c2ce6e7a541d7ce0c4dc5641110affb50802"
+    },
+    {
+      "file": "assets/figures/en/world500_technology_cluster_overview.png",
+      "lang": "en",
+      "figure_no": "figure_6",
+      "title_en": "Technology-path briefing graphic",
+      "title_zh": "技术路径静态汇报图",
+      "data_keys": [
+        "technology_paths"
+      ],
+      "page_sections": [
+        "reporting_views.technology",
+        "index.figure_6"
+      ],
+      "requirement_id": "R4_TECHNOLOGY_PATH_AXIS",
+      "claim_status": "partial_disclosure_signal_only",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
+      "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
+      "bytes": 264604,
+      "sha256": "4f59437956421452d471de58d2dd355d23178f96d221db16db4c2f803aae81ea"
+    },
+    {
+      "file": "assets/figures/en/world500_primary_secondary_source_mix.png",
+      "lang": "en",
+      "figure_no": "primary_secondary_bubble",
+      "title_en": "Primary/secondary source-mix bubble chart",
+      "title_zh": "初级/次级数据气泡图",
+      "data_keys": [
+        "primary_secondary_data"
+      ],
+      "page_sections": [
+        "reporting_views.source_mix",
+        "index.primary_secondary_bubble"
+      ],
+      "requirement_id": "R5_PRIMARY_SECONDARY_BUBBLE",
+      "claim_status": "partial_source_mix_inference",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Except for explicitly reported primary-data percentages, plotted ratios are source-mix inference and not audited calculation weights.",
+      "audit_boundary_zh": "除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。",
+      "bytes": 117353,
+      "sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802"
+    }
+  ]
+}
