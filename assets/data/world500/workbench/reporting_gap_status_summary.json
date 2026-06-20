@@ -1,0 +1,330 @@
+{
+  "schema_version": "world500-reporting-gap-status-summary-v1",
+  "generated_at": "2026-06-07",
+  "overall_status_key": "partial",
+  "overall_status_zh": "这些任务没有全部完成。展示层、全屏图和静态 PNG 同步基本完成；证据层和可采信覆盖率仍需继续补强。",
+  "overall_status_en": "The requested work is not fully complete. Presentation, full-screen graph runtime, and static PNG sync are mostly implemented; evidence strength and accepted coverage still need improvement.",
+  "issue_register": {
+    "json": "assets/data/world500/workbench/world500_reporting_unresolved_issue_register.json",
+    "csv": "assets/data/world500/workbench/world500_reporting_unresolved_issue_register.csv",
+    "purpose_zh": "把未完成项转换为可执行补证据任务，包含优先级、待处理队列、下一步动作和阻断风险。",
+    "purpose_en": "Converts unresolved items into actionable evidence-closure tasks with priority, queue files, next action, and blocking risk."
+  },
+  "items": [
+    {
+      "id": "ghg_protocol_fine_series",
+      "status_key": "partial",
+      "status_zh": "部分完成",
+      "implemented_zh": "已把 GHG Protocol 拆成 19 个细分系列/标准/指南/项目节点，并在图2、GHG 全屏图和标准角色族图中展示。",
+      "remaining_zh": "显式证据仍不足：231 家 GHG 相关企业中只有 137 家显式命中具体系列；当前只有 267 条 accepted 细分边，454 条 12 类白名单内企业-系列边仍为 effective review；另有 19 条白名单外 GHG 衍生/泛化引用已隔离复核。其中 P1 样本缺少命名系列 169 条、P2 低证据上下文 285 条。不能把上下文映射当成强证据。",
+      "evidence_files": [
+        "assets/data/world500/workbench/reporting_views.json",
+        "assets/data/world500/workbench/world500_ghg_series_mapping_audit.csv",
+        "assets/data/world500/workbench/world500_ghg_contextual_series_review_queue.csv"
+      ],
+      "status_en": "Partially complete",
+      "implemented_en": "GHG Protocol has been split into fine-series standard, guidance, project-protocol, and program nodes and is shown in Figure 2, the GHG full-screen graph, and the standard role-family graph; current counts are injected from reporting_views.json and the authoritative exports.",
+      "remaining_en": "Explicit evidence remains insufficient: 137/231 GHG-related companies explicitly cite concrete series; only 267 fine-series edges are accepted, and 454 core-whitelist company-series edges remain effective review rows, and 19 out-of-whitelist GHG-derived/generic references are isolated for separate review. The open queue includes 169 P1 named-series-missing rows and 285 P2 low-evidence contextual rows. Contextual mappings must not be treated as strong evidence."
+    },
+    {
+      "id": "standard_company_relationships",
+      "status_key": "implemented_with_evidence_quality_risk",
+      "status_zh": "结构已完成，证据质量仍需持续提升",
+      "implemented_zh": "标准角色图包含 27 个标准节点、331 家企业、1241 条标准-企业关系；全屏图已按标准/行业颜色展示。",
+      "remaining_zh": "关系结构已存在，但每条边的 PDF 页码、snippet 完整度和强弱证据等级仍需继续复核。",
+      "evidence_files": [
+        "assets/data/world500/workbench/reporting_views.json",
+        "assets/data/world500/workbench/world500_standard_role_link_audit.csv"
+      ],
+      "status_en": "Structure complete, evidence quality still needs improvement",
+      "implemented_en": "The standard role graph contains the current reporting_views.json standard nodes, companies, and standard-company relationships; the full-screen graph colors standards and industries distinctly.",
+      "remaining_en": "The relationship structure exists, but each edge still needs stronger page-level traceability, snippet completeness, and evidence-strength review."
+    },
+    {
+      "id": "emissions_ranking",
+      "status_key": "partial",
+      "status_zh": "部分完成",
+      "implemented_zh": "已生成企业总排放强证据排行和静态 PNG；当前有 85 家企业可计算可用总量。",
+      "remaining_zh": "只有 16 家满足完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据可比排行；69 家 partial 总量不能混成完整排行。Scope 1、Scope 2 方法/数值和 Scope 3 缺口仍需继续回到页级证据闭环。",
+      "evidence_files": [
+        "assets/data/world500/workbench/world500_emissions_ranking_audit.csv",
+        "assets/data/world500/workbench/world500_emissions_scope1_backfill_queue.csv",
+        "assets/data/world500/workbench/world500_emissions_scope2_method_backfill_queue.csv",
+        "assets/data/world500/workbench/world500_emissions_scope2_value_backfill_queue.csv",
+        "assets/data/world500/workbench/world500_emissions_scope3_backfill_queue.csv"
+      ],
+      "status_en": "Partially complete",
+      "implemented_en": "A strong-evidence total-emissions ranking and static PNG have been generated; 85 companies currently have available total-emissions values.",
+      "remaining_en": "Only 16 companies meet the complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence comparable-ranking gate. The 69 partial totals must not be mixed into the complete ranking, and Scope 1, Scope 2 value/method, and Scope 3 gaps remain open."
+    },
+    {
+      "id": "standard_full_graph_runtime",
+      "status_key": "implemented",
+      "status_zh": "已完成",
+      "implemented_zh": "50 个 full-graph HTML 已统一为内嵌 JSON；4 个 GHG/Standard 角色族页使用 reporting_views 同源裁剪 JSON，46 个旧 generic 页使用严格版本化 JSON 和共享 generic_full_graph.js。静态 fallback 和旧 inline runtime 已移除。",
+      "remaining_zh": "两个旧 principle 角色族页本身无可绘制节点，当前进入可见空数据状态；这属于数据空缺，不是运行时 fallback。",
+      "evidence_files": [
+        "assets/js/generic_full_graph.js",
+        "assets/js/standard_cluster_full_graph.js",
+        "zh/ghg-protocol-full-graph.html",
+        "zh/role-family-standard-full-graph.html",
+        "en/ghg-protocol-full-graph.html",
+        "en/role-family-standard-full-graph.html"
+      ],
+      "status_en": "Implemented",
+      "implemented_en": "All 50 full-graph HTML pages now use embedded JSON. The 4 GHG/Standard role-family pages embed same-source reporting_views graph subsets, while 46 legacy generic pages use strict versioned JSON plus shared generic_full_graph.js. Static fallback and old inline runtime have been removed.",
+      "remaining_en": "Two legacy principle role-family pages have no drawable nodes and now enter a visible empty-data state. This is a data gap, not a runtime fallback."
+    },
+    {
+      "id": "scope_language_policy",
+      "status_key": "implemented_with_review_queue",
+      "status_zh": "口径已实现，源文引用仍需复核",
+      "implemented_zh": "页面和图谱已明确：只有 GHG Protocol 语境使用 Scope 1/2/3；非 GHG 标准默认使用直接/间接排放口径。非 GHG 标准自身名称/角色/原则中的 Scope 术语误用为 0 条。",
+      "remaining_zh": "仍有 74 条源文引用含 Scope 词，需要确认它们只作为原文证据展示，而没有被提升为非 GHG 标准自身术语。",
+      "evidence_files": [
+        "assets/data/world500/workbench/world500_standard_role_link_audit.csv",
+        "assets/data/world500/workbench/world500_non_ghg_scope_wording_review_queue.csv"
+      ],
+      "status_en": "Policy implemented, source quotations still need review",
+      "implemented_en": "Pages and graphs now state that Scope 1/2/3 terminology applies only under GHG Protocol context; non-GHG standards default to direct/indirect emissions wording. Non-GHG standard name/role/principle Scope-term misuse is currently zero.",
+      "remaining_en": "Seventy-four source quotations still contain Scope wording and need review to confirm that they are quoted source context only, not non-GHG standard terminology."
+    },
+    {
+      "id": "technology_path_axis",
+      "status_key": "partial",
+      "status_zh": "展示完成，证据核验未完成",
+      "implemented_zh": "图6 已有 9 类技术路径、流程图、标准对齐、细分技术方向、时间信号和成本信号，并生成中英文静态 PNG。另有独立页级项目证据层：74 条有效项目/措施证据，覆盖 49 家企业，其中 43 条含成本/投资证据，64 条含减排效果证据。",
+      "remaining_zh": "独立项目证据层可作为页级项目/措施强证据使用，invalid 项目证据队列为 0 条。但旧的 303 条技术-企业关系仍是 disclosure keyword signal，不是已核证项目成本、实施进度或减排量；公司级证据、时间趋势和成本/投资复核队列仍需继续处理。",
+      "evidence_files": [
+        "assets/data/world500/workbench/world500_technology_path_audit.csv",
+        "assets/data/world500/workbench/world500_technology_company_evidence_backfill_queue.csv",
+        "assets/data/world500/workbench/world500_technology_timeline_validation_queue.csv",
+        "assets/data/world500/workbench/world500_technology_cost_validation_queue.csv"
+      ],
+      "status_en": "Presentation complete, evidence validation incomplete",
+      "implemented_en": "Figure 6 now shows 9 technology paths with flow, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. A separate page-level project-evidence layer contains 74 valid project/measure records across 49 companies, including 43 cost/investment records and 64 abatement-effect records. A project-upgrade queue now covers 303 disclosure-signal edges with priority counts {'P1': 229, 'P2': 74}.",
+      "remaining_en": "The separate project-evidence layer can be used as page-level project/measure evidence, with 0 invalid project-evidence rows. However, the legacy 303 technology-company rows remain disclosure keyword signals, not verified project cost, implementation progress, or abatement values. The project-upgrade queue marks missing project/measure name, page/source binding, implementation stage, timeline, cost/investment, and abatement-effect fields; no row allows automatic promotion."
+    },
+    {
+      "id": "primary_secondary_bubble",
+      "status_key": "partial",
+      "status_zh": "展示完成，计算权重证据不足",
+      "implemented_zh": "初级/次级气泡图已生成；306 家进入来源结构数据，161 家有可显示初级/次级比例。",
+      "remaining_zh": "只有 13 家来自原文明示 primary data 百分比，其余主要是 method_rows 来源结构推断，不等同已审定计算权重。来源类别补回 145 条、unknown 占比复核 143 条、计算权重核验 161 条仍待处理。",
+      "evidence_files": [
+        "assets/data/world500/workbench/world500_primary_secondary_source_mix_audit.csv",
+        "assets/data/world500/workbench/world500_primary_secondary_source_origin_backfill_queue.csv",
+        "assets/data/world500/workbench/world500_primary_secondary_unknown_share_review_queue.csv",
+        "assets/data/world500/workbench/world500_primary_secondary_calculation_weight_validation_queue.csv"
+      ],
+      "status_en": "Presentation complete, calculation-weight evidence incomplete",
+      "implemented_en": "The primary/secondary bubble chart exists; 306 companies enter the source-mix data and 161 companies have displayable primary/secondary ratios.",
+      "remaining_en": "Only 13 companies use explicitly reported primary-data percentages. Most remaining ratios are method_rows source-mix inference and are not audited calculation weights."
+    },
+    {
+      "id": "static_png_sync",
+      "status_key": "implemented",
+      "status_zh": "已完成",
+      "implemented_zh": "排放排行、图2、图6、初级/次级气泡图均有中英文静态 PNG；manifest 记录 reporting_views 源 hash 和每张 PNG hash，GitHub 页面和汇报图可同源校验。",
+      "remaining_zh": "后续只要 reporting_views.json 更新，就必须重跑 sync_reporting_static_figures.py。",
+      "evidence_files": [
+        "assets/figures/reporting_static_figures_manifest.json",
+        "tools/sync_reporting_static_figures.py"
+      ],
+      "status_en": "Implemented",
+      "implemented_en": "The emissions ranking, Figure 2, Figure 6, and primary/secondary bubble chart all have bilingual static PNGs. The manifest records the reporting_views source hash and each PNG hash.",
+      "remaining_en": "Whenever reporting_views.json changes, sync_reporting_static_figures.py must be rerun."
+    }
+  ],
+  "next_priority_order": [
+    "P0: 继续把 GHG contextual/review 边回到 PDF 页级证据，能显式命名具体系列的升级，不能命名的降级或删除。",
+    "P0: 补完整排放排行的 Scope 1 / Scope 2 方法与数值 / Scope 3 缺口，避免 partial 总量误当完整排行。",
+    "P1: 技术路径从关键词信号升级到公司级项目证据、时间节点和成本/投资证据。",
+    "P1: 初级/次级数据比例从来源结构推断升级到真实计算权重证据。",
+    "P2: 持续复核非 GHG 标准源文引用中的 Scope 词，只保留为引用语境，不提升为非 GHG 标准术语。"
+  ],
+  "next_priority_order_en": [
+    "P0: Return GHG contextual/review edges to page-level PDF evidence; upgrade only explicitly named fine-series citations, and demote or remove weak contextual edges.",
+    "P0: Close emissions-ranking gaps for Scope 1, Scope 2 method/value, and Scope 3 so partial totals are not treated as complete comparable rankings.",
+    "P1: Upgrade technology paths from keyword signals to company-level project evidence, timeline milestones, and cost/investment evidence.",
+    "P1: Upgrade primary/secondary data ratios from source-mix inference to true calculation-weight evidence or explicitly reported primary-data percentages.",
+    "P2: Continue reviewing Scope wording in non-GHG standard source quotations so it remains source context and is not promoted into non-GHG standard terminology."
+  ],
+  "requirement_completion_matrix": {
+    "json": "assets/data/world500/workbench/world500_requirement_completion_matrix.json",
+    "csv": "assets/data/world500/workbench/world500_requirement_completion_matrix.csv",
+    "purpose_zh": "把原始五大需求逐条映射为完成状态、证据文件、未闭环队列和是否可声明完成。",
+    "purpose_en": "Maps the original requirements to completion status, proof files, unresolved queues, and whether completion can be claimed."
+  },
+  "p0_closure_batches": [
+    {
+      "issue_id": "ghg_protocol_fine_series",
+      "title_zh": "GHG Protocol 细分系列 P0 页级证据闭环批次",
+      "title_en": "GHG Protocol fine-series P0 page-level evidence closure batch",
+      "purpose_zh": "把 contextual / overmapped GHG 系列边按公司、报告和页码分组；只作为复核入口，不自动提升采信关系。",
+      "purpose_en": "Groups contextual and overmapped GHG series edges by company, report, and page; review entry only, not an automatic promotion.",
+      "batch_row_count": 164,
+      "files": [
+        {
+          "file": "assets/data/world500/workbench/world500_p0_ghg_series_evidence_closure_batch.csv",
+          "row_count": 164,
+          "exists": true
+        },
+        {
+          "file": "assets/data/world500/workbench/world500_p0_ghg_series_evidence_closure_batch.json",
+          "row_count": "",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "issue_id": "emissions_ranking",
+      "title_zh": "企业总排放排行 P0 Scope 缺口闭环批次",
+      "title_en": "Company total-emissions ranking P0 Scope-gap closure batch",
+      "purpose_zh": "把 Scope 1 / Scope 2 / Scope 3 缺口按公司和页级证据分组；确认前不得并入完整可比排行。",
+      "purpose_en": "Groups Scope 1 / Scope 2 / Scope 3 gaps by company and page-level evidence; keep out of the complete comparable ranking until confirmed.",
+      "batch_row_count": 67,
+      "files": [
+        {
+          "file": "assets/data/world500/workbench/world500_p0_emissions_ranking_evidence_closure_batch.csv",
+          "row_count": 67,
+          "exists": true
+        },
+        {
+          "file": "assets/data/world500/workbench/world500_p0_emissions_ranking_evidence_closure_batch.json",
+          "row_count": "",
+          "exists": true
+        }
+      ]
+    }
+  ],
+  "authoritative_exports": [
+    {
+      "export_id": "ghg_accepted_series_mapping",
+      "title_zh": "GHG 已采信细分标准-企业关系",
+      "title_en": "Accepted GHG fine-series standard-company mapping",
+      "purpose_zh": "仅包含原文明确命名具体 GHG Protocol 细分系列的关系，可作为当前标准-企业结论表。",
+      "purpose_en": "Contains only source-explicit GHG Protocol fine-series relationships and can be used as the current standard-company conclusion table.",
+      "row_count": 267,
+      "csv": "assets/data/world500/workbench/world500_ghg_accepted_series_mapping.csv",
+      "json": "assets/data/world500/workbench/world500_ghg_accepted_series_mapping.json"
+    },
+    {
+      "export_id": "ghg_review_series_mapping",
+      "title_zh": "GHG 待复核细分标准-企业关系",
+      "title_en": "Review-only GHG fine-series standard-company mapping",
+      "purpose_zh": "包含上下文、泛化和疑似过度映射关系，不得作为已采信结论。",
+      "purpose_en": "Contains contextual, generic, and possible overmapped relationships; not accepted conclusions.",
+      "row_count": 515,
+      "csv": "assets/data/world500/workbench/world500_ghg_review_series_mapping.csv",
+      "json": "assets/data/world500/workbench/world500_ghg_review_series_mapping.json"
+    },
+    {
+      "export_id": "ghg_out_of_whitelist_series_review",
+      "title_zh": "ghg_out_of_whitelist_series_review",
+      "title_en": "ghg_out_of_whitelist_series_review",
+      "purpose_zh": "",
+      "purpose_en": "",
+      "row_count": 19,
+      "csv": "assets/data/world500/workbench/world500_ghg_out_of_whitelist_series_review.csv",
+      "json": "assets/data/world500/workbench/world500_ghg_out_of_whitelist_series_review.json"
+    },
+    {
+      "export_id": "emissions_complete_comparable_ranking",
+      "title_zh": "完整可比企业总排放排行",
+      "title_en": "Complete comparable company total-emissions ranking",
+      "purpose_zh": "仅包含 Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁的企业。",
+      "purpose_en": "Contains only companies with complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence totals.",
+      "row_count": 16,
+      "csv": "assets/data/world500/workbench/world500_emissions_complete_comparable_ranking.csv",
+      "json": "assets/data/world500/workbench/world500_emissions_complete_comparable_ranking.json"
+    },
+    {
+      "export_id": "emissions_partial_ranking_review",
+      "title_zh": "部分总排放排行复核表",
+      "title_en": "Partial total-emissions ranking review table",
+      "purpose_zh": "包含缺 Scope 或口径未闭环的部分总量，不得混入完整可比排行。",
+      "purpose_en": "Contains partial totals with missing scope or open method issues; excluded from the complete comparable ranking.",
+      "row_count": 69,
+      "csv": "assets/data/world500/workbench/world500_emissions_partial_ranking_review.csv",
+      "json": "assets/data/world500/workbench/world500_emissions_partial_ranking_review.json"
+    },
+    {
+      "export_id": "technology_path_disclosure_signal_review",
+      "title_zh": "技术路径披露信号复核表",
+      "title_en": "Technology-path disclosure signal review table",
+      "purpose_zh": "包含公司-技术族关键词/披露信号；未经公司级验证前，不得作为技术采用、减排量、时间线或成本结论。",
+      "purpose_en": "Contains company-technology disclosure signals; not verified technology adoption, abatement, timeline, or cost conclusions before company-level validation.",
+      "row_count": 303,
+      "csv": "assets/data/world500/workbench/world500_technology_path_disclosure_signal_review.csv",
+      "json": "assets/data/world500/workbench/world500_technology_path_disclosure_signal_review.json"
+    },
+    {
+      "export_id": "primary_secondary_explicit_primary_ratio",
+      "title_zh": "初级数据明示百分比表",
+      "title_en": "Explicit primary-data percentage table",
+      "purpose_zh": "包含原文明示 primary data 百分比的企业；用于审计级计算权重前仍需验证。",
+      "purpose_en": "Contains companies with explicitly reported primary-data percentages; calculation-weight validation is still required before audit-grade use.",
+      "row_count": 13,
+      "csv": "assets/data/world500/workbench/world500_primary_secondary_explicit_primary_ratio.csv",
+      "json": "assets/data/world500/workbench/world500_primary_secondary_explicit_primary_ratio.json"
+    },
+    {
+      "export_id": "primary_secondary_source_mix_inference_review",
+      "title_zh": "初级/次级来源结构推断复核表",
+      "title_en": "Primary/secondary source-mix inference review table",
+      "purpose_zh": "包含方法行来源结构推断或非明示比例；不得作为已审定 primary data 计算权重。",
+      "purpose_en": "Contains method-row source-mix inference or non-explicit ratios; not audited primary-data calculation weights.",
+      "row_count": 293,
+      "csv": "assets/data/world500/workbench/world500_primary_secondary_source_mix_inference_review.csv",
+      "json": "assets/data/world500/workbench/world500_primary_secondary_source_mix_inference_review.json"
+    }
+  ],
+  "emissions_gap_candidate_diagnostics": {
+    "title_zh": "排放排行缺口 expanded_evidence 候选诊断",
+    "title_en": "Emissions-ranking gap candidate diagnostics from expanded_evidence",
+    "purpose_zh": "列出已在 expanded_evidence 中出现、但尚未通过强证据门禁的缺口 Scope 行；只作为复核入口，不自动提升采信。",
+    "purpose_en": "Lists missing-scope rows already present in expanded_evidence but not yet passing the strong-evidence gate; review entry only, no automatic promotion.",
+    "candidate_record_count": 24,
+    "companies_with_candidate_records": 21,
+    "missing_scope_groups_with_candidates": {
+      "Scope 1": 7,
+      "Scope 2": 9,
+      "Scope 3": 8
+    },
+    "repair_priority_counts": {
+      "P0_recheck_matched_parts_only": 3,
+      "P1_manual_confidence_upgrade_review": 11,
+      "P1_resolve_conflict": 10
+    },
+    "csv": "assets/data/world500/workbench/world500_emissions_gap_candidate_records_from_expanded_evidence.csv",
+    "json": "assets/data/world500/workbench/world500_emissions_gap_candidate_records_from_expanded_evidence.json",
+    "summary": "assets/data/world500/workbench/world500_emissions_gap_candidate_records_from_expanded_evidence_summary.json"
+  },
+  "emissions_p0_gap_review_packet": {
+    "title_zh": "排放排行 P0 缺口人工复核包",
+    "title_en": "Emissions-ranking P0 gap manual review packet",
+    "purpose_zh": "把 P0 候选拆成抽取假阴性、强候选冲突和仍需页级复核三类；所有行均禁止自动提升。",
+    "purpose_en": "Splits P0 candidates into extraction false-negative checks, conflicting strong candidates, and page-level rechecks, and generates a near-complete partial-company queue. All rows explicitly forbid automatic promotion.",
+    "row_count": 3,
+    "near_complete_upgrade_queue_rows": 69,
+    "near_complete_review_priority_counts": {
+      "P0_backfill_scope3_page_evidence": 23,
+      "P0_manual_review_candidate_page_signals": 3,
+      "P0_review_candidate_gap_records": 17,
+      "P0_review_selected_scope_evidence_elements": 9,
+      "P1_near_complete_scope_or_method_backfill": 17
+    },
+    "review_bucket_counts": {
+      "P0_page_level_recheck_required": 3
+    },
+    "signal_counts": {
+      "missing_one_or_more_basic_signals": 3
+    },
+    "auto_promote_allowed": false,
+    "csv": "assets/data/world500/workbench/world500_emissions_p0_gap_review_packet.csv",
+    "json": "assets/data/world500/workbench/world500_emissions_p0_gap_review_packet.json",
+    "near_complete_csv": "assets/data/world500/workbench/world500_emissions_near_complete_upgrade_queue.csv",
+    "summary": "assets/data/world500/workbench/world500_emissions_p0_gap_review_packet_summary.json"
+  }
+}

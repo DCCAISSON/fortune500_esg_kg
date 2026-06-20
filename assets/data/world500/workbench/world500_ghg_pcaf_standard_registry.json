@@ -1,0 +1,374 @@
+{
+  "schema_version": "world500-ghg-pcaf-standard-registry-v1",
+  "generated_at": "2026-06-19T06:38:22.059Z",
+  "source": "tools/build_world500_reporting_views.js::GHG_SERIES",
+  "acceptance_policy_en": "This is the controlled whitelist for GHG Protocol / PCAF fine-standard edges. A company-standard edge is accepted only when page-level PDF text explicitly names the specific standard, official abbreviation, or strong alias.",
+  "acceptance_policy_zh": "这是 GHG Protocol / PCAF 细分标准边的受控白名单。企业-标准边只有在 PDF 页级原文明确命名具体标准、官方缩写或强别名时才采信。",
+  "generic_reference_policy_en": "Generic GHG Protocol references stay review-only and must not be drawn as accepted graph edges.",
+  "generic_reference_policy_zh": "泛化 GHG Protocol 引用保留为复核数据，不得画成已采信图谱边。",
+  "standard_count": 12,
+  "standards": [
+    {
+      "id": "ghg_corporate_standard",
+      "name_en": "GHG Protocol Corporate Accounting and Reporting Standard",
+      "name_zh": "GHG Protocol 企业核算与报告标准",
+      "aliases_en": [
+        "The GHG Protocol Corporate Accounting and Reporting Standard",
+        "Greenhouse Gas Protocol Corporate Accounting and Reporting Standard",
+        "GHG Protocol Corporate Standard",
+        "Greenhouse Gas Protocol Corporate Standard",
+        "Corporate Accounting and Reporting Standard",
+        "Corporate Accounting Standard",
+        "A Corporate Accounting Standard",
+        "Corporate Standard"
+      ],
+      "aliases_zh": [
+        "企业核算与报告标准",
+        "GHG Protocol 企业标准",
+        "企业核算标准",
+        "企业标准"
+      ],
+      "category_key": "standard",
+      "category_en": "Standard",
+      "category_zh": "标准",
+      "role_en": "Corporate inventory accounting standard",
+      "role_zh": "企业组织层面清单核算标准",
+      "principle_en": "Relevance, completeness, consistency, transparency, and accuracy.",
+      "principle_zh": "相关性、完整性、一致性、透明性和准确性。",
+      "applicable_boundary_en": "Corporate organizational inventory accounting, including Scope 1 and Scope 2 boundaries.",
+      "applicable_boundary_zh": "企业组织层面清单核算，包括 Scope 1 和 Scope 2 边界。",
+      "language_policy_en": "Within GHG Protocol evidence, this may define Scope 1 and Scope 2 corporate inventory boundaries.",
+      "language_policy_zh": "仅在 GHG Protocol 证据下使用 Scope 1/2 的组织层面清单口径。",
+      "scope_terms_allowed": true,
+      "scope_terms_allowed_for": "Scope 1 and Scope 2 corporate inventory boundaries",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_scope3_standard",
+      "name_en": "GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
+      "name_zh": "GHG Protocol 企业价值链（Scope 3）核算与报告标准",
+      "aliases_en": [
+        "Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
+        "Corporate Value Chain (Scope 3)",
+        "Scope 3 Standard",
+        "Value Chain (Scope 3) Standard"
+      ],
+      "aliases_zh": [
+        "企业价值链（Scope 3）核算与报告标准",
+        "Scope 3 标准",
+        "价值链 Scope 3 标准"
+      ],
+      "category_key": "standard",
+      "category_en": "Standard",
+      "category_zh": "标准",
+      "role_en": "Value-chain emissions accounting standard",
+      "role_zh": "价值链排放核算标准",
+      "principle_en": "Scope 3 categories are GHG Protocol-specific category language.",
+      "principle_zh": "Scope 3 类别是 GHG Protocol 特有的类别口径。",
+      "applicable_boundary_en": "Corporate value-chain Scope 3 inventory categories and reporting.",
+      "applicable_boundary_zh": "企业价值链 Scope 3 清单类别与报告。",
+      "language_policy_en": "Scope 3 and Scope 3 category names are only used for GHG Protocol evidence.",
+      "language_policy_zh": "Scope 3 及十五类类别口径只在 GHG Protocol 证据下使用。",
+      "scope_terms_allowed": true,
+      "scope_terms_allowed_for": "Scope 3 value-chain inventory and category language",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_land_sector_removals_standard",
+      "name_en": "GHG Protocol Land Sector and Removals Standard",
+      "name_zh": "GHG Protocol 土地部门与碳移除标准",
+      "aliases_en": [
+        "Land Sector and Removals Standard",
+        "Land-Sector-and-Removals-Standard"
+      ],
+      "aliases_zh": [
+        "土地部门与碳移除标准",
+        "GHG Protocol 土地部门与碳移除标准"
+      ],
+      "category_key": "standard",
+      "category_en": "Standard",
+      "category_zh": "标准",
+      "role_en": "Land emissions and removals accounting standard",
+      "role_zh": "土地排放与碳移除核算标准",
+      "principle_en": "Quantify, report, and track land-sector emissions, CO2 removals, and related metrics.",
+      "principle_zh": "量化、报告和跟踪土地部门排放、二氧化碳移除及相关指标。",
+      "applicable_boundary_en": "Land-sector emissions, removals, storage, and related land metrics.",
+      "applicable_boundary_zh": "土地部门排放、移除、碳储存及相关土地指标。",
+      "language_policy_en": "Use land-sector/removals wording; do not translate removals into corporate Scope totals unless cited that way.",
+      "language_policy_zh": "使用土地部门/移除口径；除非原文如此引用，不直接改写为企业 Scope 总量。",
+      "scope_terms_allowed": false,
+      "scope_terms_allowed_for": "Use direct/indirect emissions, project, product, target, policy, city/community, land-sector, or financed-emissions wording instead of Scope 1/2/3.",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_product_standard",
+      "name_en": "GHG Protocol Product Life Cycle Accounting and Reporting Standard",
+      "name_zh": "GHG Protocol 产品生命周期核算与报告标准",
+      "aliases_en": [
+        "Greenhouse Gas Protocol Product Life Cycle Accounting and Reporting Standard",
+        "Product Life Cycle Accounting and Reporting Standard",
+        "GHG Protocol Product Standard",
+        "Greenhouse Gas Protocol Product Standard",
+        "GHGP Product Standard"
+      ],
+      "aliases_zh": [
+        "产品生命周期核算与报告标准",
+        "GHG Protocol 产品标准",
+        "产品生命周期标准"
+      ],
+      "category_key": "standard",
+      "category_en": "Standard",
+      "category_zh": "标准",
+      "role_en": "Product life-cycle accounting standard",
+      "role_zh": "产品生命周期核算标准",
+      "principle_en": "Product-level life-cycle boundary; not a corporate Scope 1/2/3 total by itself.",
+      "principle_zh": "产品层生命周期边界，本身不等同于企业 Scope 1/2/3 总量。",
+      "applicable_boundary_en": "Product life-cycle GHG accounting and reporting; not a corporate Scope total by itself.",
+      "applicable_boundary_zh": "产品生命周期温室气体核算与报告；本身不作为企业 Scope 总量。",
+      "language_policy_en": "Use product life-cycle wording unless the source also cites corporate Scope accounting.",
+      "language_policy_zh": "除非原文同时引用组织层 Scope 核算，否则使用产品生命周期口径。",
+      "scope_terms_allowed": false,
+      "scope_terms_allowed_for": "Use direct/indirect emissions, project, product, target, policy, city/community, land-sector, or financed-emissions wording instead of Scope 1/2/3.",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_cities_gpc",
+      "name_en": "Global Protocol for Community-Scale Greenhouse Gas Emission Inventories",
+      "name_zh": "社区规模温室气体排放清单全球协议（GPC）",
+      "aliases_en": [
+        "Global Protocol for Community-Scale Greenhouse Gas Inventories",
+        "Global Protocol for Community-Scale Greenhouse Gas Emission Inventories",
+        "GPC"
+      ],
+      "aliases_zh": [
+        "社区规模温室气体清单全球协议",
+        "社区规模温室气体排放清单全球协议",
+        "GPC"
+      ],
+      "category_key": "standard",
+      "category_en": "Standard",
+      "category_zh": "标准",
+      "role_en": "City and community inventory accounting standard",
+      "role_zh": "城市与社区清单核算标准",
+      "principle_en": "City-wide inventory accounting and reporting framework.",
+      "principle_zh": "城市范围温室气体清单核算与报告框架。",
+      "applicable_boundary_en": "City and community-scale GHG inventories, not corporate enterprise inventories.",
+      "applicable_boundary_zh": "城市与社区尺度温室气体清单，不作为企业组织清单。",
+      "language_policy_en": "Use city/community inventory wording, not corporate Scope 1/2/3 wording.",
+      "language_policy_zh": "使用城市/社区清单口径，不套用企业 Scope 1/2/3 口径。",
+      "scope_terms_allowed": false,
+      "scope_terms_allowed_for": "Use direct/indirect emissions, project, product, target, policy, city/community, land-sector, or financed-emissions wording instead of Scope 1/2/3.",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_mitigation_goal_standard",
+      "name_en": "GHG Protocol Mitigation Goal Standard",
+      "name_zh": "GHG Protocol 减缓目标标准",
+      "aliases_en": [
+        "Mitigation Goal Standard",
+        "GHG Protocol Mitigation Goal Standard"
+      ],
+      "aliases_zh": [
+        "减缓目标标准",
+        "GHG Protocol 减缓目标标准"
+      ],
+      "category_key": "policy_goal_standard",
+      "category_en": "Policy / goal standard",
+      "category_zh": "政策/目标标准",
+      "role_en": "Mitigation goal design and progress assessment standard",
+      "role_zh": "减缓目标设计与进展评估标准",
+      "principle_en": "Design mitigation goals and assess progress toward goal achievement.",
+      "principle_zh": "设计减缓目标并评估目标实现进展。",
+      "applicable_boundary_en": "Mitigation goal design and progress tracking; not a direct corporate emissions inventory standard.",
+      "applicable_boundary_zh": "减缓目标设计与进展跟踪；不直接作为企业排放清单核算标准。",
+      "language_policy_en": "Use target/progress wording; not a direct corporate emissions inventory standard.",
+      "language_policy_zh": "使用目标/进展评估口径，不等同于企业排放清单标准。",
+      "scope_terms_allowed": false,
+      "scope_terms_allowed_for": "Use direct/indirect emissions, project, product, target, policy, city/community, land-sector, or financed-emissions wording instead of Scope 1/2/3.",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_policy_action_standard",
+      "name_en": "GHG Protocol Policy and Action Standard",
+      "name_zh": "GHG Protocol 政策与行动标准",
+      "aliases_en": [
+        "Policy and Action Standard",
+        "GHG Protocol Policy and Action Standard"
+      ],
+      "aliases_zh": [
+        "政策与行动标准",
+        "GHG Protocol 政策与行动标准"
+      ],
+      "category_key": "policy_goal_standard",
+      "category_en": "Policy / goal standard",
+      "category_zh": "政策/目标标准",
+      "role_en": "Policy and action effect accounting standard",
+      "role_zh": "政策与行动影响核算标准",
+      "principle_en": "Estimate and report the greenhouse gas effect of policies and actions.",
+      "principle_zh": "估计和报告政策与行动的温室气体影响。",
+      "applicable_boundary_en": "Policies and mitigation actions; estimates the GHG effect of interventions rather than corporate inventory totals.",
+      "applicable_boundary_zh": "政策与减缓行动影响评估；估算干预措施的温室气体影响，不作为企业清单总量。",
+      "language_policy_en": "Use policy/action effect wording; do not treat as a corporate Scope total.",
+      "language_policy_zh": "使用政策/行动影响口径，不直接作为企业 Scope 总量。",
+      "scope_terms_allowed": false,
+      "scope_terms_allowed_for": "Use direct/indirect emissions, project, product, target, policy, city/community, land-sector, or financed-emissions wording instead of Scope 1/2/3.",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_scope2_guidance",
+      "name_en": "GHG Protocol Scope 2 Guidance",
+      "name_zh": "GHG Protocol Scope 2 指南",
+      "aliases_en": [
+        "Scope 2 Guidance",
+        "GHG Protocol Scope 2 Guidance"
+      ],
+      "aliases_zh": [
+        "Scope 2 指南",
+        "GHG Protocol Scope 2 指南",
+        "范围二指南"
+      ],
+      "category_key": "guidance",
+      "category_en": "Guidance",
+      "category_zh": "指南",
+      "role_en": "Purchased electricity and energy method guidance",
+      "role_zh": "外购电力与能源口径指南",
+      "principle_en": "Location-based and market-based Scope 2 reporting are separated when cited.",
+      "principle_zh": "原文显式引用时区分位置法与市场法 Scope 2 披露。",
+      "applicable_boundary_en": "Purchased electricity, steam, heat, and cooling; location-based and market-based Scope 2 methods.",
+      "applicable_boundary_zh": "外购电力、蒸汽、供热和制冷；Scope 2 位置法与市场法。",
+      "language_policy_en": "Scope 2 market-based and location-based language is treated as GHG-specific.",
+      "language_policy_zh": "Scope 2 市场法/位置法术语只在 GHG Protocol 语境下使用。",
+      "scope_terms_allowed": true,
+      "scope_terms_allowed_for": "Scope 2 location-based and market-based electricity accounting",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_scope3_calculation_guidance",
+      "name_en": "GHG Protocol Scope 3 Calculation Guidance",
+      "name_zh": "GHG Protocol Scope 3 计算指南",
+      "aliases_en": [
+        "Technical Guidance for Calculating Scope 3 Emissions",
+        "Scope 3 Calculation Guidance"
+      ],
+      "aliases_zh": [
+        "Scope 3 排放计算技术指南",
+        "Scope 3 计算指南",
+        "范围三计算指南"
+      ],
+      "category_key": "guidance",
+      "category_en": "Guidance",
+      "category_zh": "指南",
+      "role_en": "Scope 3 inventory calculation guidance",
+      "role_zh": "Scope 3 清单计算指南",
+      "principle_en": "Companion calculation guidance for completing Scope 3 inventories.",
+      "principle_zh": "配套计算指南，用于完成 Scope 3 清单。",
+      "applicable_boundary_en": "Scope 3 category calculation methods, data types, and emission-factor application.",
+      "applicable_boundary_zh": "Scope 3 类别计算方法、数据类型和排放因子应用。",
+      "language_policy_en": "Scope 3 categories are GHG-specific and only shown when the source uses that wording.",
+      "language_policy_zh": "Scope 3 类别是 GHG 特有口径，仅在原文如此使用时展示。",
+      "scope_terms_allowed": true,
+      "scope_terms_allowed_for": "Scope 3 calculation methods and category data",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_financial_industry_standard",
+      "name_en": "Global GHG Accounting and Reporting Standard for the Financial Industry",
+      "name_zh": "金融行业全球温室气体核算与报告标准",
+      "aliases_en": [
+        "The Global GHG Accounting and Reporting Standard for the Financial Industry",
+        "Global GHG Accounting and Reporting Standard for the Financial Industry",
+        "Partnership for Carbon Accounting Financials",
+        "PCAF Standard",
+        "PCAF"
+      ],
+      "aliases_zh": [
+        "金融行业全球温室气体核算与报告标准",
+        "PCAF 标准",
+        "PCAF",
+        "碳核算金融联盟"
+      ],
+      "category_key": "sector_guidance",
+      "category_en": "Sector standard / guidance",
+      "category_zh": "行业标准/指南",
+      "role_en": "Financial-industry financed-emissions methodology",
+      "role_zh": "金融行业投融资排放方法学",
+      "principle_en": "Measure financed emissions for loans and investments when explicitly cited.",
+      "principle_zh": "原文明示时用于贷款和投资的投融资排放测算。",
+      "applicable_boundary_en": "Financial-industry financed emissions and portfolio emissions for loans and investments.",
+      "applicable_boundary_zh": "金融行业贷款、投资和组合的投融资排放核算。",
+      "language_policy_en": "Use financed-emissions wording rather than corporate operational Scope totals.",
+      "language_policy_zh": "使用投融资排放口径，不改写为企业运营 Scope 总量。",
+      "scope_terms_allowed": "limited",
+      "scope_terms_allowed_for": "financed-emissions / portfolio-emissions context; do not rewrite as operational Scope totals",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_project_protocol",
+      "name_en": "GHG Protocol Project Protocol",
+      "name_zh": "GHG Protocol 项目减排核算协议",
+      "aliases_en": [
+        "The GHG Protocol for Project Accounting",
+        "GHG Protocol Project Protocol",
+        "Project Accounting Protocol"
+      ],
+      "aliases_zh": [
+        "项目核算协议",
+        "GHG Protocol 项目协议",
+        "GHG Protocol 项目减排核算协议"
+      ],
+      "category_key": "project_protocol",
+      "category_en": "Project protocol",
+      "category_zh": "项目协议",
+      "role_en": "Project-level reduction accounting protocol",
+      "role_zh": "项目层减排核算协议",
+      "principle_en": "Project accounting and reductions; not a direct corporate inventory total.",
+      "principle_zh": "项目减排核算口径，不直接等同于企业组织层总排放。",
+      "applicable_boundary_en": "Project-level baseline, project emissions, and GHG reduction accounting.",
+      "applicable_boundary_zh": "项目层面的基准线、项目排放和温室气体减排核算。",
+      "language_policy_en": "Use project or reduction-accounting language for non-inventory evidence.",
+      "language_policy_zh": "项目证据使用项目减排口径，不直接改写成 Scope 口径。",
+      "scope_terms_allowed": false,
+      "scope_terms_allowed_for": "Use direct/indirect emissions, project, product, target, policy, city/community, land-sector, or financed-emissions wording instead of Scope 1/2/3.",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    },
+    {
+      "id": "ghg_grid_connected_electricity_projects",
+      "name_en": "GHG Protocol Guidelines for Grid-Connected Electricity Projects",
+      "name_zh": "GHG Protocol 并网电力项目指南",
+      "aliases_en": [
+        "Guidelines for Grid-Connected Electricity Projects",
+        "Grid-Connected Electricity Projects"
+      ],
+      "aliases_zh": [
+        "并网电力项目指南",
+        "GHG Protocol 并网电力项目指南"
+      ],
+      "category_key": "project_guidance",
+      "category_en": "Project guidance",
+      "category_zh": "项目指南",
+      "role_en": "Grid-connected electricity project accounting guidance",
+      "role_zh": "并网电力项目核算指南",
+      "principle_en": "Use project-level electricity generation and grid-displacement accounting; do not treat it as a corporate Scope total.",
+      "principle_zh": "使用项目层面的发电与电网替代核算口径，不直接等同于企业 Scope 总量。",
+      "applicable_boundary_en": "Project-level grid-connected electricity generation and grid-displacement accounting.",
+      "applicable_boundary_zh": "项目层面的并网发电与电网替代核算。",
+      "language_policy_en": "Use grid-connected electricity project wording; Scope terminology is not promoted unless the source separately cites corporate inventory accounting.",
+      "language_policy_zh": "使用并网电力项目口径；除非原文另行引用企业清单核算，否则不提升为 Scope 术语。",
+      "scope_terms_allowed": false,
+      "scope_terms_allowed_for": "Use direct/indirect emissions, project, product, target, policy, city/community, land-sector, or financed-emissions wording instead of Scope 1/2/3.",
+      "accepted_evidence_gate_en": "Accept only when page-level PDF text explicitly names this specific standard, official abbreviation, or strong alias.",
+      "accepted_evidence_gate_zh": "仅当 PDF 页级原文明确命名该具体标准、官方缩写或强别名时采信。"
+    }
+  ]
+}

@@ -1,0 +1,1525 @@
+{
+  "schema_version": "technology-project-evidence-v1",
+  "policy": "Project evidence is curated from page-level PDF text. It does not promote disclosure keyword signals; records missing company, technology, page, source_file, snippet, and project or measure name remain review-only.",
+  "records": [
+    {
+      "company_id": "r001_walmart",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Onsite solar, wind, and storage",
+      "project_name_en": "Building Onsite Energy Generation",
+      "measure_name_en": "Investing in onsite solutions such as solar panels, wind turbines, and energy storage systems",
+      "implementation_stage": "investing",
+      "timeline_years": [
+        "2024",
+        "2030"
+      ],
+      "cost_or_investment_en": "Report states many onsite solutions include cost advantages; no quantified cost is disclosed in this snippet.",
+      "abatement_effect_en": "",
+      "evidence_page": "29",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "report_title_en": "Walmart ESG Report FY2025",
+      "snippet_en": "Building Onsite Energy Generation: We are investing in onsite solutions such as solar panels, wind turbines, and energy storage systems to reduce dependency on external power sources. Many of these solutions include cost advantages as well. Between 2024 and the end of 2030, we aim to enable up to 10 gigawatts (GW) of new clean energy projects.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r001_walmart",
+      "technology_id": "electrified_transport",
+      "subtype_id": "fleet_ev",
+      "subtype_en": "Heavy-duty battery EVs and electric yard trucks",
+      "project_name_en": "Class 8 Heavy-Duty and Yard Truck Innovations",
+      "measure_name_en": "Piloting electric semi-trucks and using electric yard trucks at some facilities",
+      "implementation_stage": "piloting and in-use at some facilities",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states electric yard trucks demonstrated over a 75% emissions reduction per hour of operation compared to diesel-powered vehicles.",
+      "evidence_page": "31",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "report_title_en": "Walmart ESG Report FY2025",
+      "snippet_en": "Class 8 Heavy-Duty and Yard Truck Innovations: We support the development of new technologies like renewable diesel, battery-electric, and hydrogen fuels through feasibility testing and collaboration with manufacturers. For example, we are piloting electric semi-trucks in our fleet and currently use electric yard trucks at some facilities, which have demonstrated over a 75% emissions reduction, per hour of operation, compared to diesel-powered vehicles.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r001_walmart",
+      "technology_id": "hydrogen_methanol",
+      "subtype_id": "fuel_cell",
+      "subtype_en": "Hydrogen fuel cell vehicles and forklifts",
+      "project_name_en": "Operationalizing New Technologies",
+      "measure_name_en": "Piloting heavy-duty battery EVs and hydrogen fuel cell vehicles, including liquid hydrogen-operated forklifts",
+      "implementation_stage": "piloting and transition",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "31",
+      "source_file": "FY2025-Walmart-ESG-Report.pdf",
+      "report_title_en": "Walmart ESG Report FY2025",
+      "snippet_en": "Operationalizing New Technologies: We are piloting innovative technologies, including heavy-duty battery EVs and hydrogen fuel cell vehicles, including transitioning to liquid hydrogen-operated forklifts and opening the first industrial-scale renewable hydrogen plant in Latin America which aims to power our hydrogen-powered forklifts in Chile.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r002_amazoncom",
+      "technology_id": "electrified_transport",
+      "subtype_id": "fleet_ev",
+      "subtype_en": "Electric delivery vans and charging network",
+      "project_name_en": "Electric delivery fleet expansion",
+      "measure_name_en": "Deploying electric delivery vans globally and chargers at delivery stations",
+      "implementation_stage": "deployed and expanding",
+      "timeline_years": [
+        "2024",
+        "2025",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report describes the eActros 600 heavy goods vehicles joining Amazon's Europe network as zero-tailpipe-emission vehicles; no quantified CO2e avoided amount is disclosed in this snippet.",
+      "evidence_page": "9",
+      "source_file": "2024-amazon-sustainability-report.pdf",
+      "report_title_en": "Amazon Sustainability Report 2024",
+      "snippet_en": "Expanding our electric delivery fleet by delivering 1.5 billion packages to customers using more than 31,400 electric delivery vans and other EVs. To support our expanding EV network, we installed 11,770 chargers at 50 delivery stations, creating the largest private charging network in the U.S. In early 2025, we also announced our largest order of zero-tailpipe-emission heavy goods vehicles, with more than 200 new Mercedes-Benz Trucks eActros 600 vehicles set to join our transportation network in Europe.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r002_amazoncom",
+      "technology_id": "low_carbon_fuels",
+      "subtype_id": "saf",
+      "subtype_en": "Sustainable aviation fuel",
+      "project_name_en": "Scaling lower-carbon fuels",
+      "measure_name_en": "Procured blended sustainable aviation fuel",
+      "implementation_stage": "procured",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "9",
+      "source_file": "2024-amazon-sustainability-report.pdf",
+      "report_title_en": "Amazon Sustainability Report 2024",
+      "snippet_en": "Scaling lower-carbon fuels. In 2024, Amazon procured 3.7 million gallons of blended sustainable aviation fuel (SAF).",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r002_amazoncom",
+      "technology_id": "renewable_power",
+      "subtype_id": "ppa_vppa",
+      "subtype_en": "Renewable energy projects",
+      "project_name_en": "Global renewable energy project portfolio",
+      "measure_name_en": "Renewable energy projects globally, including new projects in 2024",
+      "implementation_stage": "operational and expanded",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "9",
+      "source_file": "2024-amazon-sustainability-report.pdf",
+      "report_title_en": "Amazon Sustainability Report 2024",
+      "snippet_en": "621 Total renewable energy projects globally, including 124 new projects, representing 34 GW of capacity.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r007_apple",
+      "technology_id": "renewable_power",
+      "subtype_id": "ppa_vppa",
+      "subtype_en": "Supplier clean energy",
+      "project_name_en": "Supplier Clean Energy Program",
+      "measure_name_en": "Transitioning the energy used to manufacture Apple products to renewable energy",
+      "implementation_stage": "program launched and continuing",
+      "timeline_years": [
+        "2015",
+        "2024",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report shows 21.8 million metric tons avoided from supplier clean energy in Apple's comprehensive carbon footprint graphic.",
+      "evidence_page": "12",
+      "source_file": "Apple_Environmental_Progress_Report_2025.pdf",
+      "report_title_en": "Apple Environmental Progress Report 2025",
+      "snippet_en": "Apple's comprehensive carbon footprint shows avoided emissions including 21.8M avoided Supplier clean energy, alongside supplier energy efficiency, direct emissions abatement, low-carbon materials, and use of renewable electricity.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r007_apple",
+      "technology_id": "low_carbon_materials",
+      "subtype_id": "recycled_materials",
+      "subtype_en": "Recycled and renewable content",
+      "project_name_en": "Design and materials roadmap",
+      "measure_name_en": "Using recycled lithium, zinc, rare earth elements, and low-carbon materials in products",
+      "implementation_stage": "implemented in 2024 product design",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report attributes 6.2M avoided emissions to low-carbon materials in the Apple comprehensive carbon footprint graphic.",
+      "evidence_page": "13",
+      "source_file": "Apple_Environmental_Progress_Report_2025.pdf",
+      "report_title_en": "Apple Environmental Progress Report 2025",
+      "snippet_en": "We design our products to be less carbon intensive by prioritizing the use of recycled and renewable content and low-carbon materials. Our progress: More than doubled the use of certified recycled lithium and zinc shipped in our products in 2024. iPhone 16 uses more than 95 percent recycled lithium in the battery, a first for Apple.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r036_fordmotor",
+      "technology_id": "battery_storage",
+      "subtype_id": "ev_battery",
+      "subtype_en": "EV batteries and battery plants",
+      "project_name_en": "BlueOval City and BlueOval SK Battery Park",
+      "measure_name_en": "Planned investment in BlueOval City and BlueOval SK Battery Park",
+      "implementation_stage": "announced planned investment and development",
+      "timeline_years": [
+        "2021",
+        "2024"
+      ],
+      "cost_or_investment_en": "$11.4B planned investment announced in 2021.",
+      "abatement_effect_en": "",
+      "evidence_page": "7",
+      "source_file": "2025-integrated-sustainability-and-financial-report-FORD MOTOR.pdf",
+      "report_title_en": "Ford Integrated Sustainability and Financial Report 2025",
+      "snippet_en": "2021 Announced $11.4B planned investment in BlueOval City and BlueOval SK Battery Park. Launched Ford Pro. Issued $2.5B inaugural Green Bond, the largest non-financial corporate green bond to date.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r023_totalenergies",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Solar power plants with co-located battery storage",
+      "project_name_en": "Danish Fields and Cottonwood solar power plants",
+      "measure_name_en": "Commissioned solar power plants with co-located battery storage in southeast Texas",
+      "implementation_stage": "commissioned",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "24",
+      "source_file": "totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf",
+      "report_title_en": "TotalEnergies Sustainability & Climate 2025 Progress Report",
+      "snippet_en": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the country.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r031_samsungelectronics",
+      "technology_id": "low_carbon_materials",
+      "subtype_id": "process_upgrade",
+      "subtype_en": "Process gas treatment and process upgrade",
+      "project_name_en": "DS Division process gas treatment expansion",
+      "measure_name_en": "Expanded RCS process gas treatment facilities and high-efficiency RCS catalyst development",
+      "implementation_stage": "expanded installation and roadmap execution",
+      "timeline_years": [
+        "2023",
+        "2024",
+        "2030",
+        "2050"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report places process gas treatment expansion in the DS Division GHG Emission Reduction Roadmap and states the roadmap aims to achieve net zero Scope 1 and 2 emissions for the DS Division.",
+      "evidence_page": "20",
+      "source_file": "SAMSUNG ELECTRONICS_Sustainability_report_2024_en.pdf",
+      "report_title_en": "Samsung Electronics Sustainability Report 2024",
+      "snippet_en": "GHG Emission Reduction Roadmap: operate bimonthly Net Zero Committee and Carbon Reduction Committee to establish and execute DS Division GHG reduction action items; expand process gas treatment facility (RCS) installation; reduce LNG boiler usage through expansion of waste heat recovery; develop/apply high efficiency RCS catalyst; expand the utilization of waste heat recovery system; develop innovative technologies for improving process gas treatment efficiency; improve energy efficiency of FAB facilities through cooperation with facility companies; achieve net zero Scope 1, 2 emissions for DS Division.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r031_samsungelectronics",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "industrial_energy_efficiency",
+      "subtype_en": "Industrial waste-heat recovery",
+      "project_name_en": "LNG use reduction and waste heat recovery",
+      "measure_name_en": "Reduce LNG boiler usage through expansion of waste heat recovery",
+      "implementation_stage": "roadmap execution and expansion",
+      "timeline_years": [
+        "2023",
+        "2024",
+        "2030",
+        "2050"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report identifies reduced LNG boiler usage through waste heat recovery as part of Samsung Electronics' DS Division GHG Emission Reduction Roadmap to achieve net zero Scope 1 and 2 emissions.",
+      "evidence_page": "20",
+      "source_file": "SAMSUNG ELECTRONICS_Sustainability_report_2024_en.pdf",
+      "report_title_en": "Samsung Electronics Sustainability Report 2024",
+      "snippet_en": "To reduce the use of LNG boilers, Samsung Electronics will expand the utilization of waste heat and consider introducing electric heat sources. The roadmap includes reducing LNG boiler usage through expansion of waste heat recovery and expanding the utilization of the waste heat recovery system.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r031_samsungelectronics",
+      "technology_id": "renewable_power",
+      "subtype_id": "ppa_vppa",
+      "subtype_en": "Solar PPA and onsite solar",
+      "project_name_en": "Korea DS Division solar PPA",
+      "measure_name_en": "PPA with SK E&S and Samsung C&T for renewable energy from a 60 MW solar power plant",
+      "implementation_stage": "signed; renewable supply starting in 2025",
+      "timeline_years": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "21",
+      "source_file": "SAMSUNG ELECTRONICS_Sustainability_report_2024_en.pdf",
+      "report_title_en": "Samsung Electronics Sustainability Report 2024",
+      "snippet_en": "The DS Division signed a PPA with SK E&S in Nov. 2023 and with Samsung C&T in Mar. 2024 to supply approximately 76.2 GWh of renewable energy annually from a 60 MW solar power plant for 20 years for a total of 1,466 GWh of renewable energy, starting in 2025. So far, Samsung has installed a total of 2.8 MW of solar power generation facilities and generated 2.8 GWh of energy in 2023 for on-site use.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r236_pfizer",
+      "technology_id": "renewable_power",
+      "subtype_id": "ppa_vppa",
+      "subtype_en": "Solar VPPAs",
+      "project_name_en": "Spain and United States solar VPPAs",
+      "measure_name_en": "VPPAs covering solar projects expected to generate RECs for North America and EU purchased electricity",
+      "implementation_stage": "contracted; coming online in 2025",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "31",
+      "source_file": "Pfizer_2024_Impact_Report_02JUN2025.pdf",
+      "report_title_en": "Pfizer 2024 Impact Report",
+      "snippet_en": "Pfizer invests in no- and low-carbon technologies at its sites and through VPPAs that enable sourcing of renewable energy. VPPAs covering solar projects in Spain and the United States, coming online in 2025, are expected to generate RECs to cover approximately 100% of Pfizer's purchased electricity needs in North America and the EU.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r237_deltaairlines",
+      "technology_id": "low_carbon_fuels",
+      "subtype_id": "saf",
+      "subtype_en": "Sustainable aviation fuel procurement",
+      "project_name_en": "Cleaner Fuel SAF scale-up",
+      "measure_name_en": "SAF deliveries, long-term offtake agreements, Minnesota SAF Hub collaboration, and MSP blending facility launch",
+      "implementation_stage": "procured, delivered, and partnership scale-up",
+      "timeline_years": [
+        "2024",
+        "2025"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states 13M+ gallons of SAF uplifted in 2024 and 119,781 metric tons CO2e avoided.",
+      "evidence_page": "43",
+      "source_file": "delta-difference-2024-report.pdf",
+      "report_title_en": "Delta Difference 2024 Report",
+      "snippet_en": "Cleaner Fuel: Delta signed millions of gallons in long-term offtake agreements with existing and emerging SAF producers. In 2024, Delta more than tripled SAF deliveries compared to 2023, for a total of over 13 million gallons. Delta also collaborated through the Minnesota SAF Hub to produce the first-ever batch of Minnesota crop-based SAF and announced the launching of a SAF blending facility to serve MSP airport. The page states 13M+ gallons of SAF uplifted in 2024 and 119,781 metric tons CO2e avoided.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r264_riotintogroup",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Solar farm development",
+      "project_name_en": "Ngarluma Country 80 MW solar farm",
+      "measure_name_en": "Development of an 80 MW solar farm near Karratha to supply renewable energy to Pilbara operations",
+      "implementation_stage": "progressing development; not yet complete",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states the project has potential to reduce natural gas used for generation across Pilbara operations by up to 11% and could reduce emissions by up to 120 kt CO2e when complete.",
+      "evidence_page": "27",
+      "source_file": "2024-RIO TINTO GROUP-annual-report.pdf",
+      "report_title_en": "Rio Tinto Annual Report 2024",
+      "snippet_en": "Together with the Ngarluma Aboriginal Corporation, Rio Tinto is progressing the development of an 80 MW solar farm on Ngarluma Country, near Karratha, to supply renewable energy to Pilbara operations. When complete, this project has the potential to reduce the amount of natural gas currently used for generation across Pilbara operations by up to 11%, and could reduce Rio Tinto's emissions by up to 120 kt CO2e.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r264_riotintogroup",
+      "technology_id": "renewable_power",
+      "subtype_id": "ppa_vppa",
+      "subtype_en": "Wind VPPA and PPAs",
+      "project_name_en": "Monte Cristo, Overberg, and Khangela renewable electricity agreements",
+      "measure_name_en": "Executed wind VPPA and signed wind PPAs to abate Scope 2 emissions and support Richards Bay Minerals",
+      "implementation_stage": "executed and signed; construction and commissioning continue",
+      "timeline_years": [
+        "2024",
+        "2025"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Monte Cristo VPPA is described as abating regional Scope 2 emissions; other abatement is tied to renewable electricity developments.",
+      "evidence_page": "53",
+      "source_file": "2024-RIO TINTO GROUP-annual-report.pdf",
+      "report_title_en": "Rio Tinto Annual Report 2024",
+      "snippet_en": "Other renewable electricity developments: commenced construction of solar PV at Gove (10 MW) and Amrun mine (12 MW); executed wind Virtual Power Purchase Agreement (VPPA) (78.5 MW) at Monte Cristo in the US to abate regional Scope 2 emissions; completed construction and commenced operating Diavik diamond mine solar plant (3 MW); commissioned a 5 MW solar plant and commenced construction of Kennecott solar Phase 2 (25 MW); signed a 230 MW wind PPA at Overberg for Richards Bay Minerals and a 140 MW wind PPA at Khangela.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r264_riotintogroup",
+      "technology_id": "battery_storage",
+      "subtype_id": "stationary_storage",
+      "subtype_en": "Battery energy storage opportunity",
+      "project_name_en": "Yindjibarndi Energy Corporation renewable energy project",
+      "measure_name_en": "Project in development including 75 MW solar and potential wind, solar, and battery energy storage systems collaboration",
+      "implementation_stage": "in development and collaboration; not yet complete",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "27",
+      "source_file": "2024-RIO TINTO GROUP-annual-report.pdf",
+      "report_title_en": "Rio Tinto Annual Report 2024",
+      "snippet_en": "Rio Tinto is exploring a renewable energy project with the Yindjibarndi Energy Corporation. Currently in development by YEC, the project includes 75 MW of solar on a greenfield site west of Millstream Chichester National Park on Yindjibarndi Country. It is the first project the parties are exploring together since signing an MOU to collaborate on potential renewable energy opportunities, including wind and solar power and battery energy storage systems.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r052_phillips66公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Solar facility supplying renewable power to refinery operations",
+      "project_name_en": "Rodeo Renewable Energy Complex solar facility",
+      "measure_name_en": "30.2-megawatt solar facility with NextEra Energy Resources subsidiary to power the Rodeo Complex",
+      "implementation_stage": "fully operational",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "Report states renewable power solutions reduce operating costs; no quantified cost is disclosed in this snippet.",
+      "abatement_effect_en": "Facility is expected to avoid approximately 33,000 metric tons of carbon dioxide emissions a year and reduce the complex's grid power demand by 50%.",
+      "evidence_page": "14",
+      "source_file": "Phillips_66_Sustainability_and_People_Report_2025.pdf",
+      "report_title_en": "Phillips 66 Sustainability and People Report 2025",
+      "snippet_en": "Increasing Renewable Power: Phillips 66 states that it teamed up with a subsidiary of NextEra Energy Resources LLC to power its Rodeo Complex with a 30.2-megawatt solar facility. The facility is designed to generate approximately 60,000 MWh/year of electricity, reduce the complex's grid power demand by 50%, and is expected to avoid approximately 33,000 metric tons of carbon dioxide emissions a year. The facility became fully operational in 2025.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r052_phillips66公司",
+      "technology_id": "low_carbon_fuels",
+      "subtype_id": "renewable_diesel",
+      "subtype_en": "Renewable diesel and sustainable aviation fuel production",
+      "project_name_en": "Rodeo Renewable Energy Complex conversion",
+      "measure_name_en": "Conversion of the San Francisco Refinery in Rodeo into renewable fuels production",
+      "implementation_stage": "completed conversion and full processing capacity achieved",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states the complex produces renewable fuels including renewable diesel and SAF with lower life-cycle GHG emissions than conventional fuels.",
+      "evidence_page": "12",
+      "source_file": "Phillips_66_Sustainability_and_People_Report_2025.pdf",
+      "report_title_en": "Phillips 66 Sustainability and People Report 2025",
+      "snippet_en": "Expanding Renewable Fuels Production: Phillips 66 states that in 2024 it completed the conversion of its San Francisco Refinery in Rodeo, California, into the Rodeo Renewable Energy Complex. The Rodeo Complex achieved its full processing capacity of 50,000 barrels per day, or 800 million gallons per year, of renewable feedstocks and began producing sustainable aviation fuel.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r098_eni",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Photovoltaic capacity acquisition and offshore wind partnership",
+      "project_name_en": "Plenitude EDPR photovoltaic acquisition and BlueFloat Energy-Sener offshore wind partnership",
+      "measure_name_en": "Agreement to acquire 0.38 GW of photovoltaic capacity in the US and partnership for offshore wind farms in Spain",
+      "implementation_stage": "agreement and partnership announced",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "",
+      "evidence_page": "18",
+      "source_file": "eni-for-2024-just-transition.pdf",
+      "report_title_en": "Eni for 2024 Just Transition",
+      "snippet_en": "Main events: Plenitude signed an agreement with EDPR to acquire 0.38 GW of photovoltaic generation capacity in the US. Eni also reports entry into the BlueFloat Energy-Sener Renewable investments partnership for the development of offshore wind farms in Spain.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r114_royalaholddelhaize",
+      "technology_id": "renewable_power",
+      "subtype_id": "ppa_vppa",
+      "subtype_en": "Virtual power purchase agreement for solar power plants",
+      "project_name_en": "Ahold Delhaize virtual power purchase agreement for five solar power plants",
+      "measure_name_en": "Signed a virtual power purchase agreement supporting financing and construction of five solar power plants",
+      "implementation_stage": "signed",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states the VPPA corresponds to approximately 30% of total electricity usage in its European brands.",
+      "evidence_page": "11",
+      "source_file": "2024_ahold_delhaize_annual_report.pdf",
+      "report_title_en": "Ahold Delhaize Annual Report 2024",
+      "snippet_en": "Green power: Ahold Delhaize signed a virtual power purchase agreement to support the financing and construction of five solar power plants. The report states this corresponds to approximately 30% of the total electricity usage in its European brands.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r401_suncorenergy",
+      "technology_id": "carbon_management",
+      "subtype_id": "ccus",
+      "subtype_en": "Carbon capture and storage project",
+      "project_name_en": "Pathways Alliance carbon capture and storage project in northern Alberta",
+      "measure_name_en": "Proposed CCS project with Pathways Alliance and government agreement milestone",
+      "implementation_stage": "proposed project; critical milestone achieved",
+      "timeline_years": [
+        "2024",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report links the net zero objective to an interim target of reducing emissions by 10 megatonnes by 2030 across the value chain.",
+      "evidence_page": "5",
+      "source_file": "2023_SUNCOR ENERGY_sustainability_report.pdf",
+      "report_title_en": "Suncor Energy Report on Sustainability 2023",
+      "snippet_en": "Suncor states its net zero by 2050 objective, with an interim target of reducing emissions by 10 megatonnes by 2030 across its value chain, is well underway. The report describes a proposed carbon capture and storage (CCS) project in northern Alberta with the Pathways Alliance, a consortium of Canada's six largest oil sands producers, and states the Alliance's agreement with the Government of Alberta achieved a critical milestone.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r117_adm公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Wind turbine project",
+      "project_name_en": "Brazil wind turbine project",
+      "measure_name_en": "Construction of a wind turbine project in Brazil as part of Scope 1 and 2 footprint reduction projects",
+      "implementation_stage": "constructed / project delivered by 2023 disclosure",
+      "timeline_years": [
+        "2023"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states ADM delivered a 14.7% reduction in its Scope 1 and 2 footprint in 2023 from projects including transition from coal to natural gas and construction of a wind turbine project in Brazil.",
+      "evidence_page": "3",
+      "source_file": "final_archer-daniels-midland-adm_2023-corporate-sustainability-report.pdf",
+      "report_title_en": "ADM 2023 Corporate Sustainability Report",
+      "snippet_en": "ADM states that in 2023 it delivered a 14.7% reduction in its Scope 1 and 2 footprint from projects like transitioning facilities from coal to natural gas and construction of a wind turbine project in Brazil.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r454_sompoholdings",
+      "technology_id": "carbon_management",
+      "subtype_id": "methane_flaring",
+      "subtype_en": "Methane leak detection from satellite images",
+      "project_name_en": "Momentick methane leak satellite-image demonstration experiment",
+      "measure_name_en": "Sompo Japan Insurance and Sompo Risk Management demonstration experiment with Momentick Ltd. to analyze methane leaks from corporate facilities using satellite images",
+      "implementation_stage": "demonstration experiment started",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "The snippet describes detection and analysis of greenhouse gas methane leaks; quantified abatement is not disclosed.",
+      "evidence_page": "52",
+      "source_file": "2024_SOMPO HOLDINGS_sustainability_report.pdf",
+      "report_title_en": "SOMPO Holdings Sustainability Report 2024",
+      "snippet_en": "Sompo states that Sompo Japan Insurance and Sompo Risk Management started a demonstration experiment with Momentick Ltd., an Israeli start-up with methane detection technology based on satellite information, to develop services and insurance using technology for analyzing greenhouse gas methane leaks from corporate facilities from satellite images.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r461_rabobankgroup",
+      "technology_id": "carbon_management",
+      "subtype_id": "removals_offsets",
+      "subtype_en": "Agroforestry carbon removal units",
+      "project_name_en": "Acorn Agroforestry Carbon Removal Units program",
+      "measure_name_en": "Smallholder farmer agroforestry program generating Carbon Removal Units and certified nature-based carbon credits",
+      "implementation_stage": "program active and scaled",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report states 80% of carbon sales revenue goes to farmers.",
+      "abatement_effect_en": "Report states smallholder farmers switching to agroforestry can generate Carbon Removal Units through the Acorn program; 435,407 farmers were supported by Acorn.",
+      "evidence_page": "16",
+      "source_file": "rabobank_impact_report_2024.pdf",
+      "report_title_en": "Rabobank Impact Report 2024",
+      "snippet_en": "Rabobank states that in 2024 it strengthened sustainability efforts through the Acorn program. Smallholder farmers in developing and emerging regions that switch to agroforestry can generate Carbon Removal Units through the Acorn program, Agroforestry Carbon Removal Units for the Organic Restoration of Nature. The report states 435,407 farmers were supported by Acorn and 80% of carbon sales revenue goes to farmers.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r480_ecopetrol",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Solar farm for self-consumption",
+      "project_name_en": "La Cira Infantas solar farm",
+      "measure_name_en": "56 MWp solar farm in Barrancabermeja for self-consumption",
+      "implementation_stage": "inaugurated / commissioning tests started",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report states the initiative is part of a reduction of approximately USD 1.6 million in gas consumption.",
+      "abatement_effect_en": "Expected to generate up to 76.3 GWh per year and reduce 18,000 tons of CO2 equivalent emissions at Barrancabermeja.",
+      "evidence_page": "6",
+      "source_file": "2024-ECOPETROL-integrated-management-report.pdf",
+      "report_title_en": "Ecopetrol Integrated Management Report 2024",
+      "snippet_en": "Ecopetrol states that in 2024 it inaugurated the La Cira Infantas solar farm in Barrancabermeja, with an installed capacity of 56 MWp for self-consumption, expected to generate up to 76.3 gigawatt-hours per year. The initiative is part of a reduction of approximately USD 1.6 million in gas consumption and 18,000 tons in CO2 equivalent emissions at Barrancabermeja.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r349_fomentoeconómicomexicano公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Solar panels at work centers",
+      "project_name_en": "Proximity Mexico solar panels at work centers",
+      "measure_name_en": "Installed 20,250 solar panels at work centers and sourced renewable energy in Proximity Mexico operations",
+      "implementation_stage": "installed and in operation",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states around 65% of energy consumption in Proximity Mexico came from renewable sources; quantified emissions reduction is not disclosed in this snippet.",
+      "evidence_page": "44",
+      "source_file": "FEMSA_2024_Annual_Report.pdf",
+      "report_title_en": "FEMSA 2024 Annual Report",
+      "snippet_en": "FEMSA reports that in Proximity Mexico around 65% of energy consumption came from renewable sources and that 20,250 solar panels were installed at work centers. The same page also reports more than 400 electric vehicles in operations.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r379_日本kddi电信公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Perovskite solar cells for base stations",
+      "project_name_en": "Perovskite solar cells on pole-type base stations",
+      "measure_name_en": "Deployment and social implementation of thin, lightweight perovskite solar cells wrapped around pole-type base stations",
+      "implementation_stage": "deployment and social implementation",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states the technology is intended to enable space-efficient power generation compared with traditional solar panels; quantified abatement is not disclosed in this snippet.",
+      "evidence_page": "20",
+      "source_file": "kddi_sir2024_e.pdf",
+      "report_title_en": "KDDI Sustainability Integrated Report 2024",
+      "snippet_en": "KDDI reports that it is focusing on deployment and social implementation of perovskite solar cells, characterized as thin, lightweight, and flexible. The report states these cells can be wrapped around poles installed on pole-type base stations, allowing space-efficient and effective power generation compared to traditional solar panels.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r400_gsk",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_certificates",
+      "subtype_en": "Renewable electricity procurement and onsite generation",
+      "project_name_en": "RE100 renewable electricity procurement and onsite generation program",
+      "measure_name_en": "Purchased renewable electricity and onsite renewably generated electricity as part of Scope 2 renewable electricity target",
+      "implementation_stage": "implemented and progressing",
+      "timeline_years": [
+        "2024",
+        "2025",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states 90% imported renewable electricity in 2024 and energy table reports 852 GWh purchased renewable electricity plus 22 GWh onsite renewably generated electricity.",
+      "evidence_page": "24",
+      "source_file": "GSK-responsible-business-performance-report-2024.pdf",
+      "report_title_en": "GSK Responsible Business Performance Report 2024",
+      "snippet_en": "GSK reports renewable electricity performance in 2024, including purchased renewable electricity of 852 GWh and onsite renewably generated electricity of 22 GWh. The report also states that GSK reached 90% imported renewable electricity in 2024 and has targets for 100% imported renewable electricity by 2025 and 100% renewable electricity, imported and generated, by 2030.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r478_siemensenergy",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_certificates",
+      "subtype_en": "Renewable electricity for global facilities",
+      "project_name_en": "Renewable electricity for all Siemens Energy facilities",
+      "measure_name_en": "Using renewable electricity in all facilities around the globe as a lever for climate-neutral operations",
+      "implementation_stage": "target reached in fiscal year 2023 and maintained in operations",
+      "timeline_years": [
+        "2023",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report identifies renewable electricity in all facilities as one lever for reducing Siemens Energy's carbon footprint; quantified abatement is not disclosed in this snippet.",
+      "evidence_page": "7",
+      "source_file": "SIEMENS ENERGY-sustainability-report-2024-pdf_Original%20file.pdf",
+      "report_title_en": "Siemens Energy Sustainability Report 2024",
+      "snippet_en": "Siemens Energy states that its goal is to be climate neutral within operations by 2030. One lever is using renewable electricity in all facilities around the globe, a target the company says it reached in fiscal year 2023. The same passage also notes reducing energy consumption, increasing electrification in processes and buildings, and transforming the entire car fleet to 100% electric vehicles.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r487_heineken",
+      "technology_id": "renewable_power",
+      "subtype_id": "onsite_solar_wind",
+      "subtype_en": "Biomass and concentrated solar thermal at breweries",
+      "project_name_en": "Brazil and Vietnam biomass use and Spain concentrated solar thermal breweries",
+      "measure_name_en": "Using biomass at two large operating companies and concentrated solar thermal at two Spanish breweries",
+      "implementation_stage": "in use",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report presents these as success cases for decarbonising operations; quantified abatement is not disclosed in this snippet.",
+      "evidence_page": "4",
+      "source_file": "heineken_n_v_annual_report_2024_final_20feb2025.pdf",
+      "report_title_en": "HEINEKEN Annual Report 2024",
+      "snippet_en": "HEINEKEN reports success cases for decarbonising operations: two of its largest operating companies, Brazil and Vietnam, are using biomass, and two of its breweries in Spain are using concentrated solar thermal to harness the power of the sun.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r478_siemensenergy",
+      "technology_id": "electrified_transport",
+      "subtype_id": "fleet_ev",
+      "subtype_en": "Owned fleet EV transition",
+      "project_name_en": "Siemens Energy 100% electric car fleet transformation",
+      "measure_name_en": "Transforming the entire car fleet to 100% electric vehicles as part of climate-neutral operations by 2030",
+      "implementation_stage": "in progress toward 2030 climate-neutral operations target",
+      "timeline_years": [
+        "2023",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report identifies fleet electrification as one lever for reducing Siemens Energy's operational carbon footprint; quantified abatement is not disclosed in this snippet.",
+      "evidence_page": "7",
+      "source_file": "SIEMENS ENERGY-sustainability-report-2024-pdf_Original%20file.pdf",
+      "report_title_en": "Siemens Energy Sustainability Report 2024",
+      "snippet_en": "Siemens Energy states that its goal is to be climate neutral within operations by 2030. One lever is using renewable electricity in all facilities around the globe, a target the company says it reached in fiscal year 2023. The same passage also notes reducing energy consumption, increasing electrification in processes and buildings, and transforming the entire car fleet to 100% electric vehicles.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r478_siemensenergy",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "industrial_electrification",
+      "subtype_en": "Process and building electrification",
+      "project_name_en": "Siemens Energy process and building electrification program",
+      "measure_name_en": "Increasing electrification in processes and buildings while reducing energy consumption",
+      "implementation_stage": "in progress toward 2030 climate-neutral operations target",
+      "timeline_years": [
+        "2023",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report identifies energy consumption reduction and electrification in processes and buildings as operational decarbonization levers; quantified abatement is not disclosed in this snippet.",
+      "evidence_page": "7",
+      "source_file": "SIEMENS ENERGY-sustainability-report-2024-pdf_Original%20file.pdf",
+      "report_title_en": "Siemens Energy Sustainability Report 2024",
+      "snippet_en": "Siemens Energy states that its goal is to be climate neutral within operations by 2030. One lever is using renewable electricity in all facilities around the globe, a target the company says it reached in fiscal year 2023. The same passage also notes reducing energy consumption, increasing electrification in processes and buildings, and transforming the entire car fleet to 100% electric vehicles.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r208_sumitomomitsuifinancialgroup",
+      "technology_id": "carbon_management",
+      "subtype_id": "ccs_infrastructure_finance",
+      "subtype_en": "CCS infrastructure project finance",
+      "project_name_en": "Net Zero Teesside Power and Northern Endurance Partnership",
+      "measure_name_en": "Project finance for UK CCS infrastructure covering thermal power generation, carbon capture, carbon transportation and storage",
+      "implementation_stage": "project finance case study",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "Report names project finance for CCS infrastructure; financed amount is not disclosed in this snippet.",
+      "abatement_effect_en": "Snippet states the infrastructure will supply low-carbon electricity to more than 1 million households.",
+      "evidence_page": "27",
+      "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
+      "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
+      "snippet_en": "The Transition Finance Playbook case study lists project finance for CCS infrastructure in the UK: Net Zero Teesside Power for thermal power generation and carbon capture, and the Northern Endurance Partnership for carbon transportation and storage. The snippet states the project will supply low-carbon electricity to more than 1 million households and contribute to renewable energy expansion as an adjustment power source.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r208_sumitomomitsuifinancialgroup",
+      "technology_id": "low_carbon_fuels",
+      "subtype_id": "saf",
+      "subtype_en": "Sustainable aviation fuel project finance",
+      "project_name_en": "Green loan to Twelve SAF production project",
+      "measure_name_en": "Providing a USD 20 million green loan to Twelve, a company that converts CO2 into chemical products, supporting a SAF production project",
+      "implementation_stage": "green loan provided",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "USD 20 million green loan.",
+      "abatement_effect_en": "Report snippet states SAF has a 90% reduction in CO2 emissions; boundary and baseline require project-level follow-up.",
+      "evidence_page": "27",
+      "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
+      "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
+      "snippet_en": "The Transition Finance Playbook case study states that SMFG is providing a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same snippet states SAF has a 90% reduction in CO2 emissions.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r208_sumitomomitsuifinancialgroup",
+      "technology_id": "hydrogen_methanol",
+      "subtype_id": "hydrogen_fund",
+      "subtype_en": "Hydrogen fund equity investment",
+      "project_name_en": "Japan Hydrogen Fund equity participation",
+      "measure_name_en": "Providing equity through the Japan Hydrogen Fund as part of transition finance case studies",
+      "implementation_stage": "equity participation disclosed",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "Equity participation disclosed; amount is not quantified in this snippet.",
+      "abatement_effect_en": "Hydrogen abatement is not quantified in this snippet.",
+      "evidence_page": "27",
+      "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
+      "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
+      "snippet_en": "The Transition Finance Playbook case study states that SMFG is also providing equity through the Japan Hydrogen Fund, alongside the CCS infrastructure finance and the green loan supporting a SAF production project.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r261_intel",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "green_bond_efficiency_projects",
+      "subtype_en": "Green bond-funded efficiency and abatement projects",
+      "project_name_en": "Intel Green Bond project allocation",
+      "measure_name_en": "Allocating green bond proceeds to HVAC upgrades, heat recovery, greenhouse gas abatement systems and water reclaim facility upgrades",
+      "implementation_stage": "projects funded and reported in 2024 Green Bond Report",
+      "timeline_years": [
+        "2022",
+        "2024"
+      ],
+      "cost_or_investment_en": "Cumulative USD 639 million allocation, about 51% of a USD 1.25 billion green bond issued in 2022.",
+      "abatement_effect_en": "Project areas include energy efficiency, renewable electricity and greenhouse gas abatement systems; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "6",
+      "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
+      "report_title_en": "Intel Corporate Responsibility Report 2024-25",
+      "snippet_en": "Intel states that in its second Annual Green Bond Report, published in 2024, it outlined the allocation of a cumulative USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r401_suncorenergy",
+      "technology_id": "battery_storage",
+      "subtype_id": "flow_battery_vanadium",
+      "subtype_en": "Vanadium electrolyte for flow batteries",
+      "project_name_en": "Lower-cost vanadium for energy storage initiative",
+      "measure_name_en": "Using vanadium produced at coke-fired boilers as electrolyte input for flow batteries to support low-cost energy storage",
+      "implementation_stage": "initiative supported by Emissions Reduction Alberta",
+      "timeline_years": [
+        "2023"
+      ],
+      "cost_or_investment_en": "Emissions Reduction Alberta invested USD 7 million through the Circular Economy Challenge to support the initiative.",
+      "abatement_effect_en": "Report states the initiative should support integration of renewable electricity generation and contribute to low-cost storage needed for greater adoption of low-carbon electricity.",
+      "evidence_page": "17",
+      "source_file": "2023_SUNCOR ENERGY_sustainability_report.pdf",
+      "report_title_en": "Suncor Energy Sustainability Report 2023",
+      "snippet_en": "Suncor reports that vanadium produced at coke-fired boilers produces the electrolyte used in flow batteries. Increasing the use of lower-cost vanadium for the energy storage industry is anticipated to support increased integration of renewable electricity generation into the energy system. Emissions Reduction Alberta invested USD 7 million through the Circular Economy Challenge to support the initiative, which is expected to contribute to low-cost energy storage solutions required for greater adoption of low-carbon electricity generation.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r176_巴西jbs公司",
+      "technology_id": "carbon_management",
+      "subtype_id": "methane_capture_biodigesters",
+      "subtype_en": "Methane capture through biodigesters",
+      "project_name_en": "Lagoon-covering methane capture projects",
+      "measure_name_en": "Covering lagoons for methane capture through biodigesters and converting captured methane into clean fuel",
+      "implementation_stage": "project portfolio disclosed",
+      "timeline_years": [
+        "2023",
+        "2030"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report links the projects to methane capture and clean-fuel conversion; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "21",
+      "source_file": "JBS_Sustainability_Report_2023.pdf",
+      "report_title_en": "JBS Sustainability Report 2023",
+      "snippet_en": "JBS reports monitoring indicators related to electricity and water consumption to optimize production processes and reduce usage, a target to achieve 60% renewable electricity use by 2030, and projects covering lagoons for methane capture through biodigesters, converting it into clean fuel.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r120_nippontelegraphandtelephone",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_energy_infrastructure",
+      "subtype_en": "Renewable energy infrastructure and GX solutions",
+      "project_name_en": "Green Power Investment and NTT GX Inno",
+      "measure_name_en": "Bringing Green Power Investment Corporation into the Group and launching NTT GX Inno to leverage renewable energy infrastructure",
+      "implementation_stage": "acquisition and solution brand launched",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "M&A option and acquisition disclosed; transaction amount is not disclosed in this snippet.",
+      "abatement_effect_en": "Report states the initiative strengthens solutions that contribute to customers' green transformations; quantified abatement is not disclosed in this snippet.",
+      "evidence_page": "15",
+      "source_file": "NIPPON TELEGRAPH AND TELEPHONE-integrated_report_24e_p.pdf",
+      "report_title_en": "Nippon Telegraph and Telephone Integrated Report 2024",
+      "snippet_en": "NTT reports that outside the communications business, in the environment and energy field, it brought Green Power Investment Corporation into the Group and is expanding renewable energy sources. It also launched NTT GX Inno, a brand of solutions for green transformation, to leverage renewable energy infrastructure, technology and expertise to strengthen solutions that contribute to customers' green transformations.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r387_schneiderelectric",
+      "technology_id": "low_carbon_materials",
+      "subtype_id": "low_carbon_concrete",
+      "subtype_en": "CO2-injected low-carbon concrete",
+      "project_name_en": "CarbonCure low-carbon concrete technology",
+      "measure_name_en": "Deploying CarbonCure technology to inject CO2 into concrete, creating low-carbon concrete and permanent CO2 storage",
+      "implementation_stage": "technology deployed globally",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Report states the technology creates low-carbon concrete and achieves permanent CO2 storage; quantified abatement is not disclosed in this snippet.",
+      "evidence_page": "45",
+      "source_file": "2024-SCHNEIDER ELECTRIC-sustainability-report_tcm564-513141.pdf",
+      "report_title_en": "Schneider Electric Sustainability Report 2024",
+      "snippet_en": "Schneider Electric reports that CarbonCure's technology, deployed globally, injects CO2 into concrete to create low-carbon concrete, achieving permanent CO2 storage and demonstrating scalability as a climate solution. The same page also references the Mekong River Delta Water Purifier project and future AVEVA portfolio projects.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r033_cignagroup",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_electricity_procurement",
+      "subtype_en": "Renewable electricity procurement and EACs",
+      "project_name_en": "Renewable electricity sourcing and EAC procurement",
+      "measure_name_en": "Sourcing renewable electricity, purchasing Energy Attribute Certificates, and exploring long-term renewable procurement agreements including PPAs and onsite renewables",
+      "implementation_stage": "procurement active; long-term agreements under exploration",
+      "timeline_years": [
+        "2022",
+        "2024",
+        "2030"
+      ],
+      "cost_or_investment_en": "Report states strategic investments in building improvements; no quantified renewable-procurement cost is disclosed in this snippet.",
+      "abatement_effect_en": "Report states Cigna sourced approximately 52% of global power needs from renewable electricity by the end of 2024 and targets 100% renewable electricity by 2030.",
+      "evidence_page": "50",
+      "source_file": "2024-corporate-impact-report-CIGNA GROUP.pdf",
+      "report_title_en": "Cigna Group Corporate Impact Report 2024",
+      "snippet_en": "Cigna reports that it is sourcing renewables and purchasing Energy Attribute Certificates (EACs), committed to sourcing 100% renewable electricity by 2030, joined the global RE100 pledge in 2022, and by the end of 2024 sourced approximately 52% of its global power needs from renewable electricity. The report also states it continues to explore long-term renewable energy procurement agreements, including power purchase agreements and onsite renewables where plausible.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r208_sumitomomitsuifinancialgroup",
+      "technology_id": "renewable_power",
+      "subtype_id": "wind_power_transition_finance",
+      "subtype_en": "Wind power and transmission transition finance",
+      "project_name_en": "India wind power and power-supply infrastructure transition finance case",
+      "measure_name_en": "Supporting development of wind power facilities and transmission infrastructure in India through transition finance engagement",
+      "implementation_stage": "transition finance case study; deals executed",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "Report discloses 46 transition-finance deals executed; individual wind-project financing amount is not disclosed in this snippet.",
+      "abatement_effect_en": "Report presents wind power and transmission support as renewable-energy expansion and transition finance; quantified project abatement is not disclosed in this snippet.",
+      "evidence_page": "28",
+      "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
+      "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
+      "snippet_en": "SMFG's Transition Finance Playbook case studies state that criteria for transition-finance assets are set by region and include India: wind power and power supply infrastructure. The snippet states SMFG is supporting the development of wind power facilities and transmission infrastructure in India, with achievements including 46 deals executed and engagement with 130 companies.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r440_philipmorrisinternational",
+      "technology_id": "renewable_power",
+      "subtype_id": "manufacturing_site_zero_carbon_technology",
+      "subtype_en": "Manufacturing-site renewable and zero-carbon technologies",
+      "project_name_en": "Zero Carbon Technology initiatives at manufacturing facilities",
+      "measure_name_en": "Installing heat pumps, e-boilers, hybrid boilers, biomass boilers, and solar panels at five manufacturing facilities",
+      "implementation_stage": "installed in 2024",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report describes the Zero Carbon Technology initiatives as climate investments; no quantified capex is disclosed in this snippet.",
+      "abatement_effect_en": "Report states the initiatives foster renewable-energy transition and emissions reduction across PMI manufacturing sites; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "62",
+      "source_file": "PHILIP MORRIS INTERNATIONAL-integrated-report-2024.pdf",
+      "report_title_en": "Philip Morris International Integrated Report 2024",
+      "snippet_en": "Philip Morris International reports that through its zero carbon technology initiatives it is fostering the transition to renewable energy and reducing emissions across manufacturing sites. In 2024, this commitment materialized through the installation of heat pumps, e-boilers, hybrid boilers, biomass boilers, and solar panels at five manufacturing facilities.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r101_eon",
+      "technology_id": "renewable_power",
+      "subtype_id": "solar_home_energy_emobility",
+      "subtype_en": "Solar, home energy management, and eMobility",
+      "project_name_en": "Energy Retail solar, home energy management, and eMobility investment",
+      "measure_name_en": "Offering solar, home energy management, and eMobility solutions to decarbonize energy supply for customers, cities, and municipalities",
+      "implementation_stage": "2024 investment and business-line deployment",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report states that a large proportion of 2024 investments, totaling EUR 0.5 billion, went to the Energy Retail business division.",
+      "abatement_effect_en": "Report states the business division helps decarbonize energy supply for business customers, cities, and municipalities; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "29",
+      "source_file": "E.ON-GB24-gesamt-EN_final.pdf",
+      "report_title_en": "E.ON Integrated Annual Report 2024",
+      "snippet_en": "E.ON reports that the Energy Retail business division helps decarbonize the energy supply of business customers, cities, and municipalities, with offerings including solar, home energy management, and eMobility. The report states that digitalization is founded on technological standards and a cloud strategy, and that a large proportion of investments in 2024, which totaled EUR 0.5 billion, went to this business division.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r261_intel",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "green_bond_efficiency_and_abatement_projects",
+      "subtype_en": "Green-bond funded efficiency and GHG abatement projects",
+      "project_name_en": "Intel Green Bond eligible green projects",
+      "measure_name_en": "Allocating green bond proceeds to HVAC upgrades, heat recovery projects, GHG abatement systems, renewable electricity, and green buildings",
+      "implementation_stage": "green bond allocation reported in 2024",
+      "timeline_years": [
+        "2022",
+        "2024"
+      ],
+      "cost_or_investment_en": "Report discloses cumulative allocation of USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022.",
+      "abatement_effect_en": "Report identifies energy efficiency, renewable electricity, green buildings, HVAC upgrades, heat recovery, and greenhouse gas abatement systems as eligible or recent projects; quantified project CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "6",
+      "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
+      "report_title_en": "Intel Corporate Responsibility Report 2024-25",
+      "snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r208_sumitomomitsuifinancialgroup",
+      "technology_id": "low_carbon_fuels",
+      "subtype_id": "saf_green_loan",
+      "subtype_en": "Sustainable aviation fuel green loan",
+      "project_name_en": "Green loan to Twelve for SAF production",
+      "measure_name_en": "Providing a green loan to Twelve, a company converting CO2 into chemical products, to support a SAF production project",
+      "implementation_stage": "green loan disclosed as case-study finance",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "Report discloses a green loan of USD 20 million to Twelve.",
+      "abatement_effect_en": "Report states SAF has 90% CO2 emissions reduction in the case-study snippet.",
+      "evidence_page": "27",
+      "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
+      "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
+      "snippet_en": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same case-study snippet states SAF has 90% reduction in CO2 emissions.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r168_torontodominionbank",
+      "technology_id": "renewable_power",
+      "subtype_id": "sustainable_finance_renewable_energy",
+      "subtype_en": "Renewable-energy sustainable finance category",
+      "project_name_en": "TD Sustainable and Decarbonization Finance eligible renewable-energy category",
+      "measure_name_en": "Classifying balance-sheet green, social, and sustainability bond purchases and other financing under renewable energy and clean transportation eligible categories",
+      "implementation_stage": "fiscal 2024 sustainable-finance reporting",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report discloses Environment total USD 11.9 billion, including Renewable Energy USD 2.5 billion and Clean Transportation USD 3.2 billion.",
+      "abatement_effect_en": "Report classifies renewable energy and clean transportation as environmental eligible categories; quantified project CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "18",
+      "source_file": "2024-TORONTO-DOMINION BANK-sustainability-report-en.pdf",
+      "report_title_en": "Toronto-Dominion Bank Sustainability Report 2024",
+      "snippet_en": "TD Bank reports eligible categories for green, social and sustainability bond purchases and other financing during fiscal 2024. The Environment total is USD 11.9 billion, including Renewable Energy USD 2.5 billion, Clean Transportation USD 3.2 billion, Environment Multi-Sector USD 3.5 billion, and Other Environment USD 2.7 billion.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r247_repsol",
+      "technology_id": "renewable_power",
+      "subtype_id": "installed_wind_solar_capacity",
+      "subtype_en": "Installed wind and solar renewable generation capacity",
+      "project_name_en": "Installed renewable generation capacity objective",
+      "measure_name_en": "Increasing installed wind and solar renewable generation capacity under the 2024 Annual Budget metric",
+      "implementation_stage": "2024 sustainability-linked management objective",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report ties the metric to the 2024 Annual Budget but does not disclose the specific budget amount in this snippet.",
+      "abatement_effect_en": "Report uses installed renewable generation capacity as a decarbonization and sustainability metric; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "11",
+      "source_file": "REPSOL consolidated-statement-non-financial-information-sustainability-information-2024.pdf",
+      "report_title_en": "Repsol Consolidated Statement of Non-Financial Information and Sustainability Information 2024",
+      "snippet_en": "Repsol reports objectives and metrics set out in the CEO's 2024 Annual Variable Remuneration in relation to sustainability. Under Decarbonization and sustainability, the installed renewable generation capacity metric is described as increasing the installed capacity of wind and solar generation in accordance with the provisions of the 2024 Annual Budget. Achievement is calculated against the budgeted increase in renewable generation capacity installed by Repsol in 2024.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r261_intel",
+      "technology_id": "renewable_power",
+      "subtype_id": "green_bond_renewable_electricity_projects",
+      "subtype_en": "Green-bond funded renewable electricity projects",
+      "project_name_en": "Intel Green Bond renewable electricity eligible projects",
+      "measure_name_en": "Allocating green bond proceeds to eligible renewable electricity projects alongside efficiency, water, circularity, and green-building projects",
+      "implementation_stage": "green bond allocation reported in 2024",
+      "timeline_years": [
+        "2022",
+        "2024",
+        "2030"
+      ],
+      "cost_or_investment_en": "Report discloses cumulative allocation of USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022; the renewable-electricity share is not separately quantified in this snippet.",
+      "abatement_effect_en": "Report identifies renewable electricity as an eligible green-bond project area and states Intel aims for 100% renewable electricity in operations by 2030; quantified project CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "6",
+      "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
+      "report_title_en": "Intel Corporate Responsibility Report 2024-25",
+      "snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. The report also states Intel aims to achieve 100% renewable electricity in its operations by 2030.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r241_tdsynnex公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_energy_procurement_and_efficiency_projects",
+      "subtype_en": "Renewable energy procurement and efficiency projects",
+      "project_name_en": "TD SYNNEX renewable energy procurement expansion",
+      "measure_name_en": "Expanding renewable energy procurement and energy efficiency projects across global operations",
+      "implementation_stage": "implemented initiatives contributing to FY2024 Scope 1 and 2 reduction",
+      "timeline_years": [
+        "2022",
+        "2024",
+        "2045"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified procurement cost or project capex in this snippet.",
+      "abatement_effect_en": "Report states Scope 1 and 2 GHG emissions were reduced by nearly 43% over the FY2022 base year, driven in part by renewable energy procurement and energy efficiency projects.",
+      "evidence_page": "15",
+      "source_file": "TD SYNNEX Corporation FY24 Corporate Citizenship Report.pdf",
+      "report_title_en": "TD SYNNEX FY2024 Corporate Citizenship Report",
+      "snippet_en": "TD SYNNEX reports that it reduced Scope 1 and 2 GHG emissions by nearly 43% over its FY2022 base year. The report states this was achieved through a wide range of initiatives across global operations, including expansion of renewable energy procurement and energy efficiency projects, and that the company remains committed to a long-term target of net-zero GHG emissions by 2045.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r345_raízen公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "distributed_solar_generation_projects",
+      "subtype_en": "Distributed solar generation projects",
+      "project_name_en": "Raízen distributed solar generation projects",
+      "measure_name_en": "Investing in distributed solar generation projects as part of energy diversification while maintaining biomass-based electricity output",
+      "implementation_stage": "investment disclosed for crop year 2024/25",
+      "timeline_years": [
+        "2024",
+        "2025"
+      ],
+      "cost_or_investment_en": "Report states investments in distributed solar generation projects; quantified investment amount is not disclosed in this snippet.",
+      "abatement_effect_en": "Report states biomass-based electricity output remained stable and distributed solar investments support energy diversification; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "22",
+      "source_file": "RAÍZEN-integrated-report-2024-25.pdf",
+      "report_title_en": "Raízen Integrated Report Crop Year 2024/25",
+      "snippet_en": "Raízen reports that sugarcane waste makes mill operations energy self-sufficient and that biomass-based electricity output remained stable despite lower raw material availability. The report states that improvements in boiler efficiency and increased use of sugarcane trash helped mitigate part of the impact, and that Raízen also invested in distributed solar generation projects in line with its broader energy diversification strategy.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r391_西班牙acs集团",
+      "technology_id": "renewable_power",
+      "subtype_id": "solar_parks_power_lines_battery_storage",
+      "subtype_en": "Solar parks, power lines, and battery storage projects",
+      "project_name_en": "ACS sustainable energy project portfolio",
+      "measure_name_en": "Providing sustainable energy projects including solar parks, power lines, and battery storage to support the electric transition",
+      "implementation_stage": "project portfolio disclosed as current business impact and opportunity",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified project capex in this snippet.",
+      "abatement_effect_en": "Report presents solar parks, power lines, battery storage, and sustainable mobility as projects that drive the electric transition toward a green future; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "17",
+      "source_file": "ACS Group Integrated Report 2024.pdf",
+      "report_title_en": "ACS Group Integrated Report 2024",
+      "snippet_en": "ACS reports that its global influence on clients, suppliers, and subcontractors enables it to create sustainable incentives for increased use of green energy and efficient energy-management practices. The report states that by providing sustainable energy projects, including solar parks, power lines, battery storage, and sustainable mobility, ACS drives the electric transition toward a green future.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r391_西班牙acs集团",
+      "technology_id": "low_carbon_materials",
+      "subtype_id": "low_carbon_procurement_materials",
+      "subtype_en": "Low-carbon procurement materials",
+      "project_name_en": "ACS low-carbon procurement lever",
+      "measure_name_en": "Strengthening sustainable procurement with subcontractors, recycled and low-carbon materials, materials of biological origin, and low-carbon embedded equipment and vehicles",
+      "implementation_stage": "decarbonization lever disclosed for Scope 3 reduction planning",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified procurement cost in this snippet.",
+      "abatement_effect_en": "Report maps low-carbon procurement measures to GHG Protocol Scope 3 subcategories 3.1 and 3.2; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "75",
+      "source_file": "ACS Group Integrated Report 2024.pdf",
+      "report_title_en": "ACS Group Integrated Report 2024",
+      "snippet_en": "ACS lists low-carbon procurement as a decarbonization lever. Measures include strengthening sustainable procurement practices with subcontractors, recycled and low-carbon materials, materials of biological origin, and low-carbon embedded equipment and vehicles. The table maps these measures to Scope 3 subcategories according to the GHG Protocol, including 3.1 and 3.2.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r450_sap公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "ppa_rec_self_generated_renewable_electricity",
+      "subtype_en": "PPAs, EACs, and self-generated renewable electricity",
+      "project_name_en": "SAP renewable electricity procurement and generation measures",
+      "measure_name_en": "Using self-generated renewable electricity, certified renewable energy certificates, long-term green electricity contracts, and power purchase agreements",
+      "implementation_stage": "market-based emissions accounting and net-zero measures disclosed for 2024 reporting",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report mentions investments in certified renewable energy certificates and long-term green electricity contracts but does not disclose quantified cost in this snippet.",
+      "abatement_effect_en": "Report states renewable energies can be counted toward reductions of greenhouse gas emissions under SAP's market-based approach; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "60",
+      "source_file": "SAP Integrated Report 2024.pdf",
+      "report_title_en": "SAP Integrated Report 2024",
+      "snippet_en": "SAP reports that gross greenhouse gas emissions are measured across Scope 1, Scope 2, and relevant Scope 3 emissions as part of its net-zero commitment, applying a market-based approach. The report states that renewable energies, including self-generated renewable electricity, investments in certified renewable energy certificates, long-term green electricity contracts such as power purchase agreements, and renewable electricity purchased by suppliers and customers can be counted toward greenhouse gas emission reductions.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r489_3m公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "site_100_percent_renewable_electricity_conversion",
+      "subtype_en": "Site conversion to 100% renewable electricity",
+      "project_name_en": "3M site conversion to 100% renewable electricity",
+      "measure_name_en": "Converting sites worldwide to be powered by 100% renewable electricity and seeking solar, wind, and other alternative energy projects",
+      "implementation_stage": "conversion program started in 2019 and reported through end-2024",
+      "timeline_years": [
+        "2019",
+        "2024"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified site conversion cost in this snippet.",
+      "abatement_effect_en": "Report states sites powered by 100% renewable electricity comprised 62.9% of total electricity use at the end of 2024; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "27",
+      "source_file": "3M-2025-Global-Impact-Report.pdf",
+      "report_title_en": "3M Global Impact Report 2025",
+      "snippet_en": "3M reports that its energy-footprint management includes evaluating and improving products, manufacturing processes, equipment, and sites. The report states that in 2019 3M began converting sites around the world to be powered by 100% renewable electricity. As of the end of 2024, sites powered by 100% renewable electricity comprised 62.9% of total electricity use, and 3M continues to seek alternative energy sources at sites, including solar, wind, and projects.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r119_christiandior",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_low_carbon_energy_mix_target",
+      "subtype_en": "Renewable and low-carbon energy mix target",
+      "project_name_en": "LIFE 360 renewable and low-carbon energy transition",
+      "measure_name_en": "Maximizing renewable energy use and targeting exclusive use of renewable or low-carbon energy by production, logistics, administrative, and store sites",
+      "implementation_stage": "2024 progress against 2026 LIFE 360 target",
+      "timeline_years": [
+        "2019",
+        "2024",
+        "2026",
+        "2030"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified renewable-energy procurement cost in this snippet.",
+      "abatement_effect_en": "Report states Scope 1 and 2 GHG emissions were reduced 55.1% versus 2019 and renewable energy reached 71% of the Group energy mix in 2024, with a 100% target for 2026.",
+      "evidence_page": "91",
+      "source_file": "CHRISTIAN DIOR annual-report-as-of-december-31-2024.pdf",
+      "report_title_en": "Christian Dior Annual Report 2024",
+      "snippet_en": "Christian Dior reports LIFE 360 climate results for 2024. The table states Scope 1 and 2 GHG emissions were reduced 55.1% versus the 2019 baseline, Scope 3 emissions per unit of added value were reduced 32.8%, and the proportion of renewable energy in the Group's energy mix reached 71% in 2024, compared with 63% in 2023, against a 100% target for 2026. The accompanying text describes maximizing renewable energy and targeting exclusive use of renewable or low-carbon energy by production sites, logistics centers, administrative sites, and stores by 2026.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r262_tjx公司",
+      "technology_id": "renewable_power",
+      "subtype_id": "facility_solar_and_renewable_energy",
+      "subtype_en": "Facility solar panels and renewable energy sourcing",
+      "project_name_en": "TJX facility solar and renewable-energy program",
+      "measure_name_en": "Installing LED lighting and solar panels in certain facilities and scaling renewable energy sourcing for operations",
+      "implementation_stage": "program implemented over multiple years with 2030 renewable-energy target",
+      "timeline_years": [
+        "2017",
+        "2025",
+        "2030",
+        "2040"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified cost or capex for the facility solar and renewable-energy measures in this snippet.",
+      "abatement_effect_en": "Report links the measures to global goals to reduce Scope 1 and 2 GHG emissions by 55% by fiscal 2030 and source 100% renewable energy in operations; quantified project CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "3",
+      "source_file": "tjx-2025-global-corporate-responsibility-report.pdf",
+      "report_title_en": "TJX 2025 Global Corporate Responsibility Report",
+      "snippet_en": "TJX reports that it has implemented many environmental programs over the years, including installing LED lighting and adding solar panels in certain facilities, as well as building asset recovery and recycling centers. The report states that its operational environmental initiatives are centered around global goals to reduce Scope 1 and 2 greenhouse gas emissions, scale up sourcing of renewable energy, and divert operational waste from landfill. It also states that by 2030 TJX intends to source 100% renewable energy in operations.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r357_magnainternational",
+      "technology_id": "renewable_power",
+      "subtype_id": "european_operations_renewable_electricity",
+      "subtype_en": "European operations renewable electricity",
+      "project_name_en": "Magna renewable electricity progress program",
+      "measure_name_en": "Building the foundation for the 2025 target of 100% renewable electricity in European operations and tracking renewable energy share",
+      "implementation_stage": "2024 progress toward 2025 European operations target",
+      "timeline_years": [
+        "2019",
+        "2024",
+        "2025",
+        "2030"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified renewable-electricity procurement cost in this snippet.",
+      "abatement_effect_en": "Report states Magna continues to build toward a 2025 100% renewable electricity goal in European operations and reports 14.0% of energy consumed as renewable energy in 2024.",
+      "evidence_page": "6",
+      "source_file": "101227_magna_sustainabilityreport_fy2024_final_cda.pdf",
+      "report_title_en": "Magna Sustainability Report FY2024",
+      "snippet_en": "Magna reports renewable-electricity progress as part of its decarbonization and energy targets. The report states that Magna continues to build a foundation to hit its 2025 target of 100% renewable electricity in European operations and its 2030 science-based targets. Its 2024 energy-management table reports 20,243,182 GJ of aggregate energy consumed and 14.0% of energy consumed as renewable energy.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r368_lyondellbasellindustries",
+      "technology_id": "low_carbon_materials",
+      "subtype_id": "decarbonization_demand_acceleration",
+      "subtype_en": "Demand acceleration for zero and low-carbon materials",
+      "project_name_en": "WBCSD Center for Decarbonization Demand Acceleration founding-member initiative",
+      "measure_name_en": "Collaborating through a strategic two-year initiative to turn market demand indicators into actions accelerating commercial adoption of zero and low-carbon materials",
+      "implementation_stage": "founding-member initiative launched in 2024 with two-year horizon",
+      "timeline_years": [
+        "2024",
+        "2026"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified cost or investment for this initiative in the snippet.",
+      "abatement_effect_en": "Report states the initiative is intended to accelerate commercial adoption of zero and low-carbon materials and align standards and certification schemes; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "114",
+      "source_file": "2024-LYONDELLBASELL INDUSTRIES-sustainability-report.pdf",
+      "report_title_en": "LyondellBasell Sustainability Report 2024",
+      "snippet_en": "LyondellBasell reports that in 2024 it became a founding member of WBCSD's Center for Decarbonization Demand Acceleration, launched during New York Climate Week. The report describes the CDDA as a strategic two-year initiative dedicated to turning market demand indicators into tangible actions that accelerate the commercial adoption of zero and low-carbon materials across industries, in collaboration with industry peers, value-chain partners, and organizations such as the Center for Green Market Activation and the Sustainable Procurement Pledge.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r397_xiaomi",
+      "technology_id": "renewable_power",
+      "subtype_id": "supplier_renewable_energy_program",
+      "subtype_en": "Supplier renewable-energy and carbon-reduction program",
+      "project_name_en": "Xiaomi Supplier Carbon Reduction Program",
+      "measure_name_en": "Requiring supplier partners to set science-based GHG targets, increase renewable-energy use, and disclose GHG emissions data",
+      "implementation_stage": "supplier engagement program active in 2023 reporting",
+      "timeline_years": [
+        "2023",
+        "2030",
+        "2035",
+        "2040"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified program cost in this snippet.",
+      "abatement_effect_en": "Report states Xiaomi worked with 251 direct purchasing suppliers of core products in 2023, supporting validation of GHG data and climate target setting; quantified supplier renewable-energy abatement is not disclosed in this snippet.",
+      "evidence_page": "40",
+      "source_file": "Xiaomi 2023 Environmental, Social, and Governance Report.pdf",
+      "report_title_en": "Xiaomi Environmental, Social, and Governance Report 2023",
+      "snippet_en": "Xiaomi reports a Supplier Carbon Reduction Program under which supplier partners are required to set science-based GHG emission reduction targets. The program includes criteria for increased utilization of renewable energy and disclosure of GHG emissions data. In 2023, Xiaomi worked closely with 251 direct purchasing suppliers of core products, including component suppliers and manufacturing suppliers, and provided support for validation of GHG emissions data and climate target setting.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r401_suncorenergy",
+      "technology_id": "renewable_power",
+      "subtype_id": "wind_electricity_generation",
+      "subtype_en": "Wind electricity generation",
+      "project_name_en": "Suncor wind electricity generation metric",
+      "measure_name_en": "Reporting wind electricity generation as part of renewable electricity and fuels production metrics",
+      "implementation_stage": "operational generation metric reported for 2023 sustainability reporting",
+      "timeline_years": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified wind-generation investment cost in this snippet.",
+      "abatement_effect_en": "Report discloses wind electricity generation of 100,850 MWh, 98,419 MWh, 96,952 MWh, 114,009 MWh, and 130,660 MWh across the reported time series; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "72",
+      "source_file": "2023_SUNCOR ENERGY_sustainability_report.pdf",
+      "report_title_en": "Suncor Energy Report on Sustainability 2023",
+      "snippet_en": "Suncor reports energy production metrics including renewable fuels production, internally consumed and exported generated electricity, and wind electricity generation. The table lists wind electricity generation in MWh across the reported series: 100,850, 98,419, 96,952, 114,009, and 130,660 MWh. The same table reports renewable fuels blended and ethanol production metrics.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r431_elo集团",
+      "technology_id": "renewable_power",
+      "subtype_id": "store_solar_panels",
+      "subtype_en": "Store solar-panel installation",
+      "project_name_en": "ELO store solar-panel installation measure",
+      "measure_name_en": "Reducing site carbon footprints through installation of solar panels in stores and related real-estate activity changes",
+      "implementation_stage": "adopted or planned changes to strategy and business model disclosed in 2024 report",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified solar-panel installation cost in this snippet.",
+      "abatement_effect_en": "Report presents solar-panel installation in stores as a measure to reduce the carbon footprint of sites; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "54",
+      "source_file": "RFA_ELO_2024_EN-1.pdf",
+      "report_title_en": "ELO Financial Report 2024",
+      "snippet_en": "ELO reports adopted or planned changes to strategy or business model in its real-estate activity, including reducing the carbon footprint of sites through installation of solar panels in stores. A related page repeats the measure for sites already open to the public and for new living spaces, alongside other local community actions.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r082_allianz",
+      "technology_id": "renewable_power",
+      "subtype_id": "operations_renewable_energy_and_efficiency",
+      "subtype_en": "Own-operations renewable energy and efficiency",
+      "project_name_en": "Allianz own-operations renewable energy and energy-management measures",
+      "measure_name_en": "Reducing operational footprint through renewable energy, energy efficiency, decarbonized mobility, sustainable IT, lower energy consumption, and renewable-energy targets",
+      "implementation_stage": "2024 progress toward 2030 intermediate targets",
+      "timeline_years": [
+        "2019",
+        "2024",
+        "2030"
+      ],
+      "cost_or_investment_en": "Report does not disclose quantified renewable-energy or energy-efficiency cost in this snippet.",
+      "abatement_effect_en": "Report states Allianz reduced own-operations GHG emissions per employee by 62% versus the 2019 baseline through lowering energy consumption and meeting renewable-energy targets; quantified project-specific CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "74",
+      "source_file": "en-allianz-group-annual-report-2024.pdf",
+      "report_title_en": "Allianz Group Annual Report 2024",
+      "snippet_en": "Allianz reports key decarbonization actions including improving energy management across operations and scaling support of renewable energy and low-carbon technologies. The report states that carbon intensity reduction in its proprietary real-estate equity and debt portfolio resulted from increased renewable energy utilization and energy-efficiency improvements. It also states that in own operations Allianz reduced GHG emissions per employee by 62% versus the 2019 baseline through lowering energy consumption and meeting renewable-energy targets.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r163_sysco",
+      "technology_id": "electrified_transport",
+      "subtype_id": "fleet_ev_and_charging_hub",
+      "subtype_en": "Fleet EV deployment and charging hub",
+      "project_name_en": "Sysco Riverside EV Hub and global fleet EV deployment",
+      "measure_name_en": "Deploying an additional 110 EVs across global fleets and completing the Riverside, California EV Hub",
+      "implementation_stage": "deployed progress reported in FY2024 sustainability reporting",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report snippet does not disclose quantified EV or hub cost.",
+      "abatement_effect_en": "Report snippet states the measure supported Scope 1 and 2 reductions; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "9",
+      "source_file": "Sysco FY24 Sustainability Report.pdf",
+      "report_title_en": "Sysco FY24 Sustainability Report",
+      "snippet_en": "PROGRESS: Supported Scope 1 and 2 reductions by deploying an additional 110 EVs across our global fleets, completing our Riverside, California, EV Hub.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r329_astrazeneca",
+      "technology_id": "electrified_transport",
+      "subtype_id": "fleet_battery_electric_vehicles",
+      "subtype_en": "Battery-electric company fleet",
+      "project_name_en": "AstraZeneca global fleet battery-electric vehicle transition",
+      "measure_name_en": "Transitioning the global fleet to battery electric vehicles",
+      "implementation_stage": "2024 milestone reached",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report snippet does not disclose quantified fleet electrification cost.",
+      "abatement_effect_en": "Report snippet states over 60% of the global fleet was battery electric vehicles; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "116",
+      "source_file": "AstraZeneca_AR_2024.pdf",
+      "report_title_en": "AstraZeneca Annual Report 2024",
+      "snippet_en": "In 2024, we reached the significant milestone of over 60% of our global fleet being battery electric vehicles.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r246_ciscosystems",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_energy_investment_bundle",
+      "subtype_en": "Renewable-energy investment bundle",
+      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+      "measure_name_en": "Investing in renewable energy projects as part of a bundled Scope 1 and 2 reduction plan",
+      "implementation_stage": "planned investment from fiscal 2023 onward",
+      "timeline_years": [
+        "2023"
+      ],
+      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "31",
+      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+      "report_title_en": "Cisco Purpose Report 2024",
+      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r246_ciscosystems",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "facility_energy_efficiency_investment_bundle",
+      "subtype_en": "Facility energy-efficiency investment bundle",
+      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+      "measure_name_en": "Investing in energy-efficiency projects as part of a bundled Scope 1 and 2 reduction plan",
+      "implementation_stage": "planned investment from fiscal 2023 onward",
+      "timeline_years": [
+        "2023"
+      ],
+      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "31",
+      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+      "report_title_en": "Cisco Purpose Report 2024",
+      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r246_ciscosystems",
+      "technology_id": "electrified_transport",
+      "subtype_id": "building_and_fleet_electrification_bundle",
+      "subtype_en": "Building and fleet electrification investment bundle",
+      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+      "measure_name_en": "Investing in building and fleet electrification projects as part of a bundled Scope 1 and 2 reduction plan",
+      "implementation_stage": "planned investment from fiscal 2023 onward",
+      "timeline_years": [
+        "2023"
+      ],
+      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "31",
+      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+      "report_title_en": "Cisco Purpose Report 2024",
+      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r353_woolworthsgroup",
+      "technology_id": "renewable_power",
+      "subtype_id": "renewable_electricity_pathway",
+      "subtype_en": "Renewable-electricity procurement pathway",
+      "project_name_en": "Woolworths 100% renewable electricity pathway",
+      "measure_name_en": "Pathway to source 100% renewable electricity by 2025",
+      "implementation_stage": "pathway and progress disclosed in 2025 sustainability reporting",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "Report snippet does not disclose quantified renewable-electricity cost.",
+      "abatement_effect_en": "Report snippet states direct emissions had been reduced by 22.9% from the F23 baseline, but does not isolate the contribution of renewable electricity.",
+      "evidence_page": "4",
+      "source_file": "2025_WOOLWORTHS GROUP_Sustainability_Report_Interactive_SPREADS.pdf",
+      "report_title_en": "Woolworths Group Sustainability Report 2025",
+      "snippet_en": "We are committed to aligning with a 1.5°C future, having reduced our direct emissions by 22.9% from our F23 baseline, with a pathway to 100% renewable electricity by 2025 and 75 electric vehicles in our fleet.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r353_woolworthsgroup",
+      "technology_id": "electrified_transport",
+      "subtype_id": "fleet_electric_vehicles",
+      "subtype_en": "Fleet electric vehicles",
+      "project_name_en": "Woolworths fleet electric vehicles",
+      "measure_name_en": "Deploying 75 electric vehicles in the company fleet",
+      "implementation_stage": "fleet transition disclosed in 2025 sustainability reporting",
+      "timeline_years": [
+        "2025"
+      ],
+      "cost_or_investment_en": "Report snippet does not disclose quantified electric-vehicle cost.",
+      "abatement_effect_en": "Report snippet states direct emissions had been reduced by 22.9% from the F23 baseline, but does not isolate the contribution of electric vehicles.",
+      "evidence_page": "4",
+      "source_file": "2025_WOOLWORTHS GROUP_Sustainability_Report_Interactive_SPREADS.pdf",
+      "report_title_en": "Woolworths Group Sustainability Report 2025",
+      "snippet_en": "We are committed to aligning with a 1.5°C future, having reduced our direct emissions by 22.9% from our F23 baseline, with a pathway to 100% renewable electricity by 2025 and 75 electric vehicles in our fleet.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r264_riotintogroup",
+      "technology_id": "low_carbon_fuels",
+      "subtype_id": "sustainable_biofuel_supply_chains",
+      "subtype_en": "Sustainable biofuel supply chains",
+      "project_name_en": "Rio Tinto sustainable biofuel supply-chain investment lever",
+      "measure_name_en": "Investing in sustainable biofuel supply chains as part of own-operations decarbonization",
+      "implementation_stage": "strategic investment lever disclosed in 2024 annual reporting",
+      "timeline_years": [
+        "2030",
+        "2050"
+      ],
+      "cost_or_investment_en": "Report snippet uses investment wording but does not disclose quantified biofuel supply-chain cost.",
+      "abatement_effect_en": "Report snippet presents the measure alongside own-operations targets of 50% reduction by 2030 and net zero by 2050; project-specific CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "44",
+      "source_file": "2024-RIO TINTO GROUP-annual-report.pdf",
+      "report_title_en": "Rio Tinto Group Annual Report 2024",
+      "snippet_en": "Increase renewable power to >90%. Develop low-carbon technologies for minerals and metals processing, refining and smelting. Invest in sustainable biofuel supply chains.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r426_qualcomm",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "global_facility_energy_efficiency_investments",
+      "subtype_en": "Global facility energy-efficiency investments",
+      "project_name_en": "Qualcomm global facilities energy-efficiency investments",
+      "measure_name_en": "Cumulative investments in energy efficiency for global facilities",
+      "implementation_stage": "cumulative investments disclosed in 2024 corporate responsibility reporting",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "Report snippet identifies cumulative investments but does not disclose quantified investment cost.",
+      "abatement_effect_en": "Report snippet states annual avoided CO2e emissions from cumulative energy-efficiency investments for global facilities; the visible snippet does not include the numeric avoided-emissions value.",
+      "evidence_page": "50",
+      "source_file": "2024-qualcomm-corporate-responsibility-report.pdf",
+      "report_title_en": "Qualcomm Corporate Responsibility Report 2024",
+      "snippet_en": "Annual avoided emissions of CO2e due to cumulative investments made for energy efficiency for global facilities.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r098_eni",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "upstream_energy_saving_projects",
+      "subtype_en": "Upstream energy-saving projects",
+      "project_name_en": "Energy saving projects, mainly upstream projects",
+      "measure_name_en": "Primary energy savings compared to baseline consumption",
+      "implementation_stage": "implemented and quantified in 2024 reporting",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Energy-saving projects delivered over 308 ktoe/year primary energy savings and approximately 778 thousand tonnes CO2eq emission reduction.",
+      "evidence_page": "166",
+      "source_file": "ENI-Annual-Report-2024.pdf",
+      "report_title_en": "Eni Annual Report 2024",
+      "snippet_en": "primary energy savings compared to baseline consumption of over 308 ktoe/year deriving mainly from upstream projects (over 82%), with a benefit in terms of emission reduction of approximately 778 thousand tonnes of CO2eq.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r107_itochu",
+      "technology_id": "low_carbon_fuels",
+      "subtype_id": "saf_certificate",
+      "subtype_en": "SAF certificate and SAF flight initiative",
+      "project_name_en": "SAF Flight Initiative / Certificate of CO2 Reduction Effect by SAF",
+      "measure_name_en": "Purchased certificate of CO2 reduction effect by SAF through All Nippon Airways SAF Flight Initiative",
+      "implementation_stage": "certificate applied in FYE 2024",
+      "timeline_years": [
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "SAF certificate applied in FYE 2024 with a GHG reduction effect of 50 t-CO2e.",
+      "evidence_page": "110",
+      "source_file": "ITOCHU-ESG report 2024.pdf",
+      "report_title_en": "ITOCHU ESG Report 2024",
+      "snippet_en": "In FYE 2024, the GHG reduction effect of 50 t-CO2e was included applying ?Certificate of CO2 Reduction Effect by SAF? which we purchased through ?SAF Flight Initiative? offered by All Nippon Airways Co., Ltd.",
+      "evidence_status": "project_evidence"
+    },
+    {
+      "company_id": "r048_homedepot",
+      "technology_id": "energy_efficiency",
+      "subtype_id": "energy_saving_products_energy_star",
+      "subtype_en": "Energy-saving products and ENERGY STAR products",
+      "project_name_en": "Customer GHG reduction through purchase and proper use of energy-saving products",
+      "measure_name_en": "Estimated customer emissions reduction from ENERGY STAR and other energy-saving products",
+      "implementation_stage": "estimated customer-use reduction reported for FY2023/FY2024 metrics",
+      "timeline_years": [
+        "2023",
+        "2024"
+      ],
+      "cost_or_investment_en": "",
+      "abatement_effect_en": "Estimated customer GHG emissions reduction from energy-saving products, including ENERGY STAR products; snippet states 2.5 million MT CO2e in 2023 for ENERGY STAR.",
+      "evidence_page": "95",
+      "source_file": "2024_ESG_Report_The_Home_Depot.pdf",
+      "report_title_en": "The Home Depot 2024 ESG Report",
+      "snippet_en": "Estimated reduction of customers? GHG emissions through the purchase and proper use of energy-saving products (MT CO2e) (includes ENERGY STAR, 2.5 million MT in 2023).",
+      "evidence_status": "project_evidence"
+    }
+  ],
+  "generated_at": "2026-06-20T16:43:37.006Z",
+  "last_update_note": "Added page-level project/measure abatement-effect evidence for Eni energy efficiency, ITOCHU SAF, and Home Depot energy-saving products; cost fields remain blank unless quantified cost/investment is disclosed."
+}

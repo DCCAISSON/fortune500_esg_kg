@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界500强 ESG 知识图谱完成度审计</title>
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">世界500强 ESG 知识图谱</div>
+      <div class="nav">
+        <a class="pill" href="./index.html">Home</a>
+        <a class="pill" href="./zh/reporting-views.html">审计视图</a>
+        <a class="pill" href="./REPORTING_COMPLETION_AUDIT_ZH.md">Markdown</a>
+      </div>
+    </div>
+    <section class="hero reporting-audit-card">
+      <div class="eyebrow">Completion Audit</div>
+      <h1>世界500强 ESG 知识图谱完成度审计</h1>
+<ul>
+<li>生成时间：2026-06-21</li>
+<li>审计矩阵日期：2026-06-07</li>
+<li>PNG manifest 生成时间：2026-06-20T17:29:34+00:00</li>
+<li>总体状态：partial</li>
+<li>是否可以声明全部完成：不可</li>
+</ul>
+<h2>结论</h2>
+<p>这些任务没有全部完成。展示层、全屏图和静态 PNG 同步基本完成；证据层和可采信覆盖率仍需继续补强。</p>
+<p>当前可以声明的是：展示层、全屏图运行层和静态 PNG 同步门槛已经基本完成；不能声明的是：GHG 细分系列证据、企业总排放完整强证据排行、技术路径项目级证据、初级/次级数据真实计算权重仍未闭环。</p>
+<h2>核心指标</h2>
+<div class="table-wrap"><table>
+<tr><th>指标</th><th>当前值</th></tr>
+<tr><td>企业总数</td><td>500</td></tr>
+<tr><td>GHG Protocol 相关企业</td><td>232</td></tr>
+<tr><td>显式命中 GHG 具体系列企业</td><td>140</td></tr>
+<tr><td>标准角色图标准节点</td><td>32</td></tr>
+<tr><td>标准角色图企业</td><td>339</td></tr>
+<tr><td>标准-企业关系</td><td>1913</td></tr>
+<tr><td>有可用总排放量企业</td><td>85</td></tr>
+<tr><td>完整强证据可比排行企业</td><td>16</td></tr>
+<tr><td>技术路径企业</td><td>173</td></tr>
+<tr><td>技术路径类别</td><td>9</td></tr>
+<tr><td>项目级技术证据记录</td><td>77</td></tr>
+<tr><td>项目级技术证据企业</td><td>51</td></tr>
+<tr><td>项目级技术成本/投资强证据</td><td>12</td></tr>
+<tr><td>项目级技术成本/投资复核说明</td><td>31</td></tr>
+<tr><td>项目级技术减排效果证据</td><td>67</td></tr>
+<tr><td>进入初级/次级来源结构企业</td><td>306</td></tr>
+<tr><td>有可显示来源比例企业</td><td>161</td></tr>
+<tr><td>原文明示 primary-data 百分比企业</td><td>13</td></tr>
+</table></div>
+<h2>需求逐项完成度</h2>
+<div class="table-wrap"><table>
+<tr><th>需求</th><th>状态</th><th>可声明完成</th><th>开放队列行数</th><th>已实现</th><th>未完成/风险</th></tr>
+<tr><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>部分完成</td><td>不可</td><td>927</td><td>GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1908 条标准-企业关系。</td><td>GHG 显式细分证据仍不足，137/231 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。</td></tr>
+<tr><td>R2_TOTAL_EMISSIONS_RANKING_DESC</td><td>部分完成</td><td>不可</td><td>189</td><td>已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，16 家进入完整 Scope 1/2/3 强证据排行。</td><td>完整可比排行覆盖率仍低，不能把 69 家 partial 总量混入主排行。</td></tr>
+<tr><td>R3_STANDARD_ROLE_FULL_GRAPH_AND_SCOPE_LANGUAGE</td><td>已实现但仍有复核队列</td><td>不可</td><td>74</td><td>50 个 full-graph HTML 均为内嵌 JSON；标准节点和企业节点按标准/行业着色；非 GHG 标准自身 Scope 术语误用为 0。</td><td>仍有 74 条非 GHG 源文引用含 Scope 词，需要确认只作为引用语境展示。</td></tr>
+<tr><td>R4_TECHNOLOGY_PATH_AXIS</td><td>部分完成</td><td>不可</td><td>432</td><td>图6 已有 9 类技术路径、流程轴、标准对齐、细分方向、时间信号和成本信号，并有中英文静态 PNG。</td><td>303 条技术-企业关系仍全部是披露关键词信号，不是已核证项目成本或减排量。</td></tr>
+<tr><td>R5_PRIMARY_SECONDARY_BUBBLE</td><td>部分完成</td><td>不可</td><td>449</td><td>初级/次级气泡图已生成；306 家企业进入来源结构数据，161 家有可显示比例。</td><td>只有 13 家使用原文明示 primary data 百分比，多数比例仍是 method_rows 来源结构推断，不等同审定计算权重。</td></tr>
+<tr><td>R6_STATIC_PNG_SYNC_SUPPORTING_GATE</td><td>已实现</td><td>可</td><td>0</td><td>8 张中英文 PNG 均存在，manifest 记录 reporting_views 源 hash 和每张 PNG hash。</td><td>只要 reporting_views.json 更新，就必须重跑静态图同步脚本。</td></tr>
+</table></div>
+<h2>未解决问题和优先级</h2>
+<div class="table-wrap"><table>
+<tr><th>序号</th><th>优先级</th><th>问题</th><th>状态</th><th>开放队列行数</th><th>下一步</th><th>风险</th></tr>
+<tr><td>1</td><td>P0</td><td>ghg_protocol_fine_series</td><td>部分完成</td><td>927</td><td>逐条回到 PDF 页级证据，能显式命名具体 GHG 系列的升级；不能命名的降级或删除。</td><td>如果不降级上下文弱边，GHG 细分图会被误读为强证据企业-系列关系。</td></tr>
+<tr><td>2</td><td>P2</td><td>standard_company_relationships</td><td>结构已实现但证据质量有风险</td><td>0</td><td>抽样复核标准-企业边的页码与 snippet 完整度，优先处理低置信/弱片段。</td><td>结构完整但边证据不均衡，弱 snippet 会影响图谱可信度。</td></tr>
+<tr><td>3</td><td>P0</td><td>emissions_ranking</td><td>部分完成</td><td>189</td><td>按 Scope 1、Scope 2 方法/数值、Scope 3 缺口队列补齐完整强证据总量。</td><td>partial 总量若混入主排行，会导致企业总排放排序不可比。</td></tr>
+<tr><td>4</td><td>Monitor</td><td>standard_full_graph_runtime</td><td>已实现</td><td>0</td><td>后续每次改 reporting_views 或 full-graph 生成器后跑全量 HTML/PNG hash 校验。</td><td>当前是展示层风险；数据更新后未同步生成会重新漂移。</td></tr>
+<tr><td>5</td><td>P2</td><td>scope_language_policy</td><td>已实现但仍有复核队列</td><td>74</td><td>确认非 GHG 标准源文中的 Scope 词只作为引用展示，不进入标准自身术语。</td><td>Scope 术语若进入非 GHG 标准口径，会造成标准体系概念错误。</td></tr>
+<tr><td>6</td><td>P1</td><td>technology_path_axis</td><td>部分完成</td><td>432</td><td>把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。</td><td>关键词信号若被当成项目级技术应用或成本证据，会夸大减碳路径结论。</td></tr>
+<tr><td>7</td><td>P1</td><td>primary_secondary_bubble</td><td>部分完成</td><td>449</td><td>把来源结构比例与真实计算权重区分开，优先补原文明示 primary data 百分比。</td><td>来源结构比例若被当成真实计算权重，会误导初级数据质量判断。</td></tr>
+<tr><td>8</td><td>Monitor</td><td>static_png_sync</td><td>已实现</td><td>0</td><td>后续 reporting_views.json 更新后重跑 sync_reporting_static_figures.py。</td><td>页面和汇报 PNG 若不同源，会造成 GitHub 页面与汇报材料不一致。</td></tr>
+</table></div>
+<h2>五项需求的当前判断</h2>
+<h3>一、GHG Protocol 具体系列、原则、清单匹配和企业关系</h3>
+<ul>
+<li>当前判断：已拆成细分系列/标准/指南/项目节点，泛化引用不再直接作为强证据；但显式证据覆盖不足，仍要逐条回 PDF 页级证据升/降级。</li>
+<li>开放队列行数：927</li>
+<li>下一步：逐条回到 PDF 页级证据，能显式命名具体 GHG 系列的升级；不能命名的降级或删除。</li>
+</ul>
+<h3>二、企业总碳排放量从高到低排序</h3>
+<ul>
+<li>当前判断：已有可用排行和静态图；但完整强证据可比排行只有少数企业，partial 总量不能混入主排行。</li>
+<li>开放队列行数：189</li>
+<li>下一步：按 Scope 1、Scope 2 方法/数值、Scope 3 缺口队列补齐完整强证据总量。</li>
+</ul>
+<h3>三、标准角色族全屏实体级知识图谱</h3>
+<ul>
+<li>当前判断：全屏图运行层已实现，标准/行业颜色已实现；仍需复核非 GHG 源文 Scope 词只作为引用语境。</li>
+<li>开放队列行数：74</li>
+<li>下一步：确认非 GHG 标准源文中的 Scope 词只作为引用展示，不进入标准自身术语。</li>
+</ul>
+<h3>四、图6 技术路径主轴</h3>
+<ul>
+<li>当前判断：已有 9 类技术路径、子类、流程轴、标准对齐、时间和成本信号，并新增 77 条项目/措施级页级证据，覆盖 51 家企业；但更大的技术-企业边集合仍主要是关键词披露信号，不能整体当作项目级核证证据。</li>
+<li>开放队列行数：432</li>
+<li>下一步：把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。</li>
+</ul>
+<h3>五、初级/次级数据气泡图</h3>
+<ul>
+<li>当前判断：气泡图已生成；但只有少量企业来自原文明示 primary-data 百分比，多数仍是来源结构推断，不可当作真实计算权重。</li>
+<li>开放队列行数：449</li>
+<li>下一步：把来源结构比例与真实计算权重区分开，优先补原文明示 primary data 百分比。</li>
+</ul>
+<h2>静态图和全屏图同步门槛</h2>
+<ul>
+<li>PNG manifest：`assets/figures/reporting_static_figures_manifest.json`</li>
+<li>PNG 数量：10</li>
+<li>PNG 源数据：`assets/data/world500/workbench/reporting_views.json`</li>
+<li>源数据 SHA256：`c85ef0fdd04cad020882dc41754aacb94b5bd0d1f0153085b2a1dff586eec914`</li>
+<li>全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `&lt;img&gt;` fallback。</li>
+</ul>
+<h2>关键源文件</h2>
+<ul>
+<li>`assets/data/world500/workbench/world500_requirement_completion_matrix.json`</li>
+<li>`assets/data/world500/workbench/reporting_gap_status_summary.json`</li>
+<li>`assets/data/world500/workbench/world500_reporting_unresolved_issue_register.json`</li>
+<li>`assets/data/world500/workbench/world500_reporting_completion_workplan.json`</li>
+<li>`assets/data/world500/workbench/world500_reporting_completion_workplan.csv`</li>
+<li>`assets/data/world500/workbench/reporting_completion_audit.json`</li>
+<li>`assets/data/world500/workbench/reporting_views.json`</li>
+<li>`assets/data/world500/workbench/world500_ghg_series_acceptance_ledger.json`</li>
+<li>`assets/data/world500/workbench/world500_ghg_series_acceptance_ledger.csv`</li>
+<li>`assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.json`</li>
+<li>`assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.csv`</li>
+<li>`assets/data/world500/workbench/world500_emissions_year_alignment_demotions.json`</li>
+<li>`assets/data/world500/workbench/world500_emissions_year_alignment_demotions.csv`</li>
+<li>`assets/data/world500/workbench/world500_technology_project_evidence.json`</li>
+<li>`assets/data/world500/workbench/world500_technology_project_evidence_audit.csv`</li>
+<li>`assets/data/world500/workbench/world500_technology_project_evidence_invalid_queue.csv`</li>
+<li>`assets/figures/reporting_static_figures_manifest.json`</li>
+<li>`tools/verify_reporting_completion_gate.py`</li>
+</ul>
+<h2>静态 PNG 业务完成边界</h2>
+<div class="table-wrap"><table>
+<tr><th>静态图</th><th>对应需求</th><th>业务完成状态</th><th>可声明业务完成</th><th>审计边界</th></tr>
+<tr><td>assets/figures/zh/world500_emissions_ranking_graph.png</td><td>R2_TOTAL_EMISSIONS_RANKING_DESC</td><td>partial_complete_comparable_only</td><td>不可</td><td>只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。</td></tr>
+<tr><td>assets/figures/zh/world500_standard_chain_overview.png</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>partial_review_edges_remain</td><td>不可</td><td>GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。</td></tr>
+<tr><td>assets/figures/zh/world500_standard_role_entity_graph.png</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>partial_review_edges_remain</td><td>不可</td><td>Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.</td></tr>
+<tr><td>assets/figures/zh/world500_technology_cluster_overview.png</td><td>R4_TECHNOLOGY_PATH_AXIS</td><td>partial_disclosure_signal_only</td><td>不可</td><td>技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。</td></tr>
+<tr><td>assets/figures/zh/world500_primary_secondary_source_mix.png</td><td>R5_PRIMARY_SECONDARY_BUBBLE</td><td>partial_source_mix_inference</td><td>不可</td><td>除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。</td></tr>
+<tr><td>assets/figures/en/world500_emissions_ranking_graph.png</td><td>R2_TOTAL_EMISSIONS_RANKING_DESC</td><td>partial_complete_comparable_only</td><td>不可</td><td>只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。</td></tr>
+<tr><td>assets/figures/en/world500_standard_chain_overview.png</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>partial_review_edges_remain</td><td>不可</td><td>GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。</td></tr>
+<tr><td>assets/figures/en/world500_standard_role_entity_graph.png</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>partial_review_edges_remain</td><td>不可</td><td>Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.</td></tr>
+<tr><td>assets/figures/en/world500_technology_cluster_overview.png</td><td>R4_TECHNOLOGY_PATH_AXIS</td><td>partial_disclosure_signal_only</td><td>不可</td><td>技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。</td></tr>
+<tr><td>assets/figures/en/world500_primary_secondary_source_mix.png</td><td>R5_PRIMARY_SECONDARY_BUBBLE</td><td>partial_source_mix_inference</td><td>不可</td><td>除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。</td></tr>
+</table></div>
+<h2>Completion Workplan</h2>
+<p>This section summarizes the executable evidence-closure workplan generated from the unresolved issue register.</p>
+<div class="table-wrap"><table>
+<tr><th>Priority</th><th>Open queue rows</th></tr>
+<tr><td>P0</td><td>1116</td></tr>
+<tr><td>P2</td><td>74</td></tr>
+<tr><td>Monitor</td><td>0</td></tr>
+<tr><td>P1</td><td>881</td></tr>
+</table></div>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_reporting_completion_workplan.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_reporting_completion_workplan.csv`</li>
+<li>Verification: `python tools/verify_reporting_completion_gate.py`</li>
+</ul>
+<h2>Evidence Closure Dashboard</h2>
+<p>This dashboard groups unresolved queues by priority, requirement, issue, and company. It is a review-planning artifact only and does not promote evidence or mark requirements complete.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_reporting_closure_dashboard.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_reporting_closure_dashboard.csv`</li>
+<li>Batch count: 793</li>
+<li>Open queue rows covered: 2071</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>Priority</th><th>Requirement</th><th>Issue</th><th>Company</th><th>Rows</th><th>Safe action</th></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>APPLE</td><td>11</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>PANASONIC HOLDINGS</td><td>11</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>VOLKSWAGEN</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>VALERO ENERGY</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>PEPSICO</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>TESCO</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>AIRBUS</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>AMERICAN EXPRESS</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>MITSUBISHI ELECTRIC</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>OLAM GROUP</td><td>10</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>ELECTRICITÉ DE FRANCE</td><td>9</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+<tr><td>P0</td><td>R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING</td><td>ghg_protocol_fine_series</td><td>ITOCHU</td><td>9</td><td>Return to page-level PDF text. Upgrade only if the concrete GHG Protocol series is explicitly named; otherwise keep review-only or demote the edge.</td></tr>
+</table></div>
+<h2>GHG Fine-Series Acceptance Ledger</h2>
+<p>This ledger unifies accepted, review-only, and demoted GHG Protocol fine-series company edges. It is the current safe boundary for whether a company-standard edge can be treated as accepted.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_ghg_series_acceptance_ledger.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_ghg_series_acceptance_ledger.csv`</li>
+<li>Row count: 782</li>
+<li>Accepted explicit edges: 267</li>
+<li>Review-only contextual edges: 454</li>
+<li>Demoted overmapped edges: 61</li>
+<li>Generic GHG accepted count: 0</li>
+<li>Accepted outside 12-item whitelist: 0</li>
+<li>Review/demoted outside 12-item whitelist: 0</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>Bucket</th><th>Decision</th><th>Company</th><th>GHG fine series</th><th>Match status</th><th>Safe use</th></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>WALMART</td><td>GHG Protocol Corporate Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>WALMART</td><td>GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>UNITEDHEALTH GROUP</td><td>GHG Protocol Corporate Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>UNITEDHEALTH GROUP</td><td>Global GHG Accounting and Reporting Standard for the Financial Industry</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>CVS Health</td><td>GHG Protocol Corporate Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>CVS Health</td><td>GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>SHELL</td><td>GHG Protocol Corporate Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>SHELL</td><td>GHG Protocol Scope 2 Guidance</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>SHELL</td><td>GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>MCKESSON</td><td>GHG Protocol Corporate Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>Alphabet</td><td>GHG Protocol Corporate Accounting and Reporting Standard</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+<tr><td>accepted</td><td>accepted_explicit_named_series_edge</td><td>Alphabet</td><td>GHG Protocol Scope 2 Guidance</td><td>explicit_series_citation</td><td>May be used as an accepted company-to-GHG-fine-series edge. Scope wording is allowed only inside this GHG Protocol evidence context.</td></tr>
+</table></div>
+<h2>GHGP Zero-Accepted Standard Audit</h2>
+<p>This audit records controlled GHGP/PCAF standards with zero accepted company edges. Zero accepted is treated as a guarded evidence conclusion, not permission to infer adoption from generic GHG mentions.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_ghg_zero_accepted_standard_audit.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_ghg_zero_accepted_standard_audit.csv`</li>
+<li>Zero accepted standards: 5</li>
+<li>Policy: Zero accepted does not mean missing taxonomy work. It means current page-level evidence does not explicitly name and use the controlled GHGP standard enough to draw an accepted company-standard edge.</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>GHGP standard</th><th>Accepted</th><th>Review</th><th>Evidence</th><th>Status</th><th>Decision</th></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>0</td><td>8</td><td>12</td><td>zero_accepted_review_only</td><td>Current rows are contextual or possible overmapping review leads. They do not explicitly show adoption/use of this exact standard, so they remain outside the accepted graph.</td></tr>
+<tr><td>Global Protocol for Community-Scale Greenhouse Gas Emission Inventories</td><td>0</td><td>0</td><td>0</td><td>zero_accepted_no_current_evidence</td><td>No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence.</td></tr>
+<tr><td>GHG Protocol Mitigation Goal Standard</td><td>0</td><td>0</td><td>0</td><td>zero_accepted_no_current_evidence</td><td>No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence.</td></tr>
+<tr><td>GHG Protocol Policy and Action Standard</td><td>0</td><td>0</td><td>0</td><td>zero_accepted_no_current_evidence</td><td>No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence.</td></tr>
+<tr><td>GHG Protocol Guidelines for Grid-Connected Electricity Projects</td><td>0</td><td>0</td><td>0</td><td>zero_accepted_no_current_evidence</td><td>No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence.</td></tr>
+</table></div>
+<h2>GHGP Zero-Accepted Review Closure Queue</h2>
+<p>This queue makes the zero-accepted decision machine-readable at company/standard level. It is intentionally review-only and forbids automatic promotion.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_ghg_zero_accepted_review_closure_queue.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_ghg_zero_accepted_review_closure_queue.csv`</li>
+<li>Closure rows: 12</li>
+<li>Promotion allowed rows: 0</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>Not-acceptance reason</th><th>Rows</th></tr>
+<tr><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>7</td></tr>
+<tr><td>monitoring_awaiting_finalization_not_adoption</td><td>1</td></tr>
+<tr><td>no_current_page_level_source_text</td><td>4</td></tr>
+</table></div>
+<div class="table-wrap"><table>
+<tr><th>GHGP standard</th><th>Company</th><th>Reason</th><th>Promote</th><th>Safe decision</th></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>APPLE</td><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>ADM</td><td>monitoring_awaiting_finalization_not_adoption</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>PEPSICO</td><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>TESCO</td><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>CANADIAN IMPERIAL BANK OF COMMERCE</td><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>OLAM GROUP</td><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>RABOBANK GROUP</td><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Land Sector and Removals Standard</td><td>EMIRATES GROUP</td><td>contextual_or_generic_ghg_without_exact_standard_use</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>Global Protocol for Community-Scale Greenhouse Gas Emission Inventories</td><td>aggregate/no current row</td><td>no_current_page_level_source_text</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Mitigation Goal Standard</td><td>aggregate/no current row</td><td>no_current_page_level_source_text</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Policy and Action Standard</td><td>aggregate/no current row</td><td>no_current_page_level_source_text</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+<tr><td>GHG Protocol Guidelines for Grid-Connected Electricity Projects</td><td>aggregate/no current row</td><td>no_current_page_level_source_text</td><td>false</td><td>Keep out of the accepted standard-company graph until new page-level evidence satisfies the evidence gate.</td></tr>
+</table></div>
+<h2>Figure 6 Strict Project Evidence Gate</h2>
+<p>Figure 6 separates project-level evidence from broader disclosure signals. Cost/investment evidence is counted only when the normalized project record has `cost_evidence_status = accepted_project_cost_or_investment_evidence`; capacity, procurement volume, sales revenue, cost-advantage wording, and no-cost-disclosed notes are not counted as cost evidence.</p>
+<ul>
+<li>Project evidence rows: 77</li>
+<li>Project companies: 51</li>
+<li>Strict cost/investment evidence rows: 12</li>
+<li>Cost review-note rows excluded from strict cost evidence: 31</li>
+<li>Abatement-effect evidence rows: 67</li>
+<li>Source JSON: `assets/data/world500/workbench/world500_technology_project_evidence.json`</li>
+<li>Audit CSV: `assets/data/world500/workbench/world500_technology_project_evidence_audit.csv`</li>
+</ul>
+<h2>GHG Overmapping Demotion Decisions</h2>
+<p>These decisions identify contextual GHG edges whose evidence does not support the currently linked series strongly enough. They are demotion/reassignment review records only and do not promote evidence.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_ghg_overmapped_demote_decisions.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_ghg_overmapped_demote_decisions.csv`</li>
+<li>Decision count: 61</li>
+<li>Company count: 35</li>
+<li>P0 subset JSON: `assets/data/world500/workbench/world500_ghg_p0_overmapped_demote_decisions.json`</li>
+<li>P0 subset CSV: `assets/data/world500/workbench/world500_ghg_p0_overmapped_demote_decisions.csv`</li>
+<li>P0 decision count: 16</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>Company</th><th>Current series</th><th>Named series in sample</th><th>Decision</th><th>Safe action</th></tr>
+<tr><td>WALMART</td><td>ghg_scope2_guidance</td><td>ghg_corporate_standard / ghg_scope3_standard</td><td>demote_current_edge_reassign_only_after_page_review</td><td>Close the current overmapped edge as demoted. The series explicitly named in the sample already exists as an accepted company-series edge, so no new edge should be promoted from this row.</td></tr>
+<tr><td>WALMART</td><td>ghg_scope3_calculation_guidance</td><td>ghg_corporate_standard / ghg_scope3_standard</td><td>demote_current_edge_reassign_only_after_page_review</td><td>Close the current overmapped edge as demoted. The series explicitly named in the sample already exists as an accepted company-series edge, so no new edge should be promoted from this row.</td></tr>
+<tr><td>APPLE</td><td>ghg_scope3_standard</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>UNITEDHEALTH GROUP</td><td>ghg_scope2_guidance</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>UNITEDHEALTH GROUP</td><td>ghg_scope3_calculation_guidance</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>UNITEDHEALTH GROUP</td><td>ghg_scope3_standard</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>CHINA CONSTRUCTION BANK</td><td>ghg_scope3_standard</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>WALGREENS BOOTS ALLIANCE</td><td>ghg_scope2_guidance</td><td>ghg_corporate_standard</td><td>demote_current_edge_reassign_only_after_page_review</td><td>Close the current overmapped edge as demoted. The series explicitly named in the sample already exists as an accepted company-series edge, so no new edge should be promoted from this row.</td></tr>
+<tr><td>WALGREENS BOOTS ALLIANCE</td><td>ghg_scope3_standard</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>ENEL</td><td>ghg_scope3_standard</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>BOSCH GROUP</td><td>ghg_scope3_standard</td><td></td><td>demote_current_edge_reassign_only_after_page_review</td><td>Demote the current edge. No replacement series is named in the sample; keep this only as a search lead until page-level PDF text explicitly names a concrete GHG series.</td></tr>
+<tr><td>MORGAN STANLEY</td><td>ghg_scope2_guidance</td><td>ghg_corporate_standard</td><td>demote_current_edge_reassign_only_after_page_review</td><td>Close the current overmapped edge as demoted. The series explicitly named in the sample already exists as an accepted company-series edge, so no new edge should be promoted from this row.</td></tr>
+</table></div>
+<h2>Emissions Partial-Total Exclusion Decisions</h2>
+<p>These decisions record companies whose available total emissions remain sorted for review but are excluded from the complete comparable emissions ranking graph until Scope 1, selected Scope 2, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_emissions_partial_exclusion_decisions.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_emissions_partial_exclusion_decisions.csv`</li>
+<li>Decision count: 69</li>
+<li>Company count: 69</li>
+<li>Missing Scope counts: {&quot;Evidence Scope 2 scope2_method&quot;: 9, &quot;Inventory year alignment&quot;: 2, &quot;Scope 1&quot;: 24, &quot;Scope 2&quot;: 41, &quot;Scope 2 method&quot;: 9, &quot;Scope 3&quot;: 45}</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>Available rank</th><th>Company</th><th>Partial total MtCO2e</th><th>Missing scopes</th><th>Safe action</th></tr>
+<tr><td>1</td><td>AIRBUS</td><td>781.765</td><td>Scope 3</td><td>Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>3</td><td>RIO TINTO GROUP</td><td>574.6</td><td>Scope 1 / Scope 2</td><td>Keep excluded from complete ranking. Backfill Scope 1 / Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>4</td><td>BHP GROUP</td><td>377.6</td><td>Scope 1 / Scope 2</td><td>Keep excluded from complete ranking. Backfill Scope 1 / Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>8</td><td>BUNGE GLOBAL</td><td>138.345291</td><td>Scope 2 method / Scope 3 / Evidence Scope 2 scope2_method</td><td>Keep excluded from complete ranking. Backfill Scope 2 method / Scope 3 / Evidence Scope 2 scope2_method with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>12</td><td>MAGNA INTERNATIONAL</td><td>60.181438</td><td>Scope 2 method / Evidence Scope 2 scope2_method</td><td>Keep excluded from complete ranking. Backfill Scope 2 method / Evidence Scope 2 scope2_method with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>13</td><td>SHELL</td><td>58</td><td>Scope 3</td><td>Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>14</td><td>UNITED AIRLINES HOLDINGS</td><td>52.105234</td><td>Scope 2</td><td>Keep excluded from complete ranking. Backfill Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>15</td><td>PTT</td><td>41.4502</td><td>Inventory year alignment</td><td>Keep excluded from complete ranking. Backfill Inventory year alignment with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>16</td><td>AMERICAN AIRLINES GROUP</td><td>39.782019</td><td>Scope 3</td><td>Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>17</td><td>LINDE</td><td>37.413</td><td>Scope 3</td><td>Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>19</td><td>PBF Energy</td><td>30.46</td><td>Scope 3</td><td>Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+<tr><td>20</td><td>ORLEN</td><td>28.510855</td><td>Scope 2</td><td>Keep excluded from complete ranking. Backfill Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable.</td></tr>
+</table></div>
+<h2>Emissions Ranking Evidence Ledger</h2>
+<p>This ledger unifies complete ranking rows, partial exclusions, and gap candidates. It is the current safe boundary for whether a company can enter the complete comparable total-emissions ranking.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.csv`</li>
+<li>Complete accepted rows: 16</li>
+<li>Partial excluded rows: 69</li>
+<li>Gap candidate rows: 24</li>
+<li>P0 gap candidates: 3</li>
+<li>Auto-promote allowed count: 0</li>
+<li>P0 review buckets: {&quot;P0_page_level_recheck_required&quot;: 3}</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>Record type</th><th>Bucket</th><th>Company</th><th>Missing scopes</th><th>Candidate scope</th><th>P0 bucket</th><th>Safe use</th></tr>
+<tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>AIRBUS</td><td>Scope 3</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>WALMART</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>RIO TINTO GROUP</td><td>Scope 1 / Scope 2</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
+<tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>BHP GROUP</td><td>Scope 1 / Scope 2</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>Equinor</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>HOME DEPOT</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>ECOPETROL</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>BUNGE GLOBAL</td><td>Scope 2 method / Scope 3 / Evidence Scope 2 scope2_method</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>UNICREDIT GROUP</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>AMAZON.COM</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>ROYAL AHOLD DELHAIZE</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>MAGNA INTERNATIONAL</td><td>Scope 2 method / Evidence Scope 2 scope2_method</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
+<tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>SHELL</td><td>Scope 3</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
+<tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>UNITED AIRLINES HOLDINGS</td><td>Scope 2</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
+</table></div>
+<h2>Emissions Year-Alignment Demotion Ledger</h2>
+<p>This ledger records direct Scope candidates whose value token maps to a different year column than inventory_year. These rows are excluded from the strong-evidence gate until source evidence is corrected and reporting_views is rebuilt.</p>
+<ul>
+<li>JSON: `assets/data/world500/workbench/world500_emissions_year_alignment_demotions.json`</li>
+<li>CSV: `assets/data/world500/workbench/world500_emissions_year_alignment_demotions.csv`</li>
+<li>Decision count: 7</li>
+<li>Company count: 6</li>
+<li>Scope counts: {&quot;Scope 1&quot;: 3, &quot;Scope 2&quot;: 1, &quot;Scope 3&quot;: 3}</li>
+</ul>
+<div class="table-wrap"><table>
+<tr><th>Company</th><th>Scope</th><th>Candidate MtCO2e</th><th>Inventory year</th><th>Demotion reason</th></tr>
+<tr><td>UNITEDHEALTH GROUP</td><td>Scope 3</td><td>13.811453</td><td>2024</td><td>year_column_alignment mismatch: candidate 13,811,453 maps to 2022 but inventory_year is 2024; 2024 column value is 17,977,601</td></tr>
+<tr><td>Centene</td><td>Scope 1</td><td>0.013694</td><td>2024</td><td>year_column_alignment mismatch: candidate 13,694 maps to 2022 but inventory_year is 2024; 2024 column value is 7,825</td></tr>
+<tr><td>KIA</td><td>Scope 3</td><td>0.0729755</td><td>2024</td><td>year_column_alignment mismatch: candidate 72,975.5 maps to 2022 but inventory_year is 2024; 2024 column value is 99,395.2</td></tr>
+<tr><td>METLIFE</td><td>Scope 1</td><td>0.010610999999999999</td><td>2019</td><td>year_column_alignment mismatch: candidate 10,611 maps to 2024 but inventory_year is 2019; 2019 column value is 18,342</td></tr>
+<tr><td>NEW YORK LIFE INSURANCE</td><td>Scope 2</td><td>0.095548</td><td>2024</td><td>year_column_alignment mismatch: candidate 95,548 maps to 2019 but inventory_year is 2024; 2024 column value is 75,388</td></tr>
+<tr><td>NEW YORK LIFE INSURANCE</td><td>Scope 3</td><td>0.028430999999999998</td><td>2024</td><td>year_column_alignment mismatch: candidate 28,431 maps to 2019 but inventory_year is 2024; 2024 column value is 57,931</td></tr>
+<tr><td>HONEYWELL INTERNATIONAL</td><td>Scope 1</td><td>1.5404849999999999</td><td>2024</td><td>year_column_alignment mismatch: candidate 1,540,485 maps to 2020 but inventory_year is 2024; 2024 column value is 750,530</td></tr>
+</table></div>
+    </section>
+  </div>
+</body>
+</html>

@@ -29,6 +29,10 @@ REQUIRED_FILES = [
     WORKBENCH / "world500_reporting_closure_dashboard.csv",
     WORKBENCH / "world500_ghg_series_acceptance_ledger.json",
     WORKBENCH / "world500_ghg_series_acceptance_ledger.csv",
+    WORKBENCH / "world500_ghg_zero_accepted_standard_audit.json",
+    WORKBENCH / "world500_ghg_zero_accepted_standard_audit.csv",
+    WORKBENCH / "world500_ghg_zero_accepted_review_closure_queue.json",
+    WORKBENCH / "world500_ghg_zero_accepted_review_closure_queue.csv",
     WORKBENCH / "world500_ghg_pcaf_standard_registry.json",
     WORKBENCH / "world500_ghg_backfill_explicit_recheck_summary.json",
     WORKBENCH / "world500_ghg_backfill_explicit_recheck_queue.csv",
@@ -392,6 +396,64 @@ def assert_ghg_series_acceptance_ledger() -> None:
         if bucket == "demoted" and row.get("match_status") != "contextual_overmapped_review":
             raise AssertionError(f"Demoted GHG ledger row is not overmapped review: {row.get('decision_id')}")
 
+
+def assert_ghg_zero_accepted_standard_audit() -> None:
+    reporting = read_json(WORKBENCH / "reporting_views.json")
+    audit = read_json(WORKBENCH / "world500_ghg_zero_accepted_standard_audit.json")
+    with (WORKBENCH / "world500_ghg_zero_accepted_standard_audit.csv").open("r", encoding="utf-8-sig", newline="") as handle:
+        csv_rows = list(csv.DictReader(handle))
+    rows = audit.get("rows") or []
+    if audit.get("schema_version") != "world500-ghg-zero-accepted-standard-audit-v1":
+        raise AssertionError("GHG zero-accepted audit has unexpected schema version.")
+    if len(rows) != len(csv_rows):
+        raise AssertionError("GHG zero-accepted audit JSON/CSV row count mismatch.")
+    summaries = [
+        row for row in reporting.get("ghg_standard_series", {}).get("series_summary", [])
+        if row.get("core_whitelist")
+    ]
+    zero_summary_ids = {row.get("series_id") for row in summaries if int(row.get("accepted_company_count") or 0) == 0}
+    zero_audit_ids = {row.get("series_id") for row in rows if int(row.get("accepted_company_count") or 0) == 0}
+    if zero_summary_ids != zero_audit_ids:
+        raise AssertionError("GHG zero-accepted audit does not match reporting_views series_summary zero-accepted set.")
+    if int(audit.get("zero_accepted_standard_count", -1)) != len(zero_summary_ids):
+        raise AssertionError("GHG zero-accepted audit count mismatch.")
+    expected_zero_ids = {
+        "ghg_land_sector_removals_standard",
+        "ghg_cities_gpc",
+        "ghg_mitigation_goal_standard",
+        "ghg_policy_action_standard",
+        "ghg_grid_connected_electricity_projects",
+    }
+    if zero_summary_ids != expected_zero_ids:
+        raise AssertionError(f"GHG zero-accepted set changed without an explicit evidence-gate update: {sorted(zero_summary_ids ^ expected_zero_ids)}")
+    if int(audit.get("zero_accepted_standard_count", -1)) != 5:
+        raise AssertionError("Expected exactly five zero-accepted GHGP/PCAF standards under the current evidence gate.")
+    for row in rows:
+        if int(row.get("accepted_company_count") or 0) == 0 and not row.get("audit_decision_en"):
+            raise AssertionError(f"GHG zero-accepted audit missing decision: {row.get('series_id')}")
+
+    closure = read_json(WORKBENCH / "world500_ghg_zero_accepted_review_closure_queue.json")
+    with (WORKBENCH / "world500_ghg_zero_accepted_review_closure_queue.csv").open("r", encoding="utf-8-sig", newline="") as handle:
+        closure_csv_rows = list(csv.DictReader(handle))
+    closure_rows = closure.get("rows") or []
+    if closure.get("schema_version") != "world500-ghgp-zero-accepted-review-closure-queue-v1":
+        raise AssertionError("GHGP zero-accepted review closure queue has unexpected schema version.")
+    if len(closure_rows) != len(closure_csv_rows):
+        raise AssertionError("GHGP zero-accepted review closure JSON/CSV row count mismatch.")
+    if int(closure.get("row_count", -1)) != len(closure_rows):
+        raise AssertionError("GHGP zero-accepted review closure row_count mismatch.")
+    if int(closure.get("zero_accepted_standard_count", -1)) != len(zero_summary_ids):
+        raise AssertionError("GHGP zero-accepted review closure zero standard count mismatch.")
+    if int(closure.get("promotion_allowed_count", -1)) != 0:
+        raise AssertionError("GHGP zero-accepted review closure must not allow automatic promotion.")
+    closure_series_ids = {row.get("series_id") for row in closure_rows}
+    if closure_series_ids != zero_summary_ids:
+        raise AssertionError("GHGP zero-accepted review closure does not cover exactly the zero-accepted standards.")
+    for row in closure_rows:
+        if row.get("promotion_allowed") != "false":
+            raise AssertionError(f"GHGP zero-accepted closure row allows promotion: {row.get('closure_id')}")
+        if not row.get("not_acceptance_reason_code") or not row.get("required_next_evidence_en"):
+            raise AssertionError(f"GHGP zero-accepted closure row missing reason or next evidence: {row.get('closure_id')}")
 
 def assert_ghg_backfill_explicit_recheck() -> None:
     summary = read_json(WORKBENCH / "world500_ghg_backfill_explicit_recheck_summary.json")
@@ -896,10 +958,71 @@ def assert_technology_project_layers() -> None:
         if cluster.get("evidence_boundary") != "keyword_or_methodology_disclosure_signal_not_project_evidence":
             raise AssertionError(f"Technology disclosure cluster has wrong evidence boundary: {cluster.get('id')}")
 
+    accepted_cost_rows = [
+        row for row in project_evidence
+        if row.get("cost_evidence_status") == "accepted_project_cost_or_investment_evidence"
+    ]
+    cost_review_rows = [
+        row for row in project_evidence
+        if row.get("cost_evidence_status") == "cost_not_disclosed_or_unquantified_review_note"
+    ]
+    missing_cost_rows = [
+        row for row in project_evidence
+        if row.get("cost_evidence_status") == "missing_project_cost_or_investment_evidence"
+    ]
+    if int(project_summary.get("project_cost_evidence_count", -1)) != len(accepted_cost_rows):
+        raise AssertionError("Technology project strict cost evidence count mismatch.")
+    if int(project_summary.get("project_cost_review_note_count", -1)) != len(cost_review_rows):
+        raise AssertionError("Technology project cost review-note count mismatch.")
+    if int(project_summary.get("project_abatement_evidence_count", -1)) != sum(1 for row in project_evidence if str(row.get("abatement_effect_en", "")).strip()):
+        raise AssertionError("Technology project abatement evidence count mismatch.")
+
+    allowed_cost_statuses = {
+        "accepted_project_cost_or_investment_evidence",
+        "cost_not_disclosed_or_unquantified_review_note",
+        "missing_project_cost_or_investment_evidence",
+    }
+    forbidden_cost_review_terms = [
+        "no quantified",
+        "not disclosed",
+        "no cost",
+        "not quantified",
+        "amount is not",
+        "transaction amount is not",
+        "share is not",
+        "not separately quantified",
+        "sales revenue",
+        "revenue goes",
+        "revenue from",
+    ]
     for row in project_evidence:
         for required in ["company_id", "technology_id", "evidence_page", "source_file", "snippet_en"]:
             if not str(row.get(required, "")).strip():
                 raise AssertionError(f"Technology project evidence missing {required}: {row.get('company_id')} {row.get('technology_id')}")
+        status = row.get("cost_evidence_status")
+        if status not in allowed_cost_statuses:
+            raise AssertionError(f"Unexpected technology project cost evidence status: {status}")
+        cost_text = str(row.get("cost_or_investment_en", "")).strip()
+        review_note = str(row.get("cost_or_investment_review_note_en", "")).strip()
+        if status == "accepted_project_cost_or_investment_evidence":
+            if not cost_text:
+                raise AssertionError(f"Accepted technology project cost row is missing cost text: {row.get('company_id')} {row.get('technology_id')}")
+            lower_cost = cost_text.lower()
+            if any(term in lower_cost for term in forbidden_cost_review_terms):
+                raise AssertionError(f"Review-only cost wording leaked into accepted cost evidence: {row.get('company_id')} {row.get('technology_id')}")
+            if review_note:
+                raise AssertionError(f"Accepted technology project cost row has review-note text: {row.get('company_id')} {row.get('technology_id')}")
+        if status in {"cost_not_disclosed_or_unquantified_review_note", "missing_project_cost_or_investment_evidence"} and cost_text:
+            raise AssertionError(f"Non-accepted technology project cost row has accepted cost text: {row.get('company_id')} {row.get('technology_id')}")
+        if status == "missing_project_cost_or_investment_evidence" and review_note:
+            raise AssertionError(f"Missing-cost technology project row should not carry review-note text: {row.get('company_id')} {row.get('technology_id')}")
+
+    by_technology = Counter(row.get("technology_id", "") for row in project_evidence)
+    zero_project_clusters = [cluster.get("id") for cluster in clusters if by_technology.get(cluster.get("id"), 0) == 0]
+    if "circular_recycling" not in zero_project_clusters:
+        raise AssertionError("Figure 6 should continue surfacing circular_recycling as lacking project-level evidence until source evidence is added.")
+    if len(accepted_cost_rows) + len(cost_review_rows) + len(missing_cost_rows) != len(project_evidence):
+        raise AssertionError("Technology project cost status partitions do not cover all project evidence rows.")
 
     with (WORKBENCH / "world500_technology_project_upgrade_queue.csv").open("r", encoding="utf-8-sig", newline="") as handle:
         upgrade_rows = list(csv.DictReader(handle))
@@ -1276,6 +1399,7 @@ def main() -> None:
         assert_closure_dashboard_matches_workplan,
         assert_ghg_overmapping_demotions,
         assert_ghg_series_acceptance_ledger,
+        assert_ghg_zero_accepted_standard_audit,
         assert_ghg_backfill_explicit_recheck,
         assert_ghg_pcaf_standard_registry_integrity,
         assert_emissions_ranking_gate,

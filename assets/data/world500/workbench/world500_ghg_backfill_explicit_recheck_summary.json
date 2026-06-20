@@ -1,0 +1,23 @@
+{
+  "schema_version": "world500-ghg-backfill-explicit-recheck-v1",
+  "generated_at": "2026-06-19T06:38:52.066710+00:00",
+  "policy": "Raw PDF backfill explicit labels are rechecked against the controlled 12-item GHG/PCAF whitelist before any accepted graph promotion.",
+  "source_files": [
+    "assets/data/world500/workbench/ghg_series_pdf_page_backfill.json",
+    "assets/data/world500/workbench/world500_ghg_accepted_series_mapping.csv"
+  ],
+  "raw_explicit_row_count": 564,
+  "already_accepted_count": 527,
+  "demoted_reassignment_already_accepted_count": 2,
+  "possible_acceptance_gap_count": 0,
+  "reassign_missing_accepted_edge_count": 0,
+  "raw_explicit_without_strict_alias_count": 32,
+  "raw_explicit_without_acceptance_context_count": 3,
+  "action_counts": {
+    "P1_demote_raw_explicit_to_contextual_review_no_strict_alias": 32,
+    "P1_demote_raw_explicit_to_contextual_review_no_acceptance_context": 3,
+    "already_accepted": 527,
+    "current_edge_demoted_reassignment_already_accepted": 2
+  },
+  "queue_file": "assets/data/world500/workbench/world500_ghg_backfill_explicit_recheck_queue.csv"
+}

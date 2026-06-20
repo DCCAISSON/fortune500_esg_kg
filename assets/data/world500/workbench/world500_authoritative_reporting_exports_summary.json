@@ -1,0 +1,49 @@
+{
+  "schema_version": "world500-authoritative-reporting-exports-summary-v1",
+  "generated_at": "2026-06-19T06:38:35+00:00",
+  "source": "assets/data/world500/workbench/reporting_views.json",
+  "policy_en": "Accepted exports are separated from review-only exports to prevent contextual evidence from being misread as conclusions.",
+  "policy_zh": "将可采信导出与仅复核导出分离，避免把上下文证据误读为结论。",
+  "exports": {
+    "ghg_accepted_series_mapping": {
+      "csv": "assets/data/world500/workbench/world500_ghg_accepted_series_mapping.csv",
+      "json": "assets/data/world500/workbench/world500_ghg_accepted_series_mapping.json",
+      "row_count": 267
+    },
+    "ghg_review_series_mapping": {
+      "csv": "assets/data/world500/workbench/world500_ghg_review_series_mapping.csv",
+      "json": "assets/data/world500/workbench/world500_ghg_review_series_mapping.json",
+      "row_count": 515
+    },
+    "ghg_out_of_whitelist_series_review": {
+      "csv": "assets/data/world500/workbench/world500_ghg_out_of_whitelist_series_review.csv",
+      "json": "assets/data/world500/workbench/world500_ghg_out_of_whitelist_series_review.json",
+      "row_count": 19
+    },
+    "emissions_complete_comparable_ranking": {
+      "csv": "assets/data/world500/workbench/world500_emissions_complete_comparable_ranking.csv",
+      "json": "assets/data/world500/workbench/world500_emissions_complete_comparable_ranking.json",
+      "row_count": 16
+    },
+    "emissions_partial_ranking_review": {
+      "csv": "assets/data/world500/workbench/world500_emissions_partial_ranking_review.csv",
+      "json": "assets/data/world500/workbench/world500_emissions_partial_ranking_review.json",
+      "row_count": 69
+    },
+    "technology_path_disclosure_signal_review": {
+      "csv": "assets/data/world500/workbench/world500_technology_path_disclosure_signal_review.csv",
+      "json": "assets/data/world500/workbench/world500_technology_path_disclosure_signal_review.json",
+      "row_count": 303
+    },
+    "primary_secondary_explicit_primary_ratio": {
+      "csv": "assets/data/world500/workbench/world500_primary_secondary_explicit_primary_ratio.csv",
+      "json": "assets/data/world500/workbench/world500_primary_secondary_explicit_primary_ratio.json",
+      "row_count": 13
+    },
+    "primary_secondary_source_mix_inference_review": {
+      "csv": "assets/data/world500/workbench/world500_primary_secondary_source_mix_inference_review.csv",
+      "json": "assets/data/world500/workbench/world500_primary_secondary_source_mix_inference_review.json",
+      "row_count": 293
+    }
+  }
+}

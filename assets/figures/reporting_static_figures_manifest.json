@@ -1,8 +1,8 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-06-13T08:00:17+00:00",
+  "generated_at": "2026-06-20T17:29:34+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
-  "source_sha256": "10dbf7608dcb2ea88408186a4ec2afa74c3d0eb85c3f6f9a887a8f7dd3f397df",
+  "source_sha256": "c85ef0fdd04cad020882dc41754aacb94b5bd0d1f0153085b2a1dff586eec914",
   "generator": "tools/sync_reporting_static_figures.py",
   "sync_policy": "Figure 2, Figure 6, and the primary/secondary bubble PNGs are regenerated from the same reporting_views.json snapshot referenced by the GitHub pages.",
   "required_synced_report_figures": {
@@ -109,8 +109,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
       "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
-      "bytes": 253464,
-      "sha256": "c7c049f5da88869f27c372d23727b79a86e566df4fff0093b26109d2d02b3849"
+      "bytes": 254434,
+      "sha256": "c586ddd0501e55f2b9f11ff21b3b00567d5e64ec292b40a8223e0ce303f004ee"
     },
     {
       "file": "assets/figures/zh/world500_standard_role_entity_graph.png",
@@ -131,8 +131,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
       "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
-      "bytes": 459030,
-      "sha256": "5cfd169b1174eee93c6417a02327cc3068ac03c390219d86eb26fc45e1f0c9a8"
+      "bytes": 457033,
+      "sha256": "66bc7cbe6f5769dcbb41cf839666266fbab6c3be43cedf55afce4c005e968872"
     },
     {
       "file": "assets/figures/zh/world500_technology_cluster_overview.png",
@@ -153,8 +153,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
       "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
-      "bytes": 338340,
-      "sha256": "51d6955179908b455a05774e0098fa6234690f01e93c9c7dea6c922a66f5f680"
+      "bytes": 338273,
+      "sha256": "c38383c1b54485b1dff5f7b451d2284af5418fc4dacb5ba015d28d86cf167836"
     },
     {
       "file": "assets/figures/zh/world500_primary_secondary_source_mix.png",
@@ -219,8 +219,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
       "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
-      "bytes": 201665,
-      "sha256": "a40503ff97527dd9f31d8b2f46a05be28e16fd8978cc270f7d3d1427abe4d434"
+      "bytes": 202123,
+      "sha256": "1d7079a6320588b502f736950b3b5c200c62948190c98dc598ce25de1b6541c0"
     },
     {
       "file": "assets/figures/en/world500_standard_role_entity_graph.png",
@@ -241,8 +241,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
       "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
-      "bytes": 394226,
-      "sha256": "b880304ec7c0f097a35cfd930a95c2ce6e7a541d7ce0c4dc5641110affb50802"
+      "bytes": 392292,
+      "sha256": "e30104c322d78e9f4f3ad581bbe90bf0aadb4a238757409fe7b25fc54f0d50a4"
     },
     {
       "file": "assets/figures/en/world500_technology_cluster_overview.png",
@@ -263,8 +263,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
       "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
-      "bytes": 264604,
-      "sha256": "4f59437956421452d471de58d2dd355d23178f96d221db16db4c2f803aae81ea"
+      "bytes": 264478,
+      "sha256": "8014ee2231f4275fb0fa356a650c9a47b7aab5077e27780d2b39ae16c9658df6"
     },
     {
       "file": "assets/figures/en/world500_primary_secondary_source_mix.png",
