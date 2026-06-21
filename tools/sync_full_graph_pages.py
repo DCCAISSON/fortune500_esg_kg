@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORTING_FILE = ROOT / "assets" / "data" / "world500" / "workbench" / "reporting_views.json"
+GHG_ACCEPTANCE_LEDGER_FILE = ROOT / "assets" / "data" / "world500" / "workbench" / "world500_ghg_series_acceptance_ledger.json"
 GENERIC_GHG_ID = "ghg_generic_reference"
 CORE_GHG_PCAF_STANDARD_IDS = {
     "ghg_policy_action_standard",
@@ -61,9 +62,10 @@ TEXT = {
         "standard_title": "标准（Standard）角色族全屏实体级知识图谱",
         "standard_intro_1": "本页 HTML 内嵌来自 reporting_views.json 的 accepted_standard_role_graph 子集；GHG Protocol 已拆成细分系列，不再保留一个粗粒度大节点。",
         "standard_intro_2": "标准节点按标准上色，企业节点按行业上色；非 GHG Protocol 证据默认使用直接/间接口径，只有 GHG 语境下才使用 Scope 1/2/3 类别。",
-        "ghg_companies": "GHG 待展示企业",
         "accepted_companies": "明示采信企业",
+        "accepted_edges": "已采信细分边",
         "review_companies": "复核企业",
+        "demoted_edges": "已降级边",
         "ghg_series": "GHGP/PCAF 受控节点",
         "explicit_series": "显式命中细分系列",
         "context_review": "上下文待复核",
@@ -105,9 +107,10 @@ TEXT = {
         "standard_title": "Standard Role-Family Full-Screen Entity Knowledge Graph",
         "standard_intro_1": "This page embeds the accepted_standard_role_graph subset from reporting_views.json directly in the HTML; GHG Protocol is expanded into fine-series nodes instead of one coarse node.",
         "standard_intro_2": "Standard nodes are colored by standard and company nodes by industry. Non-GHG evidence uses direct/indirect emissions wording unless the source explicitly cites GHG Protocol scopes.",
-        "ghg_companies": "GHG display candidates",
         "accepted_companies": "Explicitly accepted companies",
+        "accepted_edges": "Accepted fine-series edges",
         "review_companies": "Review companies",
+        "demoted_edges": "Demoted edges",
         "ghg_series": "GHGP/PCAF controlled nodes",
         "explicit_series": "Explicit series hits",
         "context_review": "Contextual review",
@@ -489,6 +492,11 @@ def accepted_standard_role_graph(reporting):
 def graph_summary(kind, reporting, graph_data):
     summary = dict(require_object(reporting, "summary"))
     if kind == "ghg":
+        if GHG_ACCEPTANCE_LEDGER_FILE.exists():
+            ledger = json.loads(GHG_ACCEPTANCE_LEDGER_FILE.read_text(encoding="utf-8"))
+            summary["ghg_accepted_series_edge_count"] = int(ledger.get("accepted_edge_count", 0))
+            summary["ghg_review_series_edge_count"] = int(ledger.get("review_edge_count", 0))
+            summary["ghg_demoted_series_edge_count"] = int(ledger.get("demoted_edge_count", 0))
         mappings = require_list(graph_data, "company_mappings")
         drawn_company_count = len(mappings)
         summary["ghg_drawn_accepted_company_count"] = drawn_company_count
@@ -600,9 +608,10 @@ def page(lang, kind, reporting):
     intro_2 = t["ghg_intro_2"] if is_ghg else t["standard_intro_2"]
     if is_ghg:
         metrics = [
-            (t["ghg_companies"], summary["ghg_protocol_company_count"]),
             (t["accepted_companies"], summary["ghg_accepted_series_company_count"]),
+            (t["accepted_edges"], summary.get("ghg_accepted_series_edge_count", summary["ghg_accepted_series_company_count"])),
             (t["review_companies"], summary["ghg_review_series_company_count"]),
+            (t["demoted_edges"], summary.get("ghg_demoted_series_edge_count", summary.get("ghg_overmapped_review_edge_count_excluded_from_graph", 0))),
             (t["ghg_series"], summary["ghg_pcaf_core_whitelist_standard_count"] or len([
                 item for item in embedded["ghg_standard_series"]["series_summary"]
                 if item.get("core_whitelist")

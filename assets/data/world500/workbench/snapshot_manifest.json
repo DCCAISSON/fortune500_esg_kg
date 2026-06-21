@@ -1,6 +1,6 @@
 {
   "schema_version": "world500-snapshot-manifest-v1",
-  "generated_at": "2026-06-21T07:51:30+00:00",
+  "generated_at": "2026-06-21T12:18:20+00:00",
   "policy": {
     "canonical_public_graph_layer": "published_graph",
     "canonical_traceability_layer": "strict_traceable_graph",
@@ -69,9 +69,9 @@
         "path": "assets/data/world500/workbench/reporting_views.json",
         "exists": true,
         "bytes": 12384335,
-        "sha256": "c85ef0fdd04cad020882dc41754aacb94b5bd0d1f0153085b2a1dff586eec914"
+        "sha256": "0118e5b2eb3db3fc07e59e6597b6f1eefc17b8e21eff98885f3ca728d06c356e"
       },
-      "generated_at": "2026-06-20T17:28:57.709Z",
+      "generated_at": "2026-06-21T12:17:11.781Z",
       "company_count": 500,
       "ghg_protocol_company_count": 232,
       "ghg_pcaf_core_whitelist_standard_count": 12,
@@ -98,11 +98,11 @@
         "path": "assets/figures/reporting_static_figures_manifest.json",
         "exists": true,
         "bytes": 13012,
-        "sha256": "307cd20f7f300efa3bc1de2511f2d3113b21d969a71a6bd232d7b8a1f86a1c62"
+        "sha256": "e718d971eb9e4a8a6995f453705becd55228e7e138b3c614a8a5d6000cd9a5d9"
       },
-      "generated_at": "2026-06-20T17:29:34+00:00",
+      "generated_at": "2026-06-21T12:17:44+00:00",
       "source": "assets/data/world500/workbench/reporting_views.json",
-      "source_sha256": "c85ef0fdd04cad020882dc41754aacb94b5bd0d1f0153085b2a1dff586eec914",
+      "source_sha256": "0118e5b2eb3db3fc07e59e6597b6f1eefc17b8e21eff98885f3ca728d06c356e",
       "source_hash_matches": true,
       "figure_count": 10,
       "figure_files": [

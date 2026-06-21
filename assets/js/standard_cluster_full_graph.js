@@ -190,10 +190,10 @@
     if (mode === "ghg") {
       const summary = payload.summary || {};
       const values = [
-        [text("GHG display candidates", "GHG 待展示企业"), summary.ghg_protocol_company_count || graphData.companyNodes.length],
         [text("Explicitly accepted companies", "明示采信企业"), summary.ghg_accepted_series_company_count || summary.ghg_explicit_series_company_count || 0],
+        [text("Accepted fine-series edges", "已采信细分边"), summary.ghg_accepted_series_edge_count || summary.ghg_accepted_series_company_count || 0],
         [text("Review companies", "复核企业"), summary.ghg_review_series_company_count || summary.ghg_contextual_series_company_count || 0],
-        [text("Fine classes", "GHG 细分类"), graphData.standardNodes.length],
+        [text("Demoted edges", "已降级边"), summary.ghg_demoted_series_edge_count || summary.ghg_overmapped_review_edge_count_excluded_from_graph || 0],
       ];
       metrics.forEach((metric, index) => {
         if (!values[index]) return;
@@ -632,7 +632,7 @@
     });
 
     const clusterNodes = standards
-      .filter((node) => node.clusterCompanies.length || (graph.mode === "ghg" && node.isGhgFineClass && !node.isGenericGhg))
+      .filter((node) => node.clusterCompanies.length)
       .sort((a, b) => b.clusterCompanies.length - a.clusterCompanies.length);
     const clusterAreaX = graph.mode === "ghg" ? 2750 : 2850;
     const clusterAreaY = 380;
@@ -1024,6 +1024,7 @@
         .filter((node) => graph.mode === "ghg" ? (node.isGhgFineClass && !node.isGenericGhg) : node.companyIds.length)
         .sort((a, b) => standardVisibleCompanyCount(b.id) - standardVisibleCompanyCount(a.id))
         .slice(0, graph.mode === "ghg" ? 12 : 16);
+      const zeroAcceptedStandards = graph.mode === "ghg" ? topStandards.filter((node) => !standardVisibleCompanyCount(node.id)) : [];
       refs.reportTable.innerHTML = `
         <div class="table-kicker">${escapeHtml(text("Cluster summary", "聚类摘要"))}</div>
         <h3>${escapeHtml(text("Companies Clustered by Specific Standards", "企业按具体标准/指南聚类"))}</h3>
@@ -1032,6 +1033,7 @@
           <tr><th>${escapeHtml(text("Standard / guidance", "标准/指南"))}</th><th>${escapeHtml(text("Category", "类别"))}</th><th>${escapeHtml(text("Displayed companies", "当前显示企业"))}</th>${graph.mode === "ghg" ? `<th>${escapeHtml(text("Explicit", "明示"))}</th><th>${escapeHtml(text("Contextual review", "上下文待复核"))}</th><th>${escapeHtml(text("Possible overmapping", "疑似过度映射"))}</th>` : ""}</tr>
           ${topStandards.map((node) => `<tr><td>${escapeHtml(node.shortName || node.name)}</td><td>${escapeHtml(node.category || node.role || "")}</td><td>${formatInt(standardVisibleCompanyCount(node.id))}</td>${graph.mode === "ghg" ? `<td>${formatInt(node.explicitCompanyCount || 0)}</td><td>${formatInt(node.contextualCompanyCount || 0)}</td><td>${formatInt(node.overmappedReviewCompanyCount || 0)}</td>` : ""}</tr>`).join("")}
         </table></div>
+        ${zeroAcceptedStandards.length ? `<p class="table-lead"><strong>${escapeHtml(text("Review-only standards", "待复核标准"))}:</strong> ${escapeHtml(zeroAcceptedStandards.map((node) => node.shortName || node.name).join(" | "))}. ${escapeHtml(text("No accepted company edge is drawn until page-level source text explicitly names the standard.", "未发现页级原文明示命名前，不绘制企业采信边。"))}</p>` : ""}
       `;
     }
 

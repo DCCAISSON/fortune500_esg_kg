@@ -2,7 +2,7 @@
 
 - 生成时间：2026-06-21
 - 审计矩阵日期：2026-06-07
-- PNG manifest 生成时间：2026-06-20T17:29:34+00:00
+- PNG manifest 生成时间：2026-06-21T12:17:44+00:00
 - 总体状态：partial
 - 是否可以声明全部完成：不可
 
@@ -96,7 +96,7 @@
 - PNG manifest：`assets/figures/reporting_static_figures_manifest.json`
 - PNG 数量：10
 - PNG 源数据：`assets/data/world500/workbench/reporting_views.json`
-- 源数据 SHA256：`c85ef0fdd04cad020882dc41754aacb94b5bd0d1f0153085b2a1dff586eec914`
+- 源数据 SHA256：`0118e5b2eb3db3fc07e59e6597b6f1eefc17b8e21eff98885f3ca728d06c356e`
 - 全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `<img>` fallback。
 
 ## 关键源文件

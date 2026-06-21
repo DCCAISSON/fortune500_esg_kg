@@ -39,6 +39,8 @@ REQUIRED_FILES = [
     WORKBENCH / "world500_ghg_zero_accepted_standard_audit.csv",
     WORKBENCH / "world500_ghg_zero_accepted_review_closure_queue.json",
     WORKBENCH / "world500_ghg_zero_accepted_review_closure_queue.csv",
+    WORKBENCH / "world500_ghg_review_acceptance_decisions.json",
+    WORKBENCH / "world500_ghg_review_acceptance_decisions.csv",
     WORKBENCH / "world500_ghg_pcaf_standard_registry.json",
     WORKBENCH / "world500_ghg_backfill_explicit_recheck_summary.json",
     WORKBENCH / "world500_ghg_backfill_explicit_recheck_queue.csv",
@@ -59,6 +61,10 @@ REQUIRED_FILES = [
     WORKBENCH / "world500_technology_project_upgrade_queue.json",
     WORKBENCH / "world500_technology_p0_project_candidate_snippets.csv",
     WORKBENCH / "world500_technology_p0_project_candidate_snippets_summary.json",
+    WORKBENCH / "world500_technology_cost_p0_backfill_targets.json",
+    WORKBENCH / "world500_technology_cost_p0_backfill_targets.csv",
+    WORKBENCH / "world500_technology_cost_p0_strict_evidence_batch.json",
+    WORKBENCH / "world500_technology_cost_p0_strict_evidence_batch.csv",
     FIGURES / "reporting_static_figures_manifest.json",
     ROOT / "REPORTING_COMPLETION_AUDIT_ZH.md",
     ROOT / "reporting-completion-audit.html",
@@ -554,6 +560,38 @@ def assert_ghg_pcaf_standard_registry_integrity() -> None:
             if match_status in ALLOWED_GHG_DRAWN_MATCH_STATUSES and series_id not in CORE_GHG_PCAF_STANDARD_IDS:
                 raise AssertionError(f"Accepted GHG series outside whitelist: {series_id}")
 
+
+def assert_ghg_review_acceptance_decisions() -> None:
+    payload = read_json(WORKBENCH / "world500_ghg_review_acceptance_decisions.json")
+    ledger = read_json(WORKBENCH / "world500_ghg_series_acceptance_ledger.json")
+    if payload.get("schema_version") != "world500-ghg-review-acceptance-decisions-v1":
+        raise AssertionError("GHG review acceptance decisions have an unexpected schema version.")
+    if "does not promote evidence" not in str(payload.get("policy", "")):
+        raise AssertionError("GHG review acceptance decisions must state that they do not promote evidence.")
+    if payload.get("source_file") != "assets/data/world500/workbench/world500_ghg_series_acceptance_ledger.json":
+        raise AssertionError("GHG review acceptance decisions must be sourced from the unified acceptance ledger.")
+    with (WORKBENCH / "world500_ghg_review_acceptance_decisions.csv").open("r", encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if len(rows) != int(payload.get("row_count", -1)):
+        raise AssertionError("GHG review acceptance decision CSV/JSON row count mismatch.")
+    counts = Counter(row.get("decision_bucket", "") for row in rows)
+    if counts != Counter(payload.get("decision_bucket_counts", {})):
+        raise AssertionError("GHG review acceptance decision bucket counts mismatch.")
+    expected = Counter(ledger.get("decision_bucket_counts", {}))
+    if counts != expected:
+        raise AssertionError(f"GHG review decision buckets do not match acceptance ledger: {counts} != {expected}")
+    for bucket in ("accepted", "review", "demoted"):
+        if counts.get(bucket, 0) <= 0:
+            raise AssertionError(f"GHG review decision file is missing {bucket} rows.")
+    for row in rows:
+        bucket = row.get("decision_bucket")
+        status = row.get("decision_status", "")
+        if bucket == "accepted" and status != "accepted_explicit_named_series_edge":
+            raise AssertionError(f"Accepted GHGP decision has unexpected status: {row.get('decision_id')}")
+        if bucket == "review" and status != "review_required_contextual_inventory_mapping":
+            raise AssertionError(f"Review GHGP decision has unexpected status: {row.get('decision_id')}")
+        if bucket == "demoted" and status != "demoted_overmapped_edge_not_accepted":
+            raise AssertionError(f"Demoted GHGP decision has unexpected status: {row.get('decision_id')}")
 
 def assert_emissions_ranking_gate() -> None:
     reporting = read_json(WORKBENCH / "reporting_views.json")
@@ -1158,6 +1196,53 @@ def assert_snapshot_manifest_and_edge_coverage() -> None:
         if row.get("bucket") == "accepted_fact_edge_requires_page" and int(row.get("missing_evidence_page_count", -1)) != 0:
             raise AssertionError(f"Accepted fact relation is missing evidence_page: {row.get('relation')}")
 
+def assert_technology_cost_p0_targets() -> None:
+    payload = read_json(WORKBENCH / "world500_technology_cost_p0_backfill_targets.json")
+    if payload.get("schema_version") != "world500-technology-cost-p0-backfill-targets-v1":
+        raise AssertionError("Technology cost P0 target list has an unexpected schema version.")
+    if "does not create cost evidence" not in str(payload.get("policy", "")):
+        raise AssertionError("Technology cost P0 target list must not claim accepted cost evidence.")
+    expected = {"electrified_transport", "battery_storage", "renewable_power", "energy_efficiency", "low_carbon_fuels"}
+    if set(payload.get("target_technology_ids", [])) != expected:
+        raise AssertionError("Technology cost P0 target list must cover the five demand-side priority paths.")
+    with (WORKBENCH / "world500_technology_cost_p0_backfill_targets.csv").open("r", encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if len(rows) != int(payload.get("row_count", -1)):
+        raise AssertionError("Technology cost P0 target CSV/JSON row count mismatch.")
+    if not rows:
+        raise AssertionError("Technology cost P0 target list is empty.")
+    if any(row.get("technology_id") not in expected for row in rows):
+        raise AssertionError("Technology cost P0 target list contains a non-priority technology path.")
+    if not any(row.get("technology_id") == "battery_storage" for row in rows):
+        raise AssertionError("Technology cost P0 target list must retain battery/storage targets even when sparse.")
+
+
+def assert_technology_cost_p0_strict_evidence_batch() -> None:
+    payload = read_json(WORKBENCH / "world500_technology_cost_p0_strict_evidence_batch.json")
+    if payload.get("schema_version") != "world500-technology-cost-p0-strict-evidence-batch-v1":
+        raise AssertionError("Technology cost P0 strict evidence batch has an unexpected schema version.")
+    if "capacity, procurement volume" not in str(payload.get("policy", "")):
+        raise AssertionError("Technology cost P0 strict evidence batch must exclude capacity/procurement volume as cost evidence.")
+    expected = {"electrified_transport", "battery_storage", "renewable_power", "energy_efficiency", "low_carbon_fuels"}
+    if set(payload.get("target_technology_ids", [])) != expected:
+        raise AssertionError("Technology cost P0 strict evidence batch must cover the five priority paths.")
+    with (WORKBENCH / "world500_technology_cost_p0_strict_evidence_batch.csv").open("r", encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    if len(rows) != int(payload.get("row_count", -1)):
+        raise AssertionError("Technology cost P0 strict evidence CSV/JSON row count mismatch.")
+    accepted = [row for row in rows if row.get("validation_status") == "accepted_strict_cost_or_investment_evidence"]
+    if len(accepted) != int(payload.get("accepted_strict_cost_evidence_count", -1)):
+        raise AssertionError("Technology cost P0 strict accepted count mismatch.")
+    accepted_techs = {row.get("technology_id") for row in accepted}
+    if accepted_techs != expected:
+        raise AssertionError(f"Technology cost P0 strict evidence does not cover all five priority paths: {accepted_techs}")
+    for row in accepted:
+        if not row.get("evidence_page") or not row.get("source_file") or not row.get("cost_or_investment_en"):
+            raise AssertionError(f"Accepted technology cost evidence missing page/source/cost: {row.get('batch_id')}")
+        text = row.get("cost_or_investment_en", "").lower()
+        if any(token in text for token in ["no quantified", "not disclosed", "does not disclose", "transaction amount is not", "cost advantage"]):
+            raise AssertionError(f"Invalid cost text accepted in P0 strict batch: {row.get('batch_id')}")
+
 def assert_static_figures_manifest() -> None:
     manifest = read_json(FIGURES / "reporting_static_figures_manifest.json")
     source = ROOT / manifest.get("source", "")
@@ -1513,6 +1598,7 @@ def main() -> None:
         assert_ghg_zero_accepted_standard_audit,
         assert_ghg_backfill_explicit_recheck,
         assert_ghg_pcaf_standard_registry_integrity,
+        assert_ghg_review_acceptance_decisions,
         assert_emissions_ranking_gate,
         assert_emissions_partial_exclusions,
         assert_emissions_ranking_evidence_ledger,
@@ -1521,6 +1607,7 @@ def main() -> None:
         assert_primary_secondary_bubble_layers,
         assert_technology_project_layers,
         assert_snapshot_manifest_and_edge_coverage,
+        assert_technology_cost_p0_targets,
         assert_static_figures_manifest,
         assert_full_graph_pages,
         assert_homepage_and_report_links,
