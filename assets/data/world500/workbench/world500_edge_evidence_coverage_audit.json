@@ -1,0 +1,178 @@
+{
+  "schema_version": "world500-edge-evidence-coverage-audit-v1",
+  "generated_at": "2026-06-21T07:51:29+00:00",
+  "source_file": "assets/data/world500/graph/world500_strict_traceable_edges.csv",
+  "source_sha256": "57238bcc2ace46b9a3790a71fb4e00f01385915039e1cabd106b391da1911d61",
+  "policy": {
+    "accepted_fact_edges": "Fact edges in the accepted strict layer that document a report fact must carry evidence_page.",
+    "ontology_or_scaffold_edges": "Ontology, linking, and scaffold edges are excluded from the page-evidence denominator; they inherit traceability through adjacent fact nodes or source-trace edges."
+  },
+  "summary": {
+    "total_edge_count": 37896,
+    "total_missing_evidence_page_count": 19646,
+    "accepted_fact_edge_count": 7445,
+    "accepted_fact_missing_evidence_page_count": 0,
+    "accepted_fact_evidence_page_coverage_ratio": 1.0,
+    "ontology_or_scaffold_edge_count": 30039,
+    "ontology_or_scaffold_missing_evidence_page_count": 19440,
+    "uncategorized_edge_count": 412,
+    "uncategorized_missing_evidence_page_count": 206,
+    "accepted_fact_missing_page_gate_passed": true
+  },
+  "relation_rows": [
+    {
+      "relation": "discloses_emission",
+      "bucket": "accepted_fact_edge_requires_page",
+      "edge_count": 286,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "documents_economic_instrument",
+      "bucket": "accepted_fact_edge_requires_page",
+      "edge_count": 1,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "documents_gwp_version",
+      "bucket": "accepted_fact_edge_requires_page",
+      "edge_count": 1,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "documents_methodology",
+      "bucket": "accepted_fact_edge_requires_page",
+      "edge_count": 5806,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "documents_standard_reference",
+      "bucket": "accepted_fact_edge_requires_page",
+      "edge_count": 1351,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "for_scope",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 5897,
+      "missing_evidence_page_count": 5897,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_calculation_method",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 629,
+      "missing_evidence_page_count": 629,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_data_quality_flag",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 439,
+      "missing_evidence_page_count": 439,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_data_source_type",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 683,
+      "missing_evidence_page_count": 683,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_evidence_page",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 2948,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "has_gwp_version_fact",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 1,
+      "missing_evidence_page_count": 1,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_methodology_fact",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 5806,
+      "missing_evidence_page_count": 5806,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_review_candidate",
+      "bucket": "uncategorized_edge_review_required",
+      "edge_count": 206,
+      "missing_evidence_page_count": 206,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_scope3_category",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 3647,
+      "missing_evidence_page_count": 3647,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_source_file",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 350,
+      "missing_evidence_page_count": 350,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "has_source_trace",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 7651,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "identifies_scope3_category_value_candidate",
+      "bucket": "uncategorized_edge_review_required",
+      "edge_count": 128,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "identifies_scope_value_candidate",
+      "bucket": "uncategorized_edge_review_required",
+      "edge_count": 78,
+      "missing_evidence_page_count": 0,
+      "missing_evidence_page_ratio": 0.0
+    },
+    {
+      "relation": "publishes",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 350,
+      "missing_evidence_page_count": 350,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "references_standard",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 1351,
+      "missing_evidence_page_count": 1351,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "reports_emission",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 286,
+      "missing_evidence_page_count": 286,
+      "missing_evidence_page_ratio": 1.0
+    },
+    {
+      "relation": "uses_economic_instrument",
+      "bucket": "ontology_or_scaffold_edge_page_optional",
+      "edge_count": 1,
+      "missing_evidence_page_count": 1,
+      "missing_evidence_page_ratio": 1.0
+    }
+  ]
+}

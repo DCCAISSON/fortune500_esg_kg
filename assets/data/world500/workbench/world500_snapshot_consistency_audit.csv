@@ -1,0 +1,6 @@
+﻿layer_id,kind,node_count,edge_count,company_count,source_script
+strict_traceable_graph,graph_snapshot,11671,37896,350,tools/build_world500_strict_traceable_graph.py or current graph export pipeline
+published_graph,graph_snapshot,6950,24719,351,tools/build_world500_published_graph.py or current graph export pipeline
+reporting_views,reporting_snapshot,,,500,tools/build_world500_reporting_views.js
+reporting_static_figures,figure_snapshot,,,,tools/sync_reporting_static_figures.py
+full_accounting_readiness,readiness_snapshot,,,500,tools/build_full_accounting_readiness.py or current workbench generator

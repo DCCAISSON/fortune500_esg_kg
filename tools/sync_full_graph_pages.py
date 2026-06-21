@@ -503,7 +503,11 @@ def graph_summary(kind, reporting, graph_data):
         ])
         summary["ghg_graph_series_count"] = len([
             item for item in require_list(graph_data, "series_summary")
-            if item.get("company_count", 0) > 0
+            if item.get("series_id") in CORE_GHG_PCAF_STANDARD_IDS
+        ])
+        summary["ghg_graph_zero_accepted_series_count"] = len([
+            item for item in require_list(graph_data, "series_summary")
+            if item.get("series_id") in CORE_GHG_PCAF_STANDARD_IDS and int(item.get("accepted_company_count", 0) or 0) == 0
         ])
         summary["ghg_generic_reference_excluded_from_graph"] = True
         exclusion = graph_data.get("graph_exclusion_summary", {})

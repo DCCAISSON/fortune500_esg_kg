@@ -1,0 +1,250 @@
+{
+  "schema_version": "world500-snapshot-manifest-v1",
+  "generated_at": "2026-06-21T07:51:30+00:00",
+  "policy": {
+    "canonical_public_graph_layer": "published_graph",
+    "canonical_traceability_layer": "strict_traceable_graph",
+    "canonical_reporting_layer": "reporting_views",
+    "count_rule": "Public node/edge/company counts must cite a layer_id from this manifest. Counts from different layers must not be described as the same snapshot.",
+    "evidence_page_rule": "Accepted fact edges require evidence_page. Ontology/scaffold edges are reported separately and are not used as the evidence-page denominator."
+  },
+  "snapshots": [
+    {
+      "layer_id": "strict_traceable_graph",
+      "kind": "graph_snapshot",
+      "source_script": "tools/build_world500_strict_traceable_graph.py or current graph export pipeline",
+      "summary_file": {
+        "path": "assets/data/world500/graph/world500_strict_traceable_graph_summary.json",
+        "exists": true,
+        "bytes": 928,
+        "sha256": "3e07cf6e544d34c6d11f54495e195881ce9967fdb7d15e073f9800f0cc89ffa1"
+      },
+      "graphml_file": {
+        "path": "assets/data/world500/graph/world500_strict_traceable_kg.graphml",
+        "exists": true,
+        "bytes": 22212693,
+        "sha256": "cbc789933c0fc5153f8372aa291020036bdf1cc7c6cf0d87aad1d6c4209c6b6d"
+      },
+      "node_count": 11671,
+      "edge_count": 37896,
+      "company_count": 350,
+      "node_type_count": 17,
+      "relation_type_count": 22,
+      "graphml_node_count": 11671,
+      "graphml_edge_count": 37896,
+      "graphml_matches_summary": true,
+      "description": "Strict source-traceable KG layer generated from accounting workbench company JSON."
+    },
+    {
+      "layer_id": "published_graph",
+      "kind": "graph_snapshot",
+      "source_script": "tools/build_world500_published_graph.py or current graph export pipeline",
+      "summary_file": {
+        "path": "assets/data/world500/graph/world500_published_graph_summary.json",
+        "exists": true,
+        "bytes": 131,
+        "sha256": "581ea3a2deb255269644ae491ee937a69d2619c3f14af35ca12c8a2e7be2bd6d"
+      },
+      "graphml_file": {
+        "path": "assets/data/world500/graph/world500_published_kg.graphml",
+        "exists": true,
+        "bytes": 29562165,
+        "sha256": "b6b00c80a6b832b009a9f2272adb30f128bed1c4d994364220fa22e682c55cbe"
+      },
+      "node_count": 6950,
+      "edge_count": 24719,
+      "company_count": 351,
+      "node_type_count": 25,
+      "relation_type_count": 24,
+      "graphml_node_count": 6950,
+      "graphml_edge_count": 24719,
+      "graphml_matches_summary": true,
+      "description": ""
+    },
+    {
+      "layer_id": "reporting_views",
+      "kind": "reporting_snapshot",
+      "source_script": "tools/build_world500_reporting_views.js",
+      "data_file": {
+        "path": "assets/data/world500/workbench/reporting_views.json",
+        "exists": true,
+        "bytes": 12384335,
+        "sha256": "c85ef0fdd04cad020882dc41754aacb94b5bd0d1f0153085b2a1dff586eec914"
+      },
+      "generated_at": "2026-06-20T17:28:57.709Z",
+      "company_count": 500,
+      "ghg_protocol_company_count": 232,
+      "ghg_pcaf_core_whitelist_standard_count": 12,
+      "ghg_accepted_series_company_count": 140,
+      "accepted_standard_count": 25,
+      "accepted_standard_company_count": 211,
+      "accepted_standard_link_count": 464,
+      "standard_review_edges_excluded_from_drawn_graph": 1449,
+      "complete_emissions_ranking_company_count": 16,
+      "technology_project_evidence_count": 77,
+      "technology_project_cost_evidence_count": 12,
+      "source_mix_explicit_reported_primary_ratio_company_count": 13,
+      "accepted_standard_role_graph_counts": {
+        "standards": 25,
+        "companies": 211,
+        "links": 464
+      }
+    },
+    {
+      "layer_id": "reporting_static_figures",
+      "kind": "figure_snapshot",
+      "source_script": "tools/sync_reporting_static_figures.py",
+      "manifest_file": {
+        "path": "assets/figures/reporting_static_figures_manifest.json",
+        "exists": true,
+        "bytes": 13012,
+        "sha256": "307cd20f7f300efa3bc1de2511f2d3113b21d969a71a6bd232d7b8a1f86a1c62"
+      },
+      "generated_at": "2026-06-20T17:29:34+00:00",
+      "source": "assets/data/world500/workbench/reporting_views.json",
+      "source_sha256": "c85ef0fdd04cad020882dc41754aacb94b5bd0d1f0153085b2a1dff586eec914",
+      "source_hash_matches": true,
+      "figure_count": 10,
+      "figure_files": [
+        {
+          "path": "assets/figures/zh/world500_emissions_ranking_graph.png",
+          "exists": true,
+          "bytes": 250959,
+          "sha256": "8718ccafe0ea00060b80d78764e0a2f45f5336cf403145043853b022470e6ad6",
+          "lang": "zh",
+          "figure_no": "emissions_ranking",
+          "manifest_sha256": "8718ccafe0ea00060b80d78764e0a2f45f5336cf403145043853b022470e6ad6",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/zh/world500_standard_chain_overview.png",
+          "exists": true,
+          "bytes": 254434,
+          "sha256": "c586ddd0501e55f2b9f11ff21b3b00567d5e64ec292b40a8223e0ce303f004ee",
+          "lang": "zh",
+          "figure_no": "figure_2",
+          "manifest_sha256": "c586ddd0501e55f2b9f11ff21b3b00567d5e64ec292b40a8223e0ce303f004ee",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/zh/world500_standard_role_entity_graph.png",
+          "exists": true,
+          "bytes": 457033,
+          "sha256": "66bc7cbe6f5769dcbb41cf839666266fbab6c3be43cedf55afce4c005e968872",
+          "lang": "zh",
+          "figure_no": "figure_2_entity_graph",
+          "manifest_sha256": "66bc7cbe6f5769dcbb41cf839666266fbab6c3be43cedf55afce4c005e968872",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/zh/world500_technology_cluster_overview.png",
+          "exists": true,
+          "bytes": 338273,
+          "sha256": "c38383c1b54485b1dff5f7b451d2284af5418fc4dacb5ba015d28d86cf167836",
+          "lang": "zh",
+          "figure_no": "figure_6",
+          "manifest_sha256": "c38383c1b54485b1dff5f7b451d2284af5418fc4dacb5ba015d28d86cf167836",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/zh/world500_primary_secondary_source_mix.png",
+          "exists": true,
+          "bytes": 164954,
+          "sha256": "c15afa3af57560a875b0294c9bd81cb3da9a21a665c753a64fce7b6c24aed37c",
+          "lang": "zh",
+          "figure_no": "primary_secondary_bubble",
+          "manifest_sha256": "c15afa3af57560a875b0294c9bd81cb3da9a21a665c753a64fce7b6c24aed37c",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/en/world500_emissions_ranking_graph.png",
+          "exists": true,
+          "bytes": 215783,
+          "sha256": "bbd4e6caa03c965abc6432c4607f21c81d42fd2921078417fe69b83401d76dbd",
+          "lang": "en",
+          "figure_no": "emissions_ranking",
+          "manifest_sha256": "bbd4e6caa03c965abc6432c4607f21c81d42fd2921078417fe69b83401d76dbd",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/en/world500_standard_chain_overview.png",
+          "exists": true,
+          "bytes": 202123,
+          "sha256": "1d7079a6320588b502f736950b3b5c200c62948190c98dc598ce25de1b6541c0",
+          "lang": "en",
+          "figure_no": "figure_2",
+          "manifest_sha256": "1d7079a6320588b502f736950b3b5c200c62948190c98dc598ce25de1b6541c0",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/en/world500_standard_role_entity_graph.png",
+          "exists": true,
+          "bytes": 392292,
+          "sha256": "e30104c322d78e9f4f3ad581bbe90bf0aadb4a238757409fe7b25fc54f0d50a4",
+          "lang": "en",
+          "figure_no": "figure_2_entity_graph",
+          "manifest_sha256": "e30104c322d78e9f4f3ad581bbe90bf0aadb4a238757409fe7b25fc54f0d50a4",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/en/world500_technology_cluster_overview.png",
+          "exists": true,
+          "bytes": 264478,
+          "sha256": "8014ee2231f4275fb0fa356a650c9a47b7aab5077e27780d2b39ae16c9658df6",
+          "lang": "en",
+          "figure_no": "figure_6",
+          "manifest_sha256": "8014ee2231f4275fb0fa356a650c9a47b7aab5077e27780d2b39ae16c9658df6",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/en/world500_primary_secondary_source_mix.png",
+          "exists": true,
+          "bytes": 117353,
+          "sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802",
+          "lang": "en",
+          "figure_no": "primary_secondary_bubble",
+          "manifest_sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802",
+          "hash_matches": true
+        }
+      ]
+    },
+    {
+      "layer_id": "full_accounting_readiness",
+      "kind": "readiness_snapshot",
+      "source_script": "tools/build_full_accounting_readiness.py or current workbench generator",
+      "data_file": {
+        "path": "assets/data/world500/workbench/full_accounting_readiness_summary.json",
+        "exists": true,
+        "bytes": 1766,
+        "sha256": "a955f1e7f152be32814faf49fc297c1b05e3c41267895a16ca3fae9a8f346c1f"
+      },
+      "company_count": 500,
+      "full_accounting_ready_company_count": 0,
+      "candidate_or_partial_company_count": 155,
+      "evidence_graph_only_company_count": 196,
+      "source_gap_company_count": 149,
+      "status_counts": {
+        "evidence_graph_only": 196,
+        "candidate_or_partial": 155,
+        "source_gap": 149
+      }
+    }
+  ],
+  "edge_evidence_coverage": {
+    "audit_file": "assets/data/world500/workbench/world500_edge_evidence_coverage_audit.json",
+    "audit_csv": "assets/data/world500/workbench/world500_edge_evidence_coverage_audit.csv",
+    "source_sha256": "57238bcc2ace46b9a3790a71fb4e00f01385915039e1cabd106b391da1911d61",
+    "summary": {
+      "total_edge_count": 37896,
+      "total_missing_evidence_page_count": 19646,
+      "accepted_fact_edge_count": 7445,
+      "accepted_fact_missing_evidence_page_count": 0,
+      "accepted_fact_evidence_page_coverage_ratio": 1.0,
+      "ontology_or_scaffold_edge_count": 30039,
+      "ontology_or_scaffold_missing_evidence_page_count": 19440,
+      "uncategorized_edge_count": 412,
+      "uncategorized_missing_evidence_page_count": 206,
+      "accepted_fact_missing_page_gate_passed": true
+    }
+  }
+}

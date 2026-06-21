@@ -1,0 +1,50 @@
+{
+  "schema_version": "world500-snapshot-consistency-audit-v1",
+  "generated_at": "2026-06-21T07:51:30+00:00",
+  "manifest_file": "assets/data/world500/workbench/snapshot_manifest.json",
+  "manifest_sha256": "667fbccec7b342887c1393c5c210904566623af6623756b27655efd952cab272",
+  "status": "passed",
+  "issues": [],
+  "public_count_layers": [
+    {
+      "layer_id": "strict_traceable_graph",
+      "kind": "graph_snapshot",
+      "node_count": 11671,
+      "edge_count": 37896,
+      "company_count": 350,
+      "source_script": "tools/build_world500_strict_traceable_graph.py or current graph export pipeline"
+    },
+    {
+      "layer_id": "published_graph",
+      "kind": "graph_snapshot",
+      "node_count": 6950,
+      "edge_count": 24719,
+      "company_count": 351,
+      "source_script": "tools/build_world500_published_graph.py or current graph export pipeline"
+    },
+    {
+      "layer_id": "reporting_views",
+      "kind": "reporting_snapshot",
+      "node_count": null,
+      "edge_count": null,
+      "company_count": 500,
+      "source_script": "tools/build_world500_reporting_views.js"
+    },
+    {
+      "layer_id": "reporting_static_figures",
+      "kind": "figure_snapshot",
+      "node_count": null,
+      "edge_count": null,
+      "company_count": null,
+      "source_script": "tools/sync_reporting_static_figures.py"
+    },
+    {
+      "layer_id": "full_accounting_readiness",
+      "kind": "readiness_snapshot",
+      "node_count": null,
+      "edge_count": null,
+      "company_count": 500,
+      "source_script": "tools/build_full_accounting_readiness.py or current workbench generator"
+    }
+  ]
+}

@@ -15,11 +15,17 @@ from reporting_queue_utils import effective_queue_count
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKBENCH = ROOT / "assets" / "data" / "world500" / "workbench"
+GRAPH = ROOT / "assets" / "data" / "world500" / "graph"
 FIGURES = ROOT / "assets" / "figures"
 
 
 REQUIRED_FILES = [
     WORKBENCH / "reporting_views.json",
+    WORKBENCH / "snapshot_manifest.json",
+    WORKBENCH / "world500_snapshot_consistency_audit.json",
+    WORKBENCH / "world500_snapshot_consistency_audit.csv",
+    WORKBENCH / "world500_edge_evidence_coverage_audit.json",
+    WORKBENCH / "world500_edge_evidence_coverage_audit.csv",
     WORKBENCH / "reporting_completion_audit.json",
     WORKBENCH / "reporting_gap_status_summary.json",
     WORKBENCH / "world500_requirement_completion_matrix.json",
@@ -1055,6 +1061,103 @@ def assert_technology_project_layers() -> None:
         raise AssertionError("Technology P0 project candidate hit-edge count mismatch.")
 
 
+def assert_snapshot_manifest_and_edge_coverage() -> None:
+    manifest_path = WORKBENCH / "snapshot_manifest.json"
+    snapshot_audit_path = WORKBENCH / "world500_snapshot_consistency_audit.json"
+    edge_audit_path = WORKBENCH / "world500_edge_evidence_coverage_audit.json"
+    snapshot_csv_path = WORKBENCH / "world500_snapshot_consistency_audit.csv"
+    edge_csv_path = WORKBENCH / "world500_edge_evidence_coverage_audit.csv"
+
+    manifest = read_json(manifest_path)
+    snapshot_audit = read_json(snapshot_audit_path)
+    edge_audit = read_json(edge_audit_path)
+
+    if manifest.get("schema_version") != "world500-snapshot-manifest-v1":
+        raise AssertionError("Snapshot manifest has an unexpected schema version.")
+    if snapshot_audit.get("schema_version") != "world500-snapshot-consistency-audit-v1":
+        raise AssertionError("Snapshot consistency audit has an unexpected schema version.")
+    if edge_audit.get("schema_version") != "world500-edge-evidence-coverage-audit-v1":
+        raise AssertionError("Edge evidence coverage audit has an unexpected schema version.")
+    if snapshot_audit.get("status") != "passed":
+        raise AssertionError("Snapshot consistency audit must pass before publication.")
+    if snapshot_audit.get("manifest_sha256") != sha256(manifest_path):
+        raise AssertionError("Snapshot consistency audit manifest hash is stale.")
+
+    policy = manifest.get("policy", {})
+    if policy.get("canonical_public_graph_layer") != "published_graph":
+        raise AssertionError("Snapshot manifest must identify published_graph as the public graph layer.")
+    if policy.get("canonical_traceability_layer") != "strict_traceable_graph":
+        raise AssertionError("Snapshot manifest must identify strict_traceable_graph as the traceability layer.")
+    if policy.get("canonical_reporting_layer") != "reporting_views":
+        raise AssertionError("Snapshot manifest must identify reporting_views as the reporting layer.")
+    if "must cite a layer_id" not in str(policy.get("count_rule", "")):
+        raise AssertionError("Snapshot manifest count_rule must require layer_id citation.")
+    if "Accepted fact edges require evidence_page" not in str(policy.get("evidence_page_rule", "")):
+        raise AssertionError("Snapshot manifest evidence_page_rule is missing the accepted fact-edge gate.")
+
+    snapshots = {item.get("layer_id"): item for item in manifest.get("snapshots", [])}
+    required_layers = {
+        "strict_traceable_graph",
+        "published_graph",
+        "reporting_views",
+        "reporting_static_figures",
+        "full_accounting_readiness",
+    }
+    if set(snapshots) != required_layers:
+        raise AssertionError(f"Snapshot manifest layers mismatch: {sorted(set(snapshots) ^ required_layers)}")
+
+    strict_summary = read_json(GRAPH / "world500_strict_traceable_graph_summary.json")
+    published_summary = read_json(GRAPH / "world500_published_graph_summary.json")
+    strict = snapshots["strict_traceable_graph"]
+    published = snapshots["published_graph"]
+    if strict.get("node_count") != strict_summary.get("node_count") or strict.get("edge_count") != strict_summary.get("edge_count"):
+        raise AssertionError("Strict snapshot manifest counts do not match strict summary JSON.")
+    if published.get("node_count") != published_summary.get("node_count") or published.get("edge_count") != published_summary.get("edge_count"):
+        raise AssertionError("Published snapshot manifest counts do not match published summary JSON.")
+    if strict.get("graphml_matches_summary") is not True or published.get("graphml_matches_summary") is not True:
+        raise AssertionError("GraphML counts must match graph summary JSON counts.")
+    if strict.get("node_count") == published.get("node_count") and strict.get("edge_count") == published.get("edge_count"):
+        raise AssertionError("Strict and published graph layers must be cited as distinct snapshots, not collapsed.")
+
+    reporting = snapshots["reporting_views"]
+    reporting_file = ROOT / reporting.get("data_file", {}).get("path", "")
+    if not reporting_file.exists() or reporting.get("data_file", {}).get("sha256") != sha256(reporting_file):
+        raise AssertionError("Reporting snapshot hash mismatch in snapshot manifest.")
+
+    figures = snapshots["reporting_static_figures"]
+    if figures.get("source_hash_matches") is not True:
+        raise AssertionError("Static figure snapshot source hash does not match reporting_views.json.")
+    for figure in figures.get("figure_files", []):
+        if figure.get("hash_matches") is not True:
+            raise AssertionError(f"Static figure hash mismatch in snapshot manifest: {figure.get('path')}")
+
+    edge_source = ROOT / edge_audit.get("source_file", "")
+    if not edge_source.exists() or edge_audit.get("source_sha256") != sha256(edge_source):
+        raise AssertionError("Edge evidence coverage audit source hash is stale.")
+    edge_summary = edge_audit.get("summary", {})
+    if edge_summary.get("accepted_fact_missing_page_gate_passed") is not True:
+        raise AssertionError("Accepted fact-edge evidence-page gate failed.")
+    if int(edge_summary.get("accepted_fact_missing_evidence_page_count", -1)) != 0:
+        raise AssertionError("Accepted fact edges must not be missing evidence_page.")
+    if float(edge_summary.get("accepted_fact_evidence_page_coverage_ratio", 0)) != 1.0:
+        raise AssertionError("Accepted fact-edge evidence page coverage must be 100%.")
+    if int(edge_summary.get("total_missing_evidence_page_count", 0)) <= 0:
+        raise AssertionError("Edge audit should expose missing page counts for scaffold edges instead of hiding them.")
+    if int(edge_summary.get("ontology_or_scaffold_missing_evidence_page_count", 0)) <= 0:
+        raise AssertionError("Edge audit should separately report scaffold edges with optional evidence_page.")
+
+    with snapshot_csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        snapshot_rows = list(csv.DictReader(handle))
+    if len(snapshot_rows) != len(snapshots):
+        raise AssertionError("Snapshot audit CSV row count does not match manifest snapshot layers.")
+    with edge_csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        edge_rows = list(csv.DictReader(handle))
+    if len(edge_rows) != len(edge_audit.get("relation_rows", [])):
+        raise AssertionError("Edge evidence CSV row count does not match JSON relation rows.")
+    for row in edge_audit.get("relation_rows", []):
+        if row.get("bucket") == "accepted_fact_edge_requires_page" and int(row.get("missing_evidence_page_count", -1)) != 0:
+            raise AssertionError(f"Accepted fact relation is missing evidence_page: {row.get('relation')}")
+
 def assert_static_figures_manifest() -> None:
     manifest = read_json(FIGURES / "reporting_static_figures_manifest.json")
     source = ROOT / manifest.get("source", "")
@@ -1169,6 +1272,14 @@ def assert_full_graph_pages() -> None:
                 raise AssertionError(f"Full graph page does not exclude overmapped GHG review edges: {page.relative_to(ROOT)}")
             if embed_policy.get("contextual_scope_inventory_mapping") != "excluded_from_drawn_graph_retained_in_reporting_review_queues":
                 raise AssertionError(f"Full graph page does not exclude contextual GHG review edges: {page.relative_to(ROOT)}")
+            definition_ids = {item.get("id") for item in ghg.get("definitions", [])}
+            summary_ids = {item.get("series_id") for item in ghg.get("series_summary", [])}
+            if definition_ids != CORE_GHG_PCAF_STANDARD_IDS:
+                raise AssertionError(f"GHG full graph definitions must retain all 12 controlled standards: {page.relative_to(ROOT)}")
+            if summary_ids != CORE_GHG_PCAF_STANDARD_IDS:
+                raise AssertionError(f"GHG full graph summary must retain all 12 controlled standards, including zero-accepted standards: {page.relative_to(ROOT)}")
+            if int(reporting.get("summary", {}).get("ghg_graph_series_count", -1)) != len(CORE_GHG_PCAF_STANDARD_IDS):
+                raise AssertionError(f"GHG full graph summary count must be 12 controlled standards: {page.relative_to(ROOT)}")
             for row in ghg.get("company_mappings", []):
                 for item in row.get("series", []):
                     series_id = item.get("series_id")
@@ -1409,6 +1520,7 @@ def main() -> None:
         assert_accepted_standard_role_graph,
         assert_primary_secondary_bubble_layers,
         assert_technology_project_layers,
+        assert_snapshot_manifest_and_edge_coverage,
         assert_static_figures_manifest,
         assert_full_graph_pages,
         assert_homepage_and_report_links,
