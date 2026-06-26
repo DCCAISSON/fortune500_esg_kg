@@ -1,6 +1,6 @@
 {
   "schema_version": "world500-technology-cost-p0-strict-evidence-batch-v1",
-  "generated_at": "2026-06-21T12:17:01+00:00",
+  "generated_at": "2026-06-26T05:18:23.972607+00:00",
   "policy": "Counts only existing page-level project records whose cost/investment field contains explicit monetary amount plus investment/cost/finance wording; capacity, procurement volume, and unquantified cost advantage text stay review-only.",
   "source_file": "assets/data/world500/workbench/world500_technology_project_evidence.json",
   "target_technology_ids": [
@@ -10,16 +10,15 @@
     "low_carbon_fuels",
     "renewable_power"
   ],
-  "row_count": 65,
+  "row_count": 66,
   "accepted_strict_cost_evidence_count": 10,
-  "review_missing_or_unquantified_cost_count": 55,
-  "accepted_strict_cost_company_count": 6,
+  "review_missing_or_unquantified_cost_count": 56,
+  "accepted_strict_cost_company_count": 8,
   "accepted_strict_cost_technology_counts": {
     "battery_storage": 2,
-    "electrified_transport": 1,
-    "energy_efficiency": 3,
+    "renewable_power": 3,
     "low_carbon_fuels": 2,
-    "renewable_power": 2
+    "energy_efficiency": 3
   },
   "records": [
     {
@@ -42,6 +41,23 @@
     {
       "batch_id": "TECH-COST-P0-0002",
       "validation_status": "accepted_strict_cost_or_investment_evidence",
+      "technology_id": "renewable_power",
+      "company_id": "r480_ecopetrol",
+      "company_name_en": "",
+      "world500_rank": "",
+      "project_name_en": "La Cira Infantas solar farm",
+      "measure_name_en": "56 MWp solar farm in Barrancabermeja for self-consumption",
+      "timeline_years": "2024",
+      "cost_or_investment_en": "Report states the initiative is part of a reduction of approximately USD 1.6 million in gas consumption.",
+      "abatement_effect_en": "Expected to generate up to 76.3 GWh per year and reduce 18,000 tons of CO2 equivalent emissions at Barrancabermeja.",
+      "evidence_page": "6",
+      "source_file": "2024-ECOPETROL-integrated-management-report.pdf",
+      "snippet_en": "Ecopetrol states that in 2024 it inaugurated the La Cira Infantas solar farm in Barrancabermeja, with an installed capacity of 56 MWp for self-consumption, expected to generate up to 76.3 gigawatt-hours per year. The initiative is part of a reduction of approximately USD 1.6 million in gas consumption and 18,000 tons in CO2 equivalent emissions at Barrancabermeja.",
+      "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
+    },
+    {
+      "batch_id": "TECH-COST-P0-0003",
+      "validation_status": "accepted_strict_cost_or_investment_evidence",
       "technology_id": "low_carbon_fuels",
       "company_id": "r208_sumitomomitsuifinancialgroup",
       "company_name_en": "",
@@ -57,7 +73,7 @@
       "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
     },
     {
-      "batch_id": "TECH-COST-P0-0003",
+      "batch_id": "TECH-COST-P0-0004",
       "validation_status": "accepted_strict_cost_or_investment_evidence",
       "technology_id": "energy_efficiency",
       "company_id": "r261_intel",
@@ -74,7 +90,7 @@
       "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
     },
     {
-      "batch_id": "TECH-COST-P0-0004",
+      "batch_id": "TECH-COST-P0-0005",
       "validation_status": "accepted_strict_cost_or_investment_evidence",
       "technology_id": "battery_storage",
       "company_id": "r401_suncorenergy",
@@ -91,7 +107,7 @@
       "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
     },
     {
-      "batch_id": "TECH-COST-P0-0005",
+      "batch_id": "TECH-COST-P0-0006",
       "validation_status": "accepted_strict_cost_or_investment_evidence",
       "technology_id": "renewable_power",
       "company_id": "r101_eon",
@@ -108,7 +124,7 @@
       "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
     },
     {
-      "batch_id": "TECH-COST-P0-0006",
+      "batch_id": "TECH-COST-P0-0007",
       "validation_status": "accepted_strict_cost_or_investment_evidence",
       "technology_id": "energy_efficiency",
       "company_id": "r261_intel",
@@ -125,7 +141,7 @@
       "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
     },
     {
-      "batch_id": "TECH-COST-P0-0007",
+      "batch_id": "TECH-COST-P0-0008",
       "validation_status": "accepted_strict_cost_or_investment_evidence",
       "technology_id": "low_carbon_fuels",
       "company_id": "r208_sumitomomitsuifinancialgroup",
@@ -142,58 +158,24 @@
       "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
     },
     {
-      "batch_id": "TECH-COST-P0-0008",
-      "validation_status": "accepted_strict_cost_or_investment_evidence",
-      "technology_id": "renewable_power",
-      "company_id": "r246_ciscosystems",
-      "company_name_en": "",
-      "world500_rank": "",
-      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
-      "measure_name_en": "Investing in renewable energy projects as part of a bundled Scope 1 and 2 reduction plan",
-      "timeline_years": "2023",
-      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
-      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
-      "evidence_page": "31",
-      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
-      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
-      "decision_reason_en": "Accepted as bundled cost/investment evidence; do not read as technology-specific allocated cost."
-    },
-    {
       "batch_id": "TECH-COST-P0-0009",
       "validation_status": "accepted_strict_cost_or_investment_evidence",
-      "technology_id": "energy_efficiency",
-      "company_id": "r246_ciscosystems",
+      "technology_id": "renewable_power",
+      "company_id": "r168_torontodominionbank",
       "company_name_en": "",
       "world500_rank": "",
-      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
-      "measure_name_en": "Investing in energy-efficiency projects as part of a bundled Scope 1 and 2 reduction plan",
-      "timeline_years": "2023",
-      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
-      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
-      "evidence_page": "31",
-      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
-      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
-      "decision_reason_en": "Accepted as bundled cost/investment evidence; do not read as technology-specific allocated cost."
+      "project_name_en": "TD Sustainable and Decarbonization Finance eligible renewable-energy category",
+      "measure_name_en": "Classifying balance-sheet green, social, and sustainability bond purchases and other financing under renewable energy and clean transportation eligible categories",
+      "timeline_years": "2024",
+      "cost_or_investment_en": "Report discloses Environment total USD 11.9 billion, including Renewable Energy USD 2.5 billion and Clean Transportation USD 3.2 billion.",
+      "abatement_effect_en": "Report classifies renewable energy and clean transportation as environmental eligible categories; quantified project CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "18",
+      "source_file": "2024-TORONTO-DOMINION BANK-sustainability-report-en.pdf",
+      "snippet_en": "TD Bank reports eligible categories for green, social and sustainability bond purchases and other financing during fiscal 2024. The Environment total is USD 11.9 billion, including Renewable Energy USD 2.5 billion, Clean Transportation USD 3.2 billion, Environment Multi-Sector USD 3.5 billion, and Other Environment USD 2.7 billion.",
+      "decision_reason_en": "Accepted as technology-path cost/investment evidence with page-level source binding."
     },
     {
       "batch_id": "TECH-COST-P0-0010",
-      "validation_status": "accepted_strict_cost_or_investment_evidence",
-      "technology_id": "electrified_transport",
-      "company_id": "r246_ciscosystems",
-      "company_name_en": "",
-      "world500_rank": "",
-      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
-      "measure_name_en": "Investing in building and fleet electrification projects as part of a bundled Scope 1 and 2 reduction plan",
-      "timeline_years": "2023",
-      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
-      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
-      "evidence_page": "31",
-      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
-      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
-      "decision_reason_en": "Accepted as bundled cost/investment evidence; do not read as technology-specific allocated cost."
-    },
-    {
-      "batch_id": "TECH-COST-P0-0011",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r001_walmart",
@@ -210,7 +192,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0012",
+      "batch_id": "TECH-COST-P0-0011",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "electrified_transport",
       "company_id": "r001_walmart",
@@ -227,7 +209,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0013",
+      "batch_id": "TECH-COST-P0-0012",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "electrified_transport",
       "company_id": "r002_amazoncom",
@@ -244,7 +226,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0014",
+      "batch_id": "TECH-COST-P0-0013",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "low_carbon_fuels",
       "company_id": "r002_amazoncom",
@@ -261,7 +243,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0015",
+      "batch_id": "TECH-COST-P0-0014",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r002_amazoncom",
@@ -278,7 +260,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0016",
+      "batch_id": "TECH-COST-P0-0015",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r007_apple",
@@ -295,7 +277,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0017",
+      "batch_id": "TECH-COST-P0-0016",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r023_totalenergies",
@@ -312,7 +294,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0018",
+      "batch_id": "TECH-COST-P0-0017",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "energy_efficiency",
       "company_id": "r031_samsungelectronics",
@@ -329,7 +311,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0019",
+      "batch_id": "TECH-COST-P0-0018",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r031_samsungelectronics",
@@ -346,7 +328,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0020",
+      "batch_id": "TECH-COST-P0-0019",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r236_pfizer",
@@ -363,7 +345,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0021",
+      "batch_id": "TECH-COST-P0-0020",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "low_carbon_fuels",
       "company_id": "r237_deltaairlines",
@@ -380,7 +362,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0022",
+      "batch_id": "TECH-COST-P0-0021",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r264_riotintogroup",
@@ -397,7 +379,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0023",
+      "batch_id": "TECH-COST-P0-0022",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r264_riotintogroup",
@@ -414,7 +396,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0024",
+      "batch_id": "TECH-COST-P0-0023",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "battery_storage",
       "company_id": "r264_riotintogroup",
@@ -431,7 +413,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0025",
+      "batch_id": "TECH-COST-P0-0024",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r052_phillips66公司",
@@ -448,7 +430,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0026",
+      "batch_id": "TECH-COST-P0-0025",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "low_carbon_fuels",
       "company_id": "r052_phillips66公司",
@@ -465,7 +447,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0027",
+      "batch_id": "TECH-COST-P0-0026",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r098_eni",
@@ -482,7 +464,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0028",
+      "batch_id": "TECH-COST-P0-0027",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r114_royalaholddelhaize",
@@ -499,7 +481,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0029",
+      "batch_id": "TECH-COST-P0-0028",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r117_adm公司",
@@ -516,24 +498,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0030",
-      "validation_status": "review_missing_or_unquantified_cost_evidence",
-      "technology_id": "renewable_power",
-      "company_id": "r480_ecopetrol",
-      "company_name_en": "",
-      "world500_rank": "",
-      "project_name_en": "La Cira Infantas solar farm",
-      "measure_name_en": "56 MWp solar farm in Barrancabermeja for self-consumption",
-      "timeline_years": "2024",
-      "cost_or_investment_en": "Report states the initiative is part of a reduction of approximately USD 1.6 million in gas consumption.",
-      "abatement_effect_en": "Expected to generate up to 76.3 GWh per year and reduce 18,000 tons of CO2 equivalent emissions at Barrancabermeja.",
-      "evidence_page": "6",
-      "source_file": "2024-ECOPETROL-integrated-management-report.pdf",
-      "snippet_en": "Ecopetrol states that in 2024 it inaugurated the La Cira Infantas solar farm in Barrancabermeja, with an installed capacity of 56 MWp for self-consumption, expected to generate up to 76.3 gigawatt-hours per year. The initiative is part of a reduction of approximately USD 1.6 million in gas consumption and 18,000 tons in CO2 equivalent emissions at Barrancabermeja.",
-      "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
-    },
-    {
-      "batch_id": "TECH-COST-P0-0031",
+      "batch_id": "TECH-COST-P0-0029",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r349_fomentoeconómicomexicano公司",
@@ -550,7 +515,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0032",
+      "batch_id": "TECH-COST-P0-0030",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r379_日本kddi电信公司",
@@ -567,7 +532,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0033",
+      "batch_id": "TECH-COST-P0-0031",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r400_gsk",
@@ -584,7 +549,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0034",
+      "batch_id": "TECH-COST-P0-0032",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r478_siemensenergy",
@@ -601,7 +566,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0035",
+      "batch_id": "TECH-COST-P0-0033",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r487_heineken",
@@ -618,7 +583,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0036",
+      "batch_id": "TECH-COST-P0-0034",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "electrified_transport",
       "company_id": "r478_siemensenergy",
@@ -635,7 +600,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0037",
+      "batch_id": "TECH-COST-P0-0035",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "energy_efficiency",
       "company_id": "r478_siemensenergy",
@@ -652,7 +617,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0038",
+      "batch_id": "TECH-COST-P0-0036",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r120_nippontelegraphandtelephone",
@@ -669,7 +634,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0039",
+      "batch_id": "TECH-COST-P0-0037",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r033_cignagroup",
@@ -686,7 +651,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0040",
+      "batch_id": "TECH-COST-P0-0038",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r208_sumitomomitsuifinancialgroup",
@@ -703,7 +668,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0041",
+      "batch_id": "TECH-COST-P0-0039",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r440_philipmorrisinternational",
@@ -720,24 +685,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0042",
-      "validation_status": "review_missing_or_unquantified_cost_evidence",
-      "technology_id": "renewable_power",
-      "company_id": "r168_torontodominionbank",
-      "company_name_en": "",
-      "world500_rank": "",
-      "project_name_en": "TD Sustainable and Decarbonization Finance eligible renewable-energy category",
-      "measure_name_en": "Classifying balance-sheet green, social, and sustainability bond purchases and other financing under renewable energy and clean transportation eligible categories",
-      "timeline_years": "2024",
-      "cost_or_investment_en": "Report discloses Environment total USD 11.9 billion, including Renewable Energy USD 2.5 billion and Clean Transportation USD 3.2 billion.",
-      "abatement_effect_en": "Report classifies renewable energy and clean transportation as environmental eligible categories; quantified project CO2e abatement is not disclosed in this snippet.",
-      "evidence_page": "18",
-      "source_file": "2024-TORONTO-DOMINION BANK-sustainability-report-en.pdf",
-      "snippet_en": "TD Bank reports eligible categories for green, social and sustainability bond purchases and other financing during fiscal 2024. The Environment total is USD 11.9 billion, including Renewable Energy USD 2.5 billion, Clean Transportation USD 3.2 billion, Environment Multi-Sector USD 3.5 billion, and Other Environment USD 2.7 billion.",
-      "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
-    },
-    {
-      "batch_id": "TECH-COST-P0-0043",
+      "batch_id": "TECH-COST-P0-0040",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r247_repsol",
@@ -754,7 +702,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0044",
+      "batch_id": "TECH-COST-P0-0041",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r261_intel",
@@ -771,7 +719,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0045",
+      "batch_id": "TECH-COST-P0-0042",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r241_tdsynnex公司",
@@ -788,7 +736,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0046",
+      "batch_id": "TECH-COST-P0-0043",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r345_raízen公司",
@@ -805,7 +753,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0047",
+      "batch_id": "TECH-COST-P0-0044",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r391_西班牙acs集团",
@@ -822,7 +770,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0048",
+      "batch_id": "TECH-COST-P0-0045",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r450_sap公司",
@@ -839,7 +787,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0049",
+      "batch_id": "TECH-COST-P0-0046",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r489_3m公司",
@@ -856,7 +804,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0050",
+      "batch_id": "TECH-COST-P0-0047",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r119_christiandior",
@@ -873,7 +821,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0051",
+      "batch_id": "TECH-COST-P0-0048",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r262_tjx公司",
@@ -890,7 +838,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0052",
+      "batch_id": "TECH-COST-P0-0049",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r357_magnainternational",
@@ -907,7 +855,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0053",
+      "batch_id": "TECH-COST-P0-0050",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r397_xiaomi",
@@ -924,7 +872,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0054",
+      "batch_id": "TECH-COST-P0-0051",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r401_suncorenergy",
@@ -941,7 +889,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0055",
+      "batch_id": "TECH-COST-P0-0052",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r431_elo集团",
@@ -958,7 +906,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0056",
+      "batch_id": "TECH-COST-P0-0053",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "renewable_power",
       "company_id": "r082_allianz",
@@ -975,7 +923,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0057",
+      "batch_id": "TECH-COST-P0-0054",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "electrified_transport",
       "company_id": "r163_sysco",
@@ -992,7 +940,7 @@
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
-      "batch_id": "TECH-COST-P0-0058",
+      "batch_id": "TECH-COST-P0-0055",
       "validation_status": "review_missing_or_unquantified_cost_evidence",
       "technology_id": "electrified_transport",
       "company_id": "r329_astrazeneca",
@@ -1006,6 +954,57 @@
       "evidence_page": "116",
       "source_file": "AstraZeneca_AR_2024.pdf",
       "snippet_en": "In 2024, we reached the significant milestone of over 60% of our global fleet being battery electric vehicles.",
+      "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
+    },
+    {
+      "batch_id": "TECH-COST-P0-0056",
+      "validation_status": "review_missing_or_unquantified_cost_evidence",
+      "technology_id": "renewable_power",
+      "company_id": "r246_ciscosystems",
+      "company_name_en": "",
+      "world500_rank": "",
+      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+      "measure_name_en": "Investing in renewable energy projects as part of a bundled Scope 1 and 2 reduction plan",
+      "timeline_years": "2023",
+      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "31",
+      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
+      "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
+    },
+    {
+      "batch_id": "TECH-COST-P0-0057",
+      "validation_status": "review_missing_or_unquantified_cost_evidence",
+      "technology_id": "energy_efficiency",
+      "company_id": "r246_ciscosystems",
+      "company_name_en": "",
+      "world500_rank": "",
+      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+      "measure_name_en": "Investing in energy-efficiency projects as part of a bundled Scope 1 and 2 reduction plan",
+      "timeline_years": "2023",
+      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "31",
+      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
+      "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
+    },
+    {
+      "batch_id": "TECH-COST-P0-0058",
+      "validation_status": "review_missing_or_unquantified_cost_evidence",
+      "technology_id": "electrified_transport",
+      "company_id": "r246_ciscosystems",
+      "company_name_en": "",
+      "world500_rank": "",
+      "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+      "measure_name_en": "Investing in building and fleet electrification projects as part of a bundled Scope 1 and 2 reduction plan",
+      "timeline_years": "2023",
+      "cost_or_investment_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+      "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+      "evidence_page": "31",
+      "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+      "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
     },
     {
@@ -1126,6 +1125,25 @@
       "source_file": "2024_ESG_Report_The_Home_Depot.pdf",
       "snippet_en": "Estimated reduction of customers? GHG emissions through the purchase and proper use of energy-saving products (MT CO2e) (includes ENERGY STAR, 2.5 million MT in 2023).",
       "decision_reason_en": "Keep as review: no explicit monetary amount, no investment/cost wording, or wording says cost is not disclosed/unquantified."
+    },
+    {
+      "batch_id": "TECH-COST-P0-0066",
+      "validation_status": "accepted_strict_cost_or_investment_evidence",
+      "technology_id": "energy_efficiency",
+      "company_id": "r486_linde",
+      "company_name_en": "LINDE",
+      "company_name_zh": "林德集团",
+      "world500_rank": "486",
+      "project_name_en": "Internal Decarbonization Investment Program",
+      "project_name_zh": "内部脱碳投资计划",
+      "cost_or_investment_en": "USD 169 million cumulative invested by 2024 toward a  billion target by 2035 for internal decarbonization initiatives including energy-efficient SMRs and ATRs with carbon capture.",
+      "cost_or_investment_zh": "截至2024年累计投资1.69亿美元，目标2035年累计30亿美元内部脱碳投资",
+      "measure_name_en": "Decarbonization capex (energy efficiency + carbon capture)",
+      "evidence_page": "25",
+      "source_file": "linde-2024-sustainable-development-report.pdf",
+      "snippet_en": "Invest in internal decarbonization by 2035, cumulative $ million: 2024=169, Target=3,000 ... 35% absolute reduction in Scope 1 and 2 emissions by 2035",
+      "accepted_strict_cost_evidence_count": 1,
+      "review_missing_or_unquantified_cost_count": 0
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 - 生成时间：2026-06-21
 - 审计矩阵日期：2026-06-07
-- PNG manifest 生成时间：2026-06-21T12:17:44+00:00
+- PNG manifest 生成时间：2026-06-26T05:53:30+00:00
 - 总体状态：partial
 - 是否可以声明全部完成：不可
 
@@ -17,20 +17,20 @@
 | 指标 | 当前值 |
 | --- | --- |
 | 企业总数 | 500 |
-| GHG Protocol 相关企业 | 232 |
-| 显式命中 GHG 具体系列企业 | 140 |
+| GHG Protocol 相关企业 | 229 |
+| 显式命中 GHG 具体系列企业 | 137 |
 | 标准角色图标准节点 | 32 |
 | 标准角色图企业 | 339 |
-| 标准-企业关系 | 1913 |
+| 标准-企业关系 | 1908 |
 | 有可用总排放量企业 | 85 |
-| 完整强证据可比排行企业 | 16 |
+| 完整强证据可比排行企业 | 20 |
 | 技术路径企业 | 173 |
 | 技术路径类别 | 9 |
-| 项目级技术证据记录 | 77 |
-| 项目级技术证据企业 | 51 |
-| 项目级技术成本/投资强证据 | 12 |
-| 项目级技术成本/投资复核说明 | 31 |
-| 项目级技术减排效果证据 | 67 |
+| 项目级技术证据记录 | 79 |
+| 项目级技术证据企业 | 52 |
+| 项目级技术成本/投资强证据 | 11 |
+| 项目级技术成本/投资复核说明 | 34 |
+| 项目级技术减排效果证据 | 69 |
 | 进入初级/次级来源结构企业 | 306 |
 | 有可显示来源比例企业 | 161 |
 | 原文明示 primary-data 百分比企业 | 13 |
@@ -81,7 +81,7 @@
 
 ### 四、图6 技术路径主轴
 
-- 当前判断：已有 9 类技术路径、子类、流程轴、标准对齐、时间和成本信号，并新增 77 条项目/措施级页级证据，覆盖 51 家企业；但更大的技术-企业边集合仍主要是关键词披露信号，不能整体当作项目级核证证据。
+- 当前判断：已有 9 类技术路径、子类、流程轴、标准对齐、时间和成本信号，并新增 79 条项目/措施级页级证据，覆盖 52 家企业；但更大的技术-企业边集合仍主要是关键词披露信号，不能整体当作项目级核证证据。
 - 开放队列行数：432
 - 下一步：把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。
 
@@ -96,7 +96,7 @@
 - PNG manifest：`assets/figures/reporting_static_figures_manifest.json`
 - PNG 数量：10
 - PNG 源数据：`assets/data/world500/workbench/reporting_views.json`
-- 源数据 SHA256：`0118e5b2eb3db3fc07e59e6597b6f1eefc17b8e21eff98885f3ca728d06c356e`
+- 源数据 SHA256：`6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128`
 - 全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `<img>` fallback。
 
 ## 关键源文件
@@ -182,8 +182,8 @@ This ledger unifies accepted, review-only, and demoted GHG Protocol fine-series 
 - CSV: `assets/data/world500/workbench/world500_ghg_series_acceptance_ledger.csv`
 - Row count: 782
 - Accepted explicit edges: 267
-- Review-only contextual edges: 454
-- Demoted overmapped edges: 61
+- Review-only contextual edges: 0
+- Demoted overmapped edges: 515
 - Generic GHG accepted count: 0
 - Accepted outside 12-item whitelist: 0
 - Review/demoted outside 12-item whitelist: 0
@@ -254,11 +254,11 @@ This queue makes the zero-accepted decision machine-readable at company/standard
 
 Figure 6 separates project-level evidence from broader disclosure signals. Cost/investment evidence is counted only when the normalized project record has `cost_evidence_status = accepted_project_cost_or_investment_evidence`; capacity, procurement volume, sales revenue, cost-advantage wording, and no-cost-disclosed notes are not counted as cost evidence.
 
-- Project evidence rows: 77
-- Project companies: 51
-- Strict cost/investment evidence rows: 12
-- Cost review-note rows excluded from strict cost evidence: 31
-- Abatement-effect evidence rows: 67
+- Project evidence rows: 79
+- Project companies: 52
+- Strict cost/investment evidence rows: 11
+- Cost review-note rows excluded from strict cost evidence: 34
+- Abatement-effect evidence rows: 69
 - Source JSON: `assets/data/world500/workbench/world500_technology_project_evidence.json`
 - Audit CSV: `assets/data/world500/workbench/world500_technology_project_evidence_audit.csv`
 
@@ -295,7 +295,7 @@ These decisions record companies whose available total emissions remain sorted f
 
 - JSON: `assets/data/world500/workbench/world500_emissions_partial_exclusion_decisions.json`
 - CSV: `assets/data/world500/workbench/world500_emissions_partial_exclusion_decisions.csv`
-- Decision count: 69
+- Decision count: 65
 - Company count: 69
 - Missing Scope counts: {"Evidence Scope 2 scope2_method": 9, "Inventory year alignment": 2, "Scope 1": 24, "Scope 2": 41, "Scope 2 method": 9, "Scope 3": 45}
 
@@ -306,13 +306,13 @@ These decisions record companies whose available total emissions remain sorted f
 | 4 | BHP GROUP | 377.6 | Scope 1 / Scope 2 | Keep excluded from complete ranking. Backfill Scope 1 / Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
 | 8 | BUNGE GLOBAL | 138.345291 | Scope 2 method / Scope 3 / Evidence Scope 2 scope2_method | Keep excluded from complete ranking. Backfill Scope 2 method / Scope 3 / Evidence Scope 2 scope2_method with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
 | 12 | MAGNA INTERNATIONAL | 60.181438 | Scope 2 method / Evidence Scope 2 scope2_method | Keep excluded from complete ranking. Backfill Scope 2 method / Evidence Scope 2 scope2_method with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
-| 13 | SHELL | 58 | Scope 3 | Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
-| 14 | UNITED AIRLINES HOLDINGS | 52.105234 | Scope 2 | Keep excluded from complete ranking. Backfill Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
 | 15 | PTT | 41.4502 | Inventory year alignment | Keep excluded from complete ranking. Backfill Inventory year alignment with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
-| 16 | AMERICAN AIRLINES GROUP | 39.782019 | Scope 3 | Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
-| 17 | LINDE | 37.413 | Scope 3 | Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
 | 19 | PBF Energy | 30.46 | Scope 3 | Keep excluded from complete ranking. Backfill Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
 | 20 | ORLEN | 28.510855 | Scope 2 | Keep excluded from complete ranking. Backfill Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
+| 21 | CRH | 27.237619 | Scope 2 / Scope 3 | Keep excluded from complete ranking. Backfill Scope 2 / Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
+| 22 | J. SAINSBURY | 25.652904 | Scope 1 / Scope 2 | Keep excluded from complete ranking. Backfill Scope 1 / Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
+| 23 | VALERO ENERGY | 24.9 | Scope 2 / Scope 3 | Keep excluded from complete ranking. Backfill Scope 2 / Scope 3 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
+| 24 | GENERAL ELECTRIC | 23 | Scope 1 / Scope 2 | Keep excluded from complete ranking. Backfill Scope 1 / Scope 2 with page-level value, unit, inventory year, boundary, and Scope 2 method where applicable. |
 
 ## Emissions Ranking Evidence Ledger
 
@@ -320,8 +320,8 @@ This ledger unifies complete ranking rows, partial exclusions, and gap candidate
 
 - JSON: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.json`
 - CSV: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.csv`
-- Complete accepted rows: 16
-- Partial excluded rows: 69
+- Complete accepted rows: 20
+- Partial excluded rows: 65
 - Gap candidate rows: 24
 - P0 gap candidates: 3
 - Auto-promote allowed count: 0
@@ -341,8 +341,8 @@ This ledger unifies complete ranking rows, partial exclusions, and gap candidate
 | ranking_row_decision | complete_comparable_accepted | AMAZON.COM |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | complete_comparable_accepted | ROYAL AHOLD DELHAIZE |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | partial_review_excluded | MAGNA INTERNATIONAL | Scope 2 method / Evidence Scope 2 scope2_method |  |  | Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate. |
-| ranking_row_decision | partial_review_excluded | SHELL | Scope 3 |  |  | Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate. |
-| ranking_row_decision | partial_review_excluded | UNITED AIRLINES HOLDINGS | Scope 2 |  |  | Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate. |
+| ranking_row_decision | complete_comparable_accepted | SHELL |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
+| ranking_row_decision | complete_comparable_accepted | UNITED AIRLINES HOLDINGS |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 
 ## Emissions Year-Alignment Demotion Ledger
 

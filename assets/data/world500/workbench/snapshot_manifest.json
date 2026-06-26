@@ -1,6 +1,6 @@
 {
   "schema_version": "world500-snapshot-manifest-v1",
-  "generated_at": "2026-06-21T12:18:20+00:00",
+  "generated_at": "2026-06-26T04:42:34+00:00",
   "policy": {
     "canonical_public_graph_layer": "published_graph",
     "canonical_traceability_layer": "strict_traceable_graph",
@@ -68,26 +68,26 @@
       "data_file": {
         "path": "assets/data/world500/workbench/reporting_views.json",
         "exists": true,
-        "bytes": 12384335,
-        "sha256": "0118e5b2eb3db3fc07e59e6597b6f1eefc17b8e21eff98885f3ca728d06c356e"
+        "bytes": 10466800,
+        "sha256": "6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128"
       },
-      "generated_at": "2026-06-21T12:17:11.781Z",
+      "generated_at": "2026-06-26T00:34:40.664Z",
       "company_count": 500,
-      "ghg_protocol_company_count": 232,
+      "ghg_protocol_company_count": 229,
       "ghg_pcaf_core_whitelist_standard_count": 12,
-      "ghg_accepted_series_company_count": 140,
+      "ghg_accepted_series_company_count": 137,
       "accepted_standard_count": 25,
-      "accepted_standard_company_count": 211,
-      "accepted_standard_link_count": 464,
-      "standard_review_edges_excluded_from_drawn_graph": 1449,
-      "complete_emissions_ranking_company_count": 16,
+      "accepted_standard_company_count": 209,
+      "accepted_standard_link_count": 456,
+      "standard_review_edges_excluded_from_drawn_graph": 1452,
+      "complete_emissions_ranking_company_count": 19,
       "technology_project_evidence_count": 77,
-      "technology_project_cost_evidence_count": 12,
+      "technology_project_cost_evidence_count": 9,
       "source_mix_explicit_reported_primary_ratio_company_count": 13,
       "accepted_standard_role_graph_counts": {
         "standards": 25,
-        "companies": 211,
-        "links": 464
+        "companies": 209,
+        "links": 456
       }
     },
     {
@@ -98,11 +98,11 @@
         "path": "assets/figures/reporting_static_figures_manifest.json",
         "exists": true,
         "bytes": 13012,
-        "sha256": "e718d971eb9e4a8a6995f453705becd55228e7e138b3c614a8a5d6000cd9a5d9"
+        "sha256": "473bfe5fc8ed22c99187c7f36b89af7cf35a86e13fd2428eec8998a3e27d43cc"
       },
-      "generated_at": "2026-06-21T12:17:44+00:00",
+      "generated_at": "2026-06-21T13:11:16+00:00",
       "source": "assets/data/world500/workbench/reporting_views.json",
-      "source_sha256": "0118e5b2eb3db3fc07e59e6597b6f1eefc17b8e21eff98885f3ca728d06c356e",
+      "source_sha256": "6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128",
       "source_hash_matches": true,
       "figure_count": 10,
       "figure_files": [
@@ -119,31 +119,31 @@
         {
           "path": "assets/figures/zh/world500_standard_chain_overview.png",
           "exists": true,
-          "bytes": 254434,
-          "sha256": "c586ddd0501e55f2b9f11ff21b3b00567d5e64ec292b40a8223e0ce303f004ee",
+          "bytes": 248739,
+          "sha256": "729c56911089ac9a9d8c7b5e54b861d11476c0d980e14ebccf192c0d931ef8a9",
           "lang": "zh",
           "figure_no": "figure_2",
-          "manifest_sha256": "c586ddd0501e55f2b9f11ff21b3b00567d5e64ec292b40a8223e0ce303f004ee",
+          "manifest_sha256": "729c56911089ac9a9d8c7b5e54b861d11476c0d980e14ebccf192c0d931ef8a9",
           "hash_matches": true
         },
         {
           "path": "assets/figures/zh/world500_standard_role_entity_graph.png",
           "exists": true,
-          "bytes": 457033,
-          "sha256": "66bc7cbe6f5769dcbb41cf839666266fbab6c3be43cedf55afce4c005e968872",
+          "bytes": 452474,
+          "sha256": "0048d3c41ab2c5b0496e70fa8ce30e4d6d403c67b2946eaf3d06847386134f25",
           "lang": "zh",
           "figure_no": "figure_2_entity_graph",
-          "manifest_sha256": "66bc7cbe6f5769dcbb41cf839666266fbab6c3be43cedf55afce4c005e968872",
+          "manifest_sha256": "0048d3c41ab2c5b0496e70fa8ce30e4d6d403c67b2946eaf3d06847386134f25",
           "hash_matches": true
         },
         {
           "path": "assets/figures/zh/world500_technology_cluster_overview.png",
           "exists": true,
-          "bytes": 338273,
-          "sha256": "c38383c1b54485b1dff5f7b451d2284af5418fc4dacb5ba015d28d86cf167836",
+          "bytes": 338653,
+          "sha256": "194d3ef24174720363dfedd37bf5a24cbc7e839356b3f239c61763150736052e",
           "lang": "zh",
           "figure_no": "figure_6",
-          "manifest_sha256": "c38383c1b54485b1dff5f7b451d2284af5418fc4dacb5ba015d28d86cf167836",
+          "manifest_sha256": "194d3ef24174720363dfedd37bf5a24cbc7e839356b3f239c61763150736052e",
           "hash_matches": true
         },
         {
@@ -169,31 +169,31 @@
         {
           "path": "assets/figures/en/world500_standard_chain_overview.png",
           "exists": true,
-          "bytes": 202123,
-          "sha256": "1d7079a6320588b502f736950b3b5c200c62948190c98dc598ce25de1b6541c0",
+          "bytes": 196683,
+          "sha256": "5788ac5881a8e485d1c84289253c8345be0cebf7b15e1e315fac1065113fdcb1",
           "lang": "en",
           "figure_no": "figure_2",
-          "manifest_sha256": "1d7079a6320588b502f736950b3b5c200c62948190c98dc598ce25de1b6541c0",
+          "manifest_sha256": "5788ac5881a8e485d1c84289253c8345be0cebf7b15e1e315fac1065113fdcb1",
           "hash_matches": true
         },
         {
           "path": "assets/figures/en/world500_standard_role_entity_graph.png",
           "exists": true,
-          "bytes": 392292,
-          "sha256": "e30104c322d78e9f4f3ad581bbe90bf0aadb4a238757409fe7b25fc54f0d50a4",
+          "bytes": 387421,
+          "sha256": "acd71e9da1400ad8ca5406859d4d3b37b80cbacf517418635e2cd454fdcb5823",
           "lang": "en",
           "figure_no": "figure_2_entity_graph",
-          "manifest_sha256": "e30104c322d78e9f4f3ad581bbe90bf0aadb4a238757409fe7b25fc54f0d50a4",
+          "manifest_sha256": "acd71e9da1400ad8ca5406859d4d3b37b80cbacf517418635e2cd454fdcb5823",
           "hash_matches": true
         },
         {
           "path": "assets/figures/en/world500_technology_cluster_overview.png",
           "exists": true,
-          "bytes": 264478,
-          "sha256": "8014ee2231f4275fb0fa356a650c9a47b7aab5077e27780d2b39ae16c9658df6",
+          "bytes": 264994,
+          "sha256": "19dc38c931dde07a9bcf1ce39f59499163bc9c50808cd892c99ff23ae11a6b21",
           "lang": "en",
           "figure_no": "figure_6",
-          "manifest_sha256": "8014ee2231f4275fb0fa356a650c9a47b7aab5077e27780d2b39ae16c9658df6",
+          "manifest_sha256": "19dc38c931dde07a9bcf1ce39f59499163bc9c50808cd892c99ff23ae11a6b21",
           "hash_matches": true
         },
         {

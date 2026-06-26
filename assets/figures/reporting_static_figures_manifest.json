@@ -1,8 +1,8 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-06-21T12:17:44+00:00",
+  "generated_at": "2026-06-26T05:53:30+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
-  "source_sha256": "0118e5b2eb3db3fc07e59e6597b6f1eefc17b8e21eff98885f3ca728d06c356e",
+  "source_sha256": "6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128",
   "generator": "tools/sync_reporting_static_figures.py",
   "sync_policy": "Figure 2, Figure 6, and the primary/secondary bubble PNGs are regenerated from the same reporting_views.json snapshot referenced by the GitHub pages.",
   "required_synced_report_figures": {
@@ -86,8 +86,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
       "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
-      "bytes": 250959,
-      "sha256": "8718ccafe0ea00060b80d78764e0a2f45f5336cf403145043853b022470e6ad6"
+      "bytes": 249183,
+      "sha256": "fc4054ab2d70db4a6d3e157d70302cb07daee2c0ec555a4801427a59007121e9"
     },
     {
       "file": "assets/figures/zh/world500_standard_chain_overview.png",
@@ -109,8 +109,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
       "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
-      "bytes": 254434,
-      "sha256": "c586ddd0501e55f2b9f11ff21b3b00567d5e64ec292b40a8223e0ce303f004ee"
+      "bytes": 248739,
+      "sha256": "729c56911089ac9a9d8c7b5e54b861d11476c0d980e14ebccf192c0d931ef8a9"
     },
     {
       "file": "assets/figures/zh/world500_standard_role_entity_graph.png",
@@ -131,8 +131,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
       "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
-      "bytes": 457033,
-      "sha256": "66bc7cbe6f5769dcbb41cf839666266fbab6c3be43cedf55afce4c005e968872"
+      "bytes": 452474,
+      "sha256": "0048d3c41ab2c5b0496e70fa8ce30e4d6d403c67b2946eaf3d06847386134f25"
     },
     {
       "file": "assets/figures/zh/world500_technology_cluster_overview.png",
@@ -153,8 +153,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
       "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
-      "bytes": 338273,
-      "sha256": "c38383c1b54485b1dff5f7b451d2284af5418fc4dacb5ba015d28d86cf167836"
+      "bytes": 339455,
+      "sha256": "99e9ab47f08b29933b5d059c6d11550f25ca22411c1bcc556fc5499f93524f38"
     },
     {
       "file": "assets/figures/zh/world500_primary_secondary_source_mix.png",
@@ -196,8 +196,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
       "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
-      "bytes": 215783,
-      "sha256": "bbd4e6caa03c965abc6432c4607f21c81d42fd2921078417fe69b83401d76dbd"
+      "bytes": 215963,
+      "sha256": "0842056a8807b807f576d4ac37145c349025fbb44f2dddf79233a2aa0439e122"
     },
     {
       "file": "assets/figures/en/world500_standard_chain_overview.png",
@@ -219,8 +219,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
       "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
-      "bytes": 202123,
-      "sha256": "1d7079a6320588b502f736950b3b5c200c62948190c98dc598ce25de1b6541c0"
+      "bytes": 196683,
+      "sha256": "5788ac5881a8e485d1c84289253c8345be0cebf7b15e1e315fac1065113fdcb1"
     },
     {
       "file": "assets/figures/en/world500_standard_role_entity_graph.png",
@@ -241,8 +241,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
       "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
-      "bytes": 392292,
-      "sha256": "e30104c322d78e9f4f3ad581bbe90bf0aadb4a238757409fe7b25fc54f0d50a4"
+      "bytes": 387421,
+      "sha256": "acd71e9da1400ad8ca5406859d4d3b37b80cbacf517418635e2cd454fdcb5823"
     },
     {
       "file": "assets/figures/en/world500_technology_cluster_overview.png",
@@ -263,8 +263,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
       "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
-      "bytes": 264478,
-      "sha256": "8014ee2231f4275fb0fa356a650c9a47b7aab5077e27780d2b39ae16c9658df6"
+      "bytes": 265828,
+      "sha256": "73688cffda38b3bf15395f2f67d64df051cbf9601b79c2eea4a8e86a9628e1bf"
     },
     {
       "file": "assets/figures/en/world500_primary_secondary_source_mix.png",
@@ -288,5 +288,6 @@
       "bytes": 117353,
       "sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802"
     }
-  ]
+  ],
+  "source_hash_matches": true
 }

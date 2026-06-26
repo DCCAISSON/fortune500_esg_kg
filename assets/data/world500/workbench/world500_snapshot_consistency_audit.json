@@ -1,8 +1,8 @@
 {
   "schema_version": "world500-snapshot-consistency-audit-v1",
-  "generated_at": "2026-06-21T12:18:20+00:00",
+  "generated_at": "2026-06-26T04:42:34+00:00",
   "manifest_file": "assets/data/world500/workbench/snapshot_manifest.json",
-  "manifest_sha256": "5232b6a9823b4541402e08c3abd5be276485438c574c6259888e19dd080b859a",
+  "manifest_sha256": "723e082eed7577a623b9e748eb3cb6e50079f7d11e59949f1b68002a7066b054",
   "status": "passed",
   "issues": [],
   "public_count_layers": [
@@ -46,5 +46,7 @@
       "company_count": 500,
       "source_script": "tools/build_full_accounting_readiness.py or current workbench generator"
     }
-  ]
+  ],
+  "error_count": 0,
+  "issue_count": 0
 }
