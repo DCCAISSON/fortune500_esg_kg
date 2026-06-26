@@ -23,7 +23,7 @@ P0_TECHS = {
 
 INVALID_COST_RE = re.compile(
     r"no quantified|not disclose|not disclosed|does not disclose|transaction amount is not|not separately quantified|"
-    r"share is not|no cost|not provided|not quantified|sales revenue|cost advantage|reduce operating costs",
+    r"share is not|does not allocate|not allocate|no cost|not provided|not quantified|sales revenue|cost advantage|reduce operating costs",
     re.I,
 )
 AMOUNT_RE = re.compile(
@@ -31,7 +31,7 @@ AMOUNT_RE = re.compile(
     re.I,
 )
 COST_WORD_RE = re.compile(
-    r"invest|investment|capex|capital expenditure|allocation|green loan|loan|finance|financing|budget|bond|cost|saving",
+    r"invest|investment|capex|capital expenditure|allocation|green loan|loan|finance|financing|budget|bond|cost|saving|savings|reduction",
     re.I,
 )
 
@@ -60,17 +60,16 @@ def clean(value: object) -> str:
     return str(value or "").strip()
 
 
-def is_strict_cost(text: str) -> bool:
-    source = clean(text)
-    if not source or INVALID_COST_RE.search(source):
+def is_strict_cost(cost_text: str, context_text: str = "") -> bool:
+    source = clean(cost_text)
+    context = clean(f"{cost_text} {context_text}")
+    if not source or INVALID_COST_RE.search(source) or INVALID_COST_RE.search(context):
         return False
-    return bool(AMOUNT_RE.search(source) and COST_WORD_RE.search(source))
+    return bool(AMOUNT_RE.search(source) and COST_WORD_RE.search(context))
 
 
 def cost_scope_note(text: str) -> str:
     source = clean(text)
-    if re.search(r"combined|bundle|does not allocate|not allocate|not separately", source, re.I):
-        return "Accepted as bundled cost/investment evidence; do not read as technology-specific allocated cost."
     return "Accepted as technology-path cost/investment evidence with page-level source binding."
 
 
@@ -81,7 +80,8 @@ def main() -> None:
     review = []
     for row in records:
         cost_text = clean(row.get("cost_or_investment_en"))
-        target = accepted if is_strict_cost(cost_text) else review
+        context_text = " ".join([clean(row.get("project_name_en")), clean(row.get("measure_name_en")), clean(row.get("snippet_en"))])
+        target = accepted if is_strict_cost(cost_text, context_text) else review
         target.append({
             "validation_status": "accepted_strict_cost_or_investment_evidence" if target is accepted else "review_missing_or_unquantified_cost_evidence",
             "technology_id": clean(row.get("technology_id")),
@@ -131,3 +131,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

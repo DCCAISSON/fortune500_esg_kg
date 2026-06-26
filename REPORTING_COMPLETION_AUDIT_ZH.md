@@ -26,11 +26,11 @@
 | 完整强证据可比排行企业 | 20 |
 | 技术路径企业 | 173 |
 | 技术路径类别 | 9 |
-| 项目级技术证据记录 | 79 |
-| 项目级技术证据企业 | 52 |
-| 项目级技术成本/投资强证据 | 11 |
+| 项目级技术证据记录 | 81 |
+| 项目级技术证据企业 | 53 |
+| 项目级技术成本/投资强证据 | 13 |
 | 项目级技术成本/投资复核说明 | 34 |
-| 项目级技术减排效果证据 | 69 |
+| 项目级技术减排效果证据 | 71 |
 | 进入初级/次级来源结构企业 | 306 |
 | 有可显示来源比例企业 | 161 |
 | 原文明示 primary-data 百分比企业 | 13 |
@@ -81,7 +81,7 @@
 
 ### 四、图6 技术路径主轴
 
-- 当前判断：已有 9 类技术路径、子类、流程轴、标准对齐、时间和成本信号，并新增 79 条项目/措施级页级证据，覆盖 52 家企业；但更大的技术-企业边集合仍主要是关键词披露信号，不能整体当作项目级核证证据。
+- 当前判断：已有 9 类技术路径、子类、流程轴、标准对齐、时间和成本信号，并新增 81 条项目/措施级页级证据，覆盖 53 家企业；但更大的技术-企业边集合仍主要是关键词披露信号，不能整体当作项目级核证证据。
 - 开放队列行数：432
 - 下一步：把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。
 
@@ -96,7 +96,7 @@
 - PNG manifest：`assets/figures/reporting_static_figures_manifest.json`
 - PNG 数量：10
 - PNG 源数据：`assets/data/world500/workbench/reporting_views.json`
-- 源数据 SHA256：`6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128`
+- 源数据 SHA256：`d126e4f2fcedf5132165d0ab80f2059a94ccf575c224c254d7b1dafa1e86bdfc`
 - 全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `<img>` fallback。
 
 ## 关键源文件
@@ -254,11 +254,11 @@ This queue makes the zero-accepted decision machine-readable at company/standard
 
 Figure 6 separates project-level evidence from broader disclosure signals. Cost/investment evidence is counted only when the normalized project record has `cost_evidence_status = accepted_project_cost_or_investment_evidence`; capacity, procurement volume, sales revenue, cost-advantage wording, and no-cost-disclosed notes are not counted as cost evidence.
 
-- Project evidence rows: 79
-- Project companies: 52
-- Strict cost/investment evidence rows: 11
+- Project evidence rows: 81
+- Project companies: 53
+- Strict cost/investment evidence rows: 13
 - Cost review-note rows excluded from strict cost evidence: 34
-- Abatement-effect evidence rows: 69
+- Abatement-effect evidence rows: 71
 - Source JSON: `assets/data/world500/workbench/world500_technology_project_evidence.json`
 - Audit CSV: `assets/data/world500/workbench/world500_technology_project_evidence_audit.csv`
 

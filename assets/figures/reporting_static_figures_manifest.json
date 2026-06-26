@@ -2,7 +2,7 @@
   "schema_version": "reporting-static-figures-manifest-v1",
   "generated_at": "2026-06-26T05:53:30+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
-  "source_sha256": "6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128",
+  "source_sha256": "d126e4f2fcedf5132165d0ab80f2059a94ccf575c224c254d7b1dafa1e86bdfc",
   "generator": "tools/sync_reporting_static_figures.py",
   "sync_policy": "Figure 2, Figure 6, and the primary/secondary bubble PNGs are regenerated from the same reporting_views.json snapshot referenced by the GitHub pages.",
   "required_synced_report_figures": {

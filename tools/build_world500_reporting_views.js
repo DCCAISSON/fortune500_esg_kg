@@ -1,4 +1,4 @@
-const fs = require("fs");
+﻿const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
@@ -8,6 +8,7 @@ const COMPANIES_DIR = path.join(WORKBENCH_DIR, "companies");
 const EXPANDED_DIR = path.join(WORKBENCH_DIR, "expanded_evidence");
 const STRICT_TRACEABLE_NODES_FILE = path.join(GRAPH_DIR, "world500_strict_traceable_nodes.csv");
 const GHG_SERIES_BACKFILL_FILE = path.join(WORKBENCH_DIR, "ghg_series_pdf_page_backfill.json");
+const GHG_SERIES_ACCEPTANCE_LEDGER_FILE = path.join(WORKBENCH_DIR, "world500_ghg_series_acceptance_ledger.json");
 const MANUAL_EMISSIONS_CORRECTIONS_FILE = path.join(WORKBENCH_DIR, "world500_emissions_manual_corrections.json");
 const TECHNOLOGY_PROJECT_EVIDENCE_FILE = path.join(WORKBENCH_DIR, "world500_technology_project_evidence.json");
 const TECHNOLOGY_PROJECT_CANDIDATE_DECISIONS_FILE = path.join(WORKBENCH_DIR, "world500_technology_project_candidate_decisions.json");
@@ -1314,6 +1315,87 @@ function classifyGhgSeries(company, meta, expandedRecords = [], backfillRows = [
   };
 }
 
+function loadGhgSeriesAcceptanceLedgerMappings(companiesById) {
+  if (!fs.existsSync(GHG_SERIES_ACCEPTANCE_LEDGER_FILE)) return [];
+  const payload = readJson(GHG_SERIES_ACCEPTANCE_LEDGER_FILE);
+  const rows = Array.isArray(payload.rows) ? payload.rows : [];
+  const grouped = new Map();
+  rows.forEach((row) => {
+    const companyId = clean(row.company_id);
+    const seriesId = clean(row.series_id);
+    if (!companyId || !seriesId || !CORE_GHG_PCAF_STANDARD_IDS.has(seriesId)) return;
+    const company = companiesById.get(companyId);
+    if (!company) return;
+    addMapItem(grouped, companyId, row);
+  });
+  return [...grouped.entries()].map(([companyId, companyRows]) => {
+    const company = companiesById.get(companyId);
+    const meta = getCompanyMeta(company);
+    const seriesRowsById = new Map();
+    companyRows.forEach((row) => addMapItem(seriesRowsById, clean(row.series_id), row));
+    const series = [...seriesRowsById.entries()].map(([seriesId, seriesRows]) => {
+      const definition = GHG_SERIES.find((item) => item.id === seriesId);
+      const sortedRows = [...seriesRows].sort((a, b) => {
+        const score = { accepted: 0, review: 1, demoted: 2 };
+        return (score[clean(a.decision_bucket)] ?? 9) - (score[clean(b.decision_bucket)] ?? 9);
+      });
+      const bucket = sortedRows.some((row) => clean(row.decision_bucket) === "accepted")
+        ? "accepted"
+        : sortedRows.some((row) => clean(row.decision_bucket) === "review")
+          ? "review"
+          : "demoted";
+      const matchStatus = bucket === "accepted"
+        ? "explicit_series_citation"
+        : bucket === "review"
+          ? "contextual_scope_inventory_mapping"
+          : "demoted_generic_or_contextual_mapping";
+      return {
+        series_id: seriesId,
+        name_en: clean(definition?.name_en || sortedRows[0]?.series_name_en),
+        name_zh: clean(definition?.name_zh || sortedRows[0]?.series_name_zh),
+        category_key: clean(definition?.category_key || sortedRows[0]?.category_en),
+        category_en: clean(definition?.category_en || sortedRows[0]?.category_en),
+        category_zh: clean(definition?.category_zh || sortedRows[0]?.category_zh),
+        match_status: matchStatus,
+        decision_bucket: bucket,
+        decision_statuses: unique(sortedRows.map((row) => row.decision_status)),
+        evidence_count: sortedRows.reduce((sum, row) => sum + Math.max(1, numberOrZero(row.evidence_count)), 0),
+        matched_aliases: unique(sortedRows.flatMap((row) => clean(row.matched_aliases).split(/[|;]/))).slice(0, 5),
+        evidence_gate: unique(sortedRows.map((row) => row.evidence_gate)).join(" | "),
+        overmapped_review_evidence_count: sortedRows.filter((row) => clean(row.decision_status) === "demoted_overmapped_edge_not_accepted").length,
+        pages: unique(sortedRows.flatMap((row) => clean(row.pages).split(/[|;]/))).slice(0, 8),
+        source_files: unique(sortedRows.flatMap((row) => clean(row.source_files).split(/[|;]/))).slice(0, 4),
+        evidence_samples: sortedRows.map((row) => ({
+          report: clean(row.source_files),
+          page: clean(row.pages),
+          source_file: clean(row.source_files),
+          confidence: clean(row.sample_confidence),
+          review_status: clean(row.decision_status),
+          snippet_en: compactSnippet(row.sample_snippet_en, 360),
+          snippet_zh: compactSnippet(row.sample_snippet_zh || row.sample_snippet_en, 360),
+          matched_alias: clean(row.matched_aliases),
+          evidence_gate: clean(row.evidence_gate),
+          match_status: matchStatus,
+          decision_bucket: bucket,
+          decision_status: clean(row.decision_status),
+        })).slice(0, 3),
+      };
+    });
+    return {
+      ...meta,
+      series,
+      explicit_series_count: series.filter((item) => item.decision_bucket === "accepted").length,
+      accepted_series_count: series.filter((item) => item.decision_bucket === "accepted").length,
+      resolved_series_count: series.filter((item) => item.decision_bucket === "accepted").length,
+      contextual_series_count: series.filter((item) => item.decision_bucket === "review").length,
+      overmapped_review_series_count: series.filter((item) => item.decision_bucket === "demoted").length,
+      review_series_count: series.filter((item) => item.decision_bucket === "review").length,
+      demoted_series_count: series.filter((item) => item.decision_bucket === "demoted").length,
+      non_generic_series_count: series.length,
+      generic_reference_count: 0,
+    };
+  }).sort((a, b) => numberOrZero(a.world500_rank) - numberOrZero(b.world500_rank));
+}
 function loadExpandedEvidence(companiesById) {
   const recordsByCompany = new Map();
   listJsonFiles(EXPANDED_DIR).forEach((filePath) => {
@@ -1980,7 +2062,13 @@ function buildStandardRoleGraph(companies, ghgCompanyMappings = [], ghgSeriesSum
         const definition = GHG_SERIES.find((item) => item.id === series.series_id);
         if (!definition) return;
         const metadata = ghgSeriesMetadata(definition);
-        const decision = ghgDecisionForMatchStatus(series.match_status);
+        const decision = series.decision_bucket
+          ? {
+            evidence_mode: series.decision_bucket === "accepted" ? "accepted_explicit_ghg_fine_series_edge" : "excluded_ghg_fine_series_edge",
+            decision_bucket: series.decision_bucket,
+            evidence_gate: series.evidence_gate,
+          }
+          : ghgDecisionForMatchStatus(series.match_status);
         addStandardCompanyLink(mapping, {
           id: definition.id,
           name_en: definition.name_en,
@@ -2202,7 +2290,7 @@ function hasCostSignal(text) {
 function isValidProjectCostEvidence(text) {
   const sourceText = clean(text);
   if (!sourceText) return false;
-  if (/no quantified|not disclose|not disclosed|does not disclose|no cost|no quantified cost|not provided|not quantified|amount is not|transaction amount is not|share is not|not separately quantified|sales revenue|revenue goes|revenue from/i.test(sourceText)) {
+  if (/no quantified|not disclose|not disclosed|does not disclose|no cost|no quantified cost|not provided|not quantified|amount is not|transaction amount is not|share is not|not separately quantified|does not allocate|not allocate|sales revenue|revenue goes|revenue from/i.test(sourceText)) {
     return false;
   }
   return /\$|US\$|USD|EUR|CNY|RMB|million|billion|trillion|invested|investment|green loan|allocation|bond|financ(?:e|ing)|budget|capex|capital expenditure/i.test(sourceText);
@@ -2964,12 +3052,9 @@ function buildPrimarySecondaryBubbles(companies, rankings) {
 function summarizeSeries(companyMappings) {
   return GHG_SERIES.filter((series) => CORE_GHG_PCAF_STANDARD_IDS.has(series.id)).map((series) => {
     const companies = companyMappings.filter((company) => company.series.some((item) => item.series_id === series.id));
-    const explicitCompanies = companies.filter((company) => company.series.some((item) => item.series_id === series.id && item.match_status === "explicit_series_citation"));
-    const contextualCompanies = companies.filter((company) => company.series.some((item) => item.series_id === series.id && item.match_status === "contextual_scope_inventory_mapping"));
-    const overmappedCompanies = companies.filter((company) => company.series.some((item) => item.series_id === series.id && item.match_status === "contextual_overmapped_review"));
-    const reviewCompanies = companies.filter((company) => company.series.some((item) => item.series_id === series.id && (
-      item.match_status === "contextual_scope_inventory_mapping" || item.match_status === "contextual_overmapped_review"
-    )));
+    const acceptedCompanies = companies.filter((company) => company.series.some((item) => item.series_id === series.id && (item.decision_bucket === "accepted" || (!item.decision_bucket && item.match_status === "explicit_series_citation"))));
+    const reviewCompanies = companies.filter((company) => company.series.some((item) => item.series_id === series.id && (item.decision_bucket === "review" || (!item.decision_bucket && item.match_status === "contextual_scope_inventory_mapping"))));
+    const demotedCompanies = companies.filter((company) => company.series.some((item) => item.series_id === series.id && (item.decision_bucket === "demoted" || (!item.decision_bucket && item.match_status === "contextual_overmapped_review"))));
     return {
       series_id: series.id,
       name_en: series.name_en,
@@ -2985,13 +3070,13 @@ function summarizeSeries(companyMappings) {
       language_policy_zh: series.language_policy_zh,
       ...ghgSeriesMetadata(series),
       company_count: companies.length,
-      accepted_company_count: explicitCompanies.length,
+      accepted_company_count: acceptedCompanies.length,
       review_company_count: reviewCompanies.length,
-      display_company_count: explicitCompanies.length,
-      explicit_company_count: explicitCompanies.length,
-      contextual_company_count: contextualCompanies.length,
-      overmapped_review_company_count: overmappedCompanies.length,
-      resolved_company_count: explicitCompanies.length,
+      display_company_count: acceptedCompanies.length,
+      explicit_company_count: acceptedCompanies.length,
+      contextual_company_count: reviewCompanies.length,
+      overmapped_review_company_count: demotedCompanies.length,
+      resolved_company_count: acceptedCompanies.length,
       non_generic_company_count: companies.length,
       evidence_count: companies.reduce((sum, company) => sum + company.series.filter((item) => item.series_id === series.id).reduce((inner, item) => inner + item.evidence_count, 0), 0),
       overmapped_review_evidence_count: companies.reduce((sum, company) => sum + company.series.filter((item) => item.series_id === series.id).reduce((inner, item) => inner + (item.overmapped_review_evidence_count || 0), 0), 0),
@@ -3008,15 +3093,18 @@ function main() {
   const expandedRecordsByCompany = loadExpandedEvidence(companiesById);
   const ghgSeriesBackfillByCompany = loadGhgSeriesBackfill();
   const rankings = buildEmissionRankings(expandedRecordsByCompany);
-  const ghgCompanyMappings = companies
-    .map((company) => classifyGhgSeries(
-      company,
-      getCompanyMeta(company),
-      expandedRecordsByCompany.get(company.company_id) || [],
-      ghgSeriesBackfillByCompany.get(company.company_id) || [],
-    ))
-    .filter(Boolean)
-    .sort((a, b) => numberOrZero(a.world500_rank) - numberOrZero(b.world500_rank));
+  const ledgerGhgCompanyMappings = loadGhgSeriesAcceptanceLedgerMappings(companiesById);
+  const ghgCompanyMappings = ledgerGhgCompanyMappings.length
+    ? ledgerGhgCompanyMappings
+    : companies
+      .map((company) => classifyGhgSeries(
+        company,
+        getCompanyMeta(company),
+        expandedRecordsByCompany.get(company.company_id) || [],
+        ghgSeriesBackfillByCompany.get(company.company_id) || [],
+      ))
+      .filter(Boolean)
+      .sort((a, b) => numberOrZero(a.world500_rank) - numberOrZero(b.world500_rank));
   const ghgSeriesSummary = summarizeSeries(ghgCompanyMappings);
   const standardRoleGraph = buildStandardRoleGraph(companies, ghgCompanyMappings, ghgSeriesSummary);
   const acceptedStandardRoleGraph = buildAcceptedStandardRoleGraph(standardRoleGraph);
@@ -3132,3 +3220,5 @@ function main() {
 }
 
 main();
+
+

@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import csv
 import hashlib
@@ -349,12 +349,13 @@ def assert_ghg_series_acceptance_ledger() -> None:
     if int(ledger.get("accepted_edge_count", -1)) != len(accepted_rows):
         raise AssertionError("GHG series acceptance ledger accepted_edge_count mismatch.")
 
-    review_status_count = sum(1 for row in review_rows if row.get("match_status") == "contextual_scope_inventory_mapping")
-    demoted_status_count = sum(1 for row in review_rows if row.get("match_status") == "contextual_overmapped_review")
-    if int(ledger.get("review_edge_count", -1)) != review_status_count:
+    bucket_counts = Counter(row.get("decision_bucket", "") for row in rows)
+    if int(ledger.get("review_edge_count", -1)) != bucket_counts.get("review", 0):
         raise AssertionError("GHG series acceptance ledger review_edge_count mismatch.")
-    if int(ledger.get("demoted_edge_count", -1)) != demoted_status_count:
+    if int(ledger.get("demoted_edge_count", -1)) != bucket_counts.get("demoted", 0):
         raise AssertionError("GHG series acceptance ledger demoted_edge_count mismatch.")
+    if bucket_counts.get("review", 0) + bucket_counts.get("demoted", 0) != len(review_rows):
+        raise AssertionError("GHG series acceptance ledger review/demoted rows must partition the review mapping.")
     if int(ledger.get("generic_reference_accepted_count", -1)) != 0:
         raise AssertionError("Generic GHG references must never be accepted in the GHG series ledger.")
     if int(ledger.get("accepted_outside_whitelist_count", -1)) != 0:
@@ -389,7 +390,7 @@ def assert_ghg_series_acceptance_ledger() -> None:
     allowed_status_by_bucket = {
         "accepted": {"accepted_explicit_named_series_edge"},
         "review": {"review_required_contextual_inventory_mapping"},
-        "demoted": {"demoted_overmapped_edge_not_accepted"},
+        "demoted": {"demoted_overmapped_edge_not_accepted", "demoted_weak_context_no_ghg_series_signal", "demoted_generic_ghg_context_without_fine_series_name"},
     }
     for row in rows:
         bucket = row.get("decision_bucket")
@@ -405,8 +406,8 @@ def assert_ghg_series_acceptance_ledger() -> None:
             raise AssertionError(f"Accepted GHG ledger row is not explicit: {row.get('decision_id')}")
         if bucket == "review" and row.get("match_status") != "contextual_scope_inventory_mapping":
             raise AssertionError(f"Review GHG ledger row is not contextual mapping: {row.get('decision_id')}")
-        if bucket == "demoted" and row.get("match_status") != "contextual_overmapped_review":
-            raise AssertionError(f"Demoted GHG ledger row is not overmapped review: {row.get('decision_id')}")
+        if bucket == "demoted" and row.get("match_status") not in {"contextual_overmapped_review", "contextual_scope_inventory_mapping"}:
+            raise AssertionError(f"Demoted GHG ledger row has unexpected match status: {row.get('decision_id')}")
 
 
 def assert_ghg_zero_accepted_standard_audit() -> None:
@@ -580,7 +581,7 @@ def assert_ghg_review_acceptance_decisions() -> None:
     expected = Counter(ledger.get("decision_bucket_counts", {}))
     if counts != expected:
         raise AssertionError(f"GHG review decision buckets do not match acceptance ledger: {counts} != {expected}")
-    for bucket in ("accepted", "review", "demoted"):
+    for bucket in ("accepted", "demoted"):
         if counts.get(bucket, 0) <= 0:
             raise AssertionError(f"GHG review decision file is missing {bucket} rows.")
     for row in rows:
@@ -590,7 +591,7 @@ def assert_ghg_review_acceptance_decisions() -> None:
             raise AssertionError(f"Accepted GHGP decision has unexpected status: {row.get('decision_id')}")
         if bucket == "review" and status != "review_required_contextual_inventory_mapping":
             raise AssertionError(f"Review GHGP decision has unexpected status: {row.get('decision_id')}")
-        if bucket == "demoted" and status != "demoted_overmapped_edge_not_accepted":
+        if bucket == "demoted" and status not in {"demoted_overmapped_edge_not_accepted", "demoted_weak_context_no_ghg_series_signal", "demoted_generic_ghg_context_without_fine_series_name"}:
             raise AssertionError(f"Demoted GHGP decision has unexpected status: {row.get('decision_id')}")
 
 def assert_emissions_ranking_gate() -> None:
@@ -1353,9 +1354,9 @@ def assert_full_graph_pages() -> None:
                 raise AssertionError(f"Full graph page missing inline-json runtime policy: {page.relative_to(ROOT)}")
             if embed_policy.get("generic_ghg_reference") != "excluded_from_drawn_graph":
                 raise AssertionError(f"Full graph page does not exclude generic GHG references: {page.relative_to(ROOT)}")
-            if embed_policy.get("contextual_overmapped_review") != "excluded_from_drawn_graph_retained_in_reporting_review_queues":
+            if embed_policy.get("contextual_overmapped_review") not in {"excluded_from_drawn_graph_retained_in_reporting_review_queues", "excluded_from_drawn_graph_retained_in_reporting_review_or_demoted_queues"}:
                 raise AssertionError(f"Full graph page does not exclude overmapped GHG review edges: {page.relative_to(ROOT)}")
-            if embed_policy.get("contextual_scope_inventory_mapping") != "excluded_from_drawn_graph_retained_in_reporting_review_queues":
+            if embed_policy.get("contextual_scope_inventory_mapping") not in {"excluded_from_drawn_graph_retained_in_reporting_review_queues", "excluded_from_drawn_graph_retained_in_reporting_review_or_demoted_queues"}:
                 raise AssertionError(f"Full graph page does not exclude contextual GHG review edges: {page.relative_to(ROOT)}")
             definition_ids = {item.get("id") for item in ghg.get("definitions", [])}
             summary_ids = {item.get("series_id") for item in ghg.get("series_summary", [])}
@@ -1378,8 +1379,13 @@ def assert_full_graph_pages() -> None:
                             f"Unknown GHG drawn match_status={match_status!r} in {page.relative_to(ROOT)}"
                         )
             exclusion = ghg.get("graph_exclusion_summary", {})
-            if int(exclusion.get("overmapped_review_edges_excluded", 0)) <= 0:
-                raise AssertionError(f"GHG full graph should record excluded overmapped review edges: {page.relative_to(ROOT)}")
+            excluded_review_or_demoted = (
+                int(exclusion.get("overmapped_review_edges_excluded", 0))
+                + int(exclusion.get("demoted_edges_excluded", 0))
+                + int(exclusion.get("unknown_status_edges_excluded", 0))
+            )
+            if excluded_review_or_demoted <= 0:
+                raise AssertionError(f"GHG full graph should record excluded review/demoted edges: {page.relative_to(ROOT)}")
         role_graph = reporting.get("standard_role_graph", {})
         if role_graph:
             embed_policy = reporting.get("embed_policy", {})
@@ -1626,3 +1632,5 @@ if __name__ == "__main__":
     except Exception as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         raise
+
+

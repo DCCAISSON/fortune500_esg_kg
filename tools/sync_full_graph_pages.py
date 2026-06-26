@@ -1,4 +1,4 @@
-import html
+﻿import html
 import hashlib
 import json
 from pathlib import Path
@@ -178,9 +178,11 @@ def ghg_graph_exclusion_summary(series_graph):
     rows = require_nonempty_list(series_graph, "company_mappings")
     generic_edges = 0
     overmapped_edges = 0
+    demoted_edges = 0
     unknown_edges = 0
     generic_companies = set()
     overmapped_companies = set()
+    demoted_companies = set()
     unknown_companies = set()
     for row in rows:
         company_id = row.get("company_id")
@@ -191,6 +193,10 @@ def ghg_graph_exclusion_summary(series_graph):
                 generic_edges += 1
                 if company_id:
                     generic_companies.add(company_id)
+            elif item.get("decision_bucket") == "demoted":
+                demoted_edges += 1
+                if company_id:
+                    demoted_companies.add(company_id)
             elif match_status in OVERMAPPED_GHG_MATCH_STATUSES:
                 overmapped_edges += 1
                 if company_id:
@@ -204,6 +210,8 @@ def ghg_graph_exclusion_summary(series_graph):
         "generic_reference_companies_excluded": len(generic_companies),
         "overmapped_review_edges_excluded": overmapped_edges,
         "overmapped_review_companies_excluded": len(overmapped_companies),
+        "demoted_edges_excluded": demoted_edges,
+        "demoted_companies_excluded": len(demoted_companies),
         "unknown_status_edges_excluded": unknown_edges,
         "unknown_status_companies_excluded": len(unknown_companies),
         "excluded_match_statuses": sorted(OVERMAPPED_GHG_MATCH_STATUSES),
@@ -734,3 +742,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
