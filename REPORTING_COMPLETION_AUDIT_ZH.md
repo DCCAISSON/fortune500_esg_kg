@@ -22,8 +22,8 @@
 | 标准角色图标准节点 | 32 |
 | 标准角色图企业 | 339 |
 | 标准-企业关系 | 1908 |
-| 有可用总排放量企业 | 85 |
-| 完整强证据可比排行企业 | 21 |
+| 有可用总排放量企业 | 91 |
+| 完整强证据可比排行企业 | 27 |
 | 技术路径企业 | 173 |
 | 技术路径类别 | 9 |
 | 项目级技术证据记录 | 77 |
@@ -96,7 +96,7 @@
 - PNG manifest：`assets/figures/reporting_static_figures_manifest.json`
 - PNG 数量：10
 - PNG 源数据：`assets/data/world500/workbench/reporting_views.json`
-- 源数据 SHA256：`220dad4f93b3379a241a43ccc9a55901a86a0b22fd04a350197885e99e633fb5`
+- 源数据 SHA256：`4954e86b0d408c766833fd1daba48d58633f4b2e44543ddc36073585a8927016`
 - 全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `<img>` fallback。
 
 ## 关键源文件
@@ -320,7 +320,7 @@ This ledger unifies complete ranking rows, partial exclusions, and gap candidate
 
 - JSON: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.json`
 - CSV: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.csv`
-- Complete accepted rows: 21
+- Complete accepted rows: 27
 - Partial excluded rows: 64
 - Gap candidate rows: 24
 - P0 gap candidates: 3
@@ -329,6 +329,7 @@ This ledger unifies complete ranking rows, partial exclusions, and gap candidate
 
 | Record type | Bucket | Company | Missing scopes | Candidate scope | P0 bucket | Safe use |
 | --- | --- | --- | --- | --- | --- | --- |
+| ranking_row_decision | complete_comparable_accepted | SHELL |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | partial_review_excluded | AIRBUS | Scope 3 |  |  | Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate. |
 | ranking_row_decision | complete_comparable_accepted | WALMART |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | partial_review_excluded | RIO TINTO GROUP | Scope 1 / Scope 2 |  |  | Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate. |
@@ -336,13 +337,12 @@ This ledger unifies complete ranking rows, partial exclusions, and gap candidate
 | ranking_row_decision | complete_comparable_accepted | Equinor |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | complete_comparable_accepted | HOME DEPOT |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | complete_comparable_accepted | ECOPETROL |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
+| ranking_row_decision | complete_comparable_accepted | CARREFOUR |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | partial_review_excluded | BUNGE GLOBAL | Scope 2 method / Scope 3 / Evidence Scope 2 scope2_method |  |  | Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate. |
 | ranking_row_decision | complete_comparable_accepted | UNICREDIT GROUP |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | complete_comparable_accepted | AMAZON.COM |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | complete_comparable_accepted | ROYAL AHOLD DELHAIZE |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 | ranking_row_decision | partial_review_excluded | MAGNA INTERNATIONAL | Scope 2 method / Evidence Scope 2 scope2_method |  |  | Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate. |
-| ranking_row_decision | complete_comparable_accepted | SHELL |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
-| ranking_row_decision | complete_comparable_accepted | UNITED AIRLINES HOLDINGS |  |  |  | May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable. |
 
 ## Emissions Year-Alignment Demotion Ledger
 

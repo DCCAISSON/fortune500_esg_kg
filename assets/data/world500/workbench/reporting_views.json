@@ -1,6 +1,6 @@
 {
   "schema_version": "world500-reporting-views-v1",
-  "generated_at": "2026-06-26T16:02:47.319Z",
+  "generated_at": "2026-06-27T08:09:13.739Z",
   "policy": {
     "evidence_en": "P0 expanded evidence does not promote candidates. It only strengthens source display and gates direct-use Scope rows.",
     "evidence_zh": "P0 扩展证据不提升候选值，只强化证据展示，并作为直接采信 Scope 行的证据门禁。",
@@ -32,10 +32,10 @@
     "accepted_standard_link_count": 456,
     "standard_review_edges_excluded_from_drawn_graph": 1452,
     "standard_review_companies_excluded_from_drawn_graph": 326,
-    "expanded_evidence_company_count": 136,
-    "strong_direct_scope_row_count": 165,
-    "complete_emissions_ranking_company_count": 21,
-    "available_emissions_ranking_company_count": 85,
+    "expanded_evidence_company_count": 141,
+    "strong_direct_scope_row_count": 186,
+    "complete_emissions_ranking_company_count": 27,
+    "available_emissions_ranking_company_count": 91,
     "technology_cluster_count": 9,
     "technology_company_count": 173,
     "technology_project_cluster_count": 8,
@@ -38319,6 +38319,117 @@
         "available_rank": 8
       },
       {
+        "company_id": "r122_carrefour",
+        "company_name_en": "CARREFOUR",
+        "company_name_zh": "家乐福",
+        "world500_rank": 122,
+        "industry_section_code": "F",
+        "industry_section_en": "Wholesale and Retail Trade",
+        "industry_section_zh": "批发和零售业",
+        "industry_color": "#2f6f63",
+        "total_mtco2e": 147.53401,
+        "scope1_mtco2e": 0.669327,
+        "scope2_mtco2e": 0.555813,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 146.30887,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "104"
+        ],
+        "selected_source_files": [
+          "Carrefour-2024-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r122_crf__scope1__2024__104",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 0.669327,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "104",
+            "source_file": "Carrefour-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Carrefour 2024 report page 104 ESRS E1-6 GHG table (669,327 tCO2eq (2024)). Columns: 2019(base)|2023|2024. Market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870",
+            "snippet_zh": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870"
+          },
+          {
+            "evidence_key": "manual_correction__r122_crf__scope2__2024__104",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.555813,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "104",
+            "source_file": "Carrefour-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Carrefour 2024 report page 104 ESRS E1-6 GHG table (555,813 tCO2eq market-based (2024)). Columns: 2019(base)|2023|2024. Market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870",
+            "snippet_zh": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870"
+          },
+          {
+            "evidence_key": "manual_correction__r122_crf__scope3__2024__104",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 146.30887,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "104",
+            "source_file": "Carrefour-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Carrefour 2024 report page 104 ESRS E1-6 GHG table (146,308,870 tCO2eq (2024 total indirect)). Columns: 2019(base)|2023|2024. Market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870",
+            "snippet_zh": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 9
+      },
+      {
         "company_id": "r230_bungeglobal",
         "company_name_en": "BUNGE GLOBAL",
         "company_name_zh": "邦吉公司",
@@ -38411,7 +38522,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2 method, Scope 3, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 2 method、Scope 3、Evidence Scope 2 scope2_method。",
-        "available_rank": 9
+        "available_rank": 10
       },
       {
         "company_id": "r315_unicreditgroup",
@@ -38522,7 +38633,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 10
+        "available_rank": 11
       },
       {
         "company_id": "r002_amazoncom",
@@ -38633,7 +38744,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 11
+        "available_rank": 12
       },
       {
         "company_id": "r114_royalaholddelhaize",
@@ -38744,7 +38855,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 12
+        "available_rank": 13
       },
       {
         "company_id": "r357_magnainternational",
@@ -38862,7 +38973,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2 method, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 2 method、Evidence Scope 2 scope2_method。",
-        "available_rank": 13
+        "available_rank": 14
       },
       {
         "company_id": "r270_unitedairlinesholdings",
@@ -38974,7 +39085,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 14
+        "available_rank": 15
       },
       {
         "company_id": "r278_americanairlinesgroup",
@@ -39086,7 +39197,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 15
+        "available_rank": 16
       },
       {
         "company_id": "r486_linde",
@@ -39199,7 +39310,118 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 16
+        "available_rank": 17
+      },
+      {
+        "company_id": "r374_lufthansagroup",
+        "company_name_en": "LUFTHANSA GROUP",
+        "company_name_zh": "汉莎集团",
+        "world500_rank": 374,
+        "industry_section_code": "G",
+        "industry_section_en": "Transport, Storage and Post",
+        "industry_section_zh": "交通运输、仓储和邮政业",
+        "industry_color": "#315f8c",
+        "total_mtco2e": 42.942,
+        "scope1_mtco2e": 29.159,
+        "scope2_mtco2e": 0.049,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 13.734,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "163"
+        ],
+        "selected_source_files": [
+          "Lufthansa-Group-Annual-Report-2024.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r374_lh__scope1__2024__163",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 29.159,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "163",
+            "source_file": "Lufthansa-Group-Annual-Report-2024.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 163 ESRS E1 GHG table (1,000 tonnes CO2e). 33,349 | 26,822 | 29,159 → 2024=29,159 kt = 29.159 Mt. Columns: 2022 | 2023 | 2024. Uses market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "tonnes CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734",
+            "snippet_zh": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734"
+          },
+          {
+            "evidence_key": "manual_correction__r374_lh__scope2__2024__163",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.049,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "163",
+            "source_file": "Lufthansa-Group-Annual-Report-2024.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 163 ESRS E1 GHG table (1,000 tonnes CO2e). 200 | 91 | 49 → 2024=49 kt market-based = 0.049 Mt. Columns: 2022 | 2023 | 2024. Uses market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "tonnes CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734",
+            "snippet_zh": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734"
+          },
+          {
+            "evidence_key": "manual_correction__r374_lh__scope3__2024__163",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 13.734,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "163",
+            "source_file": "Lufthansa-Group-Annual-Report-2024.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 163 ESRS E1 GHG table (1,000 tonnes CO2e). 10,589 | 10,063 | 13,734 → 2024=13,734 kt = 13.734 Mt. Columns: 2022 | 2023 | 2024. Uses market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "tonnes CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734",
+            "snippet_zh": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734"
+          }
+        ],
+        "strong_row_count": 4,
+        "review_required_row_count": 1,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 1,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 18
       },
       {
         "company_id": "r125_ptt",
@@ -39314,7 +39536,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Inventory year alignment.",
         "completeness_zh": "强证据部分总量；缺 Inventory year alignment。",
-        "available_rank": 17
+        "available_rank": 19
       },
       {
         "company_id": "r007_apple",
@@ -39426,7 +39648,118 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 18
+        "available_rank": 20
+      },
+      {
+        "company_id": "r467_tongweigroup",
+        "company_name_en": "TONGWEI GROUP",
+        "company_name_zh": "通威集团有限公司",
+        "world500_rank": 467,
+        "industry_section_code": "D",
+        "industry_section_en": "Electricity, Heat, Gas and Water Production and Supply",
+        "industry_section_zh": "电力、热力、燃气及水生产和供应业",
+        "industry_color": "#d89b3d",
+        "total_mtco2e": 32.819113,
+        "scope1_mtco2e": 2.312906,
+        "scope2_mtco2e": 20.160531,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 10.345676,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "121"
+        ],
+        "selected_source_files": [
+          "Tongwei-Group-2024-ESG-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r467_tw__scope1__2024__121",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 2.312906,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "121",
+            "source_file": "Tongwei-Group-2024-ESG-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 121 GHG emissions table (2,312,905.79 tCO2e, 2024). Columns: 2024|2023|2022.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022",
+            "snippet_zh": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022"
+          },
+          {
+            "evidence_key": "manual_correction__r467_tw__scope2__2024__121",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 20.160531,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "121",
+            "source_file": "Tongwei-Group-2024-ESG-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 121 GHG emissions table (20,160,530.74 tCO2e (market-based), 2024). Columns: 2024|2023|2022.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022",
+            "snippet_zh": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022"
+          },
+          {
+            "evidence_key": "manual_correction__r467_tw__scope3__2024__121",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 10.345676,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "121",
+            "source_file": "Tongwei-Group-2024-ESG-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 121 GHG emissions table (10,345,675.96 tCO2e, 2024). Columns: 2024|2023|2022.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022",
+            "snippet_zh": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 21
       },
       {
         "company_id": "r395_pbfenergy公司",
@@ -39517,7 +39850,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 19
+        "available_rank": 22
       },
       {
         "company_id": "r132_orlen",
@@ -39607,7 +39940,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 2。",
-        "available_rank": 20
+        "available_rank": 23
       },
       {
         "company_id": "r443_crh公司",
@@ -39673,7 +40006,118 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 21
+        "available_rank": 24
+      },
+      {
+        "company_id": "r261_intel",
+        "company_name_en": "INTEL",
+        "company_name_zh": "英特尔公司",
+        "world500_rank": 261,
+        "industry_section_code": "C",
+        "industry_section_en": "Manufacturing",
+        "industry_section_zh": "制造业",
+        "industry_color": "#c76b2d",
+        "total_mtco2e": 26.261,
+        "scope1_mtco2e": 1.105,
+        "scope2_mtco2e": 0.097,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 25.059,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "36"
+        ],
+        "selected_source_files": [
+          "Intel-2024-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r261_intel__scope1__2024__36",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 1.105,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "36",
+            "source_file": "Intel-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 36 GHG summary: Scope 1=1,105,000 tCO2e. Market-based Scope 2=97,000 tCO2e. Scope 3=25,059,000 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 (Direct) Emissions 1,105,000 | Scope 2 (Indirect, Electricity) 97,000 Market-based | Scope 3 Total 25,059,000",
+            "snippet_zh": "Scope 1 (Direct) Emissions 1,105,000 | Scope 2 (Indirect, Electricity) 97,000 Market-based | Scope 3 Total 25,059,000"
+          },
+          {
+            "evidence_key": "manual_correction__r261_intel__scope2__2024__36",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.097,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "36",
+            "source_file": "Intel-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 36: Scope 2 market-based=97,000 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 2 (Indirect, Electricity) 97,000 Market-based method",
+            "snippet_zh": "Scope 2 (Indirect, Electricity) 97,000 Market-based method"
+          },
+          {
+            "evidence_key": "manual_correction__r261_intel__scope3__2024__36",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 25.059,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "36",
+            "source_file": "Intel-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 36: Total Scope 3=25,059,000 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 3 Total 25,059,000 Indirect/value chain",
+            "snippet_zh": "Scope 3 Total 25,059,000 Indirect/value chain"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 2,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 25
       },
       {
         "company_id": "r369_jsainsbury",
@@ -39739,7 +40183,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 22
+        "available_rank": 26
       },
       {
         "company_id": "r061_valeroenergy",
@@ -39805,7 +40249,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 23
+        "available_rank": 27
       },
       {
         "company_id": "r191_generalelectric",
@@ -39871,7 +40315,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 24
+        "available_rank": 28
       },
       {
         "company_id": "r392_coop集团",
@@ -39984,7 +40428,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 25
+        "available_rank": 29
       },
       {
         "company_id": "r008_unitedhealthgroup",
@@ -40096,7 +40540,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 26
+        "available_rank": 30
       },
       {
         "company_id": "r049_electricitédefrance",
@@ -40191,7 +40635,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2 method, Scope 3, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 2 method、Scope 3、Evidence Scope 2 scope2_method。",
-        "available_rank": 27
+        "available_rank": 31
       },
       {
         "company_id": "r024_glencore",
@@ -40257,7 +40701,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 28
+        "available_rank": 32
       },
       {
         "company_id": "r352_bestbuy",
@@ -40368,7 +40812,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 29
+        "available_rank": 33
       },
       {
         "company_id": "r487_heineken",
@@ -40463,7 +40907,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2 method, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2 method、Evidence Scope 2 scope2_method。",
-        "available_rank": 30
+        "available_rank": 34
       },
       {
         "company_id": "r398_compassgroup",
@@ -40529,7 +40973,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 31
+        "available_rank": 35
       },
       {
         "company_id": "r079_uniper公司",
@@ -40595,7 +41039,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 32
+        "available_rank": 36
       },
       {
         "company_id": "r066_metaplatforms公司",
@@ -40707,7 +41151,118 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 33
+        "available_rank": 37
+      },
+      {
+        "company_id": "r222_nvidia",
+        "company_name_en": "NVIDIA",
+        "company_name_zh": "英伟达公司",
+        "world500_rank": 222,
+        "industry_section_code": "C",
+        "industry_section_en": "Manufacturing",
+        "industry_section_zh": "制造业",
+        "industry_color": "#c76b2d",
+        "total_mtco2e": 6.925529,
+        "scope1_mtco2e": 0.012952,
+        "scope2_mtco2e": 0,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 6.912577,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "29"
+        ],
+        "selected_source_files": [
+          "Nvidia-2025-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r222_nvidia__scope1__2024__29",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 0.012952,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "29",
+            "source_file": "Nvidia-2025-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 29: Scope 1=12,952 tCO2e (2024). Market-based Scope 2=0 (100% renewable match). Scope 3=6,912,577 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 12,952 | Scope 2 market-based 0 | Scope 3 6,912,577",
+            "snippet_zh": "Scope 1 12,952 | Scope 2 market-based 0 | Scope 3 6,912,577"
+          },
+          {
+            "evidence_key": "manual_correction__r222_nvidia__scope2__2024__29",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "29",
+            "source_file": "Nvidia-2025-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 29: Scope 2 market-based=0 tCO2e (Nvidia matches 100% renewable for operations).",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 2, market-based 0",
+            "snippet_zh": "Scope 2, market-based 0"
+          },
+          {
+            "evidence_key": "manual_correction__r222_nvidia__scope3__2024__29",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 6.912577,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "29",
+            "source_file": "Nvidia-2025-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 29: Scope 3=6,912,577 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 3 6,912,577",
+            "snippet_zh": "Scope 3 6,912,577"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 38
       },
       {
         "company_id": "r455_elililly",
@@ -40773,7 +41328,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 34
+        "available_rank": 39
       },
       {
         "company_id": "r320_orange公司",
@@ -40839,7 +41394,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 35
+        "available_rank": 40
       },
       {
         "company_id": "r297_sanofi",
@@ -40950,7 +41505,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 36
+        "available_rank": 41
       },
       {
         "company_id": "r421_jardinematheson",
@@ -41040,7 +41595,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 37
+        "available_rank": 42
       },
       {
         "company_id": "r431_elo集团",
@@ -41129,7 +41684,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 38
+        "available_rank": 43
       },
       {
         "company_id": "r101_eon",
@@ -41195,7 +41750,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 3。",
-        "available_rank": 39
+        "available_rank": 44
       },
       {
         "company_id": "r345_raízen公司",
@@ -41261,7 +41816,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 40
+        "available_rank": 45
       },
       {
         "company_id": "r017_alphabet公司",
@@ -41350,7 +41905,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 41
+        "available_rank": 46
       },
       {
         "company_id": "r165_pertamina",
@@ -41446,7 +42001,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2 method, Scope 3, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 2 method、Scope 3、Evidence Scope 2 scope2_method。",
-        "available_rank": 42
+        "available_rank": 47
       },
       {
         "company_id": "r350_telefónica",
@@ -41557,7 +42112,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 43
+        "available_rank": 48
       },
       {
         "company_id": "r073_hyundaimotor",
@@ -41623,7 +42178,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 3。",
-        "available_rank": 44
+        "available_rank": 49
       },
       {
         "company_id": "r401_suncorenergy",
@@ -41695,7 +42250,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2 method, Scope 3, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2 method、Scope 3、Evidence Scope 2 scope2_method。",
-        "available_rank": 45
+        "available_rank": 50
       },
       {
         "company_id": "r366_warnerbrosdiscovery",
@@ -41761,7 +42316,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 46
+        "available_rank": 51
       },
       {
         "company_id": "r046_centene公司",
@@ -41872,7 +42427,118 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 47
+        "available_rank": 52
+      },
+      {
+        "company_id": "r468_netflix公司",
+        "company_name_en": "Netflix",
+        "company_name_zh": "Netflix",
+        "world500_rank": 468,
+        "industry_section_code": "R",
+        "industry_section_en": "Culture, Sports and Entertainment",
+        "industry_section_zh": "文化、体育和娱乐业",
+        "industry_color": "#5d6f8f",
+        "total_mtco2e": 1.037226,
+        "scope1_mtco2e": 0.050488,
+        "scope2_mtco2e": 0,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 0.986738,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "6"
+        ],
+        "selected_source_files": [
+          "Netflix-2024-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r468_nflx__scope1__2024__6",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 0.050488,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "6",
+            "source_file": "Netflix-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Netflix 2024 Sustainability Report page 6 ESG Summary table (metric tons CO2e, market-based). 51,487 → 50,488 (2024, tCO2e). Table shows 6 years 2019-2024.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226",
+            "snippet_zh": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226"
+          },
+          {
+            "evidence_key": "manual_correction__r468_nflx__scope2__2024__6",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "6",
+            "source_file": "Netflix-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Netflix 2024 Sustainability Report page 6 ESG Summary table (metric tons CO2e, market-based). 565 → 0 (2024 market-based, tCO2e). Table shows 6 years 2019-2024.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226",
+            "snippet_zh": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226"
+          },
+          {
+            "evidence_key": "manual_correction__r468_nflx__scope3__2024__6",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 0.986738,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "6",
+            "source_file": "Netflix-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Netflix 2024 Sustainability Report page 6 ESG Summary table (metric tons CO2e, market-based). 1,192,659 → 986,738 (2024, tCO2e). Table shows 6 years 2019-2024.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226",
+            "snippet_zh": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 53
       },
       {
         "company_id": "r127_fedex",
@@ -41938,7 +42604,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 3。",
-        "available_rank": 48
+        "available_rank": 54
       },
       {
         "company_id": "r235_conocophillips",
@@ -42004,7 +42670,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 3。",
-        "available_rank": 49
+        "available_rank": 55
       },
       {
         "company_id": "r042_mercedesbenzgroup",
@@ -42070,7 +42736,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 50
+        "available_rank": 56
       },
       {
         "company_id": "r176_巴西jbs公司",
@@ -42136,7 +42802,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 51
+        "available_rank": 57
       },
       {
         "company_id": "r464_britishamericantobacco",
@@ -42202,7 +42868,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 52
+        "available_rank": 58
       },
       {
         "company_id": "r356_thermofisherscientific",
@@ -42268,7 +42934,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 53
+        "available_rank": 59
       },
       {
         "company_id": "r193_lockheedmartin",
@@ -42334,7 +43000,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 54
+        "available_rank": 60
       },
       {
         "company_id": "r266_prudentialfinancial",
@@ -42449,7 +43115,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Inventory year alignment.",
         "completeness_zh": "强证据部分总量；缺 Inventory year alignment。",
-        "available_rank": 55
+        "available_rank": 61
       },
       {
         "company_id": "r234_panasonicholdings",
@@ -42515,7 +43181,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 56
+        "available_rank": 62
       },
       {
         "company_id": "r427_broadcom",
@@ -42604,7 +43270,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 57
+        "available_rank": 63
       },
       {
         "company_id": "r166_vinci",
@@ -42670,7 +43336,125 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 58
+        "available_rank": 64
+      },
+      {
+        "company_id": "r204_lloydsbankinggroup",
+        "company_name_en": "LLOYDS BANKING GROUP",
+        "company_name_zh": "英国劳埃德银行集团",
+        "world500_rank": 204,
+        "industry_section_code": "J",
+        "industry_section_en": "Finance",
+        "industry_section_zh": "金融业",
+        "industry_color": "#446f9f",
+        "total_mtco2e": 0.17466,
+        "scope1_mtco2e": 0.020441,
+        "scope2_mtco2e": 0.050704,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 0.103515,
+        "scope3_boundary_class_en": "finance_scope3_boundary_review_required",
+        "scope3_boundary_basis_en": "Finance-sector company has a selected Scope 3 value, but the selected evidence does not explicitly identify PCAF/financed-emissions versus operational Scope 3 boundary.",
+        "selected_evidence_missing_elements": [
+          "Scope 3 finance_scope3_boundary"
+        ],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "63"
+        ],
+        "selected_source_files": [
+          "Lloyds-2024-Annual-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r204_lloydsbankinggroup__scope1__2024__63",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 0.020441,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "63",
+            "source_file": "Lloyds-2024-Annual-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 63 GHG emissions table (tCO2e, 2024). Scope 2 market-based. S1=20,441 S2 MB=50,704 S3=103,515.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 20,441 | Scope 2 market-based 50,704 | Scope 3 103,515",
+            "snippet_zh": "Scope 1 20,441 | Scope 2 market-based 50,704 | Scope 3 103,515"
+          },
+          {
+            "evidence_key": "manual_correction__r204_lloydsbankinggroup__scope2__2024__63",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.050704,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "63",
+            "source_file": "Lloyds-2024-Annual-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 63 GHG emissions table (tCO2e, 2024). Scope 2 market-based. S1=20,441 S2 MB=50,704 S3=103,515.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 20,441 | Scope 2 market-based 50,704 | Scope 3 103,515",
+            "snippet_zh": "Scope 1 20,441 | Scope 2 market-based 50,704 | Scope 3 103,515"
+          },
+          {
+            "evidence_key": "manual_correction__r204_lloydsbankinggroup__scope3__2024__63",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 0.103515,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "finance_scope3_boundary_review_required",
+            "scope3_boundary_basis_en": "Finance-sector company has a selected Scope 3 value, but the selected evidence does not explicitly identify PCAF/financed-emissions versus operational Scope 3 boundary.",
+            "scope2_reporting_method": "",
+            "evidence_page": "63",
+            "source_file": "Lloyds-2024-Annual-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 63 GHG emissions table (tCO2e, 2024). Scope 2 market-based. S1=20,441 S2 MB=50,704 S3=103,515.",
+            "boundary_en": "",
+            "boundary_class_en": "finance_scope3_boundary_review_required",
+            "boundary_basis_en": "Finance-sector company has a selected Scope 3 value, but the selected evidence does not explicitly identify PCAF/financed-emissions versus operational Scope 3 boundary.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "missing_required_evidence_elements",
+            "missing_evidence_elements": [
+              "finance_scope3_boundary"
+            ],
+            "snippet_en": "Scope 1 20,441 | Scope 2 market-based 50,704 | Scope 3 103,515",
+            "snippet_zh": "Scope 1 20,441 | Scope 2 market-based 50,704 | Scope 3 103,515"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [
+          "Scope 3 finance boundary",
+          "Evidence Scope 3 finance_scope3_boundary"
+        ],
+        "completeness_key": "partial_strong_evidence_total",
+        "completeness_en": "Partial strong-evidence total; missing Scope 3 finance boundary, Evidence Scope 3 finance_scope3_boundary.",
+        "completeness_zh": "强证据部分总量；缺 Scope 3 finance boundary、Evidence Scope 3 finance_scope3_boundary。",
+        "available_rank": 65
       },
       {
         "company_id": "r027_cardinalhealth",
@@ -42736,7 +43520,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 59
+        "available_rank": 66
       },
       {
         "company_id": "r262_tjx公司",
@@ -42802,7 +43586,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 60
+        "available_rank": 67
       },
       {
         "company_id": "r260_newyorklifeinsurance",
@@ -42913,7 +43697,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 61
+        "available_rank": 68
       },
       {
         "company_id": "r434_drhorton公司",
@@ -43002,7 +43786,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 62
+        "available_rank": 69
       },
       {
         "company_id": "r387_schneiderelectric",
@@ -43068,7 +43852,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 63
+        "available_rank": 70
       },
       {
         "company_id": "r482_jerónimomartins公司",
@@ -43157,7 +43941,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 2。",
-        "available_rank": 64
+        "available_rank": 71
       },
       {
         "company_id": "r403_ubertechnologies公司",
@@ -43246,7 +44030,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 65
+        "available_rank": 72
       },
       {
         "company_id": "r269_hp",
@@ -43312,7 +44096,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 66
+        "available_rank": 73
       },
       {
         "company_id": "r126_axa",
@@ -43408,7 +44192,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2 method, Scope 3, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 2 method、Scope 3、Evidence Scope 2 scope2_method。",
-        "available_rank": 67
+        "available_rank": 74
       },
       {
         "company_id": "r189_itaúunibancoholding",
@@ -43504,7 +44288,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2 method, Scope 3, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 2 method、Scope 3、Evidence Scope 2 scope2_method。",
-        "available_rank": 68
+        "available_rank": 75
       },
       {
         "company_id": "r327_talanx公司",
@@ -43615,7 +44399,7 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 69
+        "available_rank": 76
       },
       {
         "company_id": "r168_torontodominionbank",
@@ -43681,7 +44465,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 70
+        "available_rank": 77
       },
       {
         "company_id": "r283_intesasanpaolo",
@@ -43771,7 +44555,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 3。",
-        "available_rank": 71
+        "available_rank": 78
       },
       {
         "company_id": "r252_bancobradesco",
@@ -43837,7 +44621,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 72
+        "available_rank": 79
       },
       {
         "company_id": "r206_chinavanke",
@@ -43903,7 +44687,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 73
+        "available_rank": 80
       },
       {
         "company_id": "r095_lifeinsurancecorpofindia",
@@ -43969,7 +44753,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 74
+        "available_rank": 81
       },
       {
         "company_id": "r317_tokyoelectricpower",
@@ -44035,7 +44819,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 75
+        "available_rank": 82
       },
       {
         "company_id": "r263_novartis",
@@ -44101,7 +44885,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 3.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 3。",
-        "available_rank": 76
+        "available_rank": 83
       },
       {
         "company_id": "r289_maerskgroup",
@@ -44173,7 +44957,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2 method, Scope 3, Evidence Scope 2 scope2_method.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2 method、Scope 3、Evidence Scope 2 scope2_method。",
-        "available_rank": 77
+        "available_rank": 84
       },
       {
         "company_id": "r301_swissre",
@@ -44239,73 +45023,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 78
-      },
-      {
-        "company_id": "r374_lufthansagroup",
-        "company_name_en": "LUFTHANSA GROUP",
-        "company_name_zh": "汉莎集团",
-        "world500_rank": 374,
-        "industry_section_code": "G",
-        "industry_section_en": "Transport, Storage and Post",
-        "industry_section_zh": "交通运输、仓储和邮政业",
-        "industry_color": "#315f8c",
-        "total_mtco2e": 0.001,
-        "scope1_mtco2e": 0.001,
-        "scope2_mtco2e": null,
-        "scope2_method_en": "",
-        "scope3_mtco2e": null,
-        "scope3_boundary_class_en": "",
-        "scope3_boundary_basis_en": "",
-        "selected_evidence_missing_elements": [],
-        "inventory_years": [
-          "2025"
-        ],
-        "inventory_year_alignment_status": "aligned",
-        "selected_evidence_pages": [
-          "163"
-        ],
-        "selected_source_files": [
-          "LH-AR-2024-e.pdf"
-        ],
-        "selected_rows": [
-          {
-            "evidence_key": "r374lufthansagroup__scope1_____2025__163__0001__lhar2024epdf",
-            "scope_en": "Scope 1",
-            "scope_zh": "范围 1",
-            "value_mtco2e": 0.001,
-            "inventory_year": "2025",
-            "scope3_category_en": "",
-            "scope3_boundary_class_en": "",
-            "scope3_boundary_basis_en": "",
-            "scope2_reporting_method": "",
-            "evidence_page": "163",
-            "source_file": "LH-AR-2024-e.pdf",
-            "review_status": "auto_verified",
-            "correction_basis_en": "",
-            "boundary_en": "",
-            "boundary_class_en": "corporate_direct_scope1_inventory",
-            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
-            "unit_en": "",
-            "unit_evidence_en": "tonnes CO2e",
-            "evidence_element_status": "page_unit_year_value_boundary_traceable",
-            "missing_evidence_elements": [],
-            "snippet_en": "163 Consolidated financial statements Further information Remuneration report Combined management report LUFTHANSA GROUP ANNUAL REPORT 2024 Combined non-financial declaration E1 – Climate change The carbon emissions for 2024 are presented in the following table. T058 ESRS E1-6 | AR48 GHG EMISSIONS IN 2024 Retrospective Milestones and target years Base year (2019) 2023 2024 Change in % 2025 2030 Annual % of target/ Base year Scope 1 GHG emissions Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159…",
-            "snippet_zh": "163 Consolidated financial statements Further information Remuneration report Combined management report LUFTHANSA GROUP ANNUAL REPORT 2024 Combined non-financial declaration E1 – Climate change The carbon emissions for 2024 are presented in the following table. T058 ESRS E1-6 | AR48 GHG EMISSIONS IN 2024 Retrospective Milestones and target years Base year (2019) 2023 2024 Change in % 2025 2030 Annual % of target/ Base year Scope 1 GHG emissions Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159…"
-          }
-        ],
-        "strong_row_count": 1,
-        "review_required_row_count": 1,
-        "conflict_excluded_row_count": 0,
-        "duplicate_scope_candidate_count": 0,
-        "missing_scopes": [
-          "Scope 2",
-          "Scope 3"
-        ],
-        "completeness_key": "partial_strong_evidence_total",
-        "completeness_en": "Partial strong-evidence total; missing Scope 2, Scope 3.",
-        "completeness_zh": "强证据部分总量；缺 Scope 2、Scope 3。",
-        "available_rank": 79
+        "available_rank": 85
       },
       {
         "company_id": "r376_abbottlaboratories",
@@ -44371,7 +45089,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 80
+        "available_rank": 86
       },
       {
         "company_id": "r198_wilmarinternational",
@@ -44437,7 +45155,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 81
+        "available_rank": 87
       },
       {
         "company_id": "r163_sysco",
@@ -44503,7 +45221,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 82
+        "available_rank": 88
       },
       {
         "company_id": "r130_engie集团",
@@ -44569,7 +45287,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 83
+        "available_rank": 89
       },
       {
         "company_id": "r450_sap公司",
@@ -44635,7 +45353,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 84
+        "available_rank": 90
       },
       {
         "company_id": "r224_zurichinsurancegroup",
@@ -44701,7 +45419,7 @@
         "completeness_key": "partial_strong_evidence_total",
         "completeness_en": "Partial strong-evidence total; missing Scope 1, Scope 2.",
         "completeness_zh": "强证据部分总量；缺 Scope 1、Scope 2。",
-        "available_rank": 85
+        "available_rank": 91
       }
     ],
     "complete": [
@@ -45269,6 +45987,118 @@
         "complete_rank": 5
       },
       {
+        "company_id": "r122_carrefour",
+        "company_name_en": "CARREFOUR",
+        "company_name_zh": "家乐福",
+        "world500_rank": 122,
+        "industry_section_code": "F",
+        "industry_section_en": "Wholesale and Retail Trade",
+        "industry_section_zh": "批发和零售业",
+        "industry_color": "#2f6f63",
+        "total_mtco2e": 147.53401,
+        "scope1_mtco2e": 0.669327,
+        "scope2_mtco2e": 0.555813,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 146.30887,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "104"
+        ],
+        "selected_source_files": [
+          "Carrefour-2024-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r122_crf__scope1__2024__104",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 0.669327,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "104",
+            "source_file": "Carrefour-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Carrefour 2024 report page 104 ESRS E1-6 GHG table (669,327 tCO2eq (2024)). Columns: 2019(base)|2023|2024. Market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870",
+            "snippet_zh": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870"
+          },
+          {
+            "evidence_key": "manual_correction__r122_crf__scope2__2024__104",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.555813,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "104",
+            "source_file": "Carrefour-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Carrefour 2024 report page 104 ESRS E1-6 GHG table (555,813 tCO2eq market-based (2024)). Columns: 2019(base)|2023|2024. Market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870",
+            "snippet_zh": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870"
+          },
+          {
+            "evidence_key": "manual_correction__r122_crf__scope3__2024__104",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 146.30887,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "104",
+            "source_file": "Carrefour-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Carrefour 2024 report page 104 ESRS E1-6 GHG table (146,308,870 tCO2eq (2024 total indirect)). Columns: 2019(base)|2023|2024. Market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870",
+            "snippet_zh": "Scope 1 940,582 783,818 669,327 | Scope 2(market-based) 1,027,176 629,053 555,813 | Scope 3 136,816,011 149,324,454 146,308,870"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 9,
+        "complete_rank": 6
+      },
+      {
         "company_id": "r315_unicreditgroup",
         "company_name_en": "UNICREDIT GROUP",
         "company_name_zh": "联合信贷集团",
@@ -45377,8 +46207,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 10,
-        "complete_rank": 6
+        "available_rank": 11,
+        "complete_rank": 7
       },
       {
         "company_id": "r002_amazoncom",
@@ -45489,8 +46319,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 11,
-        "complete_rank": 7
+        "available_rank": 12,
+        "complete_rank": 8
       },
       {
         "company_id": "r114_royalaholddelhaize",
@@ -45601,8 +46431,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 12,
-        "complete_rank": 8
+        "available_rank": 13,
+        "complete_rank": 9
       },
       {
         "company_id": "r270_unitedairlinesholdings",
@@ -45714,8 +46544,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 14,
-        "complete_rank": 9
+        "available_rank": 15,
+        "complete_rank": 10
       },
       {
         "company_id": "r278_americanairlinesgroup",
@@ -45827,8 +46657,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 15,
-        "complete_rank": 10
+        "available_rank": 16,
+        "complete_rank": 11
       },
       {
         "company_id": "r486_linde",
@@ -45941,8 +46771,120 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 16,
-        "complete_rank": 11
+        "available_rank": 17,
+        "complete_rank": 12
+      },
+      {
+        "company_id": "r374_lufthansagroup",
+        "company_name_en": "LUFTHANSA GROUP",
+        "company_name_zh": "汉莎集团",
+        "world500_rank": 374,
+        "industry_section_code": "G",
+        "industry_section_en": "Transport, Storage and Post",
+        "industry_section_zh": "交通运输、仓储和邮政业",
+        "industry_color": "#315f8c",
+        "total_mtco2e": 42.942,
+        "scope1_mtco2e": 29.159,
+        "scope2_mtco2e": 0.049,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 13.734,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "163"
+        ],
+        "selected_source_files": [
+          "Lufthansa-Group-Annual-Report-2024.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r374_lh__scope1__2024__163",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 29.159,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "163",
+            "source_file": "Lufthansa-Group-Annual-Report-2024.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 163 ESRS E1 GHG table (1,000 tonnes CO2e). 33,349 | 26,822 | 29,159 → 2024=29,159 kt = 29.159 Mt. Columns: 2022 | 2023 | 2024. Uses market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "tonnes CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734",
+            "snippet_zh": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734"
+          },
+          {
+            "evidence_key": "manual_correction__r374_lh__scope2__2024__163",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.049,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "163",
+            "source_file": "Lufthansa-Group-Annual-Report-2024.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 163 ESRS E1 GHG table (1,000 tonnes CO2e). 200 | 91 | 49 → 2024=49 kt market-based = 0.049 Mt. Columns: 2022 | 2023 | 2024. Uses market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "tonnes CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734",
+            "snippet_zh": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734"
+          },
+          {
+            "evidence_key": "manual_correction__r374_lh__scope3__2024__163",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 13.734,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "163",
+            "source_file": "Lufthansa-Group-Annual-Report-2024.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 163 ESRS E1 GHG table (1,000 tonnes CO2e). 10,589 | 10,063 | 13,734 → 2024=13,734 kt = 13.734 Mt. Columns: 2022 | 2023 | 2024. Uses market-based Scope 2.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "tonnes CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734",
+            "snippet_zh": "Gross Scope 1 GHG emissions in 1,000 tonnes CO2e 33,349 26,822 29,159 ... Gross market-based Scope 2 GHG emissions in 1,000 tonnes CO2e 200 91 49 ... Total indirect (Scope 3) gross GHG emissions in 1,000 tonnes CO2e 10,589 10,063 13,734"
+          }
+        ],
+        "strong_row_count": 4,
+        "review_required_row_count": 1,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 1,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 18,
+        "complete_rank": 13
       },
       {
         "company_id": "r007_apple",
@@ -46054,8 +46996,232 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 18,
-        "complete_rank": 12
+        "available_rank": 20,
+        "complete_rank": 14
+      },
+      {
+        "company_id": "r467_tongweigroup",
+        "company_name_en": "TONGWEI GROUP",
+        "company_name_zh": "通威集团有限公司",
+        "world500_rank": 467,
+        "industry_section_code": "D",
+        "industry_section_en": "Electricity, Heat, Gas and Water Production and Supply",
+        "industry_section_zh": "电力、热力、燃气及水生产和供应业",
+        "industry_color": "#d89b3d",
+        "total_mtco2e": 32.819113,
+        "scope1_mtco2e": 2.312906,
+        "scope2_mtco2e": 20.160531,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 10.345676,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "121"
+        ],
+        "selected_source_files": [
+          "Tongwei-Group-2024-ESG-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r467_tw__scope1__2024__121",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 2.312906,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "121",
+            "source_file": "Tongwei-Group-2024-ESG-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 121 GHG emissions table (2,312,905.79 tCO2e, 2024). Columns: 2024|2023|2022.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022",
+            "snippet_zh": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022"
+          },
+          {
+            "evidence_key": "manual_correction__r467_tw__scope2__2024__121",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 20.160531,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "121",
+            "source_file": "Tongwei-Group-2024-ESG-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 121 GHG emissions table (20,160,530.74 tCO2e (market-based), 2024). Columns: 2024|2023|2022.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022",
+            "snippet_zh": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022"
+          },
+          {
+            "evidence_key": "manual_correction__r467_tw__scope3__2024__121",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 10.345676,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "121",
+            "source_file": "Tongwei-Group-2024-ESG-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 121 GHG emissions table (10,345,675.96 tCO2e, 2024). Columns: 2024|2023|2022.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022",
+            "snippet_zh": "GHG scope 1 emissions 2,312,905.79 ... GHG scope 2 emissions (market-based) 20,160,530.74 ... GHG scope 3 emissions 10,345,675.96 ... 2024 2023 2022"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 21,
+        "complete_rank": 15
+      },
+      {
+        "company_id": "r261_intel",
+        "company_name_en": "INTEL",
+        "company_name_zh": "英特尔公司",
+        "world500_rank": 261,
+        "industry_section_code": "C",
+        "industry_section_en": "Manufacturing",
+        "industry_section_zh": "制造业",
+        "industry_color": "#c76b2d",
+        "total_mtco2e": 26.261,
+        "scope1_mtco2e": 1.105,
+        "scope2_mtco2e": 0.097,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 25.059,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "36"
+        ],
+        "selected_source_files": [
+          "Intel-2024-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r261_intel__scope1__2024__36",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 1.105,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "36",
+            "source_file": "Intel-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 36 GHG summary: Scope 1=1,105,000 tCO2e. Market-based Scope 2=97,000 tCO2e. Scope 3=25,059,000 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 (Direct) Emissions 1,105,000 | Scope 2 (Indirect, Electricity) 97,000 Market-based | Scope 3 Total 25,059,000",
+            "snippet_zh": "Scope 1 (Direct) Emissions 1,105,000 | Scope 2 (Indirect, Electricity) 97,000 Market-based | Scope 3 Total 25,059,000"
+          },
+          {
+            "evidence_key": "manual_correction__r261_intel__scope2__2024__36",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.097,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "36",
+            "source_file": "Intel-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 36: Scope 2 market-based=97,000 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 2 (Indirect, Electricity) 97,000 Market-based method",
+            "snippet_zh": "Scope 2 (Indirect, Electricity) 97,000 Market-based method"
+          },
+          {
+            "evidence_key": "manual_correction__r261_intel__scope3__2024__36",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 25.059,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "36",
+            "source_file": "Intel-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 36: Total Scope 3=25,059,000 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 3 Total 25,059,000 Indirect/value chain",
+            "snippet_zh": "Scope 3 Total 25,059,000 Indirect/value chain"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 2,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 25,
+        "complete_rank": 16
       },
       {
         "company_id": "r392_coop集团",
@@ -46168,8 +47334,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 25,
-        "complete_rank": 13
+        "available_rank": 29,
+        "complete_rank": 17
       },
       {
         "company_id": "r008_unitedhealthgroup",
@@ -46281,8 +47447,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 26,
-        "complete_rank": 14
+        "available_rank": 30,
+        "complete_rank": 18
       },
       {
         "company_id": "r352_bestbuy",
@@ -46393,8 +47559,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 29,
-        "complete_rank": 15
+        "available_rank": 33,
+        "complete_rank": 19
       },
       {
         "company_id": "r066_metaplatforms公司",
@@ -46506,8 +47672,120 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 33,
-        "complete_rank": 16
+        "available_rank": 37,
+        "complete_rank": 20
+      },
+      {
+        "company_id": "r222_nvidia",
+        "company_name_en": "NVIDIA",
+        "company_name_zh": "英伟达公司",
+        "world500_rank": 222,
+        "industry_section_code": "C",
+        "industry_section_en": "Manufacturing",
+        "industry_section_zh": "制造业",
+        "industry_color": "#c76b2d",
+        "total_mtco2e": 6.925529,
+        "scope1_mtco2e": 0.012952,
+        "scope2_mtco2e": 0,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 6.912577,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "29"
+        ],
+        "selected_source_files": [
+          "Nvidia-2025-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r222_nvidia__scope1__2024__29",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 0.012952,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "29",
+            "source_file": "Nvidia-2025-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 29: Scope 1=12,952 tCO2e (2024). Market-based Scope 2=0 (100% renewable match). Scope 3=6,912,577 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 12,952 | Scope 2 market-based 0 | Scope 3 6,912,577",
+            "snippet_zh": "Scope 1 12,952 | Scope 2 market-based 0 | Scope 3 6,912,577"
+          },
+          {
+            "evidence_key": "manual_correction__r222_nvidia__scope2__2024__29",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "29",
+            "source_file": "Nvidia-2025-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 29: Scope 2 market-based=0 tCO2e (Nvidia matches 100% renewable for operations).",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 2, market-based 0",
+            "snippet_zh": "Scope 2, market-based 0"
+          },
+          {
+            "evidence_key": "manual_correction__r222_nvidia__scope3__2024__29",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 6.912577,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "29",
+            "source_file": "Nvidia-2025-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 29: Scope 3=6,912,577 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 3 6,912,577",
+            "snippet_zh": "Scope 3 6,912,577"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 38,
+        "complete_rank": 21
       },
       {
         "company_id": "r297_sanofi",
@@ -46618,8 +47896,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 36,
-        "complete_rank": 17
+        "available_rank": 41,
+        "complete_rank": 22
       },
       {
         "company_id": "r350_telefónica",
@@ -46730,8 +48008,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 43,
-        "complete_rank": 18
+        "available_rank": 48,
+        "complete_rank": 23
       },
       {
         "company_id": "r046_centene公司",
@@ -46842,8 +48120,120 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 47,
-        "complete_rank": 19
+        "available_rank": 52,
+        "complete_rank": 24
+      },
+      {
+        "company_id": "r468_netflix公司",
+        "company_name_en": "Netflix",
+        "company_name_zh": "Netflix",
+        "world500_rank": 468,
+        "industry_section_code": "R",
+        "industry_section_en": "Culture, Sports and Entertainment",
+        "industry_section_zh": "文化、体育和娱乐业",
+        "industry_color": "#5d6f8f",
+        "total_mtco2e": 1.037226,
+        "scope1_mtco2e": 0.050488,
+        "scope2_mtco2e": 0,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 0.986738,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2024"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "6"
+        ],
+        "selected_source_files": [
+          "Netflix-2024-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "manual_correction__r468_nflx__scope1__2024__6",
+            "scope_en": "Scope 1",
+            "scope_zh": "Scope 1",
+            "value_mtco2e": 0.050488,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "6",
+            "source_file": "Netflix-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Netflix 2024 Sustainability Report page 6 ESG Summary table (metric tons CO2e, market-based). 51,487 → 50,488 (2024, tCO2e). Table shows 6 years 2019-2024.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226",
+            "snippet_zh": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226"
+          },
+          {
+            "evidence_key": "manual_correction__r468_nflx__scope2__2024__6",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "6",
+            "source_file": "Netflix-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Netflix 2024 Sustainability Report page 6 ESG Summary table (metric tons CO2e, market-based). 565 → 0 (2024 market-based, tCO2e). Table shows 6 years 2019-2024.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226",
+            "snippet_zh": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226"
+          },
+          {
+            "evidence_key": "manual_correction__r468_nflx__scope3__2024__6",
+            "scope_en": "Scope 3",
+            "scope_zh": "Scope 3",
+            "value_mtco2e": 0.986738,
+            "inventory_year": "2024",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "6",
+            "source_file": "Netflix-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Netflix 2024 Sustainability Report page 6 ESG Summary table (metric tons CO2e, market-based). 1,192,659 → 986,738 (2024, tCO2e). Table shows 6 years 2019-2024.",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226",
+            "snippet_zh": "Scope 1 51,487 30,883 62,815 59,388 25,790 50,488 | Scope 2 565 141 0 0 0 0 | Scope 3 1,192,659 1,020,541 1,466,497 1,086,833 817,317 986,738 | TOTAL 1,244,711 1,051,565 1,529,312 1,146,221 843,107 1,037,226"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 53,
+        "complete_rank": 25
       },
       {
         "company_id": "r260_newyorklifeinsurance",
@@ -46954,8 +48344,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 61,
-        "complete_rank": 20
+        "available_rank": 68,
+        "complete_rank": 26
       },
       {
         "company_id": "r327_talanx公司",
@@ -47066,8 +48456,8 @@
         "completeness_key": "complete_scope123_strong_evidence_total",
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
-        "available_rank": 69,
-        "complete_rank": 21
+        "available_rank": 76,
+        "complete_rank": 27
       }
     ],
     "ranking_graph": {
@@ -47221,11 +48611,34 @@
           ]
         },
         {
+          "company_id": "r122_carrefour",
+          "company_name_en": "CARREFOUR",
+          "company_name_zh": "家乐福",
+          "world500_rank": 122,
+          "evidence_rank": 6,
+          "industry_section_code": "F",
+          "industry_section_en": "Wholesale and Retail Trade",
+          "industry_section_zh": "批发和零售业",
+          "industry_color": "#2f6f63",
+          "total_mtco2e": 147.53401,
+          "relative_size": 0.129189,
+          "scope1_mtco2e": 0.669327,
+          "scope2_mtco2e": 0.555813,
+          "scope2_method_en": "Market-Based",
+          "scope3_mtco2e": 146.30887,
+          "inventory_years": [
+            "2024"
+          ],
+          "selected_evidence_pages": [
+            "104"
+          ]
+        },
+        {
           "company_id": "r315_unicreditgroup",
           "company_name_en": "UNICREDIT GROUP",
           "company_name_zh": "联合信贷集团",
           "world500_rank": 315,
-          "evidence_rank": 6,
+          "evidence_rank": 7,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47248,7 +48661,7 @@
           "company_name_en": "AMAZON.COM",
           "company_name_zh": "亚马逊",
           "world500_rank": 2,
-          "evidence_rank": 7,
+          "evidence_rank": 8,
           "industry_section_code": "F",
           "industry_section_en": "Wholesale and Retail Trade",
           "industry_section_zh": "批发和零售业",
@@ -47271,7 +48684,7 @@
           "company_name_en": "ROYAL AHOLD DELHAIZE",
           "company_name_zh": "皇家阿霍德德尔海兹集团",
           "world500_rank": 114,
-          "evidence_rank": 8,
+          "evidence_rank": 9,
           "industry_section_code": "F",
           "industry_section_en": "Wholesale and Retail Trade",
           "industry_section_zh": "批发和零售业",
@@ -47294,7 +48707,7 @@
           "company_name_en": "UNITED AIRLINES HOLDINGS",
           "company_name_zh": "联合航空控股公司",
           "world500_rank": 270,
-          "evidence_rank": 9,
+          "evidence_rank": 10,
           "industry_section_code": "G",
           "industry_section_en": "Transport, Storage and Post",
           "industry_section_zh": "交通运输、仓储和邮政业",
@@ -47318,7 +48731,7 @@
           "company_name_en": "AMERICAN AIRLINES GROUP",
           "company_name_zh": "美国航空集团",
           "world500_rank": 278,
-          "evidence_rank": 10,
+          "evidence_rank": 11,
           "industry_section_code": "G",
           "industry_section_en": "Transport, Storage and Post",
           "industry_section_zh": "交通运输、仓储和邮政业",
@@ -47342,7 +48755,7 @@
           "company_name_en": "LINDE",
           "company_name_zh": "林德集团",
           "world500_rank": 486,
-          "evidence_rank": 11,
+          "evidence_rank": 12,
           "industry_section_code": "C",
           "industry_section_en": "Manufacturing",
           "industry_section_zh": "制造业",
@@ -47362,11 +48775,34 @@
           ]
         },
         {
+          "company_id": "r374_lufthansagroup",
+          "company_name_en": "LUFTHANSA GROUP",
+          "company_name_zh": "汉莎集团",
+          "world500_rank": 374,
+          "evidence_rank": 13,
+          "industry_section_code": "G",
+          "industry_section_en": "Transport, Storage and Post",
+          "industry_section_zh": "交通运输、仓储和邮政业",
+          "industry_color": "#315f8c",
+          "total_mtco2e": 42.942,
+          "relative_size": 0.037602,
+          "scope1_mtco2e": 29.159,
+          "scope2_mtco2e": 0.049,
+          "scope2_method_en": "Market-Based",
+          "scope3_mtco2e": 13.734,
+          "inventory_years": [
+            "2024"
+          ],
+          "selected_evidence_pages": [
+            "163"
+          ]
+        },
+        {
           "company_id": "r007_apple",
           "company_name_en": "APPLE",
           "company_name_zh": "苹果公司",
           "world500_rank": 7,
-          "evidence_rank": 12,
+          "evidence_rank": 14,
           "industry_section_code": "C",
           "industry_section_en": "Manufacturing",
           "industry_section_zh": "制造业",
@@ -47386,11 +48822,57 @@
           ]
         },
         {
+          "company_id": "r467_tongweigroup",
+          "company_name_en": "TONGWEI GROUP",
+          "company_name_zh": "通威集团有限公司",
+          "world500_rank": 467,
+          "evidence_rank": 15,
+          "industry_section_code": "D",
+          "industry_section_en": "Electricity, Heat, Gas and Water Production and Supply",
+          "industry_section_zh": "电力、热力、燃气及水生产和供应业",
+          "industry_color": "#d89b3d",
+          "total_mtco2e": 32.819113,
+          "relative_size": 0.028738,
+          "scope1_mtco2e": 2.312906,
+          "scope2_mtco2e": 20.160531,
+          "scope2_method_en": "Market-Based",
+          "scope3_mtco2e": 10.345676,
+          "inventory_years": [
+            "2024"
+          ],
+          "selected_evidence_pages": [
+            "121"
+          ]
+        },
+        {
+          "company_id": "r261_intel",
+          "company_name_en": "INTEL",
+          "company_name_zh": "英特尔公司",
+          "world500_rank": 261,
+          "evidence_rank": 16,
+          "industry_section_code": "C",
+          "industry_section_en": "Manufacturing",
+          "industry_section_zh": "制造业",
+          "industry_color": "#c76b2d",
+          "total_mtco2e": 26.261,
+          "relative_size": 0.022996,
+          "scope1_mtco2e": 1.105,
+          "scope2_mtco2e": 0.097,
+          "scope2_method_en": "Market-Based",
+          "scope3_mtco2e": 25.059,
+          "inventory_years": [
+            "2024"
+          ],
+          "selected_evidence_pages": [
+            "36"
+          ]
+        },
+        {
           "company_id": "r392_coop集团",
           "company_name_en": "Coop",
           "company_name_zh": "Coop",
           "world500_rank": 392,
-          "evidence_rank": 13,
+          "evidence_rank": 17,
           "industry_section_code": "F",
           "industry_section_en": "Wholesale and Retail Trade",
           "industry_section_zh": "批发和零售业",
@@ -47415,7 +48897,7 @@
           "company_name_en": "UNITEDHEALTH GROUP",
           "company_name_zh": "联合健康集团",
           "world500_rank": 8,
-          "evidence_rank": 14,
+          "evidence_rank": 18,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47439,7 +48921,7 @@
           "company_name_en": "BEST BUY",
           "company_name_zh": "百思买",
           "world500_rank": 352,
-          "evidence_rank": 15,
+          "evidence_rank": 19,
           "industry_section_code": "F",
           "industry_section_en": "Wholesale and Retail Trade",
           "industry_section_zh": "批发和零售业",
@@ -47462,7 +48944,7 @@
           "company_name_en": "Meta Platforms",
           "company_name_zh": "Meta Platforms",
           "world500_rank": 66,
-          "evidence_rank": 16,
+          "evidence_rank": 20,
           "industry_section_code": "F",
           "industry_section_en": "Wholesale and Retail Trade",
           "industry_section_zh": "批发和零售业",
@@ -47482,11 +48964,34 @@
           ]
         },
         {
+          "company_id": "r222_nvidia",
+          "company_name_en": "NVIDIA",
+          "company_name_zh": "英伟达公司",
+          "world500_rank": 222,
+          "evidence_rank": 21,
+          "industry_section_code": "C",
+          "industry_section_en": "Manufacturing",
+          "industry_section_zh": "制造业",
+          "industry_color": "#c76b2d",
+          "total_mtco2e": 6.925529,
+          "relative_size": 0.006064,
+          "scope1_mtco2e": 0.012952,
+          "scope2_mtco2e": 0,
+          "scope2_method_en": "Market-Based",
+          "scope3_mtco2e": 6.912577,
+          "inventory_years": [
+            "2024"
+          ],
+          "selected_evidence_pages": [
+            "29"
+          ]
+        },
+        {
           "company_id": "r297_sanofi",
           "company_name_en": "SANOFI",
           "company_name_zh": "赛诺菲",
           "world500_rank": 297,
-          "evidence_rank": 17,
+          "evidence_rank": 22,
           "industry_section_code": "C",
           "industry_section_en": "Manufacturing",
           "industry_section_zh": "制造业",
@@ -47509,7 +49014,7 @@
           "company_name_en": "TELEFÓNICA",
           "company_name_zh": "西班牙电话公司",
           "world500_rank": 350,
-          "evidence_rank": 18,
+          "evidence_rank": 23,
           "industry_section_code": "I",
           "industry_section_en": "Information Transmission, Software and Information Technology Services",
           "industry_section_zh": "信息传输、软件和信息技术服务业",
@@ -47532,7 +49037,7 @@
           "company_name_en": "Centene",
           "company_name_zh": "Centene",
           "world500_rank": 46,
-          "evidence_rank": 19,
+          "evidence_rank": 24,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47551,11 +49056,34 @@
           ]
         },
         {
+          "company_id": "r468_netflix公司",
+          "company_name_en": "Netflix",
+          "company_name_zh": "Netflix",
+          "world500_rank": 468,
+          "evidence_rank": 25,
+          "industry_section_code": "R",
+          "industry_section_en": "Culture, Sports and Entertainment",
+          "industry_section_zh": "文化、体育和娱乐业",
+          "industry_color": "#5d6f8f",
+          "total_mtco2e": 1.037226,
+          "relative_size": 0.000908,
+          "scope1_mtco2e": 0.050488,
+          "scope2_mtco2e": 0,
+          "scope2_method_en": "Market-Based",
+          "scope3_mtco2e": 0.986738,
+          "inventory_years": [
+            "2024"
+          ],
+          "selected_evidence_pages": [
+            "6"
+          ]
+        },
+        {
           "company_id": "r260_newyorklifeinsurance",
           "company_name_en": "NEW YORK LIFE INSURANCE",
           "company_name_zh": "美国纽约人寿保险公司",
           "world500_rank": 260,
-          "evidence_rank": 20,
+          "evidence_rank": 26,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47578,7 +49106,7 @@
           "company_name_en": "Talanx",
           "company_name_zh": "Talanx",
           "world500_rank": 327,
-          "evidence_rank": 21,
+          "evidence_rank": 27,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47606,8 +49134,8 @@
       "complete_gate_zh": "主图/主表只纳入完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
       "partial_policy_en": "Partial strong-evidence totals remain sorted in the review table and are not mixed into the comparable ranking graph.",
       "partial_policy_zh": "部分强证据总量只保留在复核表中按总量排序，不混入可比排行图谱。",
-      "complete_count": 21,
-      "available_count": 85,
+      "complete_count": 27,
+      "available_count": 91,
       "partial_excluded_count": 64,
       "highest_partial_excluded_company_en": "AIRBUS",
       "highest_partial_excluded_company_zh": "空中客车公司",
@@ -160842,8 +162370,8 @@
         "reported_primary_basis_en": "Primary data Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is…",
         "reported_primary_basis_zh": "Primary data Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is…",
         "reported_primary_candidate_count": 9,
-        "total_mtco2e": 0.001,
-        "strong_scope_row_count": 1,
+        "total_mtco2e": 42.942,
+        "strong_scope_row_count": 4,
         "evidence_samples": [
           {
             "report": "LH-AR-2024-e.pdf",
@@ -166253,8 +167781,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 32.819113,
+        "strong_scope_row_count": 3,
         "evidence_samples": [
           {
             "report": "2024 TONGWEI GROUP ESG report.pdf",
@@ -170248,8 +171776,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 147.53401,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。"
@@ -170322,8 +171850,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 6.925529,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。"
@@ -170803,8 +172331,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 1.037226,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。"
@@ -171543,8 +173071,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 26.261,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。"
@@ -172579,8 +174107,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 0.17466,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。"
@@ -175735,8 +177263,8 @@
         "reported_primary_basis_en": "Primary data Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is…",
         "reported_primary_basis_zh": "Primary data Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is 89.47%. Investments The percentage of primary data used for all Scope 3 emissions is…",
         "reported_primary_candidate_count": 9,
-        "total_mtco2e": 0.001,
-        "strong_scope_row_count": 1,
+        "total_mtco2e": 42.942,
+        "strong_scope_row_count": 4,
         "evidence_samples": [
           {
             "report": "LH-AR-2024-e.pdf",
@@ -181870,8 +183398,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 32.819113,
+        "strong_scope_row_count": 3,
         "evidence_samples": [
           {
             "report": "2024 TONGWEI GROUP ESG report.pdf",
@@ -186016,8 +187544,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 147.53401,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。",
@@ -186096,8 +187624,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 6.925529,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。",
@@ -186616,8 +188144,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 1.037226,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。",
@@ -187416,8 +188944,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 26.261,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。",
@@ -188536,8 +190064,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": null,
-        "strong_scope_row_count": 0,
+        "total_mtco2e": 0.17466,
+        "strong_scope_row_count": 3,
         "evidence_samples": [],
         "quality_note_en": "No explicit primary/secondary source-origin evidence found in methodology rows.",
         "quality_note_zh": "方法学行中未发现明确初级/次级来源证据。",

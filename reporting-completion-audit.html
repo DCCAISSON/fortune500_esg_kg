@@ -38,8 +38,8 @@
 <tr><td>标准角色图标准节点</td><td>32</td></tr>
 <tr><td>标准角色图企业</td><td>339</td></tr>
 <tr><td>标准-企业关系</td><td>1908</td></tr>
-<tr><td>有可用总排放量企业</td><td>85</td></tr>
-<tr><td>完整强证据可比排行企业</td><td>21</td></tr>
+<tr><td>有可用总排放量企业</td><td>91</td></tr>
+<tr><td>完整强证据可比排行企业</td><td>27</td></tr>
 <tr><td>技术路径企业</td><td>173</td></tr>
 <tr><td>技术路径类别</td><td>9</td></tr>
 <tr><td>项目级技术证据记录</td><td>77</td></tr>
@@ -109,7 +109,7 @@
 <li>PNG manifest：`assets/figures/reporting_static_figures_manifest.json`</li>
 <li>PNG 数量：10</li>
 <li>PNG 源数据：`assets/data/world500/workbench/reporting_views.json`</li>
-<li>源数据 SHA256：`220dad4f93b3379a241a43ccc9a55901a86a0b22fd04a350197885e99e633fb5`</li>
+<li>源数据 SHA256：`4954e86b0d408c766833fd1daba48d58633f4b2e44543ddc36073585a8927016`</li>
 <li>全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `&lt;img&gt;` fallback。</li>
 </ul>
 <h2>关键源文件</h2>
@@ -323,7 +323,7 @@
 <ul>
 <li>JSON: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.json`</li>
 <li>CSV: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.csv`</li>
-<li>Complete accepted rows: 21</li>
+<li>Complete accepted rows: 27</li>
 <li>Partial excluded rows: 64</li>
 <li>Gap candidate rows: 24</li>
 <li>P0 gap candidates: 3</li>
@@ -332,6 +332,7 @@
 </ul>
 <div class="table-wrap"><table>
 <tr><th>Record type</th><th>Bucket</th><th>Company</th><th>Missing scopes</th><th>Candidate scope</th><th>P0 bucket</th><th>Safe use</th></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>SHELL</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>AIRBUS</td><td>Scope 3</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
 <tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>WALMART</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>RIO TINTO GROUP</td><td>Scope 1 / Scope 2</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
@@ -339,13 +340,12 @@
 <tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>Equinor</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>HOME DEPOT</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>ECOPETROL</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
+<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>CARREFOUR</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>BUNGE GLOBAL</td><td>Scope 2 method / Scope 3 / Evidence Scope 2 scope2_method</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
 <tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>UNICREDIT GROUP</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>AMAZON.COM</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>ROYAL AHOLD DELHAIZE</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 <tr><td>ranking_row_decision</td><td>partial_review_excluded</td><td>MAGNA INTERNATIONAL</td><td>Scope 2 method / Evidence Scope 2 scope2_method</td><td></td><td></td><td>Review only. Keep this total out of the complete comparable ranking until Scope 1, selected Scope 2 value/method, Scope 3, and finance Scope 3 boundary where applicable all pass the strong-evidence gate.</td></tr>
-<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>SHELL</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
-<tr><td>ranking_row_decision</td><td>complete_comparable_accepted</td><td>UNITED AIRLINES HOLDINGS</td><td></td><td></td><td></td><td>May enter the complete comparable total-emissions ranking and ranking graph, including explicit finance Scope 3 boundary treatment where applicable.</td></tr>
 </table></div>
 <h2>Emissions Year-Alignment Demotion Ledger</h2>
 <p>This ledger records direct Scope candidates whose value token maps to a different year column than inventory_year. These rows are excluded from the strong-evidence gate until source evidence is corrected and reporting_views is rebuilt.</p>
