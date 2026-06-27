@@ -45,7 +45,7 @@
       "status_key": "partial",
       "status_zh": "部分完成",
       "implemented_zh": "已生成企业总排放强证据排行和静态 PNG；当前有 85 家企业可计算可用总量。",
-      "remaining_zh": "只有 16 家满足完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据可比排行；69 家 partial 总量不能混成完整排行。Scope 1、Scope 2 方法/数值和 Scope 3 缺口仍需继续回到页级证据闭环。",
+      "remaining_zh": "只有 21 家满足完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据可比排行；64 家 partial 总量不能混成完整排行。Scope 1、Scope 2 方法/数值和 Scope 3 缺口仍需继续回到页级证据闭环。",
       "evidence_files": [
         "assets/data/world500/workbench/world500_emissions_ranking_audit.csv",
         "assets/data/world500/workbench/world500_emissions_scope1_backfill_queue.csv",
@@ -55,7 +55,7 @@
       ],
       "status_en": "Partially complete",
       "implemented_en": "A strong-evidence total-emissions ranking and static PNG have been generated; 85 companies currently have available total-emissions values.",
-      "remaining_en": "Only 16 companies meet the complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence comparable-ranking gate. The 69 partial totals must not be mixed into the complete ranking, and Scope 1, Scope 2 value/method, and Scope 3 gaps remain open."
+      "remaining_en": "Only 21 companies meet the complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence comparable-ranking gate. The 64 partial totals must not be mixed into the complete ranking, and Scope 1, Scope 2 value/method, and Scope 3 gaps remain open."
     },
     {
       "id": "standard_full_graph_runtime",
@@ -93,7 +93,7 @@
       "id": "technology_path_axis",
       "status_key": "partial",
       "status_zh": "展示完成，证据核验未完成",
-      "implemented_zh": "图6 已有 9 类技术路径、流程图、标准对齐、细分技术方向、时间信号和成本信号，并生成中英文静态 PNG。另有独立页级项目证据层：74 条有效项目/措施证据，覆盖 49 家企业，其中 43 条含成本/投资证据，64 条含减排效果证据。",
+      "implemented_zh": "图6 已有 9 类技术路径、流程图、标准对齐、细分技术方向、时间信号和成本信号，并生成中英文静态 PNG。另有独立页级项目证据层：77 条有效项目/措施证据，覆盖 51 家企业，其中 12 条含成本/投资证据，67 条含减排效果证据。",
       "remaining_zh": "独立项目证据层可作为页级项目/措施强证据使用，invalid 项目证据队列为 0 条。但旧的 303 条技术-企业关系仍是 disclosure keyword signal，不是已核证项目成本、实施进度或减排量；公司级证据、时间趋势和成本/投资复核队列仍需继续处理。",
       "evidence_files": [
         "assets/data/world500/workbench/world500_technology_path_audit.csv",
@@ -102,7 +102,7 @@
         "assets/data/world500/workbench/world500_technology_cost_validation_queue.csv"
       ],
       "status_en": "Presentation complete, evidence validation incomplete",
-      "implemented_en": "Figure 6 now shows 9 technology paths with flow, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. A separate page-level project-evidence layer contains 74 valid project/measure records across 49 companies, including 43 cost/investment records and 64 abatement-effect records. A project-upgrade queue now covers 303 disclosure-signal edges with priority counts {'P1': 229, 'P2': 74}.",
+      "implemented_en": "Figure 6 now shows 9 technology paths with flow, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. A separate page-level project-evidence layer contains 77 valid project/measure records across 51 companies, including 12 cost/investment records and 67 abatement-effect records. A project-upgrade queue now covers 303 disclosure-signal edges with priority counts {'P1': 227, 'P2': 76}.",
       "remaining_en": "The separate project-evidence layer can be used as page-level project/measure evidence, with 0 invalid project-evidence rows. However, the legacy 303 technology-company rows remain disclosure keyword signals, not verified project cost, implementation progress, or abatement values. The project-upgrade queue marks missing project/measure name, page/source binding, implementation stage, timeline, cost/investment, and abatement-effect fields; no row allows automatic promotion."
     },
     {
@@ -328,3 +328,4 @@
     "summary": "assets/data/world500/workbench/world500_emissions_p0_gap_review_packet_summary.json"
   }
 }
+

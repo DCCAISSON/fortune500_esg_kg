@@ -1,6 +1,6 @@
 {
   "schema_version": "world500-reporting-views-v1",
-  "generated_at": "2026-06-26T06:51:39.217Z",
+  "generated_at": "2026-06-26T16:02:47.319Z",
   "policy": {
     "evidence_en": "P0 expanded evidence does not promote candidates. It only strengthens source display and gates direct-use Scope rows.",
     "evidence_zh": "P0 扩展证据不提升候选值，只强化证据展示，并作为直接采信 Scope 行的证据门禁。",
@@ -33,17 +33,17 @@
     "standard_review_edges_excluded_from_drawn_graph": 1452,
     "standard_review_companies_excluded_from_drawn_graph": 326,
     "expanded_evidence_company_count": 136,
-    "strong_direct_scope_row_count": 164,
-    "complete_emissions_ranking_company_count": 20,
+    "strong_direct_scope_row_count": 165,
+    "complete_emissions_ranking_company_count": 21,
     "available_emissions_ranking_company_count": 85,
     "technology_cluster_count": 9,
     "technology_company_count": 173,
     "technology_project_cluster_count": 8,
-    "technology_project_evidence_count": 81,
+    "technology_project_evidence_count": 77,
     "technology_project_company_count": 53,
-    "technology_project_cost_evidence_count": 13,
+    "technology_project_cost_evidence_count": 11,
     "technology_project_cost_review_note_count": 34,
-    "technology_project_abatement_evidence_count": 71,
+    "technology_project_abatement_evidence_count": 68,
     "source_mix_company_count": 306,
     "source_mix_known_company_count": 161,
     "source_mix_explicit_reported_primary_ratio_company_count": 13
@@ -40606,10 +40606,10 @@
         "industry_section_en": "Wholesale and Retail Trade",
         "industry_section_zh": "批发和零售业",
         "industry_color": "#2f6f63",
-        "total_mtco2e": 7.494573,
+        "total_mtco2e": 7.496231,
         "scope1_mtco2e": 0.048951999999999996,
-        "scope2_mtco2e": null,
-        "scope2_method_en": "",
+        "scope2_mtco2e": 0.001658,
+        "scope2_method_en": "Market-Based",
         "scope3_mtco2e": 7.445621,
         "scope3_boundary_class_en": "operational_or_value_chain_scope3",
         "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
@@ -40651,6 +40651,30 @@
             "snippet_zh": "2024 Sustainability Report Environmental footprint 1,2,3,4,5,6 1.1 GHG emissions Total GHG emissions Market-based (in metric tons CO2e) 2019 2020 2021 2022 2023 Net total 4,330,000 4,984,000 5,740,244 8,453,471 7,443,182 Carbon removal (carbon credits applied) - 145,000 90,000 80,000 53,050 Total 4,330,000 5,129,000 5,830,244 8,533,471 7,496,232 Scope 1 44,000 29,000 55,173 66,934 48,952 Scope 2 208,000 9,000 2,487 273 1,658 Scope 3 4,078,000 5,091,000 5,772,583 8,466,264 7,445,621 Location-based (in metric tons C…"
           },
           {
+            "evidence_key": "manual_correction__r066_meta__scope2_2023__78",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.001658,
+            "inventory_year": "2023",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "78",
+            "source_file": "Meta-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 78 GHG emissions table: Scope 2 market-based = 1,658 metric tons CO2e (2023). Existing ledger has Scope 1=42,709 t and Scope 3=7,445,621 t but missing Scope 2. Total market-based = 48,952 + 1,658 + 7,445,621 = 7,496,231 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 44,000 29,000 55,173 66,934 48,952 | Scope 2 208,000 9,000 2,487 273 1,658 | Scope 3 4,078,000 5,091,000 5,772,583 8,466,264 7,445,621 | 2019 2020 2021 2022 2023",
+            "snippet_zh": "Scope 1 44,000 29,000 55,173 66,934 48,952 | Scope 2 208,000 9,000 2,487 273 1,658 | Scope 3 4,078,000 5,091,000 5,772,583 8,466,264 7,445,621 | 2019 2020 2021 2022 2023"
+          },
+          {
             "evidence_key": "r066metaplatforms__scope3_____2023__21__7445621__meta2024sustainabilityreportpdf",
             "scope_en": "Scope 3",
             "scope_zh": "范围 3",
@@ -40675,16 +40699,14 @@
             "snippet_zh": "Our net zero program focuses on three pillars: In 2023, our net emissions equaled 7.4 million metric tons of CO2e. We report on all relevant emissions as defined by the GHG Protocol. Our annual data and methodology for calculating our environmental footprint can be found in our data index. Understanding our emissions Reducing our emissions Removing any remaining emissions Learn more 2024 Sustainability Report Our 2023 carbon footprint mt CO2e Scope 1 48,952 Scope 2 1,658 Scope 3 7,445,621 Purchased goods and servi…"
           }
         ],
-        "strong_row_count": 2,
+        "strong_row_count": 3,
         "review_required_row_count": 0,
         "conflict_excluded_row_count": 0,
         "duplicate_scope_candidate_count": 0,
-        "missing_scopes": [
-          "Scope 2"
-        ],
-        "completeness_key": "partial_strong_evidence_total",
-        "completeness_en": "Partial strong-evidence total; missing Scope 2.",
-        "completeness_zh": "强证据部分总量；缺 Scope 2。",
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
         "available_rank": 33
       },
       {
@@ -46375,6 +46397,119 @@
         "complete_rank": 15
       },
       {
+        "company_id": "r066_metaplatforms公司",
+        "company_name_en": "Meta Platforms",
+        "company_name_zh": "Meta Platforms",
+        "world500_rank": 66,
+        "industry_section_code": "F",
+        "industry_section_en": "Wholesale and Retail Trade",
+        "industry_section_zh": "批发和零售业",
+        "industry_color": "#2f6f63",
+        "total_mtco2e": 7.496231,
+        "scope1_mtco2e": 0.048951999999999996,
+        "scope2_mtco2e": 0.001658,
+        "scope2_method_en": "Market-Based",
+        "scope3_mtco2e": 7.445621,
+        "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+        "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+        "selected_evidence_missing_elements": [],
+        "inventory_years": [
+          "2023"
+        ],
+        "inventory_year_alignment_status": "aligned",
+        "selected_evidence_pages": [
+          "78",
+          "21"
+        ],
+        "selected_source_files": [
+          "Meta-2024-Sustainability-Report.pdf"
+        ],
+        "selected_rows": [
+          {
+            "evidence_key": "r066metaplatforms__scope1_____2023__78__0048952__meta2024sustainabilityreportpdf",
+            "scope_en": "Scope 1",
+            "scope_zh": "范围1",
+            "value_mtco2e": 0.048951999999999996,
+            "inventory_year": "2023",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "",
+            "evidence_page": "78",
+            "source_file": "Meta-2024-Sustainability-Report.pdf",
+            "review_status": "manual_validated",
+            "correction_basis_en": "",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_direct_scope1_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 1 direct GHG emissions; treated as corporate direct-emissions inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "metric tons CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "2024 Sustainability Report Environmental footprint 1,2,3,4,5,6 1.1 GHG emissions Total GHG emissions Market-based (in metric tons CO2e) 2019 2020 2021 2022 2023 Net total 4,330,000 4,984,000 5,740,244 8,453,471 7,443,182 Carbon removal (carbon credits applied) - 145,000 90,000 80,000 53,050 Total 4,330,000 5,129,000 5,830,244 8,533,471 7,496,232 Scope 1 44,000 29,000 55,173 66,934 48,952 Scope 2 208,000 9,000 2,487 273 1,658 Scope 3 4,078,000 5,091,000 5,772,583 8,466,264 7,445,621 Location-based (in metric tons C…",
+            "snippet_zh": "2024 Sustainability Report Environmental footprint 1,2,3,4,5,6 1.1 GHG emissions Total GHG emissions Market-based (in metric tons CO2e) 2019 2020 2021 2022 2023 Net total 4,330,000 4,984,000 5,740,244 8,453,471 7,443,182 Carbon removal (carbon credits applied) - 145,000 90,000 80,000 53,050 Total 4,330,000 5,129,000 5,830,244 8,533,471 7,496,232 Scope 1 44,000 29,000 55,173 66,934 48,952 Scope 2 208,000 9,000 2,487 273 1,658 Scope 3 4,078,000 5,091,000 5,772,583 8,466,264 7,445,621 Location-based (in metric tons C…"
+          },
+          {
+            "evidence_key": "manual_correction__r066_meta__scope2_2023__78",
+            "scope_en": "Scope 2",
+            "scope_zh": "Scope 2",
+            "value_mtco2e": 0.001658,
+            "inventory_year": "2023",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "",
+            "scope3_boundary_basis_en": "",
+            "scope2_reporting_method": "Market-Based",
+            "evidence_page": "78",
+            "source_file": "Meta-2024-Sustainability-Report.pdf",
+            "review_status": "manual_corrected_from_pdf_table",
+            "correction_basis_en": "Page 78 GHG emissions table: Scope 2 market-based = 1,658 metric tons CO2e (2023). Existing ledger has Scope 1=42,709 t and Scope 3=7,445,621 t but missing Scope 2. Total market-based = 48,952 + 1,658 + 7,445,621 = 7,496,231 tCO2e.",
+            "boundary_en": "",
+            "boundary_class_en": "corporate_energy_indirect_scope2_inventory",
+            "boundary_basis_en": "Selected page-level row names Scope 2 Market-Based emissions; treated as corporate energy-indirect inventory evidence.",
+            "unit_en": "",
+            "unit_evidence_en": "unit_matched_in_page_text",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Scope 1 44,000 29,000 55,173 66,934 48,952 | Scope 2 208,000 9,000 2,487 273 1,658 | Scope 3 4,078,000 5,091,000 5,772,583 8,466,264 7,445,621 | 2019 2020 2021 2022 2023",
+            "snippet_zh": "Scope 1 44,000 29,000 55,173 66,934 48,952 | Scope 2 208,000 9,000 2,487 273 1,658 | Scope 3 4,078,000 5,091,000 5,772,583 8,466,264 7,445,621 | 2019 2020 2021 2022 2023"
+          },
+          {
+            "evidence_key": "r066metaplatforms__scope3_____2023__21__7445621__meta2024sustainabilityreportpdf",
+            "scope_en": "Scope 3",
+            "scope_zh": "范围 3",
+            "value_mtco2e": 7.445621,
+            "inventory_year": "2023",
+            "scope3_category_en": "",
+            "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+            "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "scope2_reporting_method": "",
+            "evidence_page": "21",
+            "source_file": "Meta-2024-Sustainability-Report.pdf",
+            "review_status": "batch_auto_promoted",
+            "correction_basis_en": "",
+            "boundary_en": "",
+            "boundary_class_en": "operational_or_value_chain_scope3",
+            "boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+            "unit_en": "",
+            "unit_evidence_en": "mt CO2e",
+            "evidence_element_status": "page_unit_year_value_boundary_traceable",
+            "missing_evidence_elements": [],
+            "snippet_en": "Our net zero program focuses on three pillars: In 2023, our net emissions equaled 7.4 million metric tons of CO2e. We report on all relevant emissions as defined by the GHG Protocol. Our annual data and methodology for calculating our environmental footprint can be found in our data index. Understanding our emissions Reducing our emissions Removing any remaining emissions Learn more 2024 Sustainability Report Our 2023 carbon footprint mt CO2e Scope 1 48,952 Scope 2 1,658 Scope 3 7,445,621 Purchased goods and servi…",
+            "snippet_zh": "Our net zero program focuses on three pillars: In 2023, our net emissions equaled 7.4 million metric tons of CO2e. We report on all relevant emissions as defined by the GHG Protocol. Our annual data and methodology for calculating our environmental footprint can be found in our data index. Understanding our emissions Reducing our emissions Removing any remaining emissions Learn more 2024 Sustainability Report Our 2023 carbon footprint mt CO2e Scope 1 48,952 Scope 2 1,658 Scope 3 7,445,621 Purchased goods and servi…"
+          }
+        ],
+        "strong_row_count": 3,
+        "review_required_row_count": 0,
+        "conflict_excluded_row_count": 0,
+        "duplicate_scope_candidate_count": 0,
+        "missing_scopes": [],
+        "completeness_key": "complete_scope123_strong_evidence_total",
+        "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+        "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+        "available_rank": 33,
+        "complete_rank": 16
+      },
+      {
         "company_id": "r297_sanofi",
         "company_name_en": "SANOFI",
         "company_name_zh": "赛诺菲",
@@ -46484,7 +46619,7 @@
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
         "available_rank": 36,
-        "complete_rank": 16
+        "complete_rank": 17
       },
       {
         "company_id": "r350_telefónica",
@@ -46596,7 +46731,7 @@
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
         "available_rank": 43,
-        "complete_rank": 17
+        "complete_rank": 18
       },
       {
         "company_id": "r046_centene公司",
@@ -46708,7 +46843,7 @@
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
         "available_rank": 47,
-        "complete_rank": 18
+        "complete_rank": 19
       },
       {
         "company_id": "r260_newyorklifeinsurance",
@@ -46820,7 +46955,7 @@
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
         "available_rank": 61,
-        "complete_rank": 19
+        "complete_rank": 20
       },
       {
         "company_id": "r327_talanx公司",
@@ -46932,7 +47067,7 @@
         "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
         "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
         "available_rank": 69,
-        "complete_rank": 20
+        "complete_rank": 21
       }
     ],
     "ranking_graph": {
@@ -47323,11 +47458,35 @@
           ]
         },
         {
+          "company_id": "r066_metaplatforms公司",
+          "company_name_en": "Meta Platforms",
+          "company_name_zh": "Meta Platforms",
+          "world500_rank": 66,
+          "evidence_rank": 16,
+          "industry_section_code": "F",
+          "industry_section_en": "Wholesale and Retail Trade",
+          "industry_section_zh": "批发和零售业",
+          "industry_color": "#2f6f63",
+          "total_mtco2e": 7.496231,
+          "relative_size": 0.006564,
+          "scope1_mtco2e": 0.048951999999999996,
+          "scope2_mtco2e": 0.001658,
+          "scope2_method_en": "Market-Based",
+          "scope3_mtco2e": 7.445621,
+          "inventory_years": [
+            "2023"
+          ],
+          "selected_evidence_pages": [
+            "78",
+            "21"
+          ]
+        },
+        {
           "company_id": "r297_sanofi",
           "company_name_en": "SANOFI",
           "company_name_zh": "赛诺菲",
           "world500_rank": 297,
-          "evidence_rank": 16,
+          "evidence_rank": 17,
           "industry_section_code": "C",
           "industry_section_en": "Manufacturing",
           "industry_section_zh": "制造业",
@@ -47350,7 +47509,7 @@
           "company_name_en": "TELEFÓNICA",
           "company_name_zh": "西班牙电话公司",
           "world500_rank": 350,
-          "evidence_rank": 17,
+          "evidence_rank": 18,
           "industry_section_code": "I",
           "industry_section_en": "Information Transmission, Software and Information Technology Services",
           "industry_section_zh": "信息传输、软件和信息技术服务业",
@@ -47373,7 +47532,7 @@
           "company_name_en": "Centene",
           "company_name_zh": "Centene",
           "world500_rank": 46,
-          "evidence_rank": 18,
+          "evidence_rank": 19,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47396,7 +47555,7 @@
           "company_name_en": "NEW YORK LIFE INSURANCE",
           "company_name_zh": "美国纽约人寿保险公司",
           "world500_rank": 260,
-          "evidence_rank": 19,
+          "evidence_rank": 20,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47419,7 +47578,7 @@
           "company_name_en": "Talanx",
           "company_name_zh": "Talanx",
           "world500_rank": 327,
-          "evidence_rank": 20,
+          "evidence_rank": 21,
           "industry_section_code": "J",
           "industry_section_en": "Finance",
           "industry_section_zh": "金融业",
@@ -47447,9 +47606,9 @@
       "complete_gate_zh": "主图/主表只纳入完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
       "partial_policy_en": "Partial strong-evidence totals remain sorted in the review table and are not mixed into the comparable ranking graph.",
       "partial_policy_zh": "部分强证据总量只保留在复核表中按总量排序，不混入可比排行图谱。",
-      "complete_count": 20,
+      "complete_count": 21,
       "available_count": 85,
-      "partial_excluded_count": 65,
+      "partial_excluded_count": 64,
       "highest_partial_excluded_company_en": "AIRBUS",
       "highest_partial_excluded_company_zh": "空中客车公司",
       "highest_partial_excluded_total_mtco2e": 781.765,
@@ -139394,11 +139553,11 @@
           "r489_3m公司"
         ],
         "evidence_count": 669,
-        "project_evidence_count": 42,
+        "project_evidence_count": 40,
         "project_company_count": 40,
         "project_cost_evidence_count": 5,
         "project_cost_review_note_count": 22,
-        "project_abatement_evidence_count": 36,
+        "project_abatement_evidence_count": 35,
         "project_timeline_years": [
           "2015",
           "2017",
@@ -140224,37 +140383,6 @@
             "industry_section_zh": "采矿业",
             "industry_color": "#8a5a44",
             "technology_id": "renewable_power",
-            "subtype_id": "onsite_solar_wind",
-            "subtype_en": "Solar power plants with co-located battery storage",
-            "project_name_en": "Danish Fields and Cottonwood solar power plants",
-            "measure_name_en": "Commissioned solar power plants with co-located battery storage in southeast Texas",
-            "implementation_stage": "commissioned",
-            "timeline_years": [
-              "2024"
-            ],
-            "cost_or_investment_en": "",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "missing_project_cost_or_investment_evidence",
-            "abatement_effect_en": "",
-            "evidence_page": "24",
-            "page": "24",
-            "source_file": "totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf",
-            "report_title_en": "TotalEnergies Sustainability & Climate 2025 Progress Report",
-            "snippet_en": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the country.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
-            "company_id": "r023_totalenergies",
-            "company_name_en": "TOTALENERGIES",
-            "company_name_zh": "道达尔能源公司",
-            "world500_rank": 23,
-            "industry_label_zh": "炼油",
-            "industry_section_code": "B",
-            "industry_section_en": "Mining",
-            "industry_section_zh": "采矿业",
-            "industry_color": "#8a5a44",
-            "technology_id": "renewable_power",
             "subtype_id": "renewable_capex",
             "subtype_en": "Low-carbon electricity investment",
             "project_name_en": "Annual Low-Carbon Energy Investment Program",
@@ -140751,6 +140879,37 @@
             "source_file": "TD SYNNEX Corporation FY24 Corporate Citizenship Report.pdf",
             "report_title_en": "TD SYNNEX FY2024 Corporate Citizenship Report",
             "snippet_en": "TD SYNNEX reports that it reduced Scope 1 and 2 GHG emissions by nearly 43% over its FY2022 base year. The report states this was achieved through a wide range of initiatives across global operations, including expansion of renewable energy procurement and energy efficiency projects, and that the company remains committed to a long-term target of net-zero GHG emissions by 2045.",
+            "evidence_status": "project_evidence",
+            "evidence_boundary": "page_level_project_or_measure_evidence"
+          },
+          {
+            "company_id": "r246_ciscosystems",
+            "company_name_en": "CISCO SYSTEMS",
+            "company_name_zh": "思科公司",
+            "world500_rank": 246,
+            "industry_label_zh": "网络、通讯设备",
+            "industry_section_code": "C",
+            "industry_section_en": "Manufacturing",
+            "industry_section_zh": "制造业",
+            "industry_color": "#c76b2d",
+            "technology_id": "renewable_power",
+            "subtype_id": "renewable_energy_investment_bundle",
+            "subtype_en": "Renewable-energy investment bundle",
+            "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+            "measure_name_en": "Investing in renewable energy projects as part of a bundled Scope 1 and 2 reduction plan",
+            "implementation_stage": "planned investment from fiscal 2023 onward",
+            "timeline_years": [
+              "2023"
+            ],
+            "cost_or_investment_en": "",
+            "cost_or_investment_review_note_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+            "cost_evidence_status": "cost_not_disclosed_or_unquantified_review_note",
+            "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+            "evidence_page": "31",
+            "page": "31",
+            "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+            "report_title_en": "Cisco Purpose Report 2024",
+            "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
           }
@@ -142673,11 +142832,11 @@
           "r485_centrica"
         ],
         "evidence_count": 291,
-        "project_evidence_count": 9,
+        "project_evidence_count": 8,
         "project_company_count": 8,
-        "project_cost_evidence_count": 3,
+        "project_cost_evidence_count": 2,
         "project_cost_review_note_count": 2,
-        "project_abatement_evidence_count": 9,
+        "project_abatement_evidence_count": 8,
         "project_timeline_years": [
           "2021",
           "2022",
@@ -143531,38 +143690,6 @@
             "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
             "report_title_en": "Intel Corporate Responsibility Report 2024-25",
             "snippet_en": "Intel states that in its second Annual Green Bond Report, published in 2024, it outlined the allocation of a cumulative USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
-            "company_id": "r261_intel",
-            "company_name_en": "INTEL",
-            "company_name_zh": "英特尔公司",
-            "world500_rank": 261,
-            "industry_label_zh": "半导体、电子元件",
-            "industry_section_code": "C",
-            "industry_section_en": "Manufacturing",
-            "industry_section_zh": "制造业",
-            "industry_color": "#c76b2d",
-            "technology_id": "energy_efficiency",
-            "subtype_id": "green_bond_efficiency_and_abatement_projects",
-            "subtype_en": "Green-bond funded efficiency and GHG abatement projects",
-            "project_name_en": "Intel Green Bond eligible green projects",
-            "measure_name_en": "Allocating green bond proceeds to HVAC upgrades, heat recovery projects, GHG abatement systems, renewable electricity, and green buildings",
-            "implementation_stage": "green bond allocation reported in 2024",
-            "timeline_years": [
-              "2022",
-              "2024"
-            ],
-            "cost_or_investment_en": "Report discloses cumulative allocation of USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022.",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-            "abatement_effect_en": "Report identifies energy efficiency, renewable electricity, green buildings, HVAC upgrades, heat recovery, and greenhouse gas abatement systems as eligible or recent projects; quantified project CO2e abatement is not disclosed in this snippet.",
-            "evidence_page": "6",
-            "page": "6",
-            "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
-            "report_title_en": "Intel Corporate Responsibility Report 2024-25",
-            "snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
           },
@@ -145092,11 +145219,11 @@
           "r498_瑞士abb集团"
         ],
         "evidence_count": 125,
-        "project_evidence_count": 7,
+        "project_evidence_count": 6,
         "project_company_count": 6,
-        "project_cost_evidence_count": 2,
+        "project_cost_evidence_count": 1,
         "project_cost_review_note_count": 1,
-        "project_abatement_evidence_count": 6,
+        "project_abatement_evidence_count": 5,
         "project_timeline_years": [
           "2024",
           "2025",
@@ -145597,37 +145724,6 @@
             "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
             "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
             "snippet_en": "The Transition Finance Playbook case study states that SMFG is providing a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same snippet states SAF has a 90% reduction in CO2 emissions.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
-            "company_id": "r208_sumitomomitsuifinancialgroup",
-            "company_name_en": "SUMITOMO MITSUI FINANCIAL GROUP",
-            "company_name_zh": "日本三井住友金融集团",
-            "world500_rank": 208,
-            "industry_label_zh": "银行：商业储蓄",
-            "industry_section_code": "J",
-            "industry_section_en": "Finance",
-            "industry_section_zh": "金融业",
-            "industry_color": "#446f9f",
-            "technology_id": "low_carbon_fuels",
-            "subtype_id": "saf_green_loan",
-            "subtype_en": "Sustainable aviation fuel green loan",
-            "project_name_en": "Green loan to Twelve for SAF production",
-            "measure_name_en": "Providing a green loan to Twelve, a company converting CO2 into chemical products, to support a SAF production project",
-            "implementation_stage": "green loan disclosed as case-study finance",
-            "timeline_years": [
-              "2025"
-            ],
-            "cost_or_investment_en": "Report discloses a green loan of USD 20 million to Twelve.",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-            "abatement_effect_en": "Report states SAF has 90% CO2 emissions reduction in the case-study snippet.",
-            "evidence_page": "27",
-            "page": "27",
-            "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
-            "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
-            "snippet_en": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same case-study snippet states SAF has 90% reduction in CO2 emissions.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
           },
@@ -146432,12 +146528,12 @@
           "r487_heineken",
           "r489_3m公司"
         ],
-        "evidence_count": 42,
-        "project_evidence_count": 42,
+        "evidence_count": 40,
+        "project_evidence_count": 40,
         "project_company_count": 40,
         "project_cost_evidence_count": 5,
         "project_cost_review_note_count": 22,
-        "project_abatement_evidence_count": 36,
+        "project_abatement_evidence_count": 35,
         "project_timeline_years": [
           "2015",
           "2017",
@@ -146457,7 +146553,7 @@
         ],
         "cost_signal_count": 5,
         "timeline_counts": {
-          "near": 64,
+          "near": 61,
           "mid": 13,
           "long": 3
         },
@@ -146466,13 +146562,13 @@
             "id": "onsite_solar_wind",
             "label_en": "Onsite solar or wind",
             "label_zh": "园区/现场光伏与风电",
-            "evidence_count": 10
+            "evidence_count": 9
           },
           {
             "id": "ppa_vppa",
             "label_en": "PPA / VPPA procurement",
             "label_zh": "PPA / VPPA 绿电采购",
-            "evidence_count": 6
+            "evidence_count": 5
           },
           {
             "id": "renewable_certificates",
@@ -146526,19 +146622,6 @@
             "evidence_count": 1,
             "sample_snippet_en": "Apple's comprehensive carbon footprint shows avoided emissions including 21.8M avoided Supplier clean energy, alongside supplier energy efficiency, direct emissions abatement, low-carbon materials, and use of renewable electricity.",
             "sample_snippet_zh": "Apple's comprehensive carbon footprint shows avoided emissions including 21.8M avoided Supplier clean energy, alongside supplier energy efficiency, direct emissions abatement, low-carbon materials, and use of renewable electricity."
-          },
-          {
-            "company_id": "r023_totalenergies",
-            "company_name_en": "TOTALENERGIES",
-            "company_name_zh": "道达尔能源公司",
-            "world500_rank": 23,
-            "industry_section_code": "B",
-            "industry_section_en": "Mining",
-            "industry_section_zh": "采矿业",
-            "industry_color": "#8a5a44",
-            "evidence_count": 1,
-            "sample_snippet_en": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the…",
-            "sample_snippet_zh": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the…"
           },
           {
             "company_id": "r023_totalenergies",
@@ -146814,19 +146897,6 @@
             "sample_snippet_zh": "Together with the Ngarluma Aboriginal Corporation, Rio Tinto is progressing the development of an 80 MW solar farm on Ngarluma Country, near Karratha, to supply renewable energy to Pilbara operations. When complete, this project has the potential to reduce th…"
           },
           {
-            "company_id": "r264_riotintogroup",
-            "company_name_en": "RIO TINTO GROUP",
-            "company_name_zh": "力拓集团",
-            "world500_rank": 264,
-            "industry_section_code": "B",
-            "industry_section_en": "Mining",
-            "industry_section_zh": "采矿业",
-            "industry_color": "#8a5a44",
-            "evidence_count": 1,
-            "sample_snippet_en": "Other renewable electricity developments: commenced construction of solar PV at Gove (10 MW) and Amrun mine (12 MW); executed wind Virtual Power Purchase Agreement (VPPA) (78.5 MW) at Monte Cristo in the US to abate regional Scope 2 emissions; completed const…",
-            "sample_snippet_zh": "Other renewable electricity developments: commenced construction of solar PV at Gove (10 MW) and Amrun mine (12 MW); executed wind Virtual Power Purchase Agreement (VPPA) (78.5 MW) at Monte Cristo in the US to abate regional Scope 2 emissions; completed const…"
-          },
-          {
             "company_id": "r345_raízen公司",
             "company_name_en": "Raízen",
             "company_name_zh": "Raízen",
@@ -147007,6 +147077,32 @@
             "evidence_count": 1,
             "sample_snippet_en": "Ecopetrol states that in 2024 it inaugurated the La Cira Infantas solar farm in Barrancabermeja, with an installed capacity of 56 MWp for self-consumption, expected to generate up to 76.3 gigawatt-hours per year. The initiative is part of a reduction of appro…",
             "sample_snippet_zh": "Ecopetrol states that in 2024 it inaugurated the La Cira Infantas solar farm in Barrancabermeja, with an installed capacity of 56 MWp for self-consumption, expected to generate up to 76.3 gigawatt-hours per year. The initiative is part of a reduction of appro…"
+          },
+          {
+            "company_id": "r487_heineken",
+            "company_name_en": "HEINEKEN",
+            "company_name_zh": "喜力公司",
+            "world500_rank": 487,
+            "industry_section_code": "C",
+            "industry_section_en": "Manufacturing",
+            "industry_section_zh": "制造业",
+            "industry_color": "#c76b2d",
+            "evidence_count": 1,
+            "sample_snippet_en": "HEINEKEN reports success cases for decarbonising operations: two of its largest operating companies, Brazil and Vietnam, are using biomass, and two of its breweries in Spain are using concentrated solar thermal to harness the power of the sun.",
+            "sample_snippet_zh": "HEINEKEN reports success cases for decarbonising operations: two of its largest operating companies, Brazil and Vietnam, are using biomass, and two of its breweries in Spain are using concentrated solar thermal to harness the power of the sun."
+          },
+          {
+            "company_id": "r489_3m公司",
+            "company_name_en": "3M",
+            "company_name_zh": "3M",
+            "world500_rank": 489,
+            "industry_section_code": "C",
+            "industry_section_en": "Manufacturing",
+            "industry_section_zh": "制造业",
+            "industry_color": "#c76b2d",
+            "evidence_count": 1,
+            "sample_snippet_en": "3M reports that its energy-footprint management includes evaluating and improving products, manufacturing processes, equipment, and sites. The report states that in 2019 3M began converting sites around the world to be powered by 100% renewable electricity. A…",
+            "sample_snippet_zh": "3M reports that its energy-footprint management includes evaluating and improving products, manufacturing processes, equipment, and sites. The report states that in 2019 3M began converting sites around the world to be powered by 100% renewable electricity. A…"
           }
         ],
         "evidence_samples": [
@@ -147034,15 +147130,6 @@
             "source_file": "Apple_Environmental_Progress_Report_2025.pdf",
             "snippet_en": "Apple's comprehensive carbon footprint shows avoided emissions including 21.8M avoided Supplier clean energy, alongside supplier energy efficiency, direct emissions abatement, low-carbon materials, and use of renewable electricity.",
             "snippet_zh": "Apple's comprehensive carbon footprint shows avoided emissions including 21.8M avoided Supplier clean energy, alongside supplier energy efficiency, direct emissions abatement, low-carbon materials, and use of renewable electricity.",
-            "confidence": "high",
-            "review_status": "valid_project_evidence"
-          },
-          {
-            "report": "totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf",
-            "page": "24",
-            "source_file": "totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf",
-            "snippet_en": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the country.",
-            "snippet_zh": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the country.",
             "confidence": "high",
             "review_status": "valid_project_evidence"
           },
@@ -147079,6 +147166,15 @@
             "source_file": "Phillips_66_Sustainability_and_People_Report_2025.pdf",
             "snippet_en": "Increasing Renewable Power: Phillips 66 states that it teamed up with a subsidiary of NextEra Energy Resources LLC to power its Rodeo Complex with a 30.2-megawatt solar facility. The facility is designed to generate approximately 60,000 MWh/year of electricity, reduce the complex's grid power demand by 50%, and is expected to avoid approximately 33,000 metric tons of carbon dioxide emissions a year. The facility became fully operational in 2025.",
             "snippet_zh": "Increasing Renewable Power: Phillips 66 states that it teamed up with a subsidiary of NextEra Energy Resources LLC to power its Rodeo Complex with a 30.2-megawatt solar facility. The facility is designed to generate approximately 60,000 MWh/year of electricity, reduce the complex's grid power demand by 50%, and is expected to avoid approximately 33,000 metric tons of carbon dioxide emissions a year. The facility became fully operational in 2025.",
+            "confidence": "high",
+            "review_status": "valid_project_evidence"
+          },
+          {
+            "report": "en-allianz-group-annual-report-2024.pdf",
+            "page": "74",
+            "source_file": "en-allianz-group-annual-report-2024.pdf",
+            "snippet_en": "Allianz reports key decarbonization actions including improving energy management across operations and scaling support of renewable energy and low-carbon technologies. The report states that carbon intensity reduction in its proprietary real-estate equity and debt portfolio resulted from increased renewable energy utilization and energy-efficiency improvements. It also states that in own operations Allianz reduced GHG emissions per employee by 62% versus the 2019 baseline through lowering energy consumption and meeting renewable-energy targets.",
+            "snippet_zh": "Allianz reports key decarbonization actions including improving energy management across operations and scaling support of renewable energy and low-carbon technologies. The report states that carbon intensity reduction in its proprietary real-estate equity and debt portfolio resulted from increased renewable energy utilization and energy-efficiency improvements. It also states that in own operations Allianz reduced GHG emissions per employee by 62% versus the 2019 baseline through lowering energy consumption and meeting renewable-energy targets.",
             "confidence": "high",
             "review_status": "valid_project_evidence"
           }
@@ -147177,37 +147273,6 @@
             "source_file": "Apple_Environmental_Progress_Report_2025.pdf",
             "report_title_en": "Apple Environmental Progress Report 2025",
             "snippet_en": "Apple's comprehensive carbon footprint shows avoided emissions including 21.8M avoided Supplier clean energy, alongside supplier energy efficiency, direct emissions abatement, low-carbon materials, and use of renewable electricity.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
-            "company_id": "r023_totalenergies",
-            "company_name_en": "TOTALENERGIES",
-            "company_name_zh": "道达尔能源公司",
-            "world500_rank": 23,
-            "industry_label_zh": "炼油",
-            "industry_section_code": "B",
-            "industry_section_en": "Mining",
-            "industry_section_zh": "采矿业",
-            "industry_color": "#8a5a44",
-            "technology_id": "renewable_power",
-            "subtype_id": "onsite_solar_wind",
-            "subtype_en": "Solar power plants with co-located battery storage",
-            "project_name_en": "Danish Fields and Cottonwood solar power plants",
-            "measure_name_en": "Commissioned solar power plants with co-located battery storage in southeast Texas",
-            "implementation_stage": "commissioned",
-            "timeline_years": [
-              "2024"
-            ],
-            "cost_or_investment_en": "",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "missing_project_cost_or_investment_evidence",
-            "abatement_effect_en": "",
-            "evidence_page": "24",
-            "page": "24",
-            "source_file": "totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf",
-            "report_title_en": "TotalEnergies Sustainability & Climate 2025 Progress Report",
-            "snippet_en": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the country.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
           },
@@ -147720,6 +147785,37 @@
             "snippet_en": "TD SYNNEX reports that it reduced Scope 1 and 2 GHG emissions by nearly 43% over its FY2022 base year. The report states this was achieved through a wide range of initiatives across global operations, including expansion of renewable energy procurement and energy efficiency projects, and that the company remains committed to a long-term target of net-zero GHG emissions by 2045.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
+          },
+          {
+            "company_id": "r246_ciscosystems",
+            "company_name_en": "CISCO SYSTEMS",
+            "company_name_zh": "思科公司",
+            "world500_rank": 246,
+            "industry_label_zh": "网络、通讯设备",
+            "industry_section_code": "C",
+            "industry_section_en": "Manufacturing",
+            "industry_section_zh": "制造业",
+            "industry_color": "#c76b2d",
+            "technology_id": "renewable_power",
+            "subtype_id": "renewable_energy_investment_bundle",
+            "subtype_en": "Renewable-energy investment bundle",
+            "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+            "measure_name_en": "Investing in renewable energy projects as part of a bundled Scope 1 and 2 reduction plan",
+            "implementation_stage": "planned investment from fiscal 2023 onward",
+            "timeline_years": [
+              "2023"
+            ],
+            "cost_or_investment_en": "",
+            "cost_or_investment_review_note_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+            "cost_evidence_status": "cost_not_disclosed_or_unquantified_review_note",
+            "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+            "evidence_page": "31",
+            "page": "31",
+            "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+            "report_title_en": "Cisco Purpose Report 2024",
+            "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
+            "evidence_status": "project_evidence",
+            "evidence_boundary": "page_level_project_or_measure_evidence"
           }
         ],
         "evidence_bucket": "strong_project_evidence",
@@ -147757,12 +147853,12 @@
           "r478_siemensenergy",
           "r486_linde"
         ],
-        "evidence_count": 9,
-        "project_evidence_count": 9,
+        "evidence_count": 8,
+        "project_evidence_count": 8,
         "project_company_count": 8,
-        "project_cost_evidence_count": 3,
+        "project_cost_evidence_count": 2,
         "project_cost_review_note_count": 2,
-        "project_abatement_evidence_count": 9,
+        "project_abatement_evidence_count": 8,
         "project_timeline_years": [
           "2021",
           "2022",
@@ -147772,9 +147868,9 @@
           "2035",
           "2050"
         ],
-        "cost_signal_count": 3,
+        "cost_signal_count": 2,
         "timeline_counts": {
-          "near": 16,
+          "near": 14,
           "mid": 3,
           "long": 1
         },
@@ -147871,19 +147967,6 @@
             "sample_snippet_zh": "Intel states that in its second Annual Green Bond Report, published in 2024, it outlined the allocation of a cumulative USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and…"
           },
           {
-            "company_id": "r261_intel",
-            "company_name_en": "INTEL",
-            "company_name_zh": "英特尔公司",
-            "world500_rank": 261,
-            "industry_section_code": "C",
-            "industry_section_en": "Manufacturing",
-            "industry_section_zh": "制造业",
-            "industry_color": "#c76b2d",
-            "evidence_count": 1,
-            "sample_snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water …",
-            "sample_snippet_zh": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water …"
-          },
-          {
             "company_id": "r426_qualcomm",
             "company_name_en": "QUALCOMM",
             "company_name_zh": "高通",
@@ -147970,15 +148053,6 @@
             "review_status": "valid_project_evidence"
           },
           {
-            "report": "INTEL CSR-2024-25-Full-Report.pdf",
-            "page": "6",
-            "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
-            "snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
-            "snippet_zh": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
-            "confidence": "high",
-            "review_status": "valid_project_evidence"
-          },
-          {
             "report": "2024-qualcomm-corporate-responsibility-report.pdf",
             "page": "50",
             "source_file": "2024-qualcomm-corporate-responsibility-report.pdf",
@@ -147993,6 +148067,15 @@
             "source_file": "SIEMENS ENERGY-sustainability-report-2024-pdf_Original%20file.pdf",
             "snippet_en": "Siemens Energy states that its goal is to be climate neutral within operations by 2030. One lever is using renewable electricity in all facilities around the globe, a target the company says it reached in fiscal year 2023. The same passage also notes reducing energy consumption, increasing electrification in processes and buildings, and transforming the entire car fleet to 100% electric vehicles.",
             "snippet_zh": "Siemens Energy states that its goal is to be climate neutral within operations by 2030. One lever is using renewable electricity in all facilities around the globe, a target the company says it reached in fiscal year 2023. The same passage also notes reducing energy consumption, increasing electrification in processes and buildings, and transforming the entire car fleet to 100% electric vehicles.",
+            "confidence": "high",
+            "review_status": "valid_project_evidence"
+          },
+          {
+            "report": "linde-2024-sustainable-development-report.pdf",
+            "page": "25",
+            "source_file": "linde-2024-sustainable-development-report.pdf",
+            "snippet_en": "Invest in internal decarbonization by 2035, cumulative $ million n/a n/a n/a 169 3,000. Enable >2x GHG benefits, annual 2.2x 2.3x 2.4x 2.6x >2.0x. 35% absolute reduction in Scope 1 and 2 emissions by 2035, 2021 baseline, cumulative % (million tons CO2e) n/a -2.8% -4% -6.2% -35% (25.9)",
+            "snippet_zh": "Invest in internal decarbonization by 2035, cumulative $ million n/a n/a n/a 169 3,000. Enable >2x GHG benefits, annual 2.2x 2.3x 2.4x 2.6x >2.0x. 35% absolute reduction in Scope 1 and 2 emissions by 2035, 2021 baseline, cumulative % (million tons CO2e) n/a -2.8% -4% -6.2% -35% (25.9)",
             "confidence": "high",
             "review_status": "valid_project_evidence"
           }
@@ -148155,38 +148238,6 @@
             "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
             "report_title_en": "Intel Corporate Responsibility Report 2024-25",
             "snippet_en": "Intel states that in its second Annual Green Bond Report, published in 2024, it outlined the allocation of a cumulative USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
-            "company_id": "r261_intel",
-            "company_name_en": "INTEL",
-            "company_name_zh": "英特尔公司",
-            "world500_rank": 261,
-            "industry_label_zh": "半导体、电子元件",
-            "industry_section_code": "C",
-            "industry_section_en": "Manufacturing",
-            "industry_section_zh": "制造业",
-            "industry_color": "#c76b2d",
-            "technology_id": "energy_efficiency",
-            "subtype_id": "green_bond_efficiency_and_abatement_projects",
-            "subtype_en": "Green-bond funded efficiency and GHG abatement projects",
-            "project_name_en": "Intel Green Bond eligible green projects",
-            "measure_name_en": "Allocating green bond proceeds to HVAC upgrades, heat recovery projects, GHG abatement systems, renewable electricity, and green buildings",
-            "implementation_stage": "green bond allocation reported in 2024",
-            "timeline_years": [
-              "2022",
-              "2024"
-            ],
-            "cost_or_investment_en": "Report discloses cumulative allocation of USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022.",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-            "abatement_effect_en": "Report identifies energy efficiency, renewable electricity, green buildings, HVAC upgrades, heat recovery, and greenhouse gas abatement systems as eligible or recent projects; quantified project CO2e abatement is not disclosed in this snippet.",
-            "evidence_page": "6",
-            "page": "6",
-            "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
-            "report_title_en": "Intel Corporate Responsibility Report 2024-25",
-            "snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
           },
@@ -148835,21 +148886,21 @@
           "r237_deltaairlines",
           "r264_riotintogroup"
         ],
-        "evidence_count": 7,
-        "project_evidence_count": 7,
+        "evidence_count": 6,
+        "project_evidence_count": 6,
         "project_company_count": 6,
-        "project_cost_evidence_count": 2,
+        "project_cost_evidence_count": 1,
         "project_cost_review_note_count": 1,
-        "project_abatement_evidence_count": 6,
+        "project_abatement_evidence_count": 5,
         "project_timeline_years": [
           "2024",
           "2025",
           "2030",
           "2050"
         ],
-        "cost_signal_count": 2,
+        "cost_signal_count": 1,
         "timeline_counts": {
-          "near": 7,
+          "near": 6,
           "mid": 1,
           "long": 1
         },
@@ -148927,19 +148978,6 @@
             "sample_snippet_zh": "The Transition Finance Playbook case study states that SMFG is providing a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same snippet states SAF has a 90% r…"
           },
           {
-            "company_id": "r208_sumitomomitsuifinancialgroup",
-            "company_name_en": "SUMITOMO MITSUI FINANCIAL GROUP",
-            "company_name_zh": "日本三井住友金融集团",
-            "world500_rank": 208,
-            "industry_section_code": "J",
-            "industry_section_en": "Finance",
-            "industry_section_zh": "金融业",
-            "industry_color": "#446f9f",
-            "evidence_count": 1,
-            "sample_snippet_en": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, …",
-            "sample_snippet_zh": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, …"
-          },
-          {
             "company_id": "r237_deltaairlines",
             "company_name_en": "DELTA AIR LINES",
             "company_name_zh": "达美航空",
@@ -149000,15 +149038,6 @@
             "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
             "snippet_en": "The Transition Finance Playbook case study states that SMFG is providing a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same snippet states SAF has a 90% reduction in CO2 emissions.",
             "snippet_zh": "The Transition Finance Playbook case study states that SMFG is providing a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same snippet states SAF has a 90% reduction in CO2 emissions.",
-            "confidence": "high",
-            "review_status": "valid_project_evidence"
-          },
-          {
-            "report": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
-            "page": "27",
-            "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
-            "snippet_en": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same case-study snippet states SAF has 90% reduction in CO2 emissions.",
-            "snippet_zh": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same case-study snippet states SAF has 90% reduction in CO2 emissions.",
             "confidence": "high",
             "review_status": "valid_project_evidence"
           },
@@ -149153,37 +149182,6 @@
             "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
             "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
             "snippet_en": "The Transition Finance Playbook case study states that SMFG is providing a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same snippet states SAF has a 90% reduction in CO2 emissions.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
-            "company_id": "r208_sumitomomitsuifinancialgroup",
-            "company_name_en": "SUMITOMO MITSUI FINANCIAL GROUP",
-            "company_name_zh": "日本三井住友金融集团",
-            "world500_rank": 208,
-            "industry_label_zh": "银行：商业储蓄",
-            "industry_section_code": "J",
-            "industry_section_en": "Finance",
-            "industry_section_zh": "金融业",
-            "industry_color": "#446f9f",
-            "technology_id": "low_carbon_fuels",
-            "subtype_id": "saf_green_loan",
-            "subtype_en": "Sustainable aviation fuel green loan",
-            "project_name_en": "Green loan to Twelve for SAF production",
-            "measure_name_en": "Providing a green loan to Twelve, a company converting CO2 into chemical products, to support a SAF production project",
-            "implementation_stage": "green loan disclosed as case-study finance",
-            "timeline_years": [
-              "2025"
-            ],
-            "cost_or_investment_en": "Report discloses a green loan of USD 20 million to Twelve.",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-            "abatement_effect_en": "Report states SAF has 90% CO2 emissions reduction in the case-study snippet.",
-            "evidence_page": "27",
-            "page": "27",
-            "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
-            "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
-            "snippet_en": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same case-study snippet states SAF has 90% reduction in CO2 emissions.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
           },
@@ -150544,11 +150542,11 @@
           "r489_3m公司"
         ],
         "evidence_count": 669,
-        "project_evidence_count": 42,
+        "project_evidence_count": 40,
         "project_company_count": 40,
         "project_cost_evidence_count": 5,
         "project_cost_review_note_count": 22,
-        "project_abatement_evidence_count": 36,
+        "project_abatement_evidence_count": 35,
         "project_timeline_years": [
           "2015",
           "2017",
@@ -151374,37 +151372,6 @@
             "industry_section_zh": "采矿业",
             "industry_color": "#8a5a44",
             "technology_id": "renewable_power",
-            "subtype_id": "onsite_solar_wind",
-            "subtype_en": "Solar power plants with co-located battery storage",
-            "project_name_en": "Danish Fields and Cottonwood solar power plants",
-            "measure_name_en": "Commissioned solar power plants with co-located battery storage in southeast Texas",
-            "implementation_stage": "commissioned",
-            "timeline_years": [
-              "2024"
-            ],
-            "cost_or_investment_en": "",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "missing_project_cost_or_investment_evidence",
-            "abatement_effect_en": "",
-            "evidence_page": "24",
-            "page": "24",
-            "source_file": "totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf",
-            "report_title_en": "TotalEnergies Sustainability & Climate 2025 Progress Report",
-            "snippet_en": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the country.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
-            "company_id": "r023_totalenergies",
-            "company_name_en": "TOTALENERGIES",
-            "company_name_zh": "道达尔能源公司",
-            "world500_rank": 23,
-            "industry_label_zh": "炼油",
-            "industry_section_code": "B",
-            "industry_section_en": "Mining",
-            "industry_section_zh": "采矿业",
-            "industry_color": "#8a5a44",
-            "technology_id": "renewable_power",
             "subtype_id": "renewable_capex",
             "subtype_en": "Low-carbon electricity investment",
             "project_name_en": "Annual Low-Carbon Energy Investment Program",
@@ -151903,11 +151870,42 @@
             "snippet_en": "TD SYNNEX reports that it reduced Scope 1 and 2 GHG emissions by nearly 43% over its FY2022 base year. The report states this was achieved through a wide range of initiatives across global operations, including expansion of renewable energy procurement and energy efficiency projects, and that the company remains committed to a long-term target of net-zero GHG emissions by 2045.",
             "evidence_status": "project_evidence",
             "evidence_boundary": "page_level_project_or_measure_evidence"
+          },
+          {
+            "company_id": "r246_ciscosystems",
+            "company_name_en": "CISCO SYSTEMS",
+            "company_name_zh": "思科公司",
+            "world500_rank": 246,
+            "industry_label_zh": "网络、通讯设备",
+            "industry_section_code": "C",
+            "industry_section_en": "Manufacturing",
+            "industry_section_zh": "制造业",
+            "industry_color": "#c76b2d",
+            "technology_id": "renewable_power",
+            "subtype_id": "renewable_energy_investment_bundle",
+            "subtype_en": "Renewable-energy investment bundle",
+            "project_name_en": "Cisco US$39 million decarbonization investment bundle",
+            "measure_name_en": "Investing in renewable energy projects as part of a bundled Scope 1 and 2 reduction plan",
+            "implementation_stage": "planned investment from fiscal 2023 onward",
+            "timeline_years": [
+              "2023"
+            ],
+            "cost_or_investment_en": "",
+            "cost_or_investment_review_note_en": "Approximately US$39 million is disclosed for the combined renewable energy, energy efficiency, and building and fleet electrification project bundle; the snippet does not allocate cost by technology.",
+            "cost_evidence_status": "cost_not_disclosed_or_unquantified_review_note",
+            "abatement_effect_en": "Report snippet states the investment is intended to reduce Scope 1 and 2 emissions and support near-term target progress; quantified CO2e abatement is not disclosed in this snippet.",
+            "evidence_page": "31",
+            "page": "31",
+            "source_file": "CISCO SYSTEMS purpose-report-2024.pdf",
+            "report_title_en": "Cisco Purpose Report 2024",
+            "snippet_en": "To reduce Scope 1 and 2 emissions and make progress on our near-term target, we plan to invest approximately US$39 million in renewable energy, energy efficiency, and building and fleet electrification projects from fiscal 2023 onward.",
+            "evidence_status": "project_evidence",
+            "evidence_boundary": "page_level_project_or_measure_evidence"
           }
         ],
         "evidence_bucket": "disclosure_signal_review",
         "evidence_boundary": "keyword_or_methodology_disclosure_signal_not_project_evidence",
-        "validated_project_evidence_count": 42
+        "validated_project_evidence_count": 40
       },
       {
         "id": "low_carbon_materials",
@@ -153832,11 +153830,11 @@
           "r485_centrica"
         ],
         "evidence_count": 291,
-        "project_evidence_count": 9,
+        "project_evidence_count": 8,
         "project_company_count": 8,
-        "project_cost_evidence_count": 3,
+        "project_cost_evidence_count": 2,
         "project_cost_review_note_count": 2,
-        "project_abatement_evidence_count": 9,
+        "project_abatement_evidence_count": 8,
         "project_timeline_years": [
           "2021",
           "2022",
@@ -154694,38 +154692,6 @@
             "evidence_boundary": "page_level_project_or_measure_evidence"
           },
           {
-            "company_id": "r261_intel",
-            "company_name_en": "INTEL",
-            "company_name_zh": "英特尔公司",
-            "world500_rank": 261,
-            "industry_label_zh": "半导体、电子元件",
-            "industry_section_code": "C",
-            "industry_section_en": "Manufacturing",
-            "industry_section_zh": "制造业",
-            "industry_color": "#c76b2d",
-            "technology_id": "energy_efficiency",
-            "subtype_id": "green_bond_efficiency_and_abatement_projects",
-            "subtype_en": "Green-bond funded efficiency and GHG abatement projects",
-            "project_name_en": "Intel Green Bond eligible green projects",
-            "measure_name_en": "Allocating green bond proceeds to HVAC upgrades, heat recovery projects, GHG abatement systems, renewable electricity, and green buildings",
-            "implementation_stage": "green bond allocation reported in 2024",
-            "timeline_years": [
-              "2022",
-              "2024"
-            ],
-            "cost_or_investment_en": "Report discloses cumulative allocation of USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022.",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-            "abatement_effect_en": "Report identifies energy efficiency, renewable electricity, green buildings, HVAC upgrades, heat recovery, and greenhouse gas abatement systems as eligible or recent projects; quantified project CO2e abatement is not disclosed in this snippet.",
-            "evidence_page": "6",
-            "page": "6",
-            "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
-            "report_title_en": "Intel Corporate Responsibility Report 2024-25",
-            "snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
             "company_id": "r426_qualcomm",
             "company_name_en": "QUALCOMM",
             "company_name_zh": "高通",
@@ -154826,7 +154792,7 @@
         ],
         "evidence_bucket": "disclosure_signal_review",
         "evidence_boundary": "keyword_or_methodology_disclosure_signal_not_project_evidence",
-        "validated_project_evidence_count": 9
+        "validated_project_evidence_count": 8
       },
       {
         "id": "circular_recycling",
@@ -156260,11 +156226,11 @@
           "r498_瑞士abb集团"
         ],
         "evidence_count": 125,
-        "project_evidence_count": 7,
+        "project_evidence_count": 6,
         "project_company_count": 6,
-        "project_cost_evidence_count": 2,
+        "project_cost_evidence_count": 1,
         "project_cost_review_note_count": 1,
-        "project_abatement_evidence_count": 6,
+        "project_abatement_evidence_count": 5,
         "project_timeline_years": [
           "2024",
           "2025",
@@ -156769,37 +156735,6 @@
             "evidence_boundary": "page_level_project_or_measure_evidence"
           },
           {
-            "company_id": "r208_sumitomomitsuifinancialgroup",
-            "company_name_en": "SUMITOMO MITSUI FINANCIAL GROUP",
-            "company_name_zh": "日本三井住友金融集团",
-            "world500_rank": 208,
-            "industry_label_zh": "银行：商业储蓄",
-            "industry_section_code": "J",
-            "industry_section_en": "Finance",
-            "industry_section_zh": "金融业",
-            "industry_color": "#446f9f",
-            "technology_id": "low_carbon_fuels",
-            "subtype_id": "saf_green_loan",
-            "subtype_en": "Sustainable aviation fuel green loan",
-            "project_name_en": "Green loan to Twelve for SAF production",
-            "measure_name_en": "Providing a green loan to Twelve, a company converting CO2 into chemical products, to support a SAF production project",
-            "implementation_stage": "green loan disclosed as case-study finance",
-            "timeline_years": [
-              "2025"
-            ],
-            "cost_or_investment_en": "Report discloses a green loan of USD 20 million to Twelve.",
-            "cost_or_investment_review_note_en": "",
-            "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-            "abatement_effect_en": "Report states SAF has 90% CO2 emissions reduction in the case-study snippet.",
-            "evidence_page": "27",
-            "page": "27",
-            "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
-            "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
-            "snippet_en": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same case-study snippet states SAF has 90% reduction in CO2 emissions.",
-            "evidence_status": "project_evidence",
-            "evidence_boundary": "page_level_project_or_measure_evidence"
-          },
-          {
             "company_id": "r237_deltaairlines",
             "company_name_en": "DELTA AIR LINES",
             "company_name_zh": "达美航空",
@@ -156866,7 +156801,7 @@
         ],
         "evidence_bucket": "disclosure_signal_review",
         "evidence_boundary": "keyword_or_methodology_disclosure_signal_not_project_evidence",
-        "validated_project_evidence_count": 7
+        "validated_project_evidence_count": 6
       },
       {
         "id": "hydrogen_methanol",
@@ -158215,38 +158150,6 @@
         "evidence_boundary": "page_level_project_or_measure_evidence"
       },
       {
-        "company_id": "r261_intel",
-        "company_name_en": "INTEL",
-        "company_name_zh": "英特尔公司",
-        "world500_rank": 261,
-        "industry_label_zh": "半导体、电子元件",
-        "industry_section_code": "C",
-        "industry_section_en": "Manufacturing",
-        "industry_section_zh": "制造业",
-        "industry_color": "#c76b2d",
-        "technology_id": "energy_efficiency",
-        "subtype_id": "green_bond_efficiency_and_abatement_projects",
-        "subtype_en": "Green-bond funded efficiency and GHG abatement projects",
-        "project_name_en": "Intel Green Bond eligible green projects",
-        "measure_name_en": "Allocating green bond proceeds to HVAC upgrades, heat recovery projects, GHG abatement systems, renewable electricity, and green buildings",
-        "implementation_stage": "green bond allocation reported in 2024",
-        "timeline_years": [
-          "2022",
-          "2024"
-        ],
-        "cost_or_investment_en": "Report discloses cumulative allocation of USD 639 million, approximately 51% of a USD 1.25 billion green bond issued in 2022.",
-        "cost_or_investment_review_note_en": "",
-        "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-        "abatement_effect_en": "Report identifies energy efficiency, renewable electricity, green buildings, HVAC upgrades, heat recovery, and greenhouse gas abatement systems as eligible or recent projects; quantified project CO2e abatement is not disclosed in this snippet.",
-        "evidence_page": "6",
-        "page": "6",
-        "source_file": "INTEL CSR-2024-25-Full-Report.pdf",
-        "report_title_en": "Intel Corporate Responsibility Report 2024-25",
-        "snippet_en": "Intel reports USD 639 million for green projects in its second Annual Green Bond Report, published in 2024, representing approximately 51% of a USD 1.25 billion green bond issued in 2022. Eligible project areas include pollution prevention and control, water stewardship, energy efficiency, renewable electricity, circular economy and waste management, and green buildings. Recent projects included HVAC upgrades and heat recovery projects, purchases of greenhouse gas abatement systems, and upgrades of water reclaim facilities in Arizona and Oregon.",
-        "evidence_status": "project_evidence",
-        "evidence_boundary": "page_level_project_or_measure_evidence"
-      },
-      {
         "company_id": "r426_qualcomm",
         "company_name_en": "QUALCOMM",
         "company_name_zh": "高通",
@@ -158527,37 +158430,6 @@
         "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
         "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
         "snippet_en": "The Transition Finance Playbook case study states that SMFG is providing a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same snippet states SAF has a 90% reduction in CO2 emissions.",
-        "evidence_status": "project_evidence",
-        "evidence_boundary": "page_level_project_or_measure_evidence"
-      },
-      {
-        "company_id": "r208_sumitomomitsuifinancialgroup",
-        "company_name_en": "SUMITOMO MITSUI FINANCIAL GROUP",
-        "company_name_zh": "日本三井住友金融集团",
-        "world500_rank": 208,
-        "industry_label_zh": "银行：商业储蓄",
-        "industry_section_code": "J",
-        "industry_section_en": "Finance",
-        "industry_section_zh": "金融业",
-        "industry_color": "#446f9f",
-        "technology_id": "low_carbon_fuels",
-        "subtype_id": "saf_green_loan",
-        "subtype_en": "Sustainable aviation fuel green loan",
-        "project_name_en": "Green loan to Twelve for SAF production",
-        "measure_name_en": "Providing a green loan to Twelve, a company converting CO2 into chemical products, to support a SAF production project",
-        "implementation_stage": "green loan disclosed as case-study finance",
-        "timeline_years": [
-          "2025"
-        ],
-        "cost_or_investment_en": "Report discloses a green loan of USD 20 million to Twelve.",
-        "cost_or_investment_review_note_en": "",
-        "cost_evidence_status": "accepted_project_cost_or_investment_evidence",
-        "abatement_effect_en": "Report states SAF has 90% CO2 emissions reduction in the case-study snippet.",
-        "evidence_page": "27",
-        "page": "27",
-        "source_file": "SUMITOMO MITSUI FINANCIAL GROUP sustainability_report_e_2025.pdf",
-        "report_title_en": "Sumitomo Mitsui Financial Group Sustainability Report 2025",
-        "snippet_en": "SMFG reports project finance for CCS infrastructure in the UK and a green loan for a new technology venture in the US. The page states SMFG provided a green loan of USD 20 million to Twelve, a company with technology that converts CO2 into chemical products, supporting a SAF production project. The same case-study snippet states SAF has 90% reduction in CO2 emissions.",
         "evidence_status": "project_evidence",
         "evidence_boundary": "page_level_project_or_measure_evidence"
       },
@@ -158877,37 +158749,6 @@
         "source_file": "Apple_Environmental_Progress_Report_2025.pdf",
         "report_title_en": "Apple Environmental Progress Report 2025",
         "snippet_en": "Apple's comprehensive carbon footprint shows avoided emissions including 21.8M avoided Supplier clean energy, alongside supplier energy efficiency, direct emissions abatement, low-carbon materials, and use of renewable electricity.",
-        "evidence_status": "project_evidence",
-        "evidence_boundary": "page_level_project_or_measure_evidence"
-      },
-      {
-        "company_id": "r023_totalenergies",
-        "company_name_en": "TOTALENERGIES",
-        "company_name_zh": "道达尔能源公司",
-        "world500_rank": 23,
-        "industry_label_zh": "炼油",
-        "industry_section_code": "B",
-        "industry_section_en": "Mining",
-        "industry_section_zh": "采矿业",
-        "industry_color": "#8a5a44",
-        "technology_id": "renewable_power",
-        "subtype_id": "onsite_solar_wind",
-        "subtype_en": "Solar power plants with co-located battery storage",
-        "project_name_en": "Danish Fields and Cottonwood solar power plants",
-        "measure_name_en": "Commissioned solar power plants with co-located battery storage in southeast Texas",
-        "implementation_stage": "commissioned",
-        "timeline_years": [
-          "2024"
-        ],
-        "cost_or_investment_en": "",
-        "cost_or_investment_review_note_en": "",
-        "cost_evidence_status": "missing_project_cost_or_investment_evidence",
-        "abatement_effect_en": "",
-        "evidence_page": "24",
-        "page": "24",
-        "source_file": "totalenergies_sustainability-climate-2025-progress-report_2025_en.pdf",
-        "report_title_en": "TotalEnergies Sustainability & Climate 2025 Progress Report",
-        "snippet_en": "In 2024, TotalEnergies commissioned Danish Fields (720 MW) and Cottonwood (455 MW), two solar power plants with co-located battery storage in southeast Texas. These new projects are part of a portfolio of more than 8 GW of renewable assets in operation in the country.",
         "evidence_status": "project_evidence",
         "evidence_boundary": "page_level_project_or_measure_evidence"
       },
@@ -159582,38 +159423,6 @@
         "evidence_boundary": "page_level_project_or_measure_evidence"
       },
       {
-        "company_id": "r264_riotintogroup",
-        "company_name_en": "RIO TINTO GROUP",
-        "company_name_zh": "力拓集团",
-        "world500_rank": 264,
-        "industry_label_zh": "采矿、原油生产",
-        "industry_section_code": "B",
-        "industry_section_en": "Mining",
-        "industry_section_zh": "采矿业",
-        "industry_color": "#8a5a44",
-        "technology_id": "renewable_power",
-        "subtype_id": "ppa_vppa",
-        "subtype_en": "Wind VPPA and PPAs",
-        "project_name_en": "Monte Cristo, Overberg, and Khangela renewable electricity agreements",
-        "measure_name_en": "Executed wind VPPA and signed wind PPAs to abate Scope 2 emissions and support Richards Bay Minerals",
-        "implementation_stage": "executed and signed; construction and commissioning continue",
-        "timeline_years": [
-          "2024",
-          "2025"
-        ],
-        "cost_or_investment_en": "",
-        "cost_or_investment_review_note_en": "",
-        "cost_evidence_status": "missing_project_cost_or_investment_evidence",
-        "abatement_effect_en": "Monte Cristo VPPA is described as abating regional Scope 2 emissions; other abatement is tied to renewable electricity developments.",
-        "evidence_page": "53",
-        "page": "53",
-        "source_file": "2024-RIO TINTO GROUP-annual-report.pdf",
-        "report_title_en": "Rio Tinto Annual Report 2024",
-        "snippet_en": "Other renewable electricity developments: commenced construction of solar PV at Gove (10 MW) and Amrun mine (12 MW); executed wind Virtual Power Purchase Agreement (VPPA) (78.5 MW) at Monte Cristo in the US to abate regional Scope 2 emissions; completed construction and commenced operating Diavik diamond mine solar plant (3 MW); commissioned a 5 MW solar plant and commenced construction of Kennecott solar Phase 2 (25 MW); signed a 230 MW wind PPA at Overberg for Richards Bay Minerals and a 140 MW wind PPA at Khangela.",
-        "evidence_status": "project_evidence",
-        "evidence_boundary": "page_level_project_or_measure_evidence"
-      },
-      {
         "company_id": "r345_raízen公司",
         "company_name_en": "Raízen",
         "company_name_zh": "Raízen",
@@ -160126,11 +159935,11 @@
       }
     ],
     "project_evidence_summary": {
-      "project_evidence_count": 81,
+      "project_evidence_count": 77,
       "project_company_count": 53,
-      "project_cost_evidence_count": 13,
+      "project_cost_evidence_count": 11,
       "project_cost_review_note_count": 34,
-      "project_abatement_evidence_count": 71,
+      "project_abatement_evidence_count": 68,
       "project_timeline_years": [
         "2015",
         "2017",
@@ -169106,8 +168915,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": 7.494573,
-        "strong_scope_row_count": 2,
+        "total_mtco2e": 7.496231,
+        "strong_scope_row_count": 3,
         "evidence_samples": [
           {
             "report": "Meta-2024-Sustainability-Report.pdf",
@@ -184787,8 +184596,8 @@
         "reported_primary_basis_en": "",
         "reported_primary_basis_zh": "",
         "reported_primary_candidate_count": 0,
-        "total_mtco2e": 7.494573,
-        "strong_scope_row_count": 2,
+        "total_mtco2e": 7.496231,
+        "strong_scope_row_count": 3,
         "evidence_samples": [
           {
             "report": "Meta-2024-Sustainability-Report.pdf",

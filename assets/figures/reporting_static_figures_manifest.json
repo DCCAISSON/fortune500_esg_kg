@@ -1,8 +1,8 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-06-26T05:53:30+00:00",
+  "generated_at": "2026-06-26T16:38:24+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
-  "source_sha256": "d126e4f2fcedf5132165d0ab80f2059a94ccf575c224c254d7b1dafa1e86bdfc",
+  "source_sha256": "220dad4f93b3379a241a43ccc9a55901a86a0b22fd04a350197885e99e633fb5",
   "generator": "tools/sync_reporting_static_figures.py",
   "sync_policy": "Figure 2, Figure 6, and the primary/secondary bubble PNGs are regenerated from the same reporting_views.json snapshot referenced by the GitHub pages.",
   "required_synced_report_figures": {
@@ -86,8 +86,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
       "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
-      "bytes": 249183,
-      "sha256": "fc4054ab2d70db4a6d3e157d70302cb07daee2c0ec555a4801427a59007121e9"
+      "bytes": 252782,
+      "sha256": "d6cd884be283f45ecf0b62dc52db7db475c3705a8fa3379744c00bf861d1ef83"
     },
     {
       "file": "assets/figures/zh/world500_standard_chain_overview.png",
@@ -153,8 +153,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
       "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
-      "bytes": 339455,
-      "sha256": "99e9ab47f08b29933b5d059c6d11550f25ca22411c1bcc556fc5499f93524f38"
+      "bytes": 337757,
+      "sha256": "6ef5dae147b2fe115711fd7a5cd497d0a1123c202c15a0496a7c8ecfe74b0fc6"
     },
     {
       "file": "assets/figures/zh/world500_primary_secondary_source_mix.png",
@@ -196,8 +196,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
       "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
-      "bytes": 215963,
-      "sha256": "0842056a8807b807f576d4ac37145c349025fbb44f2dddf79233a2aa0439e122"
+      "bytes": 217601,
+      "sha256": "74a12e4fc51abce5b07265334b32df9fd904408ede754e27d7ac5ced55e2dfd6"
     },
     {
       "file": "assets/figures/en/world500_standard_chain_overview.png",
@@ -263,8 +263,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Technology clusters are disclosure-topic signals. A separate page-level project-evidence layer is shown when source file, page, snippet, and project or measure name are all present.",
       "audit_boundary_zh": "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
-      "bytes": 265828,
-      "sha256": "73688cffda38b3bf15395f2f67d64df051cbf9601b79c2eea4a8e86a9628e1bf"
+      "bytes": 263885,
+      "sha256": "97a7245ee7be29be282c86ed36af26e448e93f3de3b4b660060f20f04d41cd3a"
     },
     {
       "file": "assets/figures/en/world500_primary_secondary_source_mix.png",
@@ -288,6 +288,5 @@
       "bytes": 117353,
       "sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802"
     }
-  ],
-  "source_hash_matches": true
+  ]
 }

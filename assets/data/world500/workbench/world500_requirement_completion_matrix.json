@@ -86,16 +86,16 @@
       "display_status_en": "Partial",
       "completion_boundary_zh": "只能声明阶段性完成；剩余队列关闭前不能声明该项完整完成。",
       "completion_boundary_en": "Only interim completion can be claimed; this requirement is not complete until the remaining queues are closed.",
-      "evidence_summary_zh": "已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，16 家进入完整 Scope 1/2/3 强证据排行。",
-      "evidence_summary_en": "A complete strong-evidence ranking graph and static PNG exist; 85 companies have available totals and 16 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
-      "primary_blocker_zh": "完整可比排行覆盖率仍低，不能把 69 家 partial 总量混入主排行。",
-      "primary_blocker_en": "Complete comparable ranking coverage remains low; the 69 partial totals must not be mixed into the main ranking.",
+      "evidence_summary_zh": "已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，21 家进入完整 Scope 1/2/3 强证据排行。",
+      "evidence_summary_en": "A complete strong-evidence ranking graph and static PNG exist; 85 companies have available totals and 21 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
+      "primary_blocker_zh": "完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。",
+      "primary_blocker_en": "Complete comparable ranking coverage remains low; the 64 partial totals must not be mixed into the main ranking.",
       "primary_next_action_zh": "按 Scope 1、Scope 2 方法/数值、Scope 3 缺口队列补齐完整强证据总量。",
       "primary_next_action_en": "Backfill complete strong-evidence totals from the Scope 1, Scope 2 value/method, Scope 3, and finance Scope 3 boundary queues.",
-      "implemented_zh": "已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，16 家进入完整 Scope 1/2/3 强证据排行。",
-      "implemented_en": "A complete strong-evidence ranking graph and static PNG exist; 85 companies have available totals and 16 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
-      "remaining_zh": "完整可比排行覆盖率仍低，不能把 69 家 partial 总量混入主排行。",
-      "remaining_en": "Complete comparable ranking coverage remains low; the 69 partial totals must not be mixed into the main ranking.",
+      "implemented_zh": "已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，21 家进入完整 Scope 1/2/3 强证据排行。",
+      "implemented_en": "A complete strong-evidence ranking graph and static PNG exist; 85 companies have available totals and 21 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
+      "remaining_zh": "完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。",
+      "remaining_en": "Complete comparable ranking coverage remains low; the 64 partial totals must not be mixed into the main ranking.",
       "open_queue_rows": 189,
       "queue_files": [
         "assets/data/world500/workbench/world500_emissions_complete_ranking_verification_queue.csv",
@@ -131,10 +131,10 @@
       ],
       "supporting_metrics": {
         "available_emissions_ranking_company_count": 85,
-        "complete_emissions_ranking_company_count": 16,
+        "complete_emissions_ranking_company_count": 21,
         "authoritative_export_rows": {
-          "emissions_complete_comparable_ranking": 16,
-          "emissions_partial_ranking_review": 69
+          "emissions_complete_comparable_ranking": 21,
+          "emissions_partial_ranking_review": 64
         },
         "expanded_evidence_gap_candidate_records": 24,
         "expanded_evidence_gap_candidate_companies": 21,
@@ -215,13 +215,13 @@
       "completion_boundary_zh": "只能声明阶段性完成；剩余队列关闭前不能声明该项完整完成。",
       "completion_boundary_en": "Only interim completion can be claimed; this requirement is not complete until the remaining queues are closed.",
       "evidence_summary_zh": "图6 已有 9 类技术路径、流程轴、标准对齐、细分方向、时间信号和成本信号，并有中英文静态 PNG。",
-      "evidence_summary_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 74 valid project/measure records across 49 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 229, 'P2': 74}.",
+      "evidence_summary_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 77 valid project/measure records across 51 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 227, 'P2': 76}.",
       "primary_blocker_zh": "303 条技术-企业关系仍全部是披露关键词信号，不是已核证项目成本或减排量。",
       "primary_blocker_en": "The separate project-evidence layer can be used as strong project/measure evidence, but the legacy 303 technology-company rows remain disclosure keyword signals, not verified project cost, implementation progress, or abatement values. The project-upgrade queue is diagnostic only and keeps auto-promotion disabled.",
       "primary_next_action_zh": "把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。",
       "primary_next_action_en": "Upgrade keyword hits to company-level project evidence, then validate timeline milestones and cost/investment evidence boundaries.",
       "implemented_zh": "图6 已有 9 类技术路径、流程轴、标准对齐、细分方向、时间信号和成本信号，并有中英文静态 PNG。",
-      "implemented_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 74 valid project/measure records across 49 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 229, 'P2': 74}.",
+      "implemented_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 77 valid project/measure records across 51 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 227, 'P2': 76}.",
       "remaining_zh": "303 条技术-企业关系仍全部是披露关键词信号，不是已核证项目成本或减排量。",
       "remaining_en": "The separate project-evidence layer can be used as strong project/measure evidence, but the legacy 303 technology-company rows remain disclosure keyword signals, not verified project cost, implementation progress, or abatement values. The project-upgrade queue is diagnostic only and keeps auto-promotion disabled.",
       "open_queue_rows": 432,
@@ -252,14 +252,14 @@
         "technology_cluster_count": 9,
         "technology_company_count": 173,
         "technology_path_audit_rows": 303,
-        "technology_project_evidence_rows": 74,
-        "technology_project_company_count": 49,
-        "technology_project_cost_evidence_count": 43,
-        "technology_project_abatement_evidence_count": 64,
+        "technology_project_evidence_rows": 77,
+        "technology_project_company_count": 51,
+        "technology_project_cost_evidence_count": 12,
+        "technology_project_abatement_evidence_count": 67,
         "technology_project_upgrade_queue_rows": 303,
         "technology_project_upgrade_queue_priority_counts": {
-          "P1": 229,
-          "P2": 74
+          "P1": 227,
+          "P2": 76
         },
         "authoritative_export_rows": {
           "technology_path_disclosure_signal_review": 303
@@ -361,3 +361,4 @@
     }
   ]
 }
+

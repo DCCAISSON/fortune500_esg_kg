@@ -1,6 +1,6 @@
 {
   "version": "reporting_completion_audit_v1",
-  "generated_at": "2026-06-19",
+  "generated_at": "2026-06-21",
   "overall_status_key": "partial",
   "overall_status_zh": "部分完成，展示层基本到位，证据强度仍需继续提升。",
   "overall_status_en": "Partially complete: presentation is mostly in place, while evidence strength still needs improvement.",
@@ -137,10 +137,10 @@
       "status_en": "Partially implemented",
       "requirement_zh": "企业总碳排放量需要从高到低排序，并可做知识图谱展示。",
       "requirement_en": "Company total emissions should be ranked high to low and shown as a knowledge graph.",
-      "evidence_zh": "当前有 85 家可用总量，16 家满足完整 Scope 1/2/3 强证据排行；排行图展示 16 家完整强证据企业。排行审计 CSV 已列出 85 家可用总量，并拆出完整排行 P2 复核 16 条、Scope 3 缺口 45 条、Scope 2 总缺口 50 条（其中 Scope 2 数值缺口 41 条、Scope 2 口径复核 9 条）、Scope 1 缺口 24 条、单位/表格列尺度复核 4 条。",
-      "evidence_en": "Current data has 85 available totals, 16 complete Scope 1/2/3 strong-evidence rankings, and 16 companies in the ranking graph. The ranking audit CSV lists 85 available totals and separates 16 complete-ranking P2 verification rows, 45 Scope 3 gaps, 0 finance Scope 3 boundary reviews, 9 selected-row evidence-element reviews, 50 total Scope 2 gaps (41 missing-value rows and 9 method-review rows), 24 Scope 1 gaps, and 4 unit/table-column scale review rows.",
-      "remaining_work_zh": "完整强证据覆盖率仍低；不能把 69 家 partial 总量混同为完整可比排行。下一步应按缺口队列回到 PDF 页级证据补值和核验口径。",
-      "remaining_work_en": "Complete strong-evidence coverage remains low; the 69 partial totals must not be mixed into the complete comparable ranking. Next, use the gap queues to backfill page-level PDF evidence and verify methods.",
+      "evidence_zh": "当前有 85 家可用总量，21 家满足完整 Scope 1/2/3 强证据排行；排行图展示 21 家完整强证据企业。排行审计 CSV 已列出 85 家可用总量，并拆出完整排行 P2 复核 16 条、Scope 3 缺口 45 条、Scope 2 总缺口 50 条（其中 Scope 2 数值缺口 41 条、Scope 2 口径复核 9 条）、Scope 1 缺口 24 条、单位/表格列尺度复核 4 条。",
+      "evidence_en": "Current data has 85 available totals, 21 complete Scope 1/2/3 strong-evidence rankings, and 21 companies in the ranking graph. The ranking audit CSV lists 85 available totals and separates 16 complete-ranking P2 verification rows, 45 Scope 3 gaps, 0 finance Scope 3 boundary reviews, 9 selected-row evidence-element reviews, 50 total Scope 2 gaps (41 missing-value rows and 9 method-review rows), 24 Scope 1 gaps, and 4 unit/table-column scale review rows.",
+      "remaining_work_zh": "完整强证据覆盖率仍低；不能把 64 家 partial 总量混同为完整可比排行。下一步应按缺口队列回到 PDF 页级证据补值和核验口径。",
+      "remaining_work_en": "Complete strong-evidence coverage remains low; the 64 partial totals must not be mixed into the complete comparable ranking. Next, use the gap queues to backfill page-level PDF evidence and verify methods.",
       "metrics": {
         "ranking_audit": {
           "exists": true,
@@ -1845,7 +1845,7 @@
       "requirement_zh": "图6 需要同类减碳技术企业聚类、流程图、标准对齐、细分技术、时间趋势和成本。",
       "requirement_en": "Figure 6 needs technology clusters, a flow view, standards alignment, subtypes, timeline trends, and cost signals.",
       "evidence_zh": "当前有 9 类技术路径；9 类有细分方向，9 类有时间趋势，9 类有成本信号，并已生成中英文静态 PNG。技术路径审计 CSV 已列出 303 条技术-企业关系；总复核队列列出 303 条，并已拆成公司级证据补回 61 条、时间趋势核验 150 条、成本/投资信号核验 221 条。",
-      "evidence_en": "Current data has 9 technology paths; 9 include subtypes, 9 include timeline counts, 9 include cost signals, and bilingual PNGs are generated. A separate page-level project-evidence layer now contains 74 valid records across 49 companies, with 0 invalid project-evidence rows. The legacy technology-path audit CSV still lists 303 disclosure-signal technology-company rows; the total validation queue lists 303 rows and is split into 61 company-evidence backfills, 150 timeline validations, and 221 cost/investment validations.",
+      "evidence_en": "Current data has 9 technology paths; 9 include subtypes, 9 include timeline counts, 9 include cost signals, and bilingual PNGs are generated. A separate page-level project-evidence layer now contains 77 valid records across 51 companies, with 0 invalid project-evidence rows. The legacy technology-path audit CSV still lists 303 disclosure-signal technology-company rows; the total validation queue lists 303 rows and is split into 61 company-evidence backfills, 150 timeline validations, and 221 cost/investment validations.",
       "remaining_work_zh": "成本和时间仍是关键词披露证据，不是项目级成本曲线或真实实施进度审定；公司级样本缺失的企业-技术边不能当作强证据。",
       "remaining_work_en": "The new page-level project-evidence layer can be used as strong project/measure evidence. The broader legacy technology-company edge set still remains keyword disclosure signals, not project-level cost curves or verified implementation progress; company-technology edges without company-specific page snippets must not be treated as strong evidence.",
       "metrics": {
@@ -1854,10 +1854,10 @@
           "row_count": 303,
           "technology_cluster_count": 9,
           "unique_company_count": 173,
-          "project_evidence_rows": 74,
-          "valid_project_evidence_rows": 74,
+          "project_evidence_rows": 77,
+          "valid_project_evidence_rows": 77,
           "invalid_project_evidence_rows": 0,
-          "project_evidence_company_count": 49,
+          "project_evidence_company_count": 51,
           "project_evidence_file": "assets/data/world500/workbench/world500_technology_project_evidence_audit.csv",
           "project_evidence_invalid_queue_file": "assets/data/world500/workbench/world500_technology_project_evidence_invalid_queue.csv",
           "p2_verify_disclosure_signal_rows": 0,
@@ -1963,7 +1963,7 @@
           "manifest_file": "assets/figures/reporting_static_figures_manifest.json",
           "source_sha256_matches": true,
           "generator": "tools/sync_reporting_static_figures.py",
-          "generated_at": "2026-06-19T06:39:18+00:00",
+          "generated_at": "2026-06-20T17:01:40+00:00",
           "files": [
             {
               "file": "assets/figures/zh/world500_emissions_ranking_graph.png",
@@ -1992,13 +1992,13 @@
             {
               "file": "assets/figures/zh/world500_technology_cluster_overview.png",
               "exists": true,
-              "bytes": 338308,
+              "bytes": 338273,
               "manifest_sha256_matches": true
             },
             {
               "file": "assets/figures/en/world500_technology_cluster_overview.png",
               "exists": true,
-              "bytes": 264553,
+              "bytes": 264478,
               "manifest_sha256_matches": true
             },
             {
@@ -2020,3 +2020,4 @@
   ],
   "known_issues": []
 }
+

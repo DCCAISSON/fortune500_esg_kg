@@ -2,7 +2,7 @@
 
 - 生成时间：2026-06-21
 - 审计矩阵日期：2026-06-07
-- PNG manifest 生成时间：2026-06-26T05:53:30+00:00
+- PNG manifest 生成时间：2026-06-26T16:38:24+00:00
 - 总体状态：partial
 - 是否可以声明全部完成：不可
 
@@ -23,14 +23,14 @@
 | 标准角色图企业 | 339 |
 | 标准-企业关系 | 1908 |
 | 有可用总排放量企业 | 85 |
-| 完整强证据可比排行企业 | 20 |
+| 完整强证据可比排行企业 | 21 |
 | 技术路径企业 | 173 |
 | 技术路径类别 | 9 |
-| 项目级技术证据记录 | 81 |
+| 项目级技术证据记录 | 77 |
 | 项目级技术证据企业 | 53 |
-| 项目级技术成本/投资强证据 | 13 |
+| 项目级技术成本/投资强证据 | 11 |
 | 项目级技术成本/投资复核说明 | 34 |
-| 项目级技术减排效果证据 | 71 |
+| 项目级技术减排效果证据 | 68 |
 | 进入初级/次级来源结构企业 | 306 |
 | 有可显示来源比例企业 | 161 |
 | 原文明示 primary-data 百分比企业 | 13 |
@@ -40,7 +40,7 @@
 | 需求 | 状态 | 可声明完成 | 开放队列行数 | 已实现 | 未完成/风险 |
 | --- | --- | --- | --- | --- | --- |
 | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | 部分完成 | 不可 | 927 | GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1908 条标准-企业关系。 | GHG 显式细分证据仍不足，137/231 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。 |
-| R2_TOTAL_EMISSIONS_RANKING_DESC | 部分完成 | 不可 | 189 | 已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，16 家进入完整 Scope 1/2/3 强证据排行。 | 完整可比排行覆盖率仍低，不能把 69 家 partial 总量混入主排行。 |
+| R2_TOTAL_EMISSIONS_RANKING_DESC | 部分完成 | 不可 | 189 | 已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，21 家进入完整 Scope 1/2/3 强证据排行。 | 完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。 |
 | R3_STANDARD_ROLE_FULL_GRAPH_AND_SCOPE_LANGUAGE | 已实现但仍有复核队列 | 不可 | 74 | 50 个 full-graph HTML 均为内嵌 JSON；标准节点和企业节点按标准/行业着色；非 GHG 标准自身 Scope 术语误用为 0。 | 仍有 74 条非 GHG 源文引用含 Scope 词，需要确认只作为引用语境展示。 |
 | R4_TECHNOLOGY_PATH_AXIS | 部分完成 | 不可 | 432 | 图6 已有 9 类技术路径、流程轴、标准对齐、细分方向、时间信号和成本信号，并有中英文静态 PNG。 | 303 条技术-企业关系仍全部是披露关键词信号，不是已核证项目成本或减排量。 |
 | R5_PRIMARY_SECONDARY_BUBBLE | 部分完成 | 不可 | 449 | 初级/次级气泡图已生成；306 家企业进入来源结构数据，161 家有可显示比例。 | 只有 13 家使用原文明示 primary data 百分比，多数比例仍是 method_rows 来源结构推断，不等同审定计算权重。 |
@@ -81,7 +81,7 @@
 
 ### 四、图6 技术路径主轴
 
-- 当前判断：已有 9 类技术路径、子类、流程轴、标准对齐、时间和成本信号，并新增 81 条项目/措施级页级证据，覆盖 53 家企业；但更大的技术-企业边集合仍主要是关键词披露信号，不能整体当作项目级核证证据。
+- 当前判断：已有 9 类技术路径、子类、流程轴、标准对齐、时间和成本信号，并新增 77 条项目/措施级页级证据，覆盖 53 家企业；但更大的技术-企业边集合仍主要是关键词披露信号，不能整体当作项目级核证证据。
 - 开放队列行数：432
 - 下一步：把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。
 
@@ -96,7 +96,7 @@
 - PNG manifest：`assets/figures/reporting_static_figures_manifest.json`
 - PNG 数量：10
 - PNG 源数据：`assets/data/world500/workbench/reporting_views.json`
-- 源数据 SHA256：`d126e4f2fcedf5132165d0ab80f2059a94ccf575c224c254d7b1dafa1e86bdfc`
+- 源数据 SHA256：`220dad4f93b3379a241a43ccc9a55901a86a0b22fd04a350197885e99e633fb5`
 - 全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `<img>` fallback。
 
 ## 关键源文件
@@ -214,11 +214,11 @@ This audit records controlled GHGP/PCAF standards with zero accepted company edg
 
 | GHGP standard | Accepted | Review | Evidence | Status | Decision |
 | --- | --- | --- | --- | --- | --- |
-| GHG Protocol Land Sector and Removals Standard | 0 | 8 | 12 | zero_accepted_review_only | Current rows are contextual or possible overmapping review leads. They do not explicitly show adoption/use of this exact standard, so they remain outside the accepted graph. |
-| Global Protocol for Community-Scale Greenhouse Gas Emission Inventories | 0 | 0 | 0 | zero_accepted_no_current_evidence | No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence. |
-| GHG Protocol Mitigation Goal Standard | 0 | 0 | 0 | zero_accepted_no_current_evidence | No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence. |
-| GHG Protocol Policy and Action Standard | 0 | 0 | 0 | zero_accepted_no_current_evidence | No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence. |
-| GHG Protocol Guidelines for Grid-Connected Electricity Projects | 0 | 0 | 0 | zero_accepted_no_current_evidence | No page-level source text in the current workbench names this controlled GHGP standard. Keep zero accepted; do not create company-standard edges without new PDF evidence. |
+| GHG Protocol Land Sector and Removals Standard | 0 | 8 | 12 | zero_accepted_review_only | Standard not yet finalized (draft phase through 2024-2025). 4 enterprises reference the draft guidance in monitoring/waiting status. No enterprise has adopted the final published version. Monitor for adoption after formal release. |
+| Global Protocol for Community-Scale Greenhouse Gas Emission Inventories | 0 | 0 | 0 | zero_accepted_no_current_evidence | Not applicable to enterprise-level ESG reporting. Primary users are municipal governments, policy makers, or CDM/JCM project developers. Zero accepted edges are expected and correct for the enterprise scope of this knowledge graph. |
+| GHG Protocol Mitigation Goal Standard | 0 | 0 | 0 | zero_accepted_no_current_evidence | No enterprise-level PDF cites this standard directly. Enterprises overwhelmingly adopt SBTi for mitigation goal setting instead. Consider SBTi as the de facto substitute in enterprise GHG reporting context. |
+| GHG Protocol Policy and Action Standard | 0 | 0 | 0 | zero_accepted_no_current_evidence | Not applicable to enterprise-level ESG reporting. Primary users are municipal governments, policy makers, or CDM/JCM project developers. Zero accepted edges are expected and correct for the enterprise scope of this knowledge graph. |
+| GHG Protocol Guidelines for Grid-Connected Electricity Projects | 0 | 0 | 0 | zero_accepted_no_current_evidence | Not applicable to enterprise-level ESG reporting. Primary users are municipal governments, policy makers, or CDM/JCM project developers. Zero accepted edges are expected and correct for the enterprise scope of this knowledge graph. |
 
 ## GHGP Zero-Accepted Review Closure Queue
 
@@ -254,11 +254,11 @@ This queue makes the zero-accepted decision machine-readable at company/standard
 
 Figure 6 separates project-level evidence from broader disclosure signals. Cost/investment evidence is counted only when the normalized project record has `cost_evidence_status = accepted_project_cost_or_investment_evidence`; capacity, procurement volume, sales revenue, cost-advantage wording, and no-cost-disclosed notes are not counted as cost evidence.
 
-- Project evidence rows: 81
+- Project evidence rows: 77
 - Project companies: 53
-- Strict cost/investment evidence rows: 13
+- Strict cost/investment evidence rows: 11
 - Cost review-note rows excluded from strict cost evidence: 34
-- Abatement-effect evidence rows: 71
+- Abatement-effect evidence rows: 68
 - Source JSON: `assets/data/world500/workbench/world500_technology_project_evidence.json`
 - Audit CSV: `assets/data/world500/workbench/world500_technology_project_evidence_audit.csv`
 
@@ -295,7 +295,7 @@ These decisions record companies whose available total emissions remain sorted f
 
 - JSON: `assets/data/world500/workbench/world500_emissions_partial_exclusion_decisions.json`
 - CSV: `assets/data/world500/workbench/world500_emissions_partial_exclusion_decisions.csv`
-- Decision count: 65
+- Decision count: 64
 - Company count: 69
 - Missing Scope counts: {"Evidence Scope 2 scope2_method": 9, "Inventory year alignment": 2, "Scope 1": 24, "Scope 2": 41, "Scope 2 method": 9, "Scope 3": 45}
 
@@ -320,8 +320,8 @@ This ledger unifies complete ranking rows, partial exclusions, and gap candidate
 
 - JSON: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.json`
 - CSV: `assets/data/world500/workbench/world500_emissions_ranking_evidence_ledger.csv`
-- Complete accepted rows: 20
-- Partial excluded rows: 65
+- Complete accepted rows: 21
+- Partial excluded rows: 64
 - Gap candidate rows: 24
 - P0 gap candidates: 3
 - Auto-promote allowed count: 0

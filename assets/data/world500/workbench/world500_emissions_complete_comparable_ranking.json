@@ -1,10 +1,10 @@
 {
   "schema_version": "world500-emissions-complete-comparable-ranking-v1",
-  "generated_at": "2026-06-26T06:40:01+00:00",
+  "generated_at": "2026-06-26T16:37:14+00:00",
   "policy_en": "Only complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence rows are included.",
   "policy_zh": "仅包含 Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁的完整可比排行行。",
   "source": "assets/data/world500/workbench/reporting_views.json",
-  "row_count": 20,
+  "row_count": 21,
   "rows": [
     {
       "ranking_type": "complete_comparable",
@@ -38,7 +38,7 @@
       "selected_source_files": "shell-annual-report-2024.pdf",
       "selected_scope_rows": "Scope 1:50 MtCO2e; year=2024; method=; unit=CO2 equivalent; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=109; source=shell-annual-report-2024.pdf || Scope 2:8 MtCO2e; year=2024; method=Market-Based; unit=CO2 equivalent; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=109; source=shell-annual-report-2024.pdf || Scope 3:1084 MtCO2e; year=2024; method=; unit=tonnes CO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=99; source=shell-annual-report-2024.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -72,7 +72,7 @@
       "selected_source_files": "FY2025-Walmart-ESG-Report.pdf",
       "selected_scope_rows": "Scope 1:9.03 MtCO2e; year=2024; method=; unit=MMT CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=106; source=FY2025-Walmart-ESG-Report.pdf || Scope 2:6.61 MtCO2e; year=2024; method=Market-Based; unit=MMT CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=106; source=FY2025-Walmart-ESG-Report.pdf || Scope 3:636.57 MtCO2e; year=2024; method=; unit=MT CO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=106; source=FY2025-Walmart-ESG-Report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -106,7 +106,7 @@
       "selected_source_files": "annual-report-2024-equinor.pdf",
       "selected_scope_rows": "Scope 1:8.331465 MtCO2e; year=2024; method=; unit=tCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=117; source=annual-report-2024-equinor.pdf || Scope 2:1.492572 MtCO2e; year=2024; method=Market-Based; unit=tCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=117; source=annual-report-2024-equinor.pdf || Scope 3:278.128188 MtCO2e; year=2024; method=; unit=tCO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=117; source=annual-report-2024-equinor.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -140,7 +140,7 @@
       "selected_source_files": "2024_ESG_Report_The_Home_Depot.pdf",
       "selected_scope_rows": "Scope 1:0.628 MtCO2e; year=2023; method=; unit=MT CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=45; source=2024_ESG_Report_The_Home_Depot.pdf || Scope 2:0.7338 MtCO2e; year=2023; method=Market-Based; unit=MT CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=45; source=2024_ESG_Report_The_Home_Depot.pdf || Scope 3:192.934 MtCO2e; year=2023; method=; unit=MT CO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=95; source=2024_ESG_Report_The_Home_Depot.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -174,7 +174,7 @@
       "selected_source_files": "2024-ECOPETROL-integrated-management-report.pdf",
       "selected_scope_rows": "Scope 1:11.817212999999999 MtCO2e; year=2024; method=; unit=tCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=395; source=2024-ECOPETROL-integrated-management-report.pdf || Scope 2:0.859892 MtCO2e; year=2024; method=Market-Based; unit=tCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=297; source=2024-ECOPETROL-integrated-management-report.pdf || Scope 3:151.117258 MtCO2e; year=2024; method=; unit=tCO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=297; source=2024-ECOPETROL-integrated-management-report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -208,7 +208,7 @@
       "selected_source_files": "2024-UNICREDIT GROUP-Annual-Reports-and-Accounts.pdf",
       "selected_scope_rows": "Scope 1:0.024412 MtCO2e; year=2024; method=; unit=MtCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=271; source=2024-UNICREDIT GROUP-Annual-Reports-and-Accounts.pdf || Scope 2:0.016702 MtCO2e; year=2024; method=Market-Based; unit=MtCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=271; source=2024-UNICREDIT GROUP-Annual-Reports-and-Accounts.pdf || Scope 3:97.473496 MtCO2e; year=2024; method=; unit=MtCO2e; boundary=finance_operational_or_value_chain_scope3; scope3_boundary=finance_operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=271; source=2024-UNICREDIT GROUP-Annual-Reports-and-Accounts.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -242,7 +242,7 @@
       "selected_source_files": "2024-amazon-sustainability-report.pdf",
       "selected_scope_rows": "Scope 1:15.13 MtCO2e; year=2024; method=; unit=MMT CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=50; source=2024-amazon-sustainability-report.pdf || Scope 2:2.8 MtCO2e; year=2024; method=Market-Based; unit=MMT CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=50; source=2024-amazon-sustainability-report.pdf || Scope 3:50.32 MtCO2e; year=2024; method=; unit=MMT CO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=50; source=2024-amazon-sustainability-report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -276,7 +276,7 @@
       "selected_source_files": "Ahold_Delhaize_Annual_Report_2024.pdf",
       "selected_scope_rows": "Scope 1:1.695 MtCO2e; year=2024; method=; unit=unit_matched_in_page_text; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=176; source=Ahold_Delhaize_Annual_Report_2024.pdf || Scope 2:0.889 MtCO2e; year=2024; method=Market-Based; unit=unit_matched_in_page_text; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=176; source=Ahold_Delhaize_Annual_Report_2024.pdf || Scope 3:63.559 MtCO2e; year=2024; method=; unit=unit_matched_in_page_text; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=176; source=Ahold_Delhaize_Annual_Report_2024.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -310,7 +310,7 @@
       "selected_source_files": "united-airlines-2024-corporate-impact-report.pdf",
       "selected_scope_rows": "Scope 1:38.520027 MtCO2e; year=2024; method=; unit=unit_matched_in_page_text; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=102; source=united-airlines-2024-corporate-impact-report.pdf || Scope 2:0.134497 MtCO2e; year=2024; method=Market-Based; unit=metric tons CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=101; source=united-airlines-2024-corporate-impact-report.pdf || Scope 3:13.585207 MtCO2e; year=2024; method=; unit=unit_matched_in_page_text; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=102; source=united-airlines-2024-corporate-impact-report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -344,7 +344,7 @@
       "selected_source_files": "American-Airlines-Sustainability-Report-2024.pdf",
       "selected_scope_rows": "Scope 1:39.604835 MtCO2e; year=2024; method=; unit=tCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=92; source=American-Airlines-Sustainability-Report-2024.pdf || Scope 2:0.17718399999999998 MtCO2e; year=2024; method=Market-Based; unit=tCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=92; source=American-Airlines-Sustainability-Report-2024.pdf || Scope 3:11.189689 MtCO2e; year=2024; method=; unit=unit_matched_in_page_text; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=90; source=American-Airlines-Sustainability-Report-2024.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -378,7 +378,7 @@
       "selected_source_files": "2024-LINDE-sustainable-development-report.pdf | linde-2024-sustainable-development-report.pdf",
       "selected_scope_rows": "Scope 1:16.47 MtCO2e; year=2024; method=; unit=Metric Tons CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=99; source=2024-LINDE-sustainable-development-report.pdf || Scope 2:20.942999999999998 MtCO2e; year=2024; method=Market-Based; unit=Metric Tons CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=59; source=2024-LINDE-sustainable-development-report.pdf || Scope 3:10.673 MtCO2e; year=2024; method=; unit=Metric Tons CO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=99; source=linde-2024-sustainable-development-report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -412,7 +412,7 @@
       "selected_source_files": "Apple_Environmental_Progress_Report_2025.pdf",
       "selected_scope_rows": "Scope 1:0.06371 MtCO2e; year=2024; method=; unit=metric tons CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=99; source=Apple_Environmental_Progress_Report_2025.pdf || Scope 2:0.0033 MtCO2e; year=2024; method=Market-Based; unit=metric tons CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=99; source=Apple_Environmental_Progress_Report_2025.pdf || Scope 3:35.73 MtCO2e; year=2024; method=; unit=MMT CO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=106; source=Apple_Environmental_Progress_Report_2025.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -446,7 +446,7 @@
       "selected_source_files": "COOP GROUP Fortschrittsbericht-Nachhaltigkeit-2024_en.pdf",
       "selected_scope_rows": "Scope 1:0.203296 MtCO2e; year=2024; method=; unit=CO2 equivalent; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=78; source=COOP GROUP Fortschrittsbericht-Nachhaltigkeit-2024_en.pdf || Scope 2:0.045606 MtCO2e; year=2024; method=Market-Based; unit=CO2 equivalent; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=79; source=COOP GROUP Fortschrittsbericht-Nachhaltigkeit-2024_en.pdf || Scope 3:22.633056 MtCO2e; year=2024; method=; unit=CO2 equivalent; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=53; source=COOP GROUP Fortschrittsbericht-Nachhaltigkeit-2024_en.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -480,7 +480,7 @@
       "selected_source_files": "UNITEDHEALTH GROUP—2024-sustainability-report.pdf",
       "selected_scope_rows": "Scope 1:0.105782 MtCO2e; year=2024; method=; unit=MTCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=81; source=UNITEDHEALTH GROUP—2024-sustainability-report.pdf || Scope 2:0.265661 MtCO2e; year=2024; method=Market-Based; unit=MTCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=81; source=UNITEDHEALTH GROUP—2024-sustainability-report.pdf || Scope 3:17.977601 MtCO2e; year=2024; method=; unit=MTCO2e; boundary=financed_emissions_or_pcaf; scope3_boundary=financed_emissions_or_pcaf; evidence_status=page_unit_year_value_boundary_traceable; page=82; source=UNITEDHEALTH GROUP—2024-sustainability-report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
@@ -514,11 +514,45 @@
       "selected_source_files": "BestBuy-CRS-Report-2025.pdf",
       "selected_scope_rows": "Scope 1:0.185561 MtCO2e; year=2025; method=; unit=MTCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=59; source=BestBuy-CRS-Report-2025.pdf || Scope 2:0.082445 MtCO2e; year=2025; method=Market-Based; unit=MTCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=59; source=BestBuy-CRS-Report-2025.pdf || Scope 3:15.732438 MtCO2e; year=2025; method=; unit=MTCO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=59; source=BestBuy-CRS-Report-2025.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
       "rank": 16,
+      "available_rank": 33,
+      "company_id": "r066_metaplatforms公司",
+      "world500_rank": 66,
+      "company_name_en": "Meta Platforms",
+      "company_name_zh": "Meta Platforms",
+      "industry_section_code": "F",
+      "industry_section_en": "Wholesale and Retail Trade",
+      "industry_section_zh": "批发和零售业",
+      "total_mtco2e": 7.496231,
+      "scope1_mtco2e": 0.048951999999999996,
+      "scope2_mtco2e": 0.001658,
+      "scope2_method_en": "Market-Based",
+      "scope3_mtco2e": 7.445621,
+      "scope3_boundary_class_en": "operational_or_value_chain_scope3",
+      "scope3_boundary_basis_en": "Non-finance company selected Scope 3 row; no PCAF/financed-emissions boundary signal required for the ranking gate.",
+      "selected_evidence_missing_elements": "",
+      "inventory_years": "2023",
+      "completeness_key": "complete_scope123_strong_evidence_total",
+      "completeness_en": "Complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+      "completeness_zh": "完整 Scope 1 + 选定 Scope 2 + Scope 3 强证据总量。",
+      "missing_scopes": "",
+      "strong_row_count": 3,
+      "review_required_row_count": 0,
+      "conflict_excluded_row_count": 0,
+      "duplicate_scope_candidate_count": 0,
+      "selected_evidence_pages": "78 | 21",
+      "selected_source_files": "Meta-2024-Sustainability-Report.pdf",
+      "selected_scope_rows": "Scope 1:0.048951999999999996 MtCO2e; year=2023; method=; unit=metric tons CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=78; source=Meta-2024-Sustainability-Report.pdf || Scope 2:0.001658 MtCO2e; year=2023; method=Market-Based; unit=unit_matched_in_page_text; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=78; source=Meta-2024-Sustainability-Report.pdf || Scope 3:7.445621 MtCO2e; year=2023; method=; unit=mt CO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=21; source=Meta-2024-Sustainability-Report.pdf",
+      "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
+    },
+    {
+      "ranking_type": "complete_comparable",
+      "rank": 17,
       "available_rank": 36,
       "company_id": "r297_sanofi",
       "world500_rank": 297,
@@ -548,11 +582,11 @@
       "selected_source_files": "SANOFI-sustainability-statement-2024--ESG-Report-.pdf",
       "selected_scope_rows": "Scope 1:0.298485 MtCO2e; year=2024; method=; unit=tCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=38; source=SANOFI-sustainability-statement-2024--ESG-Report-.pdf || Scope 2:0.075864 MtCO2e; year=2024; method=Market-Based; unit=tCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=38; source=SANOFI-sustainability-statement-2024--ESG-Report-.pdf || Scope 3:3.822627 MtCO2e; year=2024; method=; unit=tCO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=38; source=SANOFI-sustainability-statement-2024--ESG-Report-.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
-      "rank": 17,
+      "rank": 18,
       "available_rank": 43,
       "company_id": "r350_telefónica",
       "world500_rank": 350,
@@ -582,11 +616,11 @@
       "selected_source_files": "2024TELEFÓNICA consolidated-management-report.pdf",
       "selected_scope_rows": "Scope 1:0.122874 MtCO2e; year=2024; method=; unit=tCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=206; source=2024TELEFÓNICA consolidated-management-report.pdf || Scope 2:0.152327 MtCO2e; year=2024; method=Market-Based; unit=tCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=206; source=2024TELEFÓNICA consolidated-management-report.pdf || Scope 3:1.962411 MtCO2e; year=2024; method=; unit=tCO2e; boundary=operational_or_value_chain_scope3; scope3_boundary=operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=206; source=2024TELEFÓNICA consolidated-management-report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
-      "rank": 18,
+      "rank": 19,
       "available_rank": 47,
       "company_id": "r046_centene公司",
       "world500_rank": 46,
@@ -616,11 +650,11 @@
       "selected_source_files": "Centene-Corporate-Responsibility-2024.pdf",
       "selected_scope_rows": "Scope 1:0.007825 MtCO2e; year=2024; method=; unit=mt CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=73; source=Centene-Corporate-Responsibility-2024.pdf || Scope 2:0.038671 MtCO2e; year=2024; method=Market-Based; unit=mt CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=73; source=Centene-Corporate-Responsibility-2024.pdf || Scope 3:1.184419 MtCO2e; year=2024; method=; unit=mt CO2e; boundary=finance_operational_or_value_chain_scope3; scope3_boundary=finance_operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=73; source=Centene-Corporate-Responsibility-2024.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
-      "rank": 19,
+      "rank": 20,
       "available_rank": 61,
       "company_id": "r260_newyorklifeinsurance",
       "world500_rank": 260,
@@ -650,11 +684,11 @@
       "selected_source_files": "2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
       "selected_scope_rows": "Scope 1:0.00957 MtCO2e; year=2024; method=; unit=MT CO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=54; source=2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf || Scope 2:0.075388 MtCO2e; year=2024; method=Market-Based; unit=MT CO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=54; source=2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf || Scope 3:0.057931 MtCO2e; year=2024; method=; unit=MT CO2e; boundary=finance_operational_or_value_chain_scope3; scope3_boundary=finance_operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=54; source=2024NEW YORK LIFE INSURANCE Corporate-Responsibility-Report.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     },
     {
       "ranking_type": "complete_comparable",
-      "rank": 20,
+      "rank": 21,
       "available_rank": 69,
       "company_id": "r327_talanx公司",
       "world500_rank": 327,
@@ -684,7 +718,7 @@
       "selected_source_files": "Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
       "selected_scope_rows": "Scope 1:0.012627 MtCO2e; year=2022; method=; unit=tCO2e; boundary=corporate_direct_scope1_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=32; source=Talanx_Nachhaltigkeitsbericht_2023_en.pdf || Scope 2:0.012627 MtCO2e; year=2022; method=Market-Based; unit=tCO2e; boundary=corporate_energy_indirect_scope2_inventory; evidence_status=page_unit_year_value_boundary_traceable; page=32; source=Talanx_Nachhaltigkeitsbericht_2023_en.pdf || Scope 3:0.012627 MtCO2e; year=2022; method=; unit=tCO2e; boundary=finance_operational_or_value_chain_scope3; scope3_boundary=finance_operational_or_value_chain_scope3; evidence_status=page_unit_year_value_boundary_traceable; page=32; source=Talanx_Nachhaltigkeitsbericht_2023_en.pdf",
       "recommended_use_en": "Accepted comparable ranking row: complete Scope 1 + selected Scope 2 + Scope 3 strong-evidence total.",
-      "recommended_use_zh": "可采信可比排行行：Scope 1 + 选定 Scope 2 + Scope 3 均通过强证据门禁。"
+      "recommended_use_zh": "?????????Scope 1 + ?? Scope 2 + Scope 3 ?????????"
     }
   ]
 }
