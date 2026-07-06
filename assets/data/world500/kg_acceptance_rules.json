@@ -1,0 +1,123 @@
+{
+  "schema_version": "fortune500-esg-kg-acceptance-rules-v1",
+  "acceptance_layers": {
+    "accepted": {
+      "description": "May enter accepted graph views and requirement-facing figures.",
+      "minimum": ["source_file", "page_or_page_range", "snippet_or_verbatim_context", "evidence_gate"]
+    },
+    "review": {
+      "description": "Has a signal but is not strong enough for accepted graph views.",
+      "default_visual_policy": "exclude_from_accepted_graph_or_show_only_in_audit_mode_as_weakened_dashed_edge"
+    },
+    "demoted": {
+      "description": "Known overmapping, generic reference, weak context, or not-applicable relationship.",
+      "default_visual_policy": "exclude_from_accepted_graph"
+    }
+  },
+  "relation_rules": {
+    "COMPANY_CITES_GHGP_FINE_SERIES": {
+      "accepted": [
+        "page_text_explicitly_names_whitelisted_ghgp_series",
+        "official_abbreviation_or_strong_alias_identifies_exact_series",
+        "generic_ghg_protocol_reference_count_is_zero"
+      ],
+      "review": [
+        "contextual_scope_inventory_mapping",
+        "generic_ghg_reference_without_fine_series_name",
+        "weak_alias_or_missing_page_snippet"
+      ],
+      "demoted": [
+        "contextual_overmapped_review",
+        "demoted_generic_ghg_context_without_fine_series_name",
+        "demoted_weak_context_no_ghg_series_signal",
+        "out_of_whitelist_ghg_derivative_not_core_series"
+      ]
+    },
+    "COMPANY_CITES_STANDARD": {
+      "accepted": [
+        "standard_name_explicitly_cited",
+        "company_standard_edge_has_page_or_traceable_source"
+      ],
+      "review": [
+        "standard_keyword_without_clear_reference",
+        "short_or_ambiguous_snippet",
+        "source_page_missing"
+      ],
+      "demoted": [
+        "standard_name_false_positive",
+        "generic_framework_name_overmapped_to_specific_standard"
+      ]
+    },
+    "COMPANY_REPORTS_EMISSION_VALUE": {
+      "accepted": [
+        "scope1_value_unit_year_evidence_present",
+        "selected_scope2_value_method_unit_year_evidence_present",
+        "scope3_total_value_unit_year_evidence_present",
+        "finance_scope3_boundary_resolved_when_applicable"
+      ],
+      "review": [
+        "partial_total_missing_scope",
+        "scope2_method_missing",
+        "inventory_year_or_unit_unclear",
+        "finance_boundary_unclear"
+      ],
+      "demoted": [
+        "unit_scale_risk_unresolved",
+        "combined_scope_value_not_decomposable",
+        "partial_total_misread_as_complete_total"
+      ]
+    },
+    "COMPANY_DISCLOSES_TECHNOLOGY_PATHWAY": {
+      "accepted": [
+        "company_specific_project_or_measure_evidence",
+        "page_level_source_and_snippet_present"
+      ],
+      "review": [
+        "keyword_disclosure_signal_only",
+        "company_commitment_without_project_measure",
+        "timeline_cost_or_abatement_effect_missing"
+      ],
+      "cost_evidence": [
+        "investment_amount",
+        "capex_amount",
+        "contract_value",
+        "subsidy_amount",
+        "cost_saving_amount",
+        "unit_abatement_cost"
+      ],
+      "cost_not_allowed": [
+        "capacity_only",
+        "procurement_volume_only",
+        "project_size_without_money",
+        "generic_cost_language_without_amount"
+      ]
+    },
+    "PRIMARY_SECONDARY_SOURCE_MIX": {
+      "accepted_strong": [
+        "explicit_reported_primary_data_percentage",
+        "explicit_reported_supplier_specific_percentage"
+      ],
+      "exploratory": [
+        "method_row_source_mix_inference",
+        "primary_secondary_use_mentioned_without_ratio"
+      ],
+      "not_allowed": [
+        "treat_missing_disclosure_as_zero",
+        "treat_source_mix_inference_as_audited_calculation_weight"
+      ]
+    }
+  },
+  "term_policy": {
+    "ghgp_context": {
+      "allowed_terms": ["Scope 1", "Scope 2", "Scope 3", "Scope 3 categories"]
+    },
+    "non_ghgp_context": {
+      "preferred_terms": ["direct emissions", "indirect emissions", "other indirect emissions"],
+      "rule": "Do not project GHG Protocol Scope 3 categories onto ISO, GB, or other non-GHGP standards. Scope words in quoted source text may be shown only as source context."
+    }
+  },
+  "snapshot_policy": {
+    "rule": "All public node, edge, company, figure, and ledger counts must cite one authoritative source snapshot.",
+    "source": "assets/data/world500/workbench/snapshot_manifest.json"
+  }
+}

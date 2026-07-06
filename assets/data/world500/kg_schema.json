@@ -1,0 +1,113 @@
+{
+  "schema_version": "fortune500-esg-kg-schema-v1",
+  "project_positioning": {
+    "zh": "世界500强 ESG 披露证据知识图谱与可视化审计平台",
+    "en": "Evidence-driven Fortune 500 ESG disclosure knowledge graph and visualization audit platform"
+  },
+  "authoritative_snapshot_files": [
+    "assets/data/world500/workbench/snapshot_manifest.json",
+    "assets/data/world500/workbench/reporting_views.json",
+    "assets/data/world500/workbench/world500_requirement_completion_matrix.json"
+  ],
+  "node_types": {
+    "Company": {
+      "required": ["company_id", "name", "world500_rank", "industry_section_code"],
+      "description": "Fortune 500 company entity resolved through the company registry and aliases."
+    },
+    "Report": {
+      "required": ["source_file", "company_id", "report_year"],
+      "description": "Company disclosure source such as annual report, ESG report, assurance statement, or sustainability report."
+    },
+    "Standard": {
+      "required": ["standard_id", "name_en", "family", "role"],
+      "description": "Standard, guidance, protocol, project guidance, disclosure framework, or industry extension."
+    },
+    "StandardFamily": {
+      "required": ["family_id", "name"],
+      "description": "Grouping node for standards such as GHG Protocol, ISO, GB, GRI, or PCAF."
+    },
+    "TechnologyPathway": {
+      "required": ["technology_id", "name", "category"],
+      "description": "Decarbonization technology pathway, including disclosure signal and project-evidence sublayers."
+    },
+    "EmissionRecord": {
+      "required": ["company_id", "scope_or_boundary", "value", "unit", "year"],
+      "description": "Emission value record used by ledger, ranking, and scope/boundary views."
+    },
+    "EvidenceSnippet": {
+      "required": ["source_file", "page", "snippet", "company_id"],
+      "description": "Page-level evidence snippet supporting an accepted or review fact edge."
+    },
+    "AuditQueue": {
+      "required": ["queue_id", "priority", "reason"],
+      "description": "Review, backfill, demotion, or validation queue."
+    },
+    "AcceptanceDecision": {
+      "required": ["decision_id", "decision_bucket", "decision_status", "evidence_gate"],
+      "description": "Decision record explaining accepted, review, or demoted status."
+    }
+  },
+  "relation_types": {
+    "COMPANY_CITES_GHGP_FINE_SERIES": {
+      "domain": "Company",
+      "range": "Standard",
+      "required_evidence": true,
+      "accepted_rule_id": "ghgp_explicit_named_fine_series",
+      "default_visual_layer": "accepted_graph"
+    },
+    "COMPANY_CITES_STANDARD": {
+      "domain": "Company",
+      "range": "Standard",
+      "required_evidence": true,
+      "accepted_rule_id": "standard_explicit_named_reference",
+      "default_visual_layer": "accepted_graph"
+    },
+    "COMPANY_REPORTS_EMISSION_VALUE": {
+      "domain": "Company",
+      "range": "EmissionRecord",
+      "required_evidence": true,
+      "accepted_rule_id": "emissions_complete_scope123_strong_evidence",
+      "default_visual_layer": "ledger_and_ranking"
+    },
+    "COMPANY_DISCLOSES_TECHNOLOGY_PATHWAY": {
+      "domain": "Company",
+      "range": "TechnologyPathway",
+      "required_evidence": "depends_on_evidence_layer",
+      "accepted_rule_id": "technology_project_or_measure_evidence",
+      "default_visual_layer": "technology_pathway_graph"
+    },
+    "EVIDENCE_SUPPORTS_EDGE": {
+      "domain": "EvidenceSnippet",
+      "range": "FactEdge",
+      "required_evidence": true,
+      "accepted_rule_id": "evidence_page_snippet_source_complete",
+      "default_visual_layer": "evidence_panel"
+    },
+    "REPORT_BELONGS_TO_COMPANY": {
+      "domain": "Report",
+      "range": "Company",
+      "required_evidence": false,
+      "accepted_rule_id": "registry_source_file_assignment",
+      "default_visual_layer": "lineage"
+    },
+    "STANDARD_BELONGS_TO_FAMILY": {
+      "domain": "Standard",
+      "range": "StandardFamily",
+      "required_evidence": false,
+      "accepted_rule_id": "ontology_scaffold_relation",
+      "default_visual_layer": "standard_directory"
+    },
+    "EDGE_HAS_ACCEPTANCE_DECISION": {
+      "domain": "FactEdge",
+      "range": "AcceptanceDecision",
+      "required_evidence": false,
+      "accepted_rule_id": "ledger_decision_record",
+      "default_visual_layer": "audit_panel"
+    }
+  },
+  "fact_edge_policy": {
+    "accepted_fact_edges_require_page_level_evidence": true,
+    "ontology_scaffold_edges_excluded_from_evidence_page_denominator": true,
+    "public_counts_must_cite_snapshot_manifest_layer_id": true
+  }
+}
