@@ -149,6 +149,71 @@
     };
   }
 
+  function ensureGhgExplorerControls(refs) {
+    const toolbar = refs.search?.closest(".graph-toolbar");
+    const actions = toolbar?.querySelector(".graph-toolbar-actions");
+    const sidePanel = refs.selection?.closest(".graph-side-panel");
+    if (!toolbar || !actions || !sidePanel) return {};
+
+    let filters = toolbar.querySelector(".graph-filter-row");
+    if (!filters) {
+      filters = document.createElement("div");
+      filters.className = "graph-filter-row";
+      filters.innerHTML = `
+        <label class="entity-search graph-filter-control">
+          <span>${escapeHtml(text("GHGP standard", "GHGP 标准"))}</span>
+          <select id="ghg-full-graph-standard-filter"></select>
+        </label>
+        <label class="entity-search graph-filter-control">
+          <span>${escapeHtml(text("Industry", "行业"))}</span>
+          <select id="ghg-full-graph-industry-filter"></select>
+        </label>
+      `;
+      toolbar.insertBefore(filters, actions);
+    }
+
+    const buttonSpecs = [
+      ["ghg-full-graph-zoom-in", text("Zoom in", "放大")],
+      ["ghg-full-graph-zoom-out", text("Zoom out", "缩小")],
+      ["ghg-full-graph-export", text("Export PNG", "导出 PNG")],
+    ];
+    buttonSpecs.forEach(([id, label]) => {
+      if ($(id)) return;
+      const button = document.createElement("button");
+      button.className = "pill";
+      button.id = id;
+      button.type = "button";
+      button.textContent = label;
+      actions.appendChild(button);
+    });
+
+    let directory = $("ghg-full-graph-standard-directory");
+    if (!directory) {
+      directory = document.createElement("div");
+      directory.className = "card graph-side-card graph-standard-directory";
+      directory.id = "ghg-full-graph-standard-directory";
+      sidePanel.insertBefore(directory, refs.selection);
+    }
+
+    let trustBoundary = $("ghg-full-graph-trust-boundary");
+    if (!trustBoundary) {
+      trustBoundary = document.createElement("div");
+      trustBoundary.className = "card graph-side-card graph-trust-boundary";
+      trustBoundary.id = "ghg-full-graph-trust-boundary";
+      sidePanel.insertBefore(trustBoundary, sidePanel.firstElementChild);
+    }
+
+    return {
+      standardFilter: $("ghg-full-graph-standard-filter"),
+      industryFilter: $("ghg-full-graph-industry-filter"),
+      zoomIn: $("ghg-full-graph-zoom-in"),
+      zoomOut: $("ghg-full-graph-zoom-out"),
+      exportPng: $("ghg-full-graph-export"),
+      directory,
+      trustBoundary,
+    };
+  }
+
   function workbenchUrl(companyId) {
     const target = String(companyId || "").trim();
     return target ? `./company-accounting-workbench.html?company=${encodeURIComponent(target)}` : "";
@@ -359,6 +424,15 @@
       return text("Possible overmapping - reassign/demote review", "疑似过度映射 - 需重分配/降级复核");
     }
     return text("Contextual mapping - review required", "上下文映射 - 待复核");
+  }
+
+  function shortEvidenceGate(value) {
+    const gate = String(value || "").replace(/_/g, " ").trim();
+    if (!gate) return text("No gate recorded", "未记录门槛");
+    if (/source text explicitly names/i.test(gate)) {
+      return text("PDF page explicitly names this GHGP series", "PDF 页级原文明示命中该 GHGP 细分标准");
+    }
+    return gate;
   }
 
   function buildGhgGraphFromReporting(reporting) {
@@ -680,6 +754,7 @@
   function renderClusteredGraph(ids, graph, reporting) {
     const refs = removeOldListeners(ids);
     if (!refs.svg || !refs.search || !refs.clear || !refs.reset || !refs.fit || !refs.selection || !refs.results) return;
+    const explorerRefs = graph.mode === "ghg" ? ensureGhgExplorerControls(refs) : {};
     updateHeroMetrics(graph.mode, reporting, graph);
     layoutGraph(graph);
 
@@ -702,6 +777,8 @@
       query: "",
       selectedKind: "system",
       selectedId: graph.system.id,
+      filterStandardId: "",
+      filterIndustry: "",
       scale: graph.mode === "ghg" ? 0.9 : 0.82,
       tx: 0,
       ty: 0,
@@ -800,10 +877,18 @@
           class: `cluster-graph-edge is-company-edge ${isStrongEdge ? "is-explicit-evidence" : (meta.isOvermapped ? "is-overmapped-review" : "is-contextual-evidence")}`,
           stroke: standard.color,
           "stroke-dasharray": !isStrongEdge ? "9 10" : null,
+          tabindex: "0",
+          role: "button",
+          "aria-label": `${company.name || company.id} -> ${standard.shortName || standard.name}: ${graph.mode === "ghg" ? evidenceStrengthLabel(meta) : text("standard-company evidence link", "标准-企业证据关系")}`,
         });
         const title = createSvgEl("title", {});
         title.textContent = graph.mode === "ghg" ? evidenceStrengthLabel(meta) : text("Standard-company evidence link", "标准-企业证据关系");
         edge.appendChild(title);
+        bindNodeAction(edge, () => {
+          state.selectedKind = "edge";
+          state.selectedId = `${company.id}::${standardId}`;
+          update();
+        });
         layers.edges.appendChild(edge);
         edgeElements.push({
           edge,
@@ -929,6 +1014,7 @@
 
     function selectedStandardId() {
       if (state.selectedKind === "standard") return state.selectedId;
+      if (state.selectedKind === "edge") return String(state.selectedId || "").split("::")[1] || "";
       if (state.selectedKind === "company") {
         const company = companyById.get(state.selectedId);
         return company?.primaryStandardId || "";
@@ -942,6 +1028,7 @@
     }
 
     function companyHasVisibleLink(company) {
+      if (!company) return false;
       if (graph.mode !== "ghg" || state.evidenceMode === "all") return true;
       return (company.linkedItems || []).some((standardId) => linkIsVisible(company, standardId));
     }
@@ -957,10 +1044,53 @@
       const query = state.query.trim().toLowerCase();
       if (!query) return true;
       const rank = company.rank === undefined || company.rank === null ? "" : String(company.rank);
-      return String(company.name || "").toLowerCase().includes(query) || rank.includes(query);
+      const linkedStandards = (company.linkedItems || [])
+        .map((id) => {
+          const standard = standardById.get(id);
+          return `${standard?.shortName || ""} ${standard?.name || ""}`;
+        })
+        .join(" ")
+        .toLowerCase();
+      return String(company.name || "").toLowerCase().includes(query)
+        || rank.includes(query)
+        || String(company.industry || company.industryLabel || "").toLowerCase().includes(query)
+        || linkedStandards.includes(query);
+    }
+
+    function matchesFilters(company) {
+      if (!matchesQuery(company) || !companyHasVisibleLink(company)) return false;
+      if (state.filterIndustry && (company.industry || company.industryLabel || "") !== state.filterIndustry) return false;
+      if (state.filterStandardId) {
+        return (company.linkedItems || []).includes(state.filterStandardId) && linkIsVisible(company, state.filterStandardId);
+      }
+      return true;
     }
 
     function renderSelection() {
+      if (state.selectedKind === "edge") {
+        const [companyId, standardId] = String(state.selectedId || "").split("::");
+        const company = companyById.get(companyId);
+        const standard = standardById.get(standardId);
+        if (!company || !standard) return;
+        const meta = company.linkMetaByItem?.[standardId] || {};
+        const evidence = company.evidenceByItem?.[standardId] || [];
+        const firstEvidence = evidence[0] || {};
+        refs.selection.innerHTML = `
+          <h3>${escapeHtml(text("Relationship explanation", "关系解释链"))}</h3>
+          <dl class="graph-detail-list">
+            <div><dt>${escapeHtml(text("Edge", "边"))}</dt><dd>${escapeHtml(`${company.name || company.id} -> ${standard.shortName || standard.name}`)}</dd></div>
+            <div><dt>${escapeHtml(text("Acceptance layer", "采信层"))}</dt><dd>${escapeHtml(evidenceStrengthLabel(meta))}</dd></div>
+            <div><dt>${escapeHtml(text("Evidence gate", "证据门槛"))}</dt><dd>${escapeHtml(shortEvidenceGate(firstEvidence.evidence_gate || meta.evidenceGate))}</dd></div>
+            <div><dt>${escapeHtml(text("Match status", "匹配状态"))}</dt><dd>${escapeHtml(firstEvidence.match_status || meta.matchStatus || "-")}</dd></div>
+            <div><dt>${escapeHtml(text("Matched alias", "命中别名"))}</dt><dd>${escapeHtml(firstEvidence.matched_alias || "-")}</dd></div>
+            <div><dt>${escapeHtml(text("Counted as accepted", "是否计入采信"))}</dt><dd>${escapeHtml(meta.isExplicit ? text("Yes - solid accepted edge", "是 - 实线采信边") : text("No - review/demoted audit relation", "否 - 复核/降级审核关系"))}</dd></div>
+          </dl>
+          ${!meta.isExplicit ? `<div class="cluster-evidence-notice">${escapeHtml(text("This relationship is visible only for audit inspection and is not counted as an accepted GHGP company-standard edge.", "该关系仅用于审核检查，不计入已采信 GHGP 企业-标准边。"))}</div>` : ""}
+          <h4>${escapeHtml(text("Page evidence", "页级证据"))}</h4>
+          ${evidenceHtml(evidence, 5)}
+        `;
+        return;
+      }
       if (state.selectedKind === "company") {
         const company = companyById.get(state.selectedId);
         if (!company) return;
@@ -1041,13 +1171,11 @@
     function renderResults() {
       const selected = selectedStandardId();
       const rows = graph.layout.companies
-        .filter((company) => matchesQuery(company))
-        .filter((company) => companyHasVisibleLink(company))
+        .filter((company) => matchesFilters(company))
         .filter((company) => !selected || ((company.linkedItems || []).includes(selected) && linkIsVisible(company, selected)))
         .slice(0, 18);
       const total = graph.layout.companies
-        .filter((company) => matchesQuery(company))
-        .filter((company) => companyHasVisibleLink(company))
+        .filter((company) => matchesFilters(company))
         .filter((company) => !selected || ((company.linkedItems || []).includes(selected) && linkIsVisible(company, selected))).length;
       refs.results.innerHTML = `
         <h3>${escapeHtml(text("Search / cluster results", "检索/聚类结果"))}</h3>
@@ -1105,6 +1233,66 @@
       `;
     }
 
+    function populateExplorerFilters() {
+      if (!explorerRefs.standardFilter || !explorerRefs.industryFilter) return;
+      explorerRefs.standardFilter.innerHTML = `
+        <option value="">${escapeHtml(text("All GHGP standards", "全部 GHGP 标准"))}</option>
+        ${graph.layout.standards.map((node) => `<option value="${escapeHtml(node.id)}">${escapeHtml(node.shortName || node.name)} (${formatInt(standardVisibleCompanyCount(node.id))})</option>`).join("")}
+      `;
+      const industries = Array.from(new Set(graph.layout.companies.map((company) => company.industry || company.industryLabel || "").filter(Boolean))).sort();
+      explorerRefs.industryFilter.innerHTML = `
+        <option value="">${escapeHtml(text("All industries", "全部行业"))}</option>
+        ${industries.map((industry) => `<option value="${escapeHtml(industry)}">${escapeHtml(industry)}</option>`).join("")}
+      `;
+    }
+
+    function renderStandardDirectory() {
+      if (!explorerRefs.directory) return;
+      explorerRefs.directory.innerHTML = `
+        <h3>${escapeHtml(text("GHGP standard directory", "GHGP 标准目录"))}</h3>
+        <p>${escapeHtml(text("Click a standard to focus its accepted company cluster. Counts follow the current evidence mode.", "点击标准可聚焦对应采信企业簇；数量随当前证据模式变化。"))}</p>
+        <div class="graph-directory-list">
+          ${graph.layout.standards.map((node) => {
+            const count = standardVisibleCompanyCount(node.id);
+            const active = state.filterStandardId === node.id || state.selectedId === node.id;
+            return `
+              <button class="graph-directory-item${active ? " is-active" : ""}" type="button" data-standard-id="${escapeHtml(node.id)}" style="--standard-color:${escapeHtml(node.color)}">
+                <span>${escapeHtml(node.shortName || node.name)}</span>
+                <strong>${formatInt(count)}</strong>
+              </button>
+            `;
+          }).join("")}
+        </div>
+      `;
+      explorerRefs.directory.querySelectorAll("[data-standard-id]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const standardId = button.getAttribute("data-standard-id") || "";
+          state.filterStandardId = state.filterStandardId === standardId ? "" : standardId;
+          state.selectedKind = standardId ? "standard" : "system";
+          state.selectedId = standardId || graph.system.id;
+          if (explorerRefs.standardFilter) explorerRefs.standardFilter.value = state.filterStandardId;
+          update();
+          const standard = standardById.get(standardId);
+          if (standard?.cluster) focusOn(standard.cluster.x + standard.cluster.width / 2, standard.cluster.y + standard.cluster.height / 2, 2.55);
+        });
+      });
+    }
+
+    function renderTrustBoundary() {
+      if (!explorerRefs.trustBoundary) return;
+      const summary = reporting.summary || {};
+      explorerRefs.trustBoundary.innerHTML = `
+        <h3>${escapeHtml(text("Acceptance boundary", "当前图谱可信边界"))}</h3>
+        <p>${escapeHtml(text("This is an acceptance graph, not a raw audit graph. Solid links are explicit page-level GHGP citations; generic GHG mentions and demoted overmapping are excluded from accepted relationships.", "这是验收图，不是原始审计全量图。实线表示页级原文明示 GHGP 细分引用；泛化 GHG 提及和已降级过度映射不进入采信关系。"))}</p>
+        <div class="graph-trust-grid">
+          <span><strong>${formatInt(summary.ghg_accepted_series_edge_count || 0)}</strong>${escapeHtml(text("accepted edges", "采信边"))}</span>
+          <span><strong>${formatInt(summary.ghg_demoted_series_edge_count || 0)}</strong>${escapeHtml(text("demoted edges", "降级边"))}</span>
+          <span><strong>${formatInt(summary.ghg_graph_zero_accepted_series_count || 0)}</strong>${escapeHtml(text("zero-accepted standards", "零采信标准"))}</span>
+        </div>
+        <a class="graph-mini-link" href="../reporting-completion-audit.html">${escapeHtml(text("Open audit statement", "打开验收审计说明"))}</a>
+      `;
+    }
+
     function update() {
       if (graph.mode === "ghg" && state.evidenceMode === "explicit" && state.selectedKind === "company") {
         const selectedCompany = companyById.get(state.selectedId);
@@ -1114,10 +1302,11 @@
         }
       }
       const selectedStandard = selectedStandardId();
-      const matched = new Set(graph.layout.companies.filter(matchesQuery).filter(companyHasVisibleLink).map((company) => company.id));
+      const activeStandard = state.filterStandardId || selectedStandard;
+      const matched = new Set(graph.layout.companies.filter(matchesFilters).map((company) => company.id));
       clusterBgElements.forEach((entry, id) => {
-        const isActive = selectedStandard === id;
-        const isDimmed = Boolean(selectedStandard && selectedStandard !== id);
+        const isActive = activeStandard === id;
+        const isDimmed = Boolean(activeStandard && activeStandard !== id);
         [entry.rect, entry.label, entry.meta, entry.badge, entry.badgeText].forEach((node) => {
           node.classList.toggle("is-active", isActive);
           node.classList.toggle("is-dimmed", isDimmed);
@@ -1127,7 +1316,8 @@
         const isActive = state.selectedKind === "standard" && state.selectedId === id;
         const isLinked = state.selectedKind === "company" && (companyById.get(state.selectedId)?.linkedItems || []).includes(id);
         const hiddenByEvidence = graph.mode === "ghg" && state.evidenceMode === "explicit" && !standardVisibleCompanyCount(id) && !entry.data.isGhgFineClass;
-        const dim = hiddenByEvidence || (selectedStandard && selectedStandard !== id && !isLinked);
+        const hiddenByFilter = Boolean(state.filterStandardId && state.filterStandardId !== id);
+        const dim = hiddenByEvidence || hiddenByFilter || (activeStandard && activeStandard !== id && !isLinked);
         entry.group.classList.toggle("is-active", isActive || isLinked);
         entry.group.classList.toggle("is-dimmed", Boolean(dim));
         entry.group.classList.toggle("is-hidden-by-evidence", hiddenByEvidence);
@@ -1136,7 +1326,7 @@
         const company = entry.data;
         const isActive = state.selectedKind === "company" && state.selectedId === id;
         const visibleByEvidence = companyHasVisibleLink(company);
-        const linkedToSelected = !selectedStandard || ((company.linkedItems || []).includes(selectedStandard) && linkIsVisible(company, selectedStandard));
+        const linkedToSelected = !activeStandard || ((company.linkedItems || []).includes(activeStandard) && linkIsVisible(company, activeStandard));
         const isMatched = matched.has(id);
         const dim = !visibleByEvidence || !linkedToSelected || !isMatched;
         entry.group.classList.toggle("is-active", isActive);
@@ -1149,11 +1339,12 @@
         const visibleByEvidence = !entry.isContextual || state.evidenceMode === "all";
         const companySelected = state.selectedKind === "company" && entry.companyId === state.selectedId;
         const standardSelected = state.selectedKind === "standard" && entry.standardId === state.selectedId;
+        const edgeSelected = state.selectedKind === "edge" && state.selectedId === `${entry.companyId}::${entry.standardId}`;
         const linkedToSelectedCompany = state.selectedKind === "company" && (companyById.get(state.selectedId)?.linkedItems || []).includes(entry.standardId);
         const companyMatches = !entry.companyId || matched.has(entry.companyId);
-        const standardMatches = !selectedStandard || entry.standardId === selectedStandard || linkedToSelectedCompany;
+        const standardMatches = !activeStandard || entry.standardId === activeStandard || linkedToSelectedCompany;
         entry.edge.classList.toggle("is-hidden-by-evidence", !visibleByEvidence);
-        entry.edge.classList.toggle("is-active", visibleByEvidence && (companySelected || standardSelected || linkedToSelectedCompany));
+        entry.edge.classList.toggle("is-active", visibleByEvidence && (companySelected || standardSelected || edgeSelected || linkedToSelectedCompany));
         entry.edge.classList.toggle("is-dimmed", !visibleByEvidence || !(companyMatches && standardMatches));
       });
       systemNode.classList.toggle("is-active", state.selectedKind === "system");
@@ -1161,6 +1352,8 @@
       renderResults();
       renderReportTable();
       renderEvidenceSummary();
+      renderStandardDirectory();
+      renderTrustBoundary();
     }
 
     function applyTransform() {
@@ -1213,6 +1406,50 @@
       applyTransform();
     }
 
+    function zoomBy(factor) {
+      state.scale = Math.max(0.35, Math.min(8.5, state.scale * factor));
+      applyTransform();
+    }
+
+    function exportCurrentPng() {
+      const box = svg.getBoundingClientRect();
+      const width = Math.max(900, Math.round(box.width || 1400));
+      const height = Math.max(640, Math.round(box.height || 900));
+      const clone = svg.cloneNode(true);
+      clone.setAttribute("width", String(width));
+      clone.setAttribute("height", String(height));
+      clone.setAttribute("xmlns", SVG_NS);
+      const style = document.createElementNS(SVG_NS, "style");
+      style.textContent = Array.from(document.styleSheets)
+        .map((sheet) => {
+          try {
+            return Array.from(sheet.cssRules || []).map((rule) => rule.cssText).join("\n");
+          } catch (_) {
+            return "";
+          }
+        })
+        .join("\n");
+      clone.insertBefore(style, clone.firstChild);
+      const blob = new Blob([new XMLSerializer().serializeToString(clone)], { type: "image/svg+xml;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const image = new Image();
+      image.onload = () => {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        const context = canvas.getContext("2d");
+        context.fillStyle = "#fffdf8";
+        context.fillRect(0, 0, width, height);
+        context.drawImage(image, 0, 0, width, height);
+        URL.revokeObjectURL(url);
+        const link = document.createElement("a");
+        link.download = `ghgp-accepted-graph-${new Date().toISOString().slice(0, 10)}.png`;
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+      };
+      image.src = url;
+    }
+
     refs.search.addEventListener("input", () => {
       state.query = refs.search.value || "";
       update();
@@ -1220,12 +1457,35 @@
     refs.clear.addEventListener("click", () => {
       refs.search.value = "";
       state.query = "";
+      state.filterStandardId = "";
+      state.filterIndustry = "";
+      if (explorerRefs.standardFilter) explorerRefs.standardFilter.value = "";
+      if (explorerRefs.industryFilter) explorerRefs.industryFilter.value = "";
       state.selectedKind = "system";
       state.selectedId = graph.system.id;
       update();
     });
     refs.reset.addEventListener("click", resetView);
     refs.fit.addEventListener("click", fitView);
+    if (explorerRefs.standardFilter) {
+      explorerRefs.standardFilter.addEventListener("change", () => {
+        state.filterStandardId = explorerRefs.standardFilter.value || "";
+        state.selectedKind = state.filterStandardId ? "standard" : "system";
+        state.selectedId = state.filterStandardId || graph.system.id;
+        update();
+        const standard = standardById.get(state.filterStandardId);
+        if (standard?.cluster) focusOn(standard.cluster.x + standard.cluster.width / 2, standard.cluster.y + standard.cluster.height / 2, 2.55);
+      });
+    }
+    if (explorerRefs.industryFilter) {
+      explorerRefs.industryFilter.addEventListener("change", () => {
+        state.filterIndustry = explorerRefs.industryFilter.value || "";
+        update();
+      });
+    }
+    explorerRefs.zoomIn?.addEventListener("click", () => zoomBy(1.18));
+    explorerRefs.zoomOut?.addEventListener("click", () => zoomBy(0.84));
+    explorerRefs.exportPng?.addEventListener("click", exportCurrentPng);
     if (refs.evidenceMode) {
       const reviewLegend = document.querySelector(".graph-legend-line.is-review")?.nextElementSibling;
       if (graph.mode === "ghg" && reviewLegend) {
@@ -1245,13 +1505,16 @@
           state.selectedKind = "system";
           state.selectedId = graph.system.id;
         }
+        populateExplorerFilters();
+        if (explorerRefs.standardFilter) explorerRefs.standardFilter.value = state.filterStandardId;
+        if (explorerRefs.industryFilter) explorerRefs.industryFilter.value = state.filterIndustry;
         update();
       });
     }
     svg.addEventListener("wheel", (event) => {
       event.preventDefault();
       const factor = event.deltaY > 0 ? 0.9 : 1.1;
-      state.scale = Math.max(0.35, Math.min(2.4, state.scale * factor));
+      state.scale = Math.max(0.35, Math.min(8.5, state.scale * factor));
       applyTransform();
     }, { passive: false });
     svg.addEventListener("pointerdown", (event) => {
@@ -1277,6 +1540,7 @@
       });
     });
 
+    populateExplorerFilters();
     resetView();
     update();
   }
