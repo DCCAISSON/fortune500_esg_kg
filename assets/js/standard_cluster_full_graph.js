@@ -17,6 +17,7 @@
   const INDUSTRY_DEFAULT = "#6b7c85";
   const GENERIC_GHG_ID = "ghg_generic_reference";
   const EMBEDDED_PAYLOAD_VERSION = "reporting_views_embedded_v6_explicit_ghg_only";
+  const CJK_KEEP_PAIRS = new Set(["全屏", "实体", "知识", "图谱", "标准", "指南", "核算", "报告", "企业", "排放", "温室", "气体", "社区", "城市", "协议", "项目", "细分"]);
   const SCOPE_TERM_RE = /\bscope\s*(?:1|2|3|one|two|three|i|ii|iii)\b|范围\s*(?:1|2|3|一|二|三)|范畴\s*(?:1|2|3|一|二|三)/i;
 
   function $(id) {
@@ -69,8 +70,11 @@
     if (!textValue) return [""];
     if (/[\u4e00-\u9fff]/.test(textValue) || !textValue.includes(" ")) {
       const lines = [];
-      for (let cursor = 0; cursor < textValue.length; cursor += maxChars) {
-        lines.push(textValue.slice(cursor, cursor + maxChars));
+      for (let cursor = 0; cursor < textValue.length;) {
+        let end = Math.min(textValue.length, cursor + maxChars);
+        if (end < textValue.length && CJK_KEEP_PAIRS.has(textValue.slice(end - 1, end + 1))) end += 1;
+        lines.push(textValue.slice(cursor, end));
+        cursor = end;
       }
       return lines.slice(0, 4);
     }
@@ -88,6 +92,12 @@
     });
     if (line) lines.push(line);
     return lines.slice(0, 4);
+  }
+
+  function compactLabel(value, maxChars) {
+    const textValue = String(value || "").trim();
+    if (!textValue || textValue.length <= maxChars) return textValue;
+    return `${textValue.slice(0, Math.max(0, maxChars - 3)).trim()}...`;
   }
 
   function appendTextLines(group, lines, x, y, className, lineHeight) {
@@ -684,6 +694,9 @@
     viewport.append(layers.bg, layers.edges, layers.nodes, layers.labels);
     svg.appendChild(viewport);
     svg.setAttribute("viewBox", `0 0 ${graph.layout.width} ${graph.layout.height}`);
+    svg.setAttribute("tabindex", "0");
+    svg.setAttribute("role", "group");
+    svg.setAttribute("aria-roledescription", text("interactive knowledge graph", "交互式知识图谱"));
 
     const state = {
       query: "",
@@ -699,11 +712,21 @@
     };
     const standardById = new Map(graph.layout.standards.map((node) => [node.id, node]));
     const companyById = new Map(graph.layout.companies.map((node) => [node.id, node]));
+    const clusterBgElements = new Map();
     const standardElements = new Map();
     const companyElements = new Map();
     const edgeElements = [];
 
-    graph.layout.clusterNodes.forEach((node) => {
+    function bindNodeAction(node, action) {
+      node.addEventListener("click", action);
+      node.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        action();
+      });
+    }
+
+    graph.layout.clusterNodes.forEach((node, index) => {
       const rect = createSvgEl("rect", {
         x: node.cluster.x,
         y: node.cluster.y,
@@ -724,6 +747,7 @@
       label.textContent = graph.mode === "ghg"
         ? `${node.shortName || node.name} · ${formatInt(node.explicitCompanyCount || 0)} ${text("strong", "强证据")} / ${formatInt(node.contextualCompanyCount || 0)} ${text("review", "复核")} / ${formatInt(node.overmappedReviewCompanyCount || 0)} ${text("overmapped", "疑似过度映射")}`
         : `${node.shortName || node.name} · ${formatInt(node.clusterCompanies.length)}`;
+      label.textContent = label.textContent.replace(String(node.shortName || node.name), compactLabel(node.shortName || node.name, lang() === "zh" ? 28 : 54));
       layers.bg.appendChild(label);
       const meta = createSvgEl("text", {
         x: node.cluster.x + 28,
@@ -736,6 +760,22 @@
       rect.classList.toggle("is-contextual-only", !hasExplicitCompanies);
       label.classList.toggle("is-contextual-only", !hasExplicitCompanies);
       meta.classList.toggle("is-contextual-only", !hasExplicitCompanies);
+      const badge = createSvgEl("circle", {
+        cx: node.cluster.x + node.cluster.width - 42,
+        cy: node.cluster.y + 42,
+        r: 18,
+        fill: node.color,
+        opacity: 0.92,
+      });
+      const badgeText = createSvgEl("text", {
+        x: node.cluster.x + node.cluster.width - 42,
+        y: node.cluster.y + 47,
+        class: "cluster-standard-bg-index",
+        "text-anchor": "middle",
+      });
+      badgeText.textContent = String(index + 1).padStart(2, "0");
+      layers.bg.append(badge, badgeText);
+      clusterBgElements.set(node.id, { rect, label, meta, badge, badgeText });
     });
 
     const systemEdgeTargetX = graph.layout.standards.length ? Math.min(...graph.layout.standards.map((node) => node.x)) - 145 : 980;
@@ -776,7 +816,14 @@
       });
     });
 
-    const systemNode = createSvgEl("g", { class: "cluster-system-node", tabindex: "0", role: "button" });
+    const systemNode = createSvgEl("g", {
+      class: "cluster-system-node",
+      tabindex: "0",
+      role: "button",
+      "aria-label": graph.layout.system.name,
+    });
+    systemNode.appendChild(createSvgEl("title", {}));
+    systemNode.querySelector("title").textContent = graph.layout.system.name;
     systemNode.appendChild(createSvgEl("rect", {
       x: graph.layout.system.x - 180,
       y: graph.layout.system.y - 82,
@@ -791,7 +838,7 @@
       text(`${formatInt(graph.companyNodes.length)} companies`, `${formatInt(graph.companyNodes.length)} 家企业`),
     ], graph.layout.system.x, graph.layout.system.y + 44, "cluster-system-meta", 24);
     layers.nodes.appendChild(systemNode);
-    systemNode.addEventListener("click", () => {
+    bindNodeAction(systemNode, () => {
       state.selectedKind = "system";
       state.selectedId = graph.system.id;
       update();
@@ -802,8 +849,12 @@
         class: `cluster-standard-node${node.isGhgFineClass ? " is-ghg-series" : ""}${node.isGenericGhg ? " is-review-node" : ""}`,
         tabindex: "0",
         role: "button",
+        "aria-label": `${node.shortName || node.name}: ${formatInt(node.companyIds.length)} companies`,
         "data-standard-id": node.id,
       });
+      const standardTitle = createSvgEl("title", {});
+      standardTitle.textContent = `${node.shortName || node.name} - ${node.category || node.role || ""}`;
+      group.appendChild(standardTitle);
       group.appendChild(createSvgEl("rect", {
         x: node.x - 140,
         y: node.y - 56,
@@ -822,7 +873,7 @@
       ], node.x, node.y + 34, "cluster-standard-meta", 20);
       layers.nodes.appendChild(group);
       standardElements.set(node.id, { group, data: node });
-      group.addEventListener("click", () => {
+      bindNodeAction(group, () => {
         state.selectedKind = "standard";
         state.selectedId = node.id;
         update();
@@ -837,8 +888,12 @@
         class: `cluster-company-node${hasExplicitGhgLink ? "" : " is-contextual-only"}`,
         tabindex: "0",
         role: "button",
+        "aria-label": `${company.name || company.id}: ${company.industry || company.industryLabel || ""}`,
         "data-company-id": company.id,
       });
+      const companyTitle = createSvgEl("title", {});
+      companyTitle.textContent = `${company.name || company.id} #${company.rank || "-"} ${company.industry || company.industryLabel || ""}`;
+      group.appendChild(companyTitle);
       group.appendChild(createSvgEl("circle", {
         cx: company.x,
         cy: company.y,
@@ -864,7 +919,7 @@
       layers.labels.appendChild(label);
       layers.nodes.appendChild(group);
       companyElements.set(company.id, { group, label, data: company });
-      group.addEventListener("click", () => {
+      bindNodeAction(group, () => {
         state.selectedKind = "company";
         state.selectedId = company.id;
         update();
@@ -938,9 +993,9 @@
             <div><dt>${escapeHtml(text("Industry background", "行业背景色"))}</dt><dd>${escapeHtml(company.industry || company.industryLabel || "-")}</dd></div>
             <div><dt>${escapeHtml(text("Linked standards", "关联标准/指南"))}</dt><dd>${escapeHtml(linkedNames.join(" | ") || "-")}</dd></div>
             ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("GHG evidence strength", "GHG 证据强度"))}</dt><dd>${escapeHtml(text(`${explicitCount} explicit / ${contextualCount} contextual review / ${overmappedCount} possible overmapping`, `${explicitCount} 条明示 / ${contextualCount} 条上下文待复核 / ${overmappedCount} 条疑似过度映射`))}</dd></div>` : ""}
-            ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Current evidence mode", "当前证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Audit mode: strong + contextual review", "审核模式：强证据 + 上下文待复核") : text("Strong mode: explicit citations only", "强证据模式：仅原文明示引用"))}</dd></div>` : ""}
+            ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Current evidence mode", "当前证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Audit inspection: dashed review links shown, not accepted", "审核检查：显示虚线复核边，但不计入采信") : text("Acceptance view: explicit citations only", "验收图：仅原文明示引用"))}</dd></div>` : ""}
           </dl>
-          ${graph.mode === "ghg" && state.evidenceMode === "explicit" && contextualCount ? `<div class="cluster-evidence-notice is-contextual">${escapeHtml(text("Contextual review evidence is hidden in the default graph mode. Switch to audit mode to inspect dashed review links.", "默认强证据模式已隐藏上下文待复核证据；切换到审核模式可查看虚线复核关系。"))}</div>` : ""}
+          ${graph.mode === "ghg" && state.evidenceMode === "explicit" && contextualCount ? `<div class="cluster-evidence-notice is-contextual">${escapeHtml(text("Contextual review evidence is hidden in the acceptance view. Switch to audit inspection to inspect dashed review links; they remain excluded from accepted totals.", "验收图已隐藏上下文待复核证据；切换到审核检查可查看虚线复核关系，但仍不计入采信总数。"))}</div>` : ""}
           ${workbenchUrl(company.id) ? `<a class="btn alt" href="${escapeHtml(workbenchUrl(company.id))}">${escapeHtml(text("Open workbench", "打开企业工作台"))}</a>` : ""}
           <h4>${escapeHtml(text("Evidence back-links", "证据回链"))}</h4>
           ${evidenceHtml(evidence, 5)}
@@ -964,7 +1019,7 @@
           <div><dt>${escapeHtml(text("Linked companies", "关联企业"))}</dt><dd>${graph.mode === "ghg" ? `${formatInt(displayedCount)} ${escapeHtml(text("strong displayed", "强证据显示"))} / ${formatInt(standard.companyIds.length)} ${escapeHtml(text("mapped incl. review", "总映射含复核"))}` : formatInt(standard.companyIds.length)}</dd></div>
             ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Evidence split", "证据拆分"))}</dt><dd>${escapeHtml(text(`${explicitCount} explicit / ${contextualCount} contextual review / ${overmappedCount} possible overmapping`, `${explicitCount} 条明示 / ${contextualCount} 条上下文待复核 / ${overmappedCount} 条疑似过度映射`))}</dd></div>` : ""}
           </dl>
-          ${graph.mode === "ghg" && (contextualCount || overmappedCount) ? `<div class="cluster-evidence-notice">${escapeHtml(text("Dashed company links are contextual mappings under review; possible-overmapping links must be reassigned or demoted before being treated as a company-series relationship.", "虚线企业边是待复核上下文映射；疑似过度映射边必须重分配或降级后，才能作为企业-系列关系。"))}</div>` : ""}
+          ${graph.mode === "ghg" && (contextualCount || overmappedCount) ? `<div class="cluster-evidence-notice">${escapeHtml(text("Dashed company links appear only in audit inspection mode. They are review evidence and must be reassigned or demoted before being treated as accepted company-series relationships.", "虚线企业边仅在审核检查模式中出现；它们属于复核证据，必须重分配或降级后，才能作为采信的企业-系列关系。"))}</div>` : ""}
           <h4>${escapeHtml(text("Evidence back-links", "证据回链"))}</h4>
           ${evidenceHtml(standard.evidence, 4)}
         `;
@@ -976,8 +1031,8 @@
           <div><dt>${escapeHtml(text("Specific standard/guidance nodes", "具体标准/指南节点"))}</dt><dd>${formatInt(graph.standardNodes.length)}</dd></div>
           <div><dt>${escapeHtml(text("Company nodes", "企业节点"))}</dt><dd>${formatInt(graph.companyNodes.length)}</dd></div>
           <div><dt>${escapeHtml(text("Company-standard links", "企业-标准关系"))}</dt><dd>${formatInt(graph.linkCount)}</dd></div>
-          ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Evidence mode", "证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Audit mode includes dashed contextual review links.", "审核模式包含虚线上下文待复核关系。") : text("Default strong mode displays explicit source citations only.", "默认强证据模式仅显示原文明示引用关系。"))}</dd></div>` : ""}
-          ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Line style", "连线样式"))}</dt><dd>${escapeHtml(text("Solid = explicit source citation; dashed = contextual review; dashed overmapping links require reassign/demote review.", "实线=原文明示引用；虚线=上下文待复核；疑似过度映射虚线需重分配/降级复核。"))}</dd></div>` : ""}
+          ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Evidence mode", "证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Audit inspection shows dashed review links, but accepted totals remain explicit-only.", "审核检查显示虚线复核边，但采信总数仍只按明示引用计算。") : text("Acceptance view displays explicit source citations only.", "验收图仅显示原文明示引用关系。"))}</dd></div>` : ""}
+          ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Line style", "连线样式"))}</dt><dd>${escapeHtml(text("Solid = explicit accepted citation; dashed = review-only audit link, not accepted.", "实线=明示采信引用；虚线=仅供审核的复核边，不计入采信。"))}</dd></div>` : ""}
           <div><dt>${escapeHtml(text("Display rule", "展示规则"))}</dt><dd>${escapeHtml(text("Companies are positioned by their primary standard cluster; dot color is industry.", "企业按主要归属标准聚类，企业点颜色表示行业。"))}</dd></div>
         </dl>
       `;
@@ -1060,6 +1115,14 @@
       }
       const selectedStandard = selectedStandardId();
       const matched = new Set(graph.layout.companies.filter(matchesQuery).filter(companyHasVisibleLink).map((company) => company.id));
+      clusterBgElements.forEach((entry, id) => {
+        const isActive = selectedStandard === id;
+        const isDimmed = Boolean(selectedStandard && selectedStandard !== id);
+        [entry.rect, entry.label, entry.meta, entry.badge, entry.badgeText].forEach((node) => {
+          node.classList.toggle("is-active", isActive);
+          node.classList.toggle("is-dimmed", isDimmed);
+        });
+      });
       standardElements.forEach((entry, id) => {
         const isActive = state.selectedKind === "standard" && state.selectedId === id;
         const isLinked = state.selectedKind === "company" && (companyById.get(state.selectedId)?.linkedItems || []).includes(id);
@@ -1104,11 +1167,35 @@
       viewport.setAttribute("transform", `translate(${state.tx} ${state.ty}) scale(${state.scale})`);
     }
 
-    function resetView() {
+    function fitView() {
       state.scale = graph.mode === "ghg" ? 0.9 : 0.82;
       state.tx = 0;
       state.ty = 0;
       applyTransform();
+    }
+
+    function resetView() {
+      const clusters = graph.layout.clusterNodes.filter((node) => node.cluster);
+      if (!clusters.length) {
+        fitView();
+        return;
+      }
+      const box = svg.getBoundingClientRect();
+      const readableScale = box.width <= 520
+        ? (graph.mode === "ghg" ? 8.2 : 7.0)
+        : box.width <= 900
+          ? (graph.mode === "ghg" ? 3.8 : 3.3)
+          : (graph.mode === "ghg" ? 2.3 : 2.0);
+      if (box.width && box.width <= 760) {
+        const lead = clusters[0];
+        focusOn(lead.cluster.x + lead.cluster.width * 0.34, lead.cluster.y + lead.cluster.height / 2, readableScale);
+        return;
+      }
+      const minX = Math.min(...clusters.map((node) => node.cluster.x));
+      const maxX = Math.max(...clusters.map((node) => node.cluster.x + node.cluster.width));
+      const minY = Math.min(...clusters.map((node) => node.cluster.y));
+      const maxY = Math.max(...clusters.map((node) => node.cluster.y + node.cluster.height));
+      focusOn((minX + maxX) / 2, (minY + maxY) / 2, readableScale);
     }
 
     function focusOn(x, y, scale) {
@@ -1138,8 +1225,19 @@
       update();
     });
     refs.reset.addEventListener("click", resetView);
-    refs.fit.addEventListener("click", resetView);
+    refs.fit.addEventListener("click", fitView);
     if (refs.evidenceMode) {
+      const reviewLegend = document.querySelector(".graph-legend-line.is-review")?.nextElementSibling;
+      if (graph.mode === "ghg" && reviewLegend) {
+        reviewLegend.textContent = text(
+          "Dashed line: review-only audit link; shown only in audit inspection and not counted as accepted",
+          "虚线：仅供审核的复核边；只在审核检查中显示，不计入采信"
+        );
+      }
+      const explicitOption = refs.evidenceMode.querySelector("option[value='explicit']");
+      const auditOption = refs.evidenceMode.querySelector("option[value='all']");
+      if (explicitOption) explicitOption.textContent = text("Acceptance view: explicit citations only", "验收图：仅原文明示引用");
+      if (auditOption) auditOption.textContent = text("Audit inspection: show dashed review links, not accepted", "审核检查：显示虚线复核边，不计入采信");
       refs.evidenceMode.value = state.evidenceMode;
       refs.evidenceMode.addEventListener("change", () => {
         state.evidenceMode = refs.evidenceMode.value === "all" ? "all" : "explicit";

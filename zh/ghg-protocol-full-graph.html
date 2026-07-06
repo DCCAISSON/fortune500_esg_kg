@@ -35,7 +35,7 @@
                 <span>证据关系模式</span>
                 <select id="ghg-full-graph-evidence-mode">
                   <option value="explicit" selected>默认强证据：仅原文明示引用</option>
-                  <option value="all">复核队列：上下文边不在本图绘制</option>
+                  <option value="all">审核检查：显示虚线复核边，不计入采信</option>
                 </select>
               </label>
             <div class="graph-toolbar-actions">
@@ -57,7 +57,7 @@
               <div class="graph-legend-item"><span class="graph-legend-swatch is-standard"></span><span>具体标准/指南节点</span></div>
               <div class="graph-legend-item"><span class="graph-legend-swatch is-company"></span><span>企业节点</span></div>
               <div class="graph-legend-item"><span class="graph-legend-line is-strong"></span><span>实线：原文明示引用</span></div>
-              <div class="graph-legend-item"><span class="graph-legend-line is-review"></span><span>虚线：上下文待复核，仅保留在复核队列，不进入本图</span></div>
+              <div class="graph-legend-item"><span class="graph-legend-line is-review"></span><span>虚线：仅供审核的复核边；不计入采信</span></div>
             </div>
           </div>
           <div class="card graph-side-card" id="ghg-full-graph-selection">
