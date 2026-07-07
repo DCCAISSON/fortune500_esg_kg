@@ -895,13 +895,28 @@
       return (system.companies || []).find((item) => item.id === companyId) || null;
     }
 
+    function matchesCompanyQuery(item, query) {
+      return [item.id, item.name, item.rank].some((value) => normalize(value).includes(query));
+    }
+
     function getVisibleCompanies(system, standard) {
-      let companies = standard ? [...(standard.companies || [])] : [];
       const query = normalize(state.query);
-      if (query) {
-        companies = companies.filter((item) => normalize(item.name).includes(query) || String(item.rank ?? '').includes(query));
+      if (!query) {
+        return standard ? [...(standard.companies || [])] : [];
       }
-      return companies;
+      const seen = new Set();
+      const matches = [];
+      systems.forEach((candidateSystem) => {
+        (candidateSystem.standards || []).forEach((item) => {
+        (item.companies || []).forEach((company) => {
+          const matchKey = company.id;
+          if (seen.has(matchKey) || !matchesCompanyQuery(company, query)) return;
+          seen.add(matchKey);
+          matches.push({ ...company, systemKey: candidateSystem.key, standardName: item.name });
+        });
+      });
+      });
+      return matches;
     }
 
     function ensureState() {
@@ -913,7 +928,14 @@
       const standard = getStandard(system);
       const visibleCompanies = getVisibleCompanies(system, standard);
       if (!visibleCompanies.some((item) => item.id === state.selectedCompanyId)) {
-        state.selectedCompanyId = visibleCompanies[0] ? visibleCompanies[0].id : '';
+        const first = visibleCompanies[0] || null;
+        state.selectedCompanyId = first ? first.id : '';
+        if (first && first.systemKey) state.systemKey = first.systemKey;
+        if (first && first.standardName) state.standardName = first.standardName;
+      } else if (state.query) {
+        const selected = visibleCompanies.find((item) => item.id === state.selectedCompanyId);
+        if (selected && selected.systemKey) state.systemKey = selected.systemKey;
+        if (selected && selected.standardName) state.standardName = selected.standardName;
       }
     }
 
@@ -1012,12 +1034,14 @@
       const rowsHtml = shownCompanies.map((item) => {
         const linkedCompany = getCompany(system, item.id);
         const linkedCount = linkedCompany ? (linkedCompany.standards || []).length : 0;
+        const standardName = item.standardName || standard.name;
+        const systemKey = item.systemKey || system.key;
         return `
           <div class="entity-company-node${item.id === state.selectedCompanyId ? ' is-active' : ''}">
-            <button class="entity-company-node-btn" type="button" data-company-id="${escapeHtml(item.id)}">
+            <button class="entity-company-node-btn" type="button" data-company-id="${escapeHtml(item.id)}" data-standard-name="${escapeHtml(standardName)}" data-system-key="${escapeHtml(systemKey)}">
               <span class="entity-company-rank">${escapeHtml(rankLabel(item.rank))}</span>
               <span class="entity-node-name">${escapeHtml(item.name)}</span>
-              <span class="entity-node-meta">${escapeHtml(standard.name)} · ${escapeHtml(formatInt(item.standardFactCount))}${escapeHtml(labels.facts_unit)} · ${escapeHtml(formatInt(linkedCount))}${escapeHtml(labels.standards_unit)}</span>
+              <span class="entity-node-meta">${escapeHtml(standardName)} · ${escapeHtml(formatInt(item.standardFactCount))}${escapeHtml(labels.facts_unit)} · ${escapeHtml(formatInt(linkedCount))}${escapeHtml(labels.standards_unit)}</span>
             </button>
           </div>
         `;
@@ -1032,6 +1056,8 @@
       elements.companyList.innerHTML = rowsHtml + toggleHtml;
       elements.companyList.querySelectorAll('[data-company-id]').forEach((button) => {
         button.addEventListener('click', () => {
+          state.systemKey = button.getAttribute('data-system-key') || state.systemKey;
+          state.standardName = button.getAttribute('data-standard-name') || state.standardName;
           state.selectedCompanyId = button.getAttribute('data-company-id') || '';
           render();
         });
@@ -1415,13 +1441,28 @@
       return (system.companies || []).find((item) => item.id === companyId) || null;
     }
 
+    function matchesCompanyQuery(item, query) {
+      return [item.id, item.name, item.rank].some((value) => normalize(value).includes(query));
+    }
+
     function getVisibleCompanies(system, standard) {
-      let companies = standard ? [...(standard.companies || [])] : [];
       const query = normalize(state.query);
-      if (query) {
-        companies = companies.filter((item) => normalize(item.name).includes(query) || String(item.rank ?? '').includes(query));
+      if (!query) {
+        return standard ? [...(standard.companies || [])] : [];
       }
-      return companies;
+      const seen = new Set();
+      const matches = [];
+      systems.forEach((candidateSystem) => {
+        (candidateSystem.standards || []).forEach((item) => {
+        (item.companies || []).forEach((company) => {
+          const matchKey = company.id;
+          if (seen.has(matchKey) || !matchesCompanyQuery(company, query)) return;
+          seen.add(matchKey);
+          matches.push({ ...company, systemKey: candidateSystem.key, standardName: item.name });
+        });
+      });
+      });
+      return matches;
     }
 
     function ensureState() {
@@ -1433,7 +1474,14 @@
       const standard = getStandard(system);
       const visibleCompanies = getVisibleCompanies(system, standard);
       if (!visibleCompanies.some((item) => item.id === state.selectedCompanyId)) {
-        state.selectedCompanyId = visibleCompanies[0] ? visibleCompanies[0].id : '';
+        const first = visibleCompanies[0] || null;
+        state.selectedCompanyId = first ? first.id : '';
+        if (first && first.systemKey) state.systemKey = first.systemKey;
+        if (first && first.standardName) state.standardName = first.standardName;
+      } else if (state.query) {
+        const selected = visibleCompanies.find((item) => item.id === state.selectedCompanyId);
+        if (selected && selected.systemKey) state.systemKey = selected.systemKey;
+        if (selected && selected.standardName) state.standardName = selected.standardName;
       }
     }
 
@@ -1519,12 +1567,14 @@
       const rowsHtml = shownCompanies.map((item) => {
         const linkedCompany = getCompany(system, item.id);
         const linkedCount = linkedCompany ? (linkedCompany.standards || []).length : 0;
+        const standardName = item.standardName || standard.name;
+        const systemKey = item.systemKey || system.key;
         return `
           <div class="entity-company-node${item.id === state.selectedCompanyId ? ' is-active' : ''}">
-            <button class="entity-company-node-btn" type="button" data-company-id="${escapeHtml(item.id)}">
+            <button class="entity-company-node-btn" type="button" data-company-id="${escapeHtml(item.id)}" data-standard-name="${escapeHtml(standardName)}" data-system-key="${escapeHtml(systemKey)}">
               <span class="entity-company-rank">${escapeHtml(rankLabel(item.rank))}</span>
               <span class="entity-node-name">${escapeHtml(item.name)}</span>
-              <span class="entity-node-meta">${escapeHtml(standard.name)} · ${escapeHtml(formatInt(item.standardFactCount))}${escapeHtml(labels.facts_unit)} · ${escapeHtml(formatInt(linkedCount))}${escapeHtml(labels.standards_unit)}</span>
+              <span class="entity-node-meta">${escapeHtml(standardName)} · ${escapeHtml(formatInt(item.standardFactCount))}${escapeHtml(labels.facts_unit)} · ${escapeHtml(formatInt(linkedCount))}${escapeHtml(labels.standards_unit)}</span>
             </button>
           </div>
         `;
@@ -1539,6 +1589,8 @@
       elements.companyList.innerHTML = rowsHtml + toggleHtml;
       elements.companyList.querySelectorAll('[data-company-id]').forEach((button) => {
         button.addEventListener('click', () => {
+          state.systemKey = button.getAttribute('data-system-key') || state.systemKey;
+          state.standardName = button.getAttribute('data-standard-name') || state.standardName;
           state.selectedCompanyId = button.getAttribute('data-company-id') || '';
           render();
         });
@@ -1598,11 +1650,12 @@
         const linkedCompany = getCompany(system, item.id);
         const linkedCount = linkedCompany ? (linkedCompany.standards || []).length : 0;
         const scopeText = item.roles && item.roles.length ? item.roles.join(' | ') : labels.no_roles;
+        const standardName = item.standardName || standard.name;
         return `
           <tr>
             <td>${escapeHtml(item.name)}</td>
             <td>${escapeHtml(rankLabel(item.rank))}</td>
-            <td>${escapeHtml(standard.name)}</td>
+            <td>${escapeHtml(standardName)}</td>
             <td>${escapeHtml(formatInt(item.standardFactCount))}</td>
             <td>${escapeHtml(formatInt(linkedCount))}</td>
             <td>${escapeHtml(scopeText)}</td>
