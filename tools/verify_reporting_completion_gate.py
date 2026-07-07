@@ -1483,17 +1483,17 @@ def assert_disclosure_boundary_language() -> None:
     required_terms = {
         ROOT / "index.html": [
             "披露信号聚类",
-            "不等同于已核证项目实施",
+            "项目、成本/投资和减排效果证据层级",
             "不等于已审定计算权重",
         ],
         ROOT / "zh" / "index.html": [
             "披露信号聚类",
-            "不等同于已核证项目实施",
+            "项目、成本/投资和减排效果证据层级",
             "不等于已审定计算权重",
         ],
         ROOT / "en" / "index.html": [
-            "disclosure-signal cluster",
-            "not verified project implementation",
+            "disclosure-signal clusters",
+            "project, cost/investment, and abatement-evidence boundaries",
             "not audited calculation weights",
         ],
         ROOT / "assets" / "js" / "reporting_views.js": [

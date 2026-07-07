@@ -23,6 +23,14 @@ function requireText(file, needles) {
   }
 }
 
+function requireMetricText(file, label, value) {
+  requireFile(file);
+  if (!fs.existsSync(path.join(root, file))) return;
+  const text = fs.readFileSync(path.join(root, file), "utf8");
+  const needle = `${label} | ${value}`;
+  if (!text.includes(needle)) failures.push(`${file} missing metric: ${needle}`);
+}
+
 function requireEqual(label, actual, expected) {
   if (actual !== expected) failures.push(`${label}: expected ${expected}, got ${actual}`);
 }
@@ -48,7 +56,8 @@ requireText("docs/REQUIREMENT_TRACEABILITY.md", [
   "企业总碳排放量",
   "标准角色族",
   "图 6",
-  "初级/次级数据"
+  "初级/次级数据",
+  "不作为网站前台叙事主线"
 ]);
 
 requireText("docs/KG_SCHEMA.md", [
@@ -104,6 +113,21 @@ requireEqual(
   emissionsLedger.complete_accepted_count,
   views.summary.complete_emissions_ranking_company_count
 );
+
+const publishedMetrics = [
+  ["GHGP accepted 细分边", ghgLedger.accepted_edge_count],
+  ["标准角色 accepted 边", views.summary.accepted_standard_link_count],
+  ["完整可比排放排行企业", views.summary.complete_emissions_ranking_company_count],
+  ["可用排放排行企业", views.summary.available_emissions_ranking_company_count],
+  ["项目级成本/投资强证据", views.summary.technology_project_cost_evidence_count],
+  ["原文明示 primary-data 百分比企业", views.summary.source_mix_explicit_reported_primary_ratio_company_count]
+];
+
+for (const [label, value] of publishedMetrics) {
+  requireMetricText("docs/REQUIREMENT_TRACEABILITY.md", label, value);
+  requireMetricText("KG_QUALITY_REPORT.md", label, value);
+}
+
 requireAtLeast("emissions complete accepted count", emissionsLedger.complete_accepted_count, 27);
 requireAtLeast("technology project evidence count", views.summary.technology_project_evidence_count, 77);
 requireAtLeast("technology cost evidence count", views.summary.technology_project_cost_evidence_count, 11);

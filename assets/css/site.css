@@ -312,6 +312,7 @@ a{text-decoration:none;color:inherit}
 .review-kv-item span{display:block;line-height:1.75;color:var(--ink);font-size:13.5px}
 .visual-list{display:grid;gap:24px}
 .report-figure-head{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;border-bottom:1px dashed var(--line);padding-bottom:12px;margin-bottom:12px}
+.report-figure-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .report-figure-title{display:flex;gap:12px;align-items:center}
 .report-figure-title h3{margin:0;font-family:var(--font-title);font-size:22px;font-weight:800;color:var(--ink)}
 .tag{

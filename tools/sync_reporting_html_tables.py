@@ -85,21 +85,31 @@ def figure2_rows(payload, lang):
 
 
 def figure2_entity_graph_card(lang, entity_graph_path):
+    interactive_href = (
+        "./zh/role-family-standard-full-graph.html"
+        if entity_graph_path.startswith("./")
+        else "./role-family-standard-full-graph.html"
+    )
     if lang == "zh":
         title = "\u56fe2B \u6807\u51c6-\u4f01\u4e1a accepted \u5b9e\u4f53\u7ea7\u77e5\u8bc6\u56fe\u8c31"
         note = "\u53e3\u5f84\uff1a\u6807\u51c6\u8282\u70b9\u5728\u4e2d\u5fc3\uff0c\u4f01\u4e1a\u8282\u70b9\u6309 accepted \u8fb9\u5728\u5916\u56f4\u5c55\u793a\uff1b\u4f01\u4e1a\u70b9\u989c\u8272\u8868\u793a\u884c\u4e1a\u3002\u6cdb\u5316 GHG \u548c review \u8fb9\u4e0d\u8fdb\u5165\u7ed8\u5236\u56fe\u3002"
         alt = title
         button = "\u70b9\u51fb\u653e\u5927\u67e5\u770b"
+        interactive_label = "\u67e5\u8be2\u4f01\u4e1a\u4e0e\u6807\u51c6"
     else:
         title = "Figure 2B Accepted Standard-Company Entity Knowledge Graph"
         note = "Scope: standards are shown at cluster centers and accepted companies around them; company dot color indicates industry. Generic GHG and review edges are not drawn."
         alt = title
         button = "View Large"
+        interactive_label = "Search companies and standards"
     return (
         '<div class="table-card report-entity-figure-card">'
         '<div class="report-figure-head">'
         f'<div class="report-figure-title"><div class="tag">2B</div><h3>{h(title)}</h3></div>'
+        '<div class="report-figure-actions">'
         f'<button class="zoom-btn" type="button" data-lightbox-src="{h(entity_graph_path)}" data-lightbox-title="{h(title)}">{h(button)}</button>'
+        f'<a class="zoom-btn" href="{h(interactive_href)}">{h(interactive_label)}</a>'
+        '</div>'
         '</div>'
         f'<img class="visual-figure" src="{h(entity_graph_path)}" alt="{h(alt)}" data-lightbox-src="{h(entity_graph_path)}" data-lightbox-title="{h(title)}" tabindex="0">'
         f'<p class="table-lead">{h(note)}</p>'

@@ -470,9 +470,13 @@
       return {
         id: row.company_id,
         name: pickLocalized(row, "company_name_zh", "company_name_en", row.company_id),
+        companyNameZh: row.company_name_zh || "",
+        companyNameEn: row.company_name_en || "",
         rank: row.world500_rank,
         industry: pickLocalized(row, "industry_section_zh", "industry_section_en", row.industry_label_zh || ""),
         industryLabel: row.industry_label_zh || row.industry_section_en || "",
+        industrySectionZh: row.industry_section_zh || "",
+        industrySectionEn: row.industry_section_en || "",
         industryColor: row.industry_color || INDUSTRY_DEFAULT,
         linkedItems,
         linkMetaByItem,
@@ -608,12 +612,16 @@
       return {
         id: company.company_id,
         name: pickLocalized(company, "company_name_zh", "company_name_en", company.company_id),
+        companyNameZh: company.company_name_zh || "",
+        companyNameEn: company.company_name_en || "",
         rank: company.world500_rank,
       linkedItems,
       evidenceByItem,
       evidence: [],
       industry: pickLocalized(company, "industry_section_zh", "industry_section_en", company.industry_label_zh || ""),
       industryLabel: company.industry_label_zh || "",
+      industrySectionZh: company.industry_section_zh || "",
+      industrySectionEn: company.industry_section_en || "",
       industryColor: company.industry_color || INDUSTRY_DEFAULT,
       linkMetaByItem,
     };
@@ -1051,10 +1059,22 @@
         })
         .join(" ")
         .toLowerCase();
-      return String(company.name || "").toLowerCase().includes(query)
-        || rank.includes(query)
-        || String(company.industry || company.industryLabel || "").toLowerCase().includes(query)
-        || linkedStandards.includes(query);
+      const companyText = [
+        company.id,
+        company.name,
+        company.companyNameZh,
+        company.companyNameEn,
+        company.company_name_zh,
+        company.company_name_en,
+        rank,
+        company.industry,
+        company.industryLabel,
+        company.industrySectionZh,
+        company.industrySectionEn,
+        ...(Array.isArray(company.aliases) ? company.aliases : []),
+        linkedStandards,
+      ].filter(Boolean).join(" ").toLowerCase();
+      return companyText.includes(query);
     }
 
     function matchesFilters(company) {
@@ -1123,7 +1143,7 @@
             <div><dt>${escapeHtml(text("Industry background", "行业背景色"))}</dt><dd>${escapeHtml(company.industry || company.industryLabel || "-")}</dd></div>
             <div><dt>${escapeHtml(text("Linked standards", "关联标准/指南"))}</dt><dd>${escapeHtml(linkedNames.join(" | ") || "-")}</dd></div>
             ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("GHG evidence strength", "GHG 证据强度"))}</dt><dd>${escapeHtml(text(`${explicitCount} explicit / ${contextualCount} contextual review / ${overmappedCount} possible overmapping`, `${explicitCount} 条明示 / ${contextualCount} 条上下文待复核 / ${overmappedCount} 条疑似过度映射`))}</dd></div>` : ""}
-            ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Current evidence mode", "当前证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Audit inspection: dashed review links shown, not accepted", "审核检查：显示虚线复核边，但不计入采信") : text("Acceptance view: explicit citations only", "验收图：仅原文明示引用"))}</dd></div>` : ""}
+            ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Current evidence mode", "当前证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Review overlay: dashed review links shown, not accepted", "复核叠加：显示虚线复核边，但不计入采信") : text("Accepted evidence view: explicit citations only", "采信证据视图：仅原文明示引用"))}</dd></div>` : ""}
           </dl>
           ${graph.mode === "ghg" && state.evidenceMode === "explicit" && contextualCount ? `<div class="cluster-evidence-notice is-contextual">${escapeHtml(text("Contextual review evidence is hidden in the acceptance view. Switch to audit inspection to inspect dashed review links; they remain excluded from accepted totals.", "验收图已隐藏上下文待复核证据；切换到审核检查可查看虚线复核关系，但仍不计入采信总数。"))}</div>` : ""}
           ${workbenchUrl(company.id) ? `<a class="btn alt" href="${escapeHtml(workbenchUrl(company.id))}">${escapeHtml(text("Open workbench", "打开企业工作台"))}</a>` : ""}
@@ -1161,7 +1181,7 @@
           <div><dt>${escapeHtml(text("Specific standard/guidance nodes", "具体标准/指南节点"))}</dt><dd>${formatInt(graph.standardNodes.length)}</dd></div>
           <div><dt>${escapeHtml(text("Company nodes", "企业节点"))}</dt><dd>${formatInt(graph.companyNodes.length)}</dd></div>
           <div><dt>${escapeHtml(text("Company-standard links", "企业-标准关系"))}</dt><dd>${formatInt(graph.linkCount)}</dd></div>
-          ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Evidence mode", "证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Audit inspection shows dashed review links, but accepted totals remain explicit-only.", "审核检查显示虚线复核边，但采信总数仍只按明示引用计算。") : text("Acceptance view displays explicit source citations only.", "验收图仅显示原文明示引用关系。"))}</dd></div>` : ""}
+          ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Evidence mode", "证据模式"))}</dt><dd>${escapeHtml(state.evidenceMode === "all" ? text("Review overlay shows dashed review links, but accepted totals remain explicit-only.", "复核叠加显示虚线复核边，但采信总数仍只按明示引用计算。") : text("Accepted evidence view displays explicit source citations only.", "采信证据视图仅显示原文明示引用关系。"))}</dd></div>` : ""}
           ${graph.mode === "ghg" ? `<div><dt>${escapeHtml(text("Line style", "连线样式"))}</dt><dd>${escapeHtml(text("Solid = explicit accepted citation; dashed = review-only audit link, not accepted.", "实线=明示采信引用；虚线=仅供审核的复核边，不计入采信。"))}</dd></div>` : ""}
           <div><dt>${escapeHtml(text("Display rule", "展示规则"))}</dt><dd>${escapeHtml(text("Companies are positioned by their primary standard cluster; dot color is industry.", "企业按主要归属标准聚类，企业点颜色表示行业。"))}</dd></div>
         </dl>
@@ -1169,7 +1189,7 @@
     }
 
     function renderResults() {
-      const selected = selectedStandardId();
+      const selected = state.query.trim() ? state.filterStandardId : (state.filterStandardId || selectedStandardId());
       const rows = graph.layout.companies
         .filter((company) => matchesFilters(company))
         .filter((company) => !selected || ((company.linkedItems || []).includes(selected) && linkIsVisible(company, selected)))
@@ -1283,13 +1303,13 @@
       const summary = reporting.summary || {};
       explorerRefs.trustBoundary.innerHTML = `
         <h3>${escapeHtml(text("Acceptance boundary", "当前图谱可信边界"))}</h3>
-        <p>${escapeHtml(text("This is an acceptance graph, not a raw audit graph. Solid links are explicit page-level GHGP citations; generic GHG mentions and demoted overmapping are excluded from accepted relationships.", "这是验收图，不是原始审计全量图。实线表示页级原文明示 GHGP 细分引用；泛化 GHG 提及和已降级过度映射不进入采信关系。"))}</p>
+        <p>${escapeHtml(text("This graph shows accepted evidence relationships, not every raw review lead. Solid links are explicit page-level GHGP citations; generic GHG mentions and demoted overmapping are excluded from accepted relationships.", "这是采信证据图，不是原始复核线索全量图。实线表示页级原文明示 GHGP 细分引用；泛化 GHG 提及和已降级过度映射不进入采信关系。"))}</p>
         <div class="graph-trust-grid">
           <span><strong>${formatInt(summary.ghg_accepted_series_edge_count || 0)}</strong>${escapeHtml(text("accepted edges", "采信边"))}</span>
           <span><strong>${formatInt(summary.ghg_demoted_series_edge_count || 0)}</strong>${escapeHtml(text("demoted edges", "降级边"))}</span>
           <span><strong>${formatInt(summary.ghg_graph_zero_accepted_series_count || 0)}</strong>${escapeHtml(text("zero-accepted standards", "零采信标准"))}</span>
         </div>
-        <a class="graph-mini-link" href="../reporting-completion-audit.html">${escapeHtml(text("Open audit statement", "打开验收审计说明"))}</a>
+        <a class="graph-mini-link" href="../reporting-completion-audit.html">${escapeHtml(text("Open evidence boundary note", "打开证据边界说明"))}</a>
       `;
     }
 
@@ -1496,8 +1516,8 @@
       }
       const explicitOption = refs.evidenceMode.querySelector("option[value='explicit']");
       const auditOption = refs.evidenceMode.querySelector("option[value='all']");
-      if (explicitOption) explicitOption.textContent = text("Acceptance view: explicit citations only", "验收图：仅原文明示引用");
-      if (auditOption) auditOption.textContent = text("Audit inspection: show dashed review links, not accepted", "审核检查：显示虚线复核边，不计入采信");
+      if (explicitOption) explicitOption.textContent = text("Accepted evidence view: explicit citations only", "采信证据视图：仅原文明示引用");
+      if (auditOption) auditOption.textContent = text("Review overlay: show dashed review links, not accepted", "复核叠加：显示虚线复核边，不计入采信");
       refs.evidenceMode.value = state.evidenceMode;
       refs.evidenceMode.addEventListener("change", () => {
         state.evidenceMode = refs.evidenceMode.value === "all" ? "all" : "explicit";
