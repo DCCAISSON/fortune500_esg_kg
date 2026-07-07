@@ -1,0 +1,307 @@
+company_id,company_name,world500_rank,industry_section_code,industry_section_name_zh,industry_section_name_en,primary_ratio_for_bubble,secondary_ratio_for_bubble,unknown_ratio_for_bubble,bubble_evidence_type,fact_count,explicit_ratio_evidence_count,inference_evidence_count,included_in_bubble,bubble_size_metric,bubble_color_bucket
+r026_microsoft,MICROSOFT,26,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.7,0.30000000000000004,0.8667,explicit_reported_primary_data_percentage,15,1,0,true,15,I
+r036_fordmotor,FORD MOTOR,36,C,制造业,Manufacturing,0.07,0.9299999999999999,0.5714,explicit_reported_primary_data_percentage,56,1,0,true,56,C
+r082_allianz,ALLIANZ,82,J,金融业,Finance,0.34,0.6599999999999999,0.7241,explicit_reported_primary_data_percentage,58,1,0,true,58,J
+r091_equinor公司,Equinor,91,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.02,0.98,0.961,explicit_reported_primary_data_percentage,77,1,0,true,77,D
+r097_enel,ENEL,97,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.07,0.9299999999999999,0.717,explicit_reported_primary_data_percentage,53,1,0,true,53,I
+r132_orlen,ORLEN,132,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0,1,0.9375,explicit_reported_primary_data_percentage,48,1,0,true,48,D
+r205_deutschebank,DEUTSCHE BANK,205,J,金融业,Finance,0.41,0.5900000000000001,0.6863,explicit_reported_primary_data_percentage,51,1,0,true,51,J
+r247_repsol,REPSOL,247,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.917,0.08299999999999996,0.6557,explicit_reported_primary_data_percentage,61,1,0,true,61,D
+r350_telefónica,TELEFÓNICA,350,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.72,0.28,0.8529,explicit_reported_primary_data_percentage,34,1,0,true,34,I
+r374_lufthansagroup,LUFTHANSA GROUP,374,G,交通运输、仓储和邮政业,"Transport, Storage and Post",0.8946999999999999,0.10530000000000006,0.3793,explicit_reported_primary_data_percentage,29,1,0,true,29,G
+r386_inditex公司,Inditex,386,F,批发和零售业,Wholesale and Retail Trade,0.67,0.32999999999999996,0.9417,explicit_reported_primary_data_percentage,103,1,0,true,103,F
+r469_novonordisk,NOVO NORDISK,469,C,制造业,Manufacturing,0.12,0.88,0.6481,explicit_reported_primary_data_percentage,54,1,0,true,54,C
+r482_jerónimomartins公司,Jerónimo Martins,482,F,批发和零售业,Wholesale and Retail Trade,0.12300000000000001,0.877,0.7083,explicit_reported_primary_data_percentage,24,1,0,true,24,F
+r001_walmart,WALMART,1,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,18,0,18,false,18,F
+r002_amazoncom,AMAZON.COM,2,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,8,0,8,false,8,F
+r004_saudiaramco,SAUDI ARAMCO,4,B,采矿业,Mining,0,1,0.875,method_row_source_mix_inference,16,0,16,true,16,B
+r005_sinopecgroup,SINOPEC GROUP,5,C,制造业,Manufacturing,1,0,0.3333,method_row_source_mix_inference,3,0,3,true,3,C
+r007_apple,APPLE,7,C,制造业,Manufacturing,0.5,0.5,0.9783,method_row_source_mix_inference,46,0,46,true,46,C
+r008_unitedhealthgroup,UNITEDHEALTH GROUP,8,J,金融业,Finance,0,1,0.9615,method_row_source_mix_inference,26,0,26,true,26,J
+r010_cvshealth公司,CVS Health,10,F,批发和零售业,Wholesale and Retail Trade,0,1,0.9688,method_row_source_mix_inference,32,0,32,true,32,F
+r011_volkswagen,VOLKSWAGEN,11,C,制造业,Manufacturing,0.4667,0.5333,0.5588,method_row_source_mix_inference,34,0,34,true,34,C
+r013_shell,SHELL,13,B,采矿业,Mining,0.625,0.375,0.9298,method_row_source_mix_inference,57,0,57,true,57,B
+r015_toyotamotor,TOYOTA MOTOR,15,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,4,0,4,false,4,C
+r016_mckesson,MCKESSON,16,F,批发和零售业,Wholesale and Retail Trade,0,1,0.5882,method_row_source_mix_inference,51,0,51,true,51,F
+r017_alphabet公司,Alphabet,17,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.5,0.5,0.9747,method_row_source_mix_inference,79,0,79,true,79,I
+r018_cencora公司,Cencora,18,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,2,0,2,false,2,F
+r019_trafiguragroup,TRAFIGURA GROUP,19,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,28,0,28,false,28,F
+r020_costcowholesale,COSTCO WHOLESALE,20,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,8,0,8,false,8,F
+r021_jpmorganchase,JPMORGAN CHASE,21,J,金融业,Finance,,,1,method_row_source_mix_inference,15,0,15,false,15,J
+r023_totalenergies,TOTALENERGIES,23,B,采矿业,Mining,0.9,0.1,0.6774,method_row_source_mix_inference,31,0,31,true,31,B
+r025_bp,BP,25,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,8,0,8,false,8,D
+r027_cardinalhealth,CARDINAL HEALTH,27,F,批发和零售业,Wholesale and Retail Trade,0.4706,0.5294,0.7018,method_row_source_mix_inference,57,0,57,true,57,F
+r029_chevron,CHEVRON,29,B,采矿业,Mining,,,1,method_row_source_mix_inference,14,0,14,false,14,B
+r030_chinaconstructionbank,CHINA CONSTRUCTION BANK,30,J,金融业,Finance,,,1,method_row_source_mix_inference,7,0,7,false,7,J
+r031_samsungelectronics,SAMSUNG ELECTRONICS,31,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,4,0,4,false,4,C
+r032_honhaiprecisionindustry,HON HAI PRECISION INDUSTRY,32,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r033_cignagroup,CIGNA GROUP,33,J,金融业,Finance,,,1,method_row_source_mix_inference,15,0,15,false,15,J
+r034_agriculturalbankofchina,AGRICULTURAL BANK OF CHINA,34,J,金融业,Finance,0.5,0.5,0.25,method_row_source_mix_inference,12,0,12,true,12,J
+r037_bankofchina,BANK OF CHINA,37,J,金融业,Finance,0,1,0,method_row_source_mix_inference,3,0,3,true,3,J
+r038_bankofamerica,BANK OF AMERICA,38,J,金融业,Finance,0.5833,0.4167,0.8571,method_row_source_mix_inference,42,0,42,true,42,J
+r039_generalmotors,GENERAL MOTORS,39,C,制造业,Manufacturing,0.7,0.3,0.7619,method_row_source_mix_inference,21,0,21,true,21,C
+r041_bmwgroup,BMW GROUP,41,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r042_mercedesbenzgroup,MERCEDES-BENZ GROUP,42,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,22,0,22,false,22,C
+r045_citigroup,CITIGROUP,45,J,金融业,Finance,,,1,method_row_source_mix_inference,4,0,4,false,4,J
+r046_centene公司,Centene,46,J,金融业,Finance,,,1,method_row_source_mix_inference,23,0,23,false,23,J
+r047_jdcom,JD.COM,47,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,3,0,3,false,3,F
+r048_homedepot,HOME DEPOT,48,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,10,0,10,false,10,F
+r049_electricitédefrance,ELECTRICITÉ DE FRANCE,49,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.875,0.125,0.7778,method_row_source_mix_inference,18,0,18,true,18,I
+r050_marathonpetroleum,MARATHON PETROLEUM,50,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,9,0,9,false,9,D
+r052_phillips66公司,Phillips 66,52,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,3,0,3,false,3,D
+r053_pinganinsurance,PING AN INSURANCE,53,J,金融业,Finance,0,1,0.5,method_row_source_mix_inference,6,0,6,true,6,J
+r055_chinamobilecommunications,CHINA MOBILE COMMUNICATIONS,55,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,2,0,2,false,2,I
+r057_hondamotor,HONDA MOTOR,57,C,制造业,Manufacturing,0.375,0.625,0.8974,method_row_source_mix_inference,39,0,39,true,39,C
+r058_fanniemae,FANNIE MAE,58,J,金融业,Finance,,,1,method_row_source_mix_inference,3,0,3,false,3,J
+r059_chinalifeinsurance,CHINA LIFE INSURANCE,59,J,金融业,Finance,,,1,method_row_source_mix_inference,1,0,1,false,1,J
+r060_walgreensbootsalliance,WALGREENS BOOTS ALLIANCE,60,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,6,0,6,false,6,F
+r061_valeroenergy,VALERO ENERGY,61,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.6667,0.3333,0.7,method_row_source_mix_inference,10,0,10,true,10,D
+r063_chinacommunicationsconstruction,CHINA COMMUNICATIONS CONSTRUCTION,63,E,建筑业,Construction,,,1,method_row_source_mix_inference,2,0,2,false,2,E
+r065_mitsubishi,MITSUBISHI,65,L,租赁和商务服务业,Leasing and Business Services,0,1,0.875,method_row_source_mix_inference,8,0,8,true,8,L
+r066_metaplatforms公司,Meta Platforms,66,F,批发和零售业,Wholesale and Retail Trade,0.5,0.5,0.9833,method_row_source_mix_inference,60,0,60,true,60,F
+r067_hsbcholdings,HSBC HOLDINGS,67,J,金融业,Finance,0.5,0.5,0.9032,method_row_source_mix_inference,31,0,31,true,31,J
+r068_verizoncommunications,VERIZON COMMUNICATIONS,68,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,5,0,5,false,5,I
+r070_alibabagroupholding,ALIBABA GROUP HOLDING,70,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,16,0,16,false,16,F
+r071_citicgroup,CITIC GROUP,71,J,金融业,Finance,,,1,method_row_source_mix_inference,1,0,1,false,1,J
+r073_hyundaimotor,HYUNDAI MOTOR,73,C,制造业,Manufacturing,0.0556,0.9444,0.5714,method_row_source_mix_inference,21,0,21,true,21,C
+r074_atandt,AT&T,74,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,3,0,3,false,3,I
+r077_deutschetelekom,DEUTSCHE TELEKOM,77,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",1,0,0.9333,method_row_source_mix_inference,15,0,15,true,15,I
+r079_uniper公司,Uniper,79,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,12,0,12,false,12,D
+r086_relianceindustries,RELIANCE INDUSTRIES,86,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.5,0.5,0,method_row_source_mix_inference,4,0,4,true,4,D
+r089_rosneftoil,ROSNEFT OIL,89,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0,1,0.8,method_row_source_mix_inference,5,0,5,true,5,D
+r090_target,TARGET,90,L,租赁和商务服务业,Leasing and Business Services,,,1,method_row_source_mix_inference,6,0,6,false,6,L
+r095_lifeinsurancecorpofindia,LIFE INSURANCE CORP. OF INDIA,95,J,金融业,Finance,1,0,0,method_row_source_mix_inference,3,0,3,true,3,J
+r096_nestlé,NESTLÉ,96,C,制造业,Manufacturing,0,1,0.7143,method_row_source_mix_inference,14,0,14,true,14,C
+r098_eni,ENI,98,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0,1,0.9737,method_row_source_mix_inference,38,0,38,true,38,D
+r100_sk集团,SK,100,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,8,0,8,false,8,D
+r101_eon,E.ON,101,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0,1,0.9412,method_row_source_mix_inference,17,0,17,true,17,D
+r105_boschgroup,BOSCH GROUP,105,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,21,0,21,false,21,C
+r107_itochu,ITOCHU,107,L,租赁和商务服务业,Leasing and Business Services,0.75,0.25,0.6667,method_row_source_mix_inference,12,0,12,true,12,L
+r110_tesla,TESLA,110,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r111_morganstanley,MORGAN STANLEY,111,J,金融业,Finance,0,1,0.9091,method_row_source_mix_inference,33,0,33,true,33,J
+r113_brookfield,BROOKFIELD,113,J,金融业,Finance,,,1,method_row_source_mix_inference,22,0,22,false,22,J
+r114_royalaholddelhaize,ROYAL AHOLD DELHAIZE,114,F,批发和零售业,Wholesale and Retail Trade,0.4167,0.5833,0.9326,method_row_source_mix_inference,89,0,89,true,89,F
+r115_johnsonandjohnson,JOHNSON & JOHNSON,115,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,5,0,5,false,5,C
+r116_indianoil,INDIAN OIL,116,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.75,0.25,0.6,method_row_source_mix_inference,20,0,20,true,20,D
+r117_adm公司,ADM,117,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,28,0,28,false,28,C
+r119_christiandior,CHRISTIAN DIOR,119,C,制造业,Manufacturing,0.5,0.5,0.96,method_row_source_mix_inference,25,0,25,true,25,C
+r120_nippontelegraphandtelephone,NIPPON TELEGRAPH AND TELEPHONE,120,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,1,0,1,false,1,I
+r121_mitsui,MITSUI,121,L,租赁和商务服务业,Leasing and Business Services,0.0455,0.9545,0.6857,method_row_source_mix_inference,35,0,35,true,35,L
+r122_carrefour,CARREFOUR,122,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,34,0,34,false,34,F
+r123_pepsico,PEPSICO,123,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,26,0,26,false,26,C
+r124_unitedparcelservice,UNITED PARCEL SERVICE,124,G,交通运输、仓储和邮政业,"Transport, Storage and Post",0.3571,0.6429,0.65,method_row_source_mix_inference,40,0,40,true,40,G
+r125_ptt,PTT,125,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.5,0.5,0.7143,method_row_source_mix_inference,7,0,7,true,7,D
+r126_axa,AXA,126,J,金融业,Finance,0.2778,0.7222,0.8393,method_row_source_mix_inference,56,0,56,true,56,J
+r127_fedex,FEDEX,127,G,交通运输、仓储和邮政业,"Transport, Storage and Post",,,1,method_row_source_mix_inference,6,0,6,false,6,G
+r128_sony,SONY,128,C,制造业,Manufacturing,0.5,0.5,0.9688,method_row_source_mix_inference,32,0,32,true,32,C
+r129_chinafawgroup,CHINA FAW GROUP,129,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r130_engie集团,Engie,130,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.7222,0.2778,0.7692,method_row_source_mix_inference,39,0,39,true,39,D
+r131_waltdisney,WALT DISNEY,131,R,文化、体育和娱乐业,"Culture, Sports and Entertainment",,,1,method_row_source_mix_inference,33,0,33,false,33,R
+r133_delltechnologies,DELL TECHNOLOGIES,133,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,3,0,3,false,3,C
+r134_dhlgroup,DHL GROUP,134,G,交通运输、仓储和邮政业,"Transport, Storage and Post",,,1,method_row_source_mix_inference,17,0,17,false,17,G
+r135_chinatelecommunications,CHINA TELECOMMUNICATIONS,135,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,1,0,1,false,1,I
+r136_nissanmotor,NISSAN MOTOR,136,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,6,0,6,false,6,C
+r137_royalbankofcanada,ROYAL BANK OF CANADA,137,J,金融业,Finance,0.1429,0.8571,0.6957,method_row_source_mix_inference,23,0,23,true,23,J
+r139_lowes,LOWE'S,139,F,批发和零售业,Wholesale and Retail Trade,0,1,0.9167,method_row_source_mix_inference,12,0,12,true,12,F
+r140_tesco,TESCO,140,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,13,0,13,false,13,F
+r141_tencentholdings,TENCENT HOLDINGS,141,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,1,0,1,false,1,F
+r143_byd,BYD,143,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,16,0,16,false,16,C
+r144_nipponlifeinsurance,NIPPON LIFE INSURANCE,144,J,金融业,Finance,0,1,0,method_row_source_mix_inference,2,0,2,true,2,J
+r145_siemens,SIEMENS,145,C,制造业,Manufacturing,0.5,0.5,0.9167,method_row_source_mix_inference,36,0,36,true,36,C
+r150_wuchanzhongdagroup,WUCHAN ZHONGDA GROUP,150,L,租赁和商务服务业,Leasing and Business Services,1,0,0.6667,method_row_source_mix_inference,3,0,3,true,3,L
+r151_sevenandi控股公司,Seven & I Holdings,151,F,批发和零售业,Wholesale and Retail Trade,1,0,0.9231,method_row_source_mix_inference,26,0,26,true,26,F
+r152_albertsons,ALBERTSONS,152,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,2,0,2,false,2,F
+r153_eneosholdings,ENEOS HOLDINGS,153,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,16,0,16,false,16,D
+r156_uspostalservice,U.S. POSTAL SERVICE,156,G,交通运输、仓储和邮政业,"Transport, Storage and Post",,,1,method_row_source_mix_inference,10,0,10,false,10,G
+r157_jiangxicopper,JIANGXI COPPER,157,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r158_peoplesinsurancecoofchina,PEOPLE'S INSURANCE CO. OF CHINA,158,J,金融业,Finance,,,1,method_row_source_mix_inference,2,0,2,false,2,J
+r159_boeing,BOEING,159,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,7,0,7,false,7,C
+r162_kia,KIA,162,C,制造业,Manufacturing,0.3333,0.6667,0.875,method_row_source_mix_inference,24,0,24,true,24,C
+r163_sysco,SYSCO,163,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,16,0,16,false,16,F
+r164_daiichilifeholdings,DAI-ICHI LIFE HOLDINGS,164,J,金融业,Finance,0.5,0.5,0.9091,method_row_source_mix_inference,33,0,33,true,33,J
+r165_pertamina,PERTAMINA,165,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,9,0,9,false,9,D
+r166_vinci,VINCI,166,E,建筑业,Construction,0.3333,0.6667,0.6667,method_row_source_mix_inference,9,0,9,true,9,E
+r168_torontodominionbank,TORONTO-DOMINION BANK,168,J,金融业,Finance,0.5,0.5,0.9714,method_row_source_mix_inference,35,0,35,true,35,J
+r169_lukoil,LUKOIL,169,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,9,0,9,false,9,D
+r174_法国bpce银行集团,BPCE Group,174,J,金融业,Finance,,,1,method_row_source_mix_inference,4,0,4,false,4,J
+r176_巴西jbs公司,JBS,176,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,9,0,9,false,9,C
+r177_alimentationcouchetard公司,Alimentation Couche-Tard,177,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,9,0,9,false,9,F
+r178_statebankofindia,STATE BANK OF INDIA,178,J,金融业,Finance,,,1,method_row_source_mix_inference,2,0,2,false,2,J
+r179_chinamerchantsbank,CHINA MERCHANTS BANK,179,J,金融业,Finance,,,1,method_row_source_mix_inference,21,0,21,false,21,J
+r182_ubsgroup,UBS GROUP,182,J,金融业,Finance,0.25,0.75,0.8621,method_row_source_mix_inference,29,0,29,true,29,J
+r183_airbus,AIRBUS,183,C,制造业,Manufacturing,0.5,0.5,0.6667,method_row_source_mix_inference,9,0,9,true,9,C
+r184_toyotatsusho,TOYOTA TSUSHO,184,L,租赁和商务服务业,Leasing and Business Services,,,1,method_row_source_mix_inference,2,0,2,false,2,L
+r185_zhejianggeelyholdinggroup,ZHEJIANG GEELY HOLDING GROUP,185,C,制造业,Manufacturing,0,1,0.95,method_row_source_mix_inference,20,0,20,true,20,C
+r189_itaúunibancoholding,ITAÚ UNIBANCO HOLDING,189,J,金融业,Finance,0,1,0.9167,method_row_source_mix_inference,12,0,12,true,12,J
+r191_generalelectric,GENERAL ELECTRIC,191,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,3,0,3,false,3,C
+r193_lockheedmartin,LOCKHEED MARTIN,193,C,制造业,Manufacturing,0.5,0.5,0.4,method_row_source_mix_inference,10,0,10,true,10,C
+r195_americanexpress,AMERICAN EXPRESS,195,J,金融业,Finance,,,1,method_row_source_mix_inference,8,0,8,false,8,J
+r196_hitachi,HITACHI,196,C,制造业,Manufacturing,0.8,0.2,0.7727,method_row_source_mix_inference,22,0,22,true,22,C
+r197_rochegroup,ROCHE GROUP,197,C,制造业,Manufacturing,0,1,0.9556,method_row_source_mix_inference,45,0,45,true,45,C
+r198_wilmarinternational,WILMAR INTERNATIONAL,198,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,38,0,38,false,38,C
+r199_caterpillar,CATERPILLAR,199,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,18,0,18,false,18,C
+r200_bancobilbaovizcayaargentaria,BANCO BILBAO VIZCAYA ARGENTARIA,200,J,金融业,Finance,0.75,0.25,0.6,method_row_source_mix_inference,40,0,40,true,40,J
+r201_koreaelectricpower,KOREA ELECTRIC POWER,201,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.5,0.5,0.2,method_row_source_mix_inference,5,0,5,true,5,I
+r202_metlife,METLIFE,202,J,金融业,Finance,0,1,0.75,method_row_source_mix_inference,20,0,20,true,20,J
+r203_aeon,AEON,203,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,2,0,2,false,2,F
+r204_lloydsbankinggroup,LLOYDS BANKING GROUP,204,J,金融业,Finance,,,1,method_row_source_mix_inference,6,0,6,false,6,J
+r206_chinavanke,CHINA VANKE,206,K,房地产业,Real Estate,0.0909,0.9091,0.56,method_row_source_mix_inference,25,0,25,true,25,K
+r207_hca医疗保健公司,HCA Healthcare,207,S,公共管理、社会保障和社会组织,"Public Administration, Social Security and Social Organizations",,,1,method_row_source_mix_inference,6,0,6,false,6,S
+r208_sumitomomitsuifinancialgroup,SUMITOMO MITSUI FINANCIAL GROUP,208,J,金融业,Finance,0.0455,0.9545,0.6857,method_row_source_mix_inference,35,0,35,true,35,J
+r209_lg电子,LG Electronics,209,C,制造业,Manufacturing,0.5,0.5,0.5833,method_row_source_mix_inference,24,0,24,true,24,C
+r211_accenture,ACCENTURE,211,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,5,0,5,false,5,I
+r212_barclays,BARCLAYS,212,J,金融业,Finance,0.5,0.5,0.6667,method_row_source_mix_inference,6,0,6,true,6,J
+r215_munichregroup,MUNICH RE GROUP,215,J,金融业,Finance,,,1,method_row_source_mix_inference,30,0,30,false,30,J
+r217_bancodobrasil,BANCO DO BRASIL,217,J,金融业,Finance,,,1,method_row_source_mix_inference,2,0,2,false,2,J
+r220_nipponsteelcorporation,NIPPON STEEL CORPORATION,220,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,3,0,3,false,3,C
+r221_deere,DEERE,221,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,4,0,4,false,4,C
+r222_nvidia,NVIDIA,222,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,32,0,32,false,32,C
+r223_stonex集团,StoneX,223,J,金融业,Finance,,,1,method_row_source_mix_inference,7,0,7,false,7,J
+r224_zurichinsurancegroup,ZURICH INSURANCE GROUP,224,J,金融业,Finance,0.7,0.3,0.6875,method_row_source_mix_inference,32,0,32,true,32,J
+r225_bouygues,BOUYGUES,225,E,建筑业,Construction,,,1,method_row_source_mix_inference,4,0,4,false,4,E
+r226_mizuhofinancialgroup,MIZUHO FINANCIAL GROUP,226,J,金融业,Finance,0,1,0,method_row_source_mix_inference,1,0,1,true,1,J
+r227_daimlertruckholding,DAIMLER TRUCK HOLDING,227,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r228_inggroup,ING GROUP,228,J,金融业,Finance,,,1,method_row_source_mix_inference,1,0,1,false,1,J
+r230_bungeglobal,BUNGE GLOBAL,230,C,制造业,Manufacturing,0.5,0.5,0.8182,method_row_source_mix_inference,11,0,11,true,11,C
+r231_anheuserbuschinbev,ANHEUSER-BUSCH INBEV,231,C,制造业,Manufacturing,0,1,0.7,method_row_source_mix_inference,20,0,20,true,20,C
+r234_panasonicholdings,PANASONIC HOLDINGS,234,C,制造业,Manufacturing,0.3333,0.6667,0.8235,method_row_source_mix_inference,17,0,17,true,17,C
+r235_conocophillips,CONOCOPHILLIPS,235,B,采矿业,Mining,0,1,0.8824,method_row_source_mix_inference,17,0,17,true,17,B
+r236_pfizer,PFIZER,236,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,14,0,14,false,14,C
+r237_deltaairlines,DELTA AIR LINES,237,G,交通运输、仓储和邮政业,"Transport, Storage and Post",1,0,0.5714,method_row_source_mix_inference,7,0,7,true,7,G
+r241_tdsynnex公司,TD Synnex,241,F,批发和零售业,Wholesale and Retail Trade,0.5,0.5,0.8571,method_row_source_mix_inference,35,0,35,true,35,F
+r244_allstate,ALLSTATE,244,J,金融业,Finance,,,1,method_row_source_mix_inference,1,0,1,false,1,J
+r246_ciscosystems,CISCO SYSTEMS,246,C,制造业,Manufacturing,0.5,0.5,0.9167,method_row_source_mix_inference,24,0,24,true,24,C
+r248_lenovogroup,LENOVO GROUP,248,C,制造业,Manufacturing,0,1,0.918,method_row_source_mix_inference,61,0,61,true,61,C
+r250_contemporaryamperextechnology,CONTEMPORARY AMPEREX TECHNOLOGY,250,C,制造业,Manufacturing,0.5,0.5,0.75,method_row_source_mix_inference,12,0,12,true,12,C
+r251_renault,RENAULT,251,C,制造业,Manufacturing,1,0,0.85,method_row_source_mix_inference,20,0,20,true,20,C
+r252_bancobradesco,BANCO BRADESCO,252,J,金融业,Finance,,,1,method_row_source_mix_inference,5,0,5,false,5,J
+r255_chartercommunications,CHARTER COMMUNICATIONS,255,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,3,0,3,false,3,I
+r257_edekazentrale,EDEKA ZENTRALE,257,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,3,0,3,false,3,F
+r258_bharatpetroleum,BHARAT PETROLEUM,258,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0,1,0.7273,method_row_source_mix_inference,11,0,11,true,11,D
+r259_abbvie,ABBVIE,259,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,3,0,3,false,3,C
+r260_newyorklifeinsurance,NEW YORK LIFE INSURANCE,260,J,金融业,Finance,0.5,0.5,0.9677,method_row_source_mix_inference,31,0,31,true,31,J
+r261_intel,INTEL,261,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,12,0,12,false,12,C
+r262_tjx公司,TJX,262,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,19,0,19,false,19,F
+r263_novartis,NOVARTIS,263,C,制造业,Manufacturing,0.0417,0.9583,0.6471,method_row_source_mix_inference,34,0,34,true,34,C
+r264_riotintogroup,RIO TINTO GROUP,264,B,采矿业,Mining,0.3,0.7,0.7917,method_row_source_mix_inference,24,0,24,true,24,B
+r266_prudentialfinancial,PRUDENTIAL FINANCIAL,266,J,金融业,Finance,,,1,method_row_source_mix_inference,9,0,9,false,9,J
+r268_bhpgroup,BHP GROUP,268,B,采矿业,Mining,0.375,0.625,0.6364,method_row_source_mix_inference,22,0,22,true,22,B
+r269_hp,HP,269,C,制造业,Manufacturing,0.5,0.5,0.9231,method_row_source_mix_inference,39,0,39,true,39,C
+r270_unitedairlinesholdings,UNITED AIRLINES HOLDINGS,270,G,交通运输、仓储和邮政业,"Transport, Storage and Post",1,0,0.4444,method_row_source_mix_inference,18,0,18,true,18,G
+r271_tatamotors,TATA MOTORS,271,C,制造业,Manufacturing,0.4286,0.5714,0.5882,method_row_source_mix_inference,17,0,17,true,17,C
+r272_performancefoodgroup公司,Performance Food Group,272,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,7,0,7,false,7,F
+r273_iberdrola公司,Iberdrola,273,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",1,0,0.6154,method_row_source_mix_inference,13,0,13,true,13,I
+r275_idemitsukosan,IDEMITSU KOSAN,275,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.25,0.75,0.5,method_row_source_mix_inference,8,0,8,true,8,D
+r278_americanairlinesgroup,AMERICAN AIRLINES GROUP,278,G,交通运输、仓储和邮政业,"Transport, Storage and Post",0.2,0.8,0.5161,method_row_source_mix_inference,31,0,31,true,31,G
+r282_volvo,VOLVO,282,C,制造业,Manufacturing,0.6667,0.3333,0.7273,method_row_source_mix_inference,11,0,11,true,11,C
+r283_intesasanpaolo,INTESA SANPAOLO,283,J,金融业,Finance,0.8684,0.1316,0.5128,method_row_source_mix_inference,78,0,78,true,78,J
+r286_bayer,BAYER,286,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,8,0,8,false,8,C
+r287_tokiomarineholdings,TOKIO MARINE HOLDINGS,287,J,金融业,Finance,,,1,method_row_source_mix_inference,1,0,1,false,1,J
+r289_maerskgroup,MAERSK GROUP,289,C,制造业,Manufacturing,0.3889,0.6111,0.6897,method_row_source_mix_inference,29,0,29,true,29,C
+r290_phoenixpharma,PHOENIX PHARMA,290,F,批发和零售业,Wholesale and Retail Trade,0,1,0.8571,method_row_source_mix_inference,7,0,7,true,7,F
+r294_bankofmontreal,BANK OF MONTREAL,294,J,金融业,Finance,0.5,0.5,0.9057,method_row_source_mix_inference,53,0,53,true,53,J
+r295_zffriedrichshafen,ZF FRIEDRICHSHAFEN,295,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,20,0,20,false,20,C
+r297_sanofi,SANOFI,297,C,制造业,Manufacturing,0.5588,0.4412,0.7018,method_row_source_mix_inference,57,0,57,true,57,C
+r298_marubeni,MARUBENI,298,L,租赁和商务服务业,Leasing and Business Services,0.1667,0.8333,0.5385,method_row_source_mix_inference,13,0,13,true,13,L
+r301_swissre,SWISS RE,301,J,金融业,Finance,0.5,0.5,0.8929,method_row_source_mix_inference,28,0,28,true,28,J
+r302_chubb,CHUBB,302,J,金融业,Finance,0.5,0.5,0.8,method_row_source_mix_inference,5,0,5,true,5,J
+r305_denso,DENSO,305,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,6,0,6,false,6,C
+r308_veoliaenvironnement,VEOLIA ENVIRONNEMENT,308,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,1,0,1,false,1,I
+r310_vodafonegroup,VODAFONE GROUP,310,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.25,0.75,0.75,method_row_source_mix_inference,8,0,8,true,8,I
+r311_plainsgpholdings公司,Plains GP Holdings,311,G,交通运输、仓储和邮政业,"Transport, Storage and Post",,,1,method_row_source_mix_inference,1,0,1,false,1,G
+r313_exor集团,EXOR,313,J,金融业,Finance,,,1,method_row_source_mix_inference,3,0,3,false,3,J
+r315_unicreditgroup,UNICREDIT GROUP,315,J,金融业,Finance,0.25,0.75,0.8889,method_row_source_mix_inference,36,0,36,true,36,J
+r317_tokyoelectricpower,TOKYO ELECTRIC POWER,317,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.5,0.5,0.4286,method_row_source_mix_inference,7,0,7,true,7,I
+r319_worldkinect公司,World Kinect,319,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,6,0,6,false,6,D
+r322_ingkagroup,INGKA GROUP,322,F,批发和零售业,Wholesale and Retail Trade,0,1,0.9167,method_row_source_mix_inference,36,0,36,true,36,F
+r324_americaninternationalgroup,AMERICAN INTERNATIONAL GROUP,324,J,金融业,Finance,0.5,0.5,0.8667,method_row_source_mix_inference,15,0,15,true,15,J
+r327_talanx公司,Talanx,327,J,金融业,Finance,,,1,method_row_source_mix_inference,1,0,1,false,1,J
+r329_astrazeneca,ASTRAZENECA,329,C,制造业,Manufacturing,0.3333,0.6667,0.7931,method_row_source_mix_inference,29,0,29,true,29,C
+r333_tiaa,TIAA,333,J,金融业,Finance,1,0,0.875,method_row_source_mix_inference,16,0,16,true,16,J
+r335_chs公司,CHS,335,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r339_hyundaimobis,HYUNDAI MOBIS,339,C,制造业,Manufacturing,0.5,0.5,0.8667,method_row_source_mix_inference,30,0,30,true,30,C
+r342_bristolmyerssquibb,BRISTOL-MYERS SQUIBB,342,C,制造业,Manufacturing,0,1,0.7619,method_row_source_mix_inference,21,0,21,true,21,C
+r344_continental,CONTINENTAL,344,C,制造业,Manufacturing,0.5385,0.4615,0.5185,method_row_source_mix_inference,27,0,27,true,27,C
+r345_raízen公司,Raízen,345,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,1,0,1,false,1,D
+r346_dow,DOW,346,C,制造业,Manufacturing,0.3,0.7,0.9057,method_row_source_mix_inference,53,0,53,true,53,C
+r348_loréal,L'ORÉAL,348,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r349_fomentoeconómicomexicano公司,Fomento Económico Mexicano,349,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,9,0,9,false,9,C
+r352_bestbuy,BEST BUY,352,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,1,0,1,false,1,F
+r353_woolworthsgroup,WOOLWORTHS GROUP,353,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,2,0,2,false,2,F
+r356_thermofisherscientific,THERMO FISHER SCIENTIFIC,356,C,制造业,Manufacturing,0.5,0.5,0.9697,method_row_source_mix_inference,33,0,33,true,33,C
+r357_magnainternational,MAGNA INTERNATIONAL,357,C,制造业,Manufacturing,0.5,0.5,0.9167,method_row_source_mix_inference,24,0,24,true,24,C
+r358_omvgroup,OMV GROUP,358,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.4615,0.5385,0.6061,method_row_source_mix_inference,66,0,66,true,66,D
+r359_massachusettsmutuallifeinsurance,MASSACHUSETTS MUTUAL LIFE INSURANCE,359,J,金融业,Finance,,,1,method_row_source_mix_inference,7,0,7,false,7,J
+r365_travelers公司,Travelers,365,J,金融业,Finance,,,1,method_row_source_mix_inference,4,0,4,false,4,J
+r366_warnerbrosdiscovery,WARNER BROS. DISCOVERY,366,R,文化、体育和娱乐业,"Culture, Sports and Entertainment",,,1,method_row_source_mix_inference,4,0,4,false,4,R
+r367_canadianimperialbankofcommerce,CANADIAN IMPERIAL BANK OF COMMERCE,367,J,金融业,Finance,,,1,method_row_source_mix_inference,19,0,19,false,19,J
+r368_lyondellbasellindustries,LYONDELLBASELL INDUSTRIES,368,C,制造业,Manufacturing,0.5,0.5,0.8235,method_row_source_mix_inference,34,0,34,true,34,C
+r369_jsainsbury,J. SAINSBURY,369,F,批发和零售业,Wholesale and Retail Trade,1,0,0.5,method_row_source_mix_inference,4,0,4,true,4,F
+r375_pegatron,PEGATRON,375,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,2,0,2,false,2,C
+r376_abbottlaboratories,ABBOTT LABORATORIES,376,C,制造业,Manufacturing,0,1,0.9722,method_row_source_mix_inference,72,0,72,true,72,C
+r379_日本kddi电信公司,KDDI,379,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0.5,0.5,0.8571,method_row_source_mix_inference,7,0,7,true,7,I
+r384_meituan,MEITUAN,384,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,1,0,1,false,1,F
+r387_schneiderelectric,SCHNEIDER ELECTRIC,387,C,制造业,Manufacturing,0.4,0.6,0.8936,method_row_source_mix_inference,47,0,47,true,47,C
+r391_西班牙acs集团,ACS Group,391,E,建筑业,Construction,0.5,0.5,0.5,method_row_source_mix_inference,8,0,8,true,8,E
+r392_coop集团,Coop,392,F,批发和零售业,Wholesale and Retail Trade,0.625,0.375,0.7333,method_row_source_mix_inference,15,0,15,true,15,F
+r395_pbfenergy公司,PBF Energy,395,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,1,0,1,false,1,D
+r397_xiaomi,XIAOMI,397,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r398_compassgroup,COMPASS GROUP,398,H,住宿和餐饮业,Accommodation and Catering,0.5,0.5,0.3333,method_row_source_mix_inference,3,0,3,true,3,H
+r399_meijiyasudalifeinsurance,MEIJI YASUDA LIFE INSURANCE,399,J,金融业,Finance,0.5,0.5,0,method_row_source_mix_inference,3,0,3,true,3,J
+r400_gsk,GSK,400,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,9,0,9,false,9,C
+r401_suncorenergy,SUNCOR ENERGY,401,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.5,0.5,0.7143,method_row_source_mix_inference,7,0,7,true,7,D
+r403_ubertechnologies公司,Uber Technologies,403,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,4,0,4,false,4,F
+r406_suzukimotor,SUZUKI MOTOR,406,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,26,0,26,false,26,C
+r407_haiersmarthome,HAIER SMART HOME,407,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,2,0,2,false,2,C
+r409_laposte,LA POSTE,409,G,交通运输、仓储和邮政业,"Transport, Storage and Post",,,1,method_row_source_mix_inference,2,0,2,false,2,G
+r413_honeywellinternational,HONEYWELL INTERNATIONAL,413,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,4,0,4,false,4,C
+r415_sfholding,S.F. HOLDING,415,G,交通运输、仓储和邮政业,"Transport, Storage and Post",,,1,method_row_source_mix_inference,2,0,2,false,2,G
+r416_mitsubishielectric,MITSUBISHI ELECTRIC,416,C,制造业,Manufacturing,0.3333,0.6667,0.7857,method_row_source_mix_inference,14,0,14,true,14,C
+r421_jardinematheson,JARDINE MATHESON,421,C,制造业,Manufacturing,0.5,0.5,0.75,method_row_source_mix_inference,8,0,8,true,8,C
+r422_mondelezinternational,MONDELEZ INTERNATIONAL,422,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,3,0,3,false,3,C
+r423_daiwahouseindustry,DAIWA HOUSE INDUSTRY,423,E,建筑业,Construction,0.4375,0.5625,0.7576,method_row_source_mix_inference,33,0,33,true,33,E
+r424_starbucks,STARBUCKS,424,H,住宿和餐饮业,Accommodation and Catering,,,1,method_row_source_mix_inference,12,0,12,false,12,H
+r425_olamgroup,OLAM GROUP,425,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,4,0,4,false,4,C
+r426_qualcomm,QUALCOMM,426,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,14,0,14,false,14,C
+r427_broadcom,BROADCOM,427,C,制造业,Manufacturing,0,1,0.9667,method_row_source_mix_inference,30,0,30,true,30,C
+r428_jfeholdings,JFE HOLDINGS,428,C,制造业,Manufacturing,0.5,0.5,0.8947,method_row_source_mix_inference,19,0,19,true,19,C
+r431_elo集团,ELO,431,F,批发和零售业,Wholesale and Retail Trade,0.1667,0.8333,0.7778,method_row_source_mix_inference,27,0,27,true,27,F
+r434_drhorton公司,D.R. Horton,434,E,建筑业,Construction,,,1,method_row_source_mix_inference,3,0,3,false,3,E
+r440_philipmorrisinternational,PHILIP MORRIS INTERNATIONAL,440,C,制造业,Manufacturing,0.625,0.375,0.4286,method_row_source_mix_inference,14,0,14,true,14,C
+r441_paccar,PACCAR,441,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,5,0,5,false,5,C
+r443_crh公司,CRH,443,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,17,0,17,false,17,C
+r445_salesforce,SALESFORCE,445,C,制造业,Manufacturing,0.2031,0.7969,0.7193,method_row_source_mix_inference,114,0,114,true,114,C
+r446_aiagroup,AIA GROUP,446,J,金融业,Finance,0,1,0,method_row_source_mix_inference,1,0,1,true,1,J
+r448_jabil,JABIL,448,C,制造业,Manufacturing,0.5,0.5,0.7778,method_row_source_mix_inference,9,0,9,true,9,C
+r449_nationalaustraliabank,NATIONAL AUSTRALIA BANK,449,J,金融业,Finance,0.1667,0.8333,0.8846,method_row_source_mix_inference,52,0,52,true,52,J
+r450_sap公司,SAP,450,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,36,0,36,false,36,C
+r451_crrcgroup,CRRC GROUP,451,C,制造业,Manufacturing,0.5,0.5,0,method_row_source_mix_inference,3,0,3,true,3,C
+r453_lennar,LENNAR,453,E,建筑业,Construction,,,1,method_row_source_mix_inference,1,0,1,false,1,E
+r454_sompoholdings,SOMPO HOLDINGS,454,J,金融业,Finance,,,1,method_row_source_mix_inference,14,0,14,false,14,J
+r455_elililly,ELI LILLY,455,C,制造业,Manufacturing,0.5,0.5,0.7241,method_row_source_mix_inference,29,0,29,true,29,C
+r456_koreagas,KOREA GAS,456,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",0,1,0.5882,method_row_source_mix_inference,17,0,17,true,17,I
+r459_cummins,CUMMINS,459,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,6,0,6,false,6,C
+r461_rabobankgroup,RABOBANK GROUP,461,J,金融业,Finance,0.5,0.5,0.6667,method_row_source_mix_inference,12,0,12,true,12,J
+r462_aisin,AISIN,462,C,制造业,Manufacturing,0,1,0.5,method_row_source_mix_inference,2,0,2,true,2,C
+r463_rajeshexports公司,Rajesh Exports,463,L,租赁和商务服务业,Leasing and Business Services,,,1,method_row_source_mix_inference,2,0,2,false,2,L
+r464_britishamericantobacco,BRITISH AMERICAN TOBACCO,464,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,91,0,91,false,91,C
+r466_bankofnewyorkmellon,BANK OF NEW YORK MELLON,466,J,金融业,Finance,0,1,0.8485,method_row_source_mix_inference,33,0,33,true,33,J
+r467_tongweigroup,TONGWEI GROUP,467,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",1,0,0.9118,method_row_source_mix_inference,34,0,34,true,34,D
+r468_netflix公司,Netflix,468,R,文化、体育和娱乐业,"Culture, Sports and Entertainment",,,1,method_row_source_mix_inference,20,0,20,false,20,R
+r473_vtbbank,VTB BANK,473,J,金融业,Finance,,,1,method_row_source_mix_inference,2,0,2,false,2,J
+r477_truistfinancial公司,Truist Financial,477,J,金融业,Finance,,,1,method_row_source_mix_inference,1,0,1,false,1,J
+r478_siemensenergy,SIEMENS ENERGY,478,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",0.5,0.5,0.9167,method_row_source_mix_inference,36,0,36,true,36,D
+r479_schlumberger,SCHLUMBERGER,479,D,电力、热力、燃气及水生产和供应业,"Electricity, Heat, Gas and Water Production and Supply",,,1,method_row_source_mix_inference,8,0,8,false,8,D
+r480_ecopetrol,ECOPETROL,480,B,采矿业,Mining,0.1875,0.8125,0.7241,method_row_source_mix_inference,29,0,29,true,29,B
+r481_arrowelectronics,ARROW ELECTRONICS,481,F,批发和零售业,Wholesale and Retail Trade,0.375,0.625,0.541,method_row_source_mix_inference,61,0,61,true,61,F
+r484_commonwealthbankofaustralia,COMMONWEALTH BANK OF AUSTRALIA,484,J,金融业,Finance,0.5,0.5,0.9318,method_row_source_mix_inference,44,0,44,true,44,J
+r485_centrica,CENTRICA,485,I,信息传输、软件和信息技术服务业,"Information Transmission, Software and Information Technology Services",,,1,method_row_source_mix_inference,17,0,17,false,17,I
+r486_linde,LINDE,486,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,26,0,26,false,26,C
+r487_heineken,HEINEKEN,487,C,制造业,Manufacturing,0.0645,0.9355,0.6353,method_row_source_mix_inference,85,0,85,true,85,C
+r489_3m公司,3M,489,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,2,0,2,false,2,C
+r491_apolloglobalmanagement,APOLLO GLOBAL MANAGEMENT,491,J,金融业,Finance,0.5,0.5,0.75,method_row_source_mix_inference,4,0,4,true,4,J
+r492_emiratesgroup,EMIRATES GROUP,492,G,交通运输、仓储和邮政业,"Transport, Storage and Post",0.1667,0.8333,0.5714,method_row_source_mix_inference,14,0,14,true,14,G
+r494_metro,METRO,494,F,批发和零售业,Wholesale and Retail Trade,,,1,method_row_source_mix_inference,1,0,1,false,1,F
+r495_subaru,SUBARU,495,C,制造业,Manufacturing,,,1,method_row_source_mix_inference,1,0,1,false,1,C
+r498_瑞士abb集团,ABB,498,C,制造业,Manufacturing,0.6111,0.3889,0.64,method_row_source_mix_inference,25,0,25,true,25,C
+r500_三星candt公司,Samsung C&T,500,E,建筑业,Construction,0.3,0.7,0.2857,method_row_source_mix_inference,7,0,7,true,7,E

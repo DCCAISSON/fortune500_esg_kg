@@ -2,7 +2,7 @@
 
 - 生成时间：2026-06-21
 - 审计矩阵日期：2026-06-07
-- PNG manifest 生成时间：2026-06-26T16:38:24+00:00
+- PNG manifest 生成时间：2026-07-07T15:17:31+00:00
 - 总体状态：partial
 - 是否可以声明全部完成：不可
 
@@ -35,9 +35,9 @@
 | 有可显示来源比例企业 | 161 |
 | 原文明示 primary-data 百分比企业 | 13 |
 
-## 需求逐项完成度
+## 核心模块完成度
 
-| 需求 | 状态 | 可声明完成 | 开放队列行数 | 已实现 | 未完成/风险 |
+| 模块 | 状态 | 可作为结论 | 开放队列行数 | 已实现 | 未完成/风险 |
 | --- | --- | --- | --- | --- | --- |
 | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | 部分完成 | 不可 | 927 | GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1908 条标准-企业关系。 | GHG 显式细分证据仍不足，137/231 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。 |
 | R2_TOTAL_EMISSIONS_RANKING_DESC | 部分完成 | 不可 | 189 | 已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，21 家进入完整 Scope 1/2/3 强证据排行。 | 完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。 |
@@ -59,7 +59,7 @@
 | 7 | P1 | primary_secondary_bubble | 部分完成 | 449 | 把来源结构比例与真实计算权重区分开，优先补原文明示 primary data 百分比。 | 来源结构比例若被当成真实计算权重，会误导初级数据质量判断。 |
 | 8 | Monitor | static_png_sync | 已实现 | 0 | 后续 reporting_views.json 更新后重跑 sync_reporting_static_figures.py。 | 页面和汇报 PNG 若不同源，会造成 GitHub 页面与汇报材料不一致。 |
 
-## 五项需求的当前判断
+## 核心模块当前边界
 
 ### 一、GHG Protocol 具体系列、原则、清单匹配和企业关系
 
@@ -94,7 +94,7 @@
 ## 静态图和全屏图同步门槛
 
 - PNG manifest：`assets/figures/reporting_static_figures_manifest.json`
-- PNG 数量：10
+- PNG 数量：14
 - PNG 源数据：`assets/data/world500/workbench/reporting_views.json`
 - 源数据 SHA256：`4954e86b0d408c766833fd1daba48d58633f4b2e44543ddc36073585a8927016`
 - 全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `<img>` fallback。
@@ -122,7 +122,7 @@
 
 ## 静态 PNG 业务完成边界
 
-| 静态图 | 对应需求 | 业务完成状态 | 可声明业务完成 | 审计边界 |
+| 静态图 | 对应模块 | 业务完成状态 | 是否可作业务结论 | 审计边界 |
 | --- | --- | --- | --- | --- |
 | assets/figures/zh/world500_emissions_ranking_graph.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。 |
 | assets/figures/zh/world500_standard_chain_overview.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。 |
@@ -134,6 +134,10 @@
 | assets/figures/en/world500_standard_role_entity_graph.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded. |
 | assets/figures/en/world500_technology_cluster_overview.png | R4_TECHNOLOGY_PATH_AXIS | partial_disclosure_signal_only | 不可 | 技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。 |
 | assets/figures/en/world500_primary_secondary_source_mix.png | R5_PRIMARY_SECONDARY_BUBBLE | partial_source_mix_inference | 不可 | 除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。 |
+| assets/figures/zh/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
+| assets/figures/en/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
+| assets/figures/zh/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
+| assets/figures/en/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
 
 ## Completion Workplan
 

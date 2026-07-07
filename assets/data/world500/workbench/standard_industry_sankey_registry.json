@@ -1,0 +1,138 @@
+{
+  "schema_version": "standard_industry_sankey_registry-v1",
+  "row_count": 12,
+  "rows": [
+    {
+      "display_system": "GHG Protocol",
+      "display_standard_name_zh": "GHG Protocol 企业核算与报告标准",
+      "display_standard_name_en": "GHG Protocol Corporate Accounting and Reporting Standard",
+      "internal_standard_id": "ghg_corporate_standard",
+      "source_standard_family": "GHG Protocol",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "GHG Protocol",
+      "display_standard_name_zh": "GHG Protocol 企业价值链（Scope 3）核算与报告标准",
+      "display_standard_name_en": "GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
+      "internal_standard_id": "ghg_scope3_standard",
+      "source_standard_family": "GHG Protocol",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "GHG Protocol",
+      "display_standard_name_zh": "金融行业全球温室气体核算与报告标准",
+      "display_standard_name_en": "Global GHG Accounting and Reporting Standard for the Financial Industry",
+      "internal_standard_id": "ghg_financial_industry_standard",
+      "source_standard_family": "GHG Protocol",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "GHG Protocol",
+      "display_standard_name_zh": "GHG Protocol Scope 2 指南",
+      "display_standard_name_en": "GHG Protocol Scope 2 Guidance",
+      "internal_standard_id": "ghg_scope2_guidance",
+      "source_standard_family": "GHG Protocol",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "GHG Protocol",
+      "display_standard_name_zh": "GHG Protocol 项目减排核算协议",
+      "display_standard_name_en": "GHG Protocol Project Protocol",
+      "internal_standard_id": "ghg_project_protocol",
+      "source_standard_family": "GHG Protocol",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "GHG Protocol",
+      "display_standard_name_zh": "GHG Protocol 产品生命周期核算与报告标准",
+      "display_standard_name_en": "GHG Protocol Product Life Cycle Accounting and Reporting Standard",
+      "internal_standard_id": "ghg_product_standard",
+      "source_standard_family": "GHG Protocol",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "GHG Protocol",
+      "display_standard_name_zh": "GHG Protocol Scope 3 计算指南",
+      "display_standard_name_en": "GHG Protocol Scope 3 Calculation Guidance",
+      "internal_standard_id": "ghg_scope3_calculation_guidance",
+      "source_standard_family": "GHG Protocol",
+      "is_requested_display_node": "true",
+      "is_confirmed": "false",
+      "needs_confirmation": "true",
+      "note": "需求方文档写 GHGP 7 类但正文只列明 6 个名称；第 7 项暂按现有标准注册表映射为 Scope 3 Calculation Guidance，后续可按需求方确认调整。"
+    },
+    {
+      "display_system": "ISO",
+      "display_standard_name_zh": "ISO 14064",
+      "display_standard_name_en": "ISO 14064",
+      "internal_standard_id": "iso_14064",
+      "source_standard_family": "ISO system",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "ISO",
+      "display_standard_name_zh": "ISO 14067",
+      "display_standard_name_en": "ISO 14067",
+      "internal_standard_id": "iso_14067",
+      "source_standard_family": "ISO system",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "ISO",
+      "display_standard_name_zh": "ISO 14040/14044",
+      "display_standard_name_en": "ISO 14040/14044",
+      "internal_standard_id": "iso_14040_14044",
+      "source_standard_family": "ISO system",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": "需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 ISO 标准替代。"
+    },
+    {
+      "display_system": "GB/T",
+      "display_standard_name_zh": "GB/T 24067-2024",
+      "display_standard_name_en": "GB/T 24067-2024",
+      "internal_standard_id": "gb_t_24067_2024",
+      "source_standard_family": "Chinese national standard system",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": ""
+    },
+    {
+      "display_system": "GB/T",
+      "display_standard_name_zh": "GB/T 32150-2015",
+      "display_standard_name_en": "GB/T 32150-2015",
+      "internal_standard_id": "gb_t_32150_2015",
+      "source_standard_family": "Chinese national standard system",
+      "is_requested_display_node": "true",
+      "is_confirmed": "true",
+      "needs_confirmation": "false",
+      "note": "需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 GB/T 标准替代。"
+    }
+  ]
+}

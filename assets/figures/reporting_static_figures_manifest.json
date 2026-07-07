@@ -1,6 +1,6 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-06-26T16:38:24+00:00",
+  "generated_at": "2026-07-07T15:17:31+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
   "source_sha256": "4954e86b0d408c766833fd1daba48d58633f4b2e44543ddc36073585a8927016",
   "generator": "tools/sync_reporting_static_figures.py",
@@ -287,6 +287,90 @@
       "audit_boundary_zh": "除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。",
       "bytes": 117353,
       "sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802"
+    },
+    {
+      "file": "assets/figures/zh/world500_standard_industry_section_sankey.png",
+      "lang": "zh",
+      "figure_no": "standard_industry_sankey",
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "title_en": "Standard systems × industry sections Sankey",
+      "title_zh": "标准体系×行业门类桑基图",
+      "data_keys": [
+        "standard_industry_sankey_links"
+      ],
+      "page_sections": [
+        "industry_section_outputs"
+      ],
+      "claim_status": "partial_evidence_bounded",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
+      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
+      "bytes": 190883,
+      "sha256": "df864fb80a3faec2a164ea1cd9d77099eb19b789ca41f2008722ecc9ba5af725"
+    },
+    {
+      "file": "assets/figures/en/world500_standard_industry_section_sankey.png",
+      "lang": "en",
+      "figure_no": "standard_industry_sankey",
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "title_en": "Standard systems × industry sections Sankey",
+      "title_zh": "标准体系×行业门类桑基图",
+      "data_keys": [
+        "standard_industry_sankey_links"
+      ],
+      "page_sections": [
+        "industry_section_outputs"
+      ],
+      "claim_status": "partial_evidence_bounded",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
+      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
+      "bytes": 161863,
+      "sha256": "97df946ea5ba86d23fe6a4c23a597c295195c523f76dab628febc6c3fbedd601"
+    },
+    {
+      "file": "assets/figures/zh/world500_emissions_industry_section_ranking.png",
+      "lang": "zh",
+      "figure_no": "emissions_industry_ranking",
+      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
+      "title_en": "Emissions industry-section ranking",
+      "title_zh": "排放行业门类排行与缺失统计",
+      "data_keys": [
+        "emissions_industry_section_outputs"
+      ],
+      "page_sections": [
+        "industry_section_outputs"
+      ],
+      "claim_status": "partial_evidence_bounded",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
+      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
+      "bytes": 152320,
+      "sha256": "11ef872295e6a4c03fb2e83485b5f3f82141206bcf13d34d4f251b8f0238e566"
+    },
+    {
+      "file": "assets/figures/en/world500_emissions_industry_section_ranking.png",
+      "lang": "en",
+      "figure_no": "emissions_industry_ranking",
+      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
+      "title_en": "Emissions industry-section ranking",
+      "title_zh": "排放行业门类排行与缺失统计",
+      "data_keys": [
+        "emissions_industry_section_outputs"
+      ],
+      "page_sections": [
+        "industry_section_outputs"
+      ],
+      "claim_status": "partial_evidence_bounded",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
+      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
+      "bytes": 126575,
+      "sha256": "81bfd05f8c7d5e6a85673aa2591dcc972fb92f7f6d0afeacf3278933d164df31"
     }
   ],
   "source_hash_matches": true

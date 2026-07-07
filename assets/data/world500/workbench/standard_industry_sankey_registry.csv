@@ -1,0 +1,13 @@
+display_system,display_standard_name_zh,display_standard_name_en,internal_standard_id,source_standard_family,is_requested_display_node,is_confirmed,needs_confirmation,note
+GHG Protocol,GHG Protocol 企业核算与报告标准,GHG Protocol Corporate Accounting and Reporting Standard,ghg_corporate_standard,GHG Protocol,true,true,false,
+GHG Protocol,GHG Protocol 企业价值链（Scope 3）核算与报告标准,GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard,ghg_scope3_standard,GHG Protocol,true,true,false,
+GHG Protocol,金融行业全球温室气体核算与报告标准,Global GHG Accounting and Reporting Standard for the Financial Industry,ghg_financial_industry_standard,GHG Protocol,true,true,false,
+GHG Protocol,GHG Protocol Scope 2 指南,GHG Protocol Scope 2 Guidance,ghg_scope2_guidance,GHG Protocol,true,true,false,
+GHG Protocol,GHG Protocol 项目减排核算协议,GHG Protocol Project Protocol,ghg_project_protocol,GHG Protocol,true,true,false,
+GHG Protocol,GHG Protocol 产品生命周期核算与报告标准,GHG Protocol Product Life Cycle Accounting and Reporting Standard,ghg_product_standard,GHG Protocol,true,true,false,
+GHG Protocol,GHG Protocol Scope 3 计算指南,GHG Protocol Scope 3 Calculation Guidance,ghg_scope3_calculation_guidance,GHG Protocol,true,false,true,需求方文档写 GHGP 7 类但正文只列明 6 个名称；第 7 项暂按现有标准注册表映射为 Scope 3 Calculation Guidance，后续可按需求方确认调整。
+ISO,ISO 14064,ISO 14064,iso_14064,ISO system,true,true,false,
+ISO,ISO 14067,ISO 14067,iso_14067,ISO system,true,true,false,
+ISO,ISO 14040/14044,ISO 14040/14044,iso_14040_14044,ISO system,true,true,false,需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 ISO 标准替代。
+GB/T,GB/T 24067-2024,GB/T 24067-2024,gb_t_24067_2024,Chinese national standard system,true,true,false,
+GB/T,GB/T 32150-2015,GB/T 32150-2015,gb_t_32150_2015,Chinese national standard system,true,true,false,需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 GB/T 标准替代。
