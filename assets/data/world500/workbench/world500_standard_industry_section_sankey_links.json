@@ -1,6 +1,6 @@
 {
   "schema_version": "world500_standard_industry_section_sankey_links-v1",
-  "row_count": 50,
+  "row_count": 51,
   "flow_definition": "accepted company-standard association count only",
   "rows": [
     {
@@ -22,6 +22,24 @@
       ]
     },
     {
+      "standard_system": "GB/T",
+      "display_standard_name_zh": "GB/T 32150-2015",
+      "display_standard_name_en": "GB/T 32150-2015",
+      "internal_standard_id": "gb_t_32150_2015",
+      "industry_section_code": "C",
+      "industry_section_name_zh": "制造业",
+      "industry_section_name_en": "Manufacturing",
+      "accepted_company_count": 1,
+      "accepted_link_count": 1,
+      "distinct_company_count": 1,
+      "company_ids": [
+        "r451_crrcgroup"
+      ],
+      "company_names": [
+        "CRRC GROUP"
+      ]
+    },
+    {
       "standard_system": "GHG Protocol",
       "display_standard_name_zh": "GHG Protocol 企业核算与报告标准",
       "display_standard_name_en": "GHG Protocol Corporate Accounting and Reporting Standard",
@@ -40,11 +58,11 @@
         "r268_bhpgroup"
       ],
       "company_names": [
-        "BHP GROUP",
+        "SHELL",
         "CHEVRON",
         "CONOCOPHILLIPS",
         "RIO TINTO GROUP",
-        "SHELL"
+        "BHP GROUP"
       ]
     },
     {
@@ -55,9 +73,9 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 37,
-      "accepted_link_count": 37,
-      "distinct_company_count": 37,
+      "accepted_company_count": 35,
+      "accepted_link_count": 35,
+      "distinct_company_count": 35,
       "company_ids": [
         "r073_hyundaimotor",
         "r096_nestlé",
@@ -87,8 +105,6 @@
         "r426_qualcomm",
         "r427_broadcom",
         "r443_crh公司",
-        "r445_salesforce",
-        "r450_sap公司",
         "r455_elililly",
         "r459_cummins",
         "r464_britishamericantobacco",
@@ -98,43 +114,41 @@
         "r498_瑞士abb集团"
       ],
       "company_names": [
-        "3M",
-        "ABB",
-        "ASTRAZENECA",
-        "BOSCH GROUP",
-        "BRISTOL-MYERS SQUIBB",
-        "BRITISH AMERICAN TOBACCO",
-        "BROADCOM",
-        "CATERPILLAR",
-        "CONTINENTAL",
-        "CRH",
-        "CUMMINS",
-        "DOW",
-        "ELI LILLY",
-        "GENERAL ELECTRIC",
-        "HEINEKEN",
-        "HP",
-        "HYUNDAI MOBIS",
         "HYUNDAI MOTOR",
-        "INTEL",
-        "JARDINE MATHESON",
-        "JBS",
-        "KIA",
-        "LENOVO GROUP",
-        "LG Electronics",
-        "LINDE",
-        "LOCKHEED MARTIN",
-        "MAGNA INTERNATIONAL",
-        "MONDELEZ INTERNATIONAL",
         "NESTLÉ",
+        "BOSCH GROUP",
+        "KIA",
+        "JBS",
+        "GENERAL ELECTRIC",
+        "LOCKHEED MARTIN",
+        "CATERPILLAR",
+        "LG Electronics",
         "PFIZER",
-        "QUALCOMM",
-        "SALESFORCE",
-        "SANOFI",
-        "SAP",
-        "SCHNEIDER ELECTRIC",
+        "LENOVO GROUP",
+        "INTEL",
+        "HP",
         "VOLVO",
-        "XIAOMI"
+        "SANOFI",
+        "ASTRAZENECA",
+        "HYUNDAI MOBIS",
+        "BRISTOL-MYERS SQUIBB",
+        "CONTINENTAL",
+        "DOW",
+        "MAGNA INTERNATIONAL",
+        "SCHNEIDER ELECTRIC",
+        "XIAOMI",
+        "JARDINE MATHESON",
+        "MONDELEZ INTERNATIONAL",
+        "QUALCOMM",
+        "BROADCOM",
+        "CRH",
+        "ELI LILLY",
+        "CUMMINS",
+        "BRITISH AMERICAN TOBACCO",
+        "LINDE",
+        "HEINEKEN",
+        "3M",
+        "ABB"
       ]
     },
     {
@@ -145,11 +159,13 @@
       "industry_section_code": "D",
       "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
       "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
-      "accepted_company_count": 11,
-      "accepted_link_count": 11,
-      "distinct_company_count": 11,
+      "accepted_company_count": 14,
+      "accepted_link_count": 14,
+      "distinct_company_count": 14,
       "company_ids": [
+        "r049_electricitédefrance",
         "r050_marathonpetroleum",
+        "r097_enel",
         "r098_eni",
         "r101_eon",
         "r130_engie集团",
@@ -157,22 +173,26 @@
         "r169_lukoil",
         "r238_chinahuanenggroup",
         "r247_repsol",
+        "r336_chinahuadian",
         "r358_omvgroup",
         "r401_suncorenergy",
         "r479_schlumberger"
       ],
       "company_names": [
-        "CHINA HUANENG GROUP",
-        "E.ON",
-        "ENI",
-        "Engie",
-        "LUKOIL",
+        "ELECTRICITÉ DE FRANCE",
         "MARATHON PETROLEUM",
-        "OMV GROUP",
+        "ENEL",
+        "ENI",
+        "E.ON",
+        "Engie",
         "ORLEN",
+        "LUKOIL",
+        "CHINA HUANENG GROUP",
         "REPSOL",
-        "SCHLUMBERGER",
-        "SUNCOR ENERGY"
+        "CHINA HUADIAN",
+        "OMV GROUP",
+        "SUNCOR ENERGY",
+        "SCHLUMBERGER"
       ]
     },
     {
@@ -198,15 +218,15 @@
         "r322_ingkagroup"
       ],
       "company_names": [
-        "Alimentation Couche-Tard",
-        "CARDINAL HEALTH",
+        "WALMART",
         "CVS Health",
-        "HOME DEPOT",
-        "INGKA GROUP",
         "MCKESSON",
-        "ROYAL AHOLD DELHAIZE",
+        "CARDINAL HEALTH",
+        "HOME DEPOT",
         "WALGREENS BOOTS ALLIANCE",
-        "WALMART"
+        "ROYAL AHOLD DELHAIZE",
+        "Alimentation Couche-Tard",
+        "INGKA GROUP"
       ]
     },
     {
@@ -227,10 +247,10 @@
         "r492_emiratesgroup"
       ],
       "company_names": [
-        "AMERICAN AIRLINES GROUP",
+        "UNITED PARCEL SERVICE",
         "DELTA AIR LINES",
-        "EMIRATES GROUP",
-        "UNITED PARCEL SERVICE"
+        "AMERICAN AIRLINES GROUP",
+        "EMIRATES GROUP"
       ]
     },
     {
@@ -241,22 +261,20 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 5,
-      "accepted_link_count": 5,
-      "distinct_company_count": 5,
+      "accepted_company_count": 4,
+      "accepted_link_count": 4,
+      "distinct_company_count": 4,
       "company_ids": [
         "r017_alphabet公司",
-        "r049_electricitédefrance",
-        "r097_enel",
-        "r336_chinahuadian",
-        "r350_telefónica"
+        "r350_telefónica",
+        "r445_salesforce",
+        "r450_sap公司"
       ],
       "company_names": [
         "Alphabet",
-        "CHINA HUADIAN",
-        "ELECTRICITÉ DE FRANCE",
-        "ENEL",
-        "TELEFÓNICA"
+        "TELEFÓNICA",
+        "SALESFORCE",
+        "SAP"
       ]
     },
     {
@@ -296,29 +314,29 @@
         "r491_apolloglobalmanagement"
       ],
       "company_names": [
-        "AIA GROUP",
-        "APOLLO GLOBAL MANAGEMENT",
+        "UNITEDHEALTH GROUP",
         "BANK OF AMERICA",
-        "BANK OF MONTREAL",
-        "BANK OF NEW YORK MELLON",
-        "BROOKFIELD",
-        "CANADIAN IMPERIAL BANK OF COMMERCE",
-        "CHINA MINSHENG BANKING",
         "CITIGROUP",
-        "COMMONWEALTH BANK OF AUSTRALIA",
-        "LLOYDS BANKING GROUP",
-        "METLIFE",
         "MORGAN STANLEY",
-        "NATIONAL AUSTRALIA BANK",
-        "NEW YORK LIFE INSURANCE",
-        "NORTHWESTERN MUTUAL",
-        "PRUDENTIAL FINANCIAL",
+        "BROOKFIELD",
         "ROYAL BANK OF CANADA",
         "TORONTO-DOMINION BANK",
-        "Travelers",
         "UBS GROUP",
-        "UNITEDHEALTH GROUP",
-        "ZURICH INSURANCE GROUP"
+        "METLIFE",
+        "LLOYDS BANKING GROUP",
+        "ZURICH INSURANCE GROUP",
+        "NEW YORK LIFE INSURANCE",
+        "PRUDENTIAL FINANCIAL",
+        "BANK OF MONTREAL",
+        "CHINA MINSHENG BANKING",
+        "Travelers",
+        "CANADIAN IMPERIAL BANK OF COMMERCE",
+        "NORTHWESTERN MUTUAL",
+        "AIA GROUP",
+        "NATIONAL AUSTRALIA BANK",
+        "BANK OF NEW YORK MELLON",
+        "COMMONWEALTH BANK OF AUSTRALIA",
+        "APOLLO GLOBAL MANAGEMENT"
       ]
     },
     {
@@ -358,9 +376,9 @@
         "r468_netflix公司"
       ],
       "company_names": [
-        "Netflix",
         "WALT DISNEY",
-        "WARNER BROS. DISCOVERY"
+        "WARNER BROS. DISCOVERY",
+        "Netflix"
       ]
     },
     {
@@ -386,24 +404,6 @@
       "display_standard_name_zh": "金融行业全球温室气体核算与报告标准",
       "display_standard_name_en": "Global GHG Accounting and Reporting Standard for the Financial Industry",
       "internal_standard_id": "ghg_financial_industry_standard",
-      "industry_section_code": "C",
-      "industry_section_name_zh": "制造业",
-      "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
-      "company_ids": [
-        "r445_salesforce"
-      ],
-      "company_names": [
-        "SALESFORCE"
-      ]
-    },
-    {
-      "standard_system": "GHG Protocol",
-      "display_standard_name_zh": "金融行业全球温室气体核算与报告标准",
-      "display_standard_name_en": "Global GHG Accounting and Reporting Standard for the Financial Industry",
-      "internal_standard_id": "ghg_financial_industry_standard",
       "industry_section_code": "F",
       "industry_section_name_zh": "批发和零售业",
       "industry_section_name_en": "Wholesale and Retail Trade",
@@ -415,6 +415,24 @@
       ],
       "company_names": [
         "INGKA GROUP"
+      ]
+    },
+    {
+      "standard_system": "GHG Protocol",
+      "display_standard_name_zh": "金融行业全球温室气体核算与报告标准",
+      "display_standard_name_en": "Global GHG Accounting and Reporting Standard for the Financial Industry",
+      "internal_standard_id": "ghg_financial_industry_standard",
+      "industry_section_code": "I",
+      "industry_section_name_zh": "信息传输、软件和信息技术服务业",
+      "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
+      "accepted_company_count": 1,
+      "accepted_link_count": 1,
+      "distinct_company_count": 1,
+      "company_ids": [
+        "r445_salesforce"
+      ],
+      "company_names": [
+        "SALESFORCE"
       ]
     },
     {
@@ -468,43 +486,43 @@
         "r491_apolloglobalmanagement"
       ],
       "company_names": [
-        "ALLIANZ",
-        "AMERICAN INTERNATIONAL GROUP",
-        "APOLLO GLOBAL MANAGEMENT",
-        "AXA",
-        "BANCO BILBAO VIZCAYA ARGENTARIA",
-        "BANCO SANTANDER",
-        "BANK OF AMERICA",
-        "BANK OF MONTREAL",
-        "BANK OF NEW YORK MELLON",
-        "BPCE Group",
-        "BROOKFIELD",
-        "CANADIAN IMPERIAL BANK OF COMMERCE",
-        "COMMONWEALTH BANK OF AUSTRALIA",
-        "DAI-ICHI LIFE HOLDINGS",
-        "DEUTSCHE BANK",
-        "HSBC HOLDINGS",
-        "INTESA SANPAOLO",
-        "ITAÚ UNIBANCO HOLDING",
-        "JPMORGAN CHASE",
-        "MASSACHUSETTS MUTUAL LIFE INSURANCE",
-        "METLIFE",
-        "MORGAN STANLEY",
-        "MUNICH RE GROUP",
-        "NATIONAL AUSTRALIA BANK",
-        "NEW YORK LIFE INSURANCE",
-        "RABOBANK GROUP",
-        "ROYAL BANK OF CANADA",
-        "SOMPO HOLDINGS",
-        "STANDARD CHARTERED",
-        "SUMITOMO MITSUI FINANCIAL GROUP",
-        "SWISS RE",
-        "TIAA",
-        "TORONTO-DOMINION BANK",
-        "Talanx",
-        "UNICREDIT GROUP",
         "UNITEDHEALTH GROUP",
-        "ZURICH INSURANCE GROUP"
+        "JPMORGAN CHASE",
+        "BANK OF AMERICA",
+        "BANCO SANTANDER",
+        "HSBC HOLDINGS",
+        "ALLIANZ",
+        "MORGAN STANLEY",
+        "BROOKFIELD",
+        "AXA",
+        "ROYAL BANK OF CANADA",
+        "DAI-ICHI LIFE HOLDINGS",
+        "TORONTO-DOMINION BANK",
+        "BPCE Group",
+        "ITAÚ UNIBANCO HOLDING",
+        "BANCO BILBAO VIZCAYA ARGENTARIA",
+        "METLIFE",
+        "DEUTSCHE BANK",
+        "SUMITOMO MITSUI FINANCIAL GROUP",
+        "MUNICH RE GROUP",
+        "ZURICH INSURANCE GROUP",
+        "NEW YORK LIFE INSURANCE",
+        "INTESA SANPAOLO",
+        "BANK OF MONTREAL",
+        "SWISS RE",
+        "UNICREDIT GROUP",
+        "AMERICAN INTERNATIONAL GROUP",
+        "Talanx",
+        "TIAA",
+        "MASSACHUSETTS MUTUAL LIFE INSURANCE",
+        "CANADIAN IMPERIAL BANK OF COMMERCE",
+        "STANDARD CHARTERED",
+        "NATIONAL AUSTRALIA BANK",
+        "SOMPO HOLDINGS",
+        "RABOBANK GROUP",
+        "BANK OF NEW YORK MELLON",
+        "COMMONWEALTH BANK OF AUSTRALIA",
+        "APOLLO GLOBAL MANAGEMENT"
       ]
     },
     {
@@ -615,10 +633,10 @@
         "r268_bhpgroup"
       ],
       "company_names": [
-        "BHP GROUP",
+        "SHELL",
         "CHEVRON",
         "RIO TINTO GROUP",
-        "SHELL"
+        "BHP GROUP"
       ]
     },
     {
@@ -629,9 +647,9 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 14,
-      "accepted_link_count": 14,
-      "distinct_company_count": 14,
+      "accepted_company_count": 12,
+      "accepted_link_count": 12,
+      "distinct_company_count": 12,
       "company_ids": [
         "r036_fordmotor",
         "r073_hyundaimotor",
@@ -643,26 +661,22 @@
         "r329_astrazeneca",
         "r387_schneiderelectric",
         "r427_broadcom",
-        "r445_salesforce",
-        "r450_sap公司",
         "r464_britishamericantobacco",
         "r487_heineken"
       ],
       "company_names": [
-        "ASTRAZENECA",
-        "BRITISH AMERICAN TOBACCO",
-        "BROADCOM",
-        "CATERPILLAR",
         "FORD MOTOR",
-        "HEINEKEN",
-        "HP",
         "HYUNDAI MOTOR",
         "KIA",
+        "CATERPILLAR",
         "LENOVO GROUP",
-        "SALESFORCE",
+        "HP",
         "SANOFI",
-        "SAP",
-        "SCHNEIDER ELECTRIC"
+        "ASTRAZENECA",
+        "SCHNEIDER ELECTRIC",
+        "BROADCOM",
+        "BRITISH AMERICAN TOBACCO",
+        "HEINEKEN"
       ]
     },
     {
@@ -685,9 +699,9 @@
       ],
       "company_names": [
         "Engie",
+        "ORLEN",
         "LUKOIL",
         "OMV GROUP",
-        "ORLEN",
         "SUNCOR ENERGY"
       ]
     },
@@ -710,8 +724,8 @@
       ],
       "company_names": [
         "CARDINAL HEALTH",
-        "INGKA GROUP",
         "ROYAL AHOLD DELHAIZE",
+        "INGKA GROUP",
         "Uber Technologies"
       ]
     },
@@ -741,16 +755,20 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 2,
-      "accepted_link_count": 2,
-      "distinct_company_count": 2,
+      "accepted_company_count": 4,
+      "accepted_link_count": 4,
+      "distinct_company_count": 4,
       "company_ids": [
         "r017_alphabet公司",
-        "r077_deutschetelekom"
+        "r077_deutschetelekom",
+        "r445_salesforce",
+        "r450_sap公司"
       ],
       "company_names": [
         "Alphabet",
-        "DEUTSCHE TELEKOM"
+        "DEUTSCHE TELEKOM",
+        "SALESFORCE",
+        "SAP"
       ]
     },
     {
@@ -774,13 +792,13 @@
         "r466_bankofnewyorkmellon"
       ],
       "company_names": [
-        "AXA",
         "BANK OF AMERICA",
-        "BANK OF NEW YORK MELLON",
-        "BROOKFIELD",
         "CITIGROUP",
+        "BROOKFIELD",
+        "AXA",
         "ROYAL BANK OF CANADA",
-        "TORONTO-DOMINION BANK"
+        "TORONTO-DOMINION BANK",
+        "BANK OF NEW YORK MELLON"
       ]
     },
     {
@@ -799,8 +817,8 @@
         "r468_netflix公司"
       ],
       "company_names": [
-        "Netflix",
-        "WARNER BROS. DISCOVERY"
+        "WARNER BROS. DISCOVERY",
+        "Netflix"
       ]
     },
     {
@@ -819,8 +837,8 @@
         "r264_riotintogroup"
       ],
       "company_names": [
-        "RIO TINTO GROUP",
-        "TOTALENERGIES"
+        "TOTALENERGIES",
+        "RIO TINTO GROUP"
       ]
     },
     {
@@ -831,24 +849,22 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 6,
-      "accepted_link_count": 6,
-      "distinct_company_count": 6,
+      "accepted_company_count": 5,
+      "accepted_link_count": 5,
+      "distinct_company_count": 5,
       "company_ids": [
         "r269_hp",
         "r282_volvo",
         "r297_sanofi",
         "r368_lyondellbasellindustries",
-        "r427_broadcom",
-        "r445_salesforce"
+        "r427_broadcom"
       ],
       "company_names": [
-        "BROADCOM",
         "HP",
-        "LYONDELLBASELL INDUSTRIES",
-        "SALESFORCE",
+        "VOLVO",
         "SANOFI",
-        "VOLVO"
+        "LYONDELLBASELL INDUSTRIES",
+        "BROADCOM"
       ]
     },
     {
@@ -913,14 +929,16 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
+      "accepted_company_count": 2,
+      "accepted_link_count": 2,
+      "distinct_company_count": 2,
       "company_ids": [
-        "r017_alphabet公司"
+        "r017_alphabet公司",
+        "r445_salesforce"
       ],
       "company_names": [
-        "Alphabet"
+        "Alphabet",
+        "SALESFORCE"
       ]
     },
     {
@@ -982,11 +1000,11 @@
         "r268_bhpgroup"
       ],
       "company_names": [
-        "BHP GROUP",
+        "SHELL",
+        "TOTALENERGIES",
         "CHEVRON",
         "RIO TINTO GROUP",
-        "SHELL",
-        "TOTALENERGIES"
+        "BHP GROUP"
       ]
     },
     {
@@ -997,9 +1015,9 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 27,
-      "accepted_link_count": 27,
-      "distinct_company_count": 27,
+      "accepted_company_count": 25,
+      "accepted_link_count": 25,
+      "distinct_company_count": 25,
       "company_ids": [
         "r073_hyundaimotor",
         "r117_adm公司",
@@ -1021,8 +1039,6 @@
         "r357_magnainternational",
         "r376_abbottlaboratories",
         "r387_schneiderelectric",
-        "r445_salesforce",
-        "r450_sap公司",
         "r464_britishamericantobacco",
         "r486_linde",
         "r487_heineken",
@@ -1030,33 +1046,31 @@
         "r498_瑞士abb集团"
       ],
       "company_names": [
-        "3M",
-        "ABB",
-        "ABBOTT LABORATORIES",
+        "HYUNDAI MOTOR",
         "ADM",
-        "ASTRAZENECA",
-        "BAYER",
-        "BRITISH AMERICAN TOBACCO",
-        "BUNGE GLOBAL",
+        "NISSAN MOTOR",
+        "KIA",
+        "LOCKHEED MARTIN",
         "CATERPILLAR",
+        "LG Electronics",
+        "BUNGE GLOBAL",
+        "LENOVO GROUP",
+        "HP",
+        "VOLVO",
+        "BAYER",
+        "SANOFI",
+        "ASTRAZENECA",
+        "HYUNDAI MOBIS",
         "CONTINENTAL",
         "DOW",
-        "HEINEKEN",
-        "HP",
-        "HYUNDAI MOBIS",
-        "HYUNDAI MOTOR",
-        "KIA",
-        "LENOVO GROUP",
-        "LG Electronics",
-        "LINDE",
-        "LOCKHEED MARTIN",
         "MAGNA INTERNATIONAL",
-        "NISSAN MOTOR",
-        "SALESFORCE",
-        "SANOFI",
-        "SAP",
+        "ABBOTT LABORATORIES",
         "SCHNEIDER ELECTRIC",
-        "VOLVO"
+        "BRITISH AMERICAN TOBACCO",
+        "LINDE",
+        "HEINEKEN",
+        "3M",
+        "ABB"
       ]
     },
     {
@@ -1067,24 +1081,26 @@
       "industry_section_code": "D",
       "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
       "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
-      "accepted_company_count": 6,
-      "accepted_link_count": 6,
-      "distinct_company_count": 6,
+      "accepted_company_count": 7,
+      "accepted_link_count": 7,
+      "distinct_company_count": 7,
       "company_ids": [
         "r098_eni",
         "r101_eon",
         "r130_engie集团",
         "r132_orlen",
         "r247_repsol",
+        "r317_tokyoelectricpower",
         "r358_omvgroup"
       ],
       "company_names": [
-        "E.ON",
         "ENI",
+        "E.ON",
         "Engie",
-        "OMV GROUP",
         "ORLEN",
-        "REPSOL"
+        "REPSOL",
+        "TOKYO ELECTRIC POWER",
+        "OMV GROUP"
       ]
     },
     {
@@ -1125,12 +1141,12 @@
         "r322_ingkagroup"
       ],
       "company_names": [
-        "Alimentation Couche-Tard",
-        "CARDINAL HEALTH",
+        "WALMART",
         "CVS Health",
-        "INGKA GROUP",
+        "CARDINAL HEALTH",
         "ROYAL AHOLD DELHAIZE",
-        "WALMART"
+        "Alimentation Couche-Tard",
+        "INGKA GROUP"
       ]
     },
     {
@@ -1150,9 +1166,9 @@
         "r492_emiratesgroup"
       ],
       "company_names": [
+        "UNITED PARCEL SERVICE",
         "AMERICAN AIRLINES GROUP",
-        "EMIRATES GROUP",
-        "UNITED PARCEL SERVICE"
+        "EMIRATES GROUP"
       ]
     },
     {
@@ -1163,18 +1179,20 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 3,
-      "accepted_link_count": 3,
-      "distinct_company_count": 3,
+      "accepted_company_count": 4,
+      "accepted_link_count": 4,
+      "distinct_company_count": 4,
       "company_ids": [
         "r017_alphabet公司",
-        "r317_tokyoelectricpower",
-        "r350_telefónica"
+        "r350_telefónica",
+        "r445_salesforce",
+        "r450_sap公司"
       ],
       "company_names": [
         "Alphabet",
         "TELEFÓNICA",
-        "TOKYO ELECTRIC POWER"
+        "SALESFORCE",
+        "SAP"
       ]
     },
     {
@@ -1207,22 +1225,22 @@
         "r484_commonwealthbankofaustralia"
       ],
       "company_names": [
-        "AMERICAN INTERNATIONAL GROUP",
-        "ASSICURAZIONI GENERALI",
-        "AXA",
         "BANK OF AMERICA",
-        "BANK OF MONTREAL",
-        "BANK OF NEW YORK MELLON",
-        "BROOKFIELD",
-        "CANADIAN IMPERIAL BANK OF COMMERCE",
         "CITIGROUP",
-        "COMMONWEALTH BANK OF AUSTRALIA",
+        "BROOKFIELD",
+        "AXA",
+        "TORONTO-DOMINION BANK",
         "MUNICH RE GROUP",
-        "NATIONAL AUSTRALIA BANK",
+        "ASSICURAZIONI GENERALI",
         "NEW YORK LIFE INSURANCE",
         "PRUDENTIAL FINANCIAL",
-        "TORONTO-DOMINION BANK",
-        "Travelers"
+        "BANK OF MONTREAL",
+        "AMERICAN INTERNATIONAL GROUP",
+        "Travelers",
+        "CANADIAN IMPERIAL BANK OF COMMERCE",
+        "NATIONAL AUSTRALIA BANK",
+        "BANK OF NEW YORK MELLON",
+        "COMMONWEALTH BANK OF AUSTRALIA"
       ]
     },
     {

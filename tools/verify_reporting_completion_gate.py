@@ -65,6 +65,30 @@ REQUIRED_FILES = [
     WORKBENCH / "world500_technology_cost_p0_backfill_targets.csv",
     WORKBENCH / "world500_technology_cost_p0_strict_evidence_batch.json",
     WORKBENCH / "world500_technology_cost_p0_strict_evidence_batch.csv",
+    WORKBENCH / "national_industry_section_registry.json",
+    WORKBENCH / "national_industry_section_registry.csv",
+    WORKBENCH / "standard_industry_sankey_registry.json",
+    WORKBENCH / "standard_industry_sankey_registry.csv",
+    WORKBENCH / "world500_standard_industry_section_sankey_links.json",
+    WORKBENCH / "world500_standard_industry_section_sankey_links.csv",
+    WORKBENCH / "world500_standard_industry_section_sankey_evidence.json",
+    WORKBENCH / "world500_standard_industry_section_sankey_evidence.csv",
+    WORKBENCH / "world500_standard_industry_evidence_review_pack.json",
+    WORKBENCH / "world500_standard_industry_evidence_review_pack.csv",
+    WORKBENCH / "world500_standard_evidence_boundary_summary.json",
+    WORKBENCH / "world500_standard_evidence_boundary_summary.csv",
+    WORKBENCH / "world500_company_industry_review_pack.json",
+    WORKBENCH / "world500_company_industry_review_pack.csv",
+    WORKBENCH / "world500_primary_secondary_evidence_chain_export.json",
+    WORKBENCH / "world500_primary_secondary_evidence_chain_export.csv",
+    WORKBENCH / "world500_primary_secondary_bubble_company_summary.json",
+    WORKBENCH / "world500_primary_secondary_bubble_company_summary.csv",
+    WORKBENCH / "world500_emissions_industry_section_ranking.json",
+    WORKBENCH / "world500_emissions_industry_section_ranking.csv",
+    WORKBENCH / "world500_emissions_industry_section_coverage_summary.json",
+    WORKBENCH / "world500_emissions_industry_section_coverage_summary.csv",
+    WORKBENCH / "world500_emissions_missing_company_list.json",
+    WORKBENCH / "world500_emissions_missing_company_list.csv",
     FIGURES / "reporting_static_figures_manifest.json",
     ROOT / "REPORTING_COMPLETION_AUDIT_ZH.md",
     ROOT / "reporting-completion-audit.html",
@@ -90,8 +114,10 @@ REQUIRED_SYNCED_REPORT_FIGURES = {
     "world500_emissions_ranking_graph.png": "emissions_ranking",
     "world500_standard_chain_overview.png": "figure_2",
     "world500_standard_role_entity_graph.png": "figure_2_entity_graph",
+    "world500_standard_industry_section_sankey.png": "standard_industry_sankey",
     "world500_technology_cluster_overview.png": "figure_6",
     "world500_primary_secondary_source_mix.png": "primary_secondary_bubble",
+    "world500_emissions_industry_section_ranking.png": "emissions_industry_ranking",
 }
 
 FULL_GRAPH_FORBIDDEN_STATIC_FALLBACK_TOKENS = [
@@ -1593,6 +1619,19 @@ def assert_javascript_syntax() -> None:
         subprocess.run([node, "--check", str(target)], check=True, cwd=ROOT)
 
 
+def assert_industry_section_output_verifiers() -> None:
+    node = shutil.which("node")
+    if not node:
+        print("WARN: node not found; skipped industry-section output verifiers.")
+        return
+    for script in [
+        ROOT / "tools" / "verify_standard_industry_sankey.js",
+        ROOT / "tools" / "verify_primary_secondary_exports.js",
+        ROOT / "tools" / "verify_emissions_industry_outputs.js",
+    ]:
+        subprocess.run([node, str(script)], check=True, cwd=ROOT)
+
+
 def main() -> None:
     checks = [
         assert_required_files,
@@ -1620,6 +1659,7 @@ def main() -> None:
         assert_disclosure_boundary_language,
         assert_audit_report_freshness,
         assert_javascript_syntax,
+        assert_industry_section_output_verifiers,
     ]
     for check in checks:
         check()

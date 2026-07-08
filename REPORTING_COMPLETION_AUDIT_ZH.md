@@ -1,8 +1,8 @@
 # 世界500强 ESG 知识图谱完成度审计
 
-- 生成时间：2026-06-21
+- 生成时间：2026-07-08
 - 审计矩阵日期：2026-06-07
-- PNG manifest 生成时间：2026-07-08T02:46:43+00:00
+- PNG manifest 生成时间：2026-07-08T08:05:33+00:00
 - 总体状态：partial
 - 是否可以声明全部完成：不可
 
@@ -21,7 +21,7 @@
 | 显式命中 GHG 具体系列企业 | 137 |
 | 标准角色图标准节点 | 32 |
 | 标准角色图企业 | 339 |
-| 标准-企业关系 | 1908 |
+| 标准-企业关系 | 1909 |
 | 有可用总排放量企业 | 91 |
 | 完整强证据可比排行企业 | 27 |
 | 技术路径企业 | 173 |
@@ -39,9 +39,9 @@
 
 | 模块 | 状态 | 可作为结论 | 开放队列行数 | 已实现 | 未完成/风险 |
 | --- | --- | --- | --- | --- | --- |
-| R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | 部分完成 | 不可 | 927 | GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1908 条标准-企业关系。 | GHG 显式细分证据仍不足，137/231 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。 |
-| R2_TOTAL_EMISSIONS_RANKING_DESC | 部分完成 | 不可 | 189 | 已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，21 家进入完整 Scope 1/2/3 强证据排行。 | 完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。 |
-| R3_STANDARD_ROLE_FULL_GRAPH_AND_SCOPE_LANGUAGE | 已实现但仍有复核队列 | 不可 | 74 | 50 个 full-graph HTML 均为内嵌 JSON；标准节点和企业节点按标准/行业着色；非 GHG 标准自身 Scope 术语误用为 0。 | 仍有 74 条非 GHG 源文引用含 Scope 词，需要确认只作为引用语境展示。 |
+| R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | 部分完成 | 不可 | 927 | GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1909 条标准-企业关系。 | GHG 显式细分证据仍不足，137/229 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。 |
+| R2_TOTAL_EMISSIONS_RANKING_DESC | 部分完成 | 不可 | 189 | 已生成完整强证据排行图和静态 PNG；当前 91 家有可用总量，27 家进入完整 Scope 1/2/3 强证据排行。 | 完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。 |
+| R3_STANDARD_ROLE_FULL_GRAPH_AND_SCOPE_LANGUAGE | 已实现但仍有复核队列 | 不可 | 75 | 50 个 full-graph HTML 均为内嵌 JSON；标准节点和企业节点按标准/行业着色；非 GHG 标准自身 Scope 术语误用为 0。 | 仍有 74 条非 GHG 源文引用含 Scope 词，需要确认只作为引用语境展示。 |
 | R4_TECHNOLOGY_PATH_AXIS | 部分完成 | 不可 | 432 | 图6 已有 9 类技术路径、流程轴、标准对齐、细分方向、时间信号和成本信号，并有中英文静态 PNG。 | 303 条技术-企业关系仍全部是披露关键词信号，不是已核证项目成本或减排量。 |
 | R5_PRIMARY_SECONDARY_BUBBLE | 部分完成 | 不可 | 449 | 初级/次级气泡图已生成；306 家企业进入来源结构数据，161 家有可显示比例。 | 只有 13 家使用原文明示 primary data 百分比，多数比例仍是 method_rows 来源结构推断，不等同审定计算权重。 |
 | R6_STATIC_PNG_SYNC_SUPPORTING_GATE | 已实现 | 可 | 0 | 8 张中英文 PNG 均存在，manifest 记录 reporting_views 源 hash 和每张 PNG hash。 | 只要 reporting_views.json 更新，就必须重跑静态图同步脚本。 |
@@ -54,7 +54,7 @@
 | 2 | P2 | standard_company_relationships | 结构已实现但证据质量有风险 | 0 | 抽样复核标准-企业边的页码与 snippet 完整度，优先处理低置信/弱片段。 | 结构完整但边证据不均衡，弱 snippet 会影响图谱可信度。 |
 | 3 | P0 | emissions_ranking | 部分完成 | 189 | 按 Scope 1、Scope 2 方法/数值、Scope 3 缺口队列补齐完整强证据总量。 | partial 总量若混入主排行，会导致企业总排放排序不可比。 |
 | 4 | Monitor | standard_full_graph_runtime | 已实现 | 0 | 后续每次改 reporting_views 或 full-graph 生成器后跑全量 HTML/PNG hash 校验。 | 当前是展示层风险；数据更新后未同步生成会重新漂移。 |
-| 5 | P2 | scope_language_policy | 已实现但仍有复核队列 | 74 | 确认非 GHG 标准源文中的 Scope 词只作为引用展示，不进入标准自身术语。 | Scope 术语若进入非 GHG 标准口径，会造成标准体系概念错误。 |
+| 5 | P2 | scope_language_policy | 已实现但仍有复核队列 | 75 | 确认非 GHG 标准源文中的 Scope 词只作为引用展示，不进入标准自身术语。 | Scope 术语若进入非 GHG 标准口径，会造成标准体系概念错误。 |
 | 6 | P1 | technology_path_axis | 部分完成 | 432 | 把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。 | 关键词信号若被当成项目级技术应用或成本证据，会夸大减碳路径结论。 |
 | 7 | P1 | primary_secondary_bubble | 部分完成 | 449 | 把来源结构比例与真实计算权重区分开，优先补原文明示 primary data 百分比。 | 来源结构比例若被当成真实计算权重，会误导初级数据质量判断。 |
 | 8 | Monitor | static_png_sync | 已实现 | 0 | 后续 reporting_views.json 更新后重跑 sync_reporting_static_figures.py。 | 页面和汇报 PNG 若不同源，会造成 GitHub 页面与汇报材料不一致。 |
@@ -76,7 +76,7 @@
 ### 三、标准角色族全屏实体级知识图谱
 
 - 当前判断：全屏图运行层已实现，标准/行业颜色已实现；仍需复核非 GHG 源文 Scope 词只作为引用语境。
-- 开放队列行数：74
+- 开放队列行数：75
 - 下一步：确认非 GHG 标准源文中的 Scope 词只作为引用展示，不进入标准自身术语。
 
 ### 四、图6 技术路径主轴
@@ -96,7 +96,7 @@
 - PNG manifest：`assets/figures/reporting_static_figures_manifest.json`
 - PNG 数量：14
 - PNG 源数据：`assets/data/world500/workbench/reporting_views.json`
-- 源数据 SHA256：`4954e86b0d408c766833fd1daba48d58633f4b2e44543ddc36073585a8927016`
+- 源数据 SHA256：`f4cd74b07170de5eb18db88b88e552884f68a18a716dcd77635d611ecfecd056`
 - 全屏图校验要求：50 个 `zh/en/*full-graph.html` 必须内嵌 JSON，且不能出现 `fetch(` 或 `<img>` fallback。
 
 ## 关键源文件
@@ -127,17 +127,17 @@
 | assets/figures/zh/world500_emissions_ranking_graph.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。 |
 | assets/figures/zh/world500_standard_chain_overview.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。 |
 | assets/figures/zh/world500_standard_role_entity_graph.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded. |
+| assets/figures/zh/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。 |
 | assets/figures/zh/world500_technology_cluster_overview.png | R4_TECHNOLOGY_PATH_AXIS | partial_disclosure_signal_only | 不可 | 技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。 |
 | assets/figures/zh/world500_primary_secondary_source_mix.png | R5_PRIMARY_SECONDARY_BUBBLE | partial_source_mix_inference | 不可 | 除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。 |
+| assets/figures/zh/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。 |
 | assets/figures/en/world500_emissions_ranking_graph.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。 |
 | assets/figures/en/world500_standard_chain_overview.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。 |
 | assets/figures/en/world500_standard_role_entity_graph.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded. |
+| assets/figures/en/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。 |
 | assets/figures/en/world500_technology_cluster_overview.png | R4_TECHNOLOGY_PATH_AXIS | partial_disclosure_signal_only | 不可 | 技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。 |
 | assets/figures/en/world500_primary_secondary_source_mix.png | R5_PRIMARY_SECONDARY_BUBBLE | partial_source_mix_inference | 不可 | 除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。 |
-| assets/figures/zh/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
-| assets/figures/en/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
-| assets/figures/zh/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
-| assets/figures/en/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_evidence_bounded | 不可 | 基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。 |
+| assets/figures/en/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。 |
 
 ## Completion Workplan
 
@@ -146,7 +146,7 @@ This section summarizes the executable evidence-closure workplan generated from 
 | Priority | Open queue rows |
 | --- | --- |
 | P0 | 1116 |
-| P2 | 74 |
+| P2 | 75 |
 | Monitor | 0 |
 | P1 | 881 |
 
@@ -160,8 +160,8 @@ This dashboard groups unresolved queues by priority, requirement, issue, and com
 
 - JSON: `assets/data/world500/workbench/world500_reporting_closure_dashboard.json`
 - CSV: `assets/data/world500/workbench/world500_reporting_closure_dashboard.csv`
-- Batch count: 793
-- Open queue rows covered: 2071
+- Batch count: 794
+- Open queue rows covered: 2072
 
 | Priority | Requirement | Issue | Company | Rows | Safe action |
 | --- | --- | --- | --- | --- | --- |

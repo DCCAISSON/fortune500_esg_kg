@@ -1,10 +1,10 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-07-08T02:46:43+00:00",
+  "generated_at": "2026-07-08T08:05:33+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
-  "source_sha256": "4954e86b0d408c766833fd1daba48d58633f4b2e44543ddc36073585a8927016",
+  "source_sha256": "f4cd74b07170de5eb18db88b88e552884f68a18a716dcd77635d611ecfecd056",
   "generator": "tools/sync_reporting_static_figures.py",
-  "sync_policy": "Figure 2, Figure 6, and the primary/secondary bubble PNGs are regenerated from the same reporting_views.json snapshot referenced by the GitHub pages.",
+  "sync_policy": "Reporting PNGs are regenerated from the same reporting_views.json snapshot plus GB/T 4754-2017 industry-section workbench outputs referenced by the GitHub pages.",
   "required_synced_report_figures": {
     "world500_emissions_ranking_graph.png": {
       "figure_no": "emissions_ranking",
@@ -42,6 +42,19 @@
         "index.figure_2"
       ]
     },
+    "world500_standard_industry_section_sankey.png": {
+      "figure_no": "standard_industry_sankey",
+      "title_en": "GHGP, ISO, and GB/T standards by split industry sections",
+      "title_zh": "GHGP、ISO、GB/T标准与行业门类分列 Sankey",
+      "data_keys": [
+        "standard_industry_sankey_links",
+        "standard_industry_sankey_evidence"
+      ],
+      "page_sections": [
+        "industry_section_outputs",
+        "index.standard_industry_sankey"
+      ]
+    },
     "world500_technology_cluster_overview.png": {
       "figure_no": "figure_6",
       "title_en": "Technology-path briefing graphic",
@@ -65,6 +78,18 @@
         "reporting_views.source_mix",
         "index.primary_secondary_bubble"
       ]
+    },
+    "world500_emissions_industry_section_ranking.png": {
+      "figure_no": "emissions_industry_ranking",
+      "title_en": "Emissions industry-section ranking",
+      "title_zh": "排放行业门类排行与缺失统计",
+      "data_keys": [
+        "emissions_industry_section_outputs"
+      ],
+      "page_sections": [
+        "industry_section_outputs",
+        "emission-ledger"
+      ]
     }
   },
   "figures": [
@@ -86,8 +111,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
       "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
-      "bytes": 252782,
-      "sha256": "d6cd884be283f45ecf0b62dc52db7db475c3705a8fa3379744c00bf861d1ef83"
+      "bytes": 257216,
+      "sha256": "4bb84212accf02cdf14570f1bf6abc479fe7e3faf81e48fe027ed056f0f693aa"
     },
     {
       "file": "assets/figures/zh/world500_standard_chain_overview.png",
@@ -109,8 +134,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
       "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
-      "bytes": 248739,
-      "sha256": "729c56911089ac9a9d8c7b5e54b861d11476c0d980e14ebccf192c0d931ef8a9"
+      "bytes": 248977,
+      "sha256": "d3bd3dcfce6092fa9bf9826a0157ec6f46294d4e66b5473359fdbd4483a0a41f"
     },
     {
       "file": "assets/figures/zh/world500_standard_role_entity_graph.png",
@@ -131,8 +156,31 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
       "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
-      "bytes": 452474,
-      "sha256": "0048d3c41ab2c5b0496e70fa8ce30e4d6d403c67b2946eaf3d06847386134f25"
+      "bytes": 446587,
+      "sha256": "66dea4aed4a7e02339b39746993b2a6a19d64f2fe25970c560ecf47b26e7b262"
+    },
+    {
+      "file": "assets/figures/zh/world500_standard_industry_section_sankey.png",
+      "lang": "zh",
+      "figure_no": "standard_industry_sankey",
+      "title_en": "GHGP, ISO, and GB/T standards by split industry sections",
+      "title_zh": "GHGP、ISO、GB/T标准与行业门类分列 Sankey",
+      "data_keys": [
+        "standard_industry_sankey_links",
+        "standard_industry_sankey_evidence"
+      ],
+      "page_sections": [
+        "industry_section_outputs",
+        "index.standard_industry_sankey"
+      ],
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "claim_status": "partial_evidence_bounded",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "The split industry-section Sankey uses accepted company-standard edges only. Review rows are kept in audit queues and do not contribute to flow weights.",
+      "audit_boundary_zh": "行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。",
+      "bytes": 247263,
+      "sha256": "88810263f9b31c918b5669593273208560e3ab2ab4e69cfede9bc322d679f91a"
     },
     {
       "file": "assets/figures/zh/world500_technology_cluster_overview.png",
@@ -179,6 +227,28 @@
       "sha256": "c15afa3af57560a875b0294c9bd81cb3da9a21a665c753a64fce7b6c24aed37c"
     },
     {
+      "file": "assets/figures/zh/world500_emissions_industry_section_ranking.png",
+      "lang": "zh",
+      "figure_no": "emissions_industry_ranking",
+      "title_en": "Emissions industry-section ranking",
+      "title_zh": "排放行业门类排行与缺失统计",
+      "data_keys": [
+        "emissions_industry_section_outputs"
+      ],
+      "page_sections": [
+        "industry_section_outputs",
+        "emission-ledger"
+      ],
+      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
+      "claim_status": "partial_complete_comparable_only",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.",
+      "audit_boundary_zh": "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。",
+      "bytes": 152220,
+      "sha256": "3b73c6f1b0d3f3c97c5c905f71e2d51faf852230c1a907d522059064468bb517"
+    },
+    {
       "file": "assets/figures/en/world500_emissions_ranking_graph.png",
       "lang": "en",
       "figure_no": "emissions_ranking",
@@ -196,8 +266,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Only companies with complete Scope 1, selected Scope 2, and Scope 3 strong evidence enter the comparable ranking graph. Partial totals are excluded.",
       "audit_boundary_zh": "只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。",
-      "bytes": 217601,
-      "sha256": "74a12e4fc51abce5b07265334b32df9fd904408ede754e27d7ac5ced55e2dfd6"
+      "bytes": 221220,
+      "sha256": "6e8f022ee9c56a8111e1c517f1de6b191b00b8721d40739c6c1d8e8ff7afc7b6"
     },
     {
       "file": "assets/figures/en/world500_standard_chain_overview.png",
@@ -219,8 +289,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "GHG fine-series company counts default to explicit accepted evidence; contextual and overmapped references remain review-only.",
       "audit_boundary_zh": "GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。",
-      "bytes": 196683,
-      "sha256": "5788ac5881a8e485d1c84289253c8345be0cebf7b15e1e315fac1065113fdcb1"
+      "bytes": 198671,
+      "sha256": "6bb18ce76cd1dcf428b238f64771f26e8edaa231668ad2343d749058226ab46b"
     },
     {
       "file": "assets/figures/en/world500_standard_role_entity_graph.png",
@@ -241,8 +311,31 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
       "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
-      "bytes": 387421,
-      "sha256": "acd71e9da1400ad8ca5406859d4d3b37b80cbacf517418635e2cd454fdcb5823"
+      "bytes": 381477,
+      "sha256": "94a7bd0013c9e04ab0991ff5e444b5c0155c65a2a9e2d23562daa6dbea86ba6b"
+    },
+    {
+      "file": "assets/figures/en/world500_standard_industry_section_sankey.png",
+      "lang": "en",
+      "figure_no": "standard_industry_sankey",
+      "title_en": "GHGP, ISO, and GB/T standards by split industry sections",
+      "title_zh": "GHGP、ISO、GB/T标准与行业门类分列 Sankey",
+      "data_keys": [
+        "standard_industry_sankey_links",
+        "standard_industry_sankey_evidence"
+      ],
+      "page_sections": [
+        "industry_section_outputs",
+        "index.standard_industry_sankey"
+      ],
+      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+      "claim_status": "partial_evidence_bounded",
+      "can_claim_requirement_complete": false,
+      "static_sync_can_claim_complete": true,
+      "audit_boundary_en": "The split industry-section Sankey uses accepted company-standard edges only. Review rows are kept in audit queues and do not contribute to flow weights.",
+      "audit_boundary_zh": "行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。",
+      "bytes": 209851,
+      "sha256": "325c90c9a36d00a466c90c662aa5a90f3139da276524bcdb9ba255e9c82dec7d"
     },
     {
       "file": "assets/figures/en/world500_technology_cluster_overview.png",
@@ -289,89 +382,26 @@
       "sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802"
     },
     {
-      "file": "assets/figures/zh/world500_standard_industry_section_sankey.png",
-      "lang": "zh",
-      "figure_no": "standard_industry_sankey",
-      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
-      "title_en": "GHGP, ISO, and GB/T standards × industry-section mirror Sankey",
-      "title_zh": "GHGP、ISO、GB/T标准与行业门类镜像桑基图",
-      "data_keys": [
-        "standard_industry_sankey_links"
-      ],
-      "page_sections": [
-        "industry_section_outputs"
-      ],
-      "claim_status": "partial_evidence_bounded",
-      "can_claim_requirement_complete": false,
-      "static_sync_can_claim_complete": true,
-      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
-      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
-      "bytes": 279720,
-      "sha256": "759f9b445ce8320e310073035c3ef4919fd5dc31bf5641b34b011e96fb25e47e"
-    },
-    {
-      "file": "assets/figures/en/world500_standard_industry_section_sankey.png",
-      "lang": "en",
-      "figure_no": "standard_industry_sankey",
-      "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
-      "title_en": "GHGP, ISO, and GB/T standards × industry-section mirror Sankey",
-      "title_zh": "GHGP、ISO、GB/T标准与行业门类镜像桑基图",
-      "data_keys": [
-        "standard_industry_sankey_links"
-      ],
-      "page_sections": [
-        "industry_section_outputs"
-      ],
-      "claim_status": "partial_evidence_bounded",
-      "can_claim_requirement_complete": false,
-      "static_sync_can_claim_complete": true,
-      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
-      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
-      "bytes": 238373,
-      "sha256": "e2c5ab0496cfe2e60e7e092936af7dd6fd98db06d91d6bff5ea7ca40f4c0aee6"
-    },
-    {
-      "file": "assets/figures/zh/world500_emissions_industry_section_ranking.png",
-      "lang": "zh",
-      "figure_no": "emissions_industry_ranking",
-      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
-      "title_en": "Emissions industry-section ranking",
-      "title_zh": "排放行业门类排行与缺失统计",
-      "data_keys": [
-        "emissions_industry_section_outputs"
-      ],
-      "page_sections": [
-        "industry_section_outputs"
-      ],
-      "claim_status": "partial_evidence_bounded",
-      "can_claim_requirement_complete": false,
-      "static_sync_can_claim_complete": true,
-      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
-      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
-      "bytes": 152320,
-      "sha256": "11ef872295e6a4c03fb2e83485b5f3f82141206bcf13d34d4f251b8f0238e566"
-    },
-    {
       "file": "assets/figures/en/world500_emissions_industry_section_ranking.png",
       "lang": "en",
       "figure_no": "emissions_industry_ranking",
-      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
       "title_en": "Emissions industry-section ranking",
       "title_zh": "排放行业门类排行与缺失统计",
       "data_keys": [
         "emissions_industry_section_outputs"
       ],
       "page_sections": [
-        "industry_section_outputs"
+        "industry_section_outputs",
+        "emission-ledger"
       ],
-      "claim_status": "partial_evidence_bounded",
+      "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
+      "claim_status": "partial_complete_comparable_only",
       "can_claim_requirement_complete": false,
       "static_sync_can_claim_complete": true,
-      "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
-      "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
-      "bytes": 126575,
-      "sha256": "81bfd05f8c7d5e6a85673aa2591dcc972fb92f7f6d0afeacf3278933d164df31"
+      "audit_boundary_en": "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.",
+      "audit_boundary_zh": "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。",
+      "bytes": 126480,
+      "sha256": "ce070dc074d411665da5b71d5b508ecc4dca89ac5074c8cfb8edce385824b92c"
     }
-  ],
-  "source_hash_matches": true
+  ]
 }

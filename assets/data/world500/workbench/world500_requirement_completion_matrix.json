@@ -21,16 +21,16 @@
       "display_status_en": "Partial",
       "completion_boundary_zh": "只能声明阶段性完成；剩余队列关闭前不能声明该项完整完成。",
       "completion_boundary_en": "Only interim completion can be claimed; this requirement is not complete until the remaining queues are closed.",
-      "evidence_summary_zh": "GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1908 条标准-企业关系。",
-      "evidence_summary_en": "GHG Protocol is split into 12 fine-series nodes; the standard role graph has 32 standard nodes, 339 companies, and 1908 standard-company relationships.",
-      "primary_blocker_zh": "GHG 显式细分证据仍不足，137/231 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。",
-      "primary_blocker_en": "Explicit GHG fine-series evidence remains insufficient: 137/231 GHG-related companies explicitly cite concrete series; only 267 fine-series edges are accepted. The 12-item core-whitelist GHG review export retains 515 traceability rows, of which 454 remain effective review rows. Another 19 out-of-whitelist GHG-derived/generic references are isolated and must not be mixed into the 12-item core standard statistics. Standard-company edges still need stronger page and snippet quality.",
+      "evidence_summary_zh": "GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1909 条标准-企业关系。",
+      "evidence_summary_en": "GHG Protocol is split into 12 fine-series nodes; the standard role graph has 32 standard nodes, 339 companies, and 1909 standard-company relationships.",
+      "primary_blocker_zh": "GHG 显式细分证据仍不足，137/229 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。",
+      "primary_blocker_en": "Explicit GHG fine-series evidence remains insufficient: 137/229 GHG-related companies explicitly cite concrete series; only 267 fine-series edges are accepted. The 12-item core-whitelist GHG review export retains 515 traceability rows, of which 454 remain effective review rows. Another 19 out-of-whitelist GHG-derived/generic references are isolated and must not be mixed into the 12-item core standard statistics. Standard-company edges still need stronger page and snippet quality.",
       "primary_next_action_zh": "逐条回到 PDF 页级证据，能显式命名具体 GHG 系列的升级；不能命名的降级或删除。",
       "primary_next_action_en": "Return each edge to page-level PDF evidence; upgrade only edges that explicitly name a concrete GHG series, and demote or remove edges that do not.",
-      "implemented_zh": "GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1908 条标准-企业关系。",
-      "implemented_en": "GHG Protocol is split into 12 fine-series nodes; the standard role graph has 32 standard nodes, 339 companies, and 1908 standard-company relationships.",
-      "remaining_zh": "GHG 显式细分证据仍不足，137/231 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。",
-      "remaining_en": "Explicit GHG fine-series evidence remains insufficient: 137/231 GHG-related companies explicitly cite concrete series; only 267 fine-series edges are accepted. The 12-item core-whitelist GHG review export retains 515 traceability rows, of which 454 remain effective review rows. Another 19 out-of-whitelist GHG-derived/generic references are isolated and must not be mixed into the 12-item core standard statistics. Standard-company edges still need stronger page and snippet quality.",
+      "implemented_zh": "GHG Protocol 已拆为 12 个细分系列；标准角色图已有 32 个标准节点、339 家企业、1909 条标准-企业关系。",
+      "implemented_en": "GHG Protocol is split into 12 fine-series nodes; the standard role graph has 32 standard nodes, 339 companies, and 1909 standard-company relationships.",
+      "remaining_zh": "GHG 显式细分证据仍不足，137/229 家企业显式命中具体系列；当前只有 267 条 accepted 细分边。12 类白名单核心 GHG review export 保留 515 条追溯行，其中 454 条仍为 effective review 待处理；另有 19 条白名单外 GHG 衍生/泛化引用已隔离，不得混入 12 类核心标准统计。标准-企业边也仍需继续提升页码和 snippet 质量。",
+      "remaining_en": "Explicit GHG fine-series evidence remains insufficient: 137/229 GHG-related companies explicitly cite concrete series; only 267 fine-series edges are accepted. The 12-item core-whitelist GHG review export retains 515 traceability rows, of which 454 remain effective review rows. Another 19 out-of-whitelist GHG-derived/generic references are isolated and must not be mixed into the 12-item core standard statistics. Standard-company edges still need stronger page and snippet quality.",
       "open_queue_rows": 927,
       "queue_files": [
         "assets/data/world500/workbench/world500_ghg_contextual_series_review_queue.csv",
@@ -59,7 +59,7 @@
       ],
       "supporting_metrics": {
         "ghg_defined_series": 12,
-        "ghg_company_count": 231,
+        "ghg_company_count": 229,
         "ghg_explicit_series_company_count": 137,
         "authoritative_export_rows": {
           "ghg_accepted_series_mapping": 267,
@@ -68,7 +68,7 @@
         },
         "standard_count": 32,
         "standard_company_count": 339,
-        "standard_link_count": 1908,
+        "standard_link_count": 1909,
         "source_status": {
           "ghg": "partial",
           "standard_relationships": "implemented_with_evidence_quality_risk"
@@ -86,14 +86,14 @@
       "display_status_en": "Partial",
       "completion_boundary_zh": "只能声明阶段性完成；剩余队列关闭前不能声明该项完整完成。",
       "completion_boundary_en": "Only interim completion can be claimed; this requirement is not complete until the remaining queues are closed.",
-      "evidence_summary_zh": "已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，21 家进入完整 Scope 1/2/3 强证据排行。",
-      "evidence_summary_en": "A complete strong-evidence ranking graph and static PNG exist; 85 companies have available totals and 21 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
+      "evidence_summary_zh": "已生成完整强证据排行图和静态 PNG；当前 91 家有可用总量，27 家进入完整 Scope 1/2/3 强证据排行。",
+      "evidence_summary_en": "A complete strong-evidence ranking graph and static PNG exist; 91 companies have available totals and 27 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
       "primary_blocker_zh": "完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。",
       "primary_blocker_en": "Complete comparable ranking coverage remains low; the 64 partial totals must not be mixed into the main ranking.",
       "primary_next_action_zh": "按 Scope 1、Scope 2 方法/数值、Scope 3 缺口队列补齐完整强证据总量。",
       "primary_next_action_en": "Backfill complete strong-evidence totals from the Scope 1, Scope 2 value/method, Scope 3, and finance Scope 3 boundary queues.",
-      "implemented_zh": "已生成完整强证据排行图和静态 PNG；当前 85 家有可用总量，21 家进入完整 Scope 1/2/3 强证据排行。",
-      "implemented_en": "A complete strong-evidence ranking graph and static PNG exist; 85 companies have available totals and 21 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
+      "implemented_zh": "已生成完整强证据排行图和静态 PNG；当前 91 家有可用总量，27 家进入完整 Scope 1/2/3 强证据排行。",
+      "implemented_en": "A complete strong-evidence ranking graph and static PNG exist; 91 companies have available totals and 27 qualify for complete Scope 1/2/3 strong-evidence ranking with finance Scope 3 boundary treatment where applicable.",
       "remaining_zh": "完整可比排行覆盖率仍低，不能把 64 家 partial 总量混入主排行。",
       "remaining_en": "Complete comparable ranking coverage remains low; the 64 partial totals must not be mixed into the main ranking.",
       "open_queue_rows": 189,
@@ -130,11 +130,11 @@
         "assets/data/world500/workbench/world500_emissions_partial_ranking_review.json"
       ],
       "supporting_metrics": {
-        "available_emissions_ranking_company_count": 85,
-        "complete_emissions_ranking_company_count": 21,
+        "available_emissions_ranking_company_count": 91,
+        "complete_emissions_ranking_company_count": 27,
         "authoritative_export_rows": {
-          "emissions_complete_comparable_ranking": 21,
-          "emissions_partial_ranking_review": 64
+          "emissions_complete_comparable_ranking": 16,
+          "emissions_partial_ranking_review": 69
         },
         "expanded_evidence_gap_candidate_records": 24,
         "expanded_evidence_gap_candidate_companies": 21,
@@ -172,7 +172,7 @@
       "implemented_en": "All 50 full-graph HTML pages use embedded JSON; standard and company nodes are colored by standard/industry; non-GHG standard own-term Scope misuse is zero.",
       "remaining_zh": "仍有 74 条非 GHG 源文引用含 Scope 词，需要确认只作为引用语境展示。",
       "remaining_en": "Seventy-four non-GHG source quotations still contain Scope wording and need review to confirm they remain source quotation context only.",
-      "open_queue_rows": 74,
+      "open_queue_rows": 75,
       "queue_files": [
         "assets/data/world500/workbench/world500_non_ghg_scope_wording_review_queue.csv"
       ],
@@ -195,7 +195,7 @@
         "full_graph_pages": 50,
         "standard_count": 32,
         "standard_company_count": 339,
-        "standard_link_count": 1908,
+        "standard_link_count": 1909,
         "non_ghg_scope_wording_review_queue_rows": 74,
         "source_status": {
           "runtime": "implemented",
@@ -215,13 +215,13 @@
       "completion_boundary_zh": "只能声明阶段性完成；剩余队列关闭前不能声明该项完整完成。",
       "completion_boundary_en": "Only interim completion can be claimed; this requirement is not complete until the remaining queues are closed.",
       "evidence_summary_zh": "图6 已有 9 类技术路径、流程轴、标准对齐、细分方向、时间信号和成本信号，并有中英文静态 PNG。",
-      "evidence_summary_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 77 valid project/measure records across 51 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 227, 'P2': 76}.",
+      "evidence_summary_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 77 valid project/measure records across 53 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 227, 'P2': 76}.",
       "primary_blocker_zh": "303 条技术-企业关系仍全部是披露关键词信号，不是已核证项目成本或减排量。",
       "primary_blocker_en": "The separate project-evidence layer can be used as strong project/measure evidence, but the legacy 303 technology-company rows remain disclosure keyword signals, not verified project cost, implementation progress, or abatement values. The project-upgrade queue is diagnostic only and keeps auto-promotion disabled.",
       "primary_next_action_zh": "把关键词信号升级到公司级项目证据，补时间节点和成本/投资证据边界。",
       "primary_next_action_en": "Upgrade keyword hits to company-level project evidence, then validate timeline milestones and cost/investment evidence boundaries.",
       "implemented_zh": "图6 已有 9 类技术路径、流程轴、标准对齐、细分方向、时间信号和成本信号，并有中英文静态 PNG。",
-      "implemented_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 77 valid project/measure records across 51 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 227, 'P2': 76}.",
+      "implemented_en": "Figure 6 shows 9 technology paths with a flow axis, standards alignment, subtypes, timeline signals, cost signals, and bilingual static PNGs. The separate page-level project-evidence layer now has 77 valid project/measure records across 53 companies. A project-upgrade queue covers 303 disclosure-signal edges with priority counts {'P1': 227, 'P2': 76}.",
       "remaining_zh": "303 条技术-企业关系仍全部是披露关键词信号，不是已核证项目成本或减排量。",
       "remaining_en": "The separate project-evidence layer can be used as strong project/measure evidence, but the legacy 303 technology-company rows remain disclosure keyword signals, not verified project cost, implementation progress, or abatement values. The project-upgrade queue is diagnostic only and keeps auto-promotion disabled.",
       "open_queue_rows": 432,
@@ -253,9 +253,9 @@
         "technology_company_count": 173,
         "technology_path_audit_rows": 303,
         "technology_project_evidence_rows": 77,
-        "technology_project_company_count": 51,
-        "technology_project_cost_evidence_count": 12,
-        "technology_project_abatement_evidence_count": 67,
+        "technology_project_company_count": 53,
+        "technology_project_cost_evidence_count": 11,
+        "technology_project_abatement_evidence_count": 68,
         "technology_project_upgrade_queue_rows": 303,
         "technology_project_upgrade_queue_priority_counts": {
           "P1": 227,
@@ -361,4 +361,3 @@
     }
   ]
 }
-

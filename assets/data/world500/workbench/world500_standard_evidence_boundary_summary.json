@@ -1,0 +1,150 @@
+{
+  "schema_version": "world500_standard_evidence_boundary_summary-v1",
+  "row_count": 12,
+  "rows": [
+    {
+      "standard_system": "GHG Protocol",
+      "standard_id": "ghg_corporate_standard",
+      "standard_name_zh": "GHG Protocol 企业核算与报告标准",
+      "standard_name_en": "GHG Protocol Corporate Accounting and Reporting Standard",
+      "accepted_company_count": 99,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 117,
+      "traceable_context_company_count": 113,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "GHG Protocol",
+      "standard_id": "ghg_scope3_standard",
+      "standard_name_zh": "GHG Protocol 企业价值链（Scope 3）核算与报告标准",
+      "standard_name_en": "GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
+      "accepted_company_count": 68,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 118,
+      "traceable_context_company_count": 98,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "GHG Protocol",
+      "standard_id": "ghg_financial_industry_standard",
+      "standard_name_zh": "金融行业全球温室气体核算与报告标准",
+      "standard_name_en": "Global GHG Accounting and Reporting Standard for the Financial Industry",
+      "accepted_company_count": 41,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 0,
+      "traceable_context_company_count": 0,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "GHG Protocol",
+      "standard_id": "ghg_scope2_guidance",
+      "standard_name_zh": "GHG Protocol Scope 2 指南",
+      "standard_name_en": "GHG Protocol Scope 2 Guidance",
+      "accepted_company_count": 39,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 122,
+      "traceable_context_company_count": 107,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "GHG Protocol",
+      "standard_id": "ghg_project_protocol",
+      "standard_name_zh": "GHG Protocol 项目减排核算协议",
+      "standard_name_en": "GHG Protocol Project Protocol",
+      "accepted_company_count": 3,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 3,
+      "traceable_context_company_count": 2,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "GHG Protocol",
+      "standard_id": "ghg_product_standard",
+      "standard_name_zh": "GHG Protocol 产品生命周期核算与报告标准",
+      "standard_name_en": "GHG Protocol Product Life Cycle Accounting and Reporting Standard",
+      "accepted_company_count": 1,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 17,
+      "traceable_context_company_count": 16,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "GHG Protocol",
+      "standard_id": "ghg_scope3_calculation_guidance",
+      "standard_name_zh": "GHG Protocol Scope 3 计算指南",
+      "standard_name_en": "GHG Protocol Scope 3 Calculation Guidance",
+      "accepted_company_count": 16,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 130,
+      "traceable_context_company_count": 111,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "ISO",
+      "standard_id": "iso_14064",
+      "standard_name_zh": "ISO 14064",
+      "standard_name_en": "ISO 14064",
+      "accepted_company_count": 4,
+      "review_company_count": 37,
+      "weak_company_count": 36,
+      "demoted_company_count": 0,
+      "traceable_context_company_count": 0,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "ISO",
+      "standard_id": "iso_14067",
+      "standard_name_zh": "ISO 14067",
+      "standard_name_en": "ISO 14067",
+      "accepted_company_count": 2,
+      "review_company_count": 14,
+      "weak_company_count": 14,
+      "demoted_company_count": 0,
+      "traceable_context_company_count": 0,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "ISO",
+      "standard_id": "iso_14040_14044",
+      "standard_name_zh": "ISO 14040/14044",
+      "standard_name_en": "ISO 14040/14044",
+      "accepted_company_count": 0,
+      "review_company_count": 5,
+      "weak_company_count": 0,
+      "demoted_company_count": 0,
+      "traceable_context_company_count": 0,
+      "enters_main_sankey": "zero_accepted_retained_as_requested_node"
+    },
+    {
+      "standard_system": "GB/T",
+      "standard_id": "gb_t_24067_2024",
+      "standard_name_zh": "GB/T 24067-2024",
+      "standard_name_en": "GB/T 24067-2024",
+      "accepted_company_count": 1,
+      "review_company_count": 0,
+      "weak_company_count": 0,
+      "demoted_company_count": 0,
+      "traceable_context_company_count": 0,
+      "enters_main_sankey": "accepted_only"
+    },
+    {
+      "standard_system": "GB/T",
+      "standard_id": "gb_t_32150_2015",
+      "standard_name_zh": "GB/T 32150-2015",
+      "standard_name_en": "GB/T 32150-2015",
+      "accepted_company_count": 1,
+      "review_company_count": 1,
+      "weak_company_count": 1,
+      "demoted_company_count": 0,
+      "traceable_context_company_count": 0,
+      "enters_main_sankey": "accepted_only"
+    }
+  ]
+}

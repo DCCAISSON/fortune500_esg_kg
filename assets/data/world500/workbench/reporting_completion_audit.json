@@ -1,6 +1,6 @@
 {
   "version": "reporting_completion_audit_v1",
-  "generated_at": "2026-06-21",
+  "generated_at": "2026-07-08",
   "overall_status_key": "partial",
   "overall_status_zh": "部分完成，展示层基本到位，证据强度仍需继续提升。",
   "overall_status_en": "Partially complete: presentation is mostly in place, while evidence strength still needs improvement.",
@@ -13,21 +13,19 @@
       "status_en": "Implemented",
       "requirement_zh": "GHG Protocol 需要像 ISO 一样拆分到具体标准、指南、项目协议和本地化项目，并说明原则。",
       "requirement_en": "GHG Protocol should be split into concrete standards, guidance, project protocols, and programs with principles.",
-      "evidence_zh": "当前定义 12 个 GHG 细分系列，8 个有企业命中；231 家 GHG 企业中 137 家显式命中具体系列（59.3%）。映射审计 CSV 已列出 801 条企业-系列边，其中 65 条已从普通上下文映射隔离为 contextual_overmapped_review。全量过度映射降级账本已关闭 61 条错挂边；这些行仍保留在原始 CSV 中用于追溯，但其中 61 条已从显式证据补强队列有效开放量排除、16 条已从显式系列候选队列排除。当前有效开放的显式证据补强队列为 454 条；显式系列候选队列为 0 条，其中 0 条可能复核后升级、0 条可能需要重分配或降级；上下文过度映射复核队列当前有效开放 454 条，并拆成 P0 可能过度映射 0 条、P1 样本缺少命名系列 169 条、P2 低证据上下文 285 条。P0 过度映射降级账本已将 16 条当前错误边标记为降级，且替代命名系列已在 accepted mapping 中采信。",
-      "evidence_en": "Current payload defines 12 GHG fine series; 8 have company hits. 137/231 GHG companies have explicit fine-series citations (59.3%). The mapping audit CSV lists 801 company-series edges, including 65 edges isolated from ordinary contextual mappings as contextual_overmapped_review. The full overmapping demotion ledger has closed 61 overmapped edges; those rows remain in raw CSVs for traceability, but 61 have been excluded from the effective-open explicit-evidence queue and 16 from the effective-open explicit-series candidate queue. The effective-open explicit-evidence queue now lists 454 edges; the explicit-series candidate queue lists 0 named-series candidates (0 possible promotions and 0 possible reassign/demote cases), and the contextual-overmapping queue lists 454 effective-open contextual edges split into 0 P0 possible overmappings, 169 P1 named-series-missing rows, and 285 P2 low-evidence contextual rows. The P0 overmapping demotion ledger now marks 16 current erroneous edges as demoted with their replacement named series already accepted.",
+      "evidence_zh": "当前定义 12 个 GHG 细分系列，8 个有企业命中；229 家 GHG 企业中 137 家显式命中具体系列（59.8%）。映射审计 CSV 已列出 801 条企业-系列边，其中 65 条已从普通上下文映射隔离为 contextual_overmapped_review。全量过度映射降级账本已关闭 61 条错挂边；这些行仍保留在原始 CSV 中用于追溯，但其中 61 条已从显式证据补强队列有效开放量排除、16 条已从显式系列候选队列排除。当前有效开放的显式证据补强队列为 454 条；显式系列候选队列为 0 条，其中 0 条可能复核后升级、0 条可能需要重分配或降级；上下文过度映射复核队列当前有效开放 454 条，并拆成 P0 可能过度映射 0 条、P1 样本缺少命名系列 169 条、P2 低证据上下文 285 条。P0 过度映射降级账本已将 16 条当前错误边标记为降级，且替代命名系列已在 accepted mapping 中采信。",
+      "evidence_en": "Current payload defines 12 GHG fine series; 8 have company hits. 137/229 GHG companies have explicit fine-series citations (59.8%). The mapping audit CSV lists 801 company-series edges, including 65 edges isolated from ordinary contextual mappings as contextual_overmapped_review. The full overmapping demotion ledger has closed 61 overmapped edges; those rows remain in raw CSVs for traceability, but 61 have been excluded from the effective-open explicit-evidence queue and 16 from the effective-open explicit-series candidate queue. The effective-open explicit-evidence queue now lists 454 edges; the explicit-series candidate queue lists 0 named-series candidates (0 possible promotions and 0 possible reassign/demote cases), and the contextual-overmapping queue lists 454 effective-open contextual edges split into 0 P0 possible overmappings, 169 P1 named-series-missing rows, and 285 P2 low-evidence contextual rows. The P0 overmapping demotion ledger now marks 16 current erroneous edges as demoted with their replacement named series already accepted.",
       "remaining_work_zh": "继续把补强队列中的上下文解析命中提升为 PDF 原文显式引用证据；优先复核显式系列候选队列和 P0 过度映射边。显式率不足前，不应把全部细分边视为同等强证据。",
       "remaining_work_en": "Continue upgrading contextual mappings in the queue to explicit PDF-text citations, prioritizing the explicit-series candidate queue and P0 possible overmappings. Until then, not all fine-series edges should be treated as equally strong evidence.",
       "metrics": {
         "ghg_defined_series": 12,
         "ghg_nonzero_series": 8,
-        "ghg_company_count": 231,
+        "ghg_company_count": 229,
         "explicit_company_count": 137,
-        "explicit_company_ratio_percent": 59.3,
+        "explicit_company_ratio_percent": 59.8,
         "match_status_counts": {
           "explicit_series_citation": 267,
-          "contextual_overmapped_review": 65,
-          "contextual_scope_inventory_mapping": 468,
-          "generic_ghg_reference_review_required": 1
+          "demoted_generic_or_contextual_mapping": 515
         },
         "mapping_audit": {
           "exists": true,
@@ -109,22 +107,22 @@
       "status_en": "Implemented",
       "requirement_zh": "展示整个标准和企业的关联情况。",
       "requirement_en": "Show the overall relationship between standards and companies.",
-      "evidence_zh": "当前标准角色图包含 32 个标准节点、339 家企业、1908 条标准-企业关系。",
-      "evidence_en": "The standard role graph contains 32 standard nodes, 339 companies, and 1908 standard-company links. The relationship audit CSV lists 1908 standard-company edges.",
+      "evidence_zh": "当前标准角色图包含 32 个标准节点、339 家企业、1909 条标准-企业关系。",
+      "evidence_en": "The standard role graph contains 32 standard nodes, 339 companies, and 1909 standard-company links. The relationship audit CSV lists 1909 standard-company edges.",
       "remaining_work_zh": "后续重点不是结构缺失，而是继续提升每条边的证据片段质量和页码可追溯性。",
       "remaining_work_en": "The structure exists; the remaining work is improving evidence snippets and page-level traceability for each edge.",
       "metrics": {
         "standard_role_link_audit": {
           "exists": true,
-          "row_count": 1908,
+          "row_count": 1909,
           "p0_non_ghg_standard_scope_term_misuse_rows": 0,
-          "p2_verify_non_ghg_source_quote_scope_rows": 74,
+          "p2_verify_non_ghg_source_quote_scope_rows": 75,
           "p1_backfill_standard_evidence_rows": 0,
           "p2_verify_scope_language_and_evidence_rows": 782,
           "p2_verify_standard_link_rows": 1052,
           "file": "assets/data/world500/workbench/world500_standard_role_link_audit.csv",
           "non_ghg_scope_review_queue_exists": true,
-          "non_ghg_scope_review_queue_rows": 74,
+          "non_ghg_scope_review_queue_rows": 75,
           "non_ghg_scope_review_queue_file": "assets/data/world500/workbench/world500_non_ghg_scope_wording_review_queue.csv"
         }
       }
@@ -137,8 +135,8 @@
       "status_en": "Partially implemented",
       "requirement_zh": "企业总碳排放量需要从高到低排序，并可做知识图谱展示。",
       "requirement_en": "Company total emissions should be ranked high to low and shown as a knowledge graph.",
-      "evidence_zh": "当前有 85 家可用总量，21 家满足完整 Scope 1/2/3 强证据排行；排行图展示 21 家完整强证据企业。排行审计 CSV 已列出 85 家可用总量，并拆出完整排行 P2 复核 16 条、Scope 3 缺口 45 条、Scope 2 总缺口 50 条（其中 Scope 2 数值缺口 41 条、Scope 2 口径复核 9 条）、Scope 1 缺口 24 条、单位/表格列尺度复核 4 条。",
-      "evidence_en": "Current data has 85 available totals, 21 complete Scope 1/2/3 strong-evidence rankings, and 21 companies in the ranking graph. The ranking audit CSV lists 85 available totals and separates 16 complete-ranking P2 verification rows, 45 Scope 3 gaps, 0 finance Scope 3 boundary reviews, 9 selected-row evidence-element reviews, 50 total Scope 2 gaps (41 missing-value rows and 9 method-review rows), 24 Scope 1 gaps, and 4 unit/table-column scale review rows.",
+      "evidence_zh": "当前有 91 家可用总量，27 家满足完整 Scope 1/2/3 强证据排行；排行图展示 27 家完整强证据企业。排行审计 CSV 已列出 85 家可用总量，并拆出完整排行 P2 复核 16 条、Scope 3 缺口 45 条、Scope 2 总缺口 50 条（其中 Scope 2 数值缺口 41 条、Scope 2 口径复核 9 条）、Scope 1 缺口 24 条、单位/表格列尺度复核 4 条。",
+      "evidence_en": "Current data has 91 available totals, 27 complete Scope 1/2/3 strong-evidence rankings, and 27 companies in the ranking graph. The ranking audit CSV lists 85 available totals and separates 16 complete-ranking P2 verification rows, 45 Scope 3 gaps, 0 finance Scope 3 boundary reviews, 9 selected-row evidence-element reviews, 50 total Scope 2 gaps (41 missing-value rows and 9 method-review rows), 24 Scope 1 gaps, and 4 unit/table-column scale review rows.",
       "remaining_work_zh": "完整强证据覆盖率仍低；不能把 64 家 partial 总量混同为完整可比排行。下一步应按缺口队列回到 PDF 页级证据补值和核验口径。",
       "remaining_work_en": "Complete strong-evidence coverage remains low; the 64 partial totals must not be mixed into the complete comparable ranking. Next, use the gap queues to backfill page-level PDF evidence and verify methods.",
       "metrics": {
@@ -244,7 +242,7 @@
               "audit_source": "reporting_views.json retains review queues and generic-reference counts"
             },
             "generic_reference_removed": true,
-            "payload_chars": 1136670
+            "payload_chars": 629157
           },
           {
             "file": "en/ghg-protocol-full-graph.html",
@@ -275,7 +273,7 @@
               "audit_source": "reporting_views.json retains review queues and generic-reference counts"
             },
             "generic_reference_removed": true,
-            "payload_chars": 1136670
+            "payload_chars": 629157
           },
           {
             "file": "zh/role-family-standard-full-graph.html",
@@ -306,7 +304,7 @@
               "audit_source": "reporting_views.json retains review queues and generic-reference counts"
             },
             "generic_reference_removed": true,
-            "payload_chars": 1149475
+            "payload_chars": 864322
           },
           {
             "file": "en/role-family-standard-full-graph.html",
@@ -337,7 +335,7 @@
               "audit_source": "reporting_views.json retains review queues and generic-reference counts"
             },
             "generic_reference_removed": true,
-            "payload_chars": 1149475
+            "payload_chars": 864322
           },
           {
             "file": "zh/gb-system-full-graph.html",
@@ -1101,7 +1099,7 @@
             "middle_node_count": 8,
             "company_count": 9,
             "empty_graph_visible_state": false,
-            "payload_chars": 17982
+            "payload_chars": 17968
           },
           {
             "file": "en/industry-section-full-graph.html",
@@ -1163,7 +1161,7 @@
             "middle_node_count": 4,
             "company_count": 68,
             "empty_graph_visible_state": false,
-            "payload_chars": 62855
+            "payload_chars": 62841
           },
           {
             "file": "en/method-activity-evidence-mapping-full-graph.html",
@@ -1380,7 +1378,7 @@
             "middle_node_count": 10,
             "company_count": 281,
             "empty_graph_visible_state": false,
-            "payload_chars": 318366
+            "payload_chars": 318377
           },
           {
             "file": "en/role-family-principle-full-graph.html",
@@ -1411,7 +1409,7 @@
             "middle_node_count": 0,
             "company_count": 0,
             "empty_graph_visible_state": true,
-            "payload_chars": 4349
+            "payload_chars": 4360
           },
           {
             "file": "en/scope-emission-full-graph.html",
@@ -1816,22 +1814,22 @@
       "status_en": "Implemented",
       "requirement_zh": "只有 GHG Protocol 下使用 Scope 1/2/3；其他标准默认使用直接/间接排放口径。",
       "requirement_en": "Use Scope 1/2/3 wording only under GHG Protocol; use direct/indirect wording for other standards by default.",
-      "evidence_zh": "报告页和全屏图的说明已明确该口径，standard_cluster_full_graph.js 对非 GHG 标准显示直接/间接口径提醒。当前非 GHG 标准自身名称/角色/原则中的 Scope 术语误用为 0 条；源文引用中出现 Scope 的 P2 复核为 74 条。",
-      "evidence_en": "The reporting page and full-screen graph explicitly state this rule; standard_cluster_full_graph.js shows a direct/indirect wording reminder for non-GHG standards. Current non-GHG standard-name/role/principle Scope-term misuse rows: 0; source-quote Scope review rows: 74.",
+      "evidence_zh": "报告页和全屏图的说明已明确该口径，standard_cluster_full_graph.js 对非 GHG 标准显示直接/间接口径提醒。当前非 GHG 标准自身名称/角色/原则中的 Scope 术语误用为 0 条；源文引用中出现 Scope 的 P2 复核为 75 条。",
+      "evidence_en": "The reporting page and full-screen graph explicitly state this rule; standard_cluster_full_graph.js shows a direct/indirect wording reminder for non-GHG standards. Current non-GHG standard-name/role/principle Scope-term misuse rows: 0; source-quote Scope review rows: 75.",
       "remaining_work_zh": "继续复核源文引用中的 Scope 是否仅作为原文证据展示；不要把它提升为非 GHG 标准自身术语。",
       "remaining_work_en": "Continue reviewing Scope wording in source quotations as quoted evidence only; do not promote it into the non-GHG standard's own terminology.",
       "metrics": {
         "standard_role_link_audit": {
           "exists": true,
-          "row_count": 1908,
+          "row_count": 1909,
           "p0_non_ghg_standard_scope_term_misuse_rows": 0,
-          "p2_verify_non_ghg_source_quote_scope_rows": 74,
+          "p2_verify_non_ghg_source_quote_scope_rows": 75,
           "p1_backfill_standard_evidence_rows": 0,
           "p2_verify_scope_language_and_evidence_rows": 782,
           "p2_verify_standard_link_rows": 1052,
           "file": "assets/data/world500/workbench/world500_standard_role_link_audit.csv",
           "non_ghg_scope_review_queue_exists": true,
-          "non_ghg_scope_review_queue_rows": 74,
+          "non_ghg_scope_review_queue_rows": 75,
           "non_ghg_scope_review_queue_file": "assets/data/world500/workbench/world500_non_ghg_scope_wording_review_queue.csv"
         }
       }
@@ -1963,42 +1961,42 @@
           "manifest_file": "assets/figures/reporting_static_figures_manifest.json",
           "source_sha256_matches": true,
           "generator": "tools/sync_reporting_static_figures.py",
-          "generated_at": "2026-06-20T17:01:40+00:00",
+          "generated_at": "2026-07-08T04:43:30+00:00",
           "files": [
             {
               "file": "assets/figures/zh/world500_emissions_ranking_graph.png",
               "exists": true,
-              "bytes": 250959,
+              "bytes": 257216,
               "manifest_sha256_matches": true
             },
             {
               "file": "assets/figures/en/world500_emissions_ranking_graph.png",
               "exists": true,
-              "bytes": 215783,
+              "bytes": 221220,
               "manifest_sha256_matches": true
             },
             {
               "file": "assets/figures/zh/world500_standard_chain_overview.png",
               "exists": true,
-              "bytes": 254468,
+              "bytes": 248977,
               "manifest_sha256_matches": true
             },
             {
               "file": "assets/figures/en/world500_standard_chain_overview.png",
               "exists": true,
-              "bytes": 202219,
+              "bytes": 198671,
               "manifest_sha256_matches": true
             },
             {
               "file": "assets/figures/zh/world500_technology_cluster_overview.png",
               "exists": true,
-              "bytes": 338273,
+              "bytes": 337757,
               "manifest_sha256_matches": true
             },
             {
               "file": "assets/figures/en/world500_technology_cluster_overview.png",
               "exists": true,
-              "bytes": 264478,
+              "bytes": 263885,
               "manifest_sha256_matches": true
             },
             {
@@ -2020,4 +2018,3 @@
   ],
   "known_issues": []
 }
-

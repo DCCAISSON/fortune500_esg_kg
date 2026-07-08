@@ -42,6 +42,112 @@ const displayStandards = [
   ["GB/T", "GB/T 32150-2015", "GB/T 32150-2015", "gb_t_32150_2015", "Chinese national standard system", "true", "true", "false", "需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 GB/T 标准替代。"],
 ];
 
+const normalizedSections = [
+  ["A", "农、林、牧、渔业", "Agriculture, Forestry, Animal Husbandry and Fishery"],
+  ["B", "采矿业", "Mining"],
+  ["C", "制造业", "Manufacturing"],
+  ["D", "电力、热力、燃气及水生产和供应业", "Electricity, Heat, Gas and Water Production and Supply"],
+  ["E", "建筑业", "Construction"],
+  ["F", "批发和零售业", "Wholesale and Retail Trade"],
+  ["G", "交通运输、仓储和邮政业", "Transport, Storage and Post"],
+  ["H", "住宿和餐饮业", "Accommodation and Catering"],
+  ["I", "信息传输、软件和信息技术服务业", "Information Transmission, Software and Information Technology Services"],
+  ["J", "金融业", "Finance"],
+  ["K", "房地产业", "Real Estate"],
+  ["L", "租赁和商务服务业", "Leasing and Business Services"],
+  ["M", "科学研究和技术服务业", "Scientific Research and Technical Services"],
+  ["N", "水利、环境和公共设施管理业", "Water, Environment and Public Facilities Management"],
+  ["O", "居民服务、修理和其他服务业", "Resident Services, Repairs and Other Services"],
+  ["P", "教育", "Education"],
+  ["Q", "卫生和社会工作", "Health and Social Work"],
+  ["R", "文化、体育和娱乐业", "Culture, Sports and Entertainment"],
+  ["S", "公共管理、社会保障和社会组织", "Public Administration, Social Security and Social Organizations"],
+  ["T", "国际组织", "International Organizations"],
+];
+
+const normalizedDisplayStandards = [
+  ["GHG Protocol", "GHG Protocol 企业核算与报告标准", "GHG Protocol Corporate Accounting and Reporting Standard", "ghg_corporate_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol 企业价值链（Scope 3）核算与报告标准", "GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard", "ghg_scope3_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "金融行业全球温室气体核算与报告标准", "Global GHG Accounting and Reporting Standard for the Financial Industry", "ghg_financial_industry_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol Scope 2 指南", "GHG Protocol Scope 2 Guidance", "ghg_scope2_guidance", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol 项目核算协议", "GHG Protocol Project Protocol", "ghg_project_protocol", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol 产品生命周期核算与报告标准", "GHG Protocol Product Life Cycle Accounting and Reporting Standard", "ghg_product_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol Scope 3 计算指南", "GHG Protocol Scope 3 Calculation Guidance", "ghg_scope3_calculation_guidance", "GHG Protocol", "true", "false", "true", "需求方文档称 GHGP 7 类，但正文只列明 6 个名称；第 7 项暂按现有标准注册表映射为 Scope 3 Calculation Guidance，后续可按需求方确认调整。"],
+  ["ISO", "ISO 14064", "ISO 14064", "iso_14064", "ISO system", "true", "true", "false", ""],
+  ["ISO", "ISO 14067", "ISO 14067", "iso_14067", "ISO system", "true", "true", "false", ""],
+  ["ISO", "ISO 14040/14044", "ISO 14040/14044", "iso_14040_14044", "ISO system", "true", "true", "false", "需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 ISO 标准替代。"],
+  ["GB/T", "GB/T 24067-2024", "GB/T 24067-2024", "gb_t_24067_2024", "Chinese national standard system", "true", "true", "false", ""],
+  ["GB/T", "GB/T 32150-2015", "GB/T 32150-2015", "gb_t_32150_2015", "Chinese national standard system", "true", "true", "false", "需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 GB/T 标准替代。"],
+];
+
+const canonicalSections = [
+  ["A", "\u519c\u3001\u6797\u3001\u7267\u3001\u6e14\u4e1a", "Agriculture, Forestry, Animal Husbandry and Fishery"],
+  ["B", "\u91c7\u77ff\u4e1a", "Mining"],
+  ["C", "\u5236\u9020\u4e1a", "Manufacturing"],
+  ["D", "\u7535\u529b\u3001\u70ed\u529b\u3001\u71c3\u6c14\u53ca\u6c34\u751f\u4ea7\u548c\u4f9b\u5e94\u4e1a", "Electricity, Heat, Gas and Water Production and Supply"],
+  ["E", "\u5efa\u7b51\u4e1a", "Construction"],
+  ["F", "\u6279\u53d1\u548c\u96f6\u552e\u4e1a", "Wholesale and Retail Trade"],
+  ["G", "\u4ea4\u901a\u8fd0\u8f93\u3001\u4ed3\u50a8\u548c\u90ae\u653f\u4e1a", "Transport, Storage and Post"],
+  ["H", "\u4f4f\u5bbf\u548c\u9910\u996e\u4e1a", "Accommodation and Catering"],
+  ["I", "\u4fe1\u606f\u4f20\u8f93\u3001\u8f6f\u4ef6\u548c\u4fe1\u606f\u6280\u672f\u670d\u52a1\u4e1a", "Information Transmission, Software and Information Technology Services"],
+  ["J", "\u91d1\u878d\u4e1a", "Finance"],
+  ["K", "\u623f\u5730\u4ea7\u4e1a", "Real Estate"],
+  ["L", "\u79df\u8d41\u548c\u5546\u52a1\u670d\u52a1\u4e1a", "Leasing and Business Services"],
+  ["M", "\u79d1\u5b66\u7814\u7a76\u548c\u6280\u672f\u670d\u52a1\u4e1a", "Scientific Research and Technical Services"],
+  ["N", "\u6c34\u5229\u3001\u73af\u5883\u548c\u516c\u5171\u8bbe\u65bd\u7ba1\u7406\u4e1a", "Water, Environment and Public Facilities Management"],
+  ["O", "\u5c45\u6c11\u670d\u52a1\u3001\u4fee\u7406\u548c\u5176\u4ed6\u670d\u52a1\u4e1a", "Resident Services, Repairs and Other Services"],
+  ["P", "\u6559\u80b2", "Education"],
+  ["Q", "\u536b\u751f\u548c\u793e\u4f1a\u5de5\u4f5c", "Health and Social Work"],
+  ["R", "\u6587\u5316\u3001\u4f53\u80b2\u548c\u5a31\u4e50\u4e1a", "Culture, Sports and Entertainment"],
+  ["S", "\u516c\u5171\u7ba1\u7406\u3001\u793e\u4f1a\u4fdd\u969c\u548c\u793e\u4f1a\u7ec4\u7ec7", "Public Administration, Social Security and Social Organizations"],
+  ["T", "\u56fd\u9645\u7ec4\u7ec7", "International Organizations"],
+];
+
+const canonicalDisplayStandards = [
+  ["GHG Protocol", "GHG Protocol \u4f01\u4e1a\u6838\u7b97\u4e0e\u62a5\u544a\u6807\u51c6", "GHG Protocol Corporate Accounting and Reporting Standard", "ghg_corporate_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol \u4f01\u4e1a\u4ef7\u503c\u94fe\uff08Scope 3\uff09\u6838\u7b97\u4e0e\u62a5\u544a\u6807\u51c6", "GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard", "ghg_scope3_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "\u91d1\u878d\u884c\u4e1a\u5168\u7403\u6e29\u5ba4\u6c14\u4f53\u6838\u7b97\u4e0e\u62a5\u544a\u6807\u51c6", "Global GHG Accounting and Reporting Standard for the Financial Industry", "ghg_financial_industry_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol Scope 2 \u6307\u5357", "GHG Protocol Scope 2 Guidance", "ghg_scope2_guidance", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol \u9879\u76ee\u51cf\u6392\u6838\u7b97\u534f\u8bae", "GHG Protocol Project Protocol", "ghg_project_protocol", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol \u4ea7\u54c1\u751f\u547d\u5468\u671f\u6838\u7b97\u4e0e\u62a5\u544a\u6807\u51c6", "GHG Protocol Product Life Cycle Accounting and Reporting Standard", "ghg_product_standard", "GHG Protocol", "true", "true", "false", ""],
+  ["GHG Protocol", "GHG Protocol Scope 3 \u8ba1\u7b97\u6307\u5357", "GHG Protocol Scope 3 Calculation Guidance", "ghg_scope3_calculation_guidance", "GHG Protocol", "true", "false", "true", "Requested GHGP seventh display node; mapped to Scope 3 Calculation Guidance pending client confirmation."],
+  ["ISO", "ISO 14064", "ISO 14064", "iso_14064", "ISO system", "true", "true", "false", ""],
+  ["ISO", "ISO 14067", "ISO 14067", "iso_14067", "ISO system", "true", "true", "false", ""],
+  ["ISO", "ISO 14040/14044", "ISO 14040/14044", "iso_14040_14044", "ISO system", "true", "true", "false", "Requested display node; retained as zero-flow when no accepted company-standard edge exists."],
+  ["GB/T", "GB/T 24067-2024", "GB/T 24067-2024", "gb_t_24067_2024", "Chinese national standard system", "true", "true", "false", ""],
+  ["GB/T", "GB/T 32150-2015", "GB/T 32150-2015", "gb_t_32150_2015", "Chinese national standard system", "true", "true", "false", "Requested display node; accepted flow requires explicit page-level standard evidence."],
+];
+
+const sectionByCode = new Map(canonicalSections.map((item) => [item[0], item]));
+const utilityIndustryOverrides = new Map([
+  ["r049_electricitédefrance", "D"],
+  ["r078_chinasouthernpowergrid", "D"],
+  ["r097_enel", "D"],
+  ["r201_koreaelectricpower", "D"],
+  ["r317_tokyoelectricpower", "D"],
+  ["r336_chinahuadian", "D"],
+  ["r456_koreagas", "D"],
+  ["r485_centrica", "D"],
+]);
+const softwareIndustryReview = new Map([
+  ["r299_oracle", "I"],
+  ["r445_salesforce", "I"],
+  ["r450_sap公司", "I"],
+]);
+const industryOutputOverrides = new Map([...utilityIndustryOverrides, ...softwareIndustryReview]);
+const oilGasIndustryReviewIds = new Set([
+  "r005_sinopecgroup",
+  "r006_chinanationalpetroleum",
+  "r012_exxonmobil",
+  "r013_shell",
+  "r023_totalenergies",
+  "r025_bp",
+  "r029_chevron",
+  "r098_eni",
+  "r099_petrobras",
+  "r247_repsol",
+]);
+
 function readJson(name) {
   return JSON.parse(fs.readFileSync(path.join(wb, name), "utf8"));
 }
@@ -99,8 +205,30 @@ function csvCell(value) {
 }
 
 function sectionName(code, lang) {
-  const item = sections.find((row) => row[0] === code);
+  const item = sectionByCode.get(code);
   return item ? item[lang === "zh" ? 1 : 2] : "";
+}
+
+function companyIndustry(company, rowCode = "") {
+  const companyId = company.company_id || "";
+  const overrideCode = industryOutputOverrides.get(companyId) || "";
+  const code = overrideCode || rowCode || company.industry_section_code || "";
+  const status = overrideCode
+    ? (utilityIndustryOverrides.has(companyId) ? "corrected_by_gbt4754_code_name_rule" : "corrected_by_gbt4754_business_activity_rule")
+    : "consistent_with_company_workbench";
+  return {
+    code,
+    nameZh: sectionName(code, "zh"),
+    nameEn: sectionName(code, "en"),
+    currentCode: company.industry_section_code || "",
+    currentNameZh: company.industry_section_zh || "",
+    currentNameEn: company.industry_section_en || "",
+    status,
+  };
+}
+
+function firstEvidence(values) {
+  return Array.isArray(values) && values.length ? values[0] : "";
 }
 
 function splitList(value) {
@@ -139,47 +267,224 @@ function build() {
   const completeIds = new Set(complete.map((item) => item.company_id));
   const available = views.emissions_ranking.available || [];
   const availableMap = new Map(available.map((item) => [item.company_id, item]));
-  const standardRows = parseCsv(fs.readFileSync(path.join(wb, "world500_standard_role_link_audit.csv"), "utf8"));
-  const displayMap = new Map(displayStandards.map((item) => [item[3], item]));
-  const acceptedRows = standardRows.filter((row) => row.decision_bucket === "accepted" && displayMap.has(row.standard_id));
+  const displayMap = new Map(canonicalDisplayStandards.map((item) => [item[3], item]));
+  const acceptedRows = (views.accepted_standard_role_graph.links || []).filter((row) => displayMap.has(row.standard_id));
 
   const sankeyGroups = new Map();
   for (const row of acceptedRows) {
     const display = displayMap.get(row.standard_id);
-    const code = row.industry_section_code || companyMap.get(row.company_id)?.industry_section_code || "";
-    if (!code) continue;
-    const key = `${row.standard_id}::${code}`;
-    const group = sankeyGroups.get(key) || { display, code, links: 0, companies: new Map() };
+    const company = companyMap.get(row.company_id) || {};
+    const industry = companyIndustry(company, row.industry_section_code);
+    if (!industry.code) continue;
+    const key = `${row.standard_id}::${industry.code}`;
+    const group = sankeyGroups.get(key) || { display, code: industry.code, links: 0, companies: new Map() };
     group.links += 1;
     group.companies.set(row.company_id, row.company_name_en || companyMap.get(row.company_id)?.company_name_en || row.company_id);
     sankeyGroups.set(key, group);
   }
 
-  const sankeyRows = [...sankeyGroups.values()].map((group) => ({
-    standard_system: group.display[0],
-    display_standard_name_zh: group.display[1],
-    display_standard_name_en: group.display[2],
-    internal_standard_id: group.display[3],
-    industry_section_code: group.code,
-    industry_section_name_zh: sectionName(group.code, "zh"),
-    industry_section_name_en: sectionName(group.code, "en"),
-    accepted_company_count: group.companies.size,
-    accepted_link_count: group.links,
-    distinct_company_count: group.companies.size,
-    company_ids: [...group.companies.keys()].sort(),
-    company_names: [...group.companies.values()].sort(),
-  })).sort((a, b) => `${a.standard_system}${a.internal_standard_id}${a.industry_section_code}`.localeCompare(`${b.standard_system}${b.internal_standard_id}${b.industry_section_code}`));
+  const sankeyRows = [...sankeyGroups.values()].map((group) => {
+    const companyPairs = [...group.companies.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+    return {
+      standard_system: group.display[0],
+      display_standard_name_zh: group.display[1],
+      display_standard_name_en: group.display[2],
+      internal_standard_id: group.display[3],
+      industry_section_code: group.code,
+      industry_section_name_zh: sectionName(group.code, "zh"),
+      industry_section_name_en: sectionName(group.code, "en"),
+      accepted_company_count: group.companies.size,
+      accepted_link_count: group.links,
+      distinct_company_count: group.companies.size,
+      company_ids: companyPairs.map(([companyId]) => companyId),
+      company_names: companyPairs.map(([, companyName]) => companyName),
+    };
+  }).sort((a, b) => `${a.standard_system}${a.internal_standard_id}${a.industry_section_code}`.localeCompare(`${b.standard_system}${b.internal_standard_id}${b.industry_section_code}`));
 
-  const bySection = new Map(sections.map((row) => [row[0], { code: row[0] }]));
-  for (const company of published) bySection.get(company.industry_section_code).published = (bySection.get(company.industry_section_code).published || 0) + 1;
+  const sankeyEvidenceRows = [];
   for (const row of acceptedRows) {
-    const code = row.industry_section_code || companyMap.get(row.company_id)?.industry_section_code;
+    const display = displayMap.get(row.standard_id);
+    const company = companyMap.get(row.company_id) || {};
+    const industry = companyIndustry(company, row.industry_section_code);
+    const code = industry.code;
+    if (!display || !code) continue;
+    const samples = Array.isArray(row.evidence_samples) && row.evidence_samples.length ? row.evidence_samples : [{}];
+    samples.forEach((sample, index) => {
+      sankeyEvidenceRows.push({
+        sankey_flow_key: `${row.standard_id}::${code}`,
+        company_id: row.company_id,
+        company_name_en: company.company_name_en || row.company_id,
+        company_name_zh: company.company_name_zh || "",
+        world500_rank: company.world500_rank || "",
+        industry_section_code: code,
+        industry_section_name_zh: industry.nameZh,
+        industry_section_name_en: industry.nameEn,
+        company_workbench_industry_section_code: industry.currentCode,
+        company_workbench_industry_section_name_zh: industry.currentNameZh,
+        company_workbench_industry_section_name_en: industry.currentNameEn,
+        industry_consistency_status: industry.status,
+        standard_system: display[0],
+        internal_standard_id: display[3],
+        display_standard_name_zh: display[1],
+        display_standard_name_en: display[2],
+        decision_bucket: row.decision_bucket || "accepted",
+        evidence_gate: row.evidence_gate || "",
+        evidence_mode: row.evidence_mode || "",
+        match_status: row.match_status || "",
+        evidence_page: sample.page || (row.pages || [])[index] || "",
+        source_file: sample.source_file || sample.report || (row.source_files || [])[index] || "",
+        snippet_en: sample.snippet_en || "",
+        snippet_zh: sample.snippet_zh || "",
+        confidence: sample.confidence || "",
+        review_status: sample.review_status || "",
+        matched_aliases: row.matched_aliases || [],
+      });
+    });
+  }
+
+  const standardNameToId = new Map();
+  for (const display of canonicalDisplayStandards) {
+    standardNameToId.set(display[1], display[3]);
+    standardNameToId.set(display[2], display[3]);
+  }
+  const standardIndustryEvidenceRows = [];
+  for (const row of (views.standard_role_graph.links || []).filter((item) => displayMap.has(item.standard_id))) {
+    const display = displayMap.get(row.standard_id);
+    const company = companyMap.get(row.company_id) || {};
+    const industry = companyIndustry(company, row.industry_section_code);
+    const samples = Array.isArray(row.evidence_samples) && row.evidence_samples.length ? row.evidence_samples : [{}];
+    samples.forEach((sample, index) => {
+      standardIndustryEvidenceRows.push({
+        standard_system: display[0],
+        standard_id: display[3],
+        standard_name_zh: display[1],
+        standard_name_en: display[2],
+        company_id: row.company_id,
+        company_name_zh: company.company_name_zh || "",
+        company_name_en: company.company_name_en || row.company_id,
+        world500_rank: company.world500_rank || "",
+        industry_section_code: industry.code,
+        industry_section_name_zh: industry.nameZh,
+        industry_section_name_en: industry.nameEn,
+        current_company_workbench_code: industry.currentCode,
+        current_company_workbench_name_zh: industry.currentNameZh,
+        industry_consistency_status: industry.status,
+        decision_bucket: row.decision_bucket || "",
+        evidence_status: row.decision_bucket === "accepted" ? "verified" : "review",
+        evidence_page: sample.page || firstEvidence(row.pages) || "",
+        source_file: sample.source_file || sample.report || firstEvidence(row.source_files) || "",
+        snippet: sample.snippet_zh || sample.snippet_en || "",
+        enters_sankey: row.decision_bucket === "accepted" ? "true" : "false",
+        review_note: row.evidence_gate || row.match_status || "",
+      });
+    });
+  }
+  const relevanceRows = parseCsv(fs.readFileSync(path.join(wb, "world500_standard_evidence_relevance_audit.csv"), "utf8"));
+  for (const row of relevanceRows) {
+    const standardId = standardNameToId.get(row.standard_name_en) || standardNameToId.get(row.standard_name_zh);
+    if (!standardId || row.evidence_status === "verified") continue;
+    const display = displayMap.get(standardId);
+    const company = companyMap.get(row.company_id) || {};
+    const industry = companyIndustry(company);
+    standardIndustryEvidenceRows.push({
+      standard_system: display[0],
+      standard_id: display[3],
+      standard_name_zh: display[1],
+      standard_name_en: display[2],
+      company_id: row.company_id,
+      company_name_zh: company.company_name_zh || row.company_name_zh || "",
+      company_name_en: company.company_name_en || row.company_name_en || row.company_id,
+      world500_rank: company.world500_rank || row.world500_rank || "",
+      industry_section_code: industry.code,
+      industry_section_name_zh: industry.nameZh,
+      industry_section_name_en: industry.nameEn,
+      current_company_workbench_code: industry.currentCode,
+      current_company_workbench_name_zh: industry.currentNameZh,
+      industry_consistency_status: industry.status,
+      decision_bucket: row.evidence_status || "weak",
+      evidence_status: row.evidence_status || "",
+      evidence_page: row.evidence_page || "",
+      source_file: row.source_file || "",
+      snippet: row.snippet_preview || "",
+      enters_sankey: "false",
+      review_note: row.review_reason || row.hit_source || "",
+    });
+  }
+
+  const boundaryRows = canonicalDisplayStandards.map((display) => {
+    const rows = standardIndustryEvidenceRows.filter((row) => row.standard_id === display[3]);
+    const companiesBy = (predicate) => new Set(rows.filter(predicate).map((row) => row.company_id).filter(Boolean)).size;
+    return {
+      standard_system: display[0],
+      standard_id: display[3],
+      standard_name_zh: display[1],
+      standard_name_en: display[2],
+      accepted_company_count: companiesBy((row) => row.decision_bucket === "accepted"),
+      review_company_count: companiesBy((row) => row.decision_bucket === "review"),
+      weak_company_count: companiesBy((row) => row.evidence_status === "weak"),
+      demoted_company_count: companiesBy((row) => row.decision_bucket === "demoted"),
+      traceable_context_company_count: companiesBy((row) => String(row.review_note).includes("context")),
+      enters_main_sankey: companiesBy((row) => row.decision_bucket === "accepted") ? "accepted_only" : "zero_accepted_retained_as_requested_node",
+    };
+  });
+
+  const companyAcceptedCounts = new Map();
+  for (const row of acceptedRows) {
+    companyAcceptedCounts.set(row.company_id, (companyAcceptedCounts.get(row.company_id) || 0) + 1);
+  }
+  const companyReviewRows = [];
+  function addCompanyReview(companyId, suggestedCode, riskLevel, reason, appliedToOutputs) {
+    const company = companyMap.get(companyId);
+    if (!company) return;
+    const suggested = sectionByCode.get(suggestedCode) || ["", "", ""];
+    companyReviewRows.push({
+      company_id: company.company_id,
+      company_name_zh: company.company_name_zh || "",
+      company_name_en: company.company_name_en || "",
+      world500_rank: company.world500_rank || "",
+      fortune_industry_label: "not_available_in_company_workbench",
+      current_gbt4754_code: company.industry_section_code || "",
+      current_gbt4754_name_zh: company.industry_section_zh || "",
+      current_gbt4754_name_en: company.industry_section_en || "",
+      suggested_code: suggestedCode,
+      suggested_name_zh: suggested[1],
+      suggested_name_en: suggested[2],
+      risk_level: riskLevel,
+      reason,
+      affects_sankey: companyAcceptedCounts.get(companyId) ? "true" : "false",
+      accepted_standard_count: companyAcceptedCounts.get(companyId) || 0,
+      applied_to_current_industry_outputs: appliedToOutputs ? "true" : "false",
+    });
+  }
+  for (const [companyId, suggestedCode] of utilityIndustryOverrides) {
+    addCompanyReview(companyId, suggestedCode, "high", "company_workbench code is I but Chinese industry name is the GB/T 4754 utility section; output corrected to D for current Sankey.", true);
+  }
+  for (const [companyId, suggestedCode] of softwareIndustryReview) {
+    addCompanyReview(companyId, suggestedCode, "high", "software/cloud enterprise classified to GB/T 4754 section I for current Sankey outputs.", true);
+  }
+  for (const companyId of oilGasIndustryReviewIds) {
+    addCompanyReview(companyId, "", "low", "strict GB/T 4754 sectioning is retained; no macro energy-sector override is applied.", true);
+  }
+
+  const bySection = new Map(canonicalSections.map((row) => [row[0], { code: row[0] }]));
+  for (const company of published) {
+    const code = companyIndustry(company).code;
+    if (bySection.has(code)) bySection.get(code).published = (bySection.get(code).published || 0) + 1;
+  }
+  for (const row of acceptedRows) {
+    const code = companyIndustry(companyMap.get(row.company_id) || {}, row.industry_section_code).code;
     if (bySection.has(code)) bySection.get(code).acceptedCompanies = (bySection.get(code).acceptedCompanies || new Set()).add(row.company_id);
   }
-  for (const row of complete) bySection.get(row.industry_section_code).complete = (bySection.get(row.industry_section_code).complete || 0) + 1;
-  for (const row of available) bySection.get(row.industry_section_code).available = (bySection.get(row.industry_section_code).available || 0) + 1;
+  for (const row of complete) {
+    const code = companyIndustry(companyMap.get(row.company_id) || {}, row.industry_section_code).code;
+    if (bySection.has(code)) bySection.get(code).complete = (bySection.get(code).complete || 0) + 1;
+  }
+  for (const row of available) {
+    const code = companyIndustry(companyMap.get(row.company_id) || {}, row.industry_section_code).code;
+    if (bySection.has(code)) bySection.get(code).available = (bySection.get(code).available || 0) + 1;
+  }
 
-  const registryRows = sections.map(([code, zh, en]) => {
+  const registryRows = canonicalSections.map(([code, zh, en]) => {
     const item = bySection.get(code) || {};
     const publishedCount = item.published || 0;
     return {
@@ -197,7 +502,7 @@ function build() {
     };
   });
 
-  const displayRows = displayStandards.map((item) => ({
+  const displayRows = canonicalDisplayStandards.map((item) => ({
     display_system: item[0],
     display_standard_name_zh: item[1],
     display_standard_name_en: item[2],
@@ -276,13 +581,14 @@ function build() {
     .sort((a, b) => String(a.industry_section_code).localeCompare(String(b.industry_section_code)) || num(b.total_mtco2e) - num(a.total_mtco2e));
   const rankByIndustry = {};
   const rankingRows = industryRanking.map((row) => {
-    rankByIndustry[row.industry_section_code] = (rankByIndustry[row.industry_section_code] || 0) + 1;
+    const industry = companyIndustry(companyMap.get(row.company_id) || {}, row.industry_section_code);
+    rankByIndustry[industry.code] = (rankByIndustry[industry.code] || 0) + 1;
     return {
-      industry_section_code: row.industry_section_code,
-      industry_section_name_zh: sectionName(row.industry_section_code, "zh"),
-      industry_section_name_en: sectionName(row.industry_section_code, "en"),
+      industry_section_code: industry.code,
+      industry_section_name_zh: industry.nameZh,
+      industry_section_name_en: industry.nameEn,
       gb_standard: "GB/T 4754-2017",
-      rank_within_industry_section: rankByIndustry[row.industry_section_code],
+      rank_within_industry_section: rankByIndustry[industry.code],
       company_id: row.company_id,
       company_name: row.company_name_en,
       world500_rank: row.world500_rank,
@@ -301,13 +607,14 @@ function build() {
   const missingRows = published.filter((company) => !completeIds.has(company.company_id)).map((company) => {
     const partial = availableMap.get(company.company_id);
     const missingScopes = new Set(partial?.missing_scopes || ["Scope 1", "Scope 2", "Scope 3"]);
+    const industry = companyIndustry(company);
     return {
       company_id: company.company_id,
       company_name: company.company_name_en,
       world500_rank: company.world500_rank,
-      industry_section_code: company.industry_section_code,
-      industry_section_name_zh: sectionName(company.industry_section_code, "zh"),
-      industry_section_name_en: sectionName(company.industry_section_code, "en"),
+      industry_section_code: industry.code,
+      industry_section_name_zh: industry.nameZh,
+      industry_section_name_en: industry.nameEn,
       missing_reason: partial ? "partial_strong_evidence_total_excluded_from_complete_scope123_ranking" : "no_complete_scope123_total_in_current_published_graph",
       missing_scope1: missingScopes.has("Scope 1") ? "true" : "false",
       missing_scope2: missingScopes.has("Scope 2") ? "true" : "false",
@@ -342,6 +649,17 @@ function build() {
   writeRows("national_industry_section_registry", registryRows);
   writeRows("standard_industry_sankey_registry", displayRows);
   writeRows("world500_standard_industry_section_sankey_links", sankeyRows, { flow_definition: "accepted company-standard association count only" });
+  writeRows("world500_standard_industry_section_sankey_evidence", sankeyEvidenceRows, {
+    flow_definition: "one row per evidence sample behind accepted company-standard associations used by the Sankey",
+    accepted_company_standard_link_count: acceptedRows.length,
+  });
+  writeRows("world500_standard_industry_evidence_review_pack", standardIndustryEvidenceRows, {
+    flow_definition: "client review table for accepted/review/weak standard-industry-company evidence boundaries",
+  });
+  writeRows("world500_standard_evidence_boundary_summary", boundaryRows);
+  writeRows("world500_company_industry_review_pack", companyReviewRows, {
+    policy: "Current industry outputs use strict GB/T 4754 sections: utility code/name mismatches and software/cloud enterprises are corrected in the output layer; oil/gas companies retain their existing strict GB/T section instead of a macro energy-sector override.",
+  });
   writeRows("world500_primary_secondary_evidence_chain_export", evidenceRows);
   writeRows("world500_primary_secondary_bubble_company_summary", summaryRows);
   writeRows("world500_emissions_industry_section_ranking", rankingRows);

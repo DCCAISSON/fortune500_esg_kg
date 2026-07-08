@@ -77,7 +77,7 @@
       "is_requested_display_node": "true",
       "is_confirmed": "false",
       "needs_confirmation": "true",
-      "note": "需求方文档写 GHGP 7 类但正文只列明 6 个名称；第 7 项暂按现有标准注册表映射为 Scope 3 Calculation Guidance，后续可按需求方确认调整。"
+      "note": "Requested GHGP seventh display node; mapped to Scope 3 Calculation Guidance pending client confirmation."
     },
     {
       "display_system": "ISO",
@@ -110,7 +110,7 @@
       "is_requested_display_node": "true",
       "is_confirmed": "true",
       "needs_confirmation": "false",
-      "note": "需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 ISO 标准替代。"
+      "note": "Requested display node; retained as zero-flow when no accepted company-standard edge exists."
     },
     {
       "display_system": "GB/T",
@@ -132,7 +132,7 @@
       "is_requested_display_node": "true",
       "is_confirmed": "true",
       "needs_confirmation": "false",
-      "note": "需求方指定展示节点；当前无 accepted 企业-标准边时保留为 0-flow / 待补证据，不用其他 GB/T 标准替代。"
+      "note": "Requested display node; accepted flow requires explicit page-level standard evidence."
     }
   ]
 }

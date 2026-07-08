@@ -17,8 +17,24 @@ const sections = readJson("national_industry_section_registry.json").rows || [];
 const registry = readJson("standard_industry_sankey_registry.json").rows || [];
 const linksPayload = readJson("world500_standard_industry_section_sankey_links.json");
 const links = linksPayload.rows || [];
+const evidencePayload = readJson("world500_standard_industry_section_sankey_evidence.json");
+const evidenceRows = evidencePayload.rows || [];
+const reviewPackRows = readJson("world500_standard_industry_evidence_review_pack.json").rows || [];
+const boundaryRows = readJson("world500_standard_evidence_boundary_summary.json").rows || [];
+const industryReviewRows = readJson("world500_company_industry_review_pack.json").rows || [];
 const sectionCodes = new Set(sections.map((row) => row.industry_section_code));
 const standardIds = new Set(registry.map((row) => row.internal_standard_id));
+const correctedUtilityIds = new Set([
+  "r049_electricitédefrance",
+  "r078_chinasouthernpowergrid",
+  "r097_enel",
+  "r201_koreaelectricpower",
+  "r317_tokyoelectricpower",
+  "r336_chinahuadian",
+  "r456_koreagas",
+  "r485_centrica",
+]);
+const correctedSoftwareIds = new Set(["r299_oracle", "r445_salesforce", "r450_sap公司"]);
 const expectedStandardIds = [
   "ghg_corporate_standard",
   "ghg_scope3_standard",
@@ -56,15 +72,76 @@ for (const row of sections) {
 if (!String(linksPayload.flow_definition || "").includes("accepted")) {
   fail("sankey link payload must state accepted-only flow definition");
 }
+if (!String(evidencePayload.flow_definition || "").includes("evidence sample")) {
+  fail("sankey evidence payload must state evidence-sample flow definition");
+}
+const acceptedLinkTotal = links.reduce((total, row) => total + Number(row.accepted_link_count || 0), 0);
+if (Number(evidencePayload.accepted_company_standard_link_count) !== acceptedLinkTotal) {
+  fail(`sankey evidence accepted link count ${evidencePayload.accepted_company_standard_link_count} != ${acceptedLinkTotal}`);
+}
+if (evidenceRows.length < acceptedLinkTotal) {
+  fail(`sankey evidence rows ${evidenceRows.length} below accepted link total ${acceptedLinkTotal}`);
+}
 for (const row of links) {
   if (!standardIds.has(row.internal_standard_id)) fail(`link uses standard outside registry: ${row.internal_standard_id}`);
   if (!sectionCodes.has(row.industry_section_code)) fail(`link uses industry outside GB/T registry: ${row.industry_section_code}`);
   const companyIds = Array.isArray(row.company_ids) ? row.company_ids : [];
+  const companyNames = Array.isArray(row.company_names) ? row.company_names : [];
   if (Number(row.accepted_company_count) !== companyIds.length) {
     fail(`company count mismatch for ${row.internal_standard_id}/${row.industry_section_code}`);
   }
+  if (companyIds.length !== companyNames.length) {
+    fail(`company id/name array length mismatch for ${row.internal_standard_id}/${row.industry_section_code}`);
+  }
   if (Number(row.accepted_link_count) < Number(row.distinct_company_count)) {
     fail(`accepted_link_count below distinct_company_count for ${row.internal_standard_id}/${row.industry_section_code}`);
+  }
+  companyIds.forEach((companyId, index) => {
+    const expected = evidenceRows.find((item) => item.sankey_flow_key === `${row.internal_standard_id}::${row.industry_section_code}` && item.company_id === companyId);
+    if (expected && expected.company_name_en !== companyNames[index]) {
+      fail(`company id/name pair mismatch for ${companyId}: ${companyNames[index]} != ${expected.company_name_en}`);
+    }
+  });
+}
+for (const row of evidenceRows) {
+  if (!standardIds.has(row.internal_standard_id)) fail(`evidence uses standard outside registry: ${row.internal_standard_id}`);
+  if (!sectionCodes.has(row.industry_section_code)) fail(`evidence uses industry outside GB/T registry: ${row.industry_section_code}`);
+  if (row.decision_bucket !== "accepted") fail(`evidence row is not accepted: ${row.company_id}/${row.internal_standard_id}`);
+  if (!row.evidence_page || !row.source_file) fail(`evidence row missing page/source: ${row.company_id}/${row.internal_standard_id}`);
+  if (!["consistent_with_company_workbench", "corrected_by_gbt4754_code_name_rule", "corrected_by_gbt4754_business_activity_rule"].includes(row.industry_consistency_status)) {
+    fail(`industry mismatch against company_workbench: ${row.company_id}/${row.internal_standard_id}`);
+  }
+  if (correctedUtilityIds.has(row.company_id) && row.industry_section_code !== "D") {
+    fail(`utility company must be corrected to GB/T section D in Sankey evidence: ${row.company_id}`);
+  }
+  if (correctedSoftwareIds.has(row.company_id) && row.industry_section_code !== "I") {
+    fail(`software company must be corrected to GB/T section I in Sankey evidence: ${row.company_id}`);
+  }
+}
+if (!evidenceRows.some((row) => row.internal_standard_id === "gb_t_32150_2015" && row.company_id === "r451_crrcgroup" && row.industry_section_code === "C")) {
+  fail("GB/T 32150-2015 must retain CRRC manufacturing accepted evidence in the Sankey source table");
+}
+if (!reviewPackRows.some((row) => row.standard_id === "gb_t_32150_2015" && row.company_id === "r250_contemporaryamperextechnology" && row.evidence_status === "weak")) {
+  fail("review pack must retain CATL weak GB/T 32150-2015 evidence");
+}
+const gbt32150Boundary = boundaryRows.find((row) => row.standard_id === "gb_t_32150_2015");
+if (!gbt32150Boundary || Number(gbt32150Boundary.accepted_company_count) !== 1 || Number(gbt32150Boundary.weak_company_count) < 1) {
+  fail("GB/T 32150-2015 boundary must show 1 accepted company and weak/review evidence retained");
+}
+const iso14040Boundary = boundaryRows.find((row) => row.standard_id === "iso_14040_14044");
+if (!iso14040Boundary || Number(iso14040Boundary.accepted_company_count) !== 0 || Number(iso14040Boundary.review_company_count) < 1) {
+  fail("ISO 14040/14044 boundary must remain zero accepted with review evidence retained");
+}
+for (const companyId of correctedUtilityIds) {
+  const row = industryReviewRows.find((item) => item.company_id === companyId);
+  if (!row || row.suggested_code !== "D" || row.applied_to_current_industry_outputs !== "true") {
+    fail(`company industry review pack missing applied utility correction: ${companyId}`);
+  }
+}
+for (const companyId of correctedSoftwareIds) {
+  const row = industryReviewRows.find((item) => item.company_id === companyId);
+  if (!row || row.suggested_code !== "I" || row.applied_to_current_industry_outputs !== "true") {
+    fail(`company industry review pack missing applied software correction: ${companyId}`);
   }
 }
 
