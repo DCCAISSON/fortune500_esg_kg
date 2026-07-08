@@ -1,0 +1,823 @@
+(function () {
+    const EMBEDDED_PAYLOAD_VERSION = 'generic_full_graph_embedded_v2_inline_json_strict';
+    const dataNode = document.getElementById('world500-generic-full-graph-data');
+    const svg = document.getElementById('generic-full-graph-svg');
+    const viewport = document.getElementById('generic-full-graph-viewport');
+    const selectionCard = document.getElementById('generic-full-graph-selection');
+    const resultsCard = document.getElementById('generic-full-graph-results');
+    const reportTableCard = document.getElementById('generic-full-graph-report-table');
+    const evidenceSummaryCard = document.getElementById('generic-full-graph-evidence-summary');
+    const searchInput = document.getElementById('generic-full-graph-search');
+    const clearButton = document.getElementById('generic-full-graph-clear');
+    const resetButton = document.getElementById('generic-full-graph-reset');
+    const fitButton = document.getElementById('generic-full-graph-fit');
+    if (!dataNode || !svg || !viewport || !selectionCard || !resultsCard || !reportTableCard || !evidenceSummaryCard || !searchInput || !clearButton || !resetButton || !fitButton) {
+      throw new Error('Missing required generic full-graph DOM target.');
+    }
+
+    const rawPayload = String(dataNode.textContent || '').trim();
+    if (!rawPayload) {
+      throw new Error('Embedded generic full-graph JSON is empty.');
+    }
+    const data = JSON.parse(rawPayload);
+    if (!data || typeof data !== 'object' || Array.isArray(data)) {
+      throw new Error('Embedded generic full-graph payload must be an object.');
+    }
+    if (data.version !== EMBEDDED_PAYLOAD_VERSION) {
+      throw new Error(`Unexpected generic full-graph payload version: ${data.version || 'missing'}`);
+    }
+
+    const labels = requireObject(data.labels, 'labels');
+    patchTargetIsoEvidence(data);
+    const middleNodes = requireArray(data.middleNodes, 'middleNodes').slice();
+    const companies = requireArray(data.companies, 'companies').slice();
+    const system = requireObject(data.system, 'system');
+    if (!middleNodes.length || !system.key) {
+      renderUnavailableGraph();
+      return;
+    }
+    const GRAPH_WIDTH = 6200;
+    const GRAPH_HEIGHT = 4200;
+    const CENTER_X = 3300;
+    const CENTER_Y = 2100;
+    const SYSTEM_POS = { x: 720, y: CENTER_Y };
+    const MIDDLE_RING_SPECS = [
+      { capacity: 6, radius: 430 },
+      { capacity: 10, radius: 740 },
+      { capacity: 14, radius: 1040 },
+    ];
+    const COMPANY_RING_SPECS = [
+      { capacity: 44, radius: 1360 },
+      { capacity: 60, radius: 1640 },
+      { capacity: 80, radius: 1920 },
+      { capacity: 100, radius: 2200 },
+      { capacity: 140, radius: 2480 },
+    ];
+    const ARC_START = -Math.PI * 0.82;
+    const ARC_END = Math.PI * 0.82;
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+    const state = {
+      selectedKind: 'system',
+      selectedMiddleId: '',
+      selectedCompanyId: '',
+      hoveredCompanyId: '',
+      hoveredMiddleId: '',
+      query: '',
+      scale: 0.96,
+      tx: 0,
+      ty: 0,
+      panning: false,
+      panPointerId: null,
+      panOrigin: null,
+    };
+
+    svg.setAttribute('viewBox', `0 0 ${GRAPH_WIDTH} ${GRAPH_HEIGHT}`);
+
+    function createSvgEl(tag, attrs) {
+      const node = document.createElementNS(SVG_NS, tag);
+      if (attrs) {
+        Object.entries(attrs).forEach(([key, value]) => {
+          if (value !== undefined && value !== null) node.setAttribute(key, String(value));
+        });
+      }
+      return node;
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function formatInt(value) {
+      const numeric = Number(value);
+      return Number.isFinite(numeric) ? numeric.toLocaleString() : String(value ?? '');
+    }
+
+    function formatRank(value) {
+      const numeric = Number(value);
+      return Number.isFinite(numeric) && numeric > 0 ? `#${numeric}` : '-';
+    }
+
+    function requireObject(value, label) {
+      if (!value || typeof value !== 'object' || Array.isArray(value)) {
+        throw new Error(`Missing embedded generic full-graph object: ${label}`);
+      }
+      return value;
+    }
+
+    function requireArray(value, label) {
+      if (!Array.isArray(value)) {
+        throw new Error(`Missing embedded generic full-graph array: ${label}`);
+      }
+      return value;
+    }
+
+    function renderUnavailableGraph() {
+      const title = labels.selection_title || 'Graph data unavailable';
+      const message = labels.selection_default || 'This full-screen graph has no accepted nodes in the embedded payload.';
+      const body = `
+        <h3>${escapeHtml(title)}</h3>
+        <p>${escapeHtml(message)}</p>
+        <div class="cluster-evidence-notice">${escapeHtml('Embedded JSON loaded successfully, but no drawable graph nodes are available for this view.')}</div>
+      `;
+      selectionCard.innerHTML = body;
+      resultsCard.innerHTML = body;
+      reportTableCard.innerHTML = body;
+      evidenceSummaryCard.innerHTML = body;
+      svg.setAttribute('viewBox', '0 0 1200 420');
+      svg.innerHTML = `<text x="600" y="210" text-anchor="middle" class="graph-block-title">${escapeHtml(title)}</text>`;
+    }
+
+    function workbenchUrl(companyId) {
+      const targetId = String(companyId || '').trim();
+      return targetId ? `./company-accounting-workbench.html?company=${encodeURIComponent(targetId)}` : '';
+    }
+
+    function workbenchLink(companyId, text, className) {
+      const href = workbenchUrl(companyId);
+      if (!href) return '';
+      return `<a class="${escapeHtml(className || 'graph-mini-link')}" href="${escapeHtml(href)}">${escapeHtml(text || labels.workbench_open || 'Open company accounting workbench')}</a>`;
+    }
+
+    function compactList(values, limit) {
+      const items = Array.isArray(values) ? values.filter(Boolean) : [];
+      if (!items.length) return '-';
+      return items.slice(0, limit).join(' | ');
+    }
+
+    function splitLabel(text, maxChars) {
+      const value = String(text || '').trim();
+      if (!value) return [''];
+      if (!value.includes(' ')) {
+        const lines = [];
+        for (let cursor = 0; cursor < value.length; cursor += maxChars) lines.push(value.slice(cursor, cursor + maxChars));
+        return lines;
+      }
+      const words = value.split(/\s+/);
+      const lines = [];
+      let line = '';
+      words.forEach((word) => {
+        const candidate = line ? `${line} ${word}` : word;
+        if (candidate.length <= maxChars) {
+          line = candidate;
+        } else {
+          if (line) lines.push(line);
+          line = word;
+        }
+      });
+      if (line) lines.push(line);
+      return lines;
+    }
+
+    function appendTextBlock(group, lines, x, y, className, lineHeight) {
+      lines.forEach((line, index) => {
+        const text = createSvgEl('text', { x, y: y + index * lineHeight, class: className, 'text-anchor': 'middle' });
+        text.textContent = line;
+        group.appendChild(text);
+      });
+    }
+
+    function matchesQuery(company, query) {
+      if (!query) return true;
+      const rank = company.rank === null || company.rank === undefined ? '' : String(company.rank);
+      return String(company.name || '').toLowerCase().includes(query) || rank.includes(query);
+    }
+
+    function patchTargetIsoEvidence(payload) {
+      if (!payload) return;
+      const snippet = 'Consumption data is based on last complete Fiscal Year (FY2023) compared to the baseline year for our science-based target (FY2017). We have converted MWh to a standard metric for comparison: either metric tons of carbon dioxide equivalent (mtCO2e) or Giga Joules (GJ). Gases included in the calculation: CO2, CH4, N2O and HFCs. Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification, with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals, and The Climate Registry General Reporting Protocol.';
+      const basis = document.documentElement.lang === 'zh'
+        ? '源报告第 7 页直接写明 Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification；因此该边归入 ISO 体系 / ISO 14064 节点，不是从 Scope 数值表推断。'
+        : 'Page 7 of the source report states that Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification; therefore this edge is mapped to the ISO system / ISO 14064 node rather than inferred from Scope value rows.';
+      const patchRows = (rows) => {
+        (Array.isArray(rows) ? rows : []).forEach((item) => {
+          if (item.report === 'TARGET-2024-Sustainability-and-Governance-Report-Appendix.pdf' && String(item.page || '') === '7') {
+            item.snippet = snippet;
+            item.recognition_basis = basis;
+          }
+        });
+      };
+      (Array.isArray(payload.middleNodes) ? payload.middleNodes : [])
+        .filter((item) => item.id === 'ISO 14064')
+        .forEach((item) => patchRows(item.evidence));
+      (Array.isArray(payload.companies) ? payload.companies : [])
+        .filter((company) => company.id === 'r090_target')
+        .forEach((company) => patchRows(company.evidenceByItem && company.evidenceByItem['ISO 14064']));
+    }
+
+    function evidenceHtml(items) {
+      const rows = Array.isArray(items) ? items : [];
+      if (!rows.length) {
+        return `<div class="entity-evidence-block"><h4>${escapeHtml(labels.evidence_title)}</h4><p>${escapeHtml(labels.evidence_empty)}</p></div>`;
+      }
+      return (
+        `<div class="entity-evidence-block"><h4>${escapeHtml(labels.evidence_title)}</h4>` +
+        rows.map((item) => `
+          <article class="entity-evidence-item">
+            <div class="entity-evidence-head">
+              <strong>${escapeHtml(item.report || '-')}</strong>
+              <span>${escapeHtml(labels.evidence_page)} ${escapeHtml(item.page || '-')}</span>
+            </div>
+            <p>${escapeHtml(item.snippet || '')}</p>
+            ${item.recognition_basis ? `<p class="entity-note"><strong>${escapeHtml(document.documentElement.lang === 'zh' ? '判定依据' : 'Recognition basis')}:</strong> ${escapeHtml(item.recognition_basis)}</p>` : ''}
+            <div class="entity-evidence-meta">
+              <span>${escapeHtml(labels.evidence_confidence)}: ${escapeHtml(item.confidence || '-')}</span>
+              <span>${escapeHtml(labels.evidence_review)}: ${escapeHtml(item.review_status || '-')}</span>
+            </div>
+          </article>
+        `).join('') +
+        `</div>`
+      );
+    }
+
+    const middleMap = new Map();
+    middleNodes.forEach((item) => middleMap.set(item.id, item));
+    const companyMap = new Map();
+    companies.forEach((item) => companyMap.set(item.id, item));
+
+    const layers = {
+      rings: createSvgEl('g', { class: 'graph-rings-layer' }),
+      edges: createSvgEl('g', { class: 'graph-edges-layer' }),
+      nodes: createSvgEl('g', { class: 'graph-nodes-layer' }),
+      labels: createSvgEl('g', { class: 'graph-labels-layer' }),
+    };
+    viewport.append(layers.rings, layers.edges, layers.nodes, layers.labels);
+
+    COMPANY_RING_SPECS.forEach((spec) => {
+      const ring = createSvgEl('ellipse', {
+        cx: CENTER_X,
+        cy: CENTER_Y,
+        rx: spec.radius,
+        ry: spec.radius * 0.74,
+        class: 'graph-ring',
+      });
+      layers.rings.appendChild(ring);
+    });
+
+    const middleElements = new Map();
+    const companyElements = new Map();
+    const edgeElements = [];
+
+    const placedMiddleNodes = [];
+    let middleCursor = 0;
+    MIDDLE_RING_SPECS.forEach((spec, ringIndex) => {
+      const remaining = middleNodes.length - middleCursor;
+      if (remaining <= 0) return;
+      const count = Math.min(spec.capacity, remaining);
+      const offset = ringIndex % 2 === 0 ? 0 : Math.PI / count;
+      for (let index = 0; index < count; index += 1) {
+        const item = middleNodes[middleCursor + index];
+        const angle = (-Math.PI / 2) + offset + ((Math.PI * 2 * index) / count);
+        placedMiddleNodes.push({
+          ...item,
+          x: CENTER_X + (spec.radius * Math.cos(angle)),
+          y: CENTER_Y + ((spec.radius * 0.66) * Math.sin(angle)),
+        });
+      }
+      middleCursor += count;
+    });
+
+    const placedCompanies = [];
+    let companyCursor = 0;
+    COMPANY_RING_SPECS.forEach((spec) => {
+      const remaining = companies.length - companyCursor;
+      if (remaining <= 0) return;
+      const count = Math.min(spec.capacity, remaining);
+      for (let index = 0; index < count; index += 1) {
+        const company = companies[companyCursor + index];
+        const angle = ARC_START + (((ARC_END - ARC_START) * index) / Math.max(1, count - 1));
+        placedCompanies.push({
+          ...company,
+          x: CENTER_X + (spec.radius * Math.cos(angle)),
+          y: CENTER_Y + ((spec.radius * 0.74) * Math.sin(angle)),
+        });
+      }
+      companyCursor += count;
+    });
+
+    const systemGroup = createSvgEl('g', { class: 'graph-system-node is-active', 'data-node-kind': 'system' });
+    systemGroup.appendChild(createSvgEl('rect', { x: SYSTEM_POS.x - 210, y: SYSTEM_POS.y - 86, width: 420, height: 172, rx: 28, ry: 28 }));
+    appendTextBlock(systemGroup, splitLabel(system.label || '', 14), SYSTEM_POS.x, SYSTEM_POS.y - 18, 'graph-block-title', 26);
+    appendTextBlock(systemGroup, [formatInt(system.itemCount || 0), formatInt(system.companyCount || 0)], SYSTEM_POS.x, SYSTEM_POS.y + 42, 'graph-block-meta', 22);
+    systemGroup.addEventListener('click', (event) => {
+      event.stopPropagation();
+      state.selectedKind = 'system';
+      state.selectedMiddleId = '';
+      state.selectedCompanyId = '';
+      updateGraphState();
+    });
+    layers.nodes.appendChild(systemGroup);
+
+    placedMiddleNodes.forEach((item) => {
+      const group = createSvgEl('g', { class: 'graph-middle-node', 'data-node-kind': 'middle', 'data-middle-id': item.id });
+      const width = item.name && String(item.name).length > 18 ? 250 : 220;
+      const rectAttrs = { x: item.x - width / 2, y: item.y - 48, width, height: 96, rx: 20, ry: 20 };
+      if (item.color) {
+        rectAttrs.style = `fill:${item.color};stroke:${item.strokeColor || '#5f7f96'};`;
+      }
+      group.appendChild(createSvgEl('rect', rectAttrs));
+      appendTextBlock(group, splitLabel(item.name || '', 12), item.x, item.y - 10, 'graph-middle-title', 20);
+      appendTextBlock(group, [formatInt(item.companyCount || 0)], item.x, item.y + 28, 'graph-middle-meta', 18);
+      group.addEventListener('click', (event) => {
+        event.stopPropagation();
+        state.selectedKind = 'middle';
+        state.selectedMiddleId = item.id;
+        state.selectedCompanyId = '';
+        updateGraphState();
+      });
+      group.addEventListener('mouseenter', () => {
+        state.hoveredMiddleId = item.id;
+        updateGraphState();
+      });
+      group.addEventListener('mouseleave', () => {
+        state.hoveredMiddleId = '';
+        updateGraphState();
+      });
+      layers.nodes.appendChild(group);
+      middleElements.set(item.id, { data: item, group, x: item.x, y: item.y });
+
+      const systemEdge = createSvgEl('line', {
+        x1: SYSTEM_POS.x + 210,
+        y1: SYSTEM_POS.y,
+        x2: item.x - 120,
+        y2: item.y,
+        class: 'graph-edge graph-edge-system',
+      });
+      layers.edges.appendChild(systemEdge);
+      edgeElements.push({ edge: systemEdge, type: 'system', middleId: item.id });
+    });
+
+    placedCompanies.forEach((company) => {
+      const radius = company.rank && Number(company.rank) <= 50 ? 11.2 : company.rank && Number(company.rank) <= 100 ? 9.8 : 8.6;
+      const group = createSvgEl('g', { class: 'graph-company-node', 'data-node-kind': 'company', 'data-company-id': company.id });
+      const circle = createSvgEl('circle', { cx: company.x, cy: company.y, r: radius });
+      const title = createSvgEl('title');
+      title.textContent = `${company.name} ${formatRank(company.rank)}`;
+      group.append(circle, title);
+      group.addEventListener('click', (event) => {
+        event.stopPropagation();
+        selectCompany(company.id, true);
+      });
+      group.addEventListener('mouseenter', () => {
+        state.hoveredCompanyId = company.id;
+        updateGraphState();
+      });
+      group.addEventListener('mouseleave', () => {
+        state.hoveredCompanyId = '';
+        updateGraphState();
+      });
+      layers.nodes.appendChild(group);
+
+      const label = createSvgEl('text', { x: company.x + 18, y: company.y - 12, class: 'graph-company-label' });
+      label.textContent = company.name;
+      layers.labels.appendChild(label);
+      companyElements.set(company.id, { data: company, group, label, x: company.x, y: company.y });
+    });
+
+    middleMap.forEach((item) => {
+      const middleEntry = middleElements.get(item.id);
+      if (!middleEntry) return;
+      (item.companyIds || []).forEach((companyId) => {
+        const companyEntry = companyElements.get(companyId);
+        if (!companyEntry) return;
+        const edge = createSvgEl('line', {
+          x1: middleEntry.x,
+          y1: middleEntry.y,
+          x2: companyEntry.x,
+          y2: companyEntry.y,
+          class: 'graph-edge graph-edge-company',
+        });
+        layers.edges.appendChild(edge);
+        edgeElements.push({ edge, type: 'company', middleId: item.id, companyId });
+      });
+    });
+
+    function applyTransform() {
+      viewport.setAttribute('transform', `matrix(${state.scale} 0 0 ${state.scale} ${state.tx} ${state.ty})`);
+    }
+
+    function clampTransform() {
+      const margin = 260;
+      const minTx = GRAPH_WIDTH * (1 - state.scale) - margin;
+      const maxTx = margin;
+      const minTy = GRAPH_HEIGHT * (1 - state.scale) - margin;
+      const maxTy = margin;
+      state.tx = Math.min(maxTx, Math.max(minTx, state.tx));
+      state.ty = Math.min(maxTy, Math.max(minTy, state.ty));
+    }
+
+    function toSvgPoint(clientX, clientY) {
+      const point = svg.createSVGPoint();
+      point.x = clientX;
+      point.y = clientY;
+      return point.matrixTransform(svg.getScreenCTM().inverse());
+    }
+
+    function resetView() {
+      state.scale = 0.96;
+      state.tx = 0;
+      state.ty = 0;
+      applyTransform();
+    }
+
+    function focusPoint(x, y, scale) {
+      state.scale = scale;
+      state.tx = (GRAPH_WIDTH / 2) - (x * state.scale);
+      state.ty = (GRAPH_HEIGHT / 2) - (y * state.scale);
+      clampTransform();
+      applyTransform();
+    }
+
+    function currentActiveCompanies() {
+      const query = state.query.trim().toLowerCase();
+      const activeMiddleId = state.selectedKind === 'middle' ? state.selectedMiddleId : '';
+      let rows = placedCompanies.filter((company) => {
+        const matchesMiddle = !activeMiddleId || (Array.isArray(company.linkedItems) && company.linkedItems.includes(activeMiddleId));
+        const matchesSearch = !query || matchesQuery(company, query);
+        return matchesMiddle && matchesSearch;
+      });
+      if (state.selectedKind === 'company' && state.selectedCompanyId && !query && !activeMiddleId) {
+        rows = rows.filter((company) => company.id === state.selectedCompanyId);
+      }
+      return rows;
+    }
+
+    function displayCompanies(limitCount) {
+      const query = state.query.trim().toLowerCase();
+      const activeMiddleId = state.selectedKind === 'middle' ? state.selectedMiddleId : '';
+      const rows = currentActiveCompanies();
+      if (!query && !activeMiddleId && !(state.selectedKind === 'company' && state.selectedCompanyId)) {
+        return rows.slice(0, limitCount);
+      }
+      return limitCount ? rows.slice(0, limitCount) : rows;
+    }
+
+    function dedupeEvidence(items, limitCount) {
+      const rows = Array.isArray(items) ? items : [];
+      const seen = new Set();
+      const output = [];
+      rows.forEach((item) => {
+        const key = [item.report || '', item.page || '', item.snippet || ''].join('||');
+        if (seen.has(key)) return;
+        seen.add(key);
+        output.push(item);
+      });
+      return typeof limitCount === 'number' ? output.slice(0, limitCount) : output;
+    }
+
+    function currentEvidenceRows(limitCount) {
+      if (state.selectedKind === 'company' && state.selectedCompanyId && companyMap.has(state.selectedCompanyId)) {
+        const company = companyMap.get(state.selectedCompanyId);
+        const activeMiddleId = currentMiddleForCompany(company);
+        if (activeMiddleId && company.evidenceByItem && company.evidenceByItem[activeMiddleId]) {
+          return dedupeEvidence(company.evidenceByItem[activeMiddleId], limitCount);
+        }
+        const rows = [];
+        Object.values(company.evidenceByItem || {}).forEach((value) => {
+          if (Array.isArray(value)) rows.push(...value);
+        });
+        return dedupeEvidence(rows, limitCount);
+      }
+      if (state.selectedKind === 'middle' && state.selectedMiddleId && middleMap.has(state.selectedMiddleId)) {
+        return dedupeEvidence(middleMap.get(state.selectedMiddleId).evidence || [], limitCount);
+      }
+      const rows = [];
+      currentActiveCompanies().forEach((company) => {
+        Object.values(company.evidenceByItem || {}).forEach((value) => {
+          if (Array.isArray(value)) rows.push(...value);
+        });
+      });
+      if (rows.length) return dedupeEvidence(rows, limitCount);
+      return dedupeEvidence(middleNodes.flatMap((item) => Array.isArray(item.evidence) ? item.evidence : []), limitCount);
+    }
+
+    function currentFocusLabel() {
+      if (state.selectedKind === 'company' && state.selectedCompanyId && companyMap.has(state.selectedCompanyId)) {
+        const company = companyMap.get(state.selectedCompanyId);
+        return `${labels.company_type}: ${company.name || ''}`;
+      }
+      if (state.selectedKind === 'middle' && state.selectedMiddleId && middleMap.has(state.selectedMiddleId)) {
+        const middle = middleMap.get(state.selectedMiddleId);
+        return `${labels.middle_type}: ${middle.name || ''}`;
+      }
+      return `${labels.system_type}: ${system.label || ''}`;
+    }
+
+    function renderResults() {
+      const query = state.query.trim().toLowerCase();
+      const results = displayCompanies(12);
+      const countLine = query
+        ? `<p class="table-lead">${escapeHtml(labels.results_count.replace('{total}', formatInt(results.length)))}<br>${escapeHtml(labels.results_focus)}</p>`
+        : `<p class="table-lead">${escapeHtml(labels.results_empty)}</p>`;
+      const rows = results.map((company) => `
+        <div class="graph-match-card">
+          <button class="graph-match-item${company.id === state.selectedCompanyId ? ' is-active' : ''}" type="button" data-result-company="${escapeHtml(company.id)}">
+            <strong>${escapeHtml(company.name)}</strong>
+            <span>${escapeHtml(formatRank(company.rank))} · ${escapeHtml(formatInt(company.factCount || 0))}</span>
+          </button>
+          <div class="graph-match-actions">
+            ${workbenchLink(company.id, labels.workbench_open_short, 'graph-mini-link')}
+          </div>
+        </div>
+      `).join('');
+      resultsCard.innerHTML = `
+        <h3>${escapeHtml(labels.results_title)}</h3>
+        ${countLine}
+        <div class="graph-match-list">${rows || `<div class="entity-empty">${escapeHtml(labels.results_empty)}</div>`}</div>
+      `;
+      resultsCard.querySelectorAll('[data-result-company]').forEach((button) => {
+        button.addEventListener('click', () => selectCompany(button.getAttribute('data-result-company') || '', true));
+      });
+    }
+
+    function renderReportTable() {
+      const rows = displayCompanies(18);
+      const activeRows = currentActiveCompanies();
+      const body = rows.map((company) => {
+        const currentMiddle = state.selectedKind === 'middle' && state.selectedMiddleId
+          ? state.selectedMiddleId
+          : (currentMiddleForCompany(company) || '-');
+        return `
+          <tr>
+            <td>
+              <div class="graph-table-cell">
+                <button class="graph-table-button" type="button" data-table-company="${escapeHtml(company.id)}">${escapeHtml(company.name || '-')}</button>
+                ${workbenchLink(company.id, labels.workbench_open_short, 'graph-table-link')}
+              </div>
+            </td>
+            <td>${escapeHtml(formatRank(company.rank))}</td>
+            <td>${escapeHtml(currentMiddle)}</td>
+            <td>${escapeHtml(formatInt(company.factCount || 0))}</td>
+            <td>${escapeHtml(compactList(company.roles, 2))}</td>
+            <td>${escapeHtml(compactList(company.principles, 2))}</td>
+          </tr>
+        `;
+      }).join('');
+      reportTableCard.innerHTML = `
+        <div class="table-kicker">${escapeHtml(labels.report_table_kicker)}</div>
+        <h3>${escapeHtml(labels.report_table_title)}</h3>
+        <p class="table-lead">${escapeHtml(labels.report_table_lead)}</p>
+        <div class="table-summary-strip">
+          <div class="table-summary-item"><strong>${escapeHtml(labels.evidence_summary_companies)}</strong><span class="table-summary-value">${escapeHtml(formatInt(activeRows.length))}</span><span class="table-summary-note">${escapeHtml(labels.report_table_note)}</span></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <tr>
+              <th>${escapeHtml(labels.report_table_company)}</th>
+              <th>${escapeHtml(labels.report_table_rank)}</th>
+              <th>${escapeHtml(labels.report_table_middle)}</th>
+              <th>${escapeHtml(labels.report_table_facts)}</th>
+              <th>${escapeHtml(labels.report_table_roles)}</th>
+              <th>${escapeHtml(labels.report_table_principles)}</th>
+            </tr>
+            ${body || `<tr><td colspan="6">${escapeHtml(labels.report_table_empty)}</td></tr>`}
+          </table>
+        </div>
+      `;
+      reportTableCard.querySelectorAll('[data-table-company]').forEach((button) => {
+        button.addEventListener('click', () => selectCompany(button.getAttribute('data-table-company') || '', true));
+      });
+    }
+
+    function renderEvidenceSummary() {
+      const evidenceRows = currentEvidenceRows(4);
+      const currentCompanies = currentActiveCompanies();
+      const reportCount = new Set(evidenceRows.map((item) => String(item.report || '').trim()).filter(Boolean)).size;
+      const summaryStrip = `
+        <div class="graph-summary-strip">
+          <div class="graph-summary-chip"><strong>${escapeHtml(labels.evidence_summary_focus)}</strong><span>${escapeHtml(currentFocusLabel())}</span></div>
+          <div class="graph-summary-chip"><strong>${escapeHtml(labels.evidence_summary_reports)}</strong><span>${escapeHtml(formatInt(reportCount))}</span></div>
+          <div class="graph-summary-chip"><strong>${escapeHtml(labels.evidence_summary_rows)}</strong><span>${escapeHtml(formatInt(evidenceRows.length))}</span></div>
+          <div class="graph-summary-chip"><strong>${escapeHtml(labels.evidence_summary_companies)}</strong><span>${escapeHtml(formatInt(currentCompanies.length))}</span></div>
+        </div>
+      `;
+      const listHtml = evidenceRows.length
+        ? `<div class="graph-summary-list">${evidenceRows.map((item) => `
+            <article class="graph-summary-item">
+              <h4>${escapeHtml(item.report || '-')}</h4>
+              <p>${escapeHtml(item.snippet || '')}</p>
+              <div class="graph-summary-meta">
+                <span>${escapeHtml(labels.evidence_page)} ${escapeHtml(item.page || '-')}</span>
+                <span>${escapeHtml(labels.evidence_confidence)}: ${escapeHtml(item.confidence || '-')}</span>
+                <span>${escapeHtml(labels.evidence_review)}: ${escapeHtml(item.review_status || '-')}</span>
+              </div>
+            </article>
+          `).join('')}</div>`
+        : `<div class="entity-empty">${escapeHtml(labels.evidence_summary_empty)}</div>`;
+      evidenceSummaryCard.innerHTML = `
+        <div class="table-kicker">${escapeHtml(labels.evidence_summary_kicker)}</div>
+        <h3>${escapeHtml(labels.evidence_summary_title)}</h3>
+        <p class="table-lead">${escapeHtml(labels.evidence_summary_lead)}</p>
+        ${summaryStrip}
+        ${listHtml}
+      `;
+    }
+
+    function currentMiddleForCompany(company) {
+      const linkedItems = Array.isArray(company.linkedItems) ? company.linkedItems : [];
+      if (state.selectedMiddleId && linkedItems.includes(state.selectedMiddleId)) return state.selectedMiddleId;
+      return linkedItems.length ? linkedItems[0] : '';
+    }
+
+    function renderSelection() {
+      if (state.selectedKind === 'company' && state.selectedCompanyId && companyMap.has(state.selectedCompanyId)) {
+        const company = companyMap.get(state.selectedCompanyId);
+        const activeMiddleId = currentMiddleForCompany(company);
+        const middle = activeMiddleId ? middleMap.get(activeMiddleId) : null;
+        const roleText = Array.isArray(company.roles) && company.roles.length ? company.roles.join(' | ') : '-';
+        const principleText = Array.isArray(company.principles) && company.principles.length ? company.principles.join(' | ') : '-';
+        const linkedItemsText = Array.isArray(company.linkedItems) && company.linkedItems.length ? company.linkedItems.join(' | ') : '-';
+        const extraHtml = Array.isArray(company.extraFields) && company.extraFields.length
+          ? company.extraFields.map((field) => `
+            <div class="entity-inspector-item">
+              <strong>${escapeHtml(field.label || '')}</strong>
+              <span>${escapeHtml(field.value || '-')}</span>
+            </div>
+          `).join('')
+          : '';
+        const evidenceRows = activeMiddleId && company.evidenceByItem ? (company.evidenceByItem[activeMiddleId] || []) : [];
+        selectionCard.innerHTML = `
+          <h3>${escapeHtml(labels.selection_title)}</h3>
+          <div class="entity-inspector-grid">
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.company_type)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(company.name)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_middle)}</strong><span>${escapeHtml(middle ? middle.name : '-')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_rank)}</strong><span>${escapeHtml(formatRank(company.rank))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(company.factCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_roles)}</strong><span>${escapeHtml(roleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_principles)}</strong><span>${escapeHtml(principleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_linked_items)}</strong><span>${escapeHtml(linkedItemsText)}</span></div>
+            ${extraHtml}
+          </div>
+          <div class="graph-inline-actions">
+            ${workbenchLink(company.id, labels.workbench_open, 'pill')}
+          </div>
+          ${evidenceHtml(evidenceRows)}
+        `;
+        return;
+      }
+
+      if (state.selectedKind === 'middle' && state.selectedMiddleId && middleMap.has(state.selectedMiddleId)) {
+        const middle = middleMap.get(state.selectedMiddleId);
+        const roleText = Array.isArray(middle.roles) && middle.roles.length ? middle.roles.join(' | ') : '-';
+        const principleText = Array.isArray(middle.principles) && middle.principles.length ? middle.principles.join(' | ') : '-';
+        selectionCard.innerHTML = `
+          <h3>${escapeHtml(labels.selection_title)}</h3>
+          <div class="entity-inspector-grid">
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.middle_type)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(middle.name || '')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_system)}</strong><span>${escapeHtml(system.label || '')}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_company_count)}</strong><span>${escapeHtml(formatInt(middle.companyCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(middle.factCount || 0))}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_roles)}</strong><span>${escapeHtml(roleText)}</span></div>
+            <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_principles)}</strong><span>${escapeHtml(principleText)}</span></div>
+          </div>
+          ${evidenceHtml(middle.evidence)}
+        `;
+        return;
+      }
+
+      selectionCard.innerHTML = `
+        <h3>${escapeHtml(labels.selection_title)}</h3>
+        <div class="entity-inspector-grid">
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_type)}</strong><span>${escapeHtml(labels.system_type)}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_name)}</strong><span>${escapeHtml(system.label || '')}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_item_count)}</strong><span>${escapeHtml(formatInt(system.itemCount || 0))}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_company_count)}</strong><span>${escapeHtml(formatInt(system.companyCount || 0))}</span></div>
+          <div class="entity-inspector-item"><strong>${escapeHtml(labels.selection_fact_count)}</strong><span>${escapeHtml(formatInt(system.factCount || 0))}</span></div>
+        </div>
+        <p style="margin-top:12px;">${escapeHtml(labels.selection_default)}</p>
+      `;
+    }
+
+    function updateGraphState() {
+      const query = state.query.trim().toLowerCase();
+      const matched = new Set();
+      if (query) {
+        placedCompanies.forEach((company) => {
+          if (matchesQuery(company, query)) matched.add(company.id);
+        });
+      }
+
+      const selectedCompany = state.selectedCompanyId ? companyMap.get(state.selectedCompanyId) : null;
+      const linkedMiddleIds = selectedCompany ? new Set(selectedCompany.linkedItems || []) : new Set();
+      const activeMiddleId = state.selectedKind === 'middle' ? state.selectedMiddleId : '';
+
+      systemGroup.classList.toggle('is-active', state.selectedKind === 'system');
+      middleElements.forEach((entry, middleId) => {
+        const isActive = state.selectedKind === 'middle' && activeMiddleId === middleId;
+        const isLinked = selectedCompany ? linkedMiddleIds.has(middleId) : false;
+        entry.group.classList.toggle('is-active', isActive);
+        entry.group.classList.toggle('is-linked-company', isLinked);
+      });
+
+      companyElements.forEach((entry, companyId) => {
+        const company = entry.data;
+        const matchesMiddle = !activeMiddleId || (Array.isArray(company.linkedItems) && company.linkedItems.includes(activeMiddleId));
+        const matchesSearch = !query || matched.has(companyId);
+        const isSelected = state.selectedKind === 'company' && state.selectedCompanyId === companyId;
+        const isHovered = state.hoveredCompanyId === companyId;
+        const isDimmed = !matchesMiddle || !matchesSearch;
+        const showLabel = isSelected || isHovered || (query && matched.has(companyId) && matched.size <= 24);
+        entry.group.classList.toggle('is-active', isSelected);
+        entry.group.classList.toggle('is-hovered', isHovered);
+        entry.group.classList.toggle('is-match', Boolean(query && matched.has(companyId)));
+        entry.group.classList.toggle('is-dimmed', Boolean(isDimmed));
+        entry.label.classList.toggle('is-visible', Boolean(showLabel));
+      });
+
+      edgeElements.forEach((item) => {
+        if (item.type === 'system') {
+          item.edge.classList.toggle('is-active', state.selectedKind === 'middle' && item.middleId === activeMiddleId);
+          return;
+        }
+        const company = companyMap.get(item.companyId);
+        const matchesMiddle = !activeMiddleId || (company && Array.isArray(company.linkedItems) && company.linkedItems.includes(activeMiddleId));
+        const matchesSearch = !query || matched.has(item.companyId);
+        const isSelectedEdge = (state.selectedKind === 'middle' && item.middleId === activeMiddleId) ||
+          (state.selectedKind === 'company' && item.companyId === state.selectedCompanyId && linkedMiddleIds.has(item.middleId));
+        item.edge.classList.toggle('is-active', Boolean(isSelectedEdge));
+        item.edge.classList.toggle('is-dimmed', !(matchesMiddle && matchesSearch));
+      });
+
+      renderSelection();
+      renderResults();
+      renderReportTable();
+      renderEvidenceSummary();
+    }
+
+    function selectCompany(companyId, focus) {
+      if (!companyId || !companyMap.has(companyId)) return;
+      state.selectedKind = 'company';
+      state.selectedCompanyId = companyId;
+      if (focus) {
+        const entry = companyElements.get(companyId);
+        focusPoint(entry.x, entry.y, 1.7);
+      }
+      updateGraphState();
+    }
+
+    searchInput.addEventListener('input', () => {
+      state.query = searchInput.value || '';
+      updateGraphState();
+    });
+    clearButton.addEventListener('click', () => {
+      state.query = '';
+      searchInput.value = '';
+      updateGraphState();
+    });
+    resetButton.addEventListener('click', () => {
+      state.selectedKind = 'system';
+      state.selectedMiddleId = '';
+      state.selectedCompanyId = '';
+      resetView();
+      updateGraphState();
+    });
+    fitButton.addEventListener('click', () => resetView());
+
+    svg.addEventListener('wheel', (event) => {
+      event.preventDefault();
+      const point = toSvgPoint(event.clientX, event.clientY);
+      const nextScale = Math.max(0.72, Math.min(4.4, state.scale * (event.deltaY < 0 ? 1.12 : 1 / 1.12)));
+      const worldX = (point.x - state.tx) / state.scale;
+      const worldY = (point.y - state.ty) / state.scale;
+      state.scale = nextScale;
+      state.tx = point.x - worldX * state.scale;
+      state.ty = point.y - worldY * state.scale;
+      clampTransform();
+      applyTransform();
+    }, { passive: false });
+
+    svg.addEventListener('pointerdown', (event) => {
+      if (event.target.closest('[data-node-kind="company"],[data-node-kind="middle"],[data-node-kind="system"]')) return;
+      state.panning = true;
+      state.panPointerId = event.pointerId;
+      state.panOrigin = { point: toSvgPoint(event.clientX, event.clientY), tx: state.tx, ty: state.ty };
+      svg.classList.add('is-panning');
+    });
+    svg.addEventListener('pointermove', (event) => {
+      if (!state.panning || state.panPointerId !== event.pointerId || !state.panOrigin) return;
+      const point = toSvgPoint(event.clientX, event.clientY);
+      state.tx = state.panOrigin.tx + (point.x - state.panOrigin.point.x);
+      state.ty = state.panOrigin.ty + (point.y - state.panOrigin.point.y);
+      clampTransform();
+      applyTransform();
+    });
+    function stopPan(event) {
+      if (state.panPointerId !== null && event.pointerId !== undefined && event.pointerId !== state.panPointerId) return;
+      state.panning = false;
+      state.panPointerId = null;
+      state.panOrigin = null;
+      svg.classList.remove('is-panning');
+    }
+    svg.addEventListener('pointerup', stopPan);
+    svg.addEventListener('pointerleave', stopPan);
+    svg.addEventListener('pointercancel', stopPan);
+
+    resetView();
+    updateGraphState();
+  })();
