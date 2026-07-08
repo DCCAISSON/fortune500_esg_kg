@@ -7,8 +7,8 @@
 
   const text = {
     zh: {
-      sankeyTitle: "标准体系 × GB/T 4754-2017 行业门类桑基图",
-      sankeyLead: "行业节点采用 GB/T 4754-2017 门类口径；流量表示 accepted 企业-标准关联数。同一企业可能关联多个标准，因此流量总和不等于去重企业总数。12 个展示标准以 registry 为准，暂无 accepted flow 的指定标准保留在下载清单中作为待补证据节点。",
+      sankeyTitle: "GHGP、ISO、GB/T 标准与国民经济行业门类的宏观关联分布",
+      sankeyLead: "镜像桑基图采用“企业所属行业 → 具体标准 → 关联行业分布”三栏结构。左右两侧均为 GB/T 4754-2017 国民经济行业门类，中间为需求方指定的 12 个具体标准节点；流量表示 accepted 企业-标准关联数，不表示行业之间的流动或因果关系。",
       primaryTitle: "初级/次级数据证据链导出",
       primaryLead: "强证据层只包含企业报告原文明示 primary-data 百分比；method-row 来源结构推断不等同于审计级计算权重，缺披露不等于 0。",
       emissionsTitle: "完整可比总排放主榜与行业门类排行",
@@ -32,8 +32,8 @@
       tableMissing: "未入完整主榜",
     },
     en: {
-      sankeyTitle: "Standard Systems × GB/T 4754-2017 Industry Sections Sankey",
-      sankeyLead: "Industry nodes use GB/T 4754-2017 section-level classes. Flow means accepted company-standard association count; one company may cite multiple standards. The 12 display standards follow the registry; requested standards without accepted flow are kept in the downloadable registry as evidence-pending nodes.",
+      sankeyTitle: "GHGP, ISO, and GB/T Standards × Industry Sections Mirror Sankey",
+      sankeyLead: "This mirror Sankey uses a three-column structure: company industry section → concrete standard → associated industry distribution. Both sides use the same GB/T 4754-2017 industry-section taxonomy; the middle column contains the 12 requested concrete standards. Flow means accepted company-standard association count, not industry-to-industry movement or causality.",
       primaryTitle: "Primary / Secondary Evidence Chain Exports",
       primaryLead: "Only explicitly reported primary-data percentages are strong evidence. Method-row source-mix inference is not an audit-grade calculation weight; missing disclosure is not zero.",
       emissionsTitle: "Complete Comparable Emissions Ranking and Industry Sections",
