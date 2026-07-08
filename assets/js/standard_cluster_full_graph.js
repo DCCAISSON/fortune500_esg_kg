@@ -228,7 +228,7 @@
       const isContextualGhg = item.evidence_strength === "contextual_review_required" || item.match_status === "contextual_scope_inventory_mapping";
       return `
         <article class="cluster-evidence-card">
-          ${hasNonGhgScopeQuote ? `<div class="cluster-evidence-notice">${escapeHtml(text("The source quote contains Scope wording, but this node is not a GHG Protocol fine-series standard. It is shown as source evidence, not as this standard's own terminology.", "源文含 Scope 词，但当前节点不是 GHG Protocol 细分标准；展示为原文证据引用，不作为该标准自身口径。"))}</div>` : ""}
+          ${hasNonGhgScopeQuote ? `<div class="cluster-evidence-notice">${escapeHtml(text("The source quote contains Scope wording. For non-GHGP fine-series nodes, this panel presents the wording as source evidence and keeps the terminology tied to the source.", "源文含 Scope 词；当前节点为非 GHGP 细分标准时，该信息展示为原文证据引用，术语口径沿用源文。"))}</div>` : ""}
           ${isContextualGhg ? `<div class="cluster-evidence-notice is-contextual">${escapeHtml(text("Contextual GHG series mapping: keep as review-required until the PDF text explicitly names this series.", "上下文 GHG 细分映射：PDF 原文明确写出该系列前保留为待复核。"))}</div>` : ""}
           <strong>${escapeHtml(item.report || item.source_file || "-")}</strong>
           <span>${escapeHtml(text("Page", "页码"))}: ${escapeHtml(item.page || "-")}</span>
@@ -248,7 +248,7 @@
         "该页已将 GHG Protocol 拆分为具体标准、指南、行业指南、项目协议和项目体系节点，不再显示为单一的大类 GHG Protocol。"
       );
       paragraphs[1].textContent = text(
-        "The default view foregrounds only explicitly accepted GHG fine-series citations. Contextual mappings and unresolved generic GHG mentions remain review data and are not drawn as accepted graph links.",
+        "The default view foregrounds explicitly accepted GHG fine-series citations. Contextual mappings and unresolved generic GHG mentions remain in review data outside accepted graph links.",
         "默认视图只突出原文明示采信的 GHG 细分系列；上下文映射和未解析泛化 GHG 提及保留为复核数据，不画成已采信图谱关系。"
       );
     } else if (mode === "standard" && paragraphs.length >= 2) {
@@ -1246,7 +1246,7 @@
       refs.evidenceSummary.innerHTML = `
         <div class="table-kicker">${escapeHtml(text("GHG split", "GHG 细分"))}</div>
         <h3>${escapeHtml(text("GHG Protocol Series Now Split Like ISO", "GHG Protocol 已按 ISO 式细分"))}</h3>
-        <p class="table-lead">${escapeHtml(text("Only explicit source-text series citations or readable PDF-page evidence can map a company to a fine class; generic GHG mentions remain review data, not accepted edges.", "只有原文明确写出具体系列或 PDF 页证据可读时，企业才归入细分类；泛化 GHG 提及保留为复核数据，不作为已采信边。"))}</p>
+        <p class="table-lead">${escapeHtml(text("Explicit source-text series citations or readable PDF-page evidence map companies to fine classes; generic GHG mentions remain in review data.", "原文明确写出具体系列或 PDF 页证据可读时，企业归入 GHGP 细分类；泛化 GHG 提及保留在复核数据层。"))}</p>
         <div class="graph-chip-list">
           ${ghgNodes.map((node) => `<span class="graph-chip" style="border-color:${escapeHtml(node.color)};background:${escapeHtml(colorWithAlpha(node.color, 0.12))}">${escapeHtml(node.shortName || node.name)} · ${formatInt(node.explicitCompanyCount || 0)} explicit / ${formatInt(node.contextualCompanyCount || 0)} review / ${formatInt(node.overmappedReviewCompanyCount || 0)} overmapped</span>`).join("")}
         </div>
@@ -1303,7 +1303,7 @@
       const summary = reporting.summary || {};
       explorerRefs.trustBoundary.innerHTML = `
         <h3>${escapeHtml(text("Acceptance boundary", "当前图谱可信边界"))}</h3>
-        <p>${escapeHtml(text("This graph shows accepted evidence relationships, not every raw review lead. Solid links are explicit page-level GHGP citations; generic GHG mentions and demoted overmapping are excluded from accepted relationships.", "这是采信证据图，不是原始复核线索全量图。实线表示页级原文明示 GHGP 细分引用；泛化 GHG 提及和已降级过度映射不进入采信关系。"))}</p>
+        <p>${escapeHtml(text("This graph shows accepted evidence relationships. Solid links are explicit page-level GHGP citations; generic GHG mentions and demoted overmapping remain in review tables.", "这是采信证据图。实线表示页级原文明示 GHGP 细分引用；泛化 GHG 提及和已降级过度映射保留在复核表。"))}</p>
         <div class="graph-trust-grid">
           <span><strong>${formatInt(summary.ghg_accepted_series_edge_count || 0)}</strong>${escapeHtml(text("accepted edges", "采信边"))}</span>
           <span><strong>${formatInt(summary.ghg_demoted_series_edge_count || 0)}</strong>${escapeHtml(text("demoted edges", "降级边"))}</span>

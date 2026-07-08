@@ -70,7 +70,7 @@
       rankingHeaders: ["强证据排行", "世界500强", "企业", "行业", "总量 MtCO2e", "Scope 1", "Scope 2", "Scope 2 口径", "Scope 3", "年份", "覆盖状态"],
       partialHeaders: ["部分排行", "企业", "总量 MtCO2e", "已覆盖", "缺口", "冲突排除行", "证据页"],
       standardGraphTitle: "三、标准角色族全屏实体级知识图谱增强",
-      standardGraphLead: "标准节点位于中心并按标准上色；企业节点位于外围，外围光环按行业门类着色。当前边线只展开选中标准，避免把多标准边线堆叠成不可读网团。",
+      standardGraphLead: "标准节点位于中心并按标准上色；企业节点位于外围，外围光环按行业门类着色。当前边线按选中标准展开，保持多标准图的阅读秩序。",
       selectedStandard: "选中标准",
       standardFullscreen: "全屏查看图谱",
       standardFullscreenUnavailable: "当前浏览器不支持全屏图谱。",
@@ -656,14 +656,14 @@
       "world500_technology_cluster_overview.png": {
         statusZh: "业务状态：partial / 披露信号",
         statusEn: "Claim status: partial / disclosure signal",
-        boundaryZh: "技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。",
+        boundaryZh: "技术聚类表示企业报告中的披露主题信号；已核证项目实施、减排量和项目经济性以项目级证据表为准。",
         boundaryEn: "Technology clusters are disclosure-topic signals, not verified project implementation, abatement, or economics.",
       },
       "world500_primary_secondary_source_mix.png": {
         statusZh: "业务状态：partial / 来源结构推断",
         statusEn: "Claim status: partial / source-mix inference",
-        boundaryZh: "除原文明示 primary-data 百分比外，图中比例不是审定计算权重。",
-        boundaryEn: "Except for explicitly reported primary-data percentages, plotted ratios are not audited calculation weights.",
+        boundaryZh: "图中比例表示来源结构，不是审定计算权重；审定计算权重以原文明示 primary-data 百分比为准。",
+        boundaryEn: "Plotted ratios describe source structure, not audited calculation weights; audited weights rely on explicitly reported primary-data percentages.",
       },
     };
     return boundaries[filename] || null;

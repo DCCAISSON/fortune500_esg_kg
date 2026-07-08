@@ -218,7 +218,7 @@
       if (!payload) return;
       const snippet = 'Consumption data is based on last complete Fiscal Year (FY2023) compared to the baseline year for our science-based target (FY2017). We have converted MWh to a standard metric for comparison: either metric tons of carbon dioxide equivalent (mtCO2e) or Giga Joules (GJ). Gases included in the calculation: CO2, CH4, N2O and HFCs. Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification, with guidance at the organization level for quantification and reporting of greenhouse gas emissions and removals, and The Climate Registry General Reporting Protocol.';
       const basis = document.documentElement.lang === 'zh'
-        ? '源报告第 7 页直接写明 Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification；因此该边归入 ISO 体系 / ISO 14064 节点，不是从 Scope 数值表推断。'
+        ? '源报告第 7 页直接写明 Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification；因此该边归入 ISO 体系 / ISO 14064 节点，依据源报告页级标准事实。'
         : 'Page 7 of the source report states that Scope 1 and 2 reporting is organized in accordance with the ISO 14064-1 specification; therefore this edge is mapped to the ISO system / ISO 14064 node rather than inferred from Scope value rows.';
       const patchRows = (rows) => {
         (Array.isArray(rows) ? rows : []).forEach((item) => {
