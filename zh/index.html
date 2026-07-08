@@ -22,7 +22,24 @@
               <h1>世界500强 ESG 知识图谱</h1>
               <p>我基于世界500强企业公开年报、可持续发展报告与碳相关披露文件，构建了这套 ESG 知识图谱展示站点。当前公开页以 351 家已发布企业为正式成果口径，另有 147 家因缺母公司主报告或仍待复核，暂未进入正式版主图谱。</p>
               <p>首页主图区按知识图谱主线组织为标准体系、排放边界、方法与数据质量、活动/行业归类和技术路径聚类；当前页面仅保留正式成果内容。</p>
-              <div class="downloads">
+              <div class="homepage-core-views" aria-label="核心知识图谱展示">
+                <a class="homepage-core-card is-ghgp" href="./ghg-protocol-full-graph.html">
+                  <span class="homepage-core-kicker">P0 采信证据</span>
+                  <strong>GHGP 细分标准图谱</strong>
+                  <span>对齐 12 个 GHG Protocol 具体标准，区分 accepted、review 与降级边界。</span>
+                </a>
+                <a class="homepage-core-card is-standard" href="./role-family-standard-full-graph.html">
+                  <span class="homepage-core-kicker">标准角色族</span>
+                  <strong>标准-企业实体图谱</strong>
+                  <span>标准居中、企业外围聚类，标准用不同颜色，企业节点按行业着色。</span>
+                </a>
+                <a class="homepage-core-card is-technology" href="./technology-cluster-full-graph.html">
+                  <span class="homepage-core-kicker">图6</span>
+                  <strong>技术路径企业聚类</strong>
+                  <span>集中展示技术类别、企业项目、时间阶段、成本/投资和减排效果证据。</span>
+                </a>
+              </div>
+              <div class="downloads homepage-secondary-actions">
                 <a class="btn" href="./company-accounting-workbench.html">打开企业碳核算工作台</a>
                 <a class="btn alt" href="./reporting-views.html">打开完成度与风险审计视图</a>
                 <a class="btn alt" href="../reporting-completion-audit.html">打开完成度审计报告</a>
@@ -880,7 +897,11 @@
     }
 
     function normalize(text) {
-      return String(text ?? '').toLowerCase().trim();
+      return String(text ?? '')
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
     }
 
     function getSystem() {
@@ -895,8 +916,16 @@
       return (system.companies || []).find((item) => item.id === companyId) || null;
     }
 
-    function matchesCompanyQuery(item, query) {
-      return [item.id, item.name, item.rank].some((value) => normalize(value).includes(query));
+    function matchesCompanyQuery(item, rawQuery) {
+      const text = String(rawQuery ?? '').trim();
+      if (!text) return true;
+      const rank = item.rank === null || item.rank === undefined ? '' : String(item.rank).trim();
+      const rankQuery = text.match(/^#?\s*(\d{1,3})$/);
+      if (rankQuery) return rank === rankQuery[1];
+      const query = normalize(text);
+      const fields = [item.id, item.name, item.company_name_en, item.company_name_zh, item.name_en, item.name_zh];
+      if (Array.isArray(item.aliases)) fields.push(...item.aliases);
+      return fields.some((value) => normalize(value).includes(query));
     }
 
     function getVisibleCompanies(system, standard) {
@@ -910,7 +939,7 @@
         (candidateSystem.standards || []).forEach((item) => {
         (item.companies || []).forEach((company) => {
           const matchKey = company.id;
-          if (seen.has(matchKey) || !matchesCompanyQuery(company, query)) return;
+          if (seen.has(matchKey) || !matchesCompanyQuery(company, state.query)) return;
           seen.add(matchKey);
           matches.push({ ...company, systemKey: candidateSystem.key, standardName: item.name });
         });
@@ -1426,7 +1455,11 @@
     }
 
     function normalize(text) {
-      return String(text ?? '').toLowerCase().trim();
+      return String(text ?? '')
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
     }
 
     function getSystem() {
@@ -1441,8 +1474,16 @@
       return (system.companies || []).find((item) => item.id === companyId) || null;
     }
 
-    function matchesCompanyQuery(item, query) {
-      return [item.id, item.name, item.rank].some((value) => normalize(value).includes(query));
+    function matchesCompanyQuery(item, rawQuery) {
+      const text = String(rawQuery ?? '').trim();
+      if (!text) return true;
+      const rank = item.rank === null || item.rank === undefined ? '' : String(item.rank).trim();
+      const rankQuery = text.match(/^#?\s*(\d{1,3})$/);
+      if (rankQuery) return rank === rankQuery[1];
+      const query = normalize(text);
+      const fields = [item.id, item.name, item.company_name_en, item.company_name_zh, item.name_en, item.name_zh];
+      if (Array.isArray(item.aliases)) fields.push(...item.aliases);
+      return fields.some((value) => normalize(value).includes(query));
     }
 
     function getVisibleCompanies(system, standard) {
@@ -1456,7 +1497,7 @@
         (candidateSystem.standards || []).forEach((item) => {
         (item.companies || []).forEach((company) => {
           const matchKey = company.id;
-          if (seen.has(matchKey) || !matchesCompanyQuery(company, query)) return;
+          if (seen.has(matchKey) || !matchesCompanyQuery(company, state.query)) return;
           seen.add(matchKey);
           matches.push({ ...company, systemKey: candidateSystem.key, standardName: item.name });
         });

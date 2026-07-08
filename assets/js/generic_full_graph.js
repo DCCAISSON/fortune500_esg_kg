@@ -181,10 +181,37 @@
       });
     }
 
+    function normalizeSearchValue(value) {
+      return String(value || '')
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
+    }
+
+    function companySearchFields(company) {
+      const fields = [
+        company.name,
+        company.id,
+        company.company_name_en,
+        company.company_name_zh,
+        company.name_en,
+        company.name_zh,
+        company.companyNameEn,
+        company.companyNameZh,
+      ];
+      if (Array.isArray(company.aliases)) fields.push(...company.aliases);
+      return fields;
+    }
+
     function matchesQuery(company, query) {
-      if (!query) return true;
-      const rank = company.rank === null || company.rank === undefined ? '' : String(company.rank);
-      return String(company.name || '').toLowerCase().includes(query) || rank.includes(query);
+      const rawQuery = String(query || '').trim();
+      if (!rawQuery) return true;
+      const rank = company.rank === null || company.rank === undefined ? '' : String(company.rank).trim();
+      const rankQuery = rawQuery.match(/^#?\s*(\d{1,3})$/);
+      if (rankQuery) return rank === rankQuery[1];
+      const normalizedQuery = normalizeSearchValue(rawQuery);
+      return companySearchFields(company).some((field) => normalizeSearchValue(field).includes(normalizedQuery));
     }
 
     function patchTargetIsoEvidence(payload) {

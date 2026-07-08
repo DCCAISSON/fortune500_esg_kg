@@ -22,7 +22,24 @@
               <h1>Fortune 500 ESG Knowledge Graph</h1>
               <p>This site presents my ESG knowledge graph built from public Fortune 500 annual reports, sustainability reports, and carbon-related disclosures. The public-facing version now centers on 351 published companies, while another 149 remain outside the formal graph because a parent-company report is missing or the match still requires review.</p>
               <p>The main figure sequence now follows the knowledge-graph storyline directly: standards systems, emissions boundaries, methodology and data quality, activity and industry mapping, and technology-pathway clustering. The public pages retain only formal world500 results.</p>
-              <div class="downloads">
+              <div class="homepage-core-views" aria-label="Core knowledge graph views">
+                <a class="homepage-core-card is-ghgp" href="./ghg-protocol-full-graph.html">
+                  <span class="homepage-core-kicker">P0 accepted evidence</span>
+                  <strong>GHGP fine-standard map</strong>
+                  <span>12 GHG Protocol standards, accepted vs review boundaries, and company evidence links.</span>
+                </a>
+                <a class="homepage-core-card is-standard" href="./role-family-standard-full-graph.html">
+                  <span class="homepage-core-kicker">Standard role family</span>
+                  <strong>Standard-company entity graph</strong>
+                  <span>Standards in the center, companies around them, with standard colors and industry-coded nodes.</span>
+                </a>
+                <a class="homepage-core-card is-technology" href="./technology-cluster-full-graph.html">
+                  <span class="homepage-core-kicker">Figure 6</span>
+                  <strong>Technology pathway clusters</strong>
+                  <span>Technology families, project evidence, timing, costs, and reduction-effect records in one graph.</span>
+                </a>
+              </div>
+              <div class="downloads homepage-secondary-actions">
                 <a class="btn" href="./company-accounting-workbench.html">Open Accounting Workbench</a>
                 <a class="btn alt" href="./reporting-views.html">Open Completion And Risk Audit Views</a>
                 <a class="btn alt" href="../reporting-completion-audit.html">Open Completion Audit Report</a>
@@ -39,7 +56,7 @@
 
             <section class="section">
               <div class="section-head">
-                <h2>Two priority axes on the homepage</h2>
+                <h2>Core evidence views behind the homepage</h2>
               </div>
               <div class="grid-2">
                 <div class="card"><h3>Standards and Frameworks Layer</h3><p>Identifies whether firms follow GHG, ISO, GB/T, GRI, TCFD, IFRS S2, ESRS/CSRD and related systems, then classifies them by standard, guideline, principle, assurance standard, and target-validation role.</p></div>
@@ -880,7 +897,11 @@
     }
 
     function normalize(text) {
-      return String(text ?? '').toLowerCase().trim();
+      return String(text ?? '')
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
     }
 
     function getSystem() {
@@ -895,8 +916,16 @@
       return (system.companies || []).find((item) => item.id === companyId) || null;
     }
 
-    function matchesCompanyQuery(item, query) {
-      return [item.id, item.name, item.rank].some((value) => normalize(value).includes(query));
+    function matchesCompanyQuery(item, rawQuery) {
+      const text = String(rawQuery ?? '').trim();
+      if (!text) return true;
+      const rank = item.rank === null || item.rank === undefined ? '' : String(item.rank).trim();
+      const rankQuery = text.match(/^#?\s*(\d{1,3})$/);
+      if (rankQuery) return rank === rankQuery[1];
+      const query = normalize(text);
+      const fields = [item.id, item.name, item.company_name_en, item.company_name_zh, item.name_en, item.name_zh];
+      if (Array.isArray(item.aliases)) fields.push(...item.aliases);
+      return fields.some((value) => normalize(value).includes(query));
     }
 
     function getVisibleCompanies(system, standard) {
@@ -910,7 +939,7 @@
         (candidateSystem.standards || []).forEach((item) => {
         (item.companies || []).forEach((company) => {
           const matchKey = company.id;
-          if (seen.has(matchKey) || !matchesCompanyQuery(company, query)) return;
+          if (seen.has(matchKey) || !matchesCompanyQuery(company, state.query)) return;
           seen.add(matchKey);
           matches.push({ ...company, systemKey: candidateSystem.key, standardName: item.name });
         });
@@ -1426,7 +1455,11 @@
     }
 
     function normalize(text) {
-      return String(text ?? '').toLowerCase().trim();
+      return String(text ?? '')
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
     }
 
     function getSystem() {
@@ -1441,8 +1474,16 @@
       return (system.companies || []).find((item) => item.id === companyId) || null;
     }
 
-    function matchesCompanyQuery(item, query) {
-      return [item.id, item.name, item.rank].some((value) => normalize(value).includes(query));
+    function matchesCompanyQuery(item, rawQuery) {
+      const text = String(rawQuery ?? '').trim();
+      if (!text) return true;
+      const rank = item.rank === null || item.rank === undefined ? '' : String(item.rank).trim();
+      const rankQuery = text.match(/^#?\s*(\d{1,3})$/);
+      if (rankQuery) return rank === rankQuery[1];
+      const query = normalize(text);
+      const fields = [item.id, item.name, item.company_name_en, item.company_name_zh, item.name_en, item.name_zh];
+      if (Array.isArray(item.aliases)) fields.push(...item.aliases);
+      return fields.some((value) => normalize(value).includes(query));
     }
 
     function getVisibleCompanies(system, standard) {
@@ -1456,7 +1497,7 @@
         (candidateSystem.standards || []).forEach((item) => {
         (item.companies || []).forEach((company) => {
           const matchKey = company.id;
-          if (seen.has(matchKey) || !matchesCompanyQuery(company, query)) return;
+          if (seen.has(matchKey) || !matchesCompanyQuery(company, state.query)) return;
           seen.add(matchKey);
           matches.push({ ...company, systemKey: candidateSystem.key, standardName: item.name });
         });
