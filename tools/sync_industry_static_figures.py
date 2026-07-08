@@ -97,11 +97,11 @@ def render_sankey(lang: str) -> Path:
     image = Image.new("RGB", (2600, 1680), PALETTE["bg"])
     draw = ImageDraw.Draw(image)
     rounded(draw, (34, 34, 2566, 1646), PALETTE["paper"])
-    title = "GHGP、ISO、GB/T 标准与国民经济行业门类的宏观关联分布" if lang == "zh" else "GHGP, ISO, and GB/T Standards × Industry Sections Mirror Sankey"
-    note = "左右两侧均为 GB/T 4754-2017 行业门类，中间为 12 个具体标准节点；流量表示 accepted 企业-标准关联数，镜像布局不表示行业间流动或因果关系。" if lang == "zh" else "Both sides use GB/T 4754-2017 industry sections. The middle column contains 12 concrete standards; flow means accepted company-standard association count, not industry-to-industry causality."
+    title = "\u4e09\u5957\u6807\u51c6\u4f53\u7cfb\u4e0e\u56fd\u6c11\u7ecf\u6d4e\u884c\u4e1a\u95e8\u7c7b\u5206\u680f\u5173\u8054\u56fe" if lang == "zh" else "GHGP, ISO, and GB/T Standards by Split Industry Sections"
+    note = "\u5de6\u53f3\u4e24\u4fa7\u5171\u540c\u8986\u76d6 GB/T 4754-2017 \u7684 20 \u4e2a\u884c\u4e1a\u95e8\u7c7b\uff08\u5de6 A-J\uff0c\u53f3 K-T\uff09\uff0c\u4e2d\u95f4\u4e3a 12 \u4e2a\u5177\u4f53\u6807\u51c6\u8282\u70b9\uff1b\u6d41\u91cf\u4e3a accepted \u4f01\u4e1a-\u6807\u51c6\u5173\u8054\u6570\uff0c\u4e0d\u662f\u4f01\u4e1a\u53bb\u91cd\u6570\uff0c\u4e5f\u4e0d\u8868\u793a\u884c\u4e1a\u95f4\u6d41\u52a8\u6216\u56e0\u679c\u5173\u7cfb\u3002" if lang == "zh" else "The two sides jointly cover 20 GB/T 4754-2017 industry sections (left A-J, right K-T). The middle column contains 12 concrete standards. Flow means accepted company-standard association count, not distinct company count or industry-to-industry movement."
     draw.text((82, 72), title, font=font(44, True), fill=PALETTE["ink"])
     text(draw, (84, 135), note, 24, PALETTE["muted"], 2220)
-    column_labels = ("企业所属行业", "具体标准", "关联行业分布") if lang == "zh" else ("Company industry section", "Specific standard", "Associated industry distribution")
+    column_labels = ("\u884c\u4e1a\u95e8\u7c7b A-J\uff08accepted \u5173\u8054\u6570\uff09", "\u5177\u4f53\u6807\u51c6", "\u884c\u4e1a\u95e8\u7c7b K-T\uff08accepted \u5173\u8054\u6570\uff09") if lang == "zh" else ("Industry sections A-J (accepted links)", "Specific standard", "Industry sections K-T (accepted links)")
     for x, label in zip((110, 960, 1970), column_labels, strict=True):
         draw.text((x, 218), label, font=font(26, True), fill=PALETTE["ink"])
     system_colors = {"GHG Protocol": PALETTE["ghg"], "ISO": PALETTE["iso"], "GB/T": PALETTE["gb"]}
@@ -113,7 +113,11 @@ def render_sankey(lang: str) -> Path:
     section_top, standard_top = 292, 304
     section_step = 60
     standard_step = 96
-    section_y = {str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(sections)}
+    left_sections = sections[:10]
+    right_sections = sections[10:]
+    left_codes = {str(row["industry_section_code"]) for row in left_sections}
+    section_y = {str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(left_sections)}
+    section_y.update({str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(right_sections)})
     standard_y = {str(row["internal_standard_id"]): standard_top + index * standard_step for index, row in enumerate(registry)}
     section_total = {str(row["industry_section_code"]): 0 for row in sections}
     standard_total = {str(row["internal_standard_id"]): 0 for row in registry}
@@ -130,31 +134,31 @@ def render_sankey(lang: str) -> Path:
         sid = str(row["internal_standard_id"])
         system = str(row["standard_system"])
         width = 2 + round(22 * count / max_count)
-        ly = section_y[code] + section_h // 2
         sy = standard_y[sid] + standard_h // 2
+        if code in left_codes:
+            start_x, end_x = left_x2, mid_x1
+            start_y, end_y = section_y[code] + section_h // 2, sy
+        else:
+            start_x, end_x = mid_x2, right_x1
+            start_y, end_y = sy, section_y[code] + section_h // 2
         points = []
         for step in range(18):
             t = step / 17
             ease = t * t * (3 - 2 * t)
-            points.append((round(left_x2 + (mid_x1 - left_x2) * t), round(ly + (sy - ly) * ease)))
-        flow_draw.line(points, fill=flow_colors[system], width=width)
-        points = []
-        for step in range(18):
-            t = step / 17
-            ease = t * t * (3 - 2 * t)
-            points.append((round(mid_x2 + (right_x1 - mid_x2) * t), round(sy + (ly - sy) * ease)))
+            points.append((round(start_x + (end_x - start_x) * t), round(start_y + (end_y - start_y) * ease)))
         flow_draw.line(points, fill=flow_colors[system], width=width)
     image = Image.alpha_composite(image.convert("RGBA"), overlay).convert("RGB")
     draw = ImageDraw.Draw(image)
-    for row in sections:
-        code = str(row["industry_section_code"])
-        name = str(row["industry_section_name_zh" if lang == "zh" else "industry_section_name_en"])
-        y = section_y[code]
-        fill = PALETTE["bg"] if section_total[code] else "#fbf7ef"
-        for x1, x2 in ((left_x1, left_x2), (right_x1, right_x2)):
+    for side_sections, x1, x2 in ((left_sections, left_x1, left_x2), (right_sections, right_x1, right_x2)):
+        for row in side_sections:
+            code = str(row["industry_section_code"])
+            name = str(row["industry_section_name_zh" if lang == "zh" else "industry_section_name_en"])
+            y = section_y[code]
+            fill = PALETTE["bg"] if section_total[code] else "#fbf7ef"
             rounded(draw, (x1, y, x2, y + section_h), fill)
             text(draw, (x1 + 18, y + 7), f"{code} {name}", 14, PALETTE["ink"], x2 - x1 - 112, True)
-            draw.text((x2 - 72, y + 13), str(section_total[code]), font=font(15, True), fill=PALETTE["muted"])
+            count_label = f"{section_total[code]} \u5173\u8054" if lang == "zh" else f"{section_total[code]} links"
+            draw.text((x2 - 104, y + 13), count_label, font=font(15, True), fill=PALETTE["muted"])
     for row in registry:
         sid = str(row["internal_standard_id"])
         system = str(row["display_system"])
@@ -173,7 +177,7 @@ def render_sankey(lang: str) -> Path:
         x = 92 + index * 170
         draw.rounded_rectangle((x, 1564, x + 32, 1596), radius=9, fill=color)
         draw.text((x + 44, 1567), label, font=font(19, True), fill=PALETTE["ink"])
-    footer = f"accepted links: {sum(standard_total.values())} | standards: 12 | GB/T 4754-2017 sections: 20"
+    footer = f"accepted association links: {sum(standard_total.values())} | standards: 12 | GB/T 4754-2017 sections: 20 (left 10 / right 10)"
     draw.text((690, 1567), footer, font=font(19, True), fill=PALETTE["muted"])
     out = FIGURES / lang / "world500_standard_industry_section_sankey.png"
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -228,9 +232,9 @@ def update_manifest(outputs: list[Path]) -> None:
         "world500_standard_industry_section_sankey.png": (
             "standard_industry_sankey",
             "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
-            "GHGP, ISO, and GB/T standards × industry-section mirror Sankey",
-            "GHGP、ISO、GB/T标准与行业门类镜像桑基图",
-            ["standard_industry_sankey_links"],
+            "GHGP, ISO, and GB/T standards by split industry sections",
+            "GHGP、ISO、GB/T 标准与行业门类分栏关联图",
+            ["standard_industry_sankey_links", "standard_industry_sankey_evidence"],
         ),
         "world500_emissions_industry_section_ranking.png": (
             "emissions_industry_ranking",
@@ -254,8 +258,8 @@ def update_manifest(outputs: list[Path]) -> None:
             "claim_status": "partial_evidence_bounded",
             "can_claim_requirement_complete": False,
             "static_sync_can_claim_complete": True,
-            "audit_boundary_en": "Generated from GB/T 4754-2017 section-level outputs; review data remain excluded from accepted-flow charts.",
-            "audit_boundary_zh": "基于 GB/T 4754-2017 门类层级输出生成；review 数据不进入 accepted 流量图。",
+            "audit_boundary_en": "Generated from accepted company-standard associations split by GB/T 4754-2017 sections; review data remain excluded from accepted-flow charts.",
+            "audit_boundary_zh": "基于 accepted 企业-标准关联数和 GB/T 4754-2017 门类分栏生成；review 数据不进入 accepted 流量图。",
             "bytes": output.stat().st_size,
             "sha256": sha256(output),
         })

@@ -8,6 +8,8 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+import sync_industry_static_figures as industry_static
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORTING_FILE = ROOT / "assets" / "data" / "world500" / "workbench" / "reporting_views.json"
@@ -35,6 +37,13 @@ REQUIRED_SYNCED_REPORT_FIGURES = {
         "data_keys": ["accepted_standard_role_graph"],
         "page_sections": ["role-family-standard-full-graph", "index.figure_2"],
     },
+    "world500_standard_industry_section_sankey.png": {
+        "figure_no": "standard_industry_sankey",
+        "title_en": "GHGP, ISO, and GB/T standards by split industry sections",
+        "title_zh": "GHGP、ISO、GB/T 标准与行业门类分栏关联图",
+        "data_keys": ["standard_industry_sankey_links", "standard_industry_sankey_evidence"],
+        "page_sections": ["industry_section_outputs", "index.standard_industry_sankey"],
+    },
     "world500_technology_cluster_overview.png": {
         "figure_no": "figure_6",
         "title_en": "Technology-path briefing graphic",
@@ -49,6 +58,13 @@ REQUIRED_SYNCED_REPORT_FIGURES = {
         "data_keys": ["primary_secondary_data"],
         "page_sections": ["reporting_views.source_mix", "index.primary_secondary_bubble"],
     },
+    "world500_emissions_industry_section_ranking.png": {
+        "figure_no": "emissions_industry_ranking",
+        "title_en": "Emissions industry-section ranking",
+        "title_zh": "排放行业门类排行与缺失统计",
+        "data_keys": ["emissions_industry_section_outputs"],
+        "page_sections": ["industry_section_outputs", "emission-ledger"],
+    },
 }
 
 FIGURE_CLAIM_METADATA = {
@@ -59,6 +75,14 @@ FIGURE_CLAIM_METADATA = {
         "static_sync_can_claim_complete": True,
         "audit_boundary_en": "The entity graph renders accepted standard-company edges only. Generic GHG references and contextual mappings remain excluded from the drawn graph.",
         "audit_boundary_zh": "Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded.",
+    },
+    "world500_standard_industry_section_sankey.png": {
+        "requirement_id": "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
+        "claim_status": "partial_evidence_bounded",
+        "can_claim_requirement_complete": False,
+        "static_sync_can_claim_complete": True,
+        "audit_boundary_en": "The split industry-section Sankey uses accepted company-standard associations only. Review rows are kept in audit queues and do not contribute to flow weights.",
+        "audit_boundary_zh": "行业门类分栏 Sankey 只使用 accepted 企业-标准关联；review 行保留在审计队列中，不计入流量权重。",
     },
     "world500_emissions_ranking_graph.png": {
         "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
@@ -91,6 +115,14 @@ FIGURE_CLAIM_METADATA = {
         "static_sync_can_claim_complete": True,
         "audit_boundary_en": "Except for explicitly reported primary-data percentages, plotted ratios are source-mix inference and not audited calculation weights.",
         "audit_boundary_zh": "除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。",
+    },
+    "world500_emissions_industry_section_ranking.png": {
+        "requirement_id": "R2_TOTAL_EMISSIONS_RANKING_DESC",
+        "claim_status": "partial_complete_comparable_only",
+        "can_claim_requirement_complete": False,
+        "static_sync_can_claim_complete": True,
+        "audit_boundary_en": "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.",
+        "audit_boundary_zh": "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。",
     },
 }
 
@@ -820,15 +852,17 @@ def main():
         outputs.append(render_emissions_ranking(lang, payload))
         outputs.append(render_figure2(lang, payload))
         outputs.append(render_standard_entity_graph(lang, payload))
+        outputs.append(industry_static.render_sankey(lang))
         outputs.append(render_figure6(lang, payload))
         outputs.append(render_source_mix(lang, payload))
+        outputs.append(industry_static.render_emissions(lang))
     manifest = {
         "schema_version": "reporting-static-figures-manifest-v1",
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "source": str(REPORTING_FILE.relative_to(ROOT)).replace("\\", "/"),
         "source_sha256": sha256_file(REPORTING_FILE),
         "generator": str(Path(__file__).relative_to(ROOT)).replace("\\", "/"),
-        "sync_policy": "Figure 2, Figure 6, and the primary/secondary bubble PNGs are regenerated from the same reporting_views.json snapshot referenced by the GitHub pages.",
+        "sync_policy": "Reporting PNGs are regenerated from the same reporting_views.json snapshot plus GB/T 4754-2017 industry-section workbench outputs referenced by the GitHub pages.",
         "required_synced_report_figures": REQUIRED_SYNCED_REPORT_FIGURES,
         "figures": [
             {
@@ -848,6 +882,14 @@ def main():
             for output in outputs
         ],
     }
+    manifest["required_synced_report_figures"]["world500_standard_industry_section_sankey.png"]["title_en"] = "GHGP, ISO, and GB/T standards by split industry sections"
+    manifest["required_synced_report_figures"]["world500_standard_industry_section_sankey.png"]["title_zh"] = "GHGP\u3001ISO\u3001GB/T\u6807\u51c6\u4e0e\u884c\u4e1a\u95e8\u7c7b\u5206\u5217 Sankey"
+    for figure in manifest["figures"]:
+        if Path(figure["file"]).name == "world500_standard_industry_section_sankey.png":
+            figure["title_en"] = "GHGP, ISO, and GB/T standards by split industry sections"
+            figure["title_zh"] = "GHGP\u3001ISO\u3001GB/T\u6807\u51c6\u4e0e\u884c\u4e1a\u95e8\u7c7b\u5206\u5217 Sankey"
+            figure["audit_boundary_en"] = "The split industry-section Sankey uses accepted company-standard edges only. Review rows are kept in audit queues and do not contribute to flow weights."
+            figure["audit_boundary_zh"] = "\u884c\u4e1a\u5206\u5217 Sankey \u53ea\u4f7f\u7528 accepted \u4f01\u4e1a-\u6807\u51c6\u8fb9\uff1breview \u884c\u4fdd\u7559\u5728\u5ba1\u8ba1\u961f\u5217\u4e2d\uff0c\u4e0d\u8ba1\u5165\u6d41\u91cf\u6743\u91cd\u3002"
     MANIFEST_FILE.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     for output in outputs:
         print(f"Wrote {output.relative_to(ROOT)}")

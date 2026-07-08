@@ -152,6 +152,17 @@ function readJson(name) {
   return JSON.parse(fs.readFileSync(path.join(wb, name), "utf8"));
 }
 
+function loadCompanyDetails() {
+  const dir = path.join(wb, "companies");
+  const details = new Map();
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".json")) continue;
+    const item = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8"));
+    if (item.company_id) details.set(item.company_id, item);
+  }
+  return details;
+}
+
 function parseCsv(text) {
   const rows = [];
   let row = [];
@@ -262,6 +273,7 @@ function build() {
   const companies = readJson("company_workbench.json").companies;
   const views = readJson("reporting_views.json");
   const companyMap = new Map(companies.map((item) => [item.company_id, item]));
+  const companyDetails = loadCompanyDetails();
   const published = companies.filter((item) => item.is_published_company);
   const complete = readJson("world500_emissions_complete_comparable_ranking.json").rows;
   const completeIds = new Set(complete.map((item) => item.company_id));
@@ -436,16 +448,30 @@ function build() {
   function addCompanyReview(companyId, suggestedCode, riskLevel, reason, appliedToOutputs) {
     const company = companyMap.get(companyId);
     if (!company) return;
+    const detail = companyDetails.get(companyId) || {};
     const suggested = sectionByCode.get(suggestedCode) || ["", "", ""];
+    const outputIndustry = companyIndustry(company);
+    const rawIndustryZh = detail.industry_label_zh || company.industry_label_zh || company.fortune_industry_label_zh || "";
+    const rawIndustryEn = detail.industry_label_en || company.industry_label_en || company.fortune_industry_label_en || company.industry_label || "";
     companyReviewRows.push({
       company_id: company.company_id,
       company_name_zh: company.company_name_zh || "",
       company_name_en: company.company_name_en || "",
       world500_rank: company.world500_rank || "",
-      fortune_industry_label: "not_available_in_company_workbench",
+      country_zh: detail.country_zh || company.country_zh || "",
+      country_en: detail.country_en || company.country_en || "",
+      fortune_industry_label: rawIndustryZh || rawIndustryEn || "",
+      fortune_industry_label_zh: rawIndustryZh,
+      fortune_industry_label_en: rawIndustryEn,
+      raw_registry_code: company.industry_section_code || "",
+      raw_registry_name_zh: company.industry_section_zh || "",
+      raw_registry_name_en: company.industry_section_en || "",
       current_gbt4754_code: company.industry_section_code || "",
       current_gbt4754_name_zh: company.industry_section_zh || "",
       current_gbt4754_name_en: company.industry_section_en || "",
+      current_output_code: outputIndustry.code,
+      current_output_name_zh: outputIndustry.nameZh,
+      current_output_name_en: outputIndustry.nameEn,
       suggested_code: suggestedCode,
       suggested_name_zh: suggested[1],
       suggested_name_en: suggested[2],

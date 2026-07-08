@@ -1,6 +1,6 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-07-08T08:05:33+00:00",
+  "generated_at": "2026-07-08T08:42:53+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
   "source_sha256": "f4cd74b07170de5eb18db88b88e552884f68a18a716dcd77635d611ecfecd056",
   "generator": "tools/sync_reporting_static_figures.py",
@@ -179,8 +179,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The split industry-section Sankey uses accepted company-standard edges only. Review rows are kept in audit queues and do not contribute to flow weights.",
       "audit_boundary_zh": "行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。",
-      "bytes": 247263,
-      "sha256": "88810263f9b31c918b5669593273208560e3ab2ab4e69cfede9bc322d679f91a"
+      "bytes": 268861,
+      "sha256": "bd8ab30f1d36486d80fbc54e26f834423ed7661a3734f796997a72ea3d1ccca8"
     },
     {
       "file": "assets/figures/zh/world500_technology_cluster_overview.png",
@@ -334,8 +334,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The split industry-section Sankey uses accepted company-standard edges only. Review rows are kept in audit queues and do not contribute to flow weights.",
       "audit_boundary_zh": "行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。",
-      "bytes": 209851,
-      "sha256": "325c90c9a36d00a466c90c662aa5a90f3139da276524bcdb9ba255e9c82dec7d"
+      "bytes": 220882,
+      "sha256": "f302036a4dfe0e3a424fa6734481f714268a0c15d0f6137b31dfef4ebebe941d"
     },
     {
       "file": "assets/figures/en/world500_technology_cluster_overview.png",

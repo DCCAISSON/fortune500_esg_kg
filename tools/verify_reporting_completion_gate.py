@@ -79,6 +79,7 @@ REQUIRED_FILES = [
     WORKBENCH / "world500_standard_evidence_boundary_summary.csv",
     WORKBENCH / "world500_company_industry_review_pack.json",
     WORKBENCH / "world500_company_industry_review_pack.csv",
+    WORKBENCH / "world500_standard_industry_delivery_readme.md",
     WORKBENCH / "world500_primary_secondary_evidence_chain_export.json",
     WORKBENCH / "world500_primary_secondary_evidence_chain_export.csv",
     WORKBENCH / "world500_primary_secondary_bubble_company_summary.json",

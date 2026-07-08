@@ -16,8 +16,8 @@
       coreEmissions: "排放行业账本",
       coreEmissionsDesc: "完整主榜 27 家、可用排放 91 家、未闭合 324 家，并按行业列出缺失 Scope。",
       open: "打开",
-      sankeyTitle: "GHGP、ISO、GB/T 标准与国民经济行业门类的宏观关联分布",
-      sankeyLead: "镜像桑基图采用“企业所属行业 -> 具体标准 -> 关联行业分布”三栏结构。左右两侧均为 GB/T 4754-2017 国民经济行业门类，中间为需求方指定的 12 个具体标准节点；流量表示 accepted 企业-标准关联数，不表示行业之间的流动或因果关系。",
+      sankeyTitle: "三套标准体系与国民经济行业门类分栏关联图",
+      sankeyLead: "Sankey 图采用“行业门类 A-J -> 具体标准 -> 行业门类 K-T”分栏结构。左右两侧共同覆盖 GB/T 4754-2017 的 20 个国民经济行业门类，中间为需求方指定的 12 个具体标准节点；流量表示 accepted 企业-标准关联数，不是企业去重数，也不表示行业之间的流动或因果关系。",
       primaryTitle: "初级/次级数据证据链导出",
       primaryLead: "306 家企业有证据链或来源结构汇总；其中 161 家具备可计算的 primary/secondary/unknown 比例，可绘制气泡。可绘制不要求强证据，但必须区分原文明示比例与来源结构推断。",
       emissionsTitle: "完整可比总排放主榜与行业门类排行",
@@ -62,8 +62,8 @@
       coreEmissions: "Emissions Industry Ledger",
       coreEmissionsDesc: "27 complete companies, 91 available companies, and 324 companies missing full Scope closure by industry.",
       open: "Open",
-      sankeyTitle: "GHGP, ISO, and GB/T Standards x Industry Sections Mirror Sankey",
-      sankeyLead: "This mirror Sankey uses a three-column structure: company industry section -> concrete standard -> associated industry distribution. Both sides use the same GB/T 4754-2017 industry-section taxonomy; the middle column contains the 12 requested concrete standards. Flow means accepted company-standard association count, not industry-to-industry movement or causality.",
+      sankeyTitle: "GHGP, ISO, and GB/T Standards by Split Industry Sections",
+      sankeyLead: "This Sankey uses a split three-column structure: industry sections A-J -> concrete standard -> industry sections K-T. The two sides jointly cover the 20 GB/T 4754-2017 industry sections; the middle column contains the 12 requested concrete standards. Flow means accepted company-standard association count, not distinct company count or industry-to-industry movement.",
       primaryTitle: "Primary / Secondary Evidence Chain Exports",
       primaryLead: "306 companies have evidence-chain or source-structure summaries; 161 have computable primary/secondary/unknown ratios and can be plotted. Drawing a bubble does not require strong evidence, but explicit percentages must be separated from source-structure inference.",
       emissionsTitle: "Complete Comparable Emissions Ranking and Industry Sections",
@@ -101,17 +101,21 @@
   }[lang];
 
   Object.assign(text, lang === "zh" ? {
-    coreSankeyDesc: "\u884c\u4e1a\u95e8\u7c7b A-J / K-T \u5206\u5217\u4e24\u4fa7\uff0c\u4e2d\u95f4\u4e3a 12 \u4e2a\u5177\u4f53\u6807\u51c6\uff1b\u6d41\u91cf\u53ea\u8ba1 accepted \u4f01\u4e1a-\u6807\u51c6\u8fb9\u3002",
-    sankeyLead: "\u8be5 Sankey \u56fe\u6309\u201c\u884c\u4e1a\uff08A-J\uff09-\u5177\u4f53\u6807\u51c6-\u884c\u4e1a\uff08K-T\uff09\u201d\u5206\u680f\u5c55\u793a\uff0c\u5de6\u53f3\u4e24\u4fa7\u5171\u540c\u8986\u76d6 GB/T 4754-2017 \u7684 20 \u4e2a\u56fd\u6c11\u7ecf\u6d4e\u884c\u4e1a\u95e8\u7c7b\u3002\u4e2d\u95f4\u4e3a\u9700\u6c42\u65b9\u6307\u5b9a\u7684 12 \u4e2a\u5177\u4f53\u6807\u51c6\u8282\u70b9\uff1b\u6d41\u91cf\u8868\u793a accepted \u4f01\u4e1a-\u6807\u51c6\u5173\u8054\u6570\uff0c\u4e0d\u8868\u793a\u884c\u4e1a\u4e4b\u95f4\u7684\u6d41\u52a8\u6216\u56e0\u679c\u5173\u7cfb\u3002",
+    coreSankeyDesc: "\u884c\u4e1a\u95e8\u7c7b A-J / K-T \u5206\u5217\u4e24\u4fa7\uff0c\u4e2d\u95f4\u4e3a 12 \u4e2a\u5177\u4f53\u6807\u51c6\uff1b\u6d41\u91cf\u53ea\u8ba1 accepted \u4f01\u4e1a-\u6807\u51c6\u5173\u8054\u6570\uff0c\u4e0d\u662f\u4f01\u4e1a\u53bb\u91cd\u6570\u3002",
+    sankeyTitle: "\u4e09\u5957\u6807\u51c6\u4f53\u7cfb\u4e0e\u56fd\u6c11\u7ecf\u6d4e\u884c\u4e1a\u95e8\u7c7b\u5206\u680f\u5173\u8054\u56fe",
+    sankeyLead: "\u8be5 Sankey \u56fe\u6309\u201c\u884c\u4e1a\uff08A-J\uff09-\u5177\u4f53\u6807\u51c6-\u884c\u4e1a\uff08K-T\uff09\u201d\u5206\u680f\u5c55\u793a\uff0c\u5de6\u53f3\u4e24\u4fa7\u5171\u540c\u8986\u76d6 GB/T 4754-2017 \u7684 20 \u4e2a\u56fd\u6c11\u7ecf\u6d4e\u884c\u4e1a\u95e8\u7c7b\u3002\u4e2d\u95f4\u4e3a\u9700\u6c42\u65b9\u6307\u5b9a\u7684 12 \u4e2a\u5177\u4f53\u6807\u51c6\u8282\u70b9\uff1b\u6d41\u91cf\u8868\u793a accepted \u4f01\u4e1a-\u6807\u51c6\u5173\u8054\u6570\uff0c\u4e0d\u662f\u4f01\u4e1a\u53bb\u91cd\u6570\uff0c\u4e5f\u4e0d\u8868\u793a\u884c\u4e1a\u4e4b\u95f4\u7684\u6d41\u52a8\u6216\u56e0\u679c\u5173\u7cfb\u3002\u540c\u4e00\u4f01\u4e1a\u5982 accepted \u591a\u4e2a\u6807\u51c6\uff0c\u4f1a\u4ea7\u751f\u591a\u6761\u4f01\u4e1a-\u6807\u51c6\u5173\u8054\u3002",
     downloadSankeyEvidence: "\u4e0b\u8f7d Sankey \u539f\u59cb\u8bc1\u636e\u8868",
     downloadReviewPack: "\u4e0b\u8f7d\u6807\u51c6-\u884c\u4e1a\u590d\u6838\u5305",
     downloadIndustryPack: "\u4e0b\u8f7d\u4f01\u4e1a\u884c\u4e1a\u590d\u6838\u5305",
+    downloadDeliveryReadme: "\u4e0b\u8f7d\u4ea4\u4ed8\u8bf4\u660e README",
   } : {
-    coreSankeyDesc: "Industry sections A-J / K-T are split across the two sides; the middle column contains 12 concrete standards, and flow counts accepted company-standard edges only.",
-    sankeyLead: "This Sankey splits the 20 GB/T 4754-2017 industry sections across the two sides: A-J on the left and K-T on the right. The middle column contains the 12 requested concrete standards. Flow means accepted company-standard association count, not industry-to-industry movement or causality.",
+    coreSankeyDesc: "Industry sections A-J / K-T are split across the two sides; the middle column contains 12 concrete standards, and flow counts accepted company-standard associations, not distinct companies.",
+    sankeyTitle: "GHGP, ISO, and GB/T Standards by Split Industry Sections",
+    sankeyLead: "This Sankey splits the 20 GB/T 4754-2017 industry sections across the two sides: A-J on the left and K-T on the right. The middle column contains the 12 requested concrete standards. Flow means accepted company-standard association count, not distinct company count, industry-to-industry movement, or causality. One company accepted under multiple standards produces multiple company-standard associations.",
     downloadSankeyEvidence: "Download Sankey evidence table",
     downloadReviewPack: "Download standard-industry review pack",
     downloadIndustryPack: "Download company-industry review pack",
+    downloadDeliveryReadme: "Download delivery README",
   });
 
   function dataUrl(name) {
@@ -248,6 +252,7 @@
       button(text.downloadSankeyEvidence, dataUrl("world500_standard_industry_section_sankey_evidence.csv")),
       button(text.downloadReviewPack, dataUrl("world500_standard_industry_evidence_review_pack.csv")),
       button(text.downloadIndustryPack, dataUrl("world500_company_industry_review_pack.csv")),
+      button(text.downloadDeliveryReadme, dataUrl("world500_standard_industry_delivery_readme.md")),
     ], sankeyRows);
     const primaryStats = `
       <div class="metric-grid">

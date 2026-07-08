@@ -4,6 +4,8 @@ const path = require("path");
 const root = process.cwd();
 const wb = path.join(root, "assets/data/world500/workbench");
 const failures = [];
+const deliveryReadmePath = path.join(wb, "world500_standard_industry_delivery_readme.md");
+const deliveryReadme = fs.existsSync(deliveryReadmePath) ? fs.readFileSync(deliveryReadmePath, "utf8") : "";
 
 function readJson(name) {
   return JSON.parse(fs.readFileSync(path.join(wb, name), "utf8"));
@@ -75,6 +77,14 @@ if (!String(linksPayload.flow_definition || "").includes("accepted")) {
 if (!String(evidencePayload.flow_definition || "").includes("evidence sample")) {
   fail("sankey evidence payload must state evidence-sample flow definition");
 }
+if (!deliveryReadme) {
+  fail("missing standard-industry delivery README");
+}
+for (const token of ["275", "276", "GB/T 32150-2015", "ISO 14040/14044", "accepted", "review", "weak", "demoted"]) {
+  if (deliveryReadme && !deliveryReadme.includes(token)) {
+    fail(`delivery README missing required explanation token: ${token}`);
+  }
+}
 const acceptedLinkTotal = links.reduce((total, row) => total + Number(row.accepted_link_count || 0), 0);
 if (Number(evidencePayload.accepted_company_standard_link_count) !== acceptedLinkTotal) {
   fail(`sankey evidence accepted link count ${evidencePayload.accepted_company_standard_link_count} != ${acceptedLinkTotal}`);
@@ -142,6 +152,14 @@ for (const companyId of correctedSoftwareIds) {
   const row = industryReviewRows.find((item) => item.company_id === companyId);
   if (!row || row.suggested_code !== "I" || row.applied_to_current_industry_outputs !== "true") {
     fail(`company industry review pack missing applied software correction: ${companyId}`);
+  }
+  if (row && !String(row.fortune_industry_label_zh || row.fortune_industry_label || "").includes("计算机软件")) {
+    fail(`software company review row missing original Fortune software label: ${companyId}`);
+  }
+}
+for (const row of industryReviewRows) {
+  if (!row.fortune_industry_label || row.fortune_industry_label === "not_available_in_company_workbench") {
+    fail(`company industry review row missing original Fortune industry label: ${row.company_id}`);
   }
 }
 
