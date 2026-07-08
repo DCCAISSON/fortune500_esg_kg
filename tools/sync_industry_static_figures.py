@@ -110,11 +110,15 @@ def render_sankey(lang: str) -> Path:
     mid_x1, mid_x2 = 930, 1670
     right_x1, right_x2 = 1960, 2510
     section_h, standard_h = 46, 64
-    section_top, standard_top = 292, 304
-    section_step = 60
+    standard_top = 304
     standard_step = 96
     left_sections = sections[:10]
     right_sections = sections[10:]
+    standard_span = max(standard_h, (len(registry) - 1) * standard_step + standard_h)
+    side_count = max(len(left_sections), len(right_sections), 1)
+    section_step = 0 if side_count == 1 else round((standard_span - section_h) / (side_count - 1))
+    section_span = (side_count - 1) * section_step + section_h
+    section_top = standard_top + (standard_span - section_span) // 2
     left_codes = {str(row["industry_section_code"]) for row in left_sections}
     section_y = {str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(left_sections)}
     section_y.update({str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(right_sections)})
@@ -229,23 +233,16 @@ def update_manifest(outputs: list[Path]) -> None:
     names = {output.name for output in outputs}
     manifest["figures"] = [item for item in manifest.get("figures", []) if Path(item["file"]).name not in names]
     metadata = {
-        "world500_standard_industry_section_sankey.png": (
-            "standard_industry_sankey",
-            "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING",
-            "GHGP, ISO, and GB/T standards by split industry sections",
-            "GHGP、ISO、GB/T 标准与行业门类分栏关联图",
-            ["standard_industry_sankey_links", "standard_industry_sankey_evidence"],
-        ),
-        "world500_emissions_industry_section_ranking.png": (
-            "emissions_industry_ranking",
-            "R2_TOTAL_EMISSIONS_RANKING_DESC",
-            "Emissions industry-section ranking",
-            "排放行业门类排行与缺失统计",
-            ["emissions_industry_section_outputs"],
-        ),
+        "world500_standard_industry_section_sankey.png": ("standard_industry_sankey", "R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING", "GHGP, ISO, and GB/T standards by split industry sections", "GHGP、ISO、GB/T 标准与行业门类分栏关联图", ["standard_industry_sankey_links", "standard_industry_sankey_evidence"]),
+        "world500_emissions_industry_section_ranking.png": ("emissions_industry_ranking", "R2_TOTAL_EMISSIONS_RANKING_DESC", "Emissions industry-section ranking", "排放行业门类排行与缺失统计", ["emissions_industry_section_outputs"]),
+    }
+    boundaries = {
+        "standard_industry_sankey": (["industry_section_outputs"], "partial_evidence_bounded", "Generated from accepted company-standard associations split by GB/T 4754-2017 sections; review data remain excluded from accepted-flow charts.", "基于 accepted 企业-标准关联数和 GB/T 4754-2017 门类分栏生成；review 数据不进入 accepted 流量图。"),
+        "emissions_industry_ranking": (["industry_section_outputs", "emission-ledger"], "partial_complete_comparable_only", "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.", "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。"),
     }
     for output in outputs:
         figure_no, requirement_id, title_en, title_zh, data_keys = metadata[output.name]
+        page_sections, claim_status, boundary_en, boundary_zh = boundaries[figure_no]
         manifest["figures"].append({
             "file": str(output.relative_to(ROOT)).replace("\\", "/"),
             "lang": output.parent.name,
@@ -254,12 +251,12 @@ def update_manifest(outputs: list[Path]) -> None:
             "title_en": title_en,
             "title_zh": title_zh,
             "data_keys": data_keys,
-            "page_sections": ["industry_section_outputs"],
-            "claim_status": "partial_evidence_bounded",
+            "page_sections": page_sections,
+            "claim_status": claim_status,
             "can_claim_requirement_complete": False,
             "static_sync_can_claim_complete": True,
-            "audit_boundary_en": "Generated from accepted company-standard associations split by GB/T 4754-2017 sections; review data remain excluded from accepted-flow charts.",
-            "audit_boundary_zh": "基于 accepted 企业-标准关联数和 GB/T 4754-2017 门类分栏生成；review 数据不进入 accepted 流量图。",
+            "audit_boundary_en": boundary_en,
+            "audit_boundary_zh": boundary_zh,
             "bytes": output.stat().st_size,
             "sha256": sha256(output),
         })

@@ -2,7 +2,7 @@
 
 - 生成时间：2026-07-08
 - 审计矩阵日期：2026-06-07
-- PNG manifest 生成时间：2026-07-08T08:42:53+00:00
+- PNG manifest 生成时间：2026-07-08T09:08:59+00:00
 - 总体状态：partial
 - 是否可以声明全部完成：不可
 
@@ -127,16 +127,16 @@
 | assets/figures/zh/world500_emissions_ranking_graph.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。 |
 | assets/figures/zh/world500_standard_chain_overview.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。 |
 | assets/figures/zh/world500_standard_role_entity_graph.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded. |
-| assets/figures/zh/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。 |
 | assets/figures/zh/world500_technology_cluster_overview.png | R4_TECHNOLOGY_PATH_AXIS | partial_disclosure_signal_only | 不可 | 技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。 |
 | assets/figures/zh/world500_primary_secondary_source_mix.png | R5_PRIMARY_SECONDARY_BUBBLE | partial_source_mix_inference | 不可 | 除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。 |
-| assets/figures/zh/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。 |
 | assets/figures/en/world500_emissions_ranking_graph.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 只有 Scope 1、选定 Scope 2 和 Scope 3 均具备强证据的企业进入可比排行图；partial 总量被排除。 |
 | assets/figures/en/world500_standard_chain_overview.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | GHG 细分系列企业数默认只按显式采信证据统计；上下文映射和疑似过度映射仍为复核数据。 |
 | assets/figures/en/world500_standard_role_entity_graph.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_review_edges_remain | 不可 | Entity graph renders accepted standard-company edges only; generic GHG references and contextual mappings are excluded. |
-| assets/figures/en/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 行业分列 Sankey 只使用 accepted 企业-标准边；review 行保留在审计队列中，不计入流量权重。 |
 | assets/figures/en/world500_technology_cluster_overview.png | R4_TECHNOLOGY_PATH_AXIS | partial_disclosure_signal_only | 不可 | 技术聚类是企业报告中的披露主题信号，不等于已核证项目实施、减排量或项目经济性。 |
 | assets/figures/en/world500_primary_secondary_source_mix.png | R5_PRIMARY_SECONDARY_BUBBLE | partial_source_mix_inference | 不可 | 除原文明示 primary-data 百分比外，图中比例是来源结构推断，不是审定计算权重。 |
+| assets/figures/zh/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 基于 accepted 企业-标准关联数和 GB/T 4754-2017 门类分栏生成；review 数据不进入 accepted 流量图。 |
+| assets/figures/en/world500_standard_industry_section_sankey.png | R1_GHG_FINE_SERIES_AND_STANDARD_COMPANY_MAPPING | partial_evidence_bounded | 不可 | 基于 accepted 企业-标准关联数和 GB/T 4754-2017 门类分栏生成；review 数据不进入 accepted 流量图。 |
+| assets/figures/zh/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。 |
 | assets/figures/en/world500_emissions_industry_section_ranking.png | R2_TOTAL_EMISSIONS_RANKING_DESC | partial_complete_comparable_only | 不可 | 行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。 |
 
 ## Completion Workplan
