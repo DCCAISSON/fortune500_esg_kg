@@ -202,7 +202,7 @@ function writeRows(name, rows, extra = {}) {
     keys.join(","),
     ...rows.map((row) => keys.map((key) => csvCell(row[key])).join(",")),
   ].join("\n") + "\n";
-  fs.writeFileSync(path.join(wb, `${name}.csv`), csv, "utf8");
+  fs.writeFileSync(path.join(wb, `${name}.csv`), `\uFEFF${csv}`, "utf8");
   fs.writeFileSync(
     path.join(wb, `${name}.json`),
     JSON.stringify({ schema_version: `${name}-v1`, row_count: rows.length, ...extra, rows }, null, 2) + "\n",
