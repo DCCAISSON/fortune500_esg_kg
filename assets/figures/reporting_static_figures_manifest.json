@@ -1,6 +1,6 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-07-08T09:08:59+00:00",
+  "generated_at": "2026-07-16T09:50:11+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
   "source_sha256": "f4cd74b07170de5eb18db88b88e552884f68a18a716dcd77635d611ecfecd056",
   "generator": "tools/sync_reporting_static_figures.py",
@@ -376,8 +376,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.",
       "audit_boundary_zh": "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。",
-      "bytes": 152220,
-      "sha256": "3b73c6f1b0d3f3c97c5c905f71e2d51faf852230c1a907d522059064468bb517"
+      "bytes": 162926,
+      "sha256": "47c231c032daee3827af1f83f3afd5b1942f3c6d2ed3981803b702e062807227"
     },
     {
       "file": "assets/figures/en/world500_emissions_industry_section_ranking.png",
@@ -398,8 +398,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.",
       "audit_boundary_zh": "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。",
-      "bytes": 126480,
-      "sha256": "ce070dc074d411665da5b71d5b508ecc4dca89ac5074c8cfb8edce385824b92c"
+      "bytes": 134239,
+      "sha256": "7fd912450f2bcfaba9d886cb619f9e2ffb86ba9d21100bc32ed76c9b591f9813"
     }
   ]
 }

@@ -671,6 +671,39 @@ function build() {
       complete_coverage_rate: section.published_company_count ? +(section.complete_emissions_company_count / section.published_company_count).toFixed(4) : 0,
     };
   });
+  const rankingTotalsBySection = new Map();
+  for (const row of rankingRows) {
+    const item = rankingTotalsBySection.get(row.industry_section_code) || {
+      companyCount: 0,
+      scope1: 0,
+      scope2: 0,
+      scope3: 0,
+      total: 0,
+    };
+    item.companyCount += 1;
+    item.scope1 += num(row.scope1);
+    item.scope2 += num(row.scope2_selected);
+    item.scope3 += num(row.scope3);
+    item.total += num(row.total_emissions);
+    rankingTotalsBySection.set(row.industry_section_code, item);
+  }
+  const scopeSummaryRows = coverageRows.map((section) => {
+    const totals = rankingTotalsBySection.get(section.industry_section_code) || {};
+    return {
+      industry_section_code: section.industry_section_code,
+      industry_section_name_zh: section.industry_section_name_zh,
+      industry_section_name_en: section.industry_section_name_en,
+      published_company_count: section.published_company_count,
+      complete_comparable_company_count: section.complete_comparable_count,
+      available_emissions_company_count: section.available_emissions_count,
+      missing_total_emissions_company_count: section.missing_total_emissions_count,
+      complete_scope1_mtco2e: +(totals.scope1 || 0).toFixed(6),
+      complete_scope2_selected_mtco2e: +(totals.scope2 || 0).toFixed(6),
+      complete_scope3_mtco2e: +(totals.scope3 || 0).toFixed(6),
+      complete_total_mtco2e: +(totals.total || 0).toFixed(6),
+      source_boundary: "complete_scope123_strong_evidence_companies_only",
+    };
+  });
 
   writeRows("national_industry_section_registry", registryRows);
   writeRows("standard_industry_sankey_registry", displayRows);
@@ -690,6 +723,7 @@ function build() {
   writeRows("world500_primary_secondary_bubble_company_summary", summaryRows);
   writeRows("world500_emissions_industry_section_ranking", rankingRows);
   writeRows("world500_emissions_industry_section_coverage_summary", coverageRows, { denominator_company_count: 351 });
+  writeRows("world500_emissions_industry_section_scope_summary", scopeSummaryRows, { denominator_company_count: 351 });
   writeRows("world500_emissions_missing_company_list", missingRows, { denominator_company_count: 351 });
   console.log("Industry-section reporting outputs built.");
 }

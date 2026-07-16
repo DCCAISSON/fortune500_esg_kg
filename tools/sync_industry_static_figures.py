@@ -190,36 +190,43 @@ def render_sankey(lang: str) -> Path:
 
 
 def render_emissions(lang: str) -> Path:
-    rows = [row for row in read_rows("world500_emissions_industry_section_coverage_summary") if int(row["published_company_count"]) > 0]
+    rows = [row for row in read_rows("world500_emissions_industry_section_scope_summary") if int(row["published_company_count"]) > 0]
     image = Image.new("RGB", (2400, 1520), PALETTE["bg"])
     draw = ImageDraw.Draw(image)
     rounded(draw, (34, 34, 2366, 1486), PALETTE["paper"])
-    title = "按 GB/T 4754-2017 门类的完整可比排放排行与缺失统计" if lang == "zh" else "Complete Comparable Emissions by GB/T 4754-2017 Industry Section"
-    note = "主榜只包含 Scope 1 + selected Scope 2 + Scope 3 均闭环企业；missing 表示未进入完整主榜，不等于没有披露。" if lang == "zh" else "The main ranking includes only complete Scope 1 + selected Scope 2 + Scope 3 companies. Missing means not in the complete ranking, not no disclosure."
+    title = "按 GB/T 4754-2017 门类汇总的 Scope 1/2/3 排放量与缺失企业数" if lang == "zh" else "Scope 1/2/3 Emissions and Missing-Closure Counts by GB/T 4754-2017 Section"
+    note = "该图不代表所有企业排放量；排放条只汇总 27 家完整 Scope 1 + selected Scope 2 + Scope 3 闭环企业。未闭合企业 324 家按行业列出。" if lang == "zh" else "This is not an all-company emissions total. Bars sum only the 27 complete Scope 1 + selected Scope 2 + Scope 3 companies; 324 missing-closure companies are listed by industry."
     draw.text((82, 72), title, font=font(42, True), fill=PALETTE["ink"])
     text(draw, (84, 132), note, 24, PALETTE["muted"], 1900)
-    max_published = max(int(row["published_company_count"]) for row in rows)
-    for index, row in enumerate(rows):
-        y = 250 + index * 84
+    max_total = max(float(row["complete_total_mtco2e"]) for row in rows) or 1
+    headers = ("行业门类", "完整 Scope 排放量 MtCO2e", "完整/正式", "未闭合") if lang == "zh" else ("Industry section", "Complete Scope emissions MtCO2e", "Complete / published", "Missing")
+    for x, header in zip((88, 642, 1780, 2050), headers, strict=True):
+        draw.text((x, 218), header, font=font(20, True), fill=PALETTE["muted"])
+    for index, row in enumerate(sorted(rows, key=lambda item: float(item["complete_total_mtco2e"]), reverse=True)):
+        y = 270 + index * 82
         label = f"{row['industry_section_code']} {row['industry_section_name_zh' if lang == 'zh' else 'industry_section_name_en']}"
         text(draw, (88, y), str(label), 20, PALETTE["ink"], 520, True)
-        x = 640
-        scale = 1120 / max_published
+        scale = 980 / max_total
         parts = [
-            ("complete_comparable_count", PALETTE["ghg"]),
-            ("partial_emissions_count", PALETTE["iso"]),
-            ("missing_total_emissions_count", PALETTE["warn"]),
+            ("complete_scope1_mtco2e", PALETTE["ghg"]),
+            ("complete_scope2_selected_mtco2e", PALETTE["iso"]),
+            ("complete_scope3_mtco2e", PALETTE["warn"]),
         ]
-        cursor = x
+        cursor = 642
         for key, color in parts:
-            width = max(3, int(int(row[key]) * scale))
+            value = float(row[key])
+            width = max(3, int(value * scale)) if value else 0
+            if width == 0:
+                continue
             draw.rounded_rectangle((cursor, y + 4, cursor + width, y + 38), radius=12, fill=color)
             cursor += width
-        draw.text((1780, y + 2), f"{row['complete_comparable_count']} / {row['published_company_count']}", font=font(21, True), fill=PALETTE["ink"])
-        draw.text((1930, y + 2), f"missing {row['missing_total_emissions_count']}", font=font(18), fill=PALETTE["muted"])
-    legend = [("complete", PALETTE["ghg"]), ("partial", PALETTE["iso"]), ("missing", PALETTE["warn"])]
+        total_label = f"{float(row['complete_total_mtco2e']):,.1f}"
+        draw.text((1640, y + 4), total_label, font=font(18, True), fill=PALETTE["ink"])
+        draw.text((1780, y + 4), f"{row['complete_comparable_company_count']} / {row['published_company_count']}", font=font(21, True), fill=PALETTE["ink"])
+        draw.text((2050, y + 4), str(row["missing_total_emissions_company_count"]), font=font(21, True), fill=PALETTE["warn"])
+    legend = [("Scope 1", PALETTE["ghg"]), ("selected Scope 2", PALETTE["iso"]), ("Scope 3", PALETTE["warn"])]
     for index, (label, color) in enumerate(legend):
-        x = 88 + index * 220
+        x = 88 + index * 290
         draw.rounded_rectangle((x, 1370, x + 34, 1404), radius=9, fill=color)
         draw.text((x + 46, 1372), label, font=font(20, True), fill=PALETTE["ink"])
     out = FIGURES / lang / "world500_emissions_industry_section_ranking.png"

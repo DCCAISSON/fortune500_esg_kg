@@ -21,7 +21,7 @@
       primaryTitle: "初级/次级数据证据链导出",
       primaryLead: "306 家企业有证据链或来源结构汇总；其中 161 家具备可计算的 primary/secondary/unknown 比例，可绘制气泡。气泡以可计算比例为绘制条件，并区分原文明示比例与来源结构推断。",
       emissionsTitle: "完整可比总排放主榜与行业门类排行",
-      emissionsLead: "主榜采用完整可比口径，仅包含 Scope 1 + selected Scope 2 + Scope 3、年份、单位、边界和页码闭环企业；partial total 和缺失 Scope 的企业列入参考队列。",
+      emissionsLead: "该图不代表所有企业排放量。主榜仅包含 Scope 1 + selected Scope 2 + Scope 3、年份、单位、边界和页码闭环企业；其余企业按行业计入未闭合数量，并提供缺失企业清单。",
       large: "点击放大查看",
       downloadLinks: "下载桑基图明细",
       downloadRegistry: "下载标准展示节点",
@@ -29,6 +29,7 @@
       downloadBubble: "下载气泡公司汇总",
       downloadRanking: "下载行业排行",
       downloadCoverage: "下载覆盖率汇总",
+      downloadScopeSummary: "下载行业 Scope 汇总",
       downloadMissing: "下载缺失企业清单",
       tableStandard: "标准",
       tableIndustry: "行业门类",
@@ -36,6 +37,9 @@
       tableCompanies: "企业数",
       tableCompany: "企业",
       tableTotal: "总排放 MtCO2e",
+      tableScope1: "Scope 1",
+      tableScope2: "Scope 2",
+      tableScope3: "Scope 3",
       tableComplete: "完整主榜",
       tableAvailable: "可用排放",
       tablePublished: "正式图谱企业",
@@ -51,6 +55,7 @@
       metricComplete: "完整主榜企业",
       metricAvailable: "可用排放企业",
       metricMissing: "未闭合企业",
+      metricPublished: "正式图谱企业",
     },
     en: {
       coreTitle: "Three Priority Outputs From the Latest Requirement Update",
@@ -67,7 +72,7 @@
       primaryTitle: "Primary / Secondary Evidence Chain Exports",
       primaryLead: "306 companies have evidence-chain or source-structure summaries; 161 have computable primary/secondary/unknown ratios and can be plotted. Bubbles are drawn when ratios are computable, with explicit percentages separated from source-structure inference.",
       emissionsTitle: "Complete Comparable Emissions Ranking and Industry Sections",
-      emissionsLead: "The main ranking uses a complete-comparable scope: Scope 1 + selected Scope 2 + Scope 3, year, unit, boundary, and page evidence closed. Partial totals remain in the reference queue.",
+      emissionsLead: "This figure is not an all-company emissions total. The main ranking includes only companies with Scope 1 + selected Scope 2 + Scope 3, year, unit, boundary, and page evidence closed. All other companies are counted as missing closure by industry.",
       large: "View Large",
       downloadLinks: "Download Sankey links",
       downloadRegistry: "Download display nodes",
@@ -75,6 +80,7 @@
       downloadBubble: "Download bubble summary",
       downloadRanking: "Download industry ranking",
       downloadCoverage: "Download coverage summary",
+      downloadScopeSummary: "Download industry Scope summary",
       downloadMissing: "Download missing companies",
       tableStandard: "Standard",
       tableIndustry: "Industry section",
@@ -82,6 +88,9 @@
       tableCompanies: "Companies",
       tableCompany: "Company",
       tableTotal: "Total MtCO2e",
+      tableScope1: "Scope 1",
+      tableScope2: "Scope 2",
+      tableScope3: "Scope 3",
       tableComplete: "Complete ranking",
       tableAvailable: "Available emissions",
       tablePublished: "Published companies",
@@ -97,6 +106,7 @@
       metricComplete: "Complete-ranking companies",
       metricAvailable: "Available-emissions companies",
       metricMissing: "Missing-closure companies",
+      metricPublished: "Published companies",
     },
   }[lang];
 
@@ -282,26 +292,43 @@
   }
 
   async function renderEmissionOutputs() {
-    const [rankingPayload, coveragePayload] = await Promise.all([
+    const [rankingPayload, coveragePayload, scopeSummaryPayload] = await Promise.all([
       json("world500_emissions_industry_section_ranking.json"),
       json("world500_emissions_industry_section_coverage_summary.json"),
+      json("world500_emissions_industry_section_scope_summary.json"),
     ]);
     const ranking = rankingPayload.rows || [];
     const coverage = coveragePayload.rows || [];
+    const scopeSummary = scopeSummaryPayload.rows || [];
     const topCompanies = [...ranking].sort((a, b) => Number(b.total_emissions) - Number(a.total_emissions)).slice(0, 10);
     const activeCoverage = coverage.filter((row) => Number(row.published_company_count) > 0);
+    const activeScopeSummary = scopeSummary.filter((row) => Number(row.published_company_count) > 0)
+      .sort((a, b) => Number(b.complete_total_mtco2e) - Number(a.complete_total_mtco2e));
     const summary = `
       <div class="metric-grid">
+        ${metric(text.metricPublished, sum(coverage, "published_company_count"))}
         ${metric(text.metricComplete, ranking.length)}
         ${metric(text.metricAvailable, sum(coverage, "available_emissions_count"))}
         ${metric(text.metricMissing, sum(coverage, "missing_total_emissions_count"))}
       </div>`;
     const rows = `
       ${summary}
-      ${table([text.tableCompany, text.tableIndustry, text.tableTotal], topCompanies.map((row) => [
+      ${table([text.tableCompany, text.tableIndustry, text.tableScope1, text.tableScope2, text.tableScope3, text.tableTotal], topCompanies.map((row) => [
         esc(`#${row.world500_rank} ${row.company_name}`),
         esc(`${row.industry_section_code} ${row[lang === "zh" ? "industry_section_name_zh" : "industry_section_name_en"]}`),
+        esc(formatNumber(row.scope1)),
+        esc(formatNumber(row.scope2_selected)),
+        esc(formatNumber(row.scope3)),
         esc(formatNumber(row.total_emissions)),
+      ]))}
+      ${table([text.tableIndustry, text.tableComplete, text.tableMissing, text.tableScope1, text.tableScope2, text.tableScope3, text.tableTotal], activeScopeSummary.map((row) => [
+        esc(`${row.industry_section_code} ${row[lang === "zh" ? "industry_section_name_zh" : "industry_section_name_en"]}`),
+        esc(row.complete_comparable_company_count),
+        esc(row.missing_total_emissions_company_count),
+        esc(formatNumber(row.complete_scope1_mtco2e)),
+        esc(formatNumber(row.complete_scope2_selected_mtco2e)),
+        esc(formatNumber(row.complete_scope3_mtco2e)),
+        esc(formatNumber(row.complete_total_mtco2e)),
       ]))}
       ${table([text.tableIndustry, text.tableComplete, text.tableAvailable, text.tablePublished, text.tableMissing, text.tableMissingScope1, text.tableMissingScope2, text.tableMissingScope3], activeCoverage.map((row) => [
         esc(`${row.industry_section_code} ${row[lang === "zh" ? "industry_section_name_zh" : "industry_section_name_en"]}`),
@@ -316,6 +343,7 @@
     const html = imageCard("emission-industry-ledger", text.emissionsTitle, text.emissionsLead, "world500_emissions_industry_section_ranking.png", [
       button(text.downloadRanking, dataUrl("world500_emissions_industry_section_ranking.csv")),
       button(text.downloadCoverage, dataUrl("world500_emissions_industry_section_coverage_summary.csv")),
+      button(text.downloadScopeSummary, dataUrl("world500_emissions_industry_section_scope_summary.csv")),
       button(text.downloadMissing, dataUrl("world500_emissions_missing_company_list.csv")),
     ], rows);
     (document.getElementById("emission-ledger-status") || shell).insertAdjacentHTML("beforebegin", html);
