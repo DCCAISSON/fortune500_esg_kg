@@ -1,8 +1,8 @@
 {
   "schema_version": "reporting-static-figures-manifest-v1",
-  "generated_at": "2026-07-16T09:50:11+00:00",
+  "generated_at": "2026-08-14T10:23:35+00:00",
   "source": "assets/data/world500/workbench/reporting_views.json",
-  "source_sha256": "f4cd74b07170de5eb18db88b88e552884f68a18a716dcd77635d611ecfecd056",
+  "source_sha256": "236a650945a515a59f9608082b746dc964e60e6f27b5d79abcb5cdf8dee745e7",
   "generator": "tools/sync_reporting_static_figures.py",
   "sync_policy": "Reporting PNGs are regenerated from the same reporting_views.json snapshot plus GB/T 4754-2017 industry-section workbench outputs referenced by the GitHub pages.",
   "required_synced_report_figures": {
@@ -332,8 +332,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Generated from accepted company-standard associations split by GB/T 4754-2017 sections; review data remain excluded from accepted-flow charts.",
       "audit_boundary_zh": "基于 accepted 企业-标准关联数和 GB/T 4754-2017 门类分栏生成；review 数据不进入 accepted 流量图。",
-      "bytes": 275160,
-      "sha256": "c51b80dfac93b96f21581c1810e5e9dd424f4417f447d480eee921b8dd02eaf9"
+      "bytes": 264229,
+      "sha256": "dc7fbe2ded3068121051d9eb3517c276c660c0b944e705aea83d7b7b16aadbcc"
     },
     {
       "file": "assets/figures/en/world500_standard_industry_section_sankey.png",
@@ -354,8 +354,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "Generated from accepted company-standard associations split by GB/T 4754-2017 sections; review data remain excluded from accepted-flow charts.",
       "audit_boundary_zh": "基于 accepted 企业-标准关联数和 GB/T 4754-2017 门类分栏生成；review 数据不进入 accepted 流量图。",
-      "bytes": 226700,
-      "sha256": "14f6244a63e732428dabea726c836a4c7471cb62f75ae71f91245a93f7b9d117"
+      "bytes": 211758,
+      "sha256": "fc1d6480e987f0c6395baddb4a12b76f96d0d3ac18ae15e9ee013a93275bb418"
     },
     {
       "file": "assets/figures/zh/world500_emissions_industry_section_ranking.png",
@@ -376,8 +376,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.",
       "audit_boundary_zh": "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。",
-      "bytes": 162926,
-      "sha256": "47c231c032daee3827af1f83f3afd5b1942f3c6d2ed3981803b702e062807227"
+      "bytes": 163878,
+      "sha256": "221364dceb4290d62001744f85e14d30d0a55e6e42555495c51c5a1fa024ae36"
     },
     {
       "file": "assets/figures/en/world500_emissions_industry_section_ranking.png",
@@ -398,8 +398,8 @@
       "static_sync_can_claim_complete": true,
       "audit_boundary_en": "The industry ranking distinguishes complete comparable companies, available partial totals, and missing complete Scope 1/2/3 closure by industry section.",
       "audit_boundary_zh": "行业排行区分完整可比企业、可用 partial 总量以及缺完整 Scope 1/2/3 闭环的行业缺口。",
-      "bytes": 134239,
-      "sha256": "7fd912450f2bcfaba9d886cb619f9e2ffb86ba9d21100bc32ed76c9b591f9813"
+      "bytes": 134986,
+      "sha256": "c5fa2cc72f9dc635354b1d758b6df4b8ae240379a4309032dbdf3bae19472bb0"
     }
   ]
 }

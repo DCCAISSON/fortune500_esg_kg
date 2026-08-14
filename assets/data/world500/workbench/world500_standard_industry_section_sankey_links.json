@@ -1,6 +1,6 @@
 {
   "schema_version": "world500_standard_industry_section_sankey_links-v1",
-  "row_count": 51,
+  "row_count": 47,
   "flow_definition": "accepted company-standard association count only",
   "rows": [
     {
@@ -8,9 +8,9 @@
       "display_standard_name_zh": "GB/T 24067-2024",
       "display_standard_name_en": "GB/T 24067-2024",
       "internal_standard_id": "gb_t_24067_2024",
-      "industry_section_code": "D",
-      "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
-      "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
+      "industry_section_code": "C",
+      "industry_section_name_zh": "制造业",
+      "industry_section_name_en": "Manufacturing",
       "accepted_company_count": 1,
       "accepted_link_count": 1,
       "distinct_company_count": 1,
@@ -47,22 +47,30 @@
       "industry_section_code": "B",
       "industry_section_name_zh": "采矿业",
       "industry_section_name_en": "Mining",
-      "accepted_company_count": 5,
-      "accepted_link_count": 5,
-      "distinct_company_count": 5,
+      "accepted_company_count": 9,
+      "accepted_link_count": 9,
+      "distinct_company_count": 9,
       "company_ids": [
         "r013_shell",
         "r029_chevron",
+        "r098_eni",
+        "r169_lukoil",
         "r235_conocophillips",
         "r264_riotintogroup",
-        "r268_bhpgroup"
+        "r268_bhpgroup",
+        "r401_suncorenergy",
+        "r479_schlumberger"
       ],
       "company_names": [
         "SHELL",
         "CHEVRON",
+        "ENI",
+        "LUKOIL",
         "CONOCOPHILLIPS",
         "RIO TINTO GROUP",
-        "BHP GROUP"
+        "BHP GROUP",
+        "SUNCOR ENERGY",
+        "SCHLUMBERGER"
       ]
     },
     {
@@ -73,13 +81,15 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 35,
-      "accepted_link_count": 35,
-      "distinct_company_count": 35,
+      "accepted_company_count": 36,
+      "accepted_link_count": 36,
+      "distinct_company_count": 36,
       "company_ids": [
+        "r050_marathonpetroleum",
         "r073_hyundaimotor",
         "r096_nestlé",
         "r105_boschgroup",
+        "r132_orlen",
         "r162_kia",
         "r176_巴西jbs公司",
         "r191_generalelectric",
@@ -87,6 +97,7 @@
         "r199_caterpillar",
         "r209_lg电子",
         "r236_pfizer",
+        "r247_repsol",
         "r248_lenovogroup",
         "r261_intel",
         "r269_hp",
@@ -98,12 +109,10 @@
         "r344_continental",
         "r346_dow",
         "r357_magnainternational",
+        "r358_omvgroup",
         "r387_schneiderelectric",
         "r397_xiaomi",
-        "r421_jardinematheson",
         "r422_mondelezinternational",
-        "r426_qualcomm",
-        "r427_broadcom",
         "r443_crh公司",
         "r455_elililly",
         "r459_cummins",
@@ -114,9 +123,11 @@
         "r498_瑞士abb集团"
       ],
       "company_names": [
+        "MARATHON PETROLEUM",
         "HYUNDAI MOTOR",
         "NESTLÉ",
         "BOSCH GROUP",
+        "ORLEN",
         "KIA",
         "JBS",
         "GENERAL ELECTRIC",
@@ -124,6 +135,7 @@
         "CATERPILLAR",
         "LG Electronics",
         "PFIZER",
+        "REPSOL",
         "LENOVO GROUP",
         "INTEL",
         "HP",
@@ -135,12 +147,10 @@
         "CONTINENTAL",
         "DOW",
         "MAGNA INTERNATIONAL",
+        "OMV GROUP",
         "SCHNEIDER ELECTRIC",
         "XIAOMI",
-        "JARDINE MATHESON",
         "MONDELEZ INTERNATIONAL",
-        "QUALCOMM",
-        "BROADCOM",
         "CRH",
         "ELI LILLY",
         "CUMMINS",
@@ -159,40 +169,24 @@
       "industry_section_code": "D",
       "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
       "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
-      "accepted_company_count": 14,
-      "accepted_link_count": 14,
-      "distinct_company_count": 14,
+      "accepted_company_count": 6,
+      "accepted_link_count": 6,
+      "distinct_company_count": 6,
       "company_ids": [
         "r049_electricitédefrance",
-        "r050_marathonpetroleum",
         "r097_enel",
-        "r098_eni",
         "r101_eon",
         "r130_engie集团",
-        "r132_orlen",
-        "r169_lukoil",
         "r238_chinahuanenggroup",
-        "r247_repsol",
-        "r336_chinahuadian",
-        "r358_omvgroup",
-        "r401_suncorenergy",
-        "r479_schlumberger"
+        "r336_chinahuadian"
       ],
       "company_names": [
         "ELECTRICITÉ DE FRANCE",
-        "MARATHON PETROLEUM",
         "ENEL",
-        "ENI",
         "E.ON",
         "Engie",
-        "ORLEN",
-        "LUKOIL",
         "CHINA HUANENG GROUP",
-        "REPSOL",
-        "CHINA HUADIAN",
-        "OMV GROUP",
-        "SUNCOR ENERGY",
-        "SCHLUMBERGER"
+        "CHINA HUADIAN"
       ]
     },
     {
@@ -203,9 +197,9 @@
       "industry_section_code": "F",
       "industry_section_name_zh": "批发和零售业",
       "industry_section_name_en": "Wholesale and Retail Trade",
-      "accepted_company_count": 9,
-      "accepted_link_count": 9,
-      "distinct_company_count": 9,
+      "accepted_company_count": 11,
+      "accepted_link_count": 11,
+      "distinct_company_count": 11,
       "company_ids": [
         "r001_walmart",
         "r010_cvshealth公司",
@@ -213,6 +207,8 @@
         "r027_cardinalhealth",
         "r048_homedepot",
         "r060_walgreensbootsalliance",
+        "r065_mitsubishi",
+        "r090_target",
         "r114_royalaholddelhaize",
         "r177_alimentationcouchetard公司",
         "r322_ingkagroup"
@@ -224,6 +220,8 @@
         "CARDINAL HEALTH",
         "HOME DEPOT",
         "WALGREENS BOOTS ALLIANCE",
+        "MITSUBISHI",
+        "TARGET",
         "ROYAL AHOLD DELHAIZE",
         "Alimentation Couche-Tard",
         "INGKA GROUP"
@@ -261,20 +259,26 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 4,
-      "accepted_link_count": 4,
-      "distinct_company_count": 4,
+      "accepted_company_count": 7,
+      "accepted_link_count": 7,
+      "distinct_company_count": 7,
       "company_ids": [
         "r017_alphabet公司",
         "r350_telefónica",
+        "r426_qualcomm",
+        "r427_broadcom",
         "r445_salesforce",
-        "r450_sap公司"
+        "r450_sap公司",
+        "r468_netflix公司"
       ],
       "company_names": [
         "Alphabet",
         "TELEFÓNICA",
+        "QUALCOMM",
+        "BROADCOM",
         "SALESFORCE",
-        "SAP"
+        "SAP",
+        "Netflix"
       ]
     },
     {
@@ -347,16 +351,14 @@
       "industry_section_code": "L",
       "industry_section_name_zh": "租赁和商务服务业",
       "industry_section_name_en": "Leasing and Business Services",
-      "accepted_company_count": 2,
-      "accepted_link_count": 2,
-      "distinct_company_count": 2,
+      "accepted_company_count": 1,
+      "accepted_link_count": 1,
+      "distinct_company_count": 1,
       "company_ids": [
-        "r065_mitsubishi",
-        "r090_target"
+        "r421_jardinematheson"
       ],
       "company_names": [
-        "MITSUBISHI",
-        "TARGET"
+        "JARDINE MATHESON"
       ]
     },
     {
@@ -367,18 +369,16 @@
       "industry_section_code": "R",
       "industry_section_name_zh": "文化、体育和娱乐业",
       "industry_section_name_en": "Culture, Sports and Entertainment",
-      "accepted_company_count": 3,
-      "accepted_link_count": 3,
-      "distinct_company_count": 3,
+      "accepted_company_count": 2,
+      "accepted_link_count": 2,
+      "distinct_company_count": 2,
       "company_ids": [
         "r131_waltdisney",
-        "r366_warnerbrosdiscovery",
-        "r468_netflix公司"
+        "r366_warnerbrosdiscovery"
       ],
       "company_names": [
         "WALT DISNEY",
-        "WARNER BROS. DISCOVERY",
-        "Netflix"
+        "WARNER BROS. DISCOVERY"
       ]
     },
     {
@@ -407,13 +407,15 @@
       "industry_section_code": "F",
       "industry_section_name_zh": "批发和零售业",
       "industry_section_name_en": "Wholesale and Retail Trade",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
+      "accepted_company_count": 2,
+      "accepted_link_count": 2,
+      "distinct_company_count": 2,
       "company_ids": [
+        "r121_mitsui",
         "r322_ingkagroup"
       ],
       "company_names": [
+        "MITSUI",
         "INGKA GROUP"
       ]
     },
@@ -527,24 +529,6 @@
     },
     {
       "standard_system": "GHG Protocol",
-      "display_standard_name_zh": "金融行业全球温室气体核算与报告标准",
-      "display_standard_name_en": "Global GHG Accounting and Reporting Standard for the Financial Industry",
-      "internal_standard_id": "ghg_financial_industry_standard",
-      "industry_section_code": "L",
-      "industry_section_name_zh": "租赁和商务服务业",
-      "industry_section_name_en": "Leasing and Business Services",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
-      "company_ids": [
-        "r121_mitsui"
-      ],
-      "company_names": [
-        "MITSUI"
-      ]
-    },
-    {
-      "standard_system": "GHG Protocol",
       "display_standard_name_zh": "GHG Protocol 产品生命周期核算与报告标准",
       "display_standard_name_en": "GHG Protocol Product Life Cycle Accounting and Reporting Standard",
       "internal_standard_id": "ghg_product_standard",
@@ -569,13 +553,15 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
+      "accepted_company_count": 2,
+      "accepted_link_count": 2,
+      "distinct_company_count": 2,
       "company_ids": [
+        "r061_valeroenergy",
         "r096_nestlé"
       ],
       "company_names": [
+        "VALERO ENERGY",
         "NESTLÉ"
       ]
     },
@@ -584,27 +570,9 @@
       "display_standard_name_zh": "GHG Protocol 项目减排核算协议",
       "display_standard_name_en": "GHG Protocol Project Protocol",
       "internal_standard_id": "ghg_project_protocol",
-      "industry_section_code": "D",
-      "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
-      "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
-      "company_ids": [
-        "r061_valeroenergy"
-      ],
-      "company_names": [
-        "VALERO ENERGY"
-      ]
-    },
-    {
-      "standard_system": "GHG Protocol",
-      "display_standard_name_zh": "GHG Protocol 项目减排核算协议",
-      "display_standard_name_en": "GHG Protocol Project Protocol",
-      "internal_standard_id": "ghg_project_protocol",
-      "industry_section_code": "R",
-      "industry_section_name_zh": "文化、体育和娱乐业",
-      "industry_section_name_en": "Culture, Sports and Entertainment",
+      "industry_section_code": "I",
+      "industry_section_name_zh": "信息传输、软件和信息技术服务业",
+      "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
       "accepted_company_count": 1,
       "accepted_link_count": 1,
       "distinct_company_count": 1,
@@ -623,20 +591,24 @@
       "industry_section_code": "B",
       "industry_section_name_zh": "采矿业",
       "industry_section_name_en": "Mining",
-      "accepted_company_count": 4,
-      "accepted_link_count": 4,
-      "distinct_company_count": 4,
+      "accepted_company_count": 6,
+      "accepted_link_count": 6,
+      "distinct_company_count": 6,
       "company_ids": [
         "r013_shell",
         "r029_chevron",
+        "r169_lukoil",
         "r264_riotintogroup",
-        "r268_bhpgroup"
+        "r268_bhpgroup",
+        "r401_suncorenergy"
       ],
       "company_names": [
         "SHELL",
         "CHEVRON",
+        "LUKOIL",
         "RIO TINTO GROUP",
-        "BHP GROUP"
+        "BHP GROUP",
+        "SUNCOR ENERGY"
       ]
     },
     {
@@ -647,34 +619,36 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 12,
-      "accepted_link_count": 12,
-      "distinct_company_count": 12,
+      "accepted_company_count": 13,
+      "accepted_link_count": 13,
+      "distinct_company_count": 13,
       "company_ids": [
         "r036_fordmotor",
         "r073_hyundaimotor",
+        "r132_orlen",
         "r162_kia",
         "r199_caterpillar",
         "r248_lenovogroup",
         "r269_hp",
         "r297_sanofi",
         "r329_astrazeneca",
+        "r358_omvgroup",
         "r387_schneiderelectric",
-        "r427_broadcom",
         "r464_britishamericantobacco",
         "r487_heineken"
       ],
       "company_names": [
         "FORD MOTOR",
         "HYUNDAI MOTOR",
+        "ORLEN",
         "KIA",
         "CATERPILLAR",
         "LENOVO GROUP",
         "HP",
         "SANOFI",
         "ASTRAZENECA",
+        "OMV GROUP",
         "SCHNEIDER ELECTRIC",
-        "BROADCOM",
         "BRITISH AMERICAN TOBACCO",
         "HEINEKEN"
       ]
@@ -687,22 +661,14 @@
       "industry_section_code": "D",
       "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
       "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
-      "accepted_company_count": 5,
-      "accepted_link_count": 5,
-      "distinct_company_count": 5,
+      "accepted_company_count": 1,
+      "accepted_link_count": 1,
+      "distinct_company_count": 1,
       "company_ids": [
-        "r130_engie集团",
-        "r132_orlen",
-        "r169_lukoil",
-        "r358_omvgroup",
-        "r401_suncorenergy"
+        "r130_engie集团"
       ],
       "company_names": [
-        "Engie",
-        "ORLEN",
-        "LUKOIL",
-        "OMV GROUP",
-        "SUNCOR ENERGY"
+        "Engie"
       ]
     },
     {
@@ -713,20 +679,18 @@
       "industry_section_code": "F",
       "industry_section_name_zh": "批发和零售业",
       "industry_section_name_en": "Wholesale and Retail Trade",
-      "accepted_company_count": 4,
-      "accepted_link_count": 4,
-      "distinct_company_count": 4,
+      "accepted_company_count": 3,
+      "accepted_link_count": 3,
+      "distinct_company_count": 3,
       "company_ids": [
         "r027_cardinalhealth",
         "r114_royalaholddelhaize",
-        "r322_ingkagroup",
-        "r403_ubertechnologies公司"
+        "r322_ingkagroup"
       ],
       "company_names": [
         "CARDINAL HEALTH",
         "ROYAL AHOLD DELHAIZE",
-        "INGKA GROUP",
-        "Uber Technologies"
+        "INGKA GROUP"
       ]
     },
     {
@@ -755,20 +719,26 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 4,
-      "accepted_link_count": 4,
-      "distinct_company_count": 4,
+      "accepted_company_count": 7,
+      "accepted_link_count": 7,
+      "distinct_company_count": 7,
       "company_ids": [
         "r017_alphabet公司",
         "r077_deutschetelekom",
+        "r403_ubertechnologies公司",
+        "r427_broadcom",
         "r445_salesforce",
-        "r450_sap公司"
+        "r450_sap公司",
+        "r468_netflix公司"
       ],
       "company_names": [
         "Alphabet",
         "DEUTSCHE TELEKOM",
+        "Uber Technologies",
+        "BROADCOM",
         "SALESFORCE",
-        "SAP"
+        "SAP",
+        "Netflix"
       ]
     },
     {
@@ -809,16 +779,14 @@
       "industry_section_code": "R",
       "industry_section_name_zh": "文化、体育和娱乐业",
       "industry_section_name_en": "Culture, Sports and Entertainment",
-      "accepted_company_count": 2,
-      "accepted_link_count": 2,
-      "distinct_company_count": 2,
+      "accepted_company_count": 1,
+      "accepted_link_count": 1,
+      "distinct_company_count": 1,
       "company_ids": [
-        "r366_warnerbrosdiscovery",
-        "r468_netflix公司"
+        "r366_warnerbrosdiscovery"
       ],
       "company_names": [
-        "WARNER BROS. DISCOVERY",
-        "Netflix"
+        "WARNER BROS. DISCOVERY"
       ]
     },
     {
@@ -849,22 +817,20 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 5,
-      "accepted_link_count": 5,
-      "distinct_company_count": 5,
+      "accepted_company_count": 4,
+      "accepted_link_count": 4,
+      "distinct_company_count": 4,
       "company_ids": [
         "r269_hp",
         "r282_volvo",
         "r297_sanofi",
-        "r368_lyondellbasellindustries",
-        "r427_broadcom"
+        "r368_lyondellbasellindustries"
       ],
       "company_names": [
         "HP",
         "VOLVO",
         "SANOFI",
-        "LYONDELLBASELL INDUSTRIES",
-        "BROADCOM"
+        "LYONDELLBASELL INDUSTRIES"
       ]
     },
     {
@@ -929,16 +895,20 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 2,
-      "accepted_link_count": 2,
-      "distinct_company_count": 2,
+      "accepted_company_count": 4,
+      "accepted_link_count": 4,
+      "distinct_company_count": 4,
       "company_ids": [
         "r017_alphabet公司",
-        "r445_salesforce"
+        "r427_broadcom",
+        "r445_salesforce",
+        "r468_netflix公司"
       ],
       "company_names": [
         "Alphabet",
-        "SALESFORCE"
+        "BROADCOM",
+        "SALESFORCE",
+        "Netflix"
       ]
     },
     {
@@ -965,37 +935,20 @@
     },
     {
       "standard_system": "GHG Protocol",
-      "display_standard_name_zh": "GHG Protocol Scope 3 计算指南",
-      "display_standard_name_en": "GHG Protocol Scope 3 Calculation Guidance",
-      "internal_standard_id": "ghg_scope3_calculation_guidance",
-      "industry_section_code": "R",
-      "industry_section_name_zh": "文化、体育和娱乐业",
-      "industry_section_name_en": "Culture, Sports and Entertainment",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
-      "company_ids": [
-        "r468_netflix公司"
-      ],
-      "company_names": [
-        "Netflix"
-      ]
-    },
-    {
-      "standard_system": "GHG Protocol",
       "display_standard_name_zh": "GHG Protocol 企业价值链（Scope 3）核算与报告标准",
       "display_standard_name_en": "GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
       "internal_standard_id": "ghg_scope3_standard",
       "industry_section_code": "B",
       "industry_section_name_zh": "采矿业",
       "industry_section_name_en": "Mining",
-      "accepted_company_count": 5,
-      "accepted_link_count": 5,
-      "distinct_company_count": 5,
+      "accepted_company_count": 6,
+      "accepted_link_count": 6,
+      "distinct_company_count": 6,
       "company_ids": [
         "r013_shell",
         "r023_totalenergies",
         "r029_chevron",
+        "r098_eni",
         "r264_riotintogroup",
         "r268_bhpgroup"
       ],
@@ -1003,6 +956,7 @@
         "SHELL",
         "TOTALENERGIES",
         "CHEVRON",
+        "ENI",
         "RIO TINTO GROUP",
         "BHP GROUP"
       ]
@@ -1015,18 +969,20 @@
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
-      "accepted_company_count": 25,
-      "accepted_link_count": 25,
-      "distinct_company_count": 25,
+      "accepted_company_count": 28,
+      "accepted_link_count": 28,
+      "distinct_company_count": 28,
       "company_ids": [
         "r073_hyundaimotor",
         "r117_adm公司",
+        "r132_orlen",
         "r136_nissanmotor",
         "r162_kia",
         "r193_lockheedmartin",
         "r199_caterpillar",
         "r209_lg电子",
         "r230_bungeglobal",
+        "r247_repsol",
         "r248_lenovogroup",
         "r269_hp",
         "r282_volvo",
@@ -1037,6 +993,7 @@
         "r344_continental",
         "r346_dow",
         "r357_magnainternational",
+        "r358_omvgroup",
         "r376_abbottlaboratories",
         "r387_schneiderelectric",
         "r464_britishamericantobacco",
@@ -1048,12 +1005,14 @@
       "company_names": [
         "HYUNDAI MOTOR",
         "ADM",
+        "ORLEN",
         "NISSAN MOTOR",
         "KIA",
         "LOCKHEED MARTIN",
         "CATERPILLAR",
         "LG Electronics",
         "BUNGE GLOBAL",
+        "REPSOL",
         "LENOVO GROUP",
         "HP",
         "VOLVO",
@@ -1064,6 +1023,7 @@
         "CONTINENTAL",
         "DOW",
         "MAGNA INTERNATIONAL",
+        "OMV GROUP",
         "ABBOTT LABORATORIES",
         "SCHNEIDER ELECTRIC",
         "BRITISH AMERICAN TOBACCO",
@@ -1081,26 +1041,18 @@
       "industry_section_code": "D",
       "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
       "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
-      "accepted_company_count": 7,
-      "accepted_link_count": 7,
-      "distinct_company_count": 7,
+      "accepted_company_count": 3,
+      "accepted_link_count": 3,
+      "distinct_company_count": 3,
       "company_ids": [
-        "r098_eni",
         "r101_eon",
         "r130_engie集团",
-        "r132_orlen",
-        "r247_repsol",
-        "r317_tokyoelectricpower",
-        "r358_omvgroup"
+        "r317_tokyoelectricpower"
       ],
       "company_names": [
-        "ENI",
         "E.ON",
         "Engie",
-        "ORLEN",
-        "REPSOL",
-        "TOKYO ELECTRIC POWER",
-        "OMV GROUP"
+        "TOKYO ELECTRIC POWER"
       ]
     },
     {
@@ -1179,20 +1131,22 @@
       "industry_section_code": "I",
       "industry_section_name_zh": "信息传输、软件和信息技术服务业",
       "industry_section_name_en": "Information Transmission, Software and Information Technology Services",
-      "accepted_company_count": 4,
-      "accepted_link_count": 4,
-      "distinct_company_count": 4,
+      "accepted_company_count": 5,
+      "accepted_link_count": 5,
+      "distinct_company_count": 5,
       "company_ids": [
         "r017_alphabet公司",
         "r350_telefónica",
         "r445_salesforce",
-        "r450_sap公司"
+        "r450_sap公司",
+        "r468_netflix公司"
       ],
       "company_names": [
         "Alphabet",
         "TELEFÓNICA",
         "SALESFORCE",
-        "SAP"
+        "SAP",
+        "Netflix"
       ]
     },
     {
@@ -1241,24 +1195,6 @@
         "NATIONAL AUSTRALIA BANK",
         "BANK OF NEW YORK MELLON",
         "COMMONWEALTH BANK OF AUSTRALIA"
-      ]
-    },
-    {
-      "standard_system": "GHG Protocol",
-      "display_standard_name_zh": "GHG Protocol 企业价值链（Scope 3）核算与报告标准",
-      "display_standard_name_en": "GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard",
-      "internal_standard_id": "ghg_scope3_standard",
-      "industry_section_code": "R",
-      "industry_section_name_zh": "文化、体育和娱乐业",
-      "industry_section_name_en": "Culture, Sports and Entertainment",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
-      "company_ids": [
-        "r468_netflix公司"
-      ],
-      "company_names": [
-        "Netflix"
       ]
     },
     {
@@ -1338,6 +1274,24 @@
       "display_standard_name_zh": "ISO 14067",
       "display_standard_name_en": "ISO 14067",
       "internal_standard_id": "iso_14067",
+      "industry_section_code": "B",
+      "industry_section_name_zh": "采矿业",
+      "industry_section_name_en": "Mining",
+      "accepted_company_count": 1,
+      "accepted_link_count": 1,
+      "distinct_company_count": 1,
+      "company_ids": [
+        "r479_schlumberger"
+      ],
+      "company_names": [
+        "SCHLUMBERGER"
+      ]
+    },
+    {
+      "standard_system": "ISO",
+      "display_standard_name_zh": "ISO 14067",
+      "display_standard_name_en": "ISO 14067",
+      "internal_standard_id": "iso_14067",
       "industry_section_code": "C",
       "industry_section_name_zh": "制造业",
       "industry_section_name_en": "Manufacturing",
@@ -1349,24 +1303,6 @@
       ],
       "company_names": [
         "CRRC GROUP"
-      ]
-    },
-    {
-      "standard_system": "ISO",
-      "display_standard_name_zh": "ISO 14067",
-      "display_standard_name_en": "ISO 14067",
-      "internal_standard_id": "iso_14067",
-      "industry_section_code": "D",
-      "industry_section_name_zh": "电力、热力、燃气及水生产和供应业",
-      "industry_section_name_en": "Electricity, Heat, Gas and Water Production and Supply",
-      "accepted_company_count": 1,
-      "accepted_link_count": 1,
-      "distinct_company_count": 1,
-      "company_ids": [
-        "r479_schlumberger"
-      ],
-      "company_names": [
-        "SCHLUMBERGER"
       ]
     }
   ]

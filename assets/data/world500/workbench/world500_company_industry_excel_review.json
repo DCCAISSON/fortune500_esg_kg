@@ -1,0 +1,225 @@
+{
+  "schema_version": "world500-company-industry-excel-review-v1",
+  "source_workbook": "docs/500强企业行业分类核验.xlsx",
+  "source_sheet": "Sheet1",
+  "classification_standard": "GB/T 4754-2017",
+  "policy": "The revised code supplied in the workbook is applied to the current industry outputs. The workbook row, review conclusion, note, and source URLs remain attached for audit.",
+  "rows": [
+    {
+      "workbook_row": 23,
+      "world500_rank": 50,
+      "original_code": "D",
+      "revised_code": "C",
+      "review_verdict": "建议调整",
+      "note": "该企业为Marathon Petroleum，核心是炼油及成品油营销；石油炼制对应C门类中的石油、煤炭及其他燃料加工业，不属于D。",
+      "source_urls": [
+        "https://www.marathonpetroleum.com/About/",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 25,
+      "world500_rank": 61,
+      "original_code": "D",
+      "revised_code": "C",
+      "review_verdict": "建议调整",
+      "note": "瓦莱罗的核心活动是炼油、可再生燃料生产和销售；炼油属于制造业C，不属于D。",
+      "source_urls": [
+        "https://www.valero.com/valero-brand-development-guide",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 27,
+      "world500_rank": 65,
+      "original_code": "L",
+      "revised_code": "F",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "三菱商事是综合贸易与投资公司。若按其对外商品贸易这一主要经营活动，宜归F；只有在核验对象是仅承担总部管理、不直接经营的法人时，才可归L。",
+      "source_urls": [
+        "https://www.mitsubishicorp.com/",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 32,
+      "world500_rank": 90,
+      "original_code": "L",
+      "revised_code": "F",
+      "review_verdict": "建议调整",
+      "note": "Target是大型综合零售商，主营门店及线上零售，宜归F；L不适用。",
+      "source_urls": [
+        "https://corporate.target.com/about",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 35,
+      "world500_rank": 98,
+      "original_code": "D",
+      "revised_code": "B",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "埃尼为油气勘探开采、炼化、发电并存的综合能源集团，D不能代表其整体主业。按其将勘探与生产列为战略基石的口径建议B；若按特定年度炼化增加值/收入占主导，则应改C。",
+      "source_urls": [
+        "https://www.eni.com/en-IT/company/business-model.html",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 42,
+      "world500_rank": 121,
+      "original_code": "L",
+      "revised_code": "F",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "三井物产从商品销售、全球物流到投资多元经营。若按综合商社的商品销售/贸易主活动，宜归F；若该法人只承担总部或投资资产管理职能，则可归L。",
+      "source_urls": [
+        "https://www.mitsui.com/jp/en/company/outline/profile/",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 47,
+      "world500_rank": 132,
+      "original_code": "D",
+      "revised_code": "C",
+      "review_verdict": "建议调整",
+      "note": "ORLEN下游核心包括炼油和石化生产；炼油及石化制造应归C，不应归D。",
+      "source_urls": [
+        "https://www.orlen.pl/content/dam/internet/orlen/pl/en/sustainable-development/reports-and-indicators/Management%20Board%20Report%20on%20the%20Operations%20of%20the%20ORLEN%20Group.pdf",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 54,
+      "world500_rank": 169,
+      "original_code": "D",
+      "revised_code": "B",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "卢克石油是油气勘探开采、炼化和营销一体化企业，D不适用。按资源开发与油气生产主业建议B；若按核验年度炼油增加值占主导则归C。",
+      "source_urls": [
+        "https://www.lukoil.com/",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 77,
+      "world500_rank": 247,
+      "original_code": "D",
+      "revised_code": "C",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "雷普索尔同时经营上游、炼化和终端销售，D不适用。考虑其大型工业炼化体系，暂建议C；若核验年度油气开采增加值更高，则归B。",
+      "source_urls": [
+        "https://www.repsol.com/en/about-us/index.cshtml",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 107,
+      "world500_rank": 358,
+      "original_code": "D",
+      "revised_code": "C",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "OMV横跨油气、燃料和化工，D不能代表其主要经济活动。结合其燃料与化工业务，暂建议C；若按特定年度上游增加值占主导，则归B。",
+      "source_urls": [
+        "https://www.omv.com/en/welcome-to-omv",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 118,
+      "world500_rank": 401,
+      "original_code": "D",
+      "revised_code": "B",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "森科能源经营油砂开采、油气勘探生产、炼油和销售，D不适用。按油砂开采和上游主业暂建议B；若炼化增加值占主导则归C。",
+      "source_urls": [
+        "https://www.suncor.com/en-ca/who-we-are",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 119,
+      "world500_rank": 403,
+      "original_code": "F",
+      "revised_code": "I",
+      "review_verdict": "建议调整",
+      "note": "Uber是出行与配送互联网平台。GB/T 4754—2017将互联网约车服务平台列入6432互联网生活服务平台，属于I，不属于批发零售F。",
+      "source_urls": [
+        "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2025/default.aspx",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 120,
+      "world500_rank": 421,
+      "original_code": "C",
+      "revised_code": "L",
+      "review_verdict": "建议调整",
+      "note": "怡和集团母公司是多元投资/控股与组合管理平台，本身不宜归制造业C；按投资与资产管理或企业总部管理宜归L。若改为核验旗下具体经营法人，应分别按各自活动分类。",
+      "source_urls": [
+        "https://www.jardines.com/",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 122,
+      "world500_rank": 426,
+      "original_code": "C",
+      "revised_code": "I",
+      "review_verdict": "建议调整",
+      "note": "高通主要采用无晶圆厂模式开展集成电路设计。GB/T 4754—2017的6520“集成电路设计”属于I；仅其少量自有制造活动不足以支持整体归C。",
+      "source_urls": [
+        "https://www.qualcomm.com/company/corporate-responsibility/acting-responsibly/sustainable-product-design/environment/health-and-safety",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 123,
+      "world500_rank": 427,
+      "original_code": "C",
+      "revised_code": "I",
+      "review_verdict": "需复核（口径敏感）",
+      "note": "博通以半导体设计、供应及基础设施软件为主，并依赖外包制造。按集成电路设计/软件活动建议I；若数据库口径将品牌芯片产品销售主体视作制造商，则可保留C，但应统一处理所有无晶圆厂芯片公司。",
+      "source_urls": [
+        "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 6,
+      "world500_rank": 467,
+      "original_code": "D",
+      "revised_code": "C",
+      "review_verdict": "建议调整",
+      "note": "通威以高纯晶硅、太阳能电池/组件及饲料生产为核心，均属于制造活动；光伏电站运营只是产业链一环，不宜整体归入D。",
+      "source_urls": [
+        "https://www.tongwei.com/industry.html",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 135,
+      "world500_rank": 468,
+      "original_code": "R",
+      "revised_code": "I",
+      "review_verdict": "建议调整",
+      "note": "Netflix的核心是互联网流媒体订阅与内容分发。网上视频/互联网音视频平台在GB/T 4754—2017中对应互联网信息服务或互联网生活服务平台，属于I；若单独核验影视制作法人，才归R。",
+      "source_urls": [
+        "https://about.netflix.com/en",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    },
+    {
+      "workbook_row": 7,
+      "world500_rank": 479,
+      "original_code": "D",
+      "revised_code": "B",
+      "review_verdict": "建议调整",
+      "note": "斯伦贝谢（SLB）主营油田技术与油气开采专业服务，对应GB/T 4754—2017中B门类的石油和天然气开采专业及辅助性活动，不属于公用事业D。",
+      "source_urls": [
+        "https://investorcenter.slb.com/static-files/5ff454bd-8733-4d74-8631-331784e9c197",
+        "https://www.stats.gov.cn/xxgk/tjbz/gjtjbz/201710/t20171017_1758922.html"
+      ]
+    }
+  ]
+}

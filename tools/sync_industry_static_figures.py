@@ -98,10 +98,10 @@ def render_sankey(lang: str) -> Path:
     draw = ImageDraw.Draw(image)
     rounded(draw, (34, 34, 2566, 1646), PALETTE["paper"])
     title = "\u4e09\u5957\u6807\u51c6\u4f53\u7cfb\u4e0e\u56fd\u6c11\u7ecf\u6d4e\u884c\u4e1a\u95e8\u7c7b\u5206\u680f\u5173\u8054\u56fe" if lang == "zh" else "GHGP, ISO, and GB/T Standards by Split Industry Sections"
-    note = "\u5de6\u53f3\u4e24\u4fa7\u5171\u540c\u8986\u76d6 GB/T 4754-2017 \u7684 20 \u4e2a\u884c\u4e1a\u95e8\u7c7b\uff08\u5de6 A-J\uff0c\u53f3 K-T\uff09\uff0c\u4e2d\u95f4\u4e3a 12 \u4e2a\u5177\u4f53\u6807\u51c6\u8282\u70b9\uff1b\u6d41\u91cf\u4e3a accepted \u4f01\u4e1a-\u6807\u51c6\u5173\u8054\u6570\uff0c\u4e0d\u662f\u4f01\u4e1a\u53bb\u91cd\u6570\uff0c\u4e5f\u4e0d\u8868\u793a\u884c\u4e1a\u95f4\u6d41\u52a8\u6216\u56e0\u679c\u5173\u7cfb\u3002" if lang == "zh" else "The two sides jointly cover 20 GB/T 4754-2017 industry sections (left A-J, right K-T). The middle column contains 12 concrete standards. Flow means accepted company-standard association count, not distinct company count or industry-to-industry movement."
+    note = "GB/T 4754-2017 \u7684 20 \u4e2a\u884c\u4e1a\u95e8\u7c7b\u6309 A/B\u3001C/D \u81f3 S/T \u6210\u5bf9\u5206\u5e03\u4e8e\u4e24\u4fa7\uff0c\u4e2d\u95f4\u4e3a 12 \u4e2a\u5177\u4f53\u6807\u51c6\u8282\u70b9\u3002\u7ebf\u5bbd\u6309\u5df2\u91c7\u4fe1\u7684\u4f01\u4e1a-\u6807\u51c6\u5173\u7cfb\u6570\u8ba1\u7b97\uff0c\u4e0d\u8868\u793a\u884c\u4e1a\u95f4\u6d41\u52a8\u6216\u56e0\u679c\u5173\u7cfb\u3002" if lang == "zh" else "The 20 GB/T 4754-2017 industry sections are paired A/B, C/D through S/T across both sides of 12 concrete standards. Line width represents accepted company-standard relationships, not industry-to-industry movement or causality."
     draw.text((82, 72), title, font=font(44, True), fill=PALETTE["ink"])
     text(draw, (84, 135), note, 24, PALETTE["muted"], 2220)
-    column_labels = ("\u884c\u4e1a\u95e8\u7c7b A-J\uff08accepted \u5173\u8054\u6570\uff09", "\u5177\u4f53\u6807\u51c6", "\u884c\u4e1a\u95e8\u7c7b K-T\uff08accepted \u5173\u8054\u6570\uff09") if lang == "zh" else ("Industry sections A-J (accepted links)", "Specific standard", "Industry sections K-T (accepted links)")
+    column_labels = ("\u884c\u4e1a\u95e8\u7c7b\uff08\u5de6\uff09", "\u5177\u4f53\u6807\u51c6", "\u884c\u4e1a\u95e8\u7c7b\uff08\u53f3\uff09") if lang == "zh" else ("Industry sections (left)", "Specific standard", "Industry sections (right)")
     for x, label in zip((110, 960, 1970), column_labels, strict=True):
         draw.text((x, 218), label, font=font(26, True), fill=PALETTE["ink"])
     system_colors = {"GHG Protocol": PALETTE["ghg"], "ISO": PALETTE["iso"], "GB/T": PALETTE["gb"]}
@@ -112,8 +112,8 @@ def render_sankey(lang: str) -> Path:
     section_h, standard_h = 46, 64
     standard_top = 304
     standard_step = 96
-    left_sections = sections[:10]
-    right_sections = sections[10:]
+    left_sections = sections[::2]
+    right_sections = sections[1::2]
     standard_span = max(standard_h, (len(registry) - 1) * standard_step + standard_h)
     side_count = max(len(left_sections), len(right_sections), 1)
     section_step = 0 if side_count == 1 else round((standard_span - section_h) / (side_count - 1))
@@ -161,7 +161,7 @@ def render_sankey(lang: str) -> Path:
             fill = PALETTE["bg"] if section_total[code] else "#fbf7ef"
             rounded(draw, (x1, y, x2, y + section_h), fill)
             text(draw, (x1 + 18, y + 7), f"{code} {name}", 14, PALETTE["ink"], x2 - x1 - 112, True)
-            count_label = f"{section_total[code]} \u5173\u8054" if lang == "zh" else f"{section_total[code]} links"
+            count_label = f"{section_total[code]} \u6761" if lang == "zh" else str(section_total[code])
             draw.text((x2 - 104, y + 13), count_label, font=font(15, True), fill=PALETTE["muted"])
     for row in registry:
         sid = str(row["internal_standard_id"])
@@ -181,7 +181,7 @@ def render_sankey(lang: str) -> Path:
         x = 92 + index * 170
         draw.rounded_rectangle((x, 1564, x + 32, 1596), radius=9, fill=color)
         draw.text((x + 44, 1567), label, font=font(19, True), fill=PALETTE["ink"])
-    footer = f"accepted association links: {sum(standard_total.values())} | standards: 12 | GB/T 4754-2017 sections: 20 (left 10 / right 10)"
+    footer = f"\u5df2\u91c7\u4fe1\u5173\u7cfb {sum(standard_total.values())} \u6761 | \u5177\u4f53\u6807\u51c6 12 \u4e2a | \u884c\u4e1a\u95e8\u7c7b 20 \u4e2a\uff08\u5de6\u53f3\u5404 10 \u4e2a\uff09" if lang == "zh" else f"Accepted relationships: {sum(standard_total.values())} | standards: 12 | industry sections: 20 (10 per side)"
     draw.text((690, 1567), footer, font=font(19, True), fill=PALETTE["muted"])
     out = FIGURES / lang / "world500_standard_industry_section_sankey.png"
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -237,6 +237,9 @@ def render_emissions(lang: str) -> Path:
 
 def update_manifest(outputs: list[Path]) -> None:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    source_path = ROOT / str(manifest.get("source", ""))
+    if source_path.exists():
+        manifest["source_sha256"] = sha256(source_path)
     names = {output.name for output in outputs}
     manifest["figures"] = [item for item in manifest.get("figures", []) if Path(item["file"]).name not in names]
     metadata = {

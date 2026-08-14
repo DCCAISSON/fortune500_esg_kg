@@ -1,6 +1,6 @@
 {
   "schema_version": "world500-snapshot-manifest-v1",
-  "generated_at": "2026-06-26T04:42:34+00:00",
+  "generated_at": "2026-08-14T09:43:57+00:00",
   "policy": {
     "canonical_public_graph_layer": "published_graph",
     "canonical_traceability_layer": "strict_traceable_graph",
@@ -68,26 +68,26 @@
       "data_file": {
         "path": "assets/data/world500/workbench/reporting_views.json",
         "exists": true,
-        "bytes": 10466800,
-        "sha256": "6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128"
+        "bytes": 10585951,
+        "sha256": "236a650945a515a59f9608082b746dc964e60e6f27b5d79abcb5cdf8dee745e7"
       },
-      "generated_at": "2026-06-26T00:34:40.664Z",
+      "generated_at": "2026-06-27T08:09:13.739Z",
       "company_count": 500,
       "ghg_protocol_company_count": 229,
       "ghg_pcaf_core_whitelist_standard_count": 12,
       "ghg_accepted_series_company_count": 137,
-      "accepted_standard_count": 25,
+      "accepted_standard_count": 26,
       "accepted_standard_company_count": 209,
-      "accepted_standard_link_count": 456,
+      "accepted_standard_link_count": 457,
       "standard_review_edges_excluded_from_drawn_graph": 1452,
-      "complete_emissions_ranking_company_count": 19,
+      "complete_emissions_ranking_company_count": 27,
       "technology_project_evidence_count": 77,
-      "technology_project_cost_evidence_count": 9,
+      "technology_project_cost_evidence_count": 11,
       "source_mix_explicit_reported_primary_ratio_company_count": 13,
       "accepted_standard_role_graph_counts": {
-        "standards": 25,
+        "standards": 26,
         "companies": 209,
-        "links": 456
+        "links": 457
       }
     },
     {
@@ -97,53 +97,53 @@
       "manifest_file": {
         "path": "assets/figures/reporting_static_figures_manifest.json",
         "exists": true,
-        "bytes": 13012,
-        "sha256": "473bfe5fc8ed22c99187c7f36b89af7cf35a86e13fd2428eec8998a3e27d43cc"
+        "bytes": 18402,
+        "sha256": "44417314033e7b5bb5d0aa0edd9db68eec0f4d657a3215a223a52653d307f738"
       },
-      "generated_at": "2026-06-21T13:11:16+00:00",
+      "generated_at": "2026-08-14T09:42:35+00:00",
       "source": "assets/data/world500/workbench/reporting_views.json",
-      "source_sha256": "6608e9e422875d21b65468f9e426b657d61783fa1a8413e4150a4d1b0d5a9128",
+      "source_sha256": "236a650945a515a59f9608082b746dc964e60e6f27b5d79abcb5cdf8dee745e7",
       "source_hash_matches": true,
-      "figure_count": 10,
+      "figure_count": 14,
       "figure_files": [
         {
           "path": "assets/figures/zh/world500_emissions_ranking_graph.png",
           "exists": true,
-          "bytes": 250959,
-          "sha256": "8718ccafe0ea00060b80d78764e0a2f45f5336cf403145043853b022470e6ad6",
+          "bytes": 257216,
+          "sha256": "4bb84212accf02cdf14570f1bf6abc479fe7e3faf81e48fe027ed056f0f693aa",
           "lang": "zh",
           "figure_no": "emissions_ranking",
-          "manifest_sha256": "8718ccafe0ea00060b80d78764e0a2f45f5336cf403145043853b022470e6ad6",
+          "manifest_sha256": "4bb84212accf02cdf14570f1bf6abc479fe7e3faf81e48fe027ed056f0f693aa",
           "hash_matches": true
         },
         {
           "path": "assets/figures/zh/world500_standard_chain_overview.png",
           "exists": true,
-          "bytes": 248739,
-          "sha256": "729c56911089ac9a9d8c7b5e54b861d11476c0d980e14ebccf192c0d931ef8a9",
+          "bytes": 248977,
+          "sha256": "d3bd3dcfce6092fa9bf9826a0157ec6f46294d4e66b5473359fdbd4483a0a41f",
           "lang": "zh",
           "figure_no": "figure_2",
-          "manifest_sha256": "729c56911089ac9a9d8c7b5e54b861d11476c0d980e14ebccf192c0d931ef8a9",
+          "manifest_sha256": "d3bd3dcfce6092fa9bf9826a0157ec6f46294d4e66b5473359fdbd4483a0a41f",
           "hash_matches": true
         },
         {
           "path": "assets/figures/zh/world500_standard_role_entity_graph.png",
           "exists": true,
-          "bytes": 452474,
-          "sha256": "0048d3c41ab2c5b0496e70fa8ce30e4d6d403c67b2946eaf3d06847386134f25",
+          "bytes": 446587,
+          "sha256": "66dea4aed4a7e02339b39746993b2a6a19d64f2fe25970c560ecf47b26e7b262",
           "lang": "zh",
           "figure_no": "figure_2_entity_graph",
-          "manifest_sha256": "0048d3c41ab2c5b0496e70fa8ce30e4d6d403c67b2946eaf3d06847386134f25",
+          "manifest_sha256": "66dea4aed4a7e02339b39746993b2a6a19d64f2fe25970c560ecf47b26e7b262",
           "hash_matches": true
         },
         {
           "path": "assets/figures/zh/world500_technology_cluster_overview.png",
           "exists": true,
-          "bytes": 338653,
-          "sha256": "194d3ef24174720363dfedd37bf5a24cbc7e839356b3f239c61763150736052e",
+          "bytes": 337757,
+          "sha256": "6ef5dae147b2fe115711fd7a5cd497d0a1123c202c15a0496a7c8ecfe74b0fc6",
           "lang": "zh",
           "figure_no": "figure_6",
-          "manifest_sha256": "194d3ef24174720363dfedd37bf5a24cbc7e839356b3f239c61763150736052e",
+          "manifest_sha256": "6ef5dae147b2fe115711fd7a5cd497d0a1123c202c15a0496a7c8ecfe74b0fc6",
           "hash_matches": true
         },
         {
@@ -159,41 +159,41 @@
         {
           "path": "assets/figures/en/world500_emissions_ranking_graph.png",
           "exists": true,
-          "bytes": 215783,
-          "sha256": "bbd4e6caa03c965abc6432c4607f21c81d42fd2921078417fe69b83401d76dbd",
+          "bytes": 221220,
+          "sha256": "6e8f022ee9c56a8111e1c517f1de6b191b00b8721d40739c6c1d8e8ff7afc7b6",
           "lang": "en",
           "figure_no": "emissions_ranking",
-          "manifest_sha256": "bbd4e6caa03c965abc6432c4607f21c81d42fd2921078417fe69b83401d76dbd",
+          "manifest_sha256": "6e8f022ee9c56a8111e1c517f1de6b191b00b8721d40739c6c1d8e8ff7afc7b6",
           "hash_matches": true
         },
         {
           "path": "assets/figures/en/world500_standard_chain_overview.png",
           "exists": true,
-          "bytes": 196683,
-          "sha256": "5788ac5881a8e485d1c84289253c8345be0cebf7b15e1e315fac1065113fdcb1",
+          "bytes": 198671,
+          "sha256": "6bb18ce76cd1dcf428b238f64771f26e8edaa231668ad2343d749058226ab46b",
           "lang": "en",
           "figure_no": "figure_2",
-          "manifest_sha256": "5788ac5881a8e485d1c84289253c8345be0cebf7b15e1e315fac1065113fdcb1",
+          "manifest_sha256": "6bb18ce76cd1dcf428b238f64771f26e8edaa231668ad2343d749058226ab46b",
           "hash_matches": true
         },
         {
           "path": "assets/figures/en/world500_standard_role_entity_graph.png",
           "exists": true,
-          "bytes": 387421,
-          "sha256": "acd71e9da1400ad8ca5406859d4d3b37b80cbacf517418635e2cd454fdcb5823",
+          "bytes": 381477,
+          "sha256": "94a7bd0013c9e04ab0991ff5e444b5c0155c65a2a9e2d23562daa6dbea86ba6b",
           "lang": "en",
           "figure_no": "figure_2_entity_graph",
-          "manifest_sha256": "acd71e9da1400ad8ca5406859d4d3b37b80cbacf517418635e2cd454fdcb5823",
+          "manifest_sha256": "94a7bd0013c9e04ab0991ff5e444b5c0155c65a2a9e2d23562daa6dbea86ba6b",
           "hash_matches": true
         },
         {
           "path": "assets/figures/en/world500_technology_cluster_overview.png",
           "exists": true,
-          "bytes": 264994,
-          "sha256": "19dc38c931dde07a9bcf1ce39f59499163bc9c50808cd892c99ff23ae11a6b21",
+          "bytes": 263885,
+          "sha256": "97a7245ee7be29be282c86ed36af26e448e93f3de3b4b660060f20f04d41cd3a",
           "lang": "en",
           "figure_no": "figure_6",
-          "manifest_sha256": "19dc38c931dde07a9bcf1ce39f59499163bc9c50808cd892c99ff23ae11a6b21",
+          "manifest_sha256": "97a7245ee7be29be282c86ed36af26e448e93f3de3b4b660060f20f04d41cd3a",
           "hash_matches": true
         },
         {
@@ -204,6 +204,46 @@
           "lang": "en",
           "figure_no": "primary_secondary_bubble",
           "manifest_sha256": "577414409293cd1d50e7f8a32640778b33b9a6fa6db763c1c3077ad1c5fb5802",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/zh/world500_standard_industry_section_sankey.png",
+          "exists": true,
+          "bytes": 271525,
+          "sha256": "e410fb3f155434d0190bbaaabb7efacc7b0f2c5e3751b3ecc9db9a6e4a2d237f",
+          "lang": "zh",
+          "figure_no": "standard_industry_sankey",
+          "manifest_sha256": "e410fb3f155434d0190bbaaabb7efacc7b0f2c5e3751b3ecc9db9a6e4a2d237f",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/en/world500_standard_industry_section_sankey.png",
+          "exists": true,
+          "bytes": 222979,
+          "sha256": "e9919e325f7ab4cd7bb9cd814d75af9e853bfabfe6d1de3e85893a8196ee35d7",
+          "lang": "en",
+          "figure_no": "standard_industry_sankey",
+          "manifest_sha256": "e9919e325f7ab4cd7bb9cd814d75af9e853bfabfe6d1de3e85893a8196ee35d7",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/zh/world500_emissions_industry_section_ranking.png",
+          "exists": true,
+          "bytes": 163878,
+          "sha256": "221364dceb4290d62001744f85e14d30d0a55e6e42555495c51c5a1fa024ae36",
+          "lang": "zh",
+          "figure_no": "emissions_industry_ranking",
+          "manifest_sha256": "221364dceb4290d62001744f85e14d30d0a55e6e42555495c51c5a1fa024ae36",
+          "hash_matches": true
+        },
+        {
+          "path": "assets/figures/en/world500_emissions_industry_section_ranking.png",
+          "exists": true,
+          "bytes": 134986,
+          "sha256": "c5fa2cc72f9dc635354b1d758b6df4b8ae240379a4309032dbdf3bae19472bb0",
+          "lang": "en",
+          "figure_no": "emissions_industry_ranking",
+          "manifest_sha256": "c5fa2cc72f9dc635354b1d758b6df4b8ae240379a4309032dbdf3bae19472bb0",
           "hash_matches": true
         }
       ]

@@ -147,6 +147,7 @@ const oilGasIndustryReviewIds = new Set([
   "r099_petrobras",
   "r247_repsol",
 ]);
+let excelIndustryReviewByRank = new Map();
 
 function readJson(name) {
   return JSON.parse(fs.readFileSync(path.join(wb, name), "utf8"));
@@ -222,9 +223,12 @@ function sectionName(code, lang) {
 
 function companyIndustry(company, rowCode = "") {
   const companyId = company.company_id || "";
+  const excelReview = excelIndustryReviewByRank.get(Number(company.world500_rank));
   const overrideCode = industryOutputOverrides.get(companyId) || "";
-  const code = overrideCode || rowCode || company.industry_section_code || "";
-  const status = overrideCode
+  const code = excelReview?.revised_code || overrideCode || rowCode || company.industry_section_code || "";
+  const status = excelReview
+    ? "corrected_by_excel_industry_review"
+    : overrideCode
     ? (utilityIndustryOverrides.has(companyId) ? "corrected_by_gbt4754_code_name_rule" : "corrected_by_gbt4754_business_activity_rule")
     : "consistent_with_company_workbench";
   return {
@@ -235,6 +239,7 @@ function companyIndustry(company, rowCode = "") {
     currentNameZh: company.industry_section_zh || "",
     currentNameEn: company.industry_section_en || "",
     status,
+    excelReview: excelReview || null,
   };
 }
 
@@ -274,6 +279,9 @@ function build() {
   const views = readJson("reporting_views.json");
   const companyMap = new Map(companies.map((item) => [item.company_id, item]));
   const companyDetails = loadCompanyDetails();
+  const excelIndustryReviewPayload = readJson("world500_company_industry_excel_review.json");
+  const excelIndustryReviewRows = excelIndustryReviewPayload.rows || [];
+  excelIndustryReviewByRank = new Map(excelIndustryReviewRows.map((row) => [Number(row.world500_rank), row]));
   const published = companies.filter((item) => item.is_published_company);
   const complete = readJson("world500_emissions_complete_comparable_ranking.json").rows;
   const completeIds = new Set(complete.map((item) => item.company_id));
@@ -445,12 +453,14 @@ function build() {
     companyAcceptedCounts.set(row.company_id, (companyAcceptedCounts.get(row.company_id) || 0) + 1);
   }
   const companyReviewRows = [];
+  const addedCompanyReviewIds = new Set();
   function addCompanyReview(companyId, suggestedCode, riskLevel, reason, appliedToOutputs) {
     const company = companyMap.get(companyId);
-    if (!company) return;
+    if (!company || addedCompanyReviewIds.has(companyId)) return;
     const detail = companyDetails.get(companyId) || {};
     const suggested = sectionByCode.get(suggestedCode) || ["", "", ""];
     const outputIndustry = companyIndustry(company);
+    const excelReview = outputIndustry.excelReview;
     const rawIndustryZh = detail.industry_label_zh || company.industry_label_zh || company.fortune_industry_label_zh || "";
     const rawIndustryEn = detail.industry_label_en || company.industry_label_en || company.fortune_industry_label_en || company.industry_label || "";
     companyReviewRows.push({
@@ -477,10 +487,23 @@ function build() {
       suggested_name_en: suggested[2],
       risk_level: riskLevel,
       reason,
+      industry_review_source_workbook: excelReview ? excelIndustryReviewPayload.source_workbook || "" : "",
+      industry_review_source_sheet: excelReview ? excelIndustryReviewPayload.source_sheet || "" : "",
+      industry_review_source_row: excelReview?.workbook_row || "",
+      industry_review_verdict: excelReview?.review_verdict || "",
+      industry_review_note: excelReview?.note || "",
+      industry_review_source_urls: excelReview?.source_urls || [],
       affects_sankey: companyAcceptedCounts.get(companyId) ? "true" : "false",
       accepted_standard_count: companyAcceptedCounts.get(companyId) || 0,
       applied_to_current_industry_outputs: appliedToOutputs ? "true" : "false",
     });
+    addedCompanyReviewIds.add(companyId);
+  }
+  for (const row of excelIndustryReviewRows) {
+    const company = published.find((item) => Number(item.world500_rank) === Number(row.world500_rank));
+    if (!company) continue;
+    const riskLevel = String(row.review_verdict || "").includes("需复核") ? "medium" : "high";
+    addCompanyReview(company.company_id, row.revised_code, riskLevel, row.note, true);
   }
   for (const [companyId, suggestedCode] of utilityIndustryOverrides) {
     addCompanyReview(companyId, suggestedCode, "high", "company_workbench code is I but Chinese industry name is the GB/T 4754 utility section; output corrected to D for current Sankey.", true);
@@ -717,7 +740,8 @@ function build() {
   });
   writeRows("world500_standard_evidence_boundary_summary", boundaryRows);
   writeRows("world500_company_industry_review_pack", companyReviewRows, {
-    policy: "Current industry outputs use strict GB/T 4754 sections: utility code/name mismatches and software/cloud enterprises are corrected in the output layer; oil/gas companies retain their existing strict GB/T section instead of a macro energy-sector override.",
+    policy: "Current industry outputs use strict GB/T 4754 sections. The revised codes in docs/500强企业行业分类核验.xlsx are applied first; legacy utility/software corrections and oil/gas review rows are retained only where the workbook does not provide a revised code.",
+    excel_review_row_count: excelIndustryReviewRows.length,
   });
   writeRows("world500_primary_secondary_evidence_chain_export", evidenceRows);
   writeRows("world500_primary_secondary_bubble_company_summary", summaryRows);
