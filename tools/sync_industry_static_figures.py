@@ -94,11 +94,20 @@ def render_sankey(lang: str) -> Path:
     links = read_rows("world500_standard_industry_section_sankey_links")
     registry = read_rows("standard_industry_sankey_registry")
     sections = read_rows("national_industry_section_registry")
+    section_total = {str(row["industry_section_code"]): 0 for row in sections}
+    standard_total = {str(row["internal_standard_id"]): 0 for row in registry}
+    for row in links:
+        count = int(row["accepted_link_count"])
+        section_total[str(row["industry_section_code"])] += count
+        standard_total[str(row["internal_standard_id"])] += count
+    left_sections = [row for row in sections[::2] if section_total[str(row["industry_section_code"])] > 0]
+    right_sections = [row for row in sections[1::2] if section_total[str(row["industry_section_code"])] > 0]
+    visible_section_count = len(left_sections) + len(right_sections)
     image = Image.new("RGB", (2600, 1680), PALETTE["bg"])
     draw = ImageDraw.Draw(image)
     rounded(draw, (34, 34, 2566, 1646), PALETTE["paper"])
     title = "\u4e09\u5957\u6807\u51c6\u4f53\u7cfb\u4e0e\u56fd\u6c11\u7ecf\u6d4e\u884c\u4e1a\u95e8\u7c7b\u5206\u680f\u5173\u8054\u56fe" if lang == "zh" else "GHGP, ISO, and GB/T Standards by Split Industry Sections"
-    note = "GB/T 4754-2017 \u7684 20 \u4e2a\u884c\u4e1a\u95e8\u7c7b\u6309 A/B\u3001C/D \u81f3 S/T \u6210\u5bf9\u5206\u5e03\u4e8e\u4e24\u4fa7\uff0c\u4e2d\u95f4\u4e3a 12 \u4e2a\u5177\u4f53\u6807\u51c6\u8282\u70b9\u3002\u7ebf\u5bbd\u6309\u5df2\u91c7\u4fe1\u7684\u4f01\u4e1a-\u6807\u51c6\u5173\u7cfb\u6570\u8ba1\u7b97\uff0c\u4e0d\u8868\u793a\u884c\u4e1a\u95f4\u6d41\u52a8\u6216\u56e0\u679c\u5173\u7cfb\u3002" if lang == "zh" else "The 20 GB/T 4754-2017 industry sections are paired A/B, C/D through S/T across both sides of 12 concrete standards. Line width represents accepted company-standard relationships, not industry-to-industry movement or causality."
+    note = f"\u4ec5\u5c55\u793a\u5b58\u5728\u5df2\u91c7\u4fe1\u4f01\u4e1a-\u6807\u51c6\u5173\u7cfb\u7684 {visible_section_count} \u4e2a GB/T 4754-2017 \u884c\u4e1a\u95e8\u7c7b\uff0c0 \u503c\u95e8\u7c7b\u5df2\u7701\u7565\uff1b\u4e2d\u95f4\u4fdd\u7559\u9700\u6c42\u65b9\u6307\u5b9a\u7684 {len(registry)} \u4e2a\u5177\u4f53\u6807\u51c6\u8282\u70b9\u3002\u7ebf\u5bbd\u6309\u5df2\u91c7\u4fe1\u5173\u7cfb\u6570\u8ba1\u7b97\u3002" if lang == "zh" else f"Only the {visible_section_count} GB/T 4754-2017 industry sections with accepted company-standard relationships are shown; zero-value sections are omitted. The {len(registry)} requested standard nodes remain in the middle. Line width represents accepted relationship count."
     draw.text((82, 72), title, font=font(44, True), fill=PALETTE["ink"])
     text(draw, (84, 135), note, 24, PALETTE["muted"], 2220)
     column_labels = ("\u884c\u4e1a\u95e8\u7c7b\uff08\u5de6\uff09", "\u5177\u4f53\u6807\u51c6", "\u884c\u4e1a\u95e8\u7c7b\uff08\u53f3\uff09") if lang == "zh" else ("Industry sections (left)", "Specific standard", "Industry sections (right)")
@@ -112,23 +121,15 @@ def render_sankey(lang: str) -> Path:
     section_h, standard_h = 46, 64
     standard_top = 304
     standard_step = 96
-    left_sections = sections[::2]
-    right_sections = sections[1::2]
     standard_span = max(standard_h, (len(registry) - 1) * standard_step + standard_h)
-    side_count = max(len(left_sections), len(right_sections), 1)
-    section_step = 0 if side_count == 1 else round((standard_span - section_h) / (side_count - 1))
-    section_span = (side_count - 1) * section_step + section_h
-    section_top = standard_top + (standard_span - section_span) // 2
     left_codes = {str(row["industry_section_code"]) for row in left_sections}
-    section_y = {str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(left_sections)}
-    section_y.update({str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(right_sections)})
+    section_y = {}
+    for side_sections in (left_sections, right_sections):
+        section_step = 0 if len(side_sections) == 1 else round((standard_span - section_h) / (len(side_sections) - 1))
+        section_span = (len(side_sections) - 1) * section_step + section_h
+        section_top = standard_top + (standard_span - section_span) // 2
+        section_y.update({str(row["industry_section_code"]): section_top + index * section_step for index, row in enumerate(side_sections)})
     standard_y = {str(row["internal_standard_id"]): standard_top + index * standard_step for index, row in enumerate(registry)}
-    section_total = {str(row["industry_section_code"]): 0 for row in sections}
-    standard_total = {str(row["internal_standard_id"]): 0 for row in registry}
-    for row in links:
-        count = int(row["accepted_link_count"])
-        section_total[str(row["industry_section_code"])] += count
-        standard_total[str(row["internal_standard_id"])] += count
     max_count = max((int(row["accepted_link_count"]) for row in links), default=1)
     overlay = Image.new("RGBA", image.size, (0, 0, 0, 0))
     flow_draw = ImageDraw.Draw(overlay)
@@ -158,8 +159,7 @@ def render_sankey(lang: str) -> Path:
             code = str(row["industry_section_code"])
             name = str(row["industry_section_name_zh" if lang == "zh" else "industry_section_name_en"])
             y = section_y[code]
-            fill = PALETTE["bg"] if section_total[code] else "#fbf7ef"
-            rounded(draw, (x1, y, x2, y + section_h), fill)
+            rounded(draw, (x1, y, x2, y + section_h), PALETTE["bg"])
             text(draw, (x1 + 18, y + 7), f"{code} {name}", 14, PALETTE["ink"], x2 - x1 - 112, True)
             count_label = f"{section_total[code]} \u6761" if lang == "zh" else str(section_total[code])
             draw.text((x2 - 104, y + 13), count_label, font=font(15, True), fill=PALETTE["muted"])
@@ -181,7 +181,7 @@ def render_sankey(lang: str) -> Path:
         x = 92 + index * 170
         draw.rounded_rectangle((x, 1564, x + 32, 1596), radius=9, fill=color)
         draw.text((x + 44, 1567), label, font=font(19, True), fill=PALETTE["ink"])
-    footer = f"\u5df2\u91c7\u4fe1\u5173\u7cfb {sum(standard_total.values())} \u6761 | \u5177\u4f53\u6807\u51c6 12 \u4e2a | \u884c\u4e1a\u95e8\u7c7b 20 \u4e2a\uff08\u5de6\u53f3\u5404 10 \u4e2a\uff09" if lang == "zh" else f"Accepted relationships: {sum(standard_total.values())} | standards: 12 | industry sections: 20 (10 per side)"
+    footer = f"\u5df2\u91c7\u4fe1\u5173\u7cfb {sum(standard_total.values())} \u6761 | \u5177\u4f53\u6807\u51c6 {len(registry)} \u4e2a | \u5c55\u793a\u884c\u4e1a\u95e8\u7c7b {visible_section_count} \u4e2a\uff08\u5de6 {len(left_sections)} / \u53f3 {len(right_sections)}\uff09" if lang == "zh" else f"Accepted relationships: {sum(standard_total.values())} | standards: {len(registry)} | visible industry sections: {visible_section_count} (left {len(left_sections)} / right {len(right_sections)})"
     draw.text((690, 1567), footer, font=font(19, True), fill=PALETTE["muted"])
     out = FIGURES / lang / "world500_standard_industry_section_sankey.png"
     out.parent.mkdir(parents=True, exist_ok=True)
